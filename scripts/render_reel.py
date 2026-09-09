@@ -29,6 +29,11 @@ def make_poster(data):
     if not TEMPLATE.exists():
         raise FileNotFoundError(f"Fixed template missing: {TEMPLATE}")
 
+    # The output folder is created here because a fresh GitHub Actions checkout
+    # does not contain generated-output directories.
+    output_dir = ROOT / "output"
+    output_dir.mkdir(parents=True, exist_ok=True)
+
     # Fixed master scene: the photo, branding, notebook, watermark and props never change.
     # Only the diary writing is replaced on each run.
     template = Image.open(TEMPLATE).convert("RGBA").resize((W, H), Image.Resampling.LANCZOS)
@@ -49,8 +54,8 @@ def make_poster(data):
 {''.join(svg_lines)}
 </svg>'''
 
-    svg_path = ROOT / "output" / "poster_overlay.svg"
-    overlay_path = ROOT / "output" / "poster_overlay.png"
+    svg_path = output_dir / "poster_overlay.svg"
+    overlay_path = output_dir / "poster_overlay.png"
     svg_path.write_text(svg, encoding="utf-8")
     subprocess.run(
         ["rsvg-convert", "-o", str(overlay_path), str(svg_path)],
@@ -61,7 +66,7 @@ def make_poster(data):
 
     overlay = Image.open(overlay_path).convert("RGBA")
     poster = Image.alpha_composite(template, overlay).convert("RGB")
-    poster_path = ROOT / "output" / "latest_poster.jpg"
+    poster_path = output_dir / "latest_poster.jpg"
     poster.save(poster_path, quality=95, optimize=True, progressive=True)
 
     print(f"Poster: {poster_path}")
@@ -100,6 +105,8 @@ def make_music_video(poster_path, out_path):
 
 
 def render(data, out_path):
+    # Ensure both the poster and final video destinations exist.
+    out_path.parent.mkdir(parents=True, exist_ok=True)
     poster_path = make_poster(data)
     make_music_video(poster_path, out_path)
     for p in [ROOT / "output" / "poster_overlay.svg", ROOT / "output" / "poster_overlay.png"]:
