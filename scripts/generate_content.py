@@ -7,12 +7,22 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG = json.loads((ROOT / "config.json").read_text(encoding="utf-8"))
 HISTORY_PATH = ROOT / "data" / "content_history.json"
+STRATEGY_PATH = ROOT / "data" / "strategy.json"
 
 
 def load_history():
     if not HISTORY_PATH.exists():
         return []
     return json.loads(HISTORY_PATH.read_text(encoding="utf-8")).get("items", [])
+
+
+def load_strategy():
+    if not STRATEGY_PATH.exists():
+        return {}
+    try:
+        return json.loads(STRATEGY_PATH.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
 
 
 def save_history(items):
@@ -50,12 +60,19 @@ def generate():
         raise RuntimeError("GEMINI_API_KEY secret is missing")
 
     history = load_history()
+    strategy = load_strategy()
     recent = [x.get("hook", "") for x in history[-30:]]
-    topic = CONFIG["topics"][len(history) % len(CONFIG["topics"])]
+    next_video = strategy.get("next_video", {})
+    topic = next_video.get("topic") or CONFIG["topics"][len(history) % len(CONFIG["topics"])]
+    strategy_context = json.dumps(next_video, ensure_ascii=False) if next_video else "No AI strategy is available yet; choose a fresh controlled baseline."
 
     prompt = f"""
 Write ONE completely original Hindi emotional micro-story for Dil Ki Diary.
 Topic: {topic}
+
+AI GROWTH STRATEGY — USE THIS AS THE DECISION INPUT:
+{strategy_context}
+The strategy is a recommendation, not permission to copy wording. Preserve originality while following its topic, emotion, hook direction and experiment when appropriate.
 
 CONTENT STYLE:
 Use short, instantly relatable emotional-reel storytelling: everyday digital-life details, silent heartbreak, missing someone, one-sided effort, changed relationships, late-night overthinking, and quiet self-respect. Use fresh wording only; never copy or closely paraphrase existing viral content.
@@ -139,6 +156,7 @@ Return ONLY valid JSON:
         raise RuntimeError(f"All configured Gemini models failed. Last error: {last_error}")
 
     data["topic"] = topic
+    data["strategy_used"] = next_video
     data["model_used"] = used_model
     data["hook"] = str(data.get("hook", "")).strip()
     data["lines"] = [str(x).strip() for x in data.get("lines", [])][:7]
