@@ -1,7 +1,8 @@
 import json
 import os
+import urllib.error
+import urllib.request
 from pathlib import Path
-from google import genai
 
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG = json.loads((ROOT / "config.json").read_text(encoding="utf-8"))
@@ -16,7 +17,48 @@ def load_history():
 
 def save_history(items):
     HISTORY_PATH.parent.mkdir(parents=True, exist_ok=True)
-    HISTORY_PATH.write_text(json.dumps({"items": items[-100:]}, ensure_ascii=False, indent=2), encoding="utf-8")
+    HISTORY_PATH.write_text(
+        json.dumps({"items": items[-100:]}, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+
+
+def call_gemini_rest(api_key, model, prompt):
+    """Call Gemini directly over REST so the SDK cannot trigger AFC cancellation."""
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
+    body = {
+        "contents": [{"role": "user", "parts": [{"text": prompt}]}],
+        "generationConfig": {
+            "responseMimeType": "application/json",
+            "temperature": 0.9,
+            "maxOutputTokens": 512,
+        },
+    }
+    request = urllib.request.Request(
+        url,
+        data=json.dumps(body, ensure_ascii=False).encode("utf-8"),
+        headers={
+            "x-goog-api-key": api_key,
+            "Content-Type": "application/json",
+        },
+        method="POST",
+    )
+
+    try:
+        with urllib.request.urlopen(request, timeout=90) as response:
+            raw = response.read().decode("utf-8")
+    except urllib.error.HTTPError as exc:
+        detail = exc.read().decode("utf-8", errors="replace")
+        raise RuntimeError(f"Gemini HTTP {exc.code}: {detail[:1200]}") from exc
+    except Exception as exc:
+        raise RuntimeError(f"Gemini REST request failed: {exc}") from exc
+
+    payload = json.loads(raw)
+    try:
+        text = payload["candidates"][0]["content"]["parts"][0]["text"]
+    except (KeyError, IndexError, TypeError) as exc:
+        raise RuntimeError(f"Unexpected Gemini response: {raw[:1500]}") from exc
+    return json.loads(text)
 
 
 def generate():
@@ -46,25 +88,21 @@ Return ONLY valid JSON with these keys:
  hashtags: array of 8-15 hashtags, no # needed
 """
 
-    client = genai.Client(api_key=api_key)
     models = [CONFIG["model"]]
     lite_model = CONFIG.get("lite_model")
     if lite_model and lite_model not in models:
         models.append(lite_model)
 
     last_error = None
-    response = None
+    data = None
     used_model = None
 
     for model in models:
         try:
-            print(f"Trying Gemini model: {model}")
-            response = client.models.generate_content(
-                model=model,
-                contents=prompt,
-                config={"response_mime_type": "application/json"},
-            )
+            print(f"Trying Gemini REST model: {model}")
+            data = call_gemini_rest(api_key, model, prompt)
             used_model = model
+            print(f"Gemini model succeeded: {model}")
             break
         except Exception as exc:
             last_error = exc
@@ -72,10 +110,9 @@ Return ONLY valid JSON with these keys:
             if model != models[-1]:
                 print(f"Falling back to Lite model: {lite_model}")
 
-    if response is None:
+    if data is None:
         raise RuntimeError(f"All configured Gemini models failed. Last error: {last_error}")
 
-    data = json.loads(response.text)
     data["topic"] = topic
     data["model_used"] = used_model
     data["hook"] = str(data["hook"]).strip()
