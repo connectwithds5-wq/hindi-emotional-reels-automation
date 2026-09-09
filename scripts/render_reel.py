@@ -12,12 +12,12 @@ TEMPLATE = ROOT / "assets" / "template.png"
 FPS = 30
 DURATION = 10
 W, H = 864, 1536
-TEXT_X = 205
-FIRST_BASELINE = 405
-LINE_GAP = 47
+TEXT_X = 188
+FIRST_BASELINE = 425
+LINE_GAP = 66
 FONT_FAMILY = "Kalam"
-FONT_SIZE = 43
-INK = "#182642"
+FONT_SIZE = 48
+INK = "#17264b"
 
 
 def escape_xml(text):
@@ -28,60 +28,52 @@ def escape_xml(text):
 def make_poster(data):
     if not TEMPLATE.exists():
         raise FileNotFoundError(f"Fixed template missing: {TEMPLATE}")
-
-    # The output folder is created here because a fresh GitHub Actions checkout
-    # does not contain generated-output directories.
     output_dir = ROOT / "output"
     output_dir.mkdir(parents=True, exist_ok=True)
-
-    # Fixed master scene: the photo, branding, notebook, watermark and props never change.
-    # Only the diary writing is replaced on each run.
     template = Image.open(TEMPLATE).convert("RGBA").resize((W, H), Image.Resampling.LANCZOS)
+
+    # Preserve every generated line as an individual diary line. Never word-wrap it.
     lines = [str(data.get("hook", "")).strip()] + [str(x).strip() for x in data.get("lines", [])]
-    lines = [x for x in lines if x][:8]
+    lines = [x for x in lines if x][:7]
 
     svg_lines = []
+    jitters = [(-2, 1, -0.45), (1, -1, 0.25), (0, 0, -0.18), (2, 1, 0.35), (-1, -1, -0.30), (1, 0, 0.20), (-2, 1, -0.15)]
     for i, line in enumerate(lines):
         y = FIRST_BASELINE + i * LINE_GAP
-        # SVG/Pango gives correct Devanagari shaping and ligatures.
+        dx, dy, rot = jitters[i]
+        x = TEXT_X + dx
         svg_lines.append(
-            f'<text x="{TEXT_X}" y="{y}" font-family="{FONT_FAMILY}" font-size="{FONT_SIZE}px" '
-            f'font-weight="300" fill="{INK}">{escape_xml(line)}</text>'
+            f'<text x="{x}" y="{y + dy}" transform="rotate({rot} {x} {y + dy})" '
+            f'font-family="{FONT_FAMILY}" font-size="{FONT_SIZE}px" font-weight="300" '
+            f'fill="{INK}" letter-spacing="0.15px">{escape_xml(line)}</text>'
         )
 
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">
 <style>text {{ font-family: Kalam; font-size: {FONT_SIZE}px; font-weight: 300; }}</style>
 {''.join(svg_lines)}
 </svg>'''
-
     svg_path = output_dir / "poster_overlay.svg"
     overlay_path = output_dir / "poster_overlay.png"
     svg_path.write_text(svg, encoding="utf-8")
-    subprocess.run(
-        ["rsvg-convert", "-o", str(overlay_path), str(svg_path)],
-        check=True,
-        stdout=subprocess.DEVNULL,
-        stderr=subprocess.DEVNULL,
-    )
-
+    subprocess.run(["rsvg-convert", "-o", str(overlay_path), str(svg_path)], check=True,
+                   stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     overlay = Image.open(overlay_path).convert("RGBA")
     poster = Image.alpha_composite(template, overlay).convert("RGB")
     poster_path = output_dir / "latest_poster.jpg"
     poster.save(poster_path, quality=95, optimize=True, progressive=True)
-
     print(f"Poster: {poster_path}")
     print(f"Diary lines ({len(lines)}): {lines}")
     return poster_path
 
 
 def make_music_video(poster_path, out_path):
-    # Locally synthesized original ambient bed; no external copyrighted audio is fetched.
     sample_rate = 44100
     n = sample_rate * DURATION
     tt = np.arange(n) / sample_rate
-    notes = [(220.0, 0.040), (277.18, 0.022), (329.63, 0.015)]
+    # Warmer, slower three-note ambient bed.
+    notes = [(196.00, 0.035), (246.94, 0.022), (293.66, 0.016)]
     audio = sum(amp * np.sin(2 * np.pi * freq * tt) for freq, amp in notes)
-    audio += 0.008 * np.sin(2 * np.pi * 110.0 * tt) * (0.5 + 0.5 * np.sin(2 * np.pi * tt / 4.0))
+    audio += 0.006 * np.sin(2 * np.pi * 98.0 * tt) * (0.5 + 0.5 * np.sin(2 * np.pi * tt / 5.0))
     fade = np.minimum(1.0, tt / 1.0) * np.minimum(1.0, (DURATION - tt) / 1.2)
     audio *= np.clip(fade, 0, 1)
     pcm = np.int16(np.clip(audio, -1, 1) * 32767)
@@ -91,7 +83,6 @@ def make_music_video(poster_path, out_path):
         wf.setsampwidth(2)
         wf.setframerate(sample_rate)
         wf.writeframes(pcm.tobytes())
-
     subprocess.run([
         "ffmpeg", "-y", "-loop", "1", "-i", str(poster_path), "-i", str(wav),
         "-t", str(DURATION), "-r", str(FPS),
@@ -99,13 +90,11 @@ def make_music_video(poster_path, out_path):
         "-c:v", "libx264", "-preset", "veryfast", "-crf", "21",
         "-c:a", "aac", "-b:a", "128k", "-shortest", str(out_path),
     ], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-
     wav.unlink(missing_ok=True)
     return out_path
 
 
 def render(data, out_path):
-    # Ensure both the poster and final video destinations exist.
     out_path.parent.mkdir(parents=True, exist_ok=True)
     poster_path = make_poster(data)
     make_music_video(poster_path, out_path)
