@@ -14,13 +14,13 @@ DURATION = 10
 KEYFRAME_FPS = 5
 W, H = 864, 1536
 
-# Fixed writing area measured against the reference template.
+# Measured against the fixed notebook template.
 TEXT_X = 205
-TEXT_Y = 365
-TEXT_MAX_W = 585
-FONT_SIZE = 38
-LINE_GAP = 10
-INK = (18, 27, 48, 235)
+FIRST_BASELINE = 405
+TEXT_MAX_W = 600
+FONT_SIZE = 42
+LINE_GAP = 47
+INK = (24, 38, 66, 238)
 
 
 def font_path():
@@ -34,11 +34,10 @@ def font_path():
     for path in candidates:
         if os.path.exists(path):
             return path
-    raise FileNotFoundError("Devanagari handwriting font not found")
+    raise FileNotFoundError("Devanagari font not found")
 
 
 def wrap_words(draw, text, font, max_width):
-    """Wrap Hindi into natural diary lines without changing the supplied wording."""
     words = text.split()
     lines = []
     current = []
@@ -48,54 +47,43 @@ def wrap_words(draw, text, font, max_width):
         if not current or width <= max_width:
             current.append(word)
         else:
-            lines.append(current)
+            lines.append(" ".join(current))
             current = [word]
     if current:
-        lines.append(current)
+        lines.append(" ".join(current))
     return lines
 
 
-def build_layout(draw, text, font):
-    """Return word positions. Each word gets tiny, deterministic human-like variation."""
-    lines = wrap_words(draw, text, font, TEXT_MAX_W)
-    layout = []
-    y = TEXT_Y
+def draw_diary_passage(base, text_lines, font, reveal_alpha=255):
+    """Draw polished diary text with baselines locked to notebook rulings."""
+    layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    draw = ImageDraw.Draw(layer, "RGBA")
     rng = np.random.default_rng(20260909)
 
-    for line in lines:
-        x = TEXT_X
-        base_jitter = float(rng.uniform(-1.5, 1.5))
-        for word in line:
-            bbox = draw.textbbox((0, 0), word, font=font)
-            ww = bbox[2] - bbox[0]
-            wh = bbox[3] - bbox[1]
-            layout.append({
-                "word": word,
-                "x": x + float(rng.uniform(-1.0, 1.0)),
-                "y": y + base_jitter + float(rng.uniform(-1.4, 1.4)),
-                "angle": float(rng.uniform(-1.3, 1.3)),
-                "w": ww,
-                "h": wh,
-            })
-            space_w = draw.textlength(" ", font=font)
-            x += ww + space_w + float(rng.uniform(-1.0, 2.0))
-        y += font.size + LINE_GAP
+    y = FIRST_BASELINE
+    for line in text_lines:
+        # Tiny natural variation without losing alignment with the ruled paper.
+        x = TEXT_X + float(rng.uniform(-1.0, 1.0))
+        baseline = y + float(rng.uniform(-0.6, 0.6))
 
-    return layout, len(lines)
+        # Soft ink edge, then the main blue-black stroke.
+        draw.text(
+            (x + 0.8, baseline + 0.8),
+            line,
+            font=font,
+            anchor="ls",
+            fill=(15, 23, 40, int(45 * reveal_alpha / 255)),
+        )
+        draw.text(
+            (x, baseline),
+            line,
+            font=font,
+            anchor="ls",
+            fill=(INK[0], INK[1], INK[2], int(INK[3] * reveal_alpha / 255)),
+        )
+        y += LINE_GAP
 
-
-def make_word_image(item, font, alpha=235):
-    """Render one Hindi word on transparent paper, then give it a tiny natural tilt."""
-    pad = 10
-    tile = Image.new("RGBA", (item["w"] + pad * 2, item["h"] + pad * 2), (0, 0, 0, 0))
-    td = ImageDraw.Draw(tile, "RGBA")
-    td.text((pad, pad - 2), item["word"], font=font, fill=(INK[0], INK[1], INK[2], alpha))
-    return tile.rotate(item["angle"], resample=Image.Resampling.BICUBIC, expand=True)
-
-
-def draw_word(img, item, font, alpha=235):
-    rotated = make_word_image(item, font, alpha)
-    img.paste(rotated, (int(item["x"] - 10), int(item["y"] - 10)), rotated)
+    return Image.alpha_composite(base.convert("RGBA"), layer).convert("RGB")
 
 
 def render(data, out_path):
@@ -103,6 +91,8 @@ def render(data, out_path):
         raise FileNotFoundError(f"Fixed template missing: {TEMPLATE}")
 
     font_file = font_path()
+    # Kalam remains the handwriting face; the larger size makes it look like actual diary writing
+    # rather than small UI text.
     font = ImageFont.truetype(font_file, FONT_SIZE)
 
     frames_dir = ROOT / "output" / "frames"
@@ -112,39 +102,33 @@ def render(data, out_path):
     for p in frames_dir.glob("frame_*.png"):
         p.unlink()
 
-    # The uploaded blank template is the permanent visual master.
     template = Image.open(TEMPLATE).convert("RGB").resize((W, H), Image.Resampling.LANCZOS)
-    all_text = " ".join([str(data.get("hook", "")).strip()] + [str(x).strip() for x in data.get("lines", [])]).strip()
-    total_keyframes = int(DURATION * KEYFRAME_FPS)
 
-    probe = Image.new("RGB", (W, H), "white")
-    probe_draw = ImageDraw.Draw(probe)
-    layout, line_count = build_layout(probe_draw, all_text, font)
-    word_count = len(layout)
+    # Hook is no longer rendered as a separate title. It becomes the opening sentence of one diary passage.
+    all_text = " ".join(
+        [str(data.get("hook", "")).strip()]
+        + [str(x).strip() for x in data.get("lines", [])]
+    ).strip()
+
+    probe = ImageDraw.Draw(Image.new("RGB", (W, H), "white"))
+    text_lines = wrap_words(probe, all_text, font, TEXT_MAX_W)
+    text_lines = text_lines[:5]
+
     print(f"Fixed template: {TEMPLATE}")
-    print(f"Writing layout: {word_count} words across {line_count} lines")
+    print(f"Diary passage ({len(text_lines)} ruled lines): {text_lines}")
 
-    start_time = 0.45
-    end_time = 8.25
-    write_span = end_time - start_time
+    total_keyframes = int(DURATION * KEYFRAME_FPS)
 
     for i in range(total_keyframes):
         t = i / KEYFRAME_FPS
-        img = template.copy()
 
-        if word_count:
-            progress = np.clip((t - start_time) / write_span, 0.0, 1.0)
-            amount = progress * word_count
-            visible = int(np.floor(amount + 1e-6))
-
-            for idx, item in enumerate(layout):
-                if idx < visible:
-                    draw_word(img, item, font, 235)
-                elif idx == visible and progress > 0:
-                    frac = amount - visible
-                    if frac > 0:
-                        draw_word(img, item, font, int(35 + 200 * min(1.0, frac * 1.35)))
-                    break
+        # No typewriter effect. The complete passage gently fades in in the first ~0.7 sec,
+        # then remains completely static for a clean diary-photo feel.
+        alpha = int(255 * np.clip((t - 0.25) / 0.55, 0.0, 1.0))
+        if alpha:
+            img = draw_diary_passage(template, text_lines, font, alpha)
+        else:
+            img = template.copy()
 
         img.save(frames_dir / f"frame_{i:03d}.jpg", quality=90, optimize=False)
 
