@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: hindi-emotional-reels-analytics
+  group: hindi-emotional-reels-repo-writes
   cancel-in-progress: false
 
 jobs:
