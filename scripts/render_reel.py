@@ -1,19 +1,18 @@
 import json
 import os
 import subprocess
-import wave
 from pathlib import Path
 
-import numpy as np
 from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
 TEMPLATE = ROOT / "assets" / "template.png"
+MUSIC = ROOT / "assets" / "music" / "background.mp3"
 FPS = 30
 DURATION = 10
 W, H = 864, 1536
 
-# Match the photographed notebook: smaller centered writing whose baselines follow the page ruling.
+# Match the photographed notebook: small centered writing whose baselines follow the page ruling.
 TEXT_CENTER_X = 545
 FIRST_BASELINE = 438
 LINE_GAP = 50
@@ -31,17 +30,18 @@ def escape_xml(text):
 def make_poster(data):
     if not TEMPLATE.exists():
         raise FileNotFoundError(f"Fixed template missing: {TEMPLATE}")
+
     output_dir = ROOT / "output"
     output_dir.mkdir(parents=True, exist_ok=True)
     template = Image.open(TEMPLATE).convert("RGBA").resize((W, H), Image.Resampling.LANCZOS)
 
+    # Preserve each generated diary line as one notebook line. Never word-wrap.
     lines = [str(data.get("hook", "")).strip()] + [str(x).strip() for x in data.get("lines", [])]
     lines = [x for x in lines if x][:8]
 
     svg_lines = []
     for i, line in enumerate(lines):
         y = FIRST_BASELINE + i * LINE_GAP
-        # Rotate each line around its center so the baseline rises/falls with the photographed ruling.
         svg_lines.append(
             f'<text x="{TEXT_CENTER_X}" y="{y}" text-anchor="middle" '
             f'transform="rotate({PAGE_SLOPE_DEG} {TEXT_CENTER_X} {y})" '
@@ -53,11 +53,13 @@ def make_poster(data):
 <style>text {{ font-family: Kalam; font-size: {FONT_SIZE}px; font-weight: 300; }}</style>
 {''.join(svg_lines)}
 </svg>'''
+
     svg_path = output_dir / "poster_overlay.svg"
     overlay_path = output_dir / "poster_overlay.png"
     svg_path.write_text(svg, encoding="utf-8")
     subprocess.run(["rsvg-convert", "-o", str(overlay_path), str(svg_path)], check=True,
                    stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+
     overlay = Image.open(overlay_path).convert("RGBA")
     poster = Image.alpha_composite(template, overlay).convert("RGB")
     poster_path = output_dir / "latest_poster.jpg"
@@ -66,29 +68,23 @@ def make_poster(data):
 
 
 def make_music_video(poster_path, out_path):
-    sample_rate = 44100
-    n = sample_rate * DURATION
-    tt = np.arange(n) / sample_rate
-    notes = [(196.00, 0.035), (246.94, 0.022), (293.66, 0.016)]
-    audio = sum(amp * np.sin(2 * np.pi * freq * tt) for freq, amp in notes)
-    audio += 0.006 * np.sin(2 * np.pi * 98.0 * tt) * (0.5 + 0.5 * np.sin(2 * np.pi * tt / 5.0))
-    fade = np.minimum(1.0, tt / 1.0) * np.minimum(1.0, (DURATION - tt) / 1.2)
-    audio *= np.clip(fade, 0, 1)
-    pcm = np.int16(np.clip(audio, -1, 1) * 32767)
-    wav = out_path.with_suffix(".wav")
-    with wave.open(str(wav), "wb") as wf:
-        wf.setnchannels(1)
-        wf.setsampwidth(2)
-        wf.setframerate(sample_rate)
-        wf.writeframes(pcm.tobytes())
+    if not MUSIC.exists():
+        raise FileNotFoundError(f"Background music missing: {MUSIC}")
+
+    # Use the user's supplied 10-second track. The poster is held for exactly the same duration.
+    # If the track is slightly longer/shorter, FFmpeg trims/pads the audio to exactly 10 seconds.
     subprocess.run([
-        "ffmpeg", "-y", "-loop", "1", "-i", str(poster_path), "-i", str(wav),
-        "-t", str(DURATION), "-r", str(FPS),
+        "ffmpeg", "-y",
+        "-loop", "1", "-i", str(poster_path),
+        "-i", str(MUSIC),
+        "-t", str(DURATION),
+        "-r", str(FPS),
         "-vf", "scale=1080:1920:flags=lanczos,format=yuv420p",
+        "-af", f"atrim=0:{DURATION},apad,afade=t=out:st={DURATION - 0.6}:d=0.6",
         "-c:v", "libx264", "-preset", "veryfast", "-crf", "21",
-        "-c:a", "aac", "-b:a", "128k", "-shortest", str(out_path),
+        "-c:a", "aac", "-b:a", "192k",
+        "-shortest", str(out_path),
     ], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-    wav.unlink(missing_ok=True)
     return out_path
 
 
