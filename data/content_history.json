@@ -534,6 +534,78 @@
       ],
       "topic": "बेवफाई",
       "model_used": "gemini-3.5-flash-lite"
+    },
+    {
+      "hook": "मेज पर रखी चाय ठंडी हो गई",
+      "lines": [
+        "घड़ी की सुइयां दो पर ठहर गईं",
+        "सामने खाली कुर्सी को देखता रहा",
+        "लगा अभी कोई आकर बैठेगा",
+        "पर कमरा पूरी तरह शांत था",
+        "सोचा तुम्हें एक पैगाम लिख दूं",
+        "फिर याद आया अब हक नहीं",
+        "इंतजार किसी और का नहीं था"
+      ],
+      "youtube_title": "रात के ख्याल और अधूरा इंतजार | Dil Ki Diary",
+      "youtube_description": "रात के सन्नाटे में अक्सर पुरानी आदतें और अधूरे रिश्ते याद आ जाते हैं। ठंडी होती चाय और खाली कुर्सी के साथ बीता यह अकेलापन हर उस दिल की कहानी है जो किसी का इंतजार कर रहा है। क्या आपके साथ भी कभी ऐसा हुआ है?",
+      "youtube_keywords": [
+        "rat ke khayal",
+        "akelapan status",
+        "late night overthinking",
+        "dil ki diary",
+        "sad hindi micro story",
+        "lonely night thoughts hindi",
+        "adhoore riste",
+        "waiting for someone hindi",
+        "emotional hindi shorts",
+        "dard bhari kahani",
+        "raat ke do baje"
+      ],
+      "youtube_hashtags": [
+        "DilKiDiary",
+        "RatKeKhayal",
+        "Akelapan",
+        "Overthinking",
+        "SadHindiStories",
+        "LateNightThoughts",
+        "Shorts"
+      ],
+      "caption": "जब रात गहरी होती है, तो चाय ठंडी हो जाती है और यादें गर्म। कुछ आदतें छूटती नहीं, बस वक्त के साथ खामोश हो जाती हैं।",
+      "keywords": [
+        "rat ke khayal",
+        "akelapan",
+        "overthinking",
+        "dil ki diary",
+        "sad stories",
+        "lonely nights",
+        "emotional hindi",
+        "missing someone",
+        "silent heartbreak"
+      ],
+      "hashtags": [
+        "DilKiDiary",
+        "RatKeKhayal",
+        "Akelapan",
+        "Overthinking",
+        "SadHindiStories",
+        "LateNightThoughts",
+        "EmotionalReel",
+        "HindiMicroStory"
+      ],
+      "topic": "रात के ख्याल",
+      "strategy_used": {
+        "topic": "रात के ख्याल",
+        "emotion": "अकेलापन",
+        "hook_style": "Sensory observation of a quiet room",
+        "story_structure": "simple -> relatable -> twist",
+        "concept": "A realization during late-night hours when tea gets cold because you were busy staring at an empty chair across the table.",
+        "opening_direction": "Start with the specific detail of a half-empty tea cup growing cold on the desk at 2 AM.",
+        "twist_direction": "Realizing that the emptiness in the room isn't just physical, but the habit of waiting for someone who won't text back.",
+        "duration_seconds": 10,
+        "posting_window": "20:00 - 22:00",
+        "reason": "Late evening is the peak time when audiences relate to loneliness and overthinking before sleep."
+      },
+      "model_used": "gemini-3.5-flash-lite"
     }
   ]
 }
