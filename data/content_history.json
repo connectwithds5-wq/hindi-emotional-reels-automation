@@ -156,6 +156,42 @@
       ],
       "topic": "रात के ख्याल",
       "model_used": "gemini-3.5-flash-lite"
+    },
+    {
+      "hook": "कमरे की ये नीली लाइट जलती रहने दी है",
+      "lines": [
+        "अंधेरे में फिर से वही पुराने सवाल जाग जाते हैं",
+        "लगता है जैसे हर बात का मतलब तलाश रहा हूँ",
+        "खुद को ही समझाते-समझाते अब सुबह होने को है"
+      ],
+      "caption": "रात के सन्नाटे में दिमाग खुद से ही बातें करने लगता है। ओवरथिंकिंग की इस आदत से थक सा गया हूँ।",
+      "keywords": [
+        "overthinking diary",
+        "overthinking in hindi",
+        "late night thoughts",
+        "emotional diary entry",
+        "overthinking status",
+        "sad reels hindi",
+        "night overthinking",
+        "mental peace",
+        "deep thoughts",
+        "alone night"
+      ],
+      "hashtags": [
+        "overthinking",
+        "latenightthoughts",
+        "diaryentry",
+        "sad",
+        "hindithoughts",
+        "mentalpeace",
+        "lonely",
+        "overthinker",
+        "thoughts",
+        "nightvibes",
+        "deep"
+      ],
+      "topic": "ओवरथिंकिंग",
+      "model_used": "gemini-3.5-flash-lite"
     }
   ]
 }
