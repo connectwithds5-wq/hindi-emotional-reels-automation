@@ -47,13 +47,37 @@ Return ONLY valid JSON with these keys:
 """
 
     client = genai.Client(api_key=api_key)
-    response = client.models.generate_content(
-        model=CONFIG["model"],
-        contents=prompt,
-        config={"response_mime_type": "application/json"},
-    )
+    models = [CONFIG["model"]]
+    lite_model = CONFIG.get("lite_model")
+    if lite_model and lite_model not in models:
+        models.append(lite_model)
+
+    last_error = None
+    response = None
+    used_model = None
+
+    for model in models:
+        try:
+            print(f"Trying Gemini model: {model}")
+            response = client.models.generate_content(
+                model=model,
+                contents=prompt,
+                config={"response_mime_type": "application/json"},
+            )
+            used_model = model
+            break
+        except Exception as exc:
+            last_error = exc
+            print(f"Model {model} failed: {exc}")
+            if model != models[-1]:
+                print(f"Falling back to Lite model: {lite_model}")
+
+    if response is None:
+        raise RuntimeError(f"All configured Gemini models failed. Last error: {last_error}")
+
     data = json.loads(response.text)
     data["topic"] = topic
+    data["model_used"] = used_model
     data["hook"] = str(data["hook"]).strip()
     data["lines"] = [str(x).strip() for x in data["lines"]]
     data["caption"] = str(data["caption"]).strip()
