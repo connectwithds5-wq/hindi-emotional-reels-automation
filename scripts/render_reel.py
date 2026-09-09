@@ -1,12 +1,12 @@
 import json
 import math
 import os
+import random
 import subprocess
-import textwrap
 from pathlib import Path
 
 import numpy as np
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
 ROOT = Path(__file__).resolve().parents[1]
 W, H = 1080, 1920
@@ -16,6 +16,8 @@ DURATION = 10
 
 def font_path():
     candidates = [
+        str(ROOT / "assets" / "fonts" / "Kalam-Regular.ttf"),
+        "/usr/share/fonts/truetype/kalam/Kalam-Regular.ttf",
         "/usr/share/fonts/truetype/noto/NotoSansDevanagari-Regular.ttf",
         "/usr/share/fonts/opentype/noto/NotoSansDevanagari-Regular.ttf",
         "/usr/share/fonts/truetype/lohit-devanagari/Lohit-Devanagari.ttf",
@@ -23,21 +25,29 @@ def font_path():
     for p in candidates:
         if os.path.exists(p):
             return p
-    raise FileNotFoundError("Devanagari font not found")
+    raise FileNotFoundError("Devanagari handwriting font not found")
 
 
-def make_background():
-    img = Image.new("RGB", (W, H), (247, 242, 230))
-    d = ImageDraw.Draw(img)
-    # Notebook ruling
-    for y in range(90, H, 82):
-        d.line((95, y, W - 65, y), fill=(222, 212, 194), width=2)
-    # Left margin
-    d.line((155, 0, 155, H), fill=(205, 170, 160), width=3)
-    # Spiral rings
-    for y in range(90, H, 115):
-        d.arc((55, y - 26, 125, y + 26), 200, 340, fill=(92, 83, 72), width=5)
-    return img
+def make_background(seed=0):
+    rng = random.Random(seed)
+    base = np.full((H, W, 3), [245, 239, 224], dtype=np.int16)
+    noise = np.random.default_rng(seed).normal(0, 2.2, (H, W, 1))
+    paper = np.clip(base + noise, 0, 255).astype(np.uint8)
+    img = Image.fromarray(paper, "RGB")
+    d = ImageDraw.Draw(img, "RGBA")
+    for y in range(108, H, 82):
+        wobble = rng.randint(-2, 2)
+        d.line((95, y + wobble, W - 55, y + wobble), fill=(112, 137, 157, 52), width=2)
+    d.line((155, 0, 155, H), fill=(190, 92, 92, 72), width=2)
+    for y in range(92, H, 115):
+        xoff = rng.randint(-2, 2)
+        d.arc((46 + xoff, y - 30, 125 + xoff, y + 30), 198, 342, fill=(55, 55, 52, 145), width=5)
+        d.line((93 + xoff, y - 26, 101 + xoff, y + 26), fill=(40, 40, 38, 70), width=2)
+    for _ in range(90):
+        x = rng.randint(170, W - 70); y = rng.randint(50, H - 50)
+        r = rng.choice([1, 1, 2, 2, 3])
+        d.ellipse((x, y, x + r, y + r), fill=(110, 94, 74, rng.randint(5, 16)))
+    return img.filter(ImageFilter.GaussianBlur(0.15))
 
 
 def wrap_lines(draw, text, font, max_width):
@@ -48,73 +58,74 @@ def wrap_lines(draw, text, font, max_width):
         if draw.textbbox((0, 0), candidate, font=font)[2] <= max_width:
             current = candidate
         else:
-            if current:
-                lines.append(current)
+            if current: lines.append(current)
             current = word
-    if current:
-        lines.append(current)
+    if current: lines.append(current)
     return lines
+
+
+def draw_handwriting(draw, center_x, y, text, font, max_width, seed_text):
+    lines = wrap_lines(draw, text, font, max_width)
+    rng = random.Random(seed_text)
+    yy = y
+    for line in lines:
+        box = draw.textbbox((0, 0), line, font=font)
+        tw = box[2] - box[0]
+        xx = center_x - tw / 2 + rng.uniform(-1.5, 1.5)
+        yy += rng.uniform(-1.5, 1.5)
+        # Slight ink bleed/ghosting makes the strokes feel pen-written.
+        draw.text((xx + 1.0, yy + 0.9), line, font=font, fill=(12, 24, 39, 35))
+        draw.text((xx, yy), line, font=font, fill=(15, 29, 48, 238))
+        yy += int(font.size * 1.16)
+    return yy
 
 
 def render(data, out_path):
     font_file = font_path()
-    title_font = ImageFont.truetype(font_file, 54)
-    body_font = ImageFont.truetype(font_file, 64)
+    title_font = ImageFont.truetype(font_file, 62)
+    body_font = ImageFont.truetype(font_file, 57)
     small_font = ImageFont.truetype(font_file, 34)
-
     frames_dir = ROOT / "output" / "frames"
     frames_dir.mkdir(parents=True, exist_ok=True)
-
     text = [data["hook"]] + data["lines"]
+
     for i in range(FPS * DURATION):
         t = i / FPS
-        img = make_background()
-        d = ImageDraw.Draw(img)
+        img = make_background(seed=41)
+        d = ImageDraw.Draw(img, "RGBA")
+        cx = W / 2 + 2.5 * math.sin(t * 0.55)
+        y = 465 + 2.0 * math.sin(t * 0.38 + 1.2)
 
-        # Gentle Ken Burns style scale/position without expensive video rendering.
-        offset = int(7 * math.sin(t * 0.8))
-        x_center = W // 2 + offset
-        y = 520
-
-        # Hook
-        hook_lines = wrap_lines(d, text[0], title_font, 760)
-        for line in hook_lines:
+        for line in wrap_lines(d, text[0], title_font, 780):
             box = d.textbbox((0, 0), line, font=title_font)
-            d.text((x_center - (box[2] - box[0]) / 2, y), line, font=title_font, fill=(68, 55, 46))
-            y += 72
-        y += 55
+            x = cx - (box[2] - box[0]) / 2
+            d.text((x + 1, y + 1), line, font=title_font, fill=(15, 28, 43, 32))
+            d.text((x, y), line, font=title_font, fill=(15, 29, 48, 242))
+            y += 74
 
-        # Main emotional lines
-        for idx, line in enumerate(text[1:]):
-            lines = wrap_lines(d, line, body_font, 800)
-            alpha = min(255, max(0, int((t - 0.5 - idx * 1.1) * 255))) if t < 8 else 255
-            # Draw with a tiny vertical reveal for a subtle animated feel.
-            yy = y + int(max(0, 10 - alpha / 25))
-            fill = (68, 55, 46)
-            for sub in lines:
-                box = d.textbbox((0, 0), sub, font=body_font)
-                d.text((x_center - (box[2] - box[0]) / 2, yy), sub, font=body_font, fill=fill)
-                yy += 86
-            y = yy + 20
+        y += 38
+        for idx, original in enumerate(text[1:]):
+            start = 0.8 + idx * 1.35
+            progress = max(0.0, min(1.0, (t - start) / 0.65))
+            if progress <= 0: continue
+            shown = original[:max(1, int(len(original) * progress))]
+            y = draw_handwriting(d, cx, y, shown, body_font, 820, f"{original}-{idx}") + 18
 
-        # Decorative motif
-        d.text((90, 140), "♥", font=small_font, fill=(137, 90, 80))
-        d.text((W - 150, H - 240), "❦", font=small_font, fill=(104, 90, 75))
+        # Hand-drawn heart and underline marks.
+        d.arc((820, 335, 872, 382), 20, 310, fill=(15, 29, 48, 185), width=3)
+        d.line((842, 376, 858, 393), fill=(15, 29, 48, 185), width=3)
+        d.line((842, 376, 830, 392), fill=(15, 29, 48, 185), width=3)
+        d.arc((250, min(H - 300, y + 35), 360, min(H - 190, y + 145)), 195, 345, fill=(15, 29, 48, 145), width=3)
+
         handle = os.environ.get("BRAND_HANDLE", "@yourhandle")
         box = d.textbbox((0, 0), handle, font=small_font)
-        d.text((W - 80 - (box[2] - box[0]), H - 110), handle, font=small_font, fill=(100, 86, 72))
-
-        frame_path = frames_dir / f"frame_{i:04d}.png"
-        img.save(frame_path, optimize=True)
+        d.text((W - 75 - (box[2] - box[0]), H - 120), handle, font=small_font, fill=(35, 45, 54, 185))
+        img.save(frames_dir / f"frame_{i:04d}.png", optimize=True)
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
     silent_video = out_path.with_name(out_path.stem + "_silent.mp4")
-    subprocess.run([
-        "ffmpeg", "-y", "-framerate", str(FPS), "-i", str(frames_dir / "frame_%04d.png"),
-        "-c:v", "libx264", "-pix_fmt", "yuv420p", "-crf", "22", str(silent_video)
-    ], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    subprocess.run(["ffmpeg", "-y", "-framerate", str(FPS), "-i", str(frames_dir / "frame_%04d.png"), "-c:v", "libx264", "-pix_fmt", "yuv420p", "-crf", "22", str(silent_video)], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
-    # Generate a soft, non-copyright ambient tone and mux it into the reel.
     sample_rate = 44100
     n = sample_rate * DURATION
     tt = np.arange(n) / sample_rate
@@ -126,16 +137,10 @@ def render(data, out_path):
     import wave
     with wave.open(str(wav), "wb") as wf:
         wf.setnchannels(1); wf.setsampwidth(2); wf.setframerate(sample_rate); wf.writeframes(pcm.tobytes())
+    subprocess.run(["ffmpeg", "-y", "-i", str(silent_video), "-i", str(wav), "-c:v", "copy", "-c:a", "aac", "-shortest", str(out_path)], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
-    subprocess.run([
-        "ffmpeg", "-y", "-i", str(silent_video), "-i", str(wav),
-        "-c:v", "copy", "-c:a", "aac", "-shortest", str(out_path)
-    ], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-
-    for p in frames_dir.glob("*.png"):
-        p.unlink()
-    silent_video.unlink(missing_ok=True)
-    wav.unlink(missing_ok=True)
+    for p in frames_dir.glob("*.png"): p.unlink()
+    silent_video.unlink(missing_ok=True); wav.unlink(missing_ok=True)
 
 
 if __name__ == "__main__":
