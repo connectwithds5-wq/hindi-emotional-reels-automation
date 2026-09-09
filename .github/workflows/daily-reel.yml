@@ -68,11 +68,16 @@ jobs:
           git push
 
       - name: Send Telegram notification
-        if: ${{ always() && secrets.TELEGRAM_BOT_TOKEN != '' && secrets.TELEGRAM_CHAT_ID != '' }}
+        if: always()
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
+          if [ -z "$TELEGRAM_BOT_TOKEN" ] || [ -z "$TELEGRAM_CHAT_ID" ]; then
+            echo "Telegram secrets are not configured; skipping notification."
+            exit 0
+          fi
+
           if [ "${{ job.status }}" = "success" ]; then
             MESSAGE="🎬 Hindi Emotional Reel — SUCCESS%0A%0A✅ Video generated%0A✅ Reel artifact uploaded%0A✅ YouTube upload step completed%0A%0A🔗 GitHub Run: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
           else
