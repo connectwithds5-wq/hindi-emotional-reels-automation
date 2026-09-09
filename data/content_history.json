@@ -473,6 +473,67 @@
       ],
       "topic": "एकतरफा प्यार",
       "model_used": "gemini-3.5-flash-lite"
+    },
+    {
+      "hook": "नंबर पर अभी भी तेरी तस्वीर है,",
+      "lines": [
+        "नाम बदलकर कुछ और लिख लिया है।",
+        "गलती से जब चैट खुल जाती है,",
+        "अब दिल की धड़कन नहीं रुकती।",
+        "बस एक अजीब सी ठंडक होती है,",
+        "जैसे कोई और हंस रहा हो वहां।",
+        "बेवफाई का शोर नहीं होता कभी,",
+        "बस यादें खामोश हो जाती हैं।"
+      ],
+      "youtube_title": "Dil Ki Diary: Bewafai Ka Dard aur Khamosh Yaadein",
+      "youtube_description": "Ek khamosh aur dard bhari kahani bewafai ke ehsaas par. Jab purani yaadein bina shor ke dil ko tod deti hain. Kya aapke sath bhi aisa hua hai?",
+      "youtube_keywords": [
+        "bewafai status",
+        "dil ki diary hindi",
+        "emotional micro story",
+        "dard bhari kahani",
+        "sad hindi reels",
+        "silent heartbreak hindi",
+        "one sided love status",
+        "latest sad poetry",
+        "relatable hindi story",
+        "broken heart shorts",
+        "khamosh dard",
+        "pyar me dhokha"
+      ],
+      "youtube_hashtags": [
+        "DilKiDiary",
+        "Bewafai",
+        "SadReels",
+        "EmotionalStory",
+        "HindiShorts",
+        "Heartbreak",
+        "Relatable"
+      ],
+      "caption": "कुछ दर्द ऐसे होते हैं जिनका कोई शोर नहीं होता, बस खामोशी से सब बदल जाता है।",
+      "keywords": [
+        "bewafai",
+        "dard",
+        "dil ki diary",
+        "sad hindi story",
+        "breakup feelings",
+        "khamoshi",
+        "emotional reels",
+        "heartbreak"
+      ],
+      "hashtags": [
+        "dilkidiary",
+        "bewafai",
+        "dard",
+        "sadreels",
+        "emotional",
+        "hindistory",
+        "heartbreak",
+        "relatable",
+        "khamoshi"
+      ],
+      "topic": "बेवफाई",
+      "model_used": "gemini-3.5-flash-lite"
     }
   ]
 }
