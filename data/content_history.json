@@ -192,6 +192,42 @@
       ],
       "topic": "ओवरथिंकिंग",
       "model_used": "gemini-3.5-flash-lite"
+    },
+    {
+      "hook": "तुम्हारी प्लेट से बची हुई सब्जियां उठा लीं,",
+      "lines": [
+        "फिर याद आया कि अब साथ नहीं रहते।",
+        "अजीब आदत है ये भी,",
+        "जो इंसान छूट जाता है,",
+        "उसकी पसंद पीछे छूट जाती है।"
+      ],
+      "caption": "कुछ आदतें छूटती नहीं हैं, बस उनका ठिकाना बदल जाता है।",
+      "keywords": [
+        "rishtey",
+        "relatable hindi",
+        "emotional diary",
+        "missing someone",
+        "micro poetry",
+        "life thoughts",
+        "small moments",
+        "hindi diary",
+        "silent love",
+        "nostalgia"
+      ],
+      "hashtags": [
+        "rishtey",
+        "microdiary",
+        "hindithoughts",
+        "relatable",
+        "missingyou",
+        "dailydiaries",
+        "emotional",
+        "lifelessons",
+        "hindiquotes",
+        "realfeelings"
+      ],
+      "topic": "रिश्ते",
+      "model_used": "gemini-3.5-flash-lite"
     }
   ]
 }
