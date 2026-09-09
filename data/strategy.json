@@ -1,28 +1,35 @@
 {
-  "confidence": "25%",
+  "confidence": "10%",
   "data_points": 2,
-  "overall_summary": "Early data is too small for a reliable winner. The current best observed signal is to test a fresh relatable emotional situation while collecting more performance data.",
+  "overall_summary": "The performance data is extremely limited with only two videos published recently, both receiving negligible views. This low sample size prevents definitive conclusions, necessitating a controlled exploration phase to test different narrative angles within the emotional niche.",
   "winning_patterns": [
     {
-      "pattern": "Highest observed views",
-      "evidence": "The strongest current video has only a handful of views, so this is directional rather than statistically reliable.",
-      "action": "Run a controlled test around a concrete digital-life moment without copying the existing wording."
+      "pattern": "None established",
+      "evidence": "Both videos have near-zero views (5 and 10 views), providing insufficient data to determine a statistically significant winning pattern.",
+      "action": "Focus on testing core emotional themes with varied hooks until consistent baseline traffic is achieved."
     }
   ],
-  "weak_patterns": [],
+  "weak_patterns": [
+    {
+      "pattern": "Generic or phone-centric breakup hooks",
+      "evidence": "Both previous videos used phone-related imagery ('number block' and 'picture on number') and yielded minimal engagement.",
+      "action": "Shift away from phone/screen-based hooks to physical, everyday life moments of solitude and overthinking."
+    }
+  ],
   "next_video": {
     "topic": "रात के ख्याल",
-    "emotion": "regret",
-    "hook_style": "curiosity",
+    "emotion": "अकेलापन",
+    "hook_style": "Sensory observation of a quiet room",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A familiar chat or notification quietly reveals that the relationship has changed.",
-    "opening_direction": "Start with one concrete digital-life detail.",
-    "twist_direction": "Reveal the emotional meaning in the final line.",
+    "concept": "A realization during late-night hours when tea gets cold because you were busy staring at an empty chair across the table.",
+    "opening_direction": "Start with the specific detail of a half-empty tea cup growing cold on the desk at 2 AM.",
+    "twist_direction": "Realizing that the emptiness in the room isn't just physical, but the habit of waiting for someone who won't text back.",
     "duration_seconds": 10,
-    "posting_window": "7:00 PM IST test",
-    "reason": "Controlled baseline while more analytics accumulate."
+    "posting_window": "20:00 - 22:00",
+    "reason": "Late evening is the peak time when audiences relate to loneliness and overthinking before sleep."
   },
-  "experiment": "Test a fresh curiosity hook around a concrete digital-life moment.",
-  "model_used": "initial-controlled-baseline",
-  "generated_at": "2026-09-09T00:00:00+00:00"
+  "experiment": "Testing a non-phone, sensory-based hook (cold tea at night) to see if it outperforms previous digital/phone-centric opening lines.",
+  "updated_at": "2026-09-09T16:45:01.307042+00:00",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-09-09T16:45:03.767004+00:00"
 }
