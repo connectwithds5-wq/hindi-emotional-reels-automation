@@ -116,6 +116,46 @@
       ],
       "topic": "बेवफाई",
       "model_used": "gemini-3.5-flash-lite"
+    },
+    {
+      "hook": "अकसर रात को तकिए के पास",
+      "lines": [
+        "तुम्हारा पुराना खत रख लेता हूँ।",
+        "पढ़ता तो अब एक भी शब्द नहीं,",
+        "बस स्याही की महक से",
+        "तसल्ली कर लेता हूँ कि तुम हो।"
+      ],
+      "caption": "कुछ निशान वक्त के साथ धुंधले नहीं होते, बस उनकी खामोश गूँज और गहरी हो जाती है। रात के इन अनकहे पन्नों में आज भी तुम्हारा एक अधूरा हिस्सा महफूज है।",
+      "keywords": [
+        "रात के ख्याल",
+        "emotional diary",
+        "hindi micro story",
+        "late night thoughts",
+        "miss you diary",
+        "handwritten notes",
+        "sad hindi reel",
+        "nostalgia",
+        "خالات",
+        "personal diary",
+        "silent emotions"
+      ],
+      "hashtags": [
+        "raatkekhyaal",
+        "hindipoetry",
+        "microfiction",
+        "diaryentries",
+        "latenightthoughts",
+        "emotional",
+        "nostalgia",
+        "hindilines",
+        "missingyou",
+        "thoughtsoftheday",
+        "quietmoments",
+        "handwritten",
+        "sadreels"
+      ],
+      "topic": "रात के ख्याल",
+      "model_used": "gemini-3.5-flash-lite"
     }
   ]
 }
