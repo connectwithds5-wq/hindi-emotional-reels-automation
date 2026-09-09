@@ -1,35 +1,35 @@
 {
   "confidence": "10%",
   "data_points": 3,
-  "overall_summary": "The performance data is extremely limited with all videos receiving near-zero views, making statistical confidence very low. We cannot determine definitive winning patterns yet, so we must rely on a controlled exploration approach focusing on everyday sensory hooks.",
+  "overall_summary": "The performance data is extremely small (3 videos, 5-15 views, 0 engagement), resulting in statistically inconclusive patterns. Confidence is low, and the strategy relies on controlled exploration of relatable everyday emotional hooks.",
   "winning_patterns": [
     {
-      "pattern": "Sensory Hook Integration",
-      "evidence": "Using tangible objects like unblocked numbers, profile pictures, or cold tea in the hooks.",
-      "action": "Continue anchoring emotional pain to specific, everyday physical objects or digital actions."
+      "pattern": "Sensory everyday triggers",
+      "evidence": "Video uIbMpCjVutQ used a sensory object ('chai thandi ho gayi') which matches core emotional themes.",
+      "action": "Continue testing tangible physical objects as anchors for emotional thoughts."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic English/Hinglish Titles",
-      "evidence": "Video 'a9-G1X5jEOU' used mixed English/Hinglish title style ('Dil Ki Diary: Bewafai Ka Dard...').",
-      "action": "Stick strictly to Devanagari script or emotional Hindi phrases for titles to appeal directly to the core demographic."
+      "pattern": "Generic smartphone/blocking tropes",
+      "evidence": "Video aUuNKfe7jm4 used the 'number block' trope and received minimal traction (5 views).",
+      "action": "Avoid cliché smartphone interaction hooks and shift toward offline micro-moments."
     }
   ],
   "next_video": {
-    "topic": "ओवरथिंकिंग",
-    "emotion": "बेचैनी और खालीपन",
-    "hook_style": "Simple everyday action leading to overthinking",
+    "topic": "पुरानी यादें",
+    "emotion": "Melancholy and acceptance",
+    "hook_style": "Visual and physical routine",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Online status checking habit turning into the realization that they are no longer checking for you.",
-    "opening_direction": "रात के 2 बजे उसका लास्ट सीन देखने की आदत छूट गई है,",
-    "twist_direction": "क्योंकि अब डर इस बात का नहीं कि वो ऑनलाइन है, डर इस बात का है कि अब उसे फर्क नहीं पड़ता कि मैं जाग रहा हूँ।",
+    "concept": "Finding an old train ticket in a book and realizing the destination no longer matters.",
+    "opening_direction": " kitab ka panna palatate waqt ek purana train ka ticket gir jana",
+    "twist_direction": "wo safar kitna bhi lamba tha, ab sabse lamba safar uske paas na lautne ka lagta hai",
     "duration_seconds": 12,
-    "posting_window": "20:00 - 22:00",
-    "reason": "Targeting late-night scrollers who experience overthinking and loneliness during bedtime hours."
+    "posting_window": "18:00 - 21:00 IST",
+    "reason": "Evening hours align with 'रात के ख्याल' and deep reflection times for the target demographic."
   },
-  "experiment": "Testing an 'overthinking/late-night habit' hook combined with a Devanagari-only title to measure initial engagement lift.",
-  "updated_at": "2026-09-09T21:39:34.314058+00:00",
+  "experiment": "Testing if physical objects (like an old train ticket) outperform digital device hooks (like phone screens) for nostalgia and loneliness topics.",
+  "updated_at": "2026-09-09T22:39:09.367923+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-09T21:39:36.598402+00:00"
+  "generated_at": "2026-09-09T22:39:11.529031+00:00"
 }
