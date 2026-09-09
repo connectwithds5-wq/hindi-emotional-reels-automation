@@ -64,15 +64,20 @@ def generate():
     recent = [x.get("hook", "") for x in history[-30:]]
     next_video = strategy.get("next_video", {})
     topic = next_video.get("topic") or CONFIG["topics"][len(history) % len(CONFIG["topics"])]
-    strategy_context = json.dumps(next_video, ensure_ascii=False) if next_video else "No AI strategy is available yet; choose a fresh controlled baseline."
+    strategy_context = {
+        "confidence": strategy.get("confidence", ""),
+        "experiment": strategy.get("experiment", ""),
+        "next_video": next_video,
+    }
+    strategy_context_text = json.dumps(strategy_context, ensure_ascii=False, indent=2) if next_video else "No AI strategy is available yet; choose a fresh controlled baseline."
 
     prompt = f"""
 Write ONE completely original Hindi emotional micro-story for Dil Ki Diary.
 Topic: {topic}
 
 AI GROWTH STRATEGY — USE THIS AS THE DECISION INPUT:
-{strategy_context}
-The strategy is a recommendation, not permission to copy wording. Preserve originality while following its topic, emotion, hook direction and experiment when appropriate.
+{strategy_context_text}
+The strategy is a recommendation, not permission to copy wording. Preserve originality while following its topic, emotion, hook direction and experiment when appropriate. The experiment is important: make the creative choice actually test the stated hypothesis while keeping the story natural.
 
 CONTENT STYLE:
 Use short, instantly relatable emotional-reel storytelling: everyday digital-life details, silent heartbreak, missing someone, one-sided effort, changed relationships, late-night overthinking, and quiet self-respect. Use fresh wording only; never copy or closely paraphrase existing viral content.
@@ -87,7 +92,7 @@ WRITING RULES:
 - HARD LIMIT: no line longer than about 28 Hindi characters when possible.
 - Total text around 28-42 Hindi words, so it comfortably fits the notebook page.
 - Natural spoken Hindi, like someone writing privately at 1 AM.
-- Use one concrete detail: chat, last seen, birthday, photo, notification, call, voice note, song, etc.
+- Use one concrete detail: chat, last seen, birthday, photo, notification, call, voice note, song, tea cup, empty chair, room, etc., chosen to match the strategy.
 - Lines 1-3: ordinary moment.
 - Lines 4-6: reveal the hidden feeling.
 - Last 1-2 lines: sharp emotional realization/twist.
