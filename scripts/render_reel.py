@@ -12,12 +12,15 @@ TEMPLATE = ROOT / "assets" / "template.png"
 FPS = 30
 DURATION = 10
 W, H = 864, 1536
-TEXT_X = 188
-FIRST_BASELINE = 425
-LINE_GAP = 66
+
+# Match the photographed notebook: smaller centered writing whose baselines follow the page ruling.
+TEXT_CENTER_X = 545
+FIRST_BASELINE = 438
+LINE_GAP = 50
+PAGE_SLOPE_DEG = 3.0
 FONT_FAMILY = "Kalam"
-FONT_SIZE = 48
-INK = "#17264b"
+FONT_SIZE = 35
+INK = "#182642"
 
 
 def escape_xml(text):
@@ -32,20 +35,18 @@ def make_poster(data):
     output_dir.mkdir(parents=True, exist_ok=True)
     template = Image.open(TEMPLATE).convert("RGBA").resize((W, H), Image.Resampling.LANCZOS)
 
-    # Preserve every generated line as an individual diary line. Never word-wrap it.
     lines = [str(data.get("hook", "")).strip()] + [str(x).strip() for x in data.get("lines", [])]
-    lines = [x for x in lines if x][:7]
+    lines = [x for x in lines if x][:8]
 
     svg_lines = []
-    jitters = [(-2, 1, -0.45), (1, -1, 0.25), (0, 0, -0.18), (2, 1, 0.35), (-1, -1, -0.30), (1, 0, 0.20), (-2, 1, -0.15)]
     for i, line in enumerate(lines):
         y = FIRST_BASELINE + i * LINE_GAP
-        dx, dy, rot = jitters[i]
-        x = TEXT_X + dx
+        # Rotate each line around its center so the baseline rises/falls with the photographed ruling.
         svg_lines.append(
-            f'<text x="{x}" y="{y + dy}" transform="rotate({rot} {x} {y + dy})" '
+            f'<text x="{TEXT_CENTER_X}" y="{y}" text-anchor="middle" '
+            f'transform="rotate({PAGE_SLOPE_DEG} {TEXT_CENTER_X} {y})" '
             f'font-family="{FONT_FAMILY}" font-size="{FONT_SIZE}px" font-weight="300" '
-            f'fill="{INK}" letter-spacing="0.15px">{escape_xml(line)}</text>'
+            f'fill="{INK}">{escape_xml(line)}</text>'
         )
 
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">
@@ -61,8 +62,6 @@ def make_poster(data):
     poster = Image.alpha_composite(template, overlay).convert("RGB")
     poster_path = output_dir / "latest_poster.jpg"
     poster.save(poster_path, quality=95, optimize=True, progressive=True)
-    print(f"Poster: {poster_path}")
-    print(f"Diary lines ({len(lines)}): {lines}")
     return poster_path
 
 
@@ -70,7 +69,6 @@ def make_music_video(poster_path, out_path):
     sample_rate = 44100
     n = sample_rate * DURATION
     tt = np.arange(n) / sample_rate
-    # Warmer, slower three-note ambient bed.
     notes = [(196.00, 0.035), (246.94, 0.022), (293.66, 0.016)]
     audio = sum(amp * np.sin(2 * np.pi * freq * tt) for freq, amp in notes)
     audio += 0.006 * np.sin(2 * np.pi * 98.0 * tt) * (0.5 + 0.5 * np.sin(2 * np.pi * tt / 5.0))
