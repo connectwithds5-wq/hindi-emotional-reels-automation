@@ -1,29 +1,35 @@
 {
   "confidence": "10%",
   "data_points": 3,
-  "overall_summary": "The channel has extremely low view counts across the initial three uploads, indicating that historical performance data is statistically insufficient to determine a clear winning pattern. The current approach requires a controlled exploration phase testing different hook angles and posting windows.",
-  "winning_patterns": [],
+  "overall_summary": "The channel has extremely low view counts across all initial uploads (4-10 views), indicating low algorithmic distribution or a cold start phase. There is insufficient performance variance to identify definitive winning patterns, requiring a controlled exploration strategy focusing on high-retention storytelling structures.",
+  "winning_patterns": [
+    {
+      "pattern": "Sensory everyday hooks",
+      "evidence": "Using tangible objects like 'चाय' (tea) in 'uIbMpCjVutQ' connects immediate daily reality with emotional states.",
+      "action": "Continue grounding abstract heartbreak in relatable physical objects."
+    }
+  ],
   "weak_patterns": [
     {
-      "pattern": "Generic English-Hindi mixed titles and abstract hooks",
-      "evidence": "Videos like a9-G1X5jEOU used English titles and standard poetic hooks, resulting in 0 views.",
-      "action": "Shift entirely to native Devanagari titles focusing on visceral, everyday sensory details rather than poetic clichés."
+      "pattern": "Generic English/Hinglish titles",
+      "evidence": "Title like 'Dil Ki Diary: Bewafai Ka Dard aur Khamosh Yaadein' yielded very low engagement (10 views).",
+      "action": "Use pure, emotional Hindi titles and direct hook phrases that target immediate relatability."
     }
   ],
   "next_video": {
-    "topic": "रात के ख्याल",
-    "emotion": "Melancholy and Nostalgia",
-    "hook_style": "Sensory everyday moment",
+    "topic": "अधूरी मोहब्बत",
+    "emotion": "नस्टेल्जिया और टीस",
+    "hook_style": "वस्तु आधारित दैनिक यथार्थ",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Finding an old train ticket or a forgotten bill with a phone number scribbled on the back.",
-    "opening_direction": "Purane bills ke beech se ek purana train ticket mila...",
-    "twist_direction": "...aur uske peeche likha number ab bhi yaad tha, bas ab dial karne par 'yeh number astitva mein nahi hai' sunai deta hai.",
-    "duration_seconds": 10,
-    "posting_window": "20:00 - 21:30 IST",
-    "reason": "Testing late-night prime time slot for 'रात के ख्याल' and 'पुरानी यादें' topics to capture users in a reflective mood."
+    "concept": "एक किताब के पन्नों के बीच सूखा हुआ गुलाब मिलना और यह सोचना कि उसने वह फूल फेंका क्यों नहीं।",
+    "opening_direction": "पुरानी किताब खोलते ही गिरता हुआ सूखा गुलाब और उस पर जमी धूल।",
+    "twist_direction": "फूल तो सलामत रहा, लेकिन जिसके लिए रखा था, उसके दिल में जगह बदल गई।",
+    "duration_seconds": 12,
+    "posting_window": "शाम 7:00 बजे - रात 9:00 बजे",
+    "reason": "रात के समय और प्राइम प्राइम टाइम में इमोशनल और पुरानी यादों वाले कंटेंट की एंगेजमेंट सबसे ज्यादा होती है।"
   },
-  "experiment": "Testing pure Devanagari script in titles combined with a tangible, physical trigger object (train ticket) for the hook instead of abstract emotional statements.",
-  "updated_at": "2026-09-09T18:42:33.824827+00:00",
+  "experiment": "Testing a tactile, object-driven narrative hook (dry rose in a book) combined with a purely Hindi emotional title to break out of the cold start phase.",
+  "updated_at": "2026-09-09T19:37:48.986827+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-09T18:42:41.251446+00:00"
+  "generated_at": "2026-09-09T19:37:51.722209+00:00"
 }
