@@ -29,15 +29,16 @@ def make_poster(data):
     if not TEMPLATE.exists():
         raise FileNotFoundError(f"Fixed template missing: {TEMPLATE}")
 
-    # The master template is never regenerated or altered. Only the diary writing is overlaid.
+    # Fixed master scene: the photo, branding, notebook, watermark and props never change.
+    # Only the diary writing is replaced on each run.
     template = Image.open(TEMPLATE).convert("RGBA").resize((W, H), Image.Resampling.LANCZOS)
     lines = [str(data.get("hook", "")).strip()] + [str(x).strip() for x in data.get("lines", [])]
-    lines = [x for x in lines if x][:5]
+    lines = [x for x in lines if x][:8]
 
     svg_lines = []
     for i, line in enumerate(lines):
         y = FIRST_BASELINE + i * LINE_GAP
-        # SVG/Pango performs proper Devanagari shaping; Pillow's direct text renderer was producing broken glyphs.
+        # SVG/Pango gives correct Devanagari shaping and ligatures.
         svg_lines.append(
             f'<text x="{TEXT_X}" y="{y}" font-family="{FONT_FAMILY}" font-size="{FONT_SIZE}px" '
             f'font-weight="300" fill="{INK}">{escape_xml(line)}</text>'
@@ -51,8 +52,12 @@ def make_poster(data):
     svg_path = ROOT / "output" / "poster_overlay.svg"
     overlay_path = ROOT / "output" / "poster_overlay.png"
     svg_path.write_text(svg, encoding="utf-8")
-    subprocess.run(["rsvg-convert", "-o", str(overlay_path), str(svg_path)], check=True,
-                   stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    subprocess.run(
+        ["rsvg-convert", "-o", str(overlay_path), str(svg_path)],
+        check=True,
+        stdout=subprocess.DEVNULL,
+        stderr=subprocess.DEVNULL,
+    )
 
     overlay = Image.open(overlay_path).convert("RGBA")
     poster = Image.alpha_composite(template, overlay).convert("RGB")
@@ -60,18 +65,17 @@ def make_poster(data):
     poster.save(poster_path, quality=95, optimize=True, progressive=True)
 
     print(f"Poster: {poster_path}")
-    print(f"Diary lines: {lines}")
+    print(f"Diary lines ({len(lines)}): {lines}")
     return poster_path
 
 
 def make_music_video(poster_path, out_path):
-    # Original, royalty-free ambient bed synthesized locally; no external music license is needed.
+    # Locally synthesized original ambient bed; no external copyrighted audio is fetched.
     sample_rate = 44100
     n = sample_rate * DURATION
     tt = np.arange(n) / sample_rate
     notes = [(220.0, 0.040), (277.18, 0.022), (329.63, 0.015)]
     audio = sum(amp * np.sin(2 * np.pi * freq * tt) for freq, amp in notes)
-    # Gentle movement so the static poster does not feel completely silent, while staying under speech/music levels.
     audio += 0.008 * np.sin(2 * np.pi * 110.0 * tt) * (0.5 + 0.5 * np.sin(2 * np.pi * tt / 4.0))
     fade = np.minimum(1.0, tt / 1.0) * np.minimum(1.0, (DURATION - tt) / 1.2)
     audio *= np.clip(fade, 0, 1)
@@ -85,7 +89,8 @@ def make_music_video(poster_path, out_path):
 
     subprocess.run([
         "ffmpeg", "-y", "-loop", "1", "-i", str(poster_path), "-i", str(wav),
-        "-t", str(DURATION), "-r", str(FPS), "-vf", "scale=1080:1920:flags=lanczos,format=yuv420p",
+        "-t", str(DURATION), "-r", str(FPS),
+        "-vf", "scale=1080:1920:flags=lanczos,format=yuv420p",
         "-c:v", "libx264", "-preset", "veryfast", "-crf", "21",
         "-c:a", "aac", "-b:a", "128k", "-shortest", str(out_path),
     ], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
