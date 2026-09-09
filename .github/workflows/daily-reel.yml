@@ -1,0 +1,53 @@
+name: Hindi Emotional Reel
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 5 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  generate-reel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install system tools and Devanagari font
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg fonts-noto-core
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate and render reel
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          BRAND_HANDLE: ${{ secrets.BRAND_HANDLE }}
+        run: python scripts/pipeline.py
+
+      - name: Upload generated reel as workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: hindi-emotional-reel
+          path: |
+            output/latest_reel.mp4
+            output/latest_metadata.json
+          retention-days: 7
+
+      - name: Save content history
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/content_history.json
+          git diff --cached --quiet || git commit -m "Update content history"
+          git push
