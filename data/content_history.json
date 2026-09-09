@@ -228,6 +228,45 @@
       ],
       "topic": "रिश्ते",
       "model_used": "gemini-3.5-flash-lite"
+    },
+    {
+      "hook": "ऑफिस से लौटकर फोन उठाया,",
+      "lines": [
+        "तेरी पुरानी फोटो गैलरी में दिख गई।",
+        "सोचा आज तुझे फोन कर लूं,",
+        "फिर नंबर देखकर रुक गया।",
+        "दिनभर तो काम में निकल जाता है,",
+        "मगर रात होते ही यह कमरा बहुत बड़ा लगता है।",
+        "शायद अब आदत सी हो गई है,",
+        "इस खामोशी के साथ जीने की।"
+      ],
+      "caption": "पूरा दिन भीड़भाड़ में बीत जाता है, लेकिन असली अकेलापन तो रात के सन्नाटे में घर लौटने के बाद महसूस होता है। कभी-कभी किसी अपने की एक आवाज सब ठीक कर सकती है।",
+      "keywords": [
+        "dil ki diary",
+        "alone hindi micro story",
+        "akelepan ki kahani",
+        "emotional diary entry",
+        "relatable hindi thoughts",
+        "sad reality of life",
+        "night loneliness",
+        "personal diary hindi",
+        "dil ke jazbaat",
+        "hindi micro tales"
+      ],
+      "hashtags": [
+        "DilKiDiary",
+        "Akelaapan",
+        "HindiDiary",
+        "EmotionalQuotes",
+        "RelatableHindi",
+        "Heartbroken",
+        "RealFeelings",
+        "SadDiaries",
+        "HindiThoughts",
+        "Loneliness"
+      ],
+      "topic": "अकेलापन",
+      "model_used": "gemini-3.5-flash-lite"
     }
   ]
 }
