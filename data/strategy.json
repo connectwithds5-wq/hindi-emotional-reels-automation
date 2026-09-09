@@ -1,35 +1,35 @@
 {
   "confidence": "10%",
   "data_points": 3,
-  "overall_summary": "The performance data is extremely limited, with all three recent videos receiving negligible views (4-12 views) and zero engagement. Confidence is very low, requiring a controlled exploration phase to test basic hook traction.",
+  "overall_summary": "The performance data is extremely limited with all videos receiving near-zero views, making statistical confidence very low. We cannot determine definitive winning patterns yet, so we must rely on a controlled exploration approach focusing on everyday sensory hooks.",
   "winning_patterns": [
     {
-      "pattern": "None",
-      "evidence": "All videos have virtually zero views and engagement.",
-      "action": "Shift focus to testing completely fresh, sensory-based hooks."
+      "pattern": "Sensory Hook Integration",
+      "evidence": "Using tangible objects like unblocked numbers, profile pictures, or cold tea in the hooks.",
+      "action": "Continue anchoring emotional pain to specific, everyday physical objects or digital actions."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic breakup and waiting hooks",
-      "evidence": "Hooks like 'नंबर ब्लॉक नहीं किया कभी' and 'मेज पर रखी चाय ठंडी हो गई' yielded under 15 views.",
-      "action": "Avoid cliché digital-age heartbreak tropes for the next test."
+      "pattern": "Generic English/Hinglish Titles",
+      "evidence": "Video 'a9-G1X5jEOU' used mixed English/Hinglish title style ('Dil Ki Diary: Bewafai Ka Dard...').",
+      "action": "Stick strictly to Devanagari script or emotional Hindi phrases for titles to appeal directly to the core demographic."
     }
   ],
   "next_video": {
-    "topic": "अकेलापन",
-    "emotion": "Melancholy",
-    "hook_style": "Sensory and everyday object observation",
+    "topic": "ओवरथिंकिंग",
+    "emotion": "बेचैनी और खालीपन",
+    "hook_style": "Simple everyday action leading to overthinking",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization about eating alone at a restaurant table meant for two, highlighting sudden loneliness.",
-    "opening_direction": "वेटर ने आज भी गलती से दो प्लेटें लगा दीं,",
-    "twist_direction": "मैंने उसे टोका नहीं, बस सामने वाली खाली कुर्सी पर अपनी जैकेट रख दी ताकि खुद को अकेला महसूस न कराना पड़े।",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 20:00 IST",
-    "reason": "Testing evening prime time when feelings of loneliness and overthinking peak for the target audience."
+    "concept": "Online status checking habit turning into the realization that they are no longer checking for you.",
+    "opening_direction": "रात के 2 बजे उसका लास्ट सीन देखने की आदत छूट गई है,",
+    "twist_direction": "क्योंकि अब डर इस बात का नहीं कि वो ऑनलाइन है, डर इस बात का है कि अब उसे फर्क नहीं पड़ता कि मैं जाग रहा हूँ।",
+    "duration_seconds": 12,
+    "posting_window": "20:00 - 22:00",
+    "reason": "Targeting late-night scrollers who experience overthinking and loneliness during bedtime hours."
   },
-  "experiment": "Testing an object-based situational hook (restaurant setting) instead of phone/chat-based tropes to measure baseline retention.",
-  "updated_at": "2026-09-09T20:40:46.614511+00:00",
+  "experiment": "Testing an 'overthinking/late-night habit' hook combined with a Devanagari-only title to measure initial engagement lift.",
+  "updated_at": "2026-09-09T21:39:34.314058+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-09T20:40:48.827485+00:00"
+  "generated_at": "2026-09-09T21:39:36.598402+00:00"
 }
