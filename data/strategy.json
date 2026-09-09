@@ -1,35 +1,35 @@
 {
   "confidence": "10%",
   "data_points": 3,
-  "overall_summary": "The performance data is extremely small (3 videos, 5-15 views, 0 engagement), resulting in statistically inconclusive patterns. Confidence is low, and the strategy relies on controlled exploration of relatable everyday emotional hooks.",
+  "overall_summary": "The performance data is extremely limited, with all initial videos receiving near-zero views (5-13 views). There is insufficient sample size to establish a definitive high-performing pattern, necessitating a controlled exploration strategy.",
   "winning_patterns": [
     {
-      "pattern": "Sensory everyday triggers",
-      "evidence": "Video uIbMpCjVutQ used a sensory object ('chai thandi ho gayi') which matches core emotional themes.",
-      "action": "Continue testing tangible physical objects as anchors for emotional thoughts."
+      "pattern": "Sensory/Object-based hooks",
+      "evidence": "Video uIbMpCjVutQ used a tangible item ('tea') and got initial traction alongside message/image hooks.",
+      "action": "Continue leveraging everyday physical objects or actions to anchor emotional states."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic smartphone/blocking tropes",
-      "evidence": "Video aUuNKfe7jm4 used the 'number block' trope and received minimal traction (5 views).",
-      "action": "Avoid cliché smartphone interaction hooks and shift toward offline micro-moments."
+      "pattern": "Generic titles and broad emotional framing",
+      "evidence": "Videos with overly broad titles or captions like 'Bewafai Ka Dard' failed to trigger immediate engagement.",
+      "action": "Focus titles and hooks on hyper-specific, highly relatable micro-moments rather than generic emotional labels."
     }
   ],
   "next_video": {
-    "topic": "पुरानी यादें",
-    "emotion": "Melancholy and acceptance",
-    "hook_style": "Visual and physical routine",
+    "topic": "ओवरथिंकिंग",
+    "emotion": "Melancholy and self-realization",
+    "hook_style": "Micro-moment physical action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Finding an old train ticket in a book and realizing the destination no longer matters.",
-    "opening_direction": " kitab ka panna palatate waqt ek purana train ka ticket gir jana",
-    "twist_direction": "wo safar kitna bhi lamba tha, ab sabse lamba safar uske paas na lautne ka lagta hai",
+    "concept": "Typing a long message to someone who left, then deleting it because sending it only gives them power.",
+    "opening_direction": "Start with the sound or visual of fingers typing a very long paragraph late at night.",
+    "twist_direction": "Instead of hitting send, the finger hits select all and backspace, realizing the peace of silence is worth more than their reply.",
     "duration_seconds": 12,
-    "posting_window": "18:00 - 21:00 IST",
-    "reason": "Evening hours align with 'रात के ख्याल' and deep reflection times for the target demographic."
+    "posting_window": "20:00 - 22:00",
+    "reason": "Late evening hours align naturally with themes of overthinking and nighttime solitude."
   },
-  "experiment": "Testing if physical objects (like an old train ticket) outperform digital device hooks (like phone screens) for nostalgia and loneliness topics.",
-  "updated_at": "2026-09-09T22:39:09.367923+00:00",
+  "experiment": "Testing a high-friction digital habit (deleting an unsent draft message) combined with self-respect themes to see if action-oriented endings outperform passive sadness.",
+  "updated_at": "2026-09-09T23:38:28.724698+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-09T22:39:11.529031+00:00"
+  "generated_at": "2026-09-09T23:38:31.160490+00:00"
 }
