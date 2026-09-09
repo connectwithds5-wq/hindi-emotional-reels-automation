@@ -353,6 +353,44 @@
       ],
       "topic": "जो कहना रह गया",
       "model_used": "gemini-3.1-flash-lite"
+    },
+    {
+      "hook": "आज अलमारी के कोने से एक पुराना डायरी निकला,",
+      "lines": [
+        "पन्ने पलटे तो सूखे गुलाब की एक पत्ती मिली।",
+        "याद नहीं कब रखी थी ये संभाल कर,",
+        "पर खुशबू आज भी वैसी ही महसूस हुई।",
+        "सोचा था सब कुछ भूल चुका हूँ अब,",
+        "मगर एक छोटा सा कागज़ सब कुछ लौटा गया।",
+        "वकਫ਼ बदल गया है मगर यादें आज भी वहीँ ठहर जाती हैं।"
+      ],
+      "caption": "पुरानी यादें अक्सर बिना बताए लौट आती हैं और हमें वहीं छोड़ जाती हैं जहाँ हम कभी बहुत खुश हुआ करते थे। क्या आपके पास भी ऐसा कोई भूला हुआ कोना है?",
+      "keywords": [
+        "dil ki diary",
+        "purani yaadein",
+        "hindi diary entry",
+        "emotional micro story",
+        "nostalgia in hindi",
+        "old diary pages",
+        "relatable thoughts",
+        "desi diary",
+        "yaadein",
+        "emotional hindi lines"
+      ],
+      "hashtags": [
+        "DilKiDiary",
+        "PuraniYaadein",
+        "Nostalgia",
+        "HindiDiary",
+        "EmotionalThoughts",
+        "RealFeelings",
+        "DesiDiaries",
+        "Zindagi",
+        "Yaadein",
+        "HindiWriting"
+      ],
+      "topic": "पुरानी यादें",
+      "model_used": "gemini-3.5-flash-lite"
     }
   ]
 }
