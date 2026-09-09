@@ -44,7 +44,8 @@ def make_background(seed=0):
         d.arc((46 + xoff, y - 30, 125 + xoff, y + 30), 198, 342, fill=(55, 55, 52, 145), width=5)
         d.line((93 + xoff, y - 26, 101 + xoff, y + 26), fill=(40, 40, 38, 70), width=2)
     for _ in range(90):
-        x = rng.randint(170, W - 70); y = rng.randint(50, H - 50)
+        x = rng.randint(170, W - 70)
+        y = rng.randint(50, H - 50)
         r = rng.choice([1, 1, 2, 2, 3])
         d.ellipse((x, y, x + r, y + r), fill=(110, 94, 74, rng.randint(5, 16)))
     return img.filter(ImageFilter.GaussianBlur(0.15))
@@ -58,9 +59,11 @@ def wrap_lines(draw, text, font, max_width):
         if draw.textbbox((0, 0), candidate, font=font)[2] <= max_width:
             current = candidate
         else:
-            if current: lines.append(current)
+            if current:
+                lines.append(current)
             current = word
-    if current: lines.append(current)
+    if current:
+        lines.append(current)
     return lines
 
 
@@ -73,7 +76,6 @@ def draw_handwriting(draw, center_x, y, text, font, max_width, seed_text):
         tw = box[2] - box[0]
         xx = center_x - tw / 2 + rng.uniform(-1.5, 1.5)
         yy += rng.uniform(-1.5, 1.5)
-        # Slight ink bleed/ghosting makes the strokes feel pen-written.
         draw.text((xx + 1.0, yy + 0.9), line, font=font, fill=(12, 24, 39, 35))
         draw.text((xx, yy), line, font=font, fill=(15, 29, 48, 238))
         yy += int(font.size * 1.16)
@@ -87,11 +89,20 @@ def render(data, out_path):
     small_font = ImageFont.truetype(font_file, 34)
     frames_dir = ROOT / "output" / "frames"
     frames_dir.mkdir(parents=True, exist_ok=True)
-    text = [data["hook"]] + data["lines"]
 
-    for i in range(FPS * DURATION):
+    # The notebook, paper texture, lines and spiral are static for the whole reel.
+    # Build this expensive 1080x1920 background exactly once instead of 300 times.
+    background = make_background(seed=41)
+
+    text = [data["hook"]] + data["lines"]
+    handle = os.environ.get("BRAND_HANDLE", "@yourhandle")
+    total_frames = FPS * DURATION
+
+    print(f"Rendering {total_frames} frames with cached notebook background...")
+    for i in range(total_frames):
         t = i / FPS
-        img = make_background(seed=41)
+        # Copy only the already-rendered background; dynamic drawing happens on the copy.
+        img = background.copy()
         d = ImageDraw.Draw(img, "RGBA")
         cx = W / 2 + 2.5 * math.sin(t * 0.55)
         y = 465 + 2.0 * math.sin(t * 0.38 + 1.2)
@@ -107,7 +118,8 @@ def render(data, out_path):
         for idx, original in enumerate(text[1:]):
             start = 0.8 + idx * 1.35
             progress = max(0.0, min(1.0, (t - start) / 0.65))
-            if progress <= 0: continue
+            if progress <= 0:
+                continue
             shown = original[:max(1, int(len(original) * progress))]
             y = draw_handwriting(d, cx, y, shown, body_font, 820, f"{original}-{idx}") + 18
 
@@ -117,14 +129,23 @@ def render(data, out_path):
         d.line((842, 376, 830, 392), fill=(15, 29, 48, 185), width=3)
         d.arc((250, min(H - 300, y + 35), 360, min(H - 190, y + 145)), 195, 345, fill=(15, 29, 48, 145), width=3)
 
-        handle = os.environ.get("BRAND_HANDLE", "@yourhandle")
         box = d.textbbox((0, 0), handle, font=small_font)
         d.text((W - 75 - (box[2] - box[0]), H - 120), handle, font=small_font, fill=(35, 45, 54, 185))
         img.save(frames_dir / f"frame_{i:04d}.png", optimize=True)
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
     silent_video = out_path.with_name(out_path.stem + "_silent.mp4")
-    subprocess.run(["ffmpeg", "-y", "-framerate", str(FPS), "-i", str(frames_dir / "frame_%04d.png"), "-c:v", "libx264", "-pix_fmt", "yuv420p", "-crf", "22", str(silent_video)], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    subprocess.run(
+        [
+            "ffmpeg", "-y", "-framerate", str(FPS),
+            "-i", str(frames_dir / "frame_%04d.png"),
+            "-c:v", "libx264", "-pix_fmt", "yuv420p", "-crf", "22",
+            str(silent_video),
+        ],
+        check=True,
+        stdout=subprocess.DEVNULL,
+        stderr=subprocess.DEVNULL,
+    )
 
     sample_rate = 44100
     n = sample_rate * DURATION
@@ -136,11 +157,25 @@ def render(data, out_path):
     wav = out_path.with_suffix(".wav")
     import wave
     with wave.open(str(wav), "wb") as wf:
-        wf.setnchannels(1); wf.setsampwidth(2); wf.setframerate(sample_rate); wf.writeframes(pcm.tobytes())
-    subprocess.run(["ffmpeg", "-y", "-i", str(silent_video), "-i", str(wav), "-c:v", "copy", "-c:a", "aac", "-shortest", str(out_path)], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        wf.setnchannels(1)
+        wf.setsampwidth(2)
+        wf.setframerate(sample_rate)
+        wf.writeframes(pcm.tobytes())
 
-    for p in frames_dir.glob("*.png"): p.unlink()
-    silent_video.unlink(missing_ok=True); wav.unlink(missing_ok=True)
+    subprocess.run(
+        [
+            "ffmpeg", "-y", "-i", str(silent_video), "-i", str(wav),
+            "-c:v", "copy", "-c:a", "aac", "-shortest", str(out_path),
+        ],
+        check=True,
+        stdout=subprocess.DEVNULL,
+        stderr=subprocess.DEVNULL,
+    )
+
+    for p in frames_dir.glob("*.png"):
+        p.unlink()
+    silent_video.unlink(missing_ok=True)
+    wav.unlink(missing_ok=True)
 
 
 if __name__ == "__main__":
