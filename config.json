@@ -1,0 +1,21 @@
+{
+  "page_name": "Hindi Emotional Reels",
+  "brand_handle": "@yourhandle",
+  "duration_seconds": 10,
+  "width": 1080,
+  "height": 1920,
+  "auto_post": false,
+  "model": "gemini-2.5-flash",
+  "topics": [
+    "अधूरी मोहब्बत",
+    "एकतरफा प्यार",
+    "बेवफाई",
+    "रात के ख्याल",
+    "ओवरथिंकिंग",
+    "रिश्ते",
+    "अकेलापन",
+    "self respect",
+    "जो कहना रह गया",
+    "पुरानी यादें"
+  ]
+}
