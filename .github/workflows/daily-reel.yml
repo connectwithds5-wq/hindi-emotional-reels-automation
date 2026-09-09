@@ -10,7 +10,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: hindi-emotional-reel-production
+  group: hindi-emotional-reels-repo-writes
   cancel-in-progress: false
 
 jobs:
@@ -85,33 +85,23 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           echo "📱 Telegram notification: checking configuration..."
-
           if [ -z "$TELEGRAM_BOT_TOKEN" ]; then
             echo "❌ TELEGRAM_BOT_TOKEN is missing."
             exit 1
           fi
-
           if [ -z "$TELEGRAM_CHAT_ID" ]; then
             echo "❌ TELEGRAM_CHAT_ID is missing."
             exit 1
           fi
-
           echo "✅ Telegram secrets are present."
           echo "📱 Telegram notification: sending..."
-
           if [ "${{ job.status }}" = "success" ]; then
             MESSAGE="🎬 Hindi Emotional Reel — SUCCESS%0A%0A✅ Video generated%0A✅ Reel artifact uploaded%0A✅ YouTube upload step completed%0A%0A🔗 GitHub Run: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
           else
             MESSAGE="🚨 Hindi Emotional Reel — FAILED%0A%0A❌ Workflow failed%0A%0A🔗 Check logs: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
           fi
-
-          RESPONSE=$(curl -sS -X POST \
-            "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
-            --data-urlencode "chat_id=${TELEGRAM_CHAT_ID}" \
-            --data-urlencode "text=${MESSAGE}")
-
+          RESPONSE=$(curl -sS -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" --data-urlencode "chat_id=${TELEGRAM_CHAT_ID}" --data-urlencode "text=${MESSAGE}")
           echo "Telegram API response: $RESPONSE"
-
           if echo "$RESPONSE" | grep -q '"ok":true'; then
             echo "✅ Telegram notification sent successfully."
           else
