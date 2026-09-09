@@ -391,6 +391,47 @@
       ],
       "topic": "पुरानी यादें",
       "model_used": "gemini-3.5-flash-lite"
+    },
+    {
+      "hook": "रात के दो बजे",
+      "lines": [
+        "फोन की स्क्रीन जली,",
+        "उसी का मैसेज था।",
+        "पढ़ने ही वाला था कि,",
+        "टाइपिंग रुक गई।",
+        "उसने शायद कुछ लिख कर,",
+        "फिर से मिटा दिया था।",
+        "हम दोनों के बीच अब बस,"
+      ],
+      "caption": "कुछ बातें बिना कहे भी बहुत कुछ कह जाती हैं। जब सामने वाला कुछ लिखकर मिटा देता है, तो ऐसा लगता है जैसे अनकहे शब्दों का बोझ और बढ़ गया हो। यह अधूरापन ही सबसे ज्यादा चुभता है।",
+      "keywords": [
+        "adhuri mohabbat",
+        "hindi micro story",
+        "late night thoughts",
+        "silent heartbreak",
+        "dil ki diary",
+        "relatable feelings",
+        "unread messages",
+        "emotional hindi lines",
+        "one sided love",
+        "overthinking diary"
+      ],
+      "hashtags": [
+        "adhurimohabbat",
+        "hindithoughts",
+        "dilkidiary",
+        "heartbroken",
+        "latenightthoughts",
+        "relatable",
+        "hindiquotes",
+        "emotional",
+        "silentpain",
+        "poetry",
+        "brokenheart",
+        "2amthoughts"
+      ],
+      "topic": "अधूरी मोहब्बत",
+      "model_used": "gemini-3.5-flash-lite"
     }
   ]
 }
