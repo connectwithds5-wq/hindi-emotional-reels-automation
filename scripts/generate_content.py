@@ -24,7 +24,7 @@ def call_gemini_rest(api_key, model, prompt):
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
     body = {
         "contents": [{"role": "user", "parts": [{"text": prompt}]}],
-        "generationConfig": {"responseMimeType": "application/json", "temperature": 0.95, "maxOutputTokens": 700},
+        "generationConfig": {"responseMimeType": "application/json", "temperature": 0.95, "maxOutputTokens": 900},
     }
     request = urllib.request.Request(url, data=json.dumps(body, ensure_ascii=False).encode("utf-8"),
                                      headers={"x-goog-api-key": api_key, "Content-Type": "application/json"}, method="POST")
@@ -58,25 +58,11 @@ Write ONE completely original Hindi emotional micro-story for Dil Ki Diary.
 Topic: {topic}
 
 CONTENT STYLE:
-Use the kind of short, instantly relatable heartbreak/emotional thought formats currently performing well on Hindi social reels: everyday digital-life details, silent heartbreak, missing someone, one-sided effort, changed relationships, late-night overthinking, and quiet self-respect. Current emotional reel content commonly uses short broken-heart/relatable formats, but DO NOT copy or paraphrase any existing viral line. Create a fresh situation and fresh wording. citeturn0search8turn0search10
+Use short, instantly relatable emotional-reel storytelling: everyday digital-life details, silent heartbreak, missing someone, one-sided effort, changed relationships, late-night overthinking, and quiet self-respect. Use fresh wording only; never copy or closely paraphrase existing viral content.
 
 CORE FORMULA — MUST FOLLOW:
 SIMPLE real-life moment → RELATABLE detail → EMOTIONAL TWIST.
 The viewer should think: "ये मेरे साथ भी हुआ है।"
-
-GOOD RAW MATERIAL:
-- typing a message, staring at it, then deleting it
-- seeing their online status but not texting
-- their birthday arriving and deciding not to wish them
-- opening an old chat after months
-- finding their photo while clearing phone storage
-- hearing a song and remembering one exact night
-- being surrounded by people but missing one person
-- a friend who now replies like a stranger
-- realizing you are always the one starting the conversation
-- seeing their name in an old notification
-- wanting to tell them something and remembering you no longer have that right
-- choosing not to send one last message
 
 WRITING RULES:
 - Exactly 7 or 8 short lines total; hook is line 1.
@@ -91,16 +77,23 @@ WRITING RULES:
 - The final line should be the strongest and most screenshot-worthy line.
 - Make the ending hurt quietly, not melodramatically.
 - Do NOT make a generic quote, lecture, motivational post, or traditional shayari.
-- Do NOT use recycled openings like "कुछ लोग...", "कुछ रिश्ते...", "वक्त सब सिखा देता है...", "अब किसी से उम्मीद नहीं...".
+- Do NOT use recycled openings like "कुछ लोग...", "कुछ रिश्ते...", "वक्त सब सिखा देता है...".
 - Do NOT force rhyme.
 - Do NOT use famous shayari, songs, movie dialogues, or copied/recognizable viral wording.
 - No emojis, quotation marks, bullets, labels, or English words inside reel text.
 
+YOUTUBE SHORTS SEO METADATA:
+- Create a searchable but natural title using the hook and the main emotional topic. Keep it concise; target roughly 45-65 characters when possible. Do not keyword-stuff.
+- Write a YouTube description of 2-4 natural sentences. Put the primary topic phrase naturally in the first sentence, explain the emotional situation, and end with a simple engagement question only when it feels natural.
+- Create 10-15 YouTube search keywords/phrases. Mix Hindi and Roman-Hindi variations relevant to this exact story: topic, emotion, situation, and audience intent. Do not add unrelated high-volume terms.
+- Create 6-10 highly relevant hashtags. Prefer specific topic/story hashtags plus 1-2 broad discovery hashtags. Do not repeat the same word excessively.
+- Also provide an Instagram-style caption separately, but keep it natural and story-specific.
+- SEO must describe the actual video. Never use misleading clickbait, unrelated trending keywords, celebrity names, or copied viral phrases.
+
 Example of the FEEL only — DO NOT COPY:
 आज उसका birthday था,
 नाम सामने आया तो रुक गया।
-wish लिखी...
-फिर delete कर दी।
+फिर message लिखकर मिटा दिया।
 अजीब है ना,
 जिसे कभी सबसे पहले wish करते थे,
 अब उसी से बात करने का हक नहीं रहा।
@@ -112,8 +105,12 @@ Return ONLY valid JSON:
 {{
   "hook": "line 1",
   "lines": ["line 2", "line 3", "line 4", "line 5", "line 6", "line 7", "line 8"],
-  "caption": "1-3 natural sentences",
-  "keywords": ["8-12 search keywords"],
+  "youtube_title": "SEO-friendly YouTube Shorts title",
+  "youtube_description": "2-4 natural SEO-aware sentences",
+  "youtube_keywords": ["10-15 relevant search phrases"],
+  "youtube_hashtags": ["6-10 relevant hashtags without #"],
+  "caption": "Instagram-style natural caption",
+  "keywords": ["8-12 relevant search keywords"],
   "hashtags": ["8-15 hashtags without #"]
 }}
 """
@@ -145,6 +142,10 @@ Return ONLY valid JSON:
     data["model_used"] = used_model
     data["hook"] = str(data.get("hook", "")).strip()
     data["lines"] = [str(x).strip() for x in data.get("lines", [])][:7]
+    data["youtube_title"] = str(data.get("youtube_title", data["hook"])).strip()
+    data["youtube_description"] = str(data.get("youtube_description", data.get("caption", ""))).strip()
+    data["youtube_keywords"] = [str(x).strip() for x in data.get("youtube_keywords", []) if str(x).strip()]
+    data["youtube_hashtags"] = [str(x).strip().lstrip("#") for x in data.get("youtube_hashtags", []) if str(x).strip()]
     data["caption"] = str(data.get("caption", "")).strip()
     data["keywords"] = [str(x).strip() for x in data.get("keywords", [])]
     data["hashtags"] = [str(x).strip().lstrip("#") for x in data.get("hashtags", [])]
