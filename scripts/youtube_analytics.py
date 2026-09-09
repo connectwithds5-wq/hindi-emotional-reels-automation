@@ -8,7 +8,6 @@ from googleapiclient.discovery import build
 
 ROOT = Path(__file__).resolve().parents[1]
 HISTORY = ROOT / "data" / "analytics_history.json"
-SCOPES = ["https://www.googleapis.com/auth/youtube.readonly"]
 
 
 def get_credentials():
@@ -16,13 +15,16 @@ def get_credentials():
     missing = [x for x in required if not os.environ.get(x, "").strip()]
     if missing:
         raise RuntimeError("Missing YouTube secrets: " + ", ".join(missing))
+
+    # Do not pass scopes here. The refresh token is already bound to the
+    # OAuth scopes granted during authorization. Passing a new scope list
+    # causes Google's token endpoint to return invalid_scope.
     return Credentials(
         None,
         refresh_token=os.environ["YOUTUBE_REFRESH_TOKEN"],
         token_uri="https://oauth2.googleapis.com/token",
         client_id=os.environ["YOUTUBE_CLIENT_ID"],
         client_secret=os.environ["YOUTUBE_CLIENT_SECRET"],
-        scopes=SCOPES,
     )
 
 
@@ -39,12 +41,19 @@ def collect():
         order="date",
         maxResults=20,
     ).execute()
-    video_ids = [x["id"]["videoId"] for x in response.get("items", []) if x.get("id", {}).get("videoId")]
+    video_ids = [
+        x["id"]["videoId"]
+        for x in response.get("items", [])
+        if x.get("id", {}).get("videoId")
+    ]
     if not video_ids:
         print("No YouTube videos found yet; analytics skipped.")
         return None
 
-    details = youtube.videos().list(part="statistics,snippet", id=",".join(video_ids)).execute()
+    details = youtube.videos().list(
+        part="statistics,snippet",
+        id=",".join(video_ids),
+    ).execute()
     collected_at = datetime.now(timezone.utc).isoformat()
     records = []
     for item in details.get("items", []):
@@ -64,7 +73,10 @@ def collect():
     if HISTORY.exists():
         history = json.loads(HISTORY.read_text(encoding="utf-8"))
     history.extend(records)
-    HISTORY.write_text(json.dumps(history[-1000:], ensure_ascii=False, indent=2), encoding="utf-8")
+    HISTORY.write_text(
+        json.dumps(history[-1000:], ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
     print(json.dumps(records, ensure_ascii=False, indent=2))
     return records
 
