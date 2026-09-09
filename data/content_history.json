@@ -267,6 +267,47 @@
       ],
       "topic": "अकेलापन",
       "model_used": "gemini-3.5-flash-lite"
+    },
+    {
+      "hook": "फ़ोन की गैलरी साफ कर रहा था,",
+      "lines": [
+        "तेरी पुरानी तस्वीर सामने आ गई।",
+        "सोचा एक लम्बा मैसेज भेज दूँ,",
+        "पूछूँ कि सब कुछ क्यों बदल गया।",
+        "फिर स्क्रीन पर अपनी उंगली रुक गई।",
+        "याद आया कि अब जवाब नहीं आएगा।",
+        "मैंने वो फोटो बिना देखे डिलीट कर दी।",
+        "खुद को खोने से बेहतर है उसे छोड़ देना।"
+      ],
+      "caption": "कभी-कभी किसी को जाने देना ही खुद को वापस पाने का सबसे पहला कदम होता है। ये डायरी का वो पन्ना है जहाँ मैंने शिकायतों से ऊपर खुद को चुना।",
+      "keywords": [
+        "self respect",
+        "self love",
+        "letting go",
+        "moving on",
+        "dil ki diary",
+        "hindi diary",
+        "emotional diary",
+        "personal diary",
+        "hindi micro story",
+        "real feelings"
+      ],
+      "hashtags": [
+        "selfrespect",
+        "dilkidiary",
+        "hindidiary",
+        "microstories",
+        "relatable",
+        "hindithoughts",
+        "lettinggo",
+        "emotional",
+        "lifelessons",
+        "innerpeace",
+        "hindiquotes",
+        "truestory"
+      ],
+      "topic": "self respect",
+      "model_used": "gemini-3.5-flash-lite"
     }
   ]
 }
