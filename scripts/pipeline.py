@@ -17,8 +17,9 @@ def main():
     env["BRAND_HANDLE"] = env.get("BRAND_HANDLE", "@yourhandle")
     subprocess.run([sys.executable, str(ROOT / "scripts" / "render_reel.py")], env=env, check=True)
     (ROOT / "output" / "latest_metadata.json").write_text(payload, encoding="utf-8")
-    print("TITLE/HANDLED CONTENT:")
+    print("POSTER/CONTENT:")
     print(json.dumps(data, ensure_ascii=False, indent=2))
+    print("POSTER: output/latest_poster.jpg")
     print("VIDEO: output/latest_reel.mp4")
 
 
