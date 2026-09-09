@@ -5,6 +5,7 @@ from pathlib import Path
 
 from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
+from googleapiclient.errors import HttpError
 
 ROOT = Path(__file__).resolve().parents[1]
 HISTORY = ROOT / "data" / "analytics_history.json"
@@ -17,8 +18,7 @@ def get_credentials():
         raise RuntimeError("Missing YouTube secrets: " + ", ".join(missing))
 
     # Do not pass scopes here. The refresh token is already bound to the
-    # OAuth scopes granted during authorization. Passing a new scope list
-    # causes Google's token endpoint to return invalid_scope.
+    # OAuth scopes granted during authorization.
     return Credentials(
         None,
         refresh_token=os.environ["YOUTUBE_REFRESH_TOKEN"],
@@ -28,24 +28,58 @@ def get_credentials():
     )
 
 
+def discover_video_ids(youtube, channel_id):
+    # Use the channel's uploads playlist instead of search.list. This is
+    # cheaper, deterministic, and reliably returns videos belonging to the
+    # configured channel.
+    channel = youtube.channels().list(
+        part="contentDetails,snippet",
+        id=channel_id,
+    ).execute()
+    items = channel.get("items", [])
+    if not items:
+        raise RuntimeError(
+            "YOUTUBE_CHANNEL_ID was not found. Check that the secret contains the correct channel ID."
+        )
+
+    uploads_playlist = items[0].get("contentDetails", {}).get("relatedPlaylists", {}).get("uploads")
+    if not uploads_playlist:
+        raise RuntimeError("Could not find the channel uploads playlist.")
+
+    video_ids = []
+    page_token = None
+    while len(video_ids) < 50:
+        response = youtube.playlistItems().list(
+            part="contentDetails,snippet",
+            playlistId=uploads_playlist,
+            maxResults=min(50, 50 - len(video_ids)),
+            pageToken=page_token,
+        ).execute()
+        for item in response.get("items", []):
+            video_id = item.get("contentDetails", {}).get("videoId")
+            if video_id:
+                video_ids.append(video_id)
+        page_token = response.get("nextPageToken")
+        if not page_token:
+            break
+    return video_ids
+
+
 def collect():
     channel_id = os.environ.get("YOUTUBE_CHANNEL_ID", "").strip()
     if not channel_id:
         raise RuntimeError("Missing YouTube secret: YOUTUBE_CHANNEL_ID")
 
     youtube = build("youtube", "v3", credentials=get_credentials(), cache_discovery=False)
-    response = youtube.search().list(
-        part="id",
-        channelId=channel_id,
-        type="video",
-        order="date",
-        maxResults=20,
-    ).execute()
-    video_ids = [
-        x["id"]["videoId"]
-        for x in response.get("items", [])
-        if x.get("id", {}).get("videoId")
-    ]
+    try:
+        video_ids = discover_video_ids(youtube, channel_id)
+    except HttpError as exc:
+        print("YouTube API error while discovering channel videos:")
+        print(exc)
+        raise RuntimeError(
+            "YouTube API could not read the channel. The OAuth refresh token must have permission to read YouTube channel data."
+        ) from exc
+
     if not video_ids:
         print("No YouTube videos found yet; analytics skipped.")
         return None
