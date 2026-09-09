@@ -1,35 +1,35 @@
 {
   "confidence": "10%",
   "data_points": 3,
-  "overall_summary": "The channel has extremely low view counts across all initial uploads (4-10 views), indicating low algorithmic distribution or a cold start phase. There is insufficient performance variance to identify definitive winning patterns, requiring a controlled exploration strategy focusing on high-retention storytelling structures.",
+  "overall_summary": "The performance data is extremely limited, with all three recent videos receiving negligible views (4-12 views) and zero engagement. Confidence is very low, requiring a controlled exploration phase to test basic hook traction.",
   "winning_patterns": [
     {
-      "pattern": "Sensory everyday hooks",
-      "evidence": "Using tangible objects like 'चाय' (tea) in 'uIbMpCjVutQ' connects immediate daily reality with emotional states.",
-      "action": "Continue grounding abstract heartbreak in relatable physical objects."
+      "pattern": "None",
+      "evidence": "All videos have virtually zero views and engagement.",
+      "action": "Shift focus to testing completely fresh, sensory-based hooks."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic English/Hinglish titles",
-      "evidence": "Title like 'Dil Ki Diary: Bewafai Ka Dard aur Khamosh Yaadein' yielded very low engagement (10 views).",
-      "action": "Use pure, emotional Hindi titles and direct hook phrases that target immediate relatability."
+      "pattern": "Generic breakup and waiting hooks",
+      "evidence": "Hooks like 'नंबर ब्लॉक नहीं किया कभी' and 'मेज पर रखी चाय ठंडी हो गई' yielded under 15 views.",
+      "action": "Avoid cliché digital-age heartbreak tropes for the next test."
     }
   ],
   "next_video": {
-    "topic": "अधूरी मोहब्बत",
-    "emotion": "नस्टेल्जिया और टीस",
-    "hook_style": "वस्तु आधारित दैनिक यथार्थ",
+    "topic": "अकेलापन",
+    "emotion": "Melancholy",
+    "hook_style": "Sensory and everyday object observation",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "एक किताब के पन्नों के बीच सूखा हुआ गुलाब मिलना और यह सोचना कि उसने वह फूल फेंका क्यों नहीं।",
-    "opening_direction": "पुरानी किताब खोलते ही गिरता हुआ सूखा गुलाब और उस पर जमी धूल।",
-    "twist_direction": "फूल तो सलामत रहा, लेकिन जिसके लिए रखा था, उसके दिल में जगह बदल गई।",
-    "duration_seconds": 12,
-    "posting_window": "शाम 7:00 बजे - रात 9:00 बजे",
-    "reason": "रात के समय और प्राइम प्राइम टाइम में इमोशनल और पुरानी यादों वाले कंटेंट की एंगेजमेंट सबसे ज्यादा होती है।"
+    "concept": "A realization about eating alone at a restaurant table meant for two, highlighting sudden loneliness.",
+    "opening_direction": "वेटर ने आज भी गलती से दो प्लेटें लगा दीं,",
+    "twist_direction": "मैंने उसे टोका नहीं, बस सामने वाली खाली कुर्सी पर अपनी जैकेट रख दी ताकि खुद को अकेला महसूस न कराना पड़े।",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 20:00 IST",
+    "reason": "Testing evening prime time when feelings of loneliness and overthinking peak for the target audience."
   },
-  "experiment": "Testing a tactile, object-driven narrative hook (dry rose in a book) combined with a purely Hindi emotional title to break out of the cold start phase.",
-  "updated_at": "2026-09-09T19:37:48.986827+00:00",
+  "experiment": "Testing an object-based situational hook (restaurant setting) instead of phone/chat-based tropes to measure baseline retention.",
+  "updated_at": "2026-09-09T20:40:46.614511+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-09T19:37:51.722209+00:00"
+  "generated_at": "2026-09-09T20:40:48.827485+00:00"
 }
