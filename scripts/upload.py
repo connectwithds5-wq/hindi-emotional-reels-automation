@@ -20,6 +20,15 @@ def env_required(name):
 
 
 def upload():
+    required = ["YOUTUBE_CLIENT_ID", "YOUTUBE_CLIENT_SECRET", "YOUTUBE_REFRESH_TOKEN"]
+    missing = [name for name in required if not os.environ.get(name, "").strip()]
+    if missing:
+        print("YouTube upload skipped: OAuth secrets not configured yet")
+        return None
+
+    if not VIDEO.exists() or not METADATA.exists():
+        raise FileNotFoundError("Generated reel or metadata is missing")
+
     data = json.loads(METADATA.read_text(encoding="utf-8"))
     creds = Credentials(
         token=None,
@@ -34,9 +43,7 @@ def upload():
     topic = str(data.get("topic", "Hindi emotional diary"))
     caption = str(data.get("caption", "Dil Ki Diary"))
     hashtags = " ".join("#" + h for h in data.get("hashtags", [])[:8])
-    title = str(data.get("hook", "Dil Ki Diary")).strip()[:92]
-    if not title:
-        title = "Dil Ki Diary"
+    title = str(data.get("hook", "Dil Ki Diary")).strip()[:92] or "Dil Ki Diary"
     description = f"{caption}\n\n{hashtags}\n\n#Shorts #DilKiDiary"
 
     body = {
