@@ -70,27 +70,31 @@ def generate():
     topic = CONFIG["topics"][len(history) % len(CONFIG["topics"])]
 
     prompt = f"""
-Create ONE completely original Hindi emotional micro-story for a 10-second faceless diary reel.
+Create ONE completely original Hindi emotional diary entry for a 10-second faceless reel.
 Topic: {topic}
 
-VISUAL FORMAT IS FIXED:
-- The words will be handwritten onto a real-looking ruled notebook page.
-- Write for a small diary page, so the final reel must contain ONLY 4-5 short handwritten lines total.
-- Total reel text: 22-30 Hindi words maximum.
-- Each line should be short enough to fit one notebook rule naturally.
-- Do not create a separate headline/title. The first line is simply the beginning of the thought.
-- Use simple modern Hindi, intimate and emotionally sharp.
-- Make it feel like a tiny real-life moment with an emotional turn, not generic shayari.
-- Avoid overused phrases and clichés.
+IMPORTANT WRITING STYLE:
+- This must sound like something a real person would quietly write in their diary at night.
+- Do NOT write it like a shayari, poem, quote card, motivational quote, or social-media caption.
+- Use conversational, intimate Hindi with a natural emotional turn.
+- Start with a strong but believable first line, then develop one tiny thought/moment, and finish with an emotional afterthought.
+- Avoid generic phrases such as 'तुम मेरी जिंदगी हो', 'आज भी तुम्हारी याद आती है', 'सच्चा प्यार', etc. unless the context makes them genuinely fresh.
+- The writing should feel specific and relatable, not dramatic for the sake of drama.
+
+VISUAL CONSTRAINTS:
+- The words will be placed on the blue ruled lines of a notebook page.
+- Write exactly 4 or 5 short lines total.
+- Aim for 4-7 Hindi words per line and 22-30 Hindi words total.
+- Each line should read naturally on its own and should not be so long that it needs to wrap again.
+- Do NOT create a separate headline/title. The first line is the beginning of the diary thought.
+- Do NOT use emojis, quotation marks, labels, bullets, or English words inside the reel text.
 - Do NOT copy famous shayari, songs, movie dialogues, quotes, or known writers.
-- Do NOT use emojis inside the reel text.
-- Do NOT add stage directions, quotation marks, labels, or English words in the reel text.
 
 Previous hooks to avoid repeating: {json.dumps(recent, ensure_ascii=False)}
 
 Return ONLY valid JSON with these keys:
- hook: the first short Hindi line
- lines: array containing 3-4 additional short Hindi lines; hook + lines must total 4-5 lines and 22-30 words
+ hook: the first diary line
+ lines: array containing 3-4 additional diary lines; hook + lines must be exactly 4-5 lines total
  caption: Instagram/YouTube caption, 1-3 sentences
  keywords: array of 8-12 Hindi/English search keywords
  hashtags: array of 8-15 hashtags, no # needed
