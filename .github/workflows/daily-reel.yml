@@ -11,7 +11,7 @@ permissions:
 jobs:
   generate-reel:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 10
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -33,13 +33,6 @@ jobs:
           python-version: '3.11'
 
       - name: Install Python dependencies
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
-          restore-keys: ${{ runner.os }}-pip-
-
-      - name: Install packages
         run: pip install -r requirements.txt
 
       - name: Generate poster and music reel
@@ -48,7 +41,7 @@ jobs:
           BRAND_HANDLE: ${{ secrets.BRAND_HANDLE }}
         run: python scripts/pipeline.py
 
-      - name: Upload generated poster and reel as workflow artifacts
+      - name: Upload poster and reel artifact
         uses: actions/upload-artifact@v4
         with:
           name: hindi-emotional-poster-reel
@@ -58,8 +51,7 @@ jobs:
             output/latest_metadata.json
           retention-days: 7
 
-      - name: Upload reel to YouTube Shorts
-        if: ${{ secrets.YOUTUBE_CLIENT_ID != '' && secrets.YOUTUBE_CLIENT_SECRET != '' && secrets.YOUTUBE_REFRESH_TOKEN != '' }}
+      - name: Upload reel to YouTube Shorts when configured
         env:
           YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
           YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
