@@ -66,3 +66,21 @@ jobs:
           git add data/content_history.json
           git diff --cached --quiet || git commit -m "Update content history"
           git push
+
+      - name: Send Telegram notification
+        if: ${{ always() && secrets.TELEGRAM_BOT_TOKEN != '' && secrets.TELEGRAM_CHAT_ID != '' }}
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          if [ "${{ job.status }}" = "success" ]; then
+            MESSAGE="🎬 Hindi Emotional Reel — SUCCESS%0A%0A✅ Video generated%0A✅ Reel artifact uploaded%0A✅ YouTube upload step completed%0A%0A🔗 GitHub Run: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          else
+            MESSAGE="🚨 Hindi Emotional Reel — FAILED%0A%0A❌ Workflow failed%0A%0A🔗 Check logs: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          fi
+
+          curl -sS --fail -X POST \
+            "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${TELEGRAM_CHAT_ID}" \
+            --data-urlencode "text=${MESSAGE}" \
+            || echo "Telegram notification failed; keeping workflow result unchanged."
