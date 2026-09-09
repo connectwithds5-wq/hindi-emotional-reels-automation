@@ -1,8 +1,10 @@
 import json
 import os
 import subprocess
+import wave
 from pathlib import Path
 
+import numpy as np
 from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -12,13 +14,13 @@ FPS = 30
 DURATION = 10
 W, H = 864, 1536
 
-# Match the photographed notebook: small centered writing whose baselines follow the page ruling.
+# Small, centered diary writing aligned to the photographed notebook ruling.
 TEXT_CENTER_X = 545
 FIRST_BASELINE = 438
-LINE_GAP = 50
+LINE_GAP = 48
 PAGE_SLOPE_DEG = 3.0
 FONT_FAMILY = "Kalam"
-FONT_SIZE = 35
+FONT_SIZE = 31
 INK = "#182642"
 
 
@@ -30,36 +32,34 @@ def escape_xml(text):
 def make_poster(data):
     if not TEMPLATE.exists():
         raise FileNotFoundError(f"Fixed template missing: {TEMPLATE}")
-
     output_dir = ROOT / "output"
     output_dir.mkdir(parents=True, exist_ok=True)
     template = Image.open(TEMPLATE).convert("RGBA").resize((W, H), Image.Resampling.LANCZOS)
 
-    # Preserve each generated diary line as one notebook line. Never word-wrap.
     lines = [str(data.get("hook", "")).strip()] + [str(x).strip() for x in data.get("lines", [])]
     lines = [x for x in lines if x][:8]
 
     svg_lines = []
+    # Keep the text comfortably inside the writing area. Longer lines are reduced slightly.
     for i, line in enumerate(lines):
         y = FIRST_BASELINE + i * LINE_GAP
+        size = 31 if len(line) <= 27 else 28
         svg_lines.append(
             f'<text x="{TEXT_CENTER_X}" y="{y}" text-anchor="middle" '
             f'transform="rotate({PAGE_SLOPE_DEG} {TEXT_CENTER_X} {y})" '
-            f'font-family="{FONT_FAMILY}" font-size="{FONT_SIZE}px" font-weight="300" '
+            f'font-family="{FONT_FAMILY}" font-size="{size}px" font-weight="300" '
             f'fill="{INK}">{escape_xml(line)}</text>'
         )
 
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">
-<style>text {{ font-family: Kalam; font-size: {FONT_SIZE}px; font-weight: 300; }}</style>
+<style>text {{ font-family: Kalam; font-weight: 300; }}</style>
 {''.join(svg_lines)}
 </svg>'''
-
     svg_path = output_dir / "poster_overlay.svg"
     overlay_path = output_dir / "poster_overlay.png"
     svg_path.write_text(svg, encoding="utf-8")
     subprocess.run(["rsvg-convert", "-o", str(overlay_path), str(svg_path)], check=True,
                    stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-
     overlay = Image.open(overlay_path).convert("RGBA")
     poster = Image.alpha_composite(template, overlay).convert("RGB")
     poster_path = output_dir / "latest_poster.jpg"
@@ -69,21 +69,15 @@ def make_poster(data):
 
 def make_music_video(poster_path, out_path):
     if not MUSIC.exists():
-        raise FileNotFoundError(f"Background music missing: {MUSIC}")
-
-    # Use the user's supplied 10-second track. The poster is held for exactly the same duration.
-    # If the track is slightly longer/shorter, FFmpeg trims/pads the audio to exactly 10 seconds.
+        raise FileNotFoundError(f"Music missing: {MUSIC}")
+    # The uploaded track is the source of truth: final video is exactly 10 seconds.
     subprocess.run([
-        "ffmpeg", "-y",
-        "-loop", "1", "-i", str(poster_path),
-        "-i", str(MUSIC),
-        "-t", str(DURATION),
-        "-r", str(FPS),
+        "ffmpeg", "-y", "-loop", "1", "-i", str(poster_path), "-i", str(MUSIC),
+        "-t", str(DURATION), "-r", str(FPS),
         "-vf", "scale=1080:1920:flags=lanczos,format=yuv420p",
-        "-af", f"atrim=0:{DURATION},apad,afade=t=out:st={DURATION - 0.6}:d=0.6",
+        "-af", "afade=t=out:st=9:d=1",
         "-c:v", "libx264", "-preset", "veryfast", "-crf", "21",
-        "-c:a", "aac", "-b:a", "192k",
-        "-shortest", str(out_path),
+        "-c:a", "aac", "-b:a", "192k", "-shortest", str(out_path),
     ], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     return out_path
 
