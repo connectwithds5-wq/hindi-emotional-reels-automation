@@ -6,6 +6,7 @@
   "height": 1920,
   "auto_post": false,
   "model": "gemini-3.6-flash",
+  "lite_model": "gemini-3.1-flash-lite",
   "topics": [
     "अधूरी मोहब्बत",
     "एकतरफा प्यार",
