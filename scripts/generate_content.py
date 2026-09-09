@@ -88,10 +88,12 @@ Return ONLY valid JSON with these keys:
  hashtags: array of 8-15 hashtags, no # needed
 """
 
-    models = [CONFIG["model"]]
-    lite_model = CONFIG.get("lite_model")
-    if lite_model and lite_model not in models:
-        models.append(lite_model)
+    # Primary + all configured free Lite fallbacks.
+    models = []
+    for key in ("model", "lite_model", "legacy_lite_model"):
+        model = CONFIG.get(key)
+        if model and model not in models:
+            models.append(model)
 
     last_error = None
     data = None
@@ -108,7 +110,7 @@ Return ONLY valid JSON with these keys:
             last_error = exc
             print(f"Model {model} failed: {exc}")
             if model != models[-1]:
-                print(f"Falling back to Lite model: {lite_model}")
+                print("Trying next configured fallback model...")
 
     if data is None:
         raise RuntimeError(f"All configured Gemini models failed. Last error: {last_error}")
