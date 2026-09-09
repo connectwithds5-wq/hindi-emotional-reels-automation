@@ -1,0 +1,28 @@
+{
+  "confidence": "25%",
+  "data_points": 2,
+  "overall_summary": "Early data is too small for a reliable winner. The current best observed signal is to test a fresh relatable emotional situation while collecting more performance data.",
+  "winning_patterns": [
+    {
+      "pattern": "Highest observed views",
+      "evidence": "The strongest current video has only a handful of views, so this is directional rather than statistically reliable.",
+      "action": "Run a controlled test around a concrete digital-life moment without copying the existing wording."
+    }
+  ],
+  "weak_patterns": [],
+  "next_video": {
+    "topic": "रात के ख्याल",
+    "emotion": "regret",
+    "hook_style": "curiosity",
+    "story_structure": "simple -> relatable -> twist",
+    "concept": "A familiar chat or notification quietly reveals that the relationship has changed.",
+    "opening_direction": "Start with one concrete digital-life detail.",
+    "twist_direction": "Reveal the emotional meaning in the final line.",
+    "duration_seconds": 10,
+    "posting_window": "7:00 PM IST test",
+    "reason": "Controlled baseline while more analytics accumulate."
+  },
+  "experiment": "Test a fresh curiosity hook around a concrete digital-life moment.",
+  "model_used": "initial-controlled-baseline",
+  "generated_at": "2026-09-09T00:00:00+00:00"
+}
