@@ -29,17 +29,14 @@ def call_gemini_rest(api_key, model, prompt):
         "contents": [{"role": "user", "parts": [{"text": prompt}]}],
         "generationConfig": {
             "responseMimeType": "application/json",
-            "temperature": 0.95,
-            "maxOutputTokens": 512,
+            "temperature": 0.92,
+            "maxOutputTokens": 700,
         },
     }
     request = urllib.request.Request(
         url,
         data=json.dumps(body, ensure_ascii=False).encode("utf-8"),
-        headers={
-            "x-goog-api-key": api_key,
-            "Content-Type": "application/json",
-        },
+        headers={"x-goog-api-key": api_key, "Content-Type": "application/json"},
         method="POST",
     )
 
@@ -70,54 +67,63 @@ def generate():
     topic = CONFIG["topics"][len(history) % len(CONFIG["topics"])]
 
     prompt = f"""
-Create ONE completely original Hindi micro-diary entry for a 10-second faceless reel.
+Write ONE completely original Hindi diary-style micro-story for the Dil Ki Diary page.
 Topic: {topic}
 
-CORE FEEL:
-- It must feel like a private thought someone wrote in their notebook after a real moment.
-- Think: one tiny real-life situation -> one realization -> one quiet emotional punch.
-- The viewer should think: "ये तो मेरे साथ भी हुआ है।"
-- Simple language is more important than poetic language.
-- Make the final line land emotionally without becoming melodramatic.
+CORE FORMULA — MUST FOLLOW:
+1. SIMPLE: begin with an ordinary real-life moment.
+2. RELATABLE: add a tiny detail people have actually experienced.
+3. EMOTIONAL TWIST: end with a quiet realization that changes the meaning of the moment.
 
-DO NOT:
-- Do not write a generic quote, shayari, poem, motivational line, or Instagram-caption style post.
-- Do not use abstract filler such as "कुछ रिश्ते", "कुछ लोग", "वक्त सब सिखा देता है" as the main idea.
-- Avoid overused phrases like "आज भी तुम्हारी याद आती है", "सच्चा प्यार", "तुम मेरी जिंदगी हो", "भूलना आसान नहीं" unless a very specific situation makes the wording genuinely fresh.
-- Do not copy or imitate famous shayari, songs, movie dialogues, or known writers.
-- Do not force rhyming.
+The reader should feel: "ये तो मेरे साथ भी हुआ है।"
+It must sound like a private diary entry written by a normal person, not a poet performing for social media.
 
-GOOD STORY PATTERN:
-Line 1: a specific everyday moment or action.
-Line 2: what the person almost said/did/thought.
-Line 3: a small realization or contradiction.
-Line 4-5: the quiet emotional twist.
+REAL-LIFE MOMENTS TO DRAW FROM:
+- coming home from office and opening an old chat
+- typing a message and deleting it
+- seeing someone's birthday but not wishing them
+- checking someone's last seen/status and pretending not to care
+- finding an old photo while cleaning the phone
+- sitting with family but mentally somewhere else
+- a friend slowly becoming a stranger
+- waiting for a reply that never comes
+- being busy all day but thinking about one person at night
+- choosing self-respect instead of sending one more message
+- meeting someone after a long time and realizing things changed
+- hearing an old song and remembering a specific day
 
-Example of the FEEL (do not copy it):
+WRITING RULES:
+- Exactly 7 or 8 short lines total, with `hook` treated as line 1.
+- Each line should be roughly 3-8 Hindi words.
+- Total reel text around 35-55 Hindi words.
+- Natural conversational Hindi. Keep it simple.
+- One small concrete detail is better than dramatic words.
+- Lines 1-3 should build the real-life moment.
+- Lines 4-6 should reveal what the person is actually feeling.
+- The last 1-2 lines MUST contain the emotional realization/twist.
+- Do NOT make it a poem, shayari, motivational quote, generic quote card, or lecture.
+- Do NOT use a separate title/headline.
+- Do NOT use famous shayari, songs, movie dialogues, or copied quotes.
+- Do NOT force rhyming.
+- Avoid vague filler such as "कुछ लोग", "कुछ रिश्ते", "वक्त सब सिखा देता है" unless tied to a specific real moment.
+- No emojis, quotation marks, bullets, labels, or English words inside the reel text.
+
+Example of the FEEL only — DO NOT COPY:
 कल उसकी chat खोली थी,
 कुछ लिखकर फिर मिटा दिया।
 अजीब है ना...
 अब उससे बात करने से ज्यादा,
 खुद को रोकना मुश्किल लगता है।
 
-VISUAL CONSTRAINTS:
-- Exactly 4 or 5 short lines total.
-- Each line must be 4-7 Hindi words where possible.
-- Total reel text should be about 22-30 words.
-- Each line must fit on ONE ruled notebook line; never make a line that needs wrapping.
-- No separate headline/title. The first line is the diary entry itself.
-- No emojis, quotation marks, bullets, labels, hashtags, or English words inside the reel text.
-- Keep punctuation natural and minimal.
-
-Previous opening lines to avoid repeating:
+Previous openings to avoid repeating:
 {json.dumps(recent, ensure_ascii=False)}
 
-Return ONLY valid JSON with these keys:
+Return ONLY valid JSON:
 {{
-  "hook": "first diary line",
-  "lines": ["3-4 additional diary lines"],
-  "caption": "Instagram/YouTube caption, 1-3 natural sentences",
-  "keywords": ["8-12 Hindi/English search keywords"],
+  "hook": "line 1",
+  "lines": ["line 2", "line 3", "line 4", "line 5", "line 6", "line 7", "line 8"],
+  "caption": "1-3 natural sentences for Instagram/YouTube",
+  "keywords": ["8-12 search keywords"],
   "hashtags": ["8-15 hashtags without #"]
 }}
 """
@@ -150,9 +156,9 @@ Return ONLY valid JSON with these keys:
 
     data["topic"] = topic
     data["model_used"] = used_model
-    data["hook"] = str(data["hook"]).strip()
-    data["lines"] = [str(x).strip() for x in data["lines"]][:4]
-    data["caption"] = str(data["caption"]).strip()
+    data["hook"] = str(data.get("hook", "")).strip()
+    data["lines"] = [str(x).strip() for x in data.get("lines", [])][:7]
+    data["caption"] = str(data.get("caption", "")).strip()
     data["keywords"] = [str(x).strip() for x in data.get("keywords", [])]
     data["hashtags"] = [str(x).strip().lstrip("#") for x in data.get("hashtags", [])]
 
