@@ -21,12 +21,21 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install system tools and Devanagari font
+      - name: Install system tools and handwriting font
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y -qq ffmpeg fonts-noto-core
+          mkdir -p assets/fonts
+          curl -L --fail --retry 3 -o assets/fonts/Kalam-Regular.ttf https://raw.githubusercontent.com/google/fonts/main/ofl/kalam/Kalam-Regular.ttf
 
       - name: Install Python dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: ${{ runner.os }}-pip-
+
+      - name: Install packages
         run: pip install -r requirements.txt
 
       - name: Generate and render reel
