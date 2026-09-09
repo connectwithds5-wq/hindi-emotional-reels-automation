@@ -308,6 +308,51 @@
       ],
       "topic": "self respect",
       "model_used": "gemini-3.5-flash-lite"
+    },
+    {
+      "hook": "आज अलमारी साफ करते हुए तुम्हारा स्वेटर मिला।",
+      "lines": [
+        "उसे पहनकर थोड़ी देर आईने के सामने खड़ा रहा।",
+        "सोचा था तुम्हें वापस कर दूँगा इस सर्दी में।",
+        "पर हाथ कांप गए मैसेज टाइप करते हुए।",
+        "अब वो खुशबू भी पुरानी हो चुकी है।",
+        "उसे तह करके वापस अंदर रख दिया है।",
+        "शायद उसे फेंकना ज्यादा आसान होता,",
+        "बजाय ये मानने के कि अब जरूरत नहीं रही।"
+      ],
+      "caption": "सामान तो हट जाता है पर वो यादें वहीं अटकी रह जाती हैं जिन्हें हम खुद ही समेटना नहीं चाहते। क्या आपके पास भी ऐसी कोई चीज है जिसे आप फेंक नहीं पाए?",
+      "keywords": [
+        "dil ki diary",
+        "emotional hindi stories",
+        "micro fiction",
+        "sad reality",
+        "hindi diary entry",
+        "relatable feelings",
+        "moving on",
+        "memories",
+        "missing someone",
+        "life lessons",
+        "hindi thoughts",
+        "personal story"
+      ],
+      "hashtags": [
+        "dilkidiary",
+        "hindistories",
+        "microfiction",
+        "kahanisuno",
+        "zindagi",
+        "yadein",
+        "hindiquotes",
+        "emotional",
+        "relatable",
+        "hindilekhak",
+        "khayal",
+        "diaryentry",
+        "sadposts",
+        "hindiwriting"
+      ],
+      "topic": "जो कहना रह गया",
+      "model_used": "gemini-3.1-flash-lite"
     }
   ]
 }
