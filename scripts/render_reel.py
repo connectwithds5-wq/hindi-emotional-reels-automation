@@ -64,14 +64,11 @@ def build_layout(draw, text, font):
 
     for line in lines:
         x = TEXT_X
-        # Slightly irregular baseline like handwriting, while staying on notebook rules.
         base_jitter = float(rng.uniform(-1.5, 1.5))
         for word in line:
             bbox = draw.textbbox((0, 0), word, font=font)
             ww = bbox[2] - bbox[0]
             wh = bbox[3] - bbox[1]
-            if x + ww > TEXT_X + TEXT_MAX_W and x > TEXT_X:
-                break
             layout.append({
                 "word": word,
                 "x": x + float(rng.uniform(-1.0, 1.0)),
@@ -87,15 +84,18 @@ def build_layout(draw, text, font):
     return layout, len(lines)
 
 
-def draw_word(draw, item, font):
-    """Render one word as a small physical ink mark, with slight rotation and soft edge."""
-    word = item["word"]
+def make_word_image(item, font, alpha=235):
+    """Render one Hindi word on transparent paper, then give it a tiny natural tilt."""
     pad = 10
     tile = Image.new("RGBA", (item["w"] + pad * 2, item["h"] + pad * 2), (0, 0, 0, 0))
     td = ImageDraw.Draw(tile, "RGBA")
-    td.text((pad, pad - 2), word, font=font, fill=INK)
-    rotated = tile.rotate(item["angle"], resample=Image.Resampling.BICUBIC, expand=True)
-    draw._image.paste(rotated, (int(item["x"] - pad), int(item["y"] - pad)), rotated)
+    td.text((pad, pad - 2), item["word"], font=font, fill=(INK[0], INK[1], INK[2], alpha))
+    return tile.rotate(item["angle"], resample=Image.Resampling.BICUBIC, expand=True)
+
+
+def draw_word(img, item, font, alpha=235):
+    rotated = make_word_image(item, font, alpha)
+    img.paste(rotated, (int(item["x"] - 10), int(item["y"] - 10)), rotated)
 
 
 def render(data, out_path):
@@ -117,7 +117,6 @@ def render(data, out_path):
     all_text = " ".join([str(data.get("hook", "")).strip()] + [str(x).strip() for x in data.get("lines", [])]).strip()
     total_keyframes = int(DURATION * KEYFRAME_FPS)
 
-    # Calculate the exact word layout once. Nothing else in the template moves.
     probe = Image.new("RGB", (W, H), "white")
     probe_draw = ImageDraw.Draw(probe)
     layout, line_count = build_layout(probe_draw, all_text, font)
@@ -125,7 +124,6 @@ def render(data, out_path):
     print(f"Fixed template: {TEMPLATE}")
     print(f"Writing layout: {word_count} words across {line_count} lines")
 
-    # Writing starts gently and finishes before the end, leaving a natural hold.
     start_time = 0.45
     end_time = 8.25
     write_span = end_time - start_time
@@ -133,30 +131,19 @@ def render(data, out_path):
     for i in range(total_keyframes):
         t = i / KEYFRAME_FPS
         img = template.copy()
-        draw = ImageDraw.Draw(img, "RGBA")
 
         if word_count:
             progress = np.clip((t - start_time) / write_span, 0.0, 1.0)
-            visible = int(np.floor(progress * word_count + 1e-6))
-            # Reveal one word at a time with a short soft fade, rather than typing chunks of lines.
+            amount = progress * word_count
+            visible = int(np.floor(amount + 1e-6))
+
             for idx, item in enumerate(layout):
                 if idx < visible:
-                    draw_word(draw, item, font)
+                    draw_word(img, item, font, 235)
                 elif idx == visible and progress > 0:
-                    frac = (progress * word_count) - visible
+                    frac = amount - visible
                     if frac > 0:
-                        # Temporary layer gives the leading word a subtle ink-in effect.
-                        layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-                        ld = ImageDraw.Draw(layer, "RGBA")
-                        alpha = int(40 + 195 * min(1.0, frac * 1.35))
-                        word = item["word"]
-                        tile = Image.new("RGBA", (item["w"] + 20, item["h"] + 20), (0, 0, 0, 0))
-                        td = ImageDraw.Draw(tile, "RGBA")
-                        td.text((10, 8), word, font=font, fill=(INK[0], INK[1], INK[2], alpha))
-                        rotated = tile.rotate(item["angle"], resample=Image.Resampling.BICUBIC, expand=True)
-                        layer.alpha_composite(rotated, (int(item["x"] - 10), int(item["y"] - 10)))
-                        img = Image.alpha_composite(img.convert("RGBA"), layer).convert("RGB")
-                        draw = ImageDraw.Draw(img, "RGBA")
+                        draw_word(img, item, font, int(35 + 200 * min(1.0, frac * 1.35)))
                     break
 
         img.save(frames_dir / f"frame_{i:03d}.jpg", quality=90, optimize=False)
