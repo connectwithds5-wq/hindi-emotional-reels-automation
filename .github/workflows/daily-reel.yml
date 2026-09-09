@@ -58,6 +58,15 @@ jobs:
             output/latest_metadata.json
           retention-days: 7
 
+      - name: Upload reel to YouTube Shorts
+        if: ${{ secrets.YOUTUBE_CLIENT_ID != '' && secrets.YOUTUBE_CLIENT_SECRET != '' && secrets.YOUTUBE_REFRESH_TOKEN != '' }}
+        env:
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+          YOUTUBE_CHANNEL_ID: ${{ secrets.YOUTUBE_CHANNEL_ID }}
+        run: python scripts/upload.py
+
       - name: Save content history
         run: |
           git config user.name "github-actions[bot]"
