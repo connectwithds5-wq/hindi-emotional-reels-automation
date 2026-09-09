@@ -12,6 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 W, H = 1080, 1920
 FPS = 30
 DURATION = 10
+KEYFRAME_FPS = 2  # 20 full-size images instead of 300 full-size images.
 
 
 def font_path():
@@ -90,18 +91,22 @@ def render(data, out_path):
     frames_dir = ROOT / "output" / "frames"
     frames_dir.mkdir(parents=True, exist_ok=True)
 
-    # The notebook, paper texture, lines and spiral are static for the whole reel.
-    # Build this expensive 1080x1920 background exactly once instead of 300 times.
+    # Clear any frames left by an interrupted previous run.
+    for p in frames_dir.glob("frame_*.jpg"):
+        p.unlink()
+    for p in frames_dir.glob("frame_*.png"):
+        p.unlink()
+
+    # Build the expensive notebook background only once.
     background = make_background(seed=41)
 
     text = [data["hook"]] + data["lines"]
     handle = os.environ.get("BRAND_HANDLE", "@yourhandle")
-    total_frames = FPS * DURATION
+    total_keyframes = int(DURATION * KEYFRAME_FPS)
 
-    print(f"Rendering {total_frames} frames with cached notebook background...")
-    for i in range(total_frames):
-        t = i / FPS
-        # Copy only the already-rendered background; dynamic drawing happens on the copy.
+    print(f"Rendering {total_keyframes} keyframes at {W}x{H}, then encoding at {FPS} FPS...")
+    for i in range(total_keyframes):
+        t = i / KEYFRAME_FPS
         img = background.copy()
         d = ImageDraw.Draw(img, "RGBA")
         cx = W / 2 + 2.5 * math.sin(t * 0.55)
@@ -123,7 +128,6 @@ def render(data, out_path):
             shown = original[:max(1, int(len(original) * progress))]
             y = draw_handwriting(d, cx, y, shown, body_font, 820, f"{original}-{idx}") + 18
 
-        # Hand-drawn heart and underline marks.
         d.arc((820, 335, 872, 382), 20, 310, fill=(15, 29, 48, 185), width=3)
         d.line((842, 376, 858, 393), fill=(15, 29, 48, 185), width=3)
         d.line((842, 376, 830, 392), fill=(15, 29, 48, 185), width=3)
@@ -131,15 +135,17 @@ def render(data, out_path):
 
         box = d.textbbox((0, 0), handle, font=small_font)
         d.text((W - 75 - (box[2] - box[0]), H - 120), handle, font=small_font, fill=(35, 45, 54, 185))
-        img.save(frames_dir / f"frame_{i:04d}.png", optimize=True)
+        img.save(frames_dir / f"frame_{i:03d}.jpg", quality=92, optimize=False)
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
     silent_video = out_path.with_name(out_path.stem + "_silent.mp4")
+
     subprocess.run(
         [
-            "ffmpeg", "-y", "-framerate", str(FPS),
-            "-i", str(frames_dir / "frame_%04d.png"),
-            "-c:v", "libx264", "-pix_fmt", "yuv420p", "-crf", "22",
+            "ffmpeg", "-y", "-framerate", str(KEYFRAME_FPS),
+            "-i", str(frames_dir / "frame_%03d.jpg"),
+            "-vf", f"fps={FPS}",
+            "-c:v", "libx264", "-preset", "veryfast", "-pix_fmt", "yuv420p", "-crf", "22",
             str(silent_video),
         ],
         check=True,
@@ -172,7 +178,7 @@ def render(data, out_path):
         stderr=subprocess.DEVNULL,
     )
 
-    for p in frames_dir.glob("*.png"):
+    for p in frames_dir.glob("frame_*.jpg"):
         p.unlink()
     silent_video.unlink(missing_ok=True)
     wav.unlink(missing_ok=True)
