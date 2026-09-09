@@ -11,8 +11,16 @@ ROOT = Path(__file__).resolve().parents[1]
 TEMPLATE = ROOT / "assets" / "template.png"
 FPS = 30
 DURATION = 10
-KEYFRAME_FPS = 5  # 50 small frames; FFmpeg creates the final 30 FPS stream.
+KEYFRAME_FPS = 5
 W, H = 864, 1536
+
+# Fixed writing area measured against the reference template.
+TEXT_X = 205
+TEXT_Y = 365
+TEXT_MAX_W = 585
+FONT_SIZE = 38
+LINE_GAP = 10
+INK = (18, 27, 48, 235)
 
 
 def font_path():
@@ -29,49 +37,65 @@ def font_path():
     raise FileNotFoundError("Devanagari handwriting font not found")
 
 
-def wrap_lines(draw, text, font, max_width):
+def wrap_words(draw, text, font, max_width):
+    """Wrap Hindi into natural diary lines without changing the supplied wording."""
     words = text.split()
     lines = []
-    current = ""
+    current = []
     for word in words:
-        candidate = (current + " " + word).strip()
-        if not current or draw.textbbox((0, 0), candidate, font=font)[2] <= max_width:
-            current = candidate
+        candidate = " ".join(current + [word])
+        width = draw.textbbox((0, 0), candidate, font=font)[2]
+        if not current or width <= max_width:
+            current.append(word)
         else:
             lines.append(current)
-            current = word
+            current = [word]
     if current:
         lines.append(current)
     return lines
 
 
-def draw_handwritten_block(draw, text, x, y, font, max_width, progress, seed):
-    """Draw a progressively revealed, slightly irregular handwritten block."""
-    lines = wrap_lines(draw, text, font, max_width)
-    rng = np.random.default_rng(seed)
-    total_chars = sum(len(line) for line in lines) + max(0, len(lines) - 1)
-    visible_chars = max(0, min(total_chars, int(total_chars * progress)))
-    consumed = 0
-    yy = y
+def build_layout(draw, text, font):
+    """Return word positions. Each word gets tiny, deterministic human-like variation."""
+    lines = wrap_words(draw, text, font, TEXT_MAX_W)
+    layout = []
+    y = TEXT_Y
+    rng = np.random.default_rng(20260909)
 
     for line in lines:
-        line_chars = len(line)
-        if consumed >= visible_chars:
-            break
-        take = min(line_chars, visible_chars - consumed)
-        shown = line[:take]
-        box = draw.textbbox((0, 0), shown, font=font)
-        tw = box[2] - box[0]
-        jitter_x = float(rng.uniform(-1.5, 1.5))
-        jitter_y = float(rng.uniform(-1.2, 1.2))
-        # Left-aligned diary handwriting, not centered computer text.
-        xx = x + jitter_x
-        draw.text((xx + 0.8, yy + 0.8 + jitter_y), shown, font=font, fill=(8, 20, 42, 45))
-        draw.text((xx, yy + jitter_y), shown, font=font, fill=(8, 20, 42, 238))
-        yy += int(font.size * 1.18)
-        consumed += line_chars + 1
+        x = TEXT_X
+        # Slightly irregular baseline like handwriting, while staying on notebook rules.
+        base_jitter = float(rng.uniform(-1.5, 1.5))
+        for word in line:
+            bbox = draw.textbbox((0, 0), word, font=font)
+            ww = bbox[2] - bbox[0]
+            wh = bbox[3] - bbox[1]
+            if x + ww > TEXT_X + TEXT_MAX_W and x > TEXT_X:
+                break
+            layout.append({
+                "word": word,
+                "x": x + float(rng.uniform(-1.0, 1.0)),
+                "y": y + base_jitter + float(rng.uniform(-1.4, 1.4)),
+                "angle": float(rng.uniform(-1.3, 1.3)),
+                "w": ww,
+                "h": wh,
+            })
+            space_w = draw.textlength(" ", font=font)
+            x += ww + space_w + float(rng.uniform(-1.0, 2.0))
+        y += font.size + LINE_GAP
 
-    return yy
+    return layout, len(lines)
+
+
+def draw_word(draw, item, font):
+    """Render one word as a small physical ink mark, with slight rotation and soft edge."""
+    word = item["word"]
+    pad = 10
+    tile = Image.new("RGBA", (item["w"] + pad * 2, item["h"] + pad * 2), (0, 0, 0, 0))
+    td = ImageDraw.Draw(tile, "RGBA")
+    td.text((pad, pad - 2), word, font=font, fill=INK)
+    rotated = tile.rotate(item["angle"], resample=Image.Resampling.BICUBIC, expand=True)
+    draw._image.paste(rotated, (int(item["x"] - pad), int(item["y"] - pad)), rotated)
 
 
 def render(data, out_path):
@@ -79,8 +103,7 @@ def render(data, out_path):
         raise FileNotFoundError(f"Fixed template missing: {TEMPLATE}")
 
     font_file = font_path()
-    title_font = ImageFont.truetype(font_file, 48)
-    body_font = ImageFont.truetype(font_file, 39)
+    font = ImageFont.truetype(font_file, FONT_SIZE)
 
     frames_dir = ROOT / "output" / "frames"
     frames_dir.mkdir(parents=True, exist_ok=True)
@@ -89,48 +112,58 @@ def render(data, out_path):
     for p in frames_dir.glob("frame_*.png"):
         p.unlink()
 
-    # The uploaded reference is the permanent visual master. No new background is generated.
+    # The uploaded blank template is the permanent visual master.
     template = Image.open(TEMPLATE).convert("RGB").resize((W, H), Image.Resampling.LANCZOS)
-    text = [str(data["hook"]).strip()] + [str(x).strip() for x in data["lines"]]
+    all_text = " ".join([str(data.get("hook", "")).strip()] + [str(x).strip() for x in data.get("lines", [])]).strip()
     total_keyframes = int(DURATION * KEYFRAME_FPS)
 
-    print(f"Using fixed template: {TEMPLATE}")
-    print(f"Rendering {total_keyframes} keyframes at {W}x{H}...")
+    # Calculate the exact word layout once. Nothing else in the template moves.
+    probe = Image.new("RGB", (W, H), "white")
+    probe_draw = ImageDraw.Draw(probe)
+    layout, line_count = build_layout(probe_draw, all_text, font)
+    word_count = len(layout)
+    print(f"Fixed template: {TEMPLATE}")
+    print(f"Writing layout: {word_count} words across {line_count} lines")
+
+    # Writing starts gently and finishes before the end, leaving a natural hold.
+    start_time = 0.45
+    end_time = 8.25
+    write_span = end_time - start_time
 
     for i in range(total_keyframes):
         t = i / KEYFRAME_FPS
         img = template.copy()
         draw = ImageDraw.Draw(img, "RGBA")
 
-        # Writing area matches the reference page. Branding, mug, leaf, watermark, pen and footer stay untouched.
-        x = 205
-        y = 365
-        max_width = 610
-
-        # Hook/title appears first, then the body lines are progressively written.
-        title_progress = max(0.0, min(1.0, (t - 0.20) / 1.20))
-        if title_progress > 0:
-            y = draw_handwritten_block(
-                draw, text[0], x + 55, y, title_font, 430, title_progress, 41
-            )
-            y += 28
-
-        for idx, line in enumerate(text[1:]):
-            start = 1.15 + idx * 1.65
-            progress = max(0.0, min(1.0, (t - start) / 1.15))
-            if progress <= 0:
-                continue
-            y = draw_handwritten_block(
-                draw, line, x, y, body_font, max_width, progress, 100 + idx
-            )
-            y += 16
+        if word_count:
+            progress = np.clip((t - start_time) / write_span, 0.0, 1.0)
+            visible = int(np.floor(progress * word_count + 1e-6))
+            # Reveal one word at a time with a short soft fade, rather than typing chunks of lines.
+            for idx, item in enumerate(layout):
+                if idx < visible:
+                    draw_word(draw, item, font)
+                elif idx == visible and progress > 0:
+                    frac = (progress * word_count) - visible
+                    if frac > 0:
+                        # Temporary layer gives the leading word a subtle ink-in effect.
+                        layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+                        ld = ImageDraw.Draw(layer, "RGBA")
+                        alpha = int(40 + 195 * min(1.0, frac * 1.35))
+                        word = item["word"]
+                        tile = Image.new("RGBA", (item["w"] + 20, item["h"] + 20), (0, 0, 0, 0))
+                        td = ImageDraw.Draw(tile, "RGBA")
+                        td.text((10, 8), word, font=font, fill=(INK[0], INK[1], INK[2], alpha))
+                        rotated = tile.rotate(item["angle"], resample=Image.Resampling.BICUBIC, expand=True)
+                        layer.alpha_composite(rotated, (int(item["x"] - 10), int(item["y"] - 10)))
+                        img = Image.alpha_composite(img.convert("RGBA"), layer).convert("RGB")
+                        draw = ImageDraw.Draw(img, "RGBA")
+                    break
 
         img.save(frames_dir / f"frame_{i:03d}.jpg", quality=90, optimize=False)
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
     silent_video = out_path.with_name(out_path.stem + "_silent.mp4")
 
-    # Upscale only during the final encode. This keeps Python rendering much faster.
     subprocess.run(
         [
             "ffmpeg", "-y",
@@ -145,7 +178,6 @@ def render(data, out_path):
         stderr=subprocess.DEVNULL,
     )
 
-    # Keep the existing lightweight ambient audio; no external music API is needed.
     sample_rate = 44100
     n = sample_rate * DURATION
     tt = np.arange(n) / sample_rate
