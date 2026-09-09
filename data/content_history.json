@@ -78,6 +78,44 @@
       ],
       "topic": "एकतरफा प्यार",
       "model_used": "gemini-3.5-flash-lite"
+    },
+    {
+      "hook": "चाय ठंडी हो गई और तुम बदल गए।",
+      "lines": [
+        "मैंने तो बस एक घूंट ही पिया था,",
+        "और तुमने पूरा रिश्ता ही बदल लिया।",
+        "फ़र्क सिर्फ इतना था—",
+        "मेरी प्यास सच्ची थी, तुम्हारी आदतें कच्ची।"
+      ],
+      "caption": "कुछ रिश्ते चाय की तरह होते हैं, वक्त पर ध्यान न दो तो ठंडे हो जाते हैं। बेवफाई सिर्फ धोखे से नहीं, बेरुखी से भी होती है।",
+      "keywords": [
+        "bewafai shayari",
+        "hindi micro story",
+        "emotional poetry",
+        "heartbreak lines",
+        "sad reel hindi",
+        "modern poetry",
+        "dhokha status",
+        "short hindi kavita",
+        "relatable poetry",
+        "painful love"
+      ],
+      "hashtags": [
+        "bewafai",
+        "dard",
+        "shayari",
+        "hindipoetry",
+        "heartbreak",
+        "sadstatus",
+        "microtales",
+        "feelings",
+        "broken",
+        "hindiquotes",
+        "relations",
+        "pyar"
+      ],
+      "topic": "बेवफाई",
+      "model_used": "gemini-3.5-flash-lite"
     }
   ]
 }
