@@ -29,7 +29,7 @@ def call_gemini_rest(api_key, model, prompt):
         "contents": [{"role": "user", "parts": [{"text": prompt}]}],
         "generationConfig": {
             "responseMimeType": "application/json",
-            "temperature": 0.9,
+            "temperature": 0.95,
             "maxOutputTokens": 512,
         },
     }
@@ -66,38 +66,60 @@ def generate():
         raise RuntimeError("GEMINI_API_KEY secret is missing")
 
     history = load_history()
-    recent = [x.get("hook", "") for x in history[-20:]]
+    recent = [x.get("hook", "") for x in history[-30:]]
     topic = CONFIG["topics"][len(history) % len(CONFIG["topics"])]
 
     prompt = f"""
-Create ONE completely original Hindi emotional diary entry for a 10-second faceless reel.
+Create ONE completely original Hindi micro-diary entry for a 10-second faceless reel.
 Topic: {topic}
 
-IMPORTANT WRITING STYLE:
-- This must sound like something a real person would quietly write in their diary at night.
-- Do NOT write it like a shayari, poem, quote card, motivational quote, or social-media caption.
-- Use conversational, intimate Hindi with a natural emotional turn.
-- Start with a strong but believable first line, then develop one tiny thought/moment, and finish with an emotional afterthought.
-- Avoid generic phrases such as 'तुम मेरी जिंदगी हो', 'आज भी तुम्हारी याद आती है', 'सच्चा प्यार', etc. unless the context makes them genuinely fresh.
-- The writing should feel specific and relatable, not dramatic for the sake of drama.
+CORE FEEL:
+- It must feel like a private thought someone wrote in their notebook after a real moment.
+- Think: one tiny real-life situation -> one realization -> one quiet emotional punch.
+- The viewer should think: "ये तो मेरे साथ भी हुआ है।"
+- Simple language is more important than poetic language.
+- Make the final line land emotionally without becoming melodramatic.
+
+DO NOT:
+- Do not write a generic quote, shayari, poem, motivational line, or Instagram-caption style post.
+- Do not use abstract filler such as "कुछ रिश्ते", "कुछ लोग", "वक्त सब सिखा देता है" as the main idea.
+- Avoid overused phrases like "आज भी तुम्हारी याद आती है", "सच्चा प्यार", "तुम मेरी जिंदगी हो", "भूलना आसान नहीं" unless a very specific situation makes the wording genuinely fresh.
+- Do not copy or imitate famous shayari, songs, movie dialogues, or known writers.
+- Do not force rhyming.
+
+GOOD STORY PATTERN:
+Line 1: a specific everyday moment or action.
+Line 2: what the person almost said/did/thought.
+Line 3: a small realization or contradiction.
+Line 4-5: the quiet emotional twist.
+
+Example of the FEEL (do not copy it):
+कल उसकी chat खोली थी,
+कुछ लिखकर फिर मिटा दिया।
+अजीब है ना...
+अब उससे बात करने से ज्यादा,
+खुद को रोकना मुश्किल लगता है।
 
 VISUAL CONSTRAINTS:
-- The words will be placed on the blue ruled lines of a notebook page.
-- Write exactly 4 or 5 short lines total.
-- Aim for 4-7 Hindi words per line and 22-30 Hindi words total.
-- Each line should read naturally on its own and should not be so long that it needs to wrap again.
-- Do NOT create a separate headline/title. The first line is the beginning of the diary thought.
-- Do NOT use emojis, quotation marks, labels, bullets, or English words inside the reel text.
-- Do NOT copy famous shayari, songs, movie dialogues, quotes, or known writers.
+- Exactly 4 or 5 short lines total.
+- Each line must be 4-7 Hindi words where possible.
+- Total reel text should be about 22-30 words.
+- Each line must fit on ONE ruled notebook line; never make a line that needs wrapping.
+- No separate headline/title. The first line is the diary entry itself.
+- No emojis, quotation marks, bullets, labels, hashtags, or English words inside the reel text.
+- Keep punctuation natural and minimal.
 
-Previous hooks to avoid repeating: {json.dumps(recent, ensure_ascii=False)}
+Previous opening lines to avoid repeating:
+{json.dumps(recent, ensure_ascii=False)}
 
 Return ONLY valid JSON with these keys:
- hook: the first diary line
- lines: array containing 3-4 additional diary lines; hook + lines must be exactly 4-5 lines total
- caption: Instagram/YouTube caption, 1-3 sentences
- keywords: array of 8-12 Hindi/English search keywords
- hashtags: array of 8-15 hashtags, no # needed
+{{
+  "hook": "first diary line",
+  "lines": ["3-4 additional diary lines"],
+  "caption": "Instagram/YouTube caption, 1-3 natural sentences",
+  "keywords": ["8-12 Hindi/English search keywords"],
+  "hashtags": ["8-15 hashtags without #"]
+}}
 """
 
     models = []
