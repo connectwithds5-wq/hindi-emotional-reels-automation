@@ -1,35 +1,35 @@
 {
   "confidence": "10%",
-  "data_points": 2,
-  "overall_summary": "The performance data is extremely limited with only two videos published recently, both receiving negligible views. This low sample size prevents definitive conclusions, necessitating a controlled exploration phase to test different narrative angles within the emotional niche.",
+  "data_points": 3,
+  "overall_summary": "The channel has extremely low view counts across the initial three uploads, indicating that data is insufficient to establish definitive winning patterns. A controlled exploration phase is necessary to test different emotional angles and hook styles within the core niche.",
   "winning_patterns": [
     {
-      "pattern": "None established",
-      "evidence": "Both videos have near-zero views (5 and 10 views), providing insufficient data to determine a statistically significant winning pattern.",
-      "action": "Focus on testing core emotional themes with varied hooks until consistent baseline traffic is achieved."
+      "pattern": "Sensory detail hooks",
+      "evidence": "Using everyday objects like tea or phone screens as seen in the dataset.",
+      "action": "Continue utilizing tactile, everyday objects to ground the emotional hook in reality."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic or phone-centric breakup hooks",
-      "evidence": "Both previous videos used phone-related imagery ('number block' and 'picture on number') and yielded minimal engagement.",
-      "action": "Shift away from phone/screen-based hooks to physical, everyday life moments of solitude and overthinking."
+      "pattern": "Low initial traction on generic dramatic hooks",
+      "evidence": "Videos like 'नंबर ब्लॉक नहीं किया कभी' and 'नंबर पर अभी भी तेरी तस्वीर है' yielded minimal views (5 and 11).",
+      "action": "Shift away from standard phone/number-based clichés and focus on situational loneliness and overthinking."
     }
   ],
   "next_video": {
-    "topic": "रात के ख्याल",
+    "topic": "ओवरथिंकिंग",
     "emotion": "अकेलापन",
-    "hook_style": "Sensory observation of a quiet room",
+    "hook_style": "situational observation",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization during late-night hours when tea gets cold because you were busy staring at an empty chair across the table.",
-    "opening_direction": "Start with the specific detail of a half-empty tea cup growing cold on the desk at 2 AM.",
-    "twist_direction": "Realizing that the emptiness in the room isn't just physical, but the habit of waiting for someone who won't text back.",
-    "duration_seconds": 10,
+    "concept": "Online status checking turning into self-doubt late at night.",
+    "opening_direction": "रात के दो बजे जब घर का वाई-फाई बंद करना पड़ता है,",
+    "twist_direction": "तभी समझ आता है कि इंटरनेट का कनेक्शन टूटने से ज्यादा डर तो किसी अपने का कनेक्शन टूटने से लगता है।",
+    "duration_seconds": 12,
     "posting_window": "20:00 - 22:00",
-    "reason": "Late evening is the peak time when audiences relate to loneliness and overthinking before sleep."
+    "reason": "Testing late-night overthinking theme during high-engagement hours for emotional content."
   },
-  "experiment": "Testing a non-phone, sensory-based hook (cold tea at night) to see if it outperforms previous digital/phone-centric opening lines.",
-  "updated_at": "2026-09-09T16:45:01.307042+00:00",
+  "experiment": "Testing an overthinking-focused hook using a late-night situational trigger to improve initial retention compared to past phone-based hooks.",
+  "updated_at": "2026-09-09T17:40:28.317972+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-09T16:45:03.767004+00:00"
+  "generated_at": "2026-09-09T17:40:30.870708+00:00"
 }
