@@ -24,7 +24,6 @@ def save_history(items):
 
 
 def call_gemini_rest(api_key, model, prompt):
-    """Call Gemini directly over REST so the SDK cannot trigger AFC cancellation."""
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
     body = {
         "contents": [{"role": "user", "parts": [{"text": prompt}]}],
@@ -71,24 +70,32 @@ def generate():
     topic = CONFIG["topics"][len(history) % len(CONFIG["topics"])]
 
     prompt = f"""
-Create ONE completely original Hindi emotional micro-story/poetry reel.
+Create ONE completely original Hindi emotional micro-story for a 10-second faceless diary reel.
 Topic: {topic}
-Length: about 8-12 seconds when read naturally.
-Style: intimate, simple, modern Hindi, emotionally sharp, highly relatable.
-Do NOT copy famous shayari, songs, movie dialogues, quotes, or known writers.
-Do NOT use emojis inside the reel text.
-The reel should feel like a tiny story with a strong emotional turn.
+
+VISUAL FORMAT IS FIXED:
+- The words will be handwritten onto a real-looking ruled notebook page.
+- Write for a small diary page, so the final reel must contain ONLY 4-5 short handwritten lines total.
+- Total reel text: 22-30 Hindi words maximum.
+- Each line should be short enough to fit one notebook rule naturally.
+- Do not create a separate headline/title. The first line is simply the beginning of the thought.
+- Use simple modern Hindi, intimate and emotionally sharp.
+- Make it feel like a tiny real-life moment with an emotional turn, not generic shayari.
+- Avoid overused phrases and clichés.
+- Do NOT copy famous shayari, songs, movie dialogues, quotes, or known writers.
+- Do NOT use emojis inside the reel text.
+- Do NOT add stage directions, quotation marks, labels, or English words in the reel text.
+
 Previous hooks to avoid repeating: {json.dumps(recent, ensure_ascii=False)}
 
 Return ONLY valid JSON with these keys:
- hook: 1 short opening line
- lines: array of 2-4 short Hindi lines
+ hook: the first short Hindi line
+ lines: array containing 3-4 additional short Hindi lines; hook + lines must total 4-5 lines and 22-30 words
  caption: Instagram/YouTube caption, 1-3 sentences
  keywords: array of 8-12 Hindi/English search keywords
  hashtags: array of 8-15 hashtags, no # needed
 """
 
-    # Primary + all configured free Lite fallbacks.
     models = []
     for key in ("model", "lite_model", "legacy_lite_model"):
         model = CONFIG.get(key)
@@ -118,7 +125,7 @@ Return ONLY valid JSON with these keys:
     data["topic"] = topic
     data["model_used"] = used_model
     data["hook"] = str(data["hook"]).strip()
-    data["lines"] = [str(x).strip() for x in data["lines"]]
+    data["lines"] = [str(x).strip() for x in data["lines"]][:4]
     data["caption"] = str(data["caption"]).strip()
     data["keywords"] = [str(x).strip() for x in data.get("keywords", [])]
     data["hashtags"] = [str(x).strip().lstrip("#") for x in data.get("hashtags", [])]
