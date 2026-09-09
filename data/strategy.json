@@ -1,35 +1,29 @@
 {
   "confidence": "10%",
   "data_points": 3,
-  "overall_summary": "The channel has extremely low view counts across the initial three uploads, indicating that data is insufficient to establish definitive winning patterns. A controlled exploration phase is necessary to test different emotional angles and hook styles within the core niche.",
-  "winning_patterns": [
-    {
-      "pattern": "Sensory detail hooks",
-      "evidence": "Using everyday objects like tea or phone screens as seen in the dataset.",
-      "action": "Continue utilizing tactile, everyday objects to ground the emotional hook in reality."
-    }
-  ],
+  "overall_summary": "The channel has extremely low view counts across the initial three uploads, indicating that historical performance data is statistically insufficient to determine a clear winning pattern. The current approach requires a controlled exploration phase testing different hook angles and posting windows.",
+  "winning_patterns": [],
   "weak_patterns": [
     {
-      "pattern": "Low initial traction on generic dramatic hooks",
-      "evidence": "Videos like 'नंबर ब्लॉक नहीं किया कभी' and 'नंबर पर अभी भी तेरी तस्वीर है' yielded minimal views (5 and 11).",
-      "action": "Shift away from standard phone/number-based clichés and focus on situational loneliness and overthinking."
+      "pattern": "Generic English-Hindi mixed titles and abstract hooks",
+      "evidence": "Videos like a9-G1X5jEOU used English titles and standard poetic hooks, resulting in 0 views.",
+      "action": "Shift entirely to native Devanagari titles focusing on visceral, everyday sensory details rather than poetic clichés."
     }
   ],
   "next_video": {
-    "topic": "ओवरथिंकिंग",
-    "emotion": "अकेलापन",
-    "hook_style": "situational observation",
+    "topic": "रात के ख्याल",
+    "emotion": "Melancholy and Nostalgia",
+    "hook_style": "Sensory everyday moment",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Online status checking turning into self-doubt late at night.",
-    "opening_direction": "रात के दो बजे जब घर का वाई-फाई बंद करना पड़ता है,",
-    "twist_direction": "तभी समझ आता है कि इंटरनेट का कनेक्शन टूटने से ज्यादा डर तो किसी अपने का कनेक्शन टूटने से लगता है।",
-    "duration_seconds": 12,
-    "posting_window": "20:00 - 22:00",
-    "reason": "Testing late-night overthinking theme during high-engagement hours for emotional content."
+    "concept": "Finding an old train ticket or a forgotten bill with a phone number scribbled on the back.",
+    "opening_direction": "Purane bills ke beech se ek purana train ticket mila...",
+    "twist_direction": "...aur uske peeche likha number ab bhi yaad tha, bas ab dial karne par 'yeh number astitva mein nahi hai' sunai deta hai.",
+    "duration_seconds": 10,
+    "posting_window": "20:00 - 21:30 IST",
+    "reason": "Testing late-night prime time slot for 'रात के ख्याल' and 'पुरानी यादें' topics to capture users in a reflective mood."
   },
-  "experiment": "Testing an overthinking-focused hook using a late-night situational trigger to improve initial retention compared to past phone-based hooks.",
-  "updated_at": "2026-09-09T17:40:28.317972+00:00",
+  "experiment": "Testing pure Devanagari script in titles combined with a tangible, physical trigger object (train ticket) for the hook instead of abstract emotional statements.",
+  "updated_at": "2026-09-09T18:42:33.824827+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-09T17:40:30.870708+00:00"
+  "generated_at": "2026-09-09T18:42:41.251446+00:00"
 }
