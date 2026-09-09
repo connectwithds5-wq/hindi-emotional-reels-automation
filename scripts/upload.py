@@ -41,16 +41,24 @@ def upload():
 
     youtube = build("youtube", "v3", credentials=creds)
     topic = str(data.get("topic", "Hindi emotional diary"))
-    caption = str(data.get("caption", "Dil Ki Diary"))
-    hashtags = " ".join("#" + h for h in data.get("hashtags", [])[:8])
-    title = str(data.get("hook", "Dil Ki Diary")).strip()[:92] or "Dil Ki Diary"
-    description = f"{caption}\n\n{hashtags}\n\n#Shorts #DilKiDiary"
+    title = str(data.get("youtube_title", data.get("hook", "Dil Ki Diary"))).strip()[:100] or "Dil Ki Diary"
+    description = str(data.get("youtube_description", data.get("caption", "Dil Ki Diary"))).strip()
+    hashtags = data.get("youtube_hashtags", data.get("hashtags", []))
+    hashtags_text = " ".join("#" + str(h).lstrip("#") for h in hashtags[:10])
+    if hashtags_text:
+        description = f"{description}\n\n{hashtags_text}\n\n#Shorts #DilKiDiary"
+    else:
+        description = f"{description}\n\n#Shorts #DilKiDiary"
+
+    generated_keywords = [str(x).strip() for x in data.get("youtube_keywords", []) if str(x).strip()]
+    fallback_tags = [topic, "Hindi emotional", "Hindi diary", "emotional shorts", "Dil Ki Diary"]
+    tags = list(dict.fromkeys(generated_keywords + fallback_tags))[:30]
 
     body = {
         "snippet": {
             "title": title,
             "description": description,
-            "tags": [topic, "Hindi emotional", "Hindi diary", "shayari", "emotional shorts", "Dil Ki Diary"],
+            "tags": tags,
             "categoryId": "22",
             "defaultLanguage": "hi",
         },
