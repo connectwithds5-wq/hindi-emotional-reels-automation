@@ -1,35 +1,35 @@
 {
-  "confidence": "20%",
+  "confidence": "10%",
   "data_points": 5,
-  "overall_summary": "Data sample is extremely small with low views across all initial uploads, making it hard to identify definitive viral winners. However, slightly higher traction is observed on specific relationship and memory-based hooks, while generic or late-night abstract hooks underperformed.",
+  "overall_summary": "All historical videos have extremely low views (5 to 15) and zero engagement, indicating the channel is in a cold start phase. Confidence is very low, requiring a controlled exploration strategy focused on high-retention narrative hooks.",
   "winning_patterns": [
     {
-      "pattern": "Phone-based memory hooks",
-      "evidence": "A_eLARoegnw ('आज भी फोन में...') and a9-G1X5jEOU got slightly better relative views (12-15 views) compared to abstract time hooks.",
-      "action": "Incorporate tangible everyday communication remnants (like saved chats or contact names) into future hooks."
+      "pattern": "None established",
+      "evidence": "All recent videos show near-zero views and zero engagement.",
+      "action": "Test distinct emotional topics and sharper hooks to find initial traction."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Late-night abstract time openings",
-      "evidence": "G0gKV1p3ZHc ('रात के दो बजे') and uIbMpCjVutQ ('मेज पर रखी चाय') received the lowest engagement.",
-      "action": "Avoid starting purely with time or objects; anchor the hook immediately to human actions and modern digital realities."
+      "pattern": "Generic relational hooks",
+      "evidence": "Phrases like 'नंबर ब्लॉक नहीं किया' and 'रात के दो बजे' yielded low numbers (5-10 views).",
+      "action": "Shift from broad late-night clichés to hyper-specific, tangible everyday objects and actions."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Quiet closure",
-    "hook_style": "Digital boundary action",
+    "emotion": "Quiet dignity and letting go",
+    "hook_style": "Tangible object-based observation",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization that scrolling past their status without viewing it is the ultimate self-respect.",
-    "opening_direction": "जब तुम उनका WhatsApp स्टेटस बिना खोले ही सीधा म्यूट कर देते हो,",
-    "twist_direction": "तब समझ आता है कि ब्लॉक करने से ज्यादा सुकून उन्हें इग्नोर करने में है।",
-    "duration_seconds": 10,
-    "posting_window": "06:00 PM - 08:00 PM",
-    "reason": "Testing a shift from helpless longing ('अधूरी मोहब्बत') to empowerment and 'self respect', which typically drives higher comment and save ratios in emotional niches."
+    "concept": "Deleting a long-saved chat history not out of anger, but out of self-respect when realization hits that the conversation was entirely one-sided.",
+    "opening_direction": "Start by staring at a WhatsApp chat export file or the last message sent three months ago that remains unreplied.",
+    "twist_direction": "Realizing that pressing 'delete chat' finally brings peace instead of the fear of losing them forever.",
+    "duration_seconds": 12,
+    "posting_window": "18:00 - 20:00 IST",
+    "reason": "Evening hours align naturally with reflection on self-worth and solitude."
   },
-  "experiment": "Testing a shift from passive heartbreak to self-respect to see if empowering emotional angles drive better retention than sadness.",
-  "updated_at": "2026-09-10T11:40:47.489395+00:00",
+  "experiment": "Testing whether hyper-specific digital cleanup actions ('chat export/delete') drive better retention than generic phone/number relationship tropes.",
+  "updated_at": "2026-09-10T12:45:13.153677+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-10T11:41:15.823650+00:00"
+  "generated_at": "2026-09-10T12:45:16.054646+00:00"
 }
