@@ -1,35 +1,35 @@
 {
   "confidence": "10%",
   "data_points": 3,
-  "overall_summary": "The performance data is extremely limited, with all initial videos receiving near-zero views (5-13 views). There is insufficient sample size to establish a definitive high-performing pattern, necessitating a controlled exploration strategy.",
+  "overall_summary": "The performance data is extremely small (3 videos with negligible views), making it impossible to identify definitive winning patterns. The strategy must rely on low-sample exploration while testing high-relatability emotional hooks related to modern relationship grief.",
   "winning_patterns": [
     {
       "pattern": "Sensory/Object-based hooks",
-      "evidence": "Video uIbMpCjVutQ used a tangible item ('tea') and got initial traction alongside message/image hooks.",
-      "action": "Continue leveraging everyday physical objects or actions to anchor emotional states."
+      "evidence": "Video uIbMpCjVutQ used 'मेज पर रखी चाय ठंडी हो गई' which grounds the emotion in a physical object.",
+      "action": "Continue leveraging everyday physical objects (tea, phone screen, online status) to anchor abstract emotional pain."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic titles and broad emotional framing",
-      "evidence": "Videos with overly broad titles or captions like 'Bewafai Ka Dard' failed to trigger immediate engagement.",
-      "action": "Focus titles and hooks on hyper-specific, highly relatable micro-moments rather than generic emotional labels."
+      "pattern": "English-heavy or generic titles",
+      "evidence": "Video a9-G1X5jEOU used English words in the title and yielded the lowest relative traction.",
+      "action": "Use strictly Devanagari script for titles and captions to resonate deeply with the core Hindi emotional audience."
     }
   ],
   "next_video": {
-    "topic": "ओवरथिंकिंग",
-    "emotion": "Melancholy and self-realization",
-    "hook_style": "Micro-moment physical action",
+    "topic": "रात के ख्याल",
+    "emotion": "अकेलापन",
+    "hook_style": "Habit-based routine interruption",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Typing a long message to someone who left, then deleting it because sending it only gives them power.",
-    "opening_direction": "Start with the sound or visual of fingers typing a very long paragraph late at night.",
-    "twist_direction": "Instead of hitting send, the finger hits select all and backspace, realizing the peace of silence is worth more than their reply.",
-    "duration_seconds": 12,
-    "posting_window": "20:00 - 22:00",
-    "reason": "Late evening hours align naturally with themes of overthinking and nighttime solitude."
+    "concept": "A person keeps making two cups of tea out of pure habit long after a breakup, until a sudden realization hits.",
+    "opening_direction": "आज भी किचन में दो कप चाय बन गई, एक तुम्हारी पसंद की...",
+    "twist_direction": "...फिर याद आया कि अब तुम्हारा पता बदल चुका है, और चीनी के डिब्बे पर धूल जमने लगी है।",
+    "duration_seconds": 10,
+    "posting_window": "18:00 - 20:00",
+    "reason": "Evening hours align with 'रात के ख्याल' (night thoughts) and peak emotional vulnerability on Shorts."
   },
-  "experiment": "Testing a high-friction digital habit (deleting an unsent draft message) combined with self-respect themes to see if action-oriented endings outperform passive sadness.",
-  "updated_at": "2026-09-09T23:38:28.724698+00:00",
+  "experiment": "Testing if a habit-based physical routine hook outperforms digital-centric hooks (like phone screens) for nighttime loneliness.",
+  "updated_at": "2026-09-10T00:43:52.305753+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-09T23:38:31.160490+00:00"
+  "generated_at": "2026-09-10T00:43:54.551705+00:00"
 }
