@@ -681,6 +681,79 @@
         "reason": "Evening and late-night hours are peak times for overthinking and emotional content consumption."
       },
       "model_used": "gemini-3.5-flash-lite"
+    },
+    {
+      "hook": "आज भी फोन में तुम्हारा नाम सुरक्षित है,",
+      "lines": [
+        "बस अब वह नंबर मेरा नहीं रहा।",
+        "डायलर खोलते ही उंगलियां रुक जाती हैं,",
+        "वही पुरानी तस्वीर नजर आ जाती है।",
+        "स्क्रीन पर नाम चमकता रहता है देर तक,",
+        "धड़कनें बेवजह शोर मचाने लगती हैं।",
+        "मगर उस तरफ अब किसी और का हक है,",
+        "हम तो बस एक भूली हुई याद हैं।"
+      ],
+      "youtube_title": "पुराना नंबर और अधूरा रिश्ता | Dil Ki Diary",
+      "youtube_description": "जब फोन की संपर्क सूची में किसी अपने का नाम आज भी सुरक्षित हो, पर उस नंबर पर हक किसी और का हो। यह छोटी सी कहानी उन डिजिटल यादों और अधूरे रिश्तों के बारे में है जो खामोशी से बहुत कुछ कह जाते हैं। क्या आपके फोन में भी ऐसा कोई नंबर है जो अब आपका नहीं रहा?",
+      "youtube_keywords": [
+        "adhuri mohabbat",
+        "rishte",
+        "emotional hindi story",
+        "dil ki diary",
+        "purana number",
+        "broken relationship stories",
+        "hindi micro story",
+        "sad reel stories",
+        "phone contacts memory",
+        "one sided love hindi",
+        "relatable hindi stories",
+        "pyar aur yaadein"
+      ],
+      "youtube_hashtags": [
+        "DilKiDiary",
+        "AdhuriMohabbat",
+        "Rishte",
+        "EmotionalStory",
+        "HindiShorts",
+        "SadLove",
+        "LifeQuotes",
+        "Heartbroken"
+      ],
+      "caption": "कुछ नाम फोन से मिटते नहीं, बस उनके मायने बदल जाते हैं।",
+      "keywords": [
+        "adhuri mohabbat",
+        "rishte",
+        "emotional story",
+        "dil ki diary",
+        "purana number",
+        "sad hindi stories",
+        "relatable reels",
+        "broken trust"
+      ],
+      "hashtags": [
+        "DilKiDiary",
+        "AdhuriMohabbat",
+        "Rishte",
+        "HindiReels",
+        "EmotionalStory",
+        "Heartbroken",
+        "LifeLessons",
+        "ShortStories"
+      ],
+      "topic": "रिश्ते",
+      "strategy_used": {
+        "topic": "रिश्ते",
+        "emotion": "अधूरी मोहब्बत",
+        "hook_style": "simple real-life moment",
+        "story_structure": "simple -> relatable -> twist",
+        "concept": "Saving a contact name that no longer exists in real life, focusing on the lingering digital footprints of a broken relationship.",
+        "opening_direction": "तेरा नाम आज भी फोन की संपर्क सूची में किसी और नाम से सेव है,",
+        "twist_direction": "पर उस नंबर पर अब किसी गैर की आवाज़ गूंजती है।",
+        "duration_seconds": 15,
+        "posting_window": "18:00 - 21:00",
+        "reason": "Testing evening peak hours when overthinking and loneliness metrics typically surge for Hindi emotional content consumers."
+      },
+      "model_used": "gemini-3.5-flash-lite"
     }
   ]
 }
