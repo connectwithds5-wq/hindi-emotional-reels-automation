@@ -1,35 +1,35 @@
 {
-  "confidence": "20%",
+  "confidence": "10%",
   "data_points": 6,
-  "overall_summary": "The performance data sample size is extremely small, with view counts ranging between 5 and 20 views and no engagement recorded yet. Confidence is low, meaning we cannot rely on definitive winners. However, topics involving personal phones, numbers, and late-night relational echoes (रिश्ते, ओवरथिंकिंग) showed marginally higher traction, indicating an audience resonance with modern digital relationship anxiety.",
+  "overall_summary": "The performance data is extremely sparse (views ranging from 5 to 20 with zero engagement), meaning statistical confidence is very low. However, looking at the structural cues, relationship/phone-memory hooks perform slightly better (20 views) compared to abstract night thoughts. We are in a pure exploration phase.",
   "winning_patterns": [
     {
-      "pattern": "Phone and contact-based hooks",
-      "evidence": "Videos focusing on phone contact names and saved numbers ('आज भी फोन में तुम्हारा नाम सुरक्षित है') garnered the highest views in the set (20 views).",
-      "action": "Continue focusing on micro-interactions related to smartphones and digital artifacts of old relationships."
+      "pattern": "Concrete phone/contact-based memory hooks",
+      "evidence": "Video A_eLARoegnw ('आज भी फोन में तुम्हारा नाम सुरक्षित है') got the highest views (20) compared to abstract concepts like tea getting cold (5).",
+      "action": "Prioritize physical, everyday touchpoints like phone notifications, contact names, or gallery photos over abstract nighttime imagery."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic late-night atmospheric openings",
-      "evidence": "Openings like 'रात के दो बजे' or 'मेज पर रखी चाय' performed lower (5-12 views) due to cliché phrasing.",
-      "action": "Avoid abstract time/weather setups and immediately ground the hook in a specific physical or digital action."
+      "pattern": "Generic time-of-night or weather openings",
+      "evidence": "Videos starting with 'रात के दो बजे' (12 views) or 'मेज पर रखी चाय ठंडी हो गई' (5 views) showed lower pickup.",
+      "action": "Avoid starting with cliché time stamps or atmospheric descriptions; ground the opening in an immediate, recognizable digital action."
     }
   ],
   "next_video": {
-    "topic": "रिश्ते",
-    "emotion": "Melancholy and subtle regret",
+    "topic": "self respect",
+    "emotion": "Quiet closure",
     "hook_style": "Digital habit observation",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Checking an old chat archive just to see if they were online last.",
-    "opening_direction": "Scroll karne laga toh socha, bas ek baar dekh lu ki wo aakhri baar kab online aayi thi.",
-    "twist_direction": "Pata chala last seen hide hai, aur samajh aa gaya ki ab hum sirf ek purani history bankar reh gaye hain.",
-    "duration_seconds": 12,
-    "posting_window": "19:00 - 21:00 IST",
-    "reason": "Evening hours capture the peak time when users experience high overthinking and quiet reflection regarding broken ties."
+    "concept": "A realization while deleting an old chat archive that letting go is about protecting peace, not anger.",
+    "opening_direction": "Arriving at the decision to finally archive or clear a long-ignored chat thread.",
+    "twist_direction": "Realizing that the emptiness of the cleared chat feels lighter than holding onto unread messages.",
+    "duration_seconds": 15,
+    "posting_window": "06:30 PM - 08:30 PM IST",
+    "reason": "Evening hours typically align with downtime and reflection, suitable for self-respect and emotional content."
   },
-  "experiment": "Testing a specific digital behavior hook (checking last seen status) instead of broader contact name themes to improve watch time and comment engagement.",
-  "updated_at": "2026-09-10T20:39:55.067546+00:00",
+  "experiment": "Testing if shifting from passive longing ('saved numbers') to active self-respect ('clearing the chat') increases engagement from zero.",
+  "updated_at": "2026-09-10T21:38:39.765099+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-10T20:39:57.645061+00:00"
+  "generated_at": "2026-09-10T21:38:42.115568+00:00"
 }
