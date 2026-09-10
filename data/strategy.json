@@ -1,35 +1,35 @@
 {
-  "confidence": "20%",
+  "confidence": "25%",
   "data_points": 6,
-  "overall_summary": "The channel shows extremely low view counts across all initial uploads (ranging from 5 to 20 views), indicating that organic reach is still in the cold-start phase. There is insufficient engagement data (0 likes/comments) to conclusively determine a winning audience retention trigger, though slightly higher views on relational topics ('रिश्ते' and 'बेवफाई') suggest a slight preference for personal, contact-list-related pain points.",
+  "overall_summary": "Data volume is extremely low (6 videos, 5-20 views each). While digital memory triggers (saved contact names/photos) show slightly higher initial impressions, overall confidence remains low and calls for controlled exploration.",
   "winning_patterns": [
     {
-      "pattern": "Smartphone connection pain points",
-      "evidence": "Videos mentioning phone contacts or names ('आज भी फोन में तुम्हारा नाम सुरक्षित है', 'नंबर पर अभी भी तेरी तस्वीर है') yielded the highest views in the set (20 and 15 views).",
-      "action": "Continue leveraging tactile, everyday digital artifacts (like saved contacts, active chats, or photos) as immediate anchors."
+      "pattern": "Digital relic triggers (saved numbers/contact details)",
+      "evidence": "Video A_eLARoegnw (20 views) and a9-G1X5jEOU (15 views) led performance by grounding emotion in specific phone UI interactions.",
+      "action": "Double down on subtle, everyday smartphone interaction triggers rather than abstract sadness."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract or atmospheric late-night openings",
-      "evidence": "Openings focused purely on time or generic atmospheric actions like 'रात के दो बजे' or 'मेज पर रखी चाय ठंडी हो गई' got lower initial traction (5-12 views).",
-      "action": "Avoid broad atmospheric setups unless immediately anchored to a specific physical object or action."
+      "pattern": "Generic atmosphere hooks without specific conflict",
+      "evidence": "Video uIbMpCjVutQ ('मेज पर रखी चाय ठंडी हो गई') garnered only 5 views due to passive setting without emotional stakes.",
+      "action": "Avoid passive atmospheric openers; start with an immediate physical action or micro-realization."
     }
   ],
   "next_video": {
-    "topic": "self respect",
-    "emotion": "Quiet dignity over quiet desperation",
-    "hook_style": "Physical action contrasting with emotional restraint",
+    "topic": "पुरानी यादें",
+    "emotion": "Bittersweet realization",
+    "hook_style": "Micro-action trigger",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short piece on seeing an ex online after months, staring at the typing indicator, and finally locking the phone to put it face down instead of texting.",
-    "opening_direction": "टाइपिंग... लिखकर नाम हट जाना",
-    "twist_direction": "इस बार उसने नहीं, मैंने खुद चैट बंद करके स्क्रीन उल्टी रख दी।",
-    "duration_seconds": 12,
-    "posting_window": "18:00 - 20:00 IST",
-    "reason": "Testing the transition from helpless overthinking (weak pattern) to active self-respect (core channel topic) during peak evening relaxation hours when emotional reflection is highest."
+    "concept": "Accidentally searching an old chat history for a specific photo, only to realize the media was cleared long ago.",
+    "opening_direction": "Show fingers typing a specific date/word into a chat search bar.",
+    "twist_direction": "Reveal that while the media files were deleted to save storage, the heart still holds every detail.",
+    "duration_seconds": 15,
+    "posting_window": "07:00 AM - 08:30 AM IST",
+    "reason": "Morning slots aligned with top-performing video (A_eLARoegnw published at 07:19 UTC / early morning window)."
   },
-  "experiment": "Testing if shifting the protagonist from passive victimhood to an active self-respect choice improves engagement and completion rate.",
-  "updated_at": "2026-09-10T22:38:40.162302+00:00",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-10T22:38:43.741472+00:00"
+  "experiment": "Testing if voiceover narrative over gallery/search UI interaction increases retention over static quote overlays.",
+  "updated_at": "2026-09-10T23:37:17.217496+00:00",
+  "model_used": "gemini-3.6-flash",
+  "generated_at": "2026-09-10T23:37:25.122180+00:00"
 }
