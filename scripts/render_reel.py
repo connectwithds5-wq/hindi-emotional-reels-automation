@@ -1,10 +1,8 @@
 import json
 import os
 import subprocess
-import wave
 from pathlib import Path
 
-import numpy as np
 from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -14,52 +12,106 @@ FPS = 30
 DURATION = 10
 W, H = 864, 1536
 
-# Small, centered diary writing aligned to the photographed notebook ruling.
-TEXT_CENTER_X = 545
+# --- Diary text layout calibration -----------------------------------------
+# The notebook page is photographed in perspective, so a single fixed x/y
+# coordinate makes later lines drift away from the ruled lines.  These values
+# describe the page's text baseline rather than the video frame.
+TEXT_CENTER_X_TOP = 545
+TEXT_CENTER_X_BOTTOM = 562
 FIRST_BASELINE = 438
 LINE_GAP = 48
 PAGE_SLOPE_DEG = 3.0
+MAX_TEXT_WIDTH = 470
 FONT_FAMILY = "Kalam"
 FONT_SIZE = 31
+MIN_FONT_SIZE = 24
 INK = "#182642"
+MAX_LINES = 8
 
 
 def escape_xml(text):
-    return (str(text).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
-            .replace('"', "&quot;").replace("'", "&apos;"))
+    return (
+        str(text)
+        .replace("&", "&amp;")
+        .replace("<", "&lt;")
+        .replace(">", "&gt;")
+        .replace('"', "&quot;")
+        .replace("'", "&apos;")
+    )
+
+
+def line_center_x(index, line_count):
+    """Interpolate the notebook's perspective center across the text block."""
+    if line_count <= 1:
+        return TEXT_CENTER_X_TOP
+    t = index / (line_count - 1)
+    return TEXT_CENTER_X_TOP + (TEXT_CENTER_X_BOTTOM - TEXT_CENTER_X_TOP) * t
+
+
+def font_size_for(line):
+    """Keep long Hindi lines inside the ruled writing area."""
+    length = len(line)
+    if length <= 22:
+        return FONT_SIZE
+    if length <= 27:
+        return 29
+    if length <= 31:
+        return 27
+    return MIN_FONT_SIZE
 
 
 def make_poster(data):
     if not TEMPLATE.exists():
         raise FileNotFoundError(f"Fixed template missing: {TEMPLATE}")
+
     output_dir = ROOT / "output"
     output_dir.mkdir(parents=True, exist_ok=True)
     template = Image.open(TEMPLATE).convert("RGBA").resize((W, H), Image.Resampling.LANCZOS)
 
-    lines = [str(data.get("hook", "")).strip()] + [str(x).strip() for x in data.get("lines", [])]
-    lines = [x for x in lines if x][:8]
+    raw_lines = [str(data.get("hook", "")).strip()] + [
+        str(x).strip() for x in data.get("lines", [])
+    ]
+    lines = [x for x in raw_lines if x][:MAX_LINES]
 
-    svg_lines = []
-    # Keep the text comfortably inside the writing area. Longer lines are reduced slightly.
+    # Use one transformed text block. This keeps every baseline at the same
+    # angle as the notebook ruling, while the x-coordinate follows page
+    # perspective from top to bottom.
+    text_nodes = []
+    line_count = len(lines)
     for i, line in enumerate(lines):
+        x = line_center_x(i, line_count)
         y = FIRST_BASELINE + i * LINE_GAP
-        size = 31 if len(line) <= 27 else 28
-        svg_lines.append(
-            f'<text x="{TEXT_CENTER_X}" y="{y}" text-anchor="middle" '
-            f'transform="rotate({PAGE_SLOPE_DEG} {TEXT_CENTER_X} {y})" '
+        size = font_size_for(line)
+
+        # For unusually long generated lines, constrain their rendered width
+        # without changing the center alignment. Normal lines retain the
+        # natural Kalam proportions.
+        width_hint = ""
+        if len(line) > 31:
+            width_hint = f' textLength="{MAX_TEXT_WIDTH}" lengthAdjust="spacingAndGlyphs"'
+
+        text_nodes.append(
+            f'<text x="{x:.2f}" y="{y:.2f}" text-anchor="middle" '
             f'font-family="{FONT_FAMILY}" font-size="{size}px" font-weight="300" '
-            f'fill="{INK}">{escape_xml(line)}</text>'
+            f'fill="{INK}"{width_hint}>{escape_xml(line)}</text>'
         )
 
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">
 <style>text {{ font-family: Kalam; font-weight: 300; }}</style>
-{''.join(svg_lines)}
+<g transform="rotate({PAGE_SLOPE_DEG} {TEXT_CENTER_X_TOP} {FIRST_BASELINE})">
+{''.join(text_nodes)}
+</g>
 </svg>'''
+
     svg_path = output_dir / "poster_overlay.svg"
     overlay_path = output_dir / "poster_overlay.png"
     svg_path.write_text(svg, encoding="utf-8")
-    subprocess.run(["rsvg-convert", "-o", str(overlay_path), str(svg_path)], check=True,
-                   stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    subprocess.run(
+        ["rsvg-convert", "-o", str(overlay_path), str(svg_path)],
+        check=True,
+        stdout=subprocess.DEVNULL,
+        stderr=subprocess.DEVNULL,
+    )
     overlay = Image.open(overlay_path).convert("RGBA")
     poster = Image.alpha_composite(template, overlay).convert("RGB")
     poster_path = output_dir / "latest_poster.jpg"
@@ -70,6 +122,7 @@ def make_poster(data):
 def make_music_video(poster_path, out_path):
     if not MUSIC.exists():
         raise FileNotFoundError(f"Music missing: {MUSIC}")
+
     # The uploaded track is the source of truth: final video is exactly 10 seconds.
     subprocess.run([
         "ffmpeg", "-y", "-loop", "1", "-i", str(poster_path), "-i", str(MUSIC),
