@@ -606,6 +606,81 @@
         "reason": "Late evening is the peak time when audiences relate to loneliness and overthinking before sleep."
       },
       "model_used": "gemini-3.5-flash-lite"
+    },
+    {
+      "hook": "रात के दो बजे",
+      "lines": [
+        "स्क्रीन पर टकटकी लगाए बैठे हैं।",
+        "ऑनलाइन होने का इंतज़ार है।",
+        "चैट पर अंगुली रुकी हुई है।",
+        "लगता है वो अभी देखेगा।",
+        "मैसेज टाइप करके मिटा देते हैं।",
+        "पर सच तो ये है कि",
+        "वो अब कभी ऑनलाइन नहीं आएगा।"
+      ],
+      "youtube_title": "रात के दो बजे और ओवरथिंकिंग की तन्हाई | Emotional Story",
+      "youtube_description": "रात के सन्नाटे में ओवरथिंकिंग और किसी पुराने अपने के इंतज़ार का दर्द बयां करती एक छोटी सी कहानी। जब आँखें स्क्रीन पर टिकी रहती हैं लेकिन उम्मीद टूट चुकी होती है। क्या आपने भी कभी रात के वक्त ऐसा अकेलापन महसूस किया है?",
+      "youtube_keywords": [
+        "overthinking in hindi",
+        "late night overthinking",
+        "dil ki diary hindi stories",
+        "emotional hindi micro story",
+        "sad reel text hindi",
+        "rat ke do baje",
+        "lonely night thoughts hindi",
+        "silent heartbreak stories",
+        "overthinking emotional status",
+        "deep hindi thoughts",
+        "akelapan status",
+        "relatable hindi stories"
+      ],
+      "youtube_hashtags": [
+        "Overthinking",
+        "DilKiDiary",
+        "EmotionalStory",
+        "SadNight",
+        "HindiShorts",
+        "DeepThoughts",
+        "Relatable",
+        "Heartbreak"
+      ],
+      "caption": "कुछ इंतज़ार कभी खत्म नहीं होते, बस आदत बन जाते हैं। 🌙✨",
+      "keywords": [
+        "overthinking",
+        "dil ki diary",
+        "emotional story",
+        "late night thoughts",
+        "sad hindi status",
+        "lonely nights",
+        "relatable reels",
+        "heartbreak",
+        "silent pain"
+      ],
+      "hashtags": [
+        "overthinking",
+        "dilkidiary",
+        "emotionalstory",
+        "sadhindi",
+        "latenightthoughts",
+        "relatable",
+        "heartbreak",
+        "akelapan",
+        "hindiquotes"
+      ],
+      "topic": "ओवरथिंकिंग",
+      "strategy_used": {
+        "topic": "ओवरथिंकिंग",
+        "emotion": "Anxiety and loneliness",
+        "hook_style": "Sensory and everyday object related",
+        "story_structure": "simple -> relatable -> twist",
+        "concept": "Scrolling through a chat history just to read the last message sent months ago.",
+        "opening_direction": "रात के 2 बजे ऑनलाइन होना और किसी का इंतज़ार करना",
+        "twist_direction": "इंतज़ार उसका नहीं, बल्कि इस बात का होता है कि वो अब कभी ऑनलाइन नहीं आएगा।",
+        "duration_seconds": 10,
+        "posting_window": "19:00 - 21:00 IST",
+        "reason": "Evening and late-night hours are peak times for overthinking and emotional content consumption."
+      },
+      "model_used": "gemini-3.5-flash-lite"
     }
   ]
 }
