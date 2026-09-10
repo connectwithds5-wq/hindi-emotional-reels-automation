@@ -1,35 +1,35 @@
 {
   "confidence": "10%",
   "data_points": 5,
-  "overall_summary": "The sample size is extremely small across all initial uploads, resulting in negligible view counts and zero engagement. No definitive winning patterns can be extracted yet, so the strategy must rely on controlled exploration with a focus on high-retention storytelling structures.",
+  "overall_summary": "The performance data is extremely small (all videos have single-digit views), so confidence is very low. Most hooks revolved around phone numbers, blocks, or late nights, showing lack of diverse pattern testing.",
   "winning_patterns": [
     {
-      "pattern": "None established",
-      "evidence": "All recent videos have views under 20 with zero engagement.",
-      "action": "Shift focus to strengthening the hook-to-retention pipeline."
+      "pattern": "Personal digital artifacts as triggers",
+      "evidence": "Videos referencing phone numbers and contact names generated slightly higher relative visibility (e.g., 'आज भी फोन में तुम्हारा नाम सुरक्षित है' got 9 views).",
+      "action": "Continue referencing everyday digital habits like typing and deleting unsent messages."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic late-night and number-saving tropes",
-      "evidence": "Multiple videos used variations of phone numbers and night-time settings ('नंबर ब्लॉक नहीं किया', 'नंबर पर अभी भी', 'रात के दो बजे'), which yielded low performance.",
-      "action": "Explore fresh, everyday physical triggers instead of digital/phone clichés."
+      "pattern": "Overused late-night clichés",
+      "evidence": "Hooks like 'रात के दो बजे' yielded the lowest views (4 views).",
+      "action": "Avoid generic time-based openings and focus on tangible physical moments."
     }
   ],
   "next_video": {
-    "topic": "self respect",
-    "emotion": "Bittersweet realization",
-    "hook_style": "Physical domestic action",
+    "topic": "जो कहना रह गया",
+    "emotion": "regret and unsaid words",
+    "hook_style": "tangible physical action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A person packing away an old gift, realizing they are holding onto the item rather than the person.",
-    "opening_direction": "Wardrobe ki safai karte waqt woh purana dabka haath laga...",
-    "twist_direction": "Dabba khola toh woh tohfe ki khushboo nahi, khud ke badle hue halaat mile.",
+    "concept": "Typing a long paragraph to an ex, staring at it for five minutes, and finally hitting backspace instead of send.",
+    "opening_direction": "Type karne ke baad send dabane se pehle ruk jana...",
+    "twist_direction": "...aur phir saari baatein wapas backspace karke sirf ek 'Theek ho?' bhej dena.",
     "duration_seconds": 12,
-    "posting_window": "18:00 - 20:00",
-    "reason": "Testing a shift from digital communication tropes to tangible physical objects during evening high-engagement hours."
+    "posting_window": "18:00 - 20:00 IST",
+    "reason": "Tests a fresh physical typing action rather than phone numbers or late night clichés during peak evening engagement hours."
   },
-  "experiment": "Testing if physical object-based hooks perform better than mobile phone/chat-based hooks for self-respect and moving-on themes.",
-  "updated_at": "2026-09-10T07:40:52.958538+00:00",
+  "experiment": "Testing an action-based digital habit (typing and deleting text) instead of status/number-based hooks.",
+  "updated_at": "2026-09-10T08:42:29.473500+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-10T07:40:55.560428+00:00"
+  "generated_at": "2026-09-10T08:42:31.798965+00:00"
 }
