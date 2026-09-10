@@ -1,35 +1,35 @@
 {
-  "confidence": "10%",
+  "confidence": "20%",
   "data_points": 5,
-  "overall_summary": "The performance data is extremely small and immature, showing near-zero views across all initial uploads. Therefore, confidence is very low, and the strategy focuses on exploring more grounded, highly relatable everyday micro-moments with stronger emotional tension.",
+  "overall_summary": "Sample size is extremely small with low views across all 5 videos. Early indicators slightly favor betrayal (बेवफाई) and relationship nostalgia, but confidence remains low, requiring controlled exploration.",
   "winning_patterns": [
     {
-      "pattern": "Concrete digital or physical object anchors",
-      "evidence": "Videos referencing specific physical or digital states like phone numbers, tea, or names generated slight baseline traction compared to abstract concepts.",
-      "action": "Continue anchoring hooks to tangible objects or routine actions like notifications, saved chats, or shared spaces."
+      "pattern": "Direct emotional conflict tied to digital memory hooks",
+      "evidence": "'Bewafai Ka Dard' (15 views) and 'पुराना नंबर' (12 views) outperformed abstract atmospheric themes.",
+      "action": "Focus hooks on concrete daily objects/actions associated with a person (e.g., chat notifications, saved contacts)."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic time-based or cliché emotional openings",
-      "evidence": "Openings like 'रात के दो बजे' (2 AM) yielded minimal traction (4 views).",
-      "action": "Avoid broad cliches and focus on specific, hyper-relatable micro-actions instead of generic night timestamps."
+      "pattern": "Overly poetic/metaphorical visual openings",
+      "evidence": "'मेज पर रखी चाय ठंडी हो गई' received only 5 views.",
+      "action": "Avoid passive atmospheric imagery as hooks; start immediately with high-relatability human actions."
     }
   ],
   "next_video": {
-    "topic": "अकेलापन",
-    "emotion": "Melancholy and acceptance",
-    "hook_style": "Habitual daily action with an absent person",
+    "topic": "self respect",
+    "emotion": "quiet dignity & heartbreak",
+    "hook_style": "Relatable digital habit trigger",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Ordering tea for two out of sheer habit, then realizing you are alone.",
-    "opening_direction": "कैफे में चाय का ऑर्डर देते वक्त आज भी गलती से दो कप बोल दिए,",
-    "twist_direction": "सामने वाली खाली कुर्सी को देखकर समझ आया कि अब चाय ठंडी होने पर पीने वाला कोई नहीं, सिर्फ उसकी यादें हैं।",
-    "duration_seconds": 12,
-    "posting_window": "06:30 PM - 08:30 PM",
-    "reason": "Testing a physical habit-based hook rather than a digital phone hook during early evening relaxation hours."
+    "concept": "Typing a message to an ex and deleting it without sending to protect self-respect.",
+    "opening_direction": "Close-up of screen typing 'क्या तुम्हें मेरी याद आती है?' (Do you miss me?) in WhatsApp.",
+    "twist_direction": "Instead of pressing send, select all, press backspace, and close the screen with a calm exhale.",
+    "duration_seconds": 15,
+    "posting_window": "13:30 - 15:00 UTC",
+    "reason": "Tests the 'Self Respect' topic which hasn't been posted yet, combining high-relatability phone interaction with an emotional dignity twist."
   },
-  "experiment": "Testing if physical habit anchors (ordering food/tea for two) outperform digital anchors (phone numbers) for engagement.",
-  "updated_at": "2026-09-10T09:41:32.441237+00:00",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-10T09:41:34.969843+00:00"
+  "experiment": "Testing if themes centered on self-respect and dignity drive higher retention than pure sadness/grief themes.",
+  "updated_at": "2026-09-10T10:41:10.023976+00:00",
+  "model_used": "gemini-3.6-flash",
+  "generated_at": "2026-09-10T10:41:23.936122+00:00"
 }
