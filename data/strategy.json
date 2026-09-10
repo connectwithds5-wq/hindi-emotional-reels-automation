@@ -1,35 +1,35 @@
 {
   "confidence": "10%",
   "data_points": 3,
-  "overall_summary": "Initial baseline uploads across core topics ('एकतरफा प्यार', 'बेवफाई', 'रात के ख्याल') have extremely low views and engagement, indicating the channel is in a cold-start phase with no established algorithmic traction yet.",
+  "overall_summary": "Data sample is extremely small with near-zero views across all initial uploads, indicating low confidence and the need for a controlled exploration phase to find distribution traction.",
   "winning_patterns": [
     {
-      "pattern": "Sensory and physical object hooks",
-      "evidence": "Using everyday objects like a phone screen, blocked numbers, tea, or photos creates instant visual and emotional grounding.",
-      "action": "Continue rooting emotional hooks in tangible, everyday objects and actions."
+      "pattern": "Sensory-based hook setup",
+      "evidence": "Using everyday objects like tea or phone screens creates an instant grounding effect.",
+      "action": "Continue leveraging tactile, relatable everyday visuals in the opening seconds."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic titles and low sample volume",
-      "evidence": "All videos have single-digit views and 0 engagement, partially due to generic English titles or untargeted upload times.",
-      "action": "Adopt Hindi Devnagari script in titles for emotional resonance and test distinct evening posting windows."
+      "pattern": "Generic English titles for Hindi emotional content",
+      "evidence": "Video titled 'Dil Ki Diary: Bewafai Ka Dard...' received very low traction.",
+      "action": "Shift entirely to native Devnagari or highly relatable Hinglish titles optimized for the target demographic."
     }
   ],
   "next_video": {
     "topic": "ओवरथिंकिंग",
-    "emotion": "Ansiedad nocturna / Solitude",
-    "hook_style": "Relatable physical habit",
+    "emotion": "Melancholy and relief",
+    "hook_style": "Habitual midnight action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Scrolling through a chat history just to read the timestamps instead of the messages.",
-    "opening_direction": "रात के 2 बजे सिर्फ मैसेज नहीं पढ़ता कोई, बस आखिरी बार ऑनलाइन दिखने का वक्त देखता है।",
-    "twist_direction": "और फिर समझ आता है कि वक्त तो वही रुका है, बस हम आगे निकल आए।",
+    "concept": "Typing a long message to someone who won't read it, then deleting it.",
+    "opening_direction": "Midnight screen glow, fingers hovering over the keyboard deleting a drafted paragraph.",
+    "twist_direction": "Realizing that deleting the text gave more peace than sending it ever would.",
     "duration_seconds": 12,
-    "posting_window": "08:00 PM - 10:00 PM",
-    "reason": "Targets the late-night overthinking demographic right when emotional engagement peaks."
+    "posting_window": "20:00 - 22:00 IST",
+    "reason": "Late evening aligns well with overthinking and nocturnal reflection themes."
   },
-  "experiment": "Testing Devnagari script in titles combined with a late-night high-intent posting window to break the zero-view baseline.",
-  "updated_at": "2026-09-10T01:39:49.630459+00:00",
+  "experiment": "Testing an action-oriented hook (deleting a message) instead of a passive observational hook.",
+  "updated_at": "2026-09-10T02:40:56.015322+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-10T01:39:52.196009+00:00"
+  "generated_at": "2026-09-10T02:40:57.961312+00:00"
 }
