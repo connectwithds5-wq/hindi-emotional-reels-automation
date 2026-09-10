@@ -1,35 +1,35 @@
 {
-  "confidence": "10%",
+  "confidence": "20%",
   "data_points": 5,
-  "overall_summary": "All historical videos have extremely low views (5 to 15) and zero engagement, indicating the channel is in a cold start phase. Confidence is very low, requiring a controlled exploration strategy focused on high-retention narrative hooks.",
+  "overall_summary": "The performance data is extremely small and views across all videos are very low (5 to 15 views), indicating that confidence is currently low. The channel needs controlled exploration across core emotional topics like 'अधूरी मोहब्बत' and 'ओवरथिंकिंग' to establish an algorithmic baseline.",
   "winning_patterns": [
     {
-      "pattern": "None established",
-      "evidence": "All recent videos show near-zero views and zero engagement.",
-      "action": "Test distinct emotional topics and sharper hooks to find initial traction."
+      "pattern": "Relatable digital/phone relics of past relationships",
+      "evidence": "Videos like 'नंबर ब्लॉक नहीं किया कभी' (topic: एकतरफा प्यार) and 'पुराना नंबर और अधूरा रिश्ता' (topic: रिश्ते) performed slightly better relatively among the low sample.",
+      "action": "Continue leveraging modern smartphone-era break-up micro-habits as focal points."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic relational hooks",
-      "evidence": "Phrases like 'नंबर ब्लॉक नहीं किया' and 'रात के दो बजे' yielded low numbers (5-10 views).",
-      "action": "Shift from broad late-night clichés to hyper-specific, tangible everyday objects and actions."
+      "pattern": "Generic mixed-language titles and broad thematic hooks",
+      "evidence": "Videos with broad titles like 'Dil Ki Diary: Bewafai Ka Dard' received low views.",
+      "action": "Avoid generic English-Hindi mix titles; focus purely on deeply personal, raw Hindi conversational hooks."
     }
   ],
   "next_video": {
-    "topic": "self respect",
-    "emotion": "Quiet dignity and letting go",
-    "hook_style": "Tangible object-based observation",
+    "topic": "ओवरथिंकिंग",
+    "emotion": "तन्हाई और बेचैनी",
+    "hook_style": "Day-to-day sensory trigger",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Deleting a long-saved chat history not out of anger, but out of self-respect when realization hits that the conversation was entirely one-sided.",
-    "opening_direction": "Start by staring at a WhatsApp chat export file or the last message sent three months ago that remains unreplied.",
-    "twist_direction": "Realizing that pressing 'delete chat' finally brings peace instead of the fear of losing them forever.",
-    "duration_seconds": 12,
-    "posting_window": "18:00 - 20:00 IST",
-    "reason": "Evening hours align naturally with reflection on self-worth and solitude."
+    "concept": "Scrolling through a blank chat window at midnight, wondering if they are typing and deleting too.",
+    "opening_direction": "ऑनलाइन स्टेटस देखने की आदत छूट गई, पर...",
+    "twist_direction": "...आज अचानक दिखा कि वो किसी और के लिए ऑनलाइन हैं।",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 21:00",
+    "reason": "Evening hours typically have higher engagement for overthinking and nocturnal emotional content."
   },
-  "experiment": "Testing whether hyper-specific digital cleanup actions ('chat export/delete') drive better retention than generic phone/number relationship tropes.",
-  "updated_at": "2026-09-10T12:45:13.153677+00:00",
+  "experiment": "Testing a raw, text-on-screen sensory opening combined with a sharp emotional twist about online status visibility during late hours.",
+  "updated_at": "2026-09-10T13:41:18.492296+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-10T12:45:16.054646+00:00"
+  "generated_at": "2026-09-10T13:41:26.351587+00:00"
 }
