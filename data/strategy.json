@@ -1,35 +1,35 @@
 {
   "confidence": "10%",
   "data_points": 5,
-  "overall_summary": "The performance data is extremely small (all videos have single-digit views), so confidence is very low. Most hooks revolved around phone numbers, blocks, or late nights, showing lack of diverse pattern testing.",
+  "overall_summary": "The performance data is extremely small and immature, showing near-zero views across all initial uploads. Therefore, confidence is very low, and the strategy focuses on exploring more grounded, highly relatable everyday micro-moments with stronger emotional tension.",
   "winning_patterns": [
     {
-      "pattern": "Personal digital artifacts as triggers",
-      "evidence": "Videos referencing phone numbers and contact names generated slightly higher relative visibility (e.g., 'आज भी फोन में तुम्हारा नाम सुरक्षित है' got 9 views).",
-      "action": "Continue referencing everyday digital habits like typing and deleting unsent messages."
+      "pattern": "Concrete digital or physical object anchors",
+      "evidence": "Videos referencing specific physical or digital states like phone numbers, tea, or names generated slight baseline traction compared to abstract concepts.",
+      "action": "Continue anchoring hooks to tangible objects or routine actions like notifications, saved chats, or shared spaces."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Overused late-night clichés",
-      "evidence": "Hooks like 'रात के दो बजे' yielded the lowest views (4 views).",
-      "action": "Avoid generic time-based openings and focus on tangible physical moments."
+      "pattern": "Generic time-based or cliché emotional openings",
+      "evidence": "Openings like 'रात के दो बजे' (2 AM) yielded minimal traction (4 views).",
+      "action": "Avoid broad cliches and focus on specific, hyper-relatable micro-actions instead of generic night timestamps."
     }
   ],
   "next_video": {
-    "topic": "जो कहना रह गया",
-    "emotion": "regret and unsaid words",
-    "hook_style": "tangible physical action",
+    "topic": "अकेलापन",
+    "emotion": "Melancholy and acceptance",
+    "hook_style": "Habitual daily action with an absent person",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Typing a long paragraph to an ex, staring at it for five minutes, and finally hitting backspace instead of send.",
-    "opening_direction": "Type karne ke baad send dabane se pehle ruk jana...",
-    "twist_direction": "...aur phir saari baatein wapas backspace karke sirf ek 'Theek ho?' bhej dena.",
+    "concept": "Ordering tea for two out of sheer habit, then realizing you are alone.",
+    "opening_direction": "कैफे में चाय का ऑर्डर देते वक्त आज भी गलती से दो कप बोल दिए,",
+    "twist_direction": "सामने वाली खाली कुर्सी को देखकर समझ आया कि अब चाय ठंडी होने पर पीने वाला कोई नहीं, सिर्फ उसकी यादें हैं।",
     "duration_seconds": 12,
-    "posting_window": "18:00 - 20:00 IST",
-    "reason": "Tests a fresh physical typing action rather than phone numbers or late night clichés during peak evening engagement hours."
+    "posting_window": "06:30 PM - 08:30 PM",
+    "reason": "Testing a physical habit-based hook rather than a digital phone hook during early evening relaxation hours."
   },
-  "experiment": "Testing an action-based digital habit (typing and deleting text) instead of status/number-based hooks.",
-  "updated_at": "2026-09-10T08:42:29.473500+00:00",
+  "experiment": "Testing if physical habit anchors (ordering food/tea for two) outperform digital anchors (phone numbers) for engagement.",
+  "updated_at": "2026-09-10T09:41:32.441237+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-10T08:42:31.798965+00:00"
+  "generated_at": "2026-09-10T09:41:34.969843+00:00"
 }
