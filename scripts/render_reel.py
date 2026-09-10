@@ -10,12 +10,17 @@ TEMPLATE = ROOT / "assets" / "template.png"
 MUSIC = ROOT / "assets" / "music" / "background.mp3"
 FPS = 30
 DURATION = 10
-W, H = 864, 1536
+
+# Render directly at the final Shorts/Reels resolution.  The previous
+# pipeline first resized the template to 864x1536 and then upscaled it to
+# 1080x1920 in FFmpeg, which unnecessarily softened the notebook image.
+W, H = 1080, 1920
+DESIGN_W, DESIGN_H = 864, 1536
+SCALE = W / DESIGN_W
 
 # --- Diary text layout calibration -----------------------------------------
-# The notebook page is photographed in perspective, so a single fixed x/y
-# coordinate makes later lines drift away from the ruled lines.  These values
-# describe the page's text baseline rather than the video frame.
+# Coordinates below remain in the original 864x1536 design space and are
+# scaled once, losslessly as vector text, into the final 1080x1920 frame.
 TEXT_CENTER_X_TOP = 545
 TEXT_CENTER_X_BOTTOM = 562
 FIRST_BASELINE = 438
@@ -41,7 +46,6 @@ def escape_xml(text):
 
 
 def line_center_x(index, line_count):
-    """Interpolate the notebook's perspective center across the text block."""
     if line_count <= 1:
         return TEXT_CENTER_X_TOP
     t = index / (line_count - 1)
@@ -49,7 +53,6 @@ def line_center_x(index, line_count):
 
 
 def font_size_for(line):
-    """Keep long Hindi lines inside the ruled writing area."""
     length = len(line)
     if length <= 22:
         return FONT_SIZE
@@ -66,26 +69,24 @@ def make_poster(data):
 
     output_dir = ROOT / "output"
     output_dir.mkdir(parents=True, exist_ok=True)
-    template = Image.open(TEMPLATE).convert("RGBA").resize((W, H), Image.Resampling.LANCZOS)
+
+    # Keep the source template at the final output size.  Do not downsample
+    # it to 864x1536 before compositing and then enlarge it again later.
+    template = Image.open(TEMPLATE).convert("RGBA")
+    if template.size != (W, H):
+        template = template.resize((W, H), Image.Resampling.LANCZOS)
 
     raw_lines = [str(data.get("hook", "")).strip()] + [
         str(x).strip() for x in data.get("lines", [])
     ]
     lines = [x for x in raw_lines if x][:MAX_LINES]
 
-    # Use one transformed text block. This keeps every baseline at the same
-    # angle as the notebook ruling, while the x-coordinate follows page
-    # perspective from top to bottom.
     text_nodes = []
     line_count = len(lines)
     for i, line in enumerate(lines):
         x = line_center_x(i, line_count)
         y = FIRST_BASELINE + i * LINE_GAP
         size = font_size_for(line)
-
-        # For unusually long generated lines, constrain their rendered width
-        # without changing the center alignment. Normal lines retain the
-        # natural Kalam proportions.
         width_hint = ""
         if len(line) > 31:
             width_hint = f' textLength="{MAX_TEXT_WIDTH}" lengthAdjust="spacingAndGlyphs"'
@@ -96,10 +97,15 @@ def make_poster(data):
             f'fill="{INK}"{width_hint}>{escape_xml(line)}</text>'
         )
 
+    # Scale the entire vector text block from the calibrated design canvas to
+    # the final 1080x1920 canvas.  Text therefore stays sharp instead of
+    # being rasterized at 864x1536 and enlarged afterward.
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">
 <style>text {{ font-family: Kalam; font-weight: 300; }}</style>
-<g transform="rotate({PAGE_SLOPE_DEG} {TEXT_CENTER_X_TOP} {FIRST_BASELINE})">
+<g transform="scale({SCALE:.8f})">
+  <g transform="rotate({PAGE_SLOPE_DEG} {TEXT_CENTER_X_TOP} {FIRST_BASELINE})">
 {''.join(text_nodes)}
+  </g>
 </g>
 </svg>'''
 
@@ -115,7 +121,7 @@ def make_poster(data):
     overlay = Image.open(overlay_path).convert("RGBA")
     poster = Image.alpha_composite(template, overlay).convert("RGB")
     poster_path = output_dir / "latest_poster.jpg"
-    poster.save(poster_path, quality=95, optimize=True, progressive=True)
+    poster.save(poster_path, quality=98, optimize=True, progressive=True, subsampling=0)
     return poster_path
 
 
@@ -123,13 +129,12 @@ def make_music_video(poster_path, out_path):
     if not MUSIC.exists():
         raise FileNotFoundError(f"Music missing: {MUSIC}")
 
-    # The uploaded track is the source of truth: final video is exactly 10 seconds.
     subprocess.run([
         "ffmpeg", "-y", "-loop", "1", "-i", str(poster_path), "-i", str(MUSIC),
         "-t", str(DURATION), "-r", str(FPS),
         "-vf", "scale=1080:1920:flags=lanczos,format=yuv420p",
         "-af", "afade=t=out:st=9:d=1",
-        "-c:v", "libx264", "-preset", "veryfast", "-crf", "21",
+        "-c:v", "libx264", "-preset", "medium", "-crf", "18",
         "-c:a", "aac", "-b:a", "192k", "-shortest", str(out_path),
     ], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     return out_path
