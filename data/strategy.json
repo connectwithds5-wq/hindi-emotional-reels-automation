@@ -1,35 +1,35 @@
 {
-  "confidence": "20%",
+  "confidence": "15%",
   "data_points": 6,
-  "overall_summary": "The channel shows very low overall viewership across all initial uploads with negligible engagement, indicating low sample size and lack of algorithmic distribution so far. Performance is relatively slightly better for relationship and memory-based topics posted during morning hours, but overall confidence is low.",
+  "overall_summary": "The channel's historical performance data is extremely sparse (views ranging between 5 to 20), making it impossible to establish definitive high-performing patterns. The slight edge in views leans towards relationship and memory-based topics ('रिश्ते' and 'बेवफाई' hooks involving saved phone numbers or contact lists), but sample size is too low for statistical significance.",
   "winning_patterns": [
     {
-      "pattern": "Direct emotional recognition in relationships",
-      "evidence": "Video A_eLARoegnw ('आज भी फोन में तुम्हारा नाम सुरक्षित है') achieved the highest views (20) relative to others.",
-      "action": "Focus slightly more on relatable contact/phone-related memory micro-stories."
+      "pattern": "Phone/Contact-related emotional triggers",
+      "evidence": "Videos like 'A_eLARoegnw' (20 views) and 'a9-G1X5jEOU' (15 views) use phone/contact list imagery as hooks, outperforming abstract late-night thoughts.",
+      "action": "Incorporate tangible everyday objects related to communication (like old chat logs or contact names) into the hooks."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Late night or passive overthinking hooks",
-      "evidence": "Video WvZxup1LQYo ('आधी रात को खाली चैट देखना') received the lowest views (2).",
-      "action": "Avoid abstract late-night generic prompts and focus on tangible, physical triggers."
+      "pattern": "Abstract late-night opening lines without concrete objects",
+      "evidence": "Hooks like 'रात के दो बजे' (G0gKV1p3ZHc) and 'मेज पर रखी चाय ठंडी हो गई' (uIbMpCjVutQ) had lower relative traction.",
+      "action": "Ground late-night overthinking concepts in a specific, physical action rather than just stating the time."
     }
   ],
   "next_video": {
-    "topic": "पुरानी यादें",
-    "emotion": "Nostalgia and bittersweet acceptance",
-    "hook_style": "Tangible physical trigger",
+    "topic": "अधूरी मोहब्बत",
+    "emotion": "Melancholy & Nostalgia",
+    "hook_style": "Tangible everyday object trigger",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Finding an old handwritten ticket or bill in a pocket that brings back memories of a journey taken together.",
-    "opening_direction": "पुरानी जैकेट की जेब से एक पुराना सिनेमा टिकट मिला,",
-    "twist_direction": "टिकट पर लिखी तारीख वही थी जब उसने कहा था 'हम हमेशा साथ रहेंगे', बस आज उस रास्ते पर चलने वाला कोई नहीं था।",
+    "concept": "Finding an old handwritten note or bill inside a book that brings back a flood of memories of someone who left.",
+    "opening_direction": "किताब के पन्नों के बीच दबा हुआ पुराना पर्चा मिला...",
+    "twist_direction": "...और लिखावट पहचानते ही दिल बैठ गया कि यह वादा उसने किसी और से भी किया होगा।",
     "duration_seconds": 12,
-    "posting_window": "07:00 AM - 09:00 AM",
-    "reason": "Morning slots previously showed a slight edge in initial impressions, and physical triggers work better than abstract emotional statements."
+    "posting_window": "07:00 PM - 09:00 PM",
+    "reason": "Evening hours target audiences who are unwinding, transitioning into self-reflection and personal scrolling mode."
   },
-  "experiment": "Testing a tangible physical object memory trigger (old ticket) instead of digital/phone screen hooks to check for higher retention.",
-  "updated_at": "2026-09-10T18:42:27.304644+00:00",
+  "experiment": "Testing whether a physical physical object discovery (old book/note) yields higher retention than digital objects (phone screens/chats) tested previously.",
+  "updated_at": "2026-09-10T19:37:25.364302+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-10T18:42:36.216555+00:00"
+  "generated_at": "2026-09-10T19:37:39.189182+00:00"
 }
