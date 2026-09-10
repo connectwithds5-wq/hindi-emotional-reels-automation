@@ -1,35 +1,35 @@
 {
   "confidence": "20%",
-  "data_points": 5,
-  "overall_summary": "The performance data is extremely small and views across all videos are very low (5 to 15 views), indicating that confidence is currently low. The channel needs controlled exploration across core emotional topics like 'अधूरी मोहब्बत' and 'ओवरथिंकिंग' to establish an algorithmic baseline.",
+  "data_points": 6,
+  "overall_summary": "The historical dataset is very small, with overall view counts consistently under 20 and zero engagement across all posts. Confidence is low, meaning we cannot definitively isolate a high-converting format yet. However, slight variations show that relationship-based and memory-related hooks performed marginally better (15-17 views), while complex night-time/overthinking angles struggled more.",
   "winning_patterns": [
     {
-      "pattern": "Relatable digital/phone relics of past relationships",
-      "evidence": "Videos like 'नंबर ब्लॉक नहीं किया कभी' (topic: एकतरफा प्यार) and 'पुराना नंबर और अधूरा रिश्ता' (topic: रिश्ते) performed slightly better relatively among the low sample.",
-      "action": "Continue leveraging modern smartphone-era break-up micro-habits as focal points."
+      "pattern": "Direct phone and contact-based hooks",
+      "evidence": "Videos like 'आज भी फोन में तुम्हारा नाम सुरक्षित है' (A_eLARoegnw) and 'नंबर पर अभी भी तेरी तस्वीर है' (a9-G1X5jEOU) yielded the highest relative views (17 and 15 respectively).",
+      "action": "Continue focusing on tangible, modern objects of nostalgia like phone contacts, photos, and chat screens."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic mixed-language titles and broad thematic hooks",
-      "evidence": "Videos with broad titles like 'Dil Ki Diary: Bewafai Ka Dard' received low views.",
-      "action": "Avoid generic English-Hindi mix titles; focus purely on deeply personal, raw Hindi conversational hooks."
+      "pattern": "Abstract or overly broad night/overthinking hooks",
+      "evidence": "Videos like 'आधी रात को खाली चैट देखना' (WvZxup1LQYo) got 0 views, and general time-based hooks underperformed.",
+      "action": "Avoid starting with vague time markers or purely atmospheric statements without a concrete emotional anchor."
     }
   ],
   "next_video": {
-    "topic": "ओवरथिंकिंग",
-    "emotion": "तन्हाई और बेचैनी",
-    "hook_style": "Day-to-day sensory trigger",
+    "topic": "पुरानी यादें",
+    "emotion": "Melancholy and quiet acceptance",
+    "hook_style": "Tangible everyday memory trigger",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Scrolling through a blank chat window at midnight, wondering if they are typing and deleting too.",
-    "opening_direction": "ऑनलाइन स्टेटस देखने की आदत छूट गई, पर...",
-    "twist_direction": "...आज अचानक दिखा कि वो किसी और के लिए ऑनलाइन हैं।",
+    "concept": "Finding an old handwritten bill or ticket in a wallet that brings back the memory of a person who is no longer in life.",
+    "opening_direction": "財布 (wallet) या पुरानी डायरी से किसी पुराने सफर का टिकट या बिल गिर जाना।",
+    "twist_direction": "टिकट पर लिखी तारीख देखकर याद आया कि उस दिन हम साथ थे, और आज सफर भी वही है लेकिन रास्ते अलग।",
     "duration_seconds": 15,
-    "posting_window": "18:00 - 21:00",
-    "reason": "Evening hours typically have higher engagement for overthinking and nocturnal emotional content."
+    "posting_window": "07:00 PM - 09:00 PM",
+    "reason": "Testing a tactile, non-phone memory trigger during prime evening leisure hours to see if physical objects outperform digital ones."
   },
-  "experiment": "Testing a raw, text-on-screen sensory opening combined with a sharp emotional twist about online status visibility during late hours.",
-  "updated_at": "2026-09-10T13:41:18.492296+00:00",
+  "experiment": "Testing a tactile, non-phone memory trigger (paper/ticket) instead of digital chat/phone screen hooks.",
+  "updated_at": "2026-09-10T14:42:22.910131+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-10T13:41:26.351587+00:00"
+  "generated_at": "2026-09-10T14:42:34.534203+00:00"
 }
