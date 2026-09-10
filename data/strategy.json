@@ -1,35 +1,35 @@
 {
   "confidence": "10%",
-  "data_points": 4,
-  "overall_summary": "The performance dataset is extremely small and uniform, with nearly zero views across all videos, preventing the identification of statistically significant winning patterns. Strategy must rely on controlled exploration testing different emotional hooks and posting times.",
+  "data_points": 5,
+  "overall_summary": "The sample size is extremely small across all initial uploads, resulting in negligible view counts and zero engagement. No definitive winning patterns can be extracted yet, so the strategy must rely on controlled exploration with a focus on high-retention storytelling structures.",
   "winning_patterns": [
     {
-      "pattern": "Sensory everyday starting hooks",
-      "evidence": "Videos using physical objects like tea or phone numbers achieved baseline distribution.",
-      "action": "Continue utilizing tangible, grounding first lines to trigger immediate recognition."
+      "pattern": "None established",
+      "evidence": "All recent videos have views under 20 with zero engagement.",
+      "action": "Shift focus to strengthening the hook-to-retention pipeline."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract or generic emotion titles",
-      "evidence": "Low sample performance across all historical entries indicates titles like 'Dil Ki Diary' alone fail to convert initial impressions.",
-      "action": "Focus heavily on hyper-specific emotional scenarios rather than broad category titles."
+      "pattern": "Generic late-night and number-saving tropes",
+      "evidence": "Multiple videos used variations of phone numbers and night-time settings ('नंबर ब्लॉक नहीं किया', 'नंबर पर अभी भी', 'रात के दो बजे'), which yielded low performance.",
+      "action": "Explore fresh, everyday physical triggers instead of digital/phone clichés."
     }
   ],
   "next_video": {
-    "topic": "रिश्ते",
-    "emotion": "अधूरी मोहब्बत",
-    "hook_style": "simple real-life moment",
+    "topic": "self respect",
+    "emotion": "Bittersweet realization",
+    "hook_style": "Physical domestic action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Saving a contact name that no longer exists in real life, focusing on the lingering digital footprints of a broken relationship.",
-    "opening_direction": "तेरा नाम आज भी फोन की संपर्क सूची में किसी और नाम से सेव है,",
-    "twist_direction": "पर उस नंबर पर अब किसी गैर की आवाज़ गूंजती है।",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 21:00",
-    "reason": "Testing evening peak hours when overthinking and loneliness metrics typically surge for Hindi emotional content consumers."
+    "concept": "A person packing away an old gift, realizing they are holding onto the item rather than the person.",
+    "opening_direction": "Wardrobe ki safai karte waqt woh purana dabka haath laga...",
+    "twist_direction": "Dabba khola toh woh tohfe ki khushboo nahi, khud ke badle hue halaat mile.",
+    "duration_seconds": 12,
+    "posting_window": "18:00 - 20:00",
+    "reason": "Testing a shift from digital communication tropes to tangible physical objects during evening high-engagement hours."
   },
-  "experiment": "Testing an evening posting window combined with a highly specific modern digital-age betrayal hook to break the zero-view threshold.",
-  "updated_at": "2026-09-10T06:44:21.621665+00:00",
+  "experiment": "Testing if physical object-based hooks perform better than mobile phone/chat-based hooks for self-respect and moving-on themes.",
+  "updated_at": "2026-09-10T07:40:52.958538+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-10T06:44:24.056091+00:00"
+  "generated_at": "2026-09-10T07:40:55.560428+00:00"
 }
