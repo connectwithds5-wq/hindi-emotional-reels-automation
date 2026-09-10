@@ -1,35 +1,35 @@
 {
-  "confidence": "20%",
+  "confidence": "10%",
   "data_points": 4,
-  "overall_summary": "Data volume is extremely small (4 videos, total 25 views) with minimal user interaction. Early indications show slightly higher initial reach on betrayal/relational themes ('बेवफाई') posted in early evening hours, but overall confidence is low, requiring controlled exploration.",
+  "overall_summary": "The performance dataset is extremely small and uniform, with nearly zero views across all videos, preventing the identification of statistically significant winning patterns. Strategy must rely on controlled exploration testing different emotional hooks and posting times.",
   "winning_patterns": [
     {
-      "pattern": "Relatable digital-age heartbreaks ('नंबर पर अभी भी तेरी तस्वीर है')",
-      "evidence": "Video 'a9-G1X5jEOU' achieved the highest view count (15 views) compared to generic late-night atmospheric hooks.",
-      "action": "Focus on tangible, modern personal items (chat histories, saved photos, contact names) as relatable triggers."
+      "pattern": "Sensory everyday starting hooks",
+      "evidence": "Videos using physical objects like tea or phone numbers achieved baseline distribution.",
+      "action": "Continue utilizing tangible, grounding first lines to trigger immediate recognition."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic time-based hooks without immediate narrative tension ('रात के दो बजे')",
-      "evidence": "Video 'G0gKV1p3ZHc' received 0 views, indicating early drop-off or lack of immediate curiosity.",
-      "action": "Replace abstract atmospheric setups with concrete physical actions or micro-dramas in the first 2 seconds."
+      "pattern": "Abstract or generic emotion titles",
+      "evidence": "Low sample performance across all historical entries indicates titles like 'Dil Ki Diary' alone fail to convert initial impressions.",
+      "action": "Focus heavily on hyper-specific emotional scenarios rather than broad category titles."
     }
   ],
   "next_video": {
-    "topic": "जो कहना रह गया",
-    "emotion": "Melancholy and Self-Dignity",
-    "hook_style": "Visual action with internal conflict",
+    "topic": "रिश्ते",
+    "emotion": "अधूरी मोहब्बत",
+    "hook_style": "simple real-life moment",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Deleting a long unsent apology draft after seeing the person online and active elsewhere.",
-    "opening_direction": "Show typing a long text message in a chat box late at night.",
-    "twist_direction": "Instead of hitting send, selecting all text, hitting backspace, and changing their contact nickname back to their real name.",
-    "duration_seconds": 22,
-    "posting_window": "13:30 - 15:30 UTC (7:00 PM - 9:00 PM IST)",
-    "reason": "Aligns with peak leisure hours for emotional Hindi content consumers and follows the relative performance peak seen around 13:47 UTC."
+    "concept": "Saving a contact name that no longer exists in real life, focusing on the lingering digital footprints of a broken relationship.",
+    "opening_direction": "तेरा नाम आज भी फोन की संपर्क सूची में किसी और नाम से सेव है,",
+    "twist_direction": "पर उस नंबर पर अब किसी गैर की आवाज़ गूंजती है।",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 21:00",
+    "reason": "Testing evening peak hours when overthinking and loneliness metrics typically surge for Hindi emotional content consumers."
   },
-  "experiment": "Testing if visual micro-interactions (typing/deleting a message) perform better than static background storytelling.",
-  "updated_at": "2026-09-10T05:40:09.422463+00:00",
-  "model_used": "gemini-3.6-flash",
-  "generated_at": "2026-09-10T05:40:15.130525+00:00"
+  "experiment": "Testing an evening posting window combined with a highly specific modern digital-age betrayal hook to break the zero-view threshold.",
+  "updated_at": "2026-09-10T06:44:21.621665+00:00",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-09-10T06:44:24.056091+00:00"
 }
