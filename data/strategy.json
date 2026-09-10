@@ -1,35 +1,35 @@
 {
   "confidence": "10%",
   "data_points": 3,
-  "overall_summary": "The performance data is extremely limited (3 videos, all under 20 views), making it statistically insignificant to determine a definitive winning pattern. The channel is relying on standard emotional tropes across topics like 'बेवफाई', 'एकतरफा प्यार', and 'रात के ख्याल', but views are currently negligible across the board.",
+  "overall_summary": "The performance data is extremely limited, with all initial videos receiving very low views (5 to 15 views) and zero engagement. Because the sample size is too small, no definitive winning patterns can be established yet. A controlled exploration phase is necessary to test different emotional hooks and timing.",
   "winning_patterns": [
     {
       "pattern": "None established yet",
-      "evidence": "All initial test videos have under 20 views and zero engagement.",
-      "action": "Proceed with controlled exploration of everyday relatable emotional triggers to find a hook that breaks the threshold."
+      "evidence": "All three videos have near-zero views and zero engagement.",
+      "action": "Continue testing diverse topics from the core list with strong everyday sensory hooks."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract or cliché dramatic setups",
-      "evidence": "Hooks focusing on blocked numbers or cold tea yielded minimal traction.",
-      "action": "Shift focus toward more visceral, hyper-specific micro-moments of modern life and loneliness."
+      "pattern": "Generic English/Hinglish hybrid titles",
+      "evidence": "Video 'a9-G1X5jEOU' used English titles like 'Dil Ki Diary: Bewafai Ka Dard aur Khamosh Yaadein' which yielded lowest long-tail pickup.",
+      "action": "Stick strictly to native Hindi script or emotional conversational hooks in titles."
     }
   ],
   "next_video": {
-    "topic": "अकेलापन",
-    "emotion": "Melancholy and sudden realization",
-    "hook_style": "Hyper-specific mundane habit",
+    "topic": "ओवरथिंकिंग",
+    "emotion": "Anxiety and loneliness",
+    "hook_style": "Sensory and everyday object related",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A person automatically cooks for two people out of old habit, eats alone, and realizes the silence is now permanent.",
-    "opening_direction": "आज भी गलती से कढ़ाई में दो लोगों की सब्जी बन गई,",
-    "twist_direction": "प्लेट लगाते वक्त याद आया... अब वो सिर्फ यादों में ही हिस्सा बांटती है।",
-    "duration_seconds": 12,
+    "concept": "Scrolling through a chat history just to read the last message sent months ago.",
+    "opening_direction": "रात के 2 बजे ऑनलाइन होना और किसी का इंतज़ार करना",
+    "twist_direction": "इंतज़ार उसका नहीं, बल्कि इस बात का होता है कि वो अब कभी ऑनलाइन नहीं आएगा।",
+    "duration_seconds": 10,
     "posting_window": "19:00 - 21:00 IST",
-    "reason": "Evening hours align with 'रात के ख्याल' and 'अकेलापन' themes when audiences are more reflective and prone to scrolling emotional content."
+    "reason": "Evening and late-night hours are peak times for overthinking and emotional content consumption."
   },
-  "experiment": "Testing a hyper-specific domestic habit (cooking for two) instead of digital/phone-based heartbreak hooks to measure audience resonance with physical loneliness.",
-  "updated_at": "2026-09-10T03:41:58.034094+00:00",
+  "experiment": "Testing an overthinking topic with a late-evening posting window to check if engagement improves over afternoon uploads.",
+  "updated_at": "2026-09-10T04:41:18.128051+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-10T03:42:00.455670+00:00"
+  "generated_at": "2026-09-10T04:41:20.362506+00:00"
 }
