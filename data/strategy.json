@@ -1,35 +1,35 @@
 {
-  "confidence": "15%",
+  "confidence": "20%",
   "data_points": 6,
-  "overall_summary": "The channel's historical performance data is extremely sparse (views ranging between 5 to 20), making it impossible to establish definitive high-performing patterns. The slight edge in views leans towards relationship and memory-based topics ('रिश्ते' and 'बेवफाई' hooks involving saved phone numbers or contact lists), but sample size is too low for statistical significance.",
+  "overall_summary": "The performance data sample size is extremely small, with view counts ranging between 5 and 20 views and no engagement recorded yet. Confidence is low, meaning we cannot rely on definitive winners. However, topics involving personal phones, numbers, and late-night relational echoes (रिश्ते, ओवरथिंकिंग) showed marginally higher traction, indicating an audience resonance with modern digital relationship anxiety.",
   "winning_patterns": [
     {
-      "pattern": "Phone/Contact-related emotional triggers",
-      "evidence": "Videos like 'A_eLARoegnw' (20 views) and 'a9-G1X5jEOU' (15 views) use phone/contact list imagery as hooks, outperforming abstract late-night thoughts.",
-      "action": "Incorporate tangible everyday objects related to communication (like old chat logs or contact names) into the hooks."
+      "pattern": "Phone and contact-based hooks",
+      "evidence": "Videos focusing on phone contact names and saved numbers ('आज भी फोन में तुम्हारा नाम सुरक्षित है') garnered the highest views in the set (20 views).",
+      "action": "Continue focusing on micro-interactions related to smartphones and digital artifacts of old relationships."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract late-night opening lines without concrete objects",
-      "evidence": "Hooks like 'रात के दो बजे' (G0gKV1p3ZHc) and 'मेज पर रखी चाय ठंडी हो गई' (uIbMpCjVutQ) had lower relative traction.",
-      "action": "Ground late-night overthinking concepts in a specific, physical action rather than just stating the time."
+      "pattern": "Generic late-night atmospheric openings",
+      "evidence": "Openings like 'रात के दो बजे' or 'मेज पर रखी चाय' performed lower (5-12 views) due to cliché phrasing.",
+      "action": "Avoid abstract time/weather setups and immediately ground the hook in a specific physical or digital action."
     }
   ],
   "next_video": {
-    "topic": "अधूरी मोहब्बत",
-    "emotion": "Melancholy & Nostalgia",
-    "hook_style": "Tangible everyday object trigger",
+    "topic": "रिश्ते",
+    "emotion": "Melancholy and subtle regret",
+    "hook_style": "Digital habit observation",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Finding an old handwritten note or bill inside a book that brings back a flood of memories of someone who left.",
-    "opening_direction": "किताब के पन्नों के बीच दबा हुआ पुराना पर्चा मिला...",
-    "twist_direction": "...और लिखावट पहचानते ही दिल बैठ गया कि यह वादा उसने किसी और से भी किया होगा।",
+    "concept": "Checking an old chat archive just to see if they were online last.",
+    "opening_direction": "Scroll karne laga toh socha, bas ek baar dekh lu ki wo aakhri baar kab online aayi thi.",
+    "twist_direction": "Pata chala last seen hide hai, aur samajh aa gaya ki ab hum sirf ek purani history bankar reh gaye hain.",
     "duration_seconds": 12,
-    "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Evening hours target audiences who are unwinding, transitioning into self-reflection and personal scrolling mode."
+    "posting_window": "19:00 - 21:00 IST",
+    "reason": "Evening hours capture the peak time when users experience high overthinking and quiet reflection regarding broken ties."
   },
-  "experiment": "Testing whether a physical physical object discovery (old book/note) yields higher retention than digital objects (phone screens/chats) tested previously.",
-  "updated_at": "2026-09-10T19:37:25.364302+00:00",
+  "experiment": "Testing a specific digital behavior hook (checking last seen status) instead of broader contact name themes to improve watch time and comment engagement.",
+  "updated_at": "2026-09-10T20:39:55.067546+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-10T19:37:39.189182+00:00"
+  "generated_at": "2026-09-10T20:39:57.645061+00:00"
 }
