@@ -1,35 +1,35 @@
 {
-  "confidence": "20%",
+  "confidence": "15%",
   "data_points": 6,
-  "overall_summary": "The historical dataset is very small, with overall view counts consistently under 20 and zero engagement across all posts. Confidence is low, meaning we cannot definitively isolate a high-converting format yet. However, slight variations show that relationship-based and memory-related hooks performed marginally better (15-17 views), while complex night-time/overthinking angles struggled more.",
+  "overall_summary": "The channel shows very low view counts across all initial test videos, indicating that organic reach is yet to establish and sample size is far too small for definitive conclusions. However, slightly higher traction is observed in relationship-focused and memory-based hooks compared to ultra-late night or generic overthinking angles.",
   "winning_patterns": [
     {
-      "pattern": "Direct phone and contact-based hooks",
-      "evidence": "Videos like 'आज भी फोन में तुम्हारा नाम सुरक्षित है' (A_eLARoegnw) and 'नंबर पर अभी भी तेरी तस्वीर है' (a9-G1X5jEOU) yielded the highest relative views (17 and 15 respectively).",
-      "action": "Continue focusing on tangible, modern objects of nostalgia like phone contacts, photos, and chat screens."
+      "pattern": "Direct relationship memories",
+      "evidence": "Video 'A_eLARoegnw' (Topic: रिश्ते) reached 20 views, the highest in the dataset.",
+      "action": "Focus more core storytelling around tangible relationship objects or memory triggers like saved phone contacts."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract or overly broad night/overthinking hooks",
-      "evidence": "Videos like 'आधी रात को खाली चैट देखना' (WvZxup1LQYo) got 0 views, and general time-based hooks underperformed.",
-      "action": "Avoid starting with vague time markers or purely atmospheric statements without a concrete emotional anchor."
+      "pattern": "Abstract overthinking time-stamps",
+      "evidence": "Video 'WvZxup1LQYo' (Topic: ओवरथिंकिंग) with the hook 'आधी रात को खाली चैट देखना' only got 2 views.",
+      "action": "Avoid generic late-night cliché openings; pair abstract thoughts with concrete, everyday physical actions."
     }
   ],
   "next_video": {
     "topic": "पुरानी यादें",
-    "emotion": "Melancholy and quiet acceptance",
-    "hook_style": "Tangible everyday memory trigger",
+    "emotion": "Melancholy & Nostalgia",
+    "hook_style": "Tangible physical object trigger",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Finding an old handwritten bill or ticket in a wallet that brings back the memory of a person who is no longer in life.",
-    "opening_direction": "財布 (wallet) या पुरानी डायरी से किसी पुराने सफर का टिकट या बिल गिर जाना।",
-    "twist_direction": "टिकट पर लिखी तारीख देखकर याद आया कि उस दिन हम साथ थे, और आज सफर भी वही है लेकिन रास्ते अलग।",
-    "duration_seconds": 15,
-    "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Testing a tactile, non-phone memory trigger during prime evening leisure hours to see if physical objects outperform digital ones."
+    "concept": "Finding an old handwritten letter or a forgotten train ticket inside an old book, remembering the exact promise made, and realizing the person who made it is now a complete stranger.",
+    "opening_direction": "अलमारी साफ करते वक्त पुरानी डायरी के पन्नों से एक सूखा हुआ गुलाब मिला।",
+    "twist_direction": "फूल तो आज भी महक रहा है, बस उसे देने वाले की महक अब किसी और के नाम हो गई।",
+    "duration_seconds": 12,
+    "posting_window": "07:00 PM - 09:00 PM IST",
+    "reason": "Evening hours typically align better with reflective emotional consumption in the Indian audience demographic."
   },
-  "experiment": "Testing a tactile, non-phone memory trigger (paper/ticket) instead of digital chat/phone screen hooks.",
-  "updated_at": "2026-09-10T14:42:22.910131+00:00",
+  "experiment": "Testing a physical object trigger (dried flower/diary) combined with a nostalgic relationship topic to see if it outperforms digital-communication-based hooks.",
+  "updated_at": "2026-09-10T15:41:15.384343+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-10T14:42:34.534203+00:00"
+  "generated_at": "2026-09-10T15:41:19.029583+00:00"
 }
