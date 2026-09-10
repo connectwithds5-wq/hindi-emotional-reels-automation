@@ -1,35 +1,35 @@
 {
   "confidence": "10%",
   "data_points": 3,
-  "overall_summary": "The performance data is extremely small (3 videos with negligible views), making it impossible to identify definitive winning patterns. The strategy must rely on low-sample exploration while testing high-relatability emotional hooks related to modern relationship grief.",
+  "overall_summary": "Initial baseline uploads across core topics ('एकतरफा प्यार', 'बेवफाई', 'रात के ख्याल') have extremely low views and engagement, indicating the channel is in a cold-start phase with no established algorithmic traction yet.",
   "winning_patterns": [
     {
-      "pattern": "Sensory/Object-based hooks",
-      "evidence": "Video uIbMpCjVutQ used 'मेज पर रखी चाय ठंडी हो गई' which grounds the emotion in a physical object.",
-      "action": "Continue leveraging everyday physical objects (tea, phone screen, online status) to anchor abstract emotional pain."
+      "pattern": "Sensory and physical object hooks",
+      "evidence": "Using everyday objects like a phone screen, blocked numbers, tea, or photos creates instant visual and emotional grounding.",
+      "action": "Continue rooting emotional hooks in tangible, everyday objects and actions."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "English-heavy or generic titles",
-      "evidence": "Video a9-G1X5jEOU used English words in the title and yielded the lowest relative traction.",
-      "action": "Use strictly Devanagari script for titles and captions to resonate deeply with the core Hindi emotional audience."
+      "pattern": "Generic titles and low sample volume",
+      "evidence": "All videos have single-digit views and 0 engagement, partially due to generic English titles or untargeted upload times.",
+      "action": "Adopt Hindi Devnagari script in titles for emotional resonance and test distinct evening posting windows."
     }
   ],
   "next_video": {
-    "topic": "रात के ख्याल",
-    "emotion": "अकेलापन",
-    "hook_style": "Habit-based routine interruption",
+    "topic": "ओवरथिंकिंग",
+    "emotion": "Ansiedad nocturna / Solitude",
+    "hook_style": "Relatable physical habit",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A person keeps making two cups of tea out of pure habit long after a breakup, until a sudden realization hits.",
-    "opening_direction": "आज भी किचन में दो कप चाय बन गई, एक तुम्हारी पसंद की...",
-    "twist_direction": "...फिर याद आया कि अब तुम्हारा पता बदल चुका है, और चीनी के डिब्बे पर धूल जमने लगी है।",
-    "duration_seconds": 10,
-    "posting_window": "18:00 - 20:00",
-    "reason": "Evening hours align with 'रात के ख्याल' (night thoughts) and peak emotional vulnerability on Shorts."
+    "concept": "Scrolling through a chat history just to read the timestamps instead of the messages.",
+    "opening_direction": "रात के 2 बजे सिर्फ मैसेज नहीं पढ़ता कोई, बस आखिरी बार ऑनलाइन दिखने का वक्त देखता है।",
+    "twist_direction": "और फिर समझ आता है कि वक्त तो वही रुका है, बस हम आगे निकल आए।",
+    "duration_seconds": 12,
+    "posting_window": "08:00 PM - 10:00 PM",
+    "reason": "Targets the late-night overthinking demographic right when emotional engagement peaks."
   },
-  "experiment": "Testing if a habit-based physical routine hook outperforms digital-centric hooks (like phone screens) for nighttime loneliness.",
-  "updated_at": "2026-09-10T00:43:52.305753+00:00",
+  "experiment": "Testing Devnagari script in titles combined with a late-night high-intent posting window to break the zero-view baseline.",
+  "updated_at": "2026-09-10T01:39:49.630459+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-10T00:43:54.551705+00:00"
+  "generated_at": "2026-09-10T01:39:52.196009+00:00"
 }
