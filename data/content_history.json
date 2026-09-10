@@ -754,6 +754,78 @@
         "reason": "Testing evening peak hours when overthinking and loneliness metrics typically surge for Hindi emotional content consumers."
       },
       "model_used": "gemini-3.5-flash-lite"
+    },
+    {
+      "hook": "आधी रात को खाली चैट देखना",
+      "lines": [
+        "अब एक आदत सी बन गई है",
+        "सोचता हूँ वो भी मेरी तरह",
+        "टाइप करके मिटाता होगा",
+        "स्क्रीन पर टकटकी लगाए",
+        "बस पलकें झपकाना भूल जाता हूँ",
+        "फिर अचानक ऊपर नाम चमकता है",
+        "वो किसी और के लिए ऑनलाइन है"
+      ],
+      "youtube_title": "रात को खाली चैट देखना और ओवरथिंकिंग | Dil Ki Diary",
+      "youtube_description": "रात के सन्नाट में खाली चैट विंडो को देखते रहना और ओवरथिंकिंग की बेचैनी का एक छोटा सा अहसास। क्या आपके साथ भी कभी ऐसा हुआ है जब किसी अपने को किसी और के लिए ऑनलाइन देखा हो? अपनी भावनाएं कमेंट्स में साझा करें।",
+      "youtube_keywords": [
+        "overthinking in hindi",
+        "dil ki diary shorts",
+        "emotional micro story",
+        "raat ki tanhai",
+        "late night overthinking",
+        "sad hindi shorts",
+        "silent heartbreak hindi",
+        "alone at midnight status",
+        "overthinking status hindi",
+        "dard bhari kahani",
+        "relatable hindi reels",
+        "tanhai aur bechaini"
+      ],
+      "youtube_hashtags": [
+        "DilKiDiary",
+        "Overthinking",
+        "Tanhai",
+        "SadHindiStories",
+        "LateNightThoughts",
+        "Heartbreak",
+        "Relatable"
+      ],
+      "caption": "कुछ रातें सिर्फ सोचने में निकल जाती हैं, और जवाब स्क्रीन पर किसी और का नाम बनकर सामने आ जाते हैं।",
+      "keywords": [
+        "overthinking",
+        "tanhai",
+        "bechaini",
+        "late night thoughts",
+        "emotional story",
+        "dil ki diary",
+        "relatable hindi",
+        "silent pain"
+      ],
+      "hashtags": [
+        "DilKiDiary",
+        "Overthinking",
+        "Tanhai",
+        "Bechaini",
+        "LateNightThoughts",
+        "EmotionalStory",
+        "RelatableHindi",
+        "SilentPain"
+      ],
+      "topic": "ओवरथिंकिंग",
+      "strategy_used": {
+        "topic": "ओवरथिंकिंग",
+        "emotion": "तन्हाई और बेचैनी",
+        "hook_style": "Day-to-day sensory trigger",
+        "story_structure": "simple -> relatable -> twist",
+        "concept": "Scrolling through a blank chat window at midnight, wondering if they are typing and deleting too.",
+        "opening_direction": "ऑनलाइन स्टेटस देखने की आदत छूट गई, पर...",
+        "twist_direction": "...आज अचानक दिखा कि वो किसी और के लिए ऑनलाइन हैं।",
+        "duration_seconds": 15,
+        "posting_window": "18:00 - 21:00",
+        "reason": "Evening hours typically have higher engagement for overthinking and nocturnal emotional content."
+      },
+      "model_used": "gemini-3.5-flash-lite"
     }
   ]
 }
