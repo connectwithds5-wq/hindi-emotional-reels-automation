@@ -1,35 +1,35 @@
 {
   "confidence": "10%",
   "data_points": 3,
-  "overall_summary": "Data sample is extremely small with near-zero views across all initial uploads, indicating low confidence and the need for a controlled exploration phase to find distribution traction.",
+  "overall_summary": "The performance data is extremely limited (3 videos, all under 20 views), making it statistically insignificant to determine a definitive winning pattern. The channel is relying on standard emotional tropes across topics like 'बेवफाई', 'एकतरफा प्यार', and 'रात के ख्याल', but views are currently negligible across the board.",
   "winning_patterns": [
     {
-      "pattern": "Sensory-based hook setup",
-      "evidence": "Using everyday objects like tea or phone screens creates an instant grounding effect.",
-      "action": "Continue leveraging tactile, relatable everyday visuals in the opening seconds."
+      "pattern": "None established yet",
+      "evidence": "All initial test videos have under 20 views and zero engagement.",
+      "action": "Proceed with controlled exploration of everyday relatable emotional triggers to find a hook that breaks the threshold."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic English titles for Hindi emotional content",
-      "evidence": "Video titled 'Dil Ki Diary: Bewafai Ka Dard...' received very low traction.",
-      "action": "Shift entirely to native Devnagari or highly relatable Hinglish titles optimized for the target demographic."
+      "pattern": "Abstract or cliché dramatic setups",
+      "evidence": "Hooks focusing on blocked numbers or cold tea yielded minimal traction.",
+      "action": "Shift focus toward more visceral, hyper-specific micro-moments of modern life and loneliness."
     }
   ],
   "next_video": {
-    "topic": "ओवरथिंकिंग",
-    "emotion": "Melancholy and relief",
-    "hook_style": "Habitual midnight action",
+    "topic": "अकेलापन",
+    "emotion": "Melancholy and sudden realization",
+    "hook_style": "Hyper-specific mundane habit",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Typing a long message to someone who won't read it, then deleting it.",
-    "opening_direction": "Midnight screen glow, fingers hovering over the keyboard deleting a drafted paragraph.",
-    "twist_direction": "Realizing that deleting the text gave more peace than sending it ever would.",
+    "concept": "A person automatically cooks for two people out of old habit, eats alone, and realizes the silence is now permanent.",
+    "opening_direction": "आज भी गलती से कढ़ाई में दो लोगों की सब्जी बन गई,",
+    "twist_direction": "प्लेट लगाते वक्त याद आया... अब वो सिर्फ यादों में ही हिस्सा बांटती है।",
     "duration_seconds": 12,
-    "posting_window": "20:00 - 22:00 IST",
-    "reason": "Late evening aligns well with overthinking and nocturnal reflection themes."
+    "posting_window": "19:00 - 21:00 IST",
+    "reason": "Evening hours align with 'रात के ख्याल' and 'अकेलापन' themes when audiences are more reflective and prone to scrolling emotional content."
   },
-  "experiment": "Testing an action-oriented hook (deleting a message) instead of a passive observational hook.",
-  "updated_at": "2026-09-10T02:40:56.015322+00:00",
+  "experiment": "Testing a hyper-specific domestic habit (cooking for two) instead of digital/phone-based heartbreak hooks to measure audience resonance with physical loneliness.",
+  "updated_at": "2026-09-10T03:41:58.034094+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-10T02:40:57.961312+00:00"
+  "generated_at": "2026-09-10T03:42:00.455670+00:00"
 }
