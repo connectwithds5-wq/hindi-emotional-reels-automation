@@ -1,35 +1,35 @@
 {
   "confidence": "20%",
   "data_points": 6,
-  "overall_summary": "The performance data is extremely small (views range between 2 and 20 with zero engagement), meaning statistical confidence is very low. However, slightly higher initial reach is observed in content focusing on past connections and phone-related triggers ('रिश्ते' and 'पुराानी यादें'), while very abstract late-night hooks ('ओवरथिंकिंग') underperformed in this small sample.",
+  "overall_summary": "The channel shows very low views across all initial videos (2 to 20 views), indicating that data is statistically insufficient to declare a true winning pattern. However, slightly higher impressions/views occurred on relationship-based topics with direct phone/memory hooks. A controlled exploration is necessary.",
   "winning_patterns": [
     {
-      "pattern": "Tangible contact-list triggers",
-      "evidence": "Video A_eLARoegnw ('आज भी फोन में तुम्हारा नाम सुरक्षित है,') received 20 views, the highest in the batch.",
-      "action": "Use physical relics of a relationship (old contact names, saved chats) as anchor points for the hook."
+      "pattern": "Direct communication and phone memory hooks",
+      "evidence": "Videos like 'आज भी फोन में तुम्हारा नाम सुरक्षित है' (20 views) and 'नंबर पर अभी भी तेरी तस्वीर है' (15 views) performed slightly better than abstract thoughts.",
+      "action": "Focus hooks on concrete, modern daily-life artifacts like phone notifications, saved names, or online statuses."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract time-based openings",
-      "evidence": "Video WvZxup1LQYo ('आधी रात को खाली चैट देखना') and G0gKV1p3ZHc ('रात के दो बजे') had low impressions and views (2 and 11).",
-      "action": "Avoid starting purely with time stamps; anchor the scene in a physical object or immediate action first."
+      "pattern": "Abstract late-night environment openings",
+      "evidence": "Openings like 'रात के दो बजे' (10 views) and 'आधी रात को खाली चैट देखना' (2 views) underperformed.",
+      "action": "Avoid starting with cliché time-of-day phrases; start mid-action or with a tangible object."
     }
   ],
   "next_video": {
-    "topic": "पुरानी यादें",
+    "topic": "अधूरी मोहब्बत",
     "emotion": "Melancholy and acceptance",
-    "hook_style": "Physical object interaction",
+    "hook_style": "Tangible everyday object action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A gallery app cleaning session where a hidden folder of old screenshots forces a moment of realization.",
-    "opening_direction": "Gallery mein purani photos delete karte waqt achanak ek locked folder dikh jana.",
-    "twist_direction": "Delete karne ke bajaye, unhe aur dur hide kar dena taaki agli baar dhoondna na pade.",
-    "duration_seconds": 12,
-    "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Evening hours typically align better with reflective moods and downtime for the target emotional demographic."
+    "concept": "A person keeps a specific playlist downloaded for someone who left, only to realize the playlist is now just for themselves.",
+    "opening_direction": "Maine aaj bhi uski playlist apne phone se delete nahi ki,",
+    "twist_direction": "Par ab us gaane par naachne wala koi nahi, sirf wahi purani yaadein hain jo bina aawaz ke bajti hain.",
+    "duration_seconds": 15,
+    "posting_window": "06:30 PM - 08:00 PM",
+    "reason": "Evening hours capture audiences winding down and checking their phones for personal reflections."
   },
-  "experiment": "Testing if shifting from abstract late-night time hooks to active phone gallery maintenance improves initial retention.",
-  "updated_at": "2026-09-10T16:39:46.221463+00:00",
+  "experiment": "Testing a music/media habit hook instead of phone calls or chat logs to diversify engagement triggers.",
+  "updated_at": "2026-09-10T17:38:55.202609+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-10T16:39:49.145710+00:00"
+  "generated_at": "2026-09-10T17:38:57.728509+00:00"
 }
