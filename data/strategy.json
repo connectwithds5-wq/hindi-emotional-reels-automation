@@ -1,35 +1,35 @@
 {
-  "confidence": "15%",
+  "confidence": "20%",
   "data_points": 6,
-  "overall_summary": "The channel shows very low view counts across all initial test videos, indicating that organic reach is yet to establish and sample size is far too small for definitive conclusions. However, slightly higher traction is observed in relationship-focused and memory-based hooks compared to ultra-late night or generic overthinking angles.",
+  "overall_summary": "The performance data is extremely small (views range between 2 and 20 with zero engagement), meaning statistical confidence is very low. However, slightly higher initial reach is observed in content focusing on past connections and phone-related triggers ('रिश्ते' and 'पुराानी यादें'), while very abstract late-night hooks ('ओवरथिंकिंग') underperformed in this small sample.",
   "winning_patterns": [
     {
-      "pattern": "Direct relationship memories",
-      "evidence": "Video 'A_eLARoegnw' (Topic: रिश्ते) reached 20 views, the highest in the dataset.",
-      "action": "Focus more core storytelling around tangible relationship objects or memory triggers like saved phone contacts."
+      "pattern": "Tangible contact-list triggers",
+      "evidence": "Video A_eLARoegnw ('आज भी फोन में तुम्हारा नाम सुरक्षित है,') received 20 views, the highest in the batch.",
+      "action": "Use physical relics of a relationship (old contact names, saved chats) as anchor points for the hook."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract overthinking time-stamps",
-      "evidence": "Video 'WvZxup1LQYo' (Topic: ओवरथिंकिंग) with the hook 'आधी रात को खाली चैट देखना' only got 2 views.",
-      "action": "Avoid generic late-night cliché openings; pair abstract thoughts with concrete, everyday physical actions."
+      "pattern": "Abstract time-based openings",
+      "evidence": "Video WvZxup1LQYo ('आधी रात को खाली चैट देखना') and G0gKV1p3ZHc ('रात के दो बजे') had low impressions and views (2 and 11).",
+      "action": "Avoid starting purely with time stamps; anchor the scene in a physical object or immediate action first."
     }
   ],
   "next_video": {
     "topic": "पुरानी यादें",
-    "emotion": "Melancholy & Nostalgia",
-    "hook_style": "Tangible physical object trigger",
+    "emotion": "Melancholy and acceptance",
+    "hook_style": "Physical object interaction",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Finding an old handwritten letter or a forgotten train ticket inside an old book, remembering the exact promise made, and realizing the person who made it is now a complete stranger.",
-    "opening_direction": "अलमारी साफ करते वक्त पुरानी डायरी के पन्नों से एक सूखा हुआ गुलाब मिला।",
-    "twist_direction": "फूल तो आज भी महक रहा है, बस उसे देने वाले की महक अब किसी और के नाम हो गई।",
+    "concept": "A gallery app cleaning session where a hidden folder of old screenshots forces a moment of realization.",
+    "opening_direction": "Gallery mein purani photos delete karte waqt achanak ek locked folder dikh jana.",
+    "twist_direction": "Delete karne ke bajaye, unhe aur dur hide kar dena taaki agli baar dhoondna na pade.",
     "duration_seconds": 12,
-    "posting_window": "07:00 PM - 09:00 PM IST",
-    "reason": "Evening hours typically align better with reflective emotional consumption in the Indian audience demographic."
+    "posting_window": "07:00 PM - 09:00 PM",
+    "reason": "Evening hours typically align better with reflective moods and downtime for the target emotional demographic."
   },
-  "experiment": "Testing a physical object trigger (dried flower/diary) combined with a nostalgic relationship topic to see if it outperforms digital-communication-based hooks.",
-  "updated_at": "2026-09-10T15:41:15.384343+00:00",
+  "experiment": "Testing if shifting from abstract late-night time hooks to active phone gallery maintenance improves initial retention.",
+  "updated_at": "2026-09-10T16:39:46.221463+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-10T15:41:19.029583+00:00"
+  "generated_at": "2026-09-10T16:39:49.145710+00:00"
 }
