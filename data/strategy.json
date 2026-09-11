@@ -1,35 +1,35 @@
 {
-  "confidence": "Low (small sample size, low baseline views across all videos)",
+  "confidence": "20%",
   "data_points": 6,
-  "overall_summary": "All recent videos show very low views (5-20 views) with zero engagement, indicating low algorithmic distribution or insufficient hook retention. Since the data is statistically insignificant, we must rely on a controlled exploration strategy combining phone/chat nostalgia with a fresh structural approach.",
+  "overall_summary": "The channel shows very low overall view counts across all initial test videos (ranging between 5 to 20 views). Because the sample size is extremely small and engagement is virtually non-existent, confidence is currently low. The strategy requires a controlled exploration phase focusing on phone/digital memorabilia hooks which slightly outperformed generic ones.",
   "winning_patterns": [
     {
-      "pattern": "Digital relic/phone-based hooks",
-      "evidence": "Videos referencing phone numbers or contact names (A_eLARoegnw with 20 views, aUuNKfe7jm4 with 5 views) performed slightly better than abstract nighttime monologues.",
-      "action": "Continue focusing on tangible digital artifacts (like old chats, contact lists, or online status) for immediate relatability."
+      "pattern": "Digital memory hooks (phone contacts / saved names)",
+      "evidence": "Videos referencing phone numbers and saved names (e.g., A_eLARoegnw with 20 views and a9-G1X5jEOU with 15 views) performed slightly better than abstract or environmental hooks.",
+      "action": "Incorporate tangible smartphone habits and chat interaction relics into future hooks."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract or generic late-night atmospheric hooks",
-      "evidence": "uIbMpCjVutQ ('मेज पर रखी चाय ठंडी हो गई') and WvZxup1LQYo ('आधी रात को खाली चैट देखना') received very low traction (5-7 views).",
-      "action": "Avoid overly poetic or slow-burn openings; start directly with an action or a sharp visual observation in the first 2 seconds."
+      "pattern": "Abstract or slow environmental openings",
+      "evidence": "Tea-based or generalized midnight thoughts (e.g., uIbMpCjVutQ with 5 views) yielded lower initial reach.",
+      "action": "Avoid slow setup lines; start directly with sharp, relatable modern behavioral triggers."
     }
   ],
   "next_video": {
-    "topic": "ओवरथिंकिंग",
-    "emotion": "तन्हाई और अधूरापन",
-    "hook_style": "Visual action with phone notification",
+    "topic": "अधूरी मोहब्बत",
+    "emotion": "नस्टेल्जिया और खालीपन",
+    "hook_style": "स्मार्टफोन गैलरी और डिलीटेड फोल्डर",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A person keeps looking at a typing indicator that never turns into a message, leading to overthinking about what went wrong.",
-    "opening_direction": "Start right as 'Typing...' appears below an old contact name after months of silence.",
-    "twist_direction": "The typing indicator suddenly disappears, leaving the screen blank and proving that even false hope hurts more than silence.",
-    "duration_seconds": 12,
-    "posting_window": "18:00 - 20:00 IST",
-    "reason": "Evening hours align with higher emotional engagement and overthinking peaks among young audiences."
+    "concept": "Accidentally scrolling down to the hidden or recently deleted album and seeing a photo you promised to erase.",
+    "opening_direction": "गैलरी के 'Recently Deleted' फोल्डर में आज भी वो तस्वीर है,",
+    "twist_direction": "जिसे डिलीट करने में एक मिनट लगा था, पर भूलने में सदियां लग रही हैं।",
+    "duration_seconds": 15,
+    "posting_window": "07:00 PM - 09:00 PM",
+    "reason": "Evening hours target peak overthinking and emotional reflection windows for the core audience."
   },
-  "experiment": "Testing a hyper-specific micro-action hook ('Typing indicator appearing') instead of static text or general phonebook references to improve first-3-second retention.",
-  "updated_at": "2026-09-11T00:43:18.411903+00:00",
+  "experiment": "Testing a visual digital trigger (gallery/deleted folder) instead of just text/chat or phone book hooks to improve retention and view count.",
+  "updated_at": "2026-09-11T01:40:31.915805+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-11T00:43:21.021435+00:00"
+  "generated_at": "2026-09-11T01:40:34.437711+00:00"
 }
