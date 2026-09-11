@@ -1,35 +1,35 @@
 {
   "confidence": "20%",
   "data_points": 8,
-  "overall_summary": "Confidence is extremely low as all historical videos have very low view counts (1 to 20 views) and zero engagement, making it difficult to establish high-confidence winning patterns. The strategy relies on controlled exploration using real-life relational objects and late-night digital habits.",
+  "overall_summary": "The performance data is extremely small with very low views across all initial uploads, indicating that historical metrics do not yet provide statistically significant winning patterns. Confidence is low, requiring a controlled exploration strategy focusing on high-relatability hooks and tighter emotional twists.",
   "winning_patterns": [
     {
-      "pattern": "Digital relic hooks",
-      "evidence": "Videos referencing phone screens, contact names, and chat logs (A_eLARoegnw with 20 views, a9-G1X5jEOU with 18 views) performed slightly better than abstract concepts.",
-      "action": "Focus hooks on tangible, modern everyday digital interactions like online status, archived chats, or saved contacts."
+      "pattern": "Relatable smartphone or communication artifacts",
+      "evidence": "Videos focusing on phone contacts, chats, or stored names (e.g., A_eLARoegnw with 20 views and a9-G1X5jEOU with 18 views) performed slightly better than abstract hooks.",
+      "action": "Continue leveraging everyday digital habits (typing, checking names, viewing chat interfaces) as hook foundations."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract or high-friction self-respect topics",
-      "evidence": "AfaLxMy6FMY focused on 'self respect' and got only 1 view, indicating abstract philosophical concepts lack immediate emotional pull for this audience.",
-      "action": "Avoid preachy self-respect angles; ground self-respect into subtle behavioral choices instead."
+      "pattern": "Over-reliance on heavy self-respect concepts with niche actions",
+      "evidence": "Video AfaLxMy6FMY focusing on 'self respect' and deleting chats received only 1 view, indicating the specific framing or timing failed to connect.",
+      "action": "Soften self-respect themes by anchoring them first in universal midnight or overthinking micro-moments."
     }
   ],
   "next_video": {
-    "topic": "रात के ख्याल",
-    "emotion": "नस्टेल्जिया और अकेलापन",
-    "hook_style": "डिजिटल आदत और खामोशी",
+    "topic": "ओवरथिंकिंग",
+    "emotion": "तन्हाई और अधूरापन",
+    "hook_style": "Digital micro-moment",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Scrolling through an old chat archive late at night, finding a voice note you're too afraid to play.",
-    "opening_direction": "स्क्रीन पर पुरानी चैट खुली है, और ऊपर एक साल पुराना वॉयस नोट चमक रहा है।",
-    "twist_direction": "उंगली प्ले बटन पर जाकर खुद-ब-खुद रुक जाती है—डर इस बात का नहीं कि आवाज़ कैसी लगेगी, डर यह है कि अगर आवाज़ ने पुराना सब लौटा दिया, तो मैं खुद को कैसे संभालूंगा।",
+    "concept": "Staring at a typing indicator that appears and disappears without a message ever arriving during late-night hours.",
+    "opening_direction": "टाइपिंग... लिखकर गायब हो जाना,",
+    "twist_direction": "वो शब्द भेजने से डरता नहीं था, बस उसे डर था कि मेरे पूछने पर वो झूठ क्या बोलेगा।",
     "duration_seconds": 15,
-    "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Targets the evening-to-night transition window when users actively reflect on personal digital archives and overthink."
+    "posting_window": "06:00 PM - 08:00 PM",
+    "reason": "Testing a fresh overthinking angle tied directly to common messaging behavior during evening peak engagement hours."
   },
-  "experiment": "Testing whether a specific micro-action (a voice note) drives higher emotional retention compared to static text/phone numbers.",
-  "updated_at": "2026-09-11T22:38:34.630436+00:00",
+  "experiment": "Testing if adding a subtle psychological twist to a common digital habit improves viewer retention compared to static phone screen hooks.",
+  "updated_at": "2026-09-11T23:36:59.428124+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-11T22:38:37.114216+00:00"
+  "generated_at": "2026-09-11T23:37:01.954849+00:00"
 }
