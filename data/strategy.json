@@ -1,35 +1,35 @@
 {
   "confidence": "20%",
   "data_points": 6,
-  "overall_summary": "The channel shows very low overall view counts across all initial test videos (ranging between 5 to 20 views). Because the sample size is extremely small and engagement is virtually non-existent, confidence is currently low. The strategy requires a controlled exploration phase focusing on phone/digital memorabilia hooks which slightly outperformed generic ones.",
+  "overall_summary": "The channel shows very low overall view counts across all initial test videos (ranging from 5 to 20 views), indicating low algorithmic distribution or a brand-new channel phase. Statistical confidence is currently too low to determine definitive winning patterns, requiring broad exploration combined with structured narrative improvement.",
   "winning_patterns": [
     {
-      "pattern": "Digital memory hooks (phone contacts / saved names)",
-      "evidence": "Videos referencing phone numbers and saved names (e.g., A_eLARoegnw with 20 views and a9-G1X5jEOU with 15 views) performed slightly better than abstract or environmental hooks.",
-      "action": "Incorporate tangible smartphone habits and chat interaction relics into future hooks."
+      "pattern": "Direct relationship artifact hooks",
+      "evidence": "Video A_eLARoegnw ('आज भी फोन में तुम्हारा नाम सुरक्षित है,') received the highest views (20) compared to abstract hooks.",
+      "action": "Continue leveraging tangible, everyday objects or digital artifacts (phone contacts, chats, saved numbers) in hooks."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract or slow environmental openings",
-      "evidence": "Tea-based or generalized midnight thoughts (e.g., uIbMpCjVutQ with 5 views) yielded lower initial reach.",
-      "action": "Avoid slow setup lines; start directly with sharp, relatable modern behavioral triggers."
+      "pattern": "Abstract or atmospheric openings",
+      "evidence": "Videos focusing heavily on vague atmosphere like time-based prompts ('रात के दो बजे') or generic item descriptions performed slightly lower.",
+      "action": "Avoid purely abstract statements and immediately ground the hook in a specific relatable physical or digital interaction."
     }
   ],
   "next_video": {
-    "topic": "अधूरी मोहब्बत",
-    "emotion": "नस्टेल्जिया और खालीपन",
-    "hook_style": "स्मार्टफोन गैलरी और डिलीटेड फोल्डर",
+    "topic": "पुरानी यादें",
+    "emotion": "Melancholy and acceptance",
+    "hook_style": "tangible object reminder",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Accidentally scrolling down to the hidden or recently deleted album and seeing a photo you promised to erase.",
-    "opening_direction": "गैलरी के 'Recently Deleted' फोल्डर में आज भी वो तस्वीर है,",
-    "twist_direction": "जिसे डिलीट करने में एक मिनट लगा था, पर भूलने में सदियां लग रही हैं।",
+    "concept": "Finding an old handwritten letter or a forgotten voice note while cleaning out a room, realizing how much things have changed.",
+    "opening_direction": "किताब के पन्नों के बीच दबा हुआ पुराना पर्चा मिला,",
+    "twist_direction": "लिखावट पहचान ली, लेकिन उसे पढ़कर दिल में कोई हलचल नहीं हुई—समझ आया कि अब दर्द खत्म हो चुका है, सिर्फ याद बची है।",
     "duration_seconds": 15,
-    "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Evening hours target peak overthinking and emotional reflection windows for the core audience."
+    "posting_window": "18:00 - 20:00",
+    "reason": "Testing evening prime time when reflection and nostalgia naturally peak among the target audience, using a high-engagement physical artifact hook."
   },
-  "experiment": "Testing a visual digital trigger (gallery/deleted folder) instead of just text/chat or phone book hooks to improve retention and view count.",
-  "updated_at": "2026-09-11T01:40:31.915805+00:00",
+  "experiment": "Testing if a transition from digital artifacts (phone/chats) to physical nostalgia items (books/letters) increases initial viewer retention.",
+  "updated_at": "2026-09-11T02:42:06.504340+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-11T01:40:34.437711+00:00"
+  "generated_at": "2026-09-11T02:42:09.199678+00:00"
 }
