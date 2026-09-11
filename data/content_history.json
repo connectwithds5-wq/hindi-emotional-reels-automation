@@ -826,6 +826,81 @@
         "reason": "Evening hours typically have higher engagement for overthinking and nocturnal emotional content."
       },
       "model_used": "gemini-3.5-flash-lite"
+    },
+    {
+      "hook": "घंटों से वो ऑनलाइन दिख रहा है।",
+      "lines": [
+        "मगर एक पैगाम नहीं आया।",
+        "दिल कहता है शायद कुछ लिख रहा है,",
+        "नीली बत्ती टिमटिमाती रही,",
+        "धड़कनें हर पल बढ़ती गईं,",
+        "उम्मीद का दिया बुझता नहीं,",
+        "फिर सच का पर्दा उठा,",
+        "वो जाग रहा था किसी और के वास्ते।"
+      ],
+      "youtube_title": "ओवरथिंकिंग और अधूरी उम्मीद की एक शांत कहानी | Dil Ki Diary",
+      "youtube_description": "जब रात के वक्त किसी की ऑनलाइन स्टेटस देखते हुए ओवरथिंकिंग शुरू हो जाती है, तो उम्मीद और खालीपन का यह सफर दिल को झकझोर देता है। क्या आपके साथ भी कभी ऐसा हुआ है जब इंतज़ार सिर्फ एक धोखा साबित हुआ?",
+      "youtube_keywords": [
+        "overthinking in hindi",
+        "emotional micro story",
+        "dil ki diary hindi",
+        "sad reel text",
+        "adhuri ummeed",
+        "online status overthinking",
+        "late night overthinking",
+        "hindi emotional status",
+        "silent heartbreak hindi",
+        "one sided effort story",
+        "dil ke jazbaat",
+        "relatable hindi stories"
+      ],
+      "youtube_hashtags": [
+        "DilKiDiary",
+        "Overthinking",
+        "AdhuriUmmeed",
+        "HindiStory",
+        "SadReels",
+        "EmotionalVibes",
+        "Heartbroken",
+        "Relatable"
+      ],
+      "caption": "घंटों स्क्रीन पर टकटकी लगाए रहना और अंत में सिर्फ यह महसूस होना कि इंतज़ार किसी और के लिए था। ओवरथिंकिंग का यह दर्द कुछ अलग ही होता है।",
+      "keywords": [
+        "overthinking",
+        "adhuri ummeed",
+        "dil ki diary",
+        "emotional hindi story",
+        "online status",
+        "late night thoughts",
+        "silent pain",
+        "relatable reels"
+      ],
+      "hashtags": [
+        "DilKiDiary",
+        "Overthinking",
+        "AdhuriUmmeed",
+        "HindiStory",
+        "SadReels",
+        "EmotionalVibes",
+        "Heartbroken",
+        "Relatable",
+        "LateNightThoughts",
+        "DeepEmotions"
+      ],
+      "topic": "ओवरथिंकिंग",
+      "strategy_used": {
+        "topic": "ओवरथिंकिंग",
+        "emotion": "अधूरी उम्मीद",
+        "hook_style": "Typing indicator micro-moment",
+        "story_structure": "simple -> relatable -> twist",
+        "concept": "Watching a chat box show 'online' for hours without a single message being sent, leading to an overthinking spiral.",
+        "opening_direction": "Start right after seeing the green online status on a chat that has been dead for months.",
+        "twist_direction": "Realize that being online isn't for you anymore, they are just waiting for someone else.",
+        "duration_seconds": 15,
+        "posting_window": "19:00 - 21:00",
+        "reason": "Targeting the late evening window when overthinking and phone checking peak among lonely users."
+      },
+      "model_used": "gemini-3.5-flash-lite"
     }
   ]
 }
