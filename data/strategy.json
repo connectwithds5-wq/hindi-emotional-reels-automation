@@ -1,35 +1,35 @@
 {
-  "confidence": "20%",
+  "confidence": "15%",
   "data_points": 8,
-  "overall_summary": "Data volume is extremely small with low view counts (1-20 views) and zero engagement across all videos. Patterns are indicative rather than definitive; controlled exploration with relatable daily digital-life situations is recommended.",
+  "overall_summary": "Data volume and view counts are extremely low across all 8 videos (max 20 views), indicating the algorithm has not yet found an audience seed. Confidence is low, but digital-life anchors like phone numbers and empty chats show slightly higher initial impressions.",
   "winning_patterns": [
     {
-      "pattern": "Specific digital/phone relational hooks (saved numbers, old chats)",
-      "evidence": "Top performing videos 'पुराना नंबर और अधूरा रिश्ता' (20 views) and 'Dil Ki Diary: Bewafai...' (17 views) both focused on saved photos or contact names.",
-      "action": "Double down on tangible digital triggers like unsent drafts, voice notes, or archived chats."
+      "pattern": "Digital nostalgia and screen behaviors",
+      "evidence": "Videos anchored around phone contacts ('पुराना नंबर', 20 views) and checking empty chats (14-17 views) outperformed abstract concepts.",
+      "action": "Anchor every emotional story in a specific modern phone interaction (typing, deleting, block list, unsent draft)."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Direct preachy tone on abstract themes without micro-moments",
-      "evidence": "'Self Respect Story' received only 1 view, significantly lagging behind story-driven hooks.",
-      "action": "Avoid abstract thematic statements; convey topics like self-respect strictly through subtle actions."
+      "pattern": "Abstract self-help/motivation tone",
+      "evidence": "The Self Respect video generated only 1 view, showing that preachy resolution lacks hook engagement.",
+      "action": "Avoid preachy moralizing; keep the focus on raw, unresolved emotional micro-moments."
     }
   ],
   "next_video": {
     "topic": "जो कहना रह गया",
-    "emotion": "Bittersweet longing mixed with self-realization",
-    "hook_style": "Visual action hook centered around everyday technology",
+    "emotion": "Quiet regret / Unspoken emotional weight",
+    "hook_style": "Action-first visual trigger",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A person types a long heart-felt message in a chat draft, hesitates, and deletes it letter by letter.",
-    "opening_direction": "Show a late-night phone screen typing 'क्या तुम्हें मेरी याद आती है?' inside a quiet chat box.",
-    "twist_direction": "Instead of sending it, they delete the whole text and just type 'Happy Birthday', realizing some words are better left unsaid.",
+    "concept": "Typing a 5-paragraph heart-out message to an old contact, only to delete it all and send a generic two-word response.",
+    "opening_direction": "Show a long text response typed out on screen with specific emotional honesty.",
+    "twist_direction": "The user selects all, hits backspace, and types 'All good, you tell?' instead.",
     "duration_seconds": 15,
-    "posting_window": "07:00 AM - 08:00 AM UTC",
-    "reason": "Early morning uploads (07:00-08:00 UTC / 12:30-01:30 PM IST) yielded the highest comparative views (20 views) in early data."
+    "posting_window": "07:00 AM - 08:00 AM IST",
+    "reason": "Tests early morning routine browsing when viewers reflect on unspoken thoughts before their day starts, doubling down on digital micro-behaviors."
   },
-  "experiment": "Testing if visual typing/deleting actions in chat screens drive higher watch time compared to voice-only intros.",
-  "updated_at": "2026-09-11T19:37:55.907285+00:00",
+  "experiment": "Testing if visual un-sent draft/backspace mechanics yield higher retention than static quote reads.",
+  "updated_at": "2026-09-11T20:39:38.225872+00:00",
   "model_used": "gemini-3.6-flash",
-  "generated_at": "2026-09-11T19:38:03.891488+00:00"
+  "generated_at": "2026-09-11T20:39:46.904175+00:00"
 }
