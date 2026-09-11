@@ -1,35 +1,35 @@
 {
-  "confidence": "25%",
+  "confidence": "Low (small sample size, low baseline views across all videos)",
   "data_points": 6,
-  "overall_summary": "Data volume is extremely low (6 videos, 5-20 views each). While digital memory triggers (saved contact names/photos) show slightly higher initial impressions, overall confidence remains low and calls for controlled exploration.",
+  "overall_summary": "All recent videos show very low views (5-20 views) with zero engagement, indicating low algorithmic distribution or insufficient hook retention. Since the data is statistically insignificant, we must rely on a controlled exploration strategy combining phone/chat nostalgia with a fresh structural approach.",
   "winning_patterns": [
     {
-      "pattern": "Digital relic triggers (saved numbers/contact details)",
-      "evidence": "Video A_eLARoegnw (20 views) and a9-G1X5jEOU (15 views) led performance by grounding emotion in specific phone UI interactions.",
-      "action": "Double down on subtle, everyday smartphone interaction triggers rather than abstract sadness."
+      "pattern": "Digital relic/phone-based hooks",
+      "evidence": "Videos referencing phone numbers or contact names (A_eLARoegnw with 20 views, aUuNKfe7jm4 with 5 views) performed slightly better than abstract nighttime monologues.",
+      "action": "Continue focusing on tangible digital artifacts (like old chats, contact lists, or online status) for immediate relatability."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic atmosphere hooks without specific conflict",
-      "evidence": "Video uIbMpCjVutQ ('मेज पर रखी चाय ठंडी हो गई') garnered only 5 views due to passive setting without emotional stakes.",
-      "action": "Avoid passive atmospheric openers; start with an immediate physical action or micro-realization."
+      "pattern": "Abstract or generic late-night atmospheric hooks",
+      "evidence": "uIbMpCjVutQ ('मेज पर रखी चाय ठंडी हो गई') and WvZxup1LQYo ('आधी रात को खाली चैट देखना') received very low traction (5-7 views).",
+      "action": "Avoid overly poetic or slow-burn openings; start directly with an action or a sharp visual observation in the first 2 seconds."
     }
   ],
   "next_video": {
-    "topic": "पुरानी यादें",
-    "emotion": "Bittersweet realization",
-    "hook_style": "Micro-action trigger",
+    "topic": "ओवरथिंकिंग",
+    "emotion": "तन्हाई और अधूरापन",
+    "hook_style": "Visual action with phone notification",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Accidentally searching an old chat history for a specific photo, only to realize the media was cleared long ago.",
-    "opening_direction": "Show fingers typing a specific date/word into a chat search bar.",
-    "twist_direction": "Reveal that while the media files were deleted to save storage, the heart still holds every detail.",
-    "duration_seconds": 15,
-    "posting_window": "07:00 AM - 08:30 AM IST",
-    "reason": "Morning slots aligned with top-performing video (A_eLARoegnw published at 07:19 UTC / early morning window)."
+    "concept": "A person keeps looking at a typing indicator that never turns into a message, leading to overthinking about what went wrong.",
+    "opening_direction": "Start right as 'Typing...' appears below an old contact name after months of silence.",
+    "twist_direction": "The typing indicator suddenly disappears, leaving the screen blank and proving that even false hope hurts more than silence.",
+    "duration_seconds": 12,
+    "posting_window": "18:00 - 20:00 IST",
+    "reason": "Evening hours align with higher emotional engagement and overthinking peaks among young audiences."
   },
-  "experiment": "Testing if voiceover narrative over gallery/search UI interaction increases retention over static quote overlays.",
-  "updated_at": "2026-09-10T23:37:17.217496+00:00",
-  "model_used": "gemini-3.6-flash",
-  "generated_at": "2026-09-10T23:37:25.122180+00:00"
+  "experiment": "Testing a hyper-specific micro-action hook ('Typing indicator appearing') instead of static text or general phonebook references to improve first-3-second retention.",
+  "updated_at": "2026-09-11T00:43:18.411903+00:00",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-09-11T00:43:21.021435+00:00"
 }
