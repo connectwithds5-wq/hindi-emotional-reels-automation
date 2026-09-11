@@ -1,35 +1,35 @@
 {
   "confidence": "20%",
   "data_points": 7,
-  "overall_summary": "The channel's historical performance data shows very low view counts across all 7 videos (ranging from 3 to 20 views), with zero engagement (likes/comments). Due to extremely low sample size, confidence is low, and we must rely on a controlled exploration recommendation targeting relatable modern digital habits.",
+  "overall_summary": "The performance data shows extremely low views and engagement across all 7 videos, likely due to a fresh channel or low distribution sample size. Because the sample size is very small and view counts are minimal (ranging from 3 to 20 views), confidence in statistical patterns is low. However, looking at slight relative variations, 'रिश्ते' and 'बेवफाई' topics with tangible phone/contact-related hooks performed slightly better than abstract late-night concepts.",
   "winning_patterns": [
     {
-      "pattern": "Phone and chat-related hooks",
-      "evidence": "Videos referencing phone names (A_eLARoegnw with 20 views) and chat habits (a9-G1X5jEOU with 15 views) slightly outperformed pure abstract emotional ones.",
-      "action": "Focus hooks on tangible, modern smartphone interactions rather than generic poetic statements."
+      "pattern": "Tangible contact and mobile screen references",
+      "evidence": "Video A_eLARoegnw ('आज भी फोन में तुम्हारा नाम सुरक्षित है') got 20 views, the highest in the batch.",
+      "action": "Incorporate everyday smartphone micro-habits and digital memories into hooks."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic late-night abstract tropes",
-      "evidence": "Videos with broad hooks like 'रात के दो बजे' (12 views) or 'घंटों से वो ऑनलाइन दिख रहा है' (3 views) had lower traction.",
-      "action": "Avoid cliché time-of-night openings without a specific, grounded physical action."
+      "pattern": "Abstract late-night descriptive hooks",
+      "evidence": "Video WhJ-VwRa3Rg ('घंटों से वो ऑनलाइन दिख रहा है।') received only 3 views.",
+      "action": "Avoid generic observation hooks and ground the opening in a specific physical or digital action."
     }
   ],
   "next_video": {
-    "topic": "रिश्ते",
-    "emotion": "Melancholy and acceptance",
-    "hook_style": "Tangible digital habit",
+    "topic": "अधूरी मोहब्बत",
+    "emotion": "Nostalgia and silent pain",
+    "hook_style": "Physical object/action memory trigger",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Scrolling through old archived chats where the last message was a simple 'Okay' that ended everything.",
-    "opening_direction": "Archive folder mein padi uss ek purani chat ko kholna,",
-    "twist_direction": "Jahan baat khatam nahi hui thi, bas tumne ya usne aakhri baar 'theek hai' bolkar rukh mod liya tha.",
-    "duration_seconds": 12,
-    "posting_window": "07:00 AM - 08:30 AM",
-    "reason": "Building on the slight outperformance of phone/contact-based hooks while testing an archival chat angle during the morning commute window."
+    "concept": "A short narrative about finding an old metro card or receipt with a date written on the back, reminding the protagonist of the last journey taken together.",
+    "opening_direction": "Purane bill ya ticket ke peeche aaj bhi woh tareekh likhi hai...",
+    "twist_direction": "...aur sapne mein lagta hai ki woh safar abhi khatam nahi hua, bas ticket return ho gayi.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 20:00 IST",
+    "reason": "Testing a shift from digital/phone screens to tangible offline objects to see if tactile nostalgia triggers better retention than chat/online status themes."
   },
-  "experiment": "Testing an archived chat concept versus active phone contact hooks to see if nostalgia drives higher retention than current-state observation.",
-  "updated_at": "2026-09-11T08:42:11.082721+00:00",
+  "experiment": "Testing an offline physical artifact (old ticket/receipt) instead of smartphone screen habits to measure if tactile memory hooks improve engagement.",
+  "updated_at": "2026-09-11T09:41:16.713397+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-11T08:42:13.630933+00:00"
+  "generated_at": "2026-09-11T09:41:19.514757+00:00"
 }
