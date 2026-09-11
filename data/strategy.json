@@ -1,35 +1,35 @@
 {
-  "confidence": "Low",
+  "confidence": "20%",
   "data_points": 8,
-  "overall_summary": "All historical videos have extremely low views (ranging from 1 to 20), indicating that the channel is either very new or lacking algorithmic distribution. While exact high-confidence patterns cannot be derived from such low-sample data, titles and hooks centered around phone interactions ('phone mein naam', 'empty chat') slightly outperformed others.",
+  "overall_summary": "Data volume is extremely small with low view counts (1-20 views) and zero engagement across all videos. Patterns are indicative rather than definitive; controlled exploration with relatable daily digital-life situations is recommended.",
   "winning_patterns": [
     {
-      "pattern": "Phone-related daily rituals",
-      "evidence": "Videos referencing phone screens, names, or chat lists (e.g., A_eLARoegnw, a9-G1X5jEOU) garnered the highest relative views (17-20 views).",
-      "action": "Continue leveraging tactile, modern communication touchpoints in hooks."
+      "pattern": "Specific digital/phone relational hooks (saved numbers, old chats)",
+      "evidence": "Top performing videos 'पुराना नंबर और अधूरा रिश्ता' (20 views) and 'Dil Ki Diary: Bewafai...' (17 views) both focused on saved photos or contact names.",
+      "action": "Double down on tangible digital triggers like unsent drafts, voice notes, or archived chats."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract emotional declarations",
-      "evidence": "Videos starting with general statements or heavy philosophical concepts without a concrete object (like AfaLxMy6FMY) severely underperformed (1 view).",
-      "action": "Avoid abstract statements; ground every story in a concrete, physical everyday object or action."
+      "pattern": "Direct preachy tone on abstract themes without micro-moments",
+      "evidence": "'Self Respect Story' received only 1 view, significantly lagging behind story-driven hooks.",
+      "action": "Avoid abstract thematic statements; convey topics like self-respect strictly through subtle actions."
     }
   ],
   "next_video": {
-    "topic": "ओवरथिंकिंग",
-    "emotion": "अधूरापन और कसक",
-    "hook_style": "Physical action with a phone screen",
+    "topic": "जो कहना रह गया",
+    "emotion": "Bittersweet longing mixed with self-realization",
+    "hook_style": "Visual action hook centered around everyday technology",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Typing a long message to express everything, reading it twice, and then deleting the entire draft instead of sending it.",
-    "opening_direction": "Start with the physical act of typing out a furious or emotional paragraph late at night.",
-    "twist_direction": "Instead of sending it to get closure, the cursor hits 'Select All' and 'Delete', proving that silence is now stronger than words.",
+    "concept": "A person types a long heart-felt message in a chat draft, hesitates, and deletes it letter by letter.",
+    "opening_direction": "Show a late-night phone screen typing 'क्या तुम्हें मेरी याद आती है?' inside a quiet chat box.",
+    "twist_direction": "Instead of sending it, they delete the whole text and just type 'Happy Birthday', realizing some words are better left unsaid.",
     "duration_seconds": 15,
-    "posting_window": "05:30 PM - 07:30 PM IST",
-    "reason": "Tests a higher-engagement action (typing and deleting) which directly connects with the core audience's overthinking habits while maintaining a fresh opening line."
+    "posting_window": "07:00 AM - 08:00 AM UTC",
+    "reason": "Early morning uploads (07:00-08:00 UTC / 12:30-01:30 PM IST) yielded the highest comparative views (20 views) in early data."
   },
-  "experiment": "Testing active micro-decisions (deleting a draft) versus passive observation (looking at an old chat) to see if it drives higher comment or retention rates.",
-  "updated_at": "2026-09-11T18:41:50.516438+00:00",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-11T18:41:53.244103+00:00"
+  "experiment": "Testing if visual typing/deleting actions in chat screens drive higher watch time compared to voice-only intros.",
+  "updated_at": "2026-09-11T19:37:55.907285+00:00",
+  "model_used": "gemini-3.6-flash",
+  "generated_at": "2026-09-11T19:38:03.891488+00:00"
 }
