@@ -1,35 +1,35 @@
 {
-  "confidence": "20%",
+  "confidence": "Low",
   "data_points": 8,
-  "overall_summary": "Sample size is extremely low (1-20 views per video), so data confidence is minimal. However, hooks grounded in daily digital behavior (saved phone numbers, photo on contact profile) slightly outperform abstract emotional imagery like cold tea.",
+  "overall_summary": "All historical videos have extremely low views (ranging from 1 to 20), indicating that the channel is either very new or lacking algorithmic distribution. While exact high-confidence patterns cannot be derived from such low-sample data, titles and hooks centered around phone interactions ('phone mein naam', 'empty chat') slightly outperformed others.",
   "winning_patterns": [
     {
-      "pattern": "Digital phone-behavior hooks",
-      "evidence": "Videos referencing saved contacts or old phone numbers achieved the highest views in the sample (20 views for 'पुराना नंबर' and 17 for 'नंबर पर अभी भी तेरी तस्वीर').",
-      "action": "Anchor future videos around specific digital triggers (e.g., gallery searches, unread messages, block lists)."
+      "pattern": "Phone-related daily rituals",
+      "evidence": "Videos referencing phone screens, names, or chat lists (e.g., A_eLARoegnw, a9-G1X5jEOU) garnered the highest relative views (17-20 views).",
+      "action": "Continue leveraging tactile, modern communication touchpoints in hooks."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract or delayed emotional setups",
-      "evidence": "Visual imagery like 'tea getting cold' ('मेज पर रखी चाय') peaked at only 5 views.",
-      "action": "Avoid indirect metaphors in the first 2 seconds; start directly with the trigger action."
+      "pattern": "Abstract emotional declarations",
+      "evidence": "Videos starting with general statements or heavy philosophical concepts without a concrete object (like AfaLxMy6FMY) severely underperformed (1 view).",
+      "action": "Avoid abstract statements; ground every story in a concrete, physical everyday object or action."
     }
   ],
   "next_video": {
-    "topic": "जो कहना रह गया",
-    "emotion": "Nostalgic Regret",
-    "hook_style": "Action-driven digital trigger",
+    "topic": "ओवरथिंकिंग",
+    "emotion": "अधूरापन और कसक",
+    "hook_style": "Physical action with a phone screen",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Searching an unposted voice note in a personal chat archive.",
-    "opening_direction": "Show screen scrolling down to an unsent 12-second voice message recorded months ago.",
-    "twist_direction": "Revealing that the message wasn't unsent out of fear, but because the receiver's account is now deleted.",
-    "duration_seconds": 12,
-    "posting_window": "07:00 AM - 08:00 AM IST (or 01:30 AM - 02:30 AM UTC)",
-    "reason": "Morning slots around 07:00 AM UTC (12:30 PM IST) showed initial traction (20 views). Testing an earlier morning window provides a clear comparison."
+    "concept": "Typing a long message to express everything, reading it twice, and then deleting the entire draft instead of sending it.",
+    "opening_direction": "Start with the physical act of typing out a furious or emotional paragraph late at night.",
+    "twist_direction": "Instead of sending it to get closure, the cursor hits 'Select All' and 'Delete', proving that silence is now stronger than words.",
+    "duration_seconds": 15,
+    "posting_window": "05:30 PM - 07:30 PM IST",
+    "reason": "Tests a higher-engagement action (typing and deleting) which directly connects with the core audience's overthinking habits while maintaining a fresh opening line."
   },
-  "experiment": "Testing if voice-note visual context drives higher engagement than text-chat screens.",
-  "updated_at": "2026-09-11T17:39:08.518455+00:00",
-  "model_used": "gemini-3.6-flash",
-  "generated_at": "2026-09-11T17:39:20.303215+00:00"
+  "experiment": "Testing active micro-decisions (deleting a draft) versus passive observation (looking at an old chat) to see if it drives higher comment or retention rates.",
+  "updated_at": "2026-09-11T18:41:50.516438+00:00",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-09-11T18:41:53.244103+00:00"
 }
