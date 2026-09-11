@@ -1,35 +1,35 @@
 {
   "confidence": "20%",
   "data_points": 7,
-  "overall_summary": "All historical videos have extremely low views (4-20 views) and zero engagement, making it statistically impossible to declare a definitive winning pattern. Performance is flat across topics. Therefore, confidence is low, and the strategy requires a controlled exploration recommendation focusing on tighter, highly visual first-person hooks.",
+  "overall_summary": "The channel shows very low overall view counts across all recent uploads, indicating low reach and high initial testing variance. Confidence is low due to insufficient engagement data, requiring a controlled exploration strategy focusing on relatable phone-related hooks and high-retention storytelling loops.",
   "winning_patterns": [
     {
-      "pattern": "Phone/Chat-related visual hooks",
-      "evidence": "Videos mentioning phone numbers and chat logs (A_eLARoegnw with 20 views, a9-G1X5jEOU with 15 views) slightly outperformed abstract concepts.",
-      "action": "Double down on tactile, everyday digital interactions like typing and erasing messages."
+      "pattern": "Phone and Contact Triggers",
+      "evidence": "Videos with hooks about saved names and old numbers ('आज भी फोन में तुम्हारा नाम सुरक्षित है', 'नंबर ब्लॉक नहीं किया कभी') achieved slightly higher views (20 and 5).",
+      "action": "Continue utilizing tactile, everyday smartphone habits as entry points."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic time-based open statements",
-      "evidence": "Openings like 'रात के दो बजे' (G0gKV1p3ZHc) and 'आधी रात को' (WvZxup1LQYo) yielded low views (9-12) and zero engagement.",
-      "action": "Avoid starting with generic timestamps; start directly with an action or a specific object."
+      "pattern": "Generic Late Night & Overthinking Openings",
+      "evidence": "Hooks like 'रात के दो बजे' or 'घंटों से वो ऑनलाइन दिख रहा है' underperformed (4-12 views), showing fatigue with overly broad or cliché statements.",
+      "action": "Avoid abstract time-based statements and focus on physical, tangible objects or micro-actions."
     }
   ],
   "next_video": {
-    "topic": "अधूरी मोहब्बत",
-    "emotion": "Nostalgia and bittersweet acceptance",
-    "hook_style": "Action-based tactile hook",
+    "topic": "रिश्ते",
+    "emotion": "अधूरी मोहब्बत",
+    "hook_style": "tactile object trigger",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Typing a long message to an ex, reading it twice, and deleting it before pressing send.",
-    "opening_direction": "Start with the sound or visual of typing a message that will never be sent.",
-    "twist_direction": "Instead of sending it, you close the app and realize the person has already forgotten how you type.",
-    "duration_seconds": 12,
-    "posting_window": "06:00 PM - 08:00 PM IST",
-    "reason": "Tests if high-anxiety everyday texting habits drive better retention than passive late-night reflections."
+    "concept": "A short piece about staring at a saved contact profile picture that hasn't changed in months.",
+    "opening_direction": "स्क्रीन पर उस पुरानी डीपी को घंटों देखने से अच्छा",
+    "twist_direction": "पता नहीं था कि डीपी वही रहेगी, बस देखने वाला अजनबी बन जाएगा।",
+    "duration_seconds": 10,
+    "posting_window": "18:00 - 20:00",
+    "reason": "Tests a fresh tactile angle during peak evening hours when overthinking and nostalgia peak."
   },
-  "experiment": "Testing active micro-behaviors (typing and deleting a message) over passive observation hooks.",
-  "updated_at": "2026-09-11T11:39:50.752270+00:00",
+  "experiment": "Testing a hyper-specific profile picture observation hook to break the fatigue of generic late-night text hooks.",
+  "updated_at": "2026-09-11T12:44:29.999146+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-11T11:39:53.498046+00:00"
+  "generated_at": "2026-09-11T12:44:50.782055+00:00"
 }
