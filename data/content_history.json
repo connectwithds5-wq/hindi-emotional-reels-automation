@@ -901,6 +901,79 @@
         "reason": "Targeting the late evening window when overthinking and phone checking peak among lonely users."
       },
       "model_used": "gemini-3.5-flash-lite"
+    },
+    {
+      "hook": "उंगली उसी चैट पर रुकी थी",
+      "lines": [
+        "बहुत पुराना इतिहास था स्क्रीन पर",
+        "हर पुरानी बात याद आ रही थी",
+        "एक सांस ली और ठहर गया",
+        "डिलीट का बटन सामने चमक रहा था",
+        "थोड़ा डर लगा यह सोचते हुए",
+        "फिर खुद से नजरें मिलाईं मैंने",
+        "यादों से बड़ा मेरा आत्मसम्मान है"
+      ],
+      "youtube_title": "चैट डिलीट करने की हिम्मत और खुद की इज्जत | Self Respect Story",
+      "youtube_description": "पुराने चैट्स और यादों को पीछे छोड़कर खुद के सम्मान को चुनना सबसे मुश्किल फैसला होता है। इस छोटी सी कहानी में देखिए कैसे एक क्लिक ने सब बदल दिया। क्या आपने कभी अपने आत्मसम्मान के लिए किसी को खुद से दूर किया है?",
+      "youtube_keywords": [
+        "self respect emotional story",
+        "dil ki diary hindi",
+        "self worth stories",
+        "whatsapp chat delete story",
+        "emotional hindi shorts",
+        "deep self respect thoughts",
+        "painful attachment status",
+        "आत्मसम्मान की कहानी",
+        "dil ki diary self respect",
+        "sad emotional reels hindi",
+        "quiet self worth story",
+        "letting go with self respect"
+      ],
+      "youtube_hashtags": [
+        "SelfRespect",
+        "DilKiDiary",
+        "EmotionalStory",
+        "DeepThoughts",
+        "HindiShorts",
+        "SelfWorth",
+        "HeartbreakQuotes",
+        "Relatable"
+      ],
+      "caption": "कुछ चीजें मिटानी पड़ती हैं, खुद को बचाने के लिए। यादें बेशक खूबसूरत थीं, पर मेरा आत्मसम्मान उससे कहीं ज्यादा कीमती था।",
+      "keywords": [
+        "self respect",
+        "emotional hindi story",
+        "dil ki diary",
+        "letting go",
+        "self worth",
+        "deep thoughts",
+        "relatable",
+        "hindi reels"
+      ],
+      "hashtags": [
+        "SelfRespect",
+        "DilKiDiary",
+        "EmotionalStory",
+        "HindiShorts",
+        "SelfWorth",
+        "DeepThoughts",
+        "Relatable",
+        "LettingGo"
+      ],
+      "topic": "self respect",
+      "strategy_used": {
+        "topic": "self respect",
+        "emotion": "Quiet self-worth over painful attachment",
+        "hook_style": "Action-oriented physical deletion moment",
+        "story_structure": "simple -> relatable -> twist",
+        "concept": "Deleting a long-saved chat history not out of anger, but because keeping it hurts self-respect more than losing them.",
+        "opening_direction": "Finger hovering over the 'Clear Chat' button on an old WhatsApp conversation.",
+        "twist_direction": "Realizing that pressing clear didn't delete the memory, but finally freed the phone's storage for peace.",
+        "duration_seconds": 15,
+        "posting_window": "06:00 PM - 08:00 PM IST",
+        "reason": "Testing a shift from helpless overthinking ('अकेलापन' / 'ओवरथिंकिंग') to empowered self-respect ('self respect'), which offers a satisfying emotional release."
+      },
+      "model_used": "gemini-3.5-flash-lite"
     }
   ]
 }
