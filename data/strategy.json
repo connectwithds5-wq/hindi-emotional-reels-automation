@@ -1,35 +1,35 @@
 {
-  "confidence": "20%",
-  "data_points": 6,
-  "overall_summary": "The performance data is extremely small (max 20 views across all videos), resulting in low statistical confidence. However, early signals show that direct object-based triggers related to communication (phones, names, chats) slightly outperform abstract concepts like late-night thoughts.",
+  "confidence": "15%",
+  "data_points": 7,
+  "overall_summary": "The performance data is extremely small (0-20 views) with zero engagement across all uploads, leading to very low statistical confidence. Viewership slightly favors themes around lingering digital connections ('पुराना नंबर', 'तस्वीर'), but sample size is too limited to declare a definitive winner. Controlled exploration is required.",
   "winning_patterns": [
     {
-      "pattern": "Phone and Contact Triggers",
-      "evidence": "Videos referencing phone names and numbers (A_eLARoegnw with 20 views, aUuNKfe7jm4) performed relatively better than abstract hooks.",
-      "action": "Incorporate tangible everyday communication artifacts like contact lists, online status, or typing indicators."
+      "pattern": "Digital relic hooks",
+      "evidence": "Videos referencing phone contacts, names, or chat status (e.g., A_eLARoegnw, a9-G1X5jEOU) secured slightly higher views (15-20) compared to ambient hooks.",
+      "action": "Continue focusing on micro-interactions tied to smartphones and messaging habits."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Late-Night Setup",
-      "evidence": "Hooks like 'रात के दो बजे' (G0gKV1p3ZHc) and 'मेज पर रखी चाय' (uIbMpCjVutQ) had lower engagement and visibility.",
-      "action": "Avoid starting with generic time markers or inanimate objects without an immediate human context."
+      "pattern": "Pure observational timing hooks",
+      "evidence": "Hooks focusing purely on time or generic atmospheric elements (e.g., WhJ-VwRa3Rg with 'घंटों से वो ऑनलाइन दिख रहा है' or uIbMpCjVutQ) underperformed heavily with near-zero reach.",
+      "action": "Avoid generic time-based openers without a tangible, physical or digital anchor."
     }
   ],
   "next_video": {
-    "topic": "ओवरथिंकिंग",
-    "emotion": "अधूरी उम्मीद",
-    "hook_style": "Typing indicator micro-moment",
+    "topic": "अधूरी मोहब्बत",
+    "emotion": "Melancholy and Acceptance",
+    "hook_style": "Tactile everyday object combined with memory",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Watching a chat box show 'online' for hours without a single message being sent, leading to an overthinking spiral.",
-    "opening_direction": "Start right after seeing the green online status on a chat that has been dead for months.",
-    "twist_direction": "Realize that being online isn't for you anymore, they are just waiting for someone else.",
-    "duration_seconds": 15,
-    "posting_window": "19:00 - 21:00",
-    "reason": "Targeting the late evening window when overthinking and phone checking peak among lonely users."
+    "concept": "Finding an old train ticket or receipt in a wallet that brings back the exact memory of a journey taken together, only to realize the seat next to you has been empty for years.",
+    "opening_direction": "Purse or wallet getting opened, revealing a slightly faded, folded paper ticket from a specific date.",
+    "twist_direction": "The realization that the destination on the ticket was a forever promise, but the journey ended entirely alone.",
+    "duration_seconds": 12,
+    "posting_window": "07:00 AM - 08:30 AM",
+    "reason": "Tests a transition away from pure mobile-screen dependency toward physical nostalgia while keeping the everyday relatable object format."
   },
-  "experiment": "Testing if shifting the hook from phone numbers/names to active chat behavior (online status) improves initial retention.",
-  "updated_at": "2026-09-11T04:40:50.234299+00:00",
+  "experiment": "Testing physical nostalgia objects (receipts/tickets) vs. the previously tested digital/phone screen hooks to check audience retention shifts.",
+  "updated_at": "2026-09-11T05:39:46.506336+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-11T04:40:52.650122+00:00"
+  "generated_at": "2026-09-11T05:39:50.336191+00:00"
 }
