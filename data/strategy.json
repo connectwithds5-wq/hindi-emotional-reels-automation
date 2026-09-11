@@ -1,45 +1,35 @@
 {
-  "confidence": "20%",
+  "confidence": "15%",
   "data_points": 8,
-  "overall_summary": "The performance data is extremely low across all 8 videos (views ranging between 0 and 20), making it statistically insufficient to confirm a high-performing viral pattern. Confidence is very low, and growth strategy must rely on controlled experimentation with relatable relationship artifacts and nocturnal habits.",
+  "overall_summary": "Data volume and view counts are currently extremely low (max 20 views). Confidence is low, so recommendations focus on repeatable narrative structures around tangible digital nostalgia rather than chasing statistical noise.",
   "winning_patterns": [
     {
-      "pattern": "Saved phone numbers and contact relics",
-      "evidence": "Video A_eLARoegnw ('आज भी फोन में तुम्हारा नाम सुरक्षित है') got 20 views, the highest in the dataset.",
-      "action": "Continue focusing on tangible smartphone artifacts like saved contacts, old screenshots, and chat histories."
-    },
-    {
-      "pattern": "Late-night overthinking triggers",
-      "evidence": "Video G0gKV1p3ZHc ('रात के दो बजे') achieved 12 views.",
-      "action": "Pair relationship topics with late-night time anchors."
+      "pattern": "Tangible digital nostalgia objects (Saved contacts, photo on profile)",
+      "evidence": "Videos referencing saved phone numbers and profile photos achieved the highest relative views (16-20 views) compared to generic night/tea metaphors (5 views).",
+      "action": "Anchor future videos on specific, highly recognizable phone screen interactions rather than abstract emotional states."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Action-based self-respect hooks",
-      "evidence": "Video AfaLxMy6FMY ('उंगली उसी चैट पर रुकी थी' - self respect topic) received 0 views.",
-      "action": "Avoid immediate focus on heavy self-respect resolutions; stick closer to vulnerable longing and quiet observation first."
-    },
-    {
-      "pattern": "Generic repetitive chat/blocking openings",
-      "evidence": "Videos aUuNKfe7jm4 and WhJ-VwRa3Rg had low engagement due to predictable phrasing.",
-      "action": "Vary the tangible visual detail in the opening line instead of relying solely on 'online status' or 'blocking'."
+      "pattern": "Generic abstract waiting metaphors",
+      "evidence": "'मेज पर रखी चाय' and abstract overthinking posts stalled at 0-5 views.",
+      "action": "Avoid starting videos with generic setting descriptions; open immediately with a concrete visual action."
     }
   ],
   "next_video": {
-    "topic": "पुरानी यादें",
-    "emotion": "Melancholy and quiet realization",
-    "hook_style": "Tangible physical memory trigger",
+    "topic": "जो कहना रह गया",
+    "emotion": "Bittersweet nostalgia",
+    "hook_style": "Relatable digital habit visual",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Finding an old handwritten ticket or bill in a wallet that brings back the memory of a trip or date that was never repeated.",
-    "opening_direction": "財布 (wallet) में रखे पुराने बिल के पीछे आज भी तुम्हारा लिखा पता मिला।",
-    "twist_direction": "पता तो पुराना हो चुका है, पर स्याही आज भी ऐसे चमक रही है मानो कल ही की बात हो.",
+    "concept": "Typing a long unsent message in a personal notes app late at night.",
+    "opening_direction": "Show notes app screen typing 'आज भी तुम्हारी याद आती है...'",
+    "twist_direction": "Instead of hitting send, the user selects all text, deletes it, and closes the screen to sleep.",
     "duration_seconds": 12,
-    "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Testing a shift from digital smartphone screens to physical real-world tokens of memory during the evening unwind window."
+    "posting_window": "07:00 AM - 08:30 AM UTC",
+    "reason": "Leverages the slightly stronger performance seen around morning/midday posting (07:00 UTC) while capitalizing on tangible digital screen habits."
   },
-  "experiment": "Testing if physical memory triggers (paper/wallet items) outperform digital phone-screen triggers for engagement.",
-  "updated_at": "2026-09-11T14:41:20.891300+00:00",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-11T14:41:54.088178+00:00"
+  "experiment": "Testing if visual notes-app drafting (unsent text) generates higher retention than chat-app screen hooks.",
+  "updated_at": "2026-09-11T15:40:29.040578+00:00",
+  "model_used": "gemini-3.6-flash",
+  "generated_at": "2026-09-11T15:41:22.580543+00:00"
 }
