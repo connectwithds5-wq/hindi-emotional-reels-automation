@@ -1,35 +1,35 @@
 {
-  "confidence": "15%",
+  "confidence": "20%",
   "data_points": 7,
-  "overall_summary": "The performance data is extremely small (0-20 views) with zero engagement across all uploads, leading to very low statistical confidence. Viewership slightly favors themes around lingering digital connections ('पुराना नंबर', 'तस्वीर'), but sample size is too limited to declare a definitive winner. Controlled exploration is required.",
+  "overall_summary": "The channel shows very low overall view counts across all recent uploads, indicating the algorithm is still in the exploration phase or audience reach is heavily constrained. While data sample size is too small to declare definitive winning patterns, content focusing on tangible, modern smartphone-era relationship artifacts (like phone numbers, saved names, and chat logs) performed slightly better on average.",
   "winning_patterns": [
     {
-      "pattern": "Digital relic hooks",
-      "evidence": "Videos referencing phone contacts, names, or chat status (e.g., A_eLARoegnw, a9-G1X5jEOU) secured slightly higher views (15-20) compared to ambient hooks.",
-      "action": "Continue focusing on micro-interactions tied to smartphones and messaging habits."
+      "pattern": "Phone/Contact-based Hooks",
+      "evidence": "Videos referencing phone numbers or saved names ('आज भी फोन में तुम्हारा नाम सुरक्षित है', 'नंबर पर अभी भी तेरी तस्वीर है') generated the highest views (20 and 15 respectively) relative to the rest of the batch.",
+      "action": "Continue leveraging modern smartphone isolation motifs as anchor points for emotional storytelling."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Pure observational timing hooks",
-      "evidence": "Hooks focusing purely on time or generic atmospheric elements (e.g., WhJ-VwRa3Rg with 'घंटों से वो ऑनलाइन दिख रहा है' or uIbMpCjVutQ) underperformed heavily with near-zero reach.",
-      "action": "Avoid generic time-based openers without a tangible, physical or digital anchor."
+      "pattern": "Passive Observer Hooks",
+      "evidence": "Hooks describing passive observation of others online ('घंटों से वो ऑनलाइन दिख रहा है') resulted in 0 views.",
+      "action": "Avoid passive stalking hooks and instead focus on direct, personal interaction remnants like notifications, blocked statuses, or saved drafts."
     }
   ],
   "next_video": {
     "topic": "अधूरी मोहब्बत",
-    "emotion": "Melancholy and Acceptance",
-    "hook_style": "Tactile everyday object combined with memory",
+    "emotion": "Melancholy and sudden realization",
+    "hook_style": "Tangible everyday digital artifact",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Finding an old train ticket or receipt in a wallet that brings back the exact memory of a journey taken together, only to realize the seat next to you has been empty for years.",
-    "opening_direction": "Purse or wallet getting opened, revealing a slightly faded, folded paper ticket from a specific date.",
-    "twist_direction": "The realization that the destination on the ticket was a forever promise, but the journey ended entirely alone.",
-    "duration_seconds": 12,
-    "posting_window": "07:00 AM - 08:30 AM",
-    "reason": "Tests a transition away from pure mobile-screen dependency toward physical nostalgia while keeping the everyday relatable object format."
+    "concept": "A person goes to block an ex after months of silence, only to find the chat history was already deleted by the other person long ago.",
+    "opening_direction": "Aaj socha ki uss purane number ko hamesha ke liye block kar doon...",
+    "twist_direction": "...par jab profile kholi, toh pata chala ki unhone toh pehle hi apni DP hata kar mujhe unblock kar diya tha.",
+    "duration_seconds": 15,
+    "posting_window": "07:00 AM - 08:00 AM IST",
+    "reason": "Aligns with the top-performing publishing time slot from past data (A_eLARoegnw published at 07:19 AM) and uses the successful smartphone contact/blocking theme."
   },
-  "experiment": "Testing physical nostalgia objects (receipts/tickets) vs. the previously tested digital/phone screen hooks to check audience retention shifts.",
-  "updated_at": "2026-09-11T05:39:46.506336+00:00",
+  "experiment": "Testing if combining a digital blocking action with an unexpected reversal (the other person beat them to it) improves viewer retention and initial impressions over passive memory recall.",
+  "updated_at": "2026-09-11T06:44:14.011128+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-11T05:39:50.336191+00:00"
+  "generated_at": "2026-09-11T06:44:17.071445+00:00"
 }
