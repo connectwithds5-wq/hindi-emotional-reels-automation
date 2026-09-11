@@ -1,35 +1,35 @@
 {
   "confidence": "20%",
   "data_points": 7,
-  "overall_summary": "The performance data shows extremely low views and engagement across all 7 videos, likely due to a fresh channel or low distribution sample size. Because the sample size is very small and view counts are minimal (ranging from 3 to 20 views), confidence in statistical patterns is low. However, looking at slight relative variations, 'रिश्ते' and 'बेवफाई' topics with tangible phone/contact-related hooks performed slightly better than abstract late-night concepts.",
+  "overall_summary": "All historical videos currently have extremely low view counts (4 to 20 views) and zero engagement, making statistical confidence very low. However, slightly higher impressions/views occurred on topics related to personal contacts and digital residue ('पुराना नंबर और अधूरा रिश्ता', 'Dil Ki Diary: Bewafai Ka Dard...'). The channel needs broader exploration of relatable triggers while refining short, highly visual hooks.",
   "winning_patterns": [
     {
-      "pattern": "Tangible contact and mobile screen references",
-      "evidence": "Video A_eLARoegnw ('आज भी फोन में तुम्हारा नाम सुरक्षित है') got 20 views, the highest in the batch.",
-      "action": "Incorporate everyday smartphone micro-habits and digital memories into hooks."
+      "pattern": "Digital relic hooks",
+      "evidence": "Videos focusing on phone contacts, names, or chat status (e.g., A_eLARoegnw, a9-G1X5jEOU) yielded the highest initial views (20 and 15 respectively).",
+      "action": "Continue leveraging modern smartphone isolation motifs like notifications, saved names, and typing indicators."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract late-night descriptive hooks",
-      "evidence": "Video WhJ-VwRa3Rg ('घंटों से वो ऑनलाइन दिख रहा है।') received only 3 views.",
-      "action": "Avoid generic observation hooks and ground the opening in a specific physical or digital action."
+      "pattern": "Abstract or passive emotional statements",
+      "evidence": "Openings like 'घंटों से वो ऑनलाइन दिख रहा है।' (WhJ-VwRa3Rg) resulted in the lowest views (4 views).",
+      "action": "Avoid passive observation hooks; instead, anchor the hook to an active, relatable personal micro-action."
     }
   ],
   "next_video": {
-    "topic": "अधूरी मोहब्बत",
-    "emotion": "Nostalgia and silent pain",
-    "hook_style": "Physical object/action memory trigger",
+    "topic": "अकेलापन",
+    "emotion": "Melancholy and sudden realization of being forgotten",
+    "hook_style": "Real-life micro-action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short narrative about finding an old metro card or receipt with a date written on the back, reminding the protagonist of the last journey taken together.",
-    "opening_direction": "Purane bill ya ticket ke peeche aaj bhi woh tareekh likhi hai...",
-    "twist_direction": "...aur sapne mein lagta hai ki woh safar abhi khatam nahi hua, bas ticket return ho gayi.",
-    "duration_seconds": 15,
+    "concept": "Finding an old bill or a movie ticket in a wallet with two names written on the back, realizing how quickly people become memories.",
+    "opening_direction": "Purane wallet se ek 2 saal purana movie ticket nikalna jispar dono ke naam likhe hain.",
+    "twist_direction": "Ticket par likha naam ab itna ajnabee lagta hai jaise woh kabhi kisi aur ki zindagi ka hissa tha, apni nahi.",
+    "duration_seconds": 12,
     "posting_window": "18:00 - 20:00 IST",
-    "reason": "Testing a shift from digital/phone screens to tangible offline objects to see if tactile nostalgia triggers better retention than chat/online status themes."
+    "reason": "Evening hours target post-work/night reflection time when loneliness and nostalgia peak among the target audience."
   },
-  "experiment": "Testing an offline physical artifact (old ticket/receipt) instead of smartphone screen habits to measure if tactile memory hooks improve engagement.",
-  "updated_at": "2026-09-11T09:41:16.713397+00:00",
+  "experiment": "Testing a tangible physical relic (old movie ticket) instead of a digital phone screen to see if physical triggers outperform digital ones.",
+  "updated_at": "2026-09-11T10:40:41.567248+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-11T09:41:19.514757+00:00"
+  "generated_at": "2026-09-11T10:40:44.457368+00:00"
 }
