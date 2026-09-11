@@ -1,35 +1,35 @@
 {
   "confidence": "20%",
   "data_points": 8,
-  "overall_summary": "The performance data is extremely small with very low views across all initial uploads, indicating that the channel is in a cold-start phase. Confidence is low, so we must rely on a controlled exploration of proven emotional niches like 'overthinking' and 'रिश्ते' combined with fresh, highly specific visual hooks.",
+  "overall_summary": "Sample size is extremely low (1-20 views per video), so data confidence is minimal. However, hooks grounded in daily digital behavior (saved phone numbers, photo on contact profile) slightly outperform abstract emotional imagery like cold tea.",
   "winning_patterns": [
     {
-      "pattern": "Relatable smartphone habits",
-      "evidence": "Videos focusing on phone interactions like 'A_eLARoegnw' (20 views) and 'a9-G1X5jEOU' (17 views) performed slightly better than abstract emotional concepts.",
-      "action": "Continue focusing on micro-moments involving phones, chats, and notifications."
+      "pattern": "Digital phone-behavior hooks",
+      "evidence": "Videos referencing saved contacts or old phone numbers achieved the highest views in the sample (20 views for 'पुराना नंबर' and 17 for 'नंबर पर अभी भी तेरी तस्वीर').",
+      "action": "Anchor future videos around specific digital triggers (e.g., gallery searches, unread messages, block lists)."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abrupt self-respect preachiness",
-      "evidence": "'AfaLxMy6FMY' (1 view) focused on 'self respect' with a heavy-handed moral, which failed to engage.",
-      "action": "Soften the self-respect angle; frame it as a quiet personal realization rather than a lecture."
+      "pattern": "Abstract or delayed emotional setups",
+      "evidence": "Visual imagery like 'tea getting cold' ('मेज पर रखी चाय') peaked at only 5 views.",
+      "action": "Avoid indirect metaphors in the first 2 seconds; start directly with the trigger action."
     }
   ],
   "next_video": {
-    "topic": "ओवरथिंकिंग",
-    "emotion": "तन्हाई और बेचैनी",
-    "hook_style": "Visual and tactile micro-habit",
+    "topic": "जो कहना रह गया",
+    "emotion": "Nostalgic Regret",
+    "hook_style": "Action-driven digital trigger",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A person keeps typing a long message to someone who left long ago, then deletes it character by character instead of sending it.",
-    "opening_direction": "Start with the sound of rapid typing on a blank chat screen at midnight.",
-    "twist_direction": "Instead of hitting send, they hit backspace one letter at a time, realizing the person reading it now is just a stranger.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 20:00",
-    "reason": "Evening hours align with high overthinking and smartphone usage peaks for emotional audiences."
+    "concept": "Searching an unposted voice note in a personal chat archive.",
+    "opening_direction": "Show screen scrolling down to an unsent 12-second voice message recorded months ago.",
+    "twist_direction": "Revealing that the message wasn't unsent out of fear, but because the receiver's account is now deleted.",
+    "duration_seconds": 12,
+    "posting_window": "07:00 AM - 08:00 AM IST (or 01:30 AM - 02:30 AM UTC)",
+    "reason": "Morning slots around 07:00 AM UTC (12:30 PM IST) showed initial traction (20 views). Testing an earlier morning window provides a clear comparison."
   },
-  "experiment": "Testing a tactile typing-and-deleting visual hook to improve retention past the first 3 seconds compared to static contact list hooks.",
-  "updated_at": "2026-09-11T16:40:43.152534+00:00",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-11T16:40:45.878035+00:00"
+  "experiment": "Testing if voice-note visual context drives higher engagement than text-chat screens.",
+  "updated_at": "2026-09-11T17:39:08.518455+00:00",
+  "model_used": "gemini-3.6-flash",
+  "generated_at": "2026-09-11T17:39:20.303215+00:00"
 }
