@@ -1,35 +1,35 @@
 {
-  "confidence": "15%",
+  "confidence": "20%",
   "data_points": 6,
-  "overall_summary": "The channel has extremely low view counts across all initial uploads (5 to 20 views), indicating low algorithmic distribution or early testing phase. Data is insufficient to declare definitive winning patterns, but topics involving phone history, contact names, and late-night overthinking show marginal preference.",
+  "overall_summary": "The performance data is extremely small (max 20 views across all videos), resulting in low statistical confidence. However, early signals show that direct object-based triggers related to communication (phones, names, chats) slightly outperform abstract concepts like late-night thoughts.",
   "winning_patterns": [
     {
-      "pattern": "Phone contact and chat history hooks",
-      "evidence": "Video A_eLARoegnw ('आज भी फोन में तुम्हारा नाम सुरक्षित है') got 20 views, the highest in the dataset.",
-      "action": "Continue focusing on micro-moments related to smartphones, saved numbers, and chat logs."
+      "pattern": "Phone and Contact Triggers",
+      "evidence": "Videos referencing phone names and numbers (A_eLARoegnw with 20 views, aUuNKfe7jm4) performed relatively better than abstract hooks.",
+      "action": "Incorporate tangible everyday communication artifacts like contact lists, online status, or typing indicators."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Vague poetic titles and lengthy hooks",
-      "evidence": "Longer introductory phrases like 'Dil Ki Diary: Bewafai Ka Dard...' received lower traction compared to direct situational hooks.",
-      "action": "Keep titles short, relatable, and directly tied to the opening line of the hook."
+      "pattern": "Abstract Late-Night Setup",
+      "evidence": "Hooks like 'रात के दो बजे' (G0gKV1p3ZHc) and 'मेज पर रखी चाय' (uIbMpCjVutQ) had lower engagement and visibility.",
+      "action": "Avoid starting with generic time markers or inanimate objects without an immediate human context."
     }
   ],
   "next_video": {
     "topic": "ओवरथिंकिंग",
-    "emotion": "Melancholy / Relatability",
-    "hook_style": "Visual and situational micro-action",
+    "emotion": "अधूरी उम्मीद",
+    "hook_style": "Typing indicator micro-moment",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Typing a long message to an ex at 3 AM and deleting it all before pressing send.",
-    "opening_direction": "Start with the sound of typing on a phone screen in a silent room at 3 AM.",
-    "twist_direction": "Instead of sending the emotional paragraph, the person just deletes everything and locks the screen, realizing nobody is waiting for that explanation.",
-    "duration_seconds": 12,
-    "posting_window": "20:00 - 22:00 IST",
-    "reason": "Targets peak late-night overthinking hours when users consume relatable emotional content."
+    "concept": "Watching a chat box show 'online' for hours without a single message being sent, leading to an overthinking spiral.",
+    "opening_direction": "Start right after seeing the green online status on a chat that has been dead for months.",
+    "twist_direction": "Realize that being online isn't for you anymore, they are just waiting for someone else.",
+    "duration_seconds": 15,
+    "posting_window": "19:00 - 21:00",
+    "reason": "Targeting the late evening window when overthinking and phone checking peak among lonely users."
   },
-  "experiment": "Testing if a highly visual and universally understood action (typing and deleting a late-night text) improves retention compared to static phone screen text hooks.",
-  "updated_at": "2026-09-11T03:41:16.020988+00:00",
+  "experiment": "Testing if shifting the hook from phone numbers/names to active chat behavior (online status) improves initial retention.",
+  "updated_at": "2026-09-11T04:40:50.234299+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-11T03:41:18.510295+00:00"
+  "generated_at": "2026-09-11T04:40:52.650122+00:00"
 }
