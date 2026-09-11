@@ -1,35 +1,35 @@
 {
   "confidence": "20%",
   "data_points": 7,
-  "overall_summary": "The channel shows very low overall view counts across all recent uploads, indicating the algorithm is still in the exploration phase or audience reach is heavily constrained. While data sample size is too small to declare definitive winning patterns, content focusing on tangible, modern smartphone-era relationship artifacts (like phone numbers, saved names, and chat logs) performed slightly better on average.",
+  "overall_summary": "The channel shows very low overall view counts across all 7 videos, making statistical confidence extremely low. However, slightly better performance (20 views) was observed on grounded, relational topics involving everyday relics like old phone numbers, compared to more abstract night thoughts.",
   "winning_patterns": [
     {
-      "pattern": "Phone/Contact-based Hooks",
-      "evidence": "Videos referencing phone numbers or saved names ('आज भी फोन में तुम्हारा नाम सुरक्षित है', 'नंबर पर अभी भी तेरी तस्वीर है') generated the highest views (20 and 15 respectively) relative to the rest of the batch.",
-      "action": "Continue leveraging modern smartphone isolation motifs as anchor points for emotional storytelling."
+      "pattern": "Tangible digital relics",
+      "evidence": "Video A_eLARoegnw ('आज भी फोन में तुम्हारा नाम सुरक्षित है') got 20 views, the highest in the dataset.",
+      "action": "Focus hooks on concrete, universally relatable digital artifacts like saved numbers, chats, or profile pictures."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Passive Observer Hooks",
-      "evidence": "Hooks describing passive observation of others online ('घंटों से वो ऑनलाइन दिख रहा है') resulted in 0 views.",
-      "action": "Avoid passive stalking hooks and instead focus on direct, personal interaction remnants like notifications, blocked statuses, or saved drafts."
+      "pattern": "Abstract observational hooks",
+      "evidence": "Video WhJ-VwRa3Rg ('घंटों से वो ऑनलाइन दिख रहा है') received only 3 views.",
+      "action": "Avoid passive observation hooks; ground the opening in a direct personal action or tangible object."
     }
   ],
   "next_video": {
     "topic": "अधूरी मोहब्बत",
-    "emotion": "Melancholy and sudden realization",
-    "hook_style": "Tangible everyday digital artifact",
+    "emotion": "Melancholy and quiet acceptance",
+    "hook_style": "Tangible personal action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A person goes to block an ex after months of silence, only to find the chat history was already deleted by the other person long ago.",
-    "opening_direction": "Aaj socha ki uss purane number ko hamesha ke liye block kar doon...",
-    "twist_direction": "...par jab profile kholi, toh pata chala ki unhone toh pehle hi apni DP hata kar mujhe unblock kar diya tha.",
+    "concept": "Scrolling through the gallery and accidentally finding a hidden folder of photos you promised to delete.",
+    "opening_direction": "गैलरी के उस हिडन फोल्डर को खोलने की हिम्मत आज फिर जुटाई",
+    "twist_direction": "तस्वीरें तो डिलीट हो गईं, लेकिन क्लाउड स्टोरेज पर वो आज भी सुरक्षित मिल गईं।",
     "duration_seconds": 15,
-    "posting_window": "07:00 AM - 08:00 AM IST",
-    "reason": "Aligns with the top-performing publishing time slot from past data (A_eLARoegnw published at 07:19 AM) and uses the successful smartphone contact/blocking theme."
+    "posting_window": "07:00 AM - 09:00 AM",
+    "reason": "Morning commuter window tested with previous moderate success (A_eLARoegnw published at 07:19 AM)."
   },
-  "experiment": "Testing if combining a digital blocking action with an unexpected reversal (the other person beat them to it) improves viewer retention and initial impressions over passive memory recall.",
-  "updated_at": "2026-09-11T06:44:14.011128+00:00",
+  "experiment": "Testing if shifting from communication artifacts (chats/calls) to visual memory artifacts (gallery/photos) improves retention and engagement.",
+  "updated_at": "2026-09-11T07:41:35.753882+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-11T06:44:17.071445+00:00"
+  "generated_at": "2026-09-11T07:41:38.862226+00:00"
 }
