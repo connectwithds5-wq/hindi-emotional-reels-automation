@@ -1,35 +1,35 @@
 {
-  "confidence": "15%",
+  "confidence": "20%",
   "data_points": 8,
-  "overall_summary": "Data volume and view counts are extremely low across all 8 videos (max 20 views), indicating the algorithm has not yet found an audience seed. Confidence is low, but digital-life anchors like phone numbers and empty chats show slightly higher initial impressions.",
+  "overall_summary": "The channel shows very low overall view counts across all recent uploads, indicating early-stage distribution or low sample size. Videos focusing on relational artifacts (phone numbers, chats) slightly outperform abstract emotional rants, but overall confidence is low due to minimal engagement data.",
   "winning_patterns": [
     {
-      "pattern": "Digital nostalgia and screen behaviors",
-      "evidence": "Videos anchored around phone contacts ('पुराना नंबर', 20 views) and checking empty chats (14-17 views) outperformed abstract concepts.",
-      "action": "Anchor every emotional story in a specific modern phone interaction (typing, deleting, block list, unsent draft)."
+      "pattern": "Tangible Phone/Chat References",
+      "evidence": "Videos like 'A_eLARoegnw' (phone name saved) and 'WvZxup1LQYo' (empty chat) received relatively higher views (20 and 14) compared to purely abstract emotional concepts.",
+      "action": "Focus hooks on physical digital actions like scrolling through old chats or seeing a contact name."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract self-help/motivation tone",
-      "evidence": "The Self Respect video generated only 1 view, showing that preachy resolution lacks hook engagement.",
-      "action": "Avoid preachy moralizing; keep the focus on raw, unresolved emotional micro-moments."
+      "pattern": "Heavy Self-Respect / Abstract Monologues",
+      "evidence": "Video 'AfaLxMy6FMY' about self-respect and deleting chats received only 1 view, indicating abstract morals underperform direct relatable moments.",
+      "action": "Avoid lecturing on self-respect; instead, show the quiet, painful action of holding back."
     }
   ],
   "next_video": {
-    "topic": "जो कहना रह गया",
-    "emotion": "Quiet regret / Unspoken emotional weight",
-    "hook_style": "Action-first visual trigger",
+    "topic": "अधूरी मोहब्बत",
+    "emotion": "Nostalgia and silent pain",
+    "hook_style": "Relatable digital habit",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Typing a 5-paragraph heart-out message to an old contact, only to delete it all and send a generic two-word response.",
-    "opening_direction": "Show a long text response typed out on screen with specific emotional honesty.",
-    "twist_direction": "The user selects all, hits backspace, and types 'All good, you tell?' instead.",
-    "duration_seconds": 15,
-    "posting_window": "07:00 AM - 08:00 AM IST",
-    "reason": "Tests early morning routine browsing when viewers reflect on unspoken thoughts before their day starts, doubling down on digital micro-behaviors."
+    "concept": "A person keeps a specific old voice note downloaded, not to listen to it, but just to know the voice hasn't vanished from the phone completely.",
+    "opening_direction": "Start with the screen showing a long-forgotten audio file size in the storage manager.",
+    "twist_direction": "Reveal that the last words spoken in that audio were a false promise that it was forever.",
+    "duration_seconds": 25,
+    "posting_window": "18:00 - 20:00 IST",
+    "reason": "Evening hours capture the 'overthinking and lonely' mindset best reflected in top-performing past themes like chats and late-night thoughts."
   },
-  "experiment": "Testing if visual un-sent draft/backspace mechanics yield higher retention than static quote reads.",
-  "updated_at": "2026-09-11T20:39:38.225872+00:00",
-  "model_used": "gemini-3.6-flash",
-  "generated_at": "2026-09-11T20:39:46.904175+00:00"
+  "experiment": "Testing if focusing on stored audio files (voice notes) yields better retention than text chats.",
+  "updated_at": "2026-09-11T21:36:51.619677+00:00",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-09-11T21:36:54.217361+00:00"
 }
