@@ -1,35 +1,45 @@
 {
   "confidence": "20%",
-  "data_points": 7,
-  "overall_summary": "The channel performance data is very small and views are low across all uploaded videos (ranging from 4 to 20 views). Confidence is low, meaning no definitive viral pattern has emerged yet. The strategy must rely on controlled exploration testing phone/chat/night-time triggers which slightly outperformed others.",
+  "data_points": 8,
+  "overall_summary": "The performance data is extremely low across all 8 videos (views ranging between 0 and 20), making it statistically insufficient to confirm a high-performing viral pattern. Confidence is very low, and growth strategy must rely on controlled experimentation with relatable relationship artifacts and nocturnal habits.",
   "winning_patterns": [
     {
-      "pattern": "Phone and contact-related triggers",
-      "evidence": "Videos mentioning phone numbers and stored names (e.g., 'आज भी फोन में तुम्हारा नाम सुरक्षित है') got slightly higher views (20 views).",
-      "action": "Incorporate tangible smartphone interaction elements that evoke delayed emotional realization."
+      "pattern": "Saved phone numbers and contact relics",
+      "evidence": "Video A_eLARoegnw ('आज भी फोन में तुम्हारा नाम सुरक्षित है') got 20 views, the highest in the dataset.",
+      "action": "Continue focusing on tangible smartphone artifacts like saved contacts, old screenshots, and chat histories."
+    },
+    {
+      "pattern": "Late-night overthinking triggers",
+      "evidence": "Video G0gKV1p3ZHc ('रात के दो बजे') achieved 12 views.",
+      "action": "Pair relationship topics with late-night time anchors."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic late-night observations without concrete actions",
-      "evidence": "Openings like 'घंटों से वो ऑनलाइन दिख रहा है' received the lowest engagement (4 views).",
-      "action": "Avoid passive stalking scenarios; anchor the hook in a specific, physical, everyday action."
+      "pattern": "Action-based self-respect hooks",
+      "evidence": "Video AfaLxMy6FMY ('उंगली उसी चैट पर रुकी थी' - self respect topic) received 0 views.",
+      "action": "Avoid immediate focus on heavy self-respect resolutions; stick closer to vulnerable longing and quiet observation first."
+    },
+    {
+      "pattern": "Generic repetitive chat/blocking openings",
+      "evidence": "Videos aUuNKfe7jm4 and WhJ-VwRa3Rg had low engagement due to predictable phrasing.",
+      "action": "Vary the tangible visual detail in the opening line instead of relying solely on 'online status' or 'blocking'."
     }
   ],
   "next_video": {
-    "topic": "self respect",
-    "emotion": "Quiet self-worth over painful attachment",
-    "hook_style": "Action-oriented physical deletion moment",
+    "topic": "पुरानी यादें",
+    "emotion": "Melancholy and quiet realization",
+    "hook_style": "Tangible physical memory trigger",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Deleting a long-saved chat history not out of anger, but because keeping it hurts self-respect more than losing them.",
-    "opening_direction": "Finger hovering over the 'Clear Chat' button on an old WhatsApp conversation.",
-    "twist_direction": "Realizing that pressing clear didn't delete the memory, but finally freed the phone's storage for peace.",
-    "duration_seconds": 15,
-    "posting_window": "06:00 PM - 08:00 PM IST",
-    "reason": "Testing a shift from helpless overthinking ('अकेलापन' / 'ओवरथिंकिंग') to empowered self-respect ('self respect'), which offers a satisfying emotional release."
+    "concept": "Finding an old handwritten ticket or bill in a wallet that brings back the memory of a trip or date that was never repeated.",
+    "opening_direction": "財布 (wallet) में रखे पुराने बिल के पीछे आज भी तुम्हारा लिखा पता मिला।",
+    "twist_direction": "पता तो पुराना हो चुका है, पर स्याही आज भी ऐसे चमक रही है मानो कल ही की बात हो.",
+    "duration_seconds": 12,
+    "posting_window": "07:00 PM - 09:00 PM",
+    "reason": "Testing a shift from digital smartphone screens to physical real-world tokens of memory during the evening unwind window."
   },
-  "experiment": "Testing if shifting the emotional tone from helpless waiting to self-respect increases retention and interaction.",
-  "updated_at": "2026-09-11T13:41:47.920322+00:00",
+  "experiment": "Testing if physical memory triggers (paper/wallet items) outperform digital phone-screen triggers for engagement.",
+  "updated_at": "2026-09-11T14:41:20.891300+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-11T13:41:53.111452+00:00"
+  "generated_at": "2026-09-11T14:41:54.088178+00:00"
 }
