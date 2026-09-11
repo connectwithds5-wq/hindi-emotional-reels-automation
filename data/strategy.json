@@ -1,35 +1,35 @@
 {
   "confidence": "20%",
   "data_points": 7,
-  "overall_summary": "The channel shows very low overall view counts across all recent uploads, indicating low reach and high initial testing variance. Confidence is low due to insufficient engagement data, requiring a controlled exploration strategy focusing on relatable phone-related hooks and high-retention storytelling loops.",
+  "overall_summary": "The channel performance data is very small and views are low across all uploaded videos (ranging from 4 to 20 views). Confidence is low, meaning no definitive viral pattern has emerged yet. The strategy must rely on controlled exploration testing phone/chat/night-time triggers which slightly outperformed others.",
   "winning_patterns": [
     {
-      "pattern": "Phone and Contact Triggers",
-      "evidence": "Videos with hooks about saved names and old numbers ('आज भी फोन में तुम्हारा नाम सुरक्षित है', 'नंबर ब्लॉक नहीं किया कभी') achieved slightly higher views (20 and 5).",
-      "action": "Continue utilizing tactile, everyday smartphone habits as entry points."
+      "pattern": "Phone and contact-related triggers",
+      "evidence": "Videos mentioning phone numbers and stored names (e.g., 'आज भी फोन में तुम्हारा नाम सुरक्षित है') got slightly higher views (20 views).",
+      "action": "Incorporate tangible smartphone interaction elements that evoke delayed emotional realization."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Late Night & Overthinking Openings",
-      "evidence": "Hooks like 'रात के दो बजे' or 'घंटों से वो ऑनलाइन दिख रहा है' underperformed (4-12 views), showing fatigue with overly broad or cliché statements.",
-      "action": "Avoid abstract time-based statements and focus on physical, tangible objects or micro-actions."
+      "pattern": "Generic late-night observations without concrete actions",
+      "evidence": "Openings like 'घंटों से वो ऑनलाइन दिख रहा है' received the lowest engagement (4 views).",
+      "action": "Avoid passive stalking scenarios; anchor the hook in a specific, physical, everyday action."
     }
   ],
   "next_video": {
-    "topic": "रिश्ते",
-    "emotion": "अधूरी मोहब्बत",
-    "hook_style": "tactile object trigger",
+    "topic": "self respect",
+    "emotion": "Quiet self-worth over painful attachment",
+    "hook_style": "Action-oriented physical deletion moment",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short piece about staring at a saved contact profile picture that hasn't changed in months.",
-    "opening_direction": "स्क्रीन पर उस पुरानी डीपी को घंटों देखने से अच्छा",
-    "twist_direction": "पता नहीं था कि डीपी वही रहेगी, बस देखने वाला अजनबी बन जाएगा।",
-    "duration_seconds": 10,
-    "posting_window": "18:00 - 20:00",
-    "reason": "Tests a fresh tactile angle during peak evening hours when overthinking and nostalgia peak."
+    "concept": "Deleting a long-saved chat history not out of anger, but because keeping it hurts self-respect more than losing them.",
+    "opening_direction": "Finger hovering over the 'Clear Chat' button on an old WhatsApp conversation.",
+    "twist_direction": "Realizing that pressing clear didn't delete the memory, but finally freed the phone's storage for peace.",
+    "duration_seconds": 15,
+    "posting_window": "06:00 PM - 08:00 PM IST",
+    "reason": "Testing a shift from helpless overthinking ('अकेलापन' / 'ओवरथिंकिंग') to empowered self-respect ('self respect'), which offers a satisfying emotional release."
   },
-  "experiment": "Testing a hyper-specific profile picture observation hook to break the fatigue of generic late-night text hooks.",
-  "updated_at": "2026-09-11T12:44:29.999146+00:00",
+  "experiment": "Testing if shifting the emotional tone from helpless waiting to self-respect increases retention and interaction.",
+  "updated_at": "2026-09-11T13:41:47.920322+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-11T12:44:50.782055+00:00"
+  "generated_at": "2026-09-11T13:41:53.111452+00:00"
 }
