@@ -1,35 +1,35 @@
 {
   "confidence": "20%",
   "data_points": 7,
-  "overall_summary": "The channel shows very low overall view counts across all 7 videos, making statistical confidence extremely low. However, slightly better performance (20 views) was observed on grounded, relational topics involving everyday relics like old phone numbers, compared to more abstract night thoughts.",
+  "overall_summary": "The channel's historical performance data shows very low view counts across all 7 videos (ranging from 3 to 20 views), with zero engagement (likes/comments). Due to extremely low sample size, confidence is low, and we must rely on a controlled exploration recommendation targeting relatable modern digital habits.",
   "winning_patterns": [
     {
-      "pattern": "Tangible digital relics",
-      "evidence": "Video A_eLARoegnw ('आज भी फोन में तुम्हारा नाम सुरक्षित है') got 20 views, the highest in the dataset.",
-      "action": "Focus hooks on concrete, universally relatable digital artifacts like saved numbers, chats, or profile pictures."
+      "pattern": "Phone and chat-related hooks",
+      "evidence": "Videos referencing phone names (A_eLARoegnw with 20 views) and chat habits (a9-G1X5jEOU with 15 views) slightly outperformed pure abstract emotional ones.",
+      "action": "Focus hooks on tangible, modern smartphone interactions rather than generic poetic statements."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract observational hooks",
-      "evidence": "Video WhJ-VwRa3Rg ('घंटों से वो ऑनलाइन दिख रहा है') received only 3 views.",
-      "action": "Avoid passive observation hooks; ground the opening in a direct personal action or tangible object."
+      "pattern": "Generic late-night abstract tropes",
+      "evidence": "Videos with broad hooks like 'रात के दो बजे' (12 views) or 'घंटों से वो ऑनलाइन दिख रहा है' (3 views) had lower traction.",
+      "action": "Avoid cliché time-of-night openings without a specific, grounded physical action."
     }
   ],
   "next_video": {
-    "topic": "अधूरी मोहब्बत",
-    "emotion": "Melancholy and quiet acceptance",
-    "hook_style": "Tangible personal action",
+    "topic": "रिश्ते",
+    "emotion": "Melancholy and acceptance",
+    "hook_style": "Tangible digital habit",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Scrolling through the gallery and accidentally finding a hidden folder of photos you promised to delete.",
-    "opening_direction": "गैलरी के उस हिडन फोल्डर को खोलने की हिम्मत आज फिर जुटाई",
-    "twist_direction": "तस्वीरें तो डिलीट हो गईं, लेकिन क्लाउड स्टोरेज पर वो आज भी सुरक्षित मिल गईं।",
-    "duration_seconds": 15,
-    "posting_window": "07:00 AM - 09:00 AM",
-    "reason": "Morning commuter window tested with previous moderate success (A_eLARoegnw published at 07:19 AM)."
+    "concept": "Scrolling through old archived chats where the last message was a simple 'Okay' that ended everything.",
+    "opening_direction": "Archive folder mein padi uss ek purani chat ko kholna,",
+    "twist_direction": "Jahan baat khatam nahi hui thi, bas tumne ya usne aakhri baar 'theek hai' bolkar rukh mod liya tha.",
+    "duration_seconds": 12,
+    "posting_window": "07:00 AM - 08:30 AM",
+    "reason": "Building on the slight outperformance of phone/contact-based hooks while testing an archival chat angle during the morning commute window."
   },
-  "experiment": "Testing if shifting from communication artifacts (chats/calls) to visual memory artifacts (gallery/photos) improves retention and engagement.",
-  "updated_at": "2026-09-11T07:41:35.753882+00:00",
+  "experiment": "Testing an archived chat concept versus active phone contact hooks to see if nostalgia drives higher retention than current-state observation.",
+  "updated_at": "2026-09-11T08:42:11.082721+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-11T07:41:38.862226+00:00"
+  "generated_at": "2026-09-11T08:42:13.630933+00:00"
 }
