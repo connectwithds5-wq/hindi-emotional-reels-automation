@@ -1,35 +1,35 @@
 {
   "confidence": "20%",
   "data_points": 7,
-  "overall_summary": "All historical videos currently have extremely low view counts (4 to 20 views) and zero engagement, making statistical confidence very low. However, slightly higher impressions/views occurred on topics related to personal contacts and digital residue ('पुराना नंबर और अधूरा रिश्ता', 'Dil Ki Diary: Bewafai Ka Dard...'). The channel needs broader exploration of relatable triggers while refining short, highly visual hooks.",
+  "overall_summary": "All historical videos have extremely low views (4-20 views) and zero engagement, making it statistically impossible to declare a definitive winning pattern. Performance is flat across topics. Therefore, confidence is low, and the strategy requires a controlled exploration recommendation focusing on tighter, highly visual first-person hooks.",
   "winning_patterns": [
     {
-      "pattern": "Digital relic hooks",
-      "evidence": "Videos focusing on phone contacts, names, or chat status (e.g., A_eLARoegnw, a9-G1X5jEOU) yielded the highest initial views (20 and 15 respectively).",
-      "action": "Continue leveraging modern smartphone isolation motifs like notifications, saved names, and typing indicators."
+      "pattern": "Phone/Chat-related visual hooks",
+      "evidence": "Videos mentioning phone numbers and chat logs (A_eLARoegnw with 20 views, a9-G1X5jEOU with 15 views) slightly outperformed abstract concepts.",
+      "action": "Double down on tactile, everyday digital interactions like typing and erasing messages."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract or passive emotional statements",
-      "evidence": "Openings like 'घंटों से वो ऑनलाइन दिख रहा है।' (WhJ-VwRa3Rg) resulted in the lowest views (4 views).",
-      "action": "Avoid passive observation hooks; instead, anchor the hook to an active, relatable personal micro-action."
+      "pattern": "Generic time-based open statements",
+      "evidence": "Openings like 'रात के दो बजे' (G0gKV1p3ZHc) and 'आधी रात को' (WvZxup1LQYo) yielded low views (9-12) and zero engagement.",
+      "action": "Avoid starting with generic timestamps; start directly with an action or a specific object."
     }
   ],
   "next_video": {
-    "topic": "अकेलापन",
-    "emotion": "Melancholy and sudden realization of being forgotten",
-    "hook_style": "Real-life micro-action",
+    "topic": "अधूरी मोहब्बत",
+    "emotion": "Nostalgia and bittersweet acceptance",
+    "hook_style": "Action-based tactile hook",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Finding an old bill or a movie ticket in a wallet with two names written on the back, realizing how quickly people become memories.",
-    "opening_direction": "Purane wallet se ek 2 saal purana movie ticket nikalna jispar dono ke naam likhe hain.",
-    "twist_direction": "Ticket par likha naam ab itna ajnabee lagta hai jaise woh kabhi kisi aur ki zindagi ka hissa tha, apni nahi.",
+    "concept": "Typing a long message to an ex, reading it twice, and deleting it before pressing send.",
+    "opening_direction": "Start with the sound or visual of typing a message that will never be sent.",
+    "twist_direction": "Instead of sending it, you close the app and realize the person has already forgotten how you type.",
     "duration_seconds": 12,
-    "posting_window": "18:00 - 20:00 IST",
-    "reason": "Evening hours target post-work/night reflection time when loneliness and nostalgia peak among the target audience."
+    "posting_window": "06:00 PM - 08:00 PM IST",
+    "reason": "Tests if high-anxiety everyday texting habits drive better retention than passive late-night reflections."
   },
-  "experiment": "Testing a tangible physical relic (old movie ticket) instead of a digital phone screen to see if physical triggers outperform digital ones.",
-  "updated_at": "2026-09-11T10:40:41.567248+00:00",
+  "experiment": "Testing active micro-behaviors (typing and deleting a message) over passive observation hooks.",
+  "updated_at": "2026-09-11T11:39:50.752270+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-11T10:40:44.457368+00:00"
+  "generated_at": "2026-09-11T11:39:53.498046+00:00"
 }
