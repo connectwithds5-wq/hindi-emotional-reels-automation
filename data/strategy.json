@@ -1,40 +1,35 @@
 {
   "confidence": "20%",
   "data_points": 9,
-  "overall_summary": "View counts across all 9 historical shorts are very low (ranging from 5 to 28 views) with zero engagement (likes/comments), indicating a low-sample size where the algorithm is still testing the content distribution. Confidence is low, and we need a controlled exploration combining our best-performing topic category with a strong everyday relatable hook.",
+  "overall_summary": "The channel shows early-stage data with very low view counts across all videos, leading to low statistical confidence. However, topics tied to digital boundaries and immediate action like 'self respect' (AfaLxMy6FMY) and tangible physical/digital relics like phone numbers and chat logs (A_eLARoegnw, a9-G1X5jEOU) show slightly relative better baseline engagement.",
   "winning_patterns": [
     {
-      "pattern": "Self Respect and Boundaries Focus",
-      "evidence": "Video 'AfaLxMy6FMY' with topic 'self respect' and hook 'उंगली उसी चैट पर रुकी थी' received the highest views (28) in the dataset.",
-      "action": "Incorporate themes of personal boundaries and letting go rather than purely suffering in silence."
-    },
-    {
-      "pattern": "Relatable Digital Communication Hooks",
-      "evidence": "Videos referencing phone screens, saved names, and typing indicators (e.g., A_eLARoegnw, zL8saHvD-uI) consistently perform relatively better in the 16-20 view bracket.",
-      "action": "Use specific, tactile smartphone interaction details that resonate with modern emotional pain."
+      "pattern": "Tangible digital artifacts",
+      "evidence": "Videos focusing on phone numbers, names saved in phones, or chat logs (e.g., A_eLARoegnw, a9-G1X5jEOU, AfaLxMy6FMY) perform better than abstract emotional themes.",
+      "action": "Use specific, physical or smartphone-related objects and actions as the core trigger in future hooks."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract or Cliché Night Hooks",
-      "evidence": "Videos like 'रात के दो बजे' (G0gKV1p3ZHc) or generic tea references ('मेज पर रखी चाय ठंडी हो गई') showed lower engagement.",
-      "action": "Avoid generic poetic openings and replace them with specific, sharp real-life situations."
+      "pattern": "Abstract late-night metaphors",
+      "evidence": "Broad concepts like tea getting cold or generic time mentions without a direct psychological trigger (e.g., uIbMpCjVutQ) yield lowest views.",
+      "action": "Avoid vague poetic intros; anchor every hook in a recognizable, daily digital or micro-habit."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment mixed with silent heartbreak",
-    "hook_style": "Tactile smartphone action",
+    "emotion": "Quiet realization and letting go",
+    "hook_style": "Digital micro-action confession",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization while removing someone from emergency contacts or favorite lists on the phone.",
-    "opening_direction": "Favorite list se uska naam hatate waqt",
-    "twist_direction": "Realizing that deleting the shortcut didn't remove the habit, but it finally gave peace back.",
-    "duration_seconds": 15,
+    "concept": "Saving a contact without a name, realizing that anonymity hurts more than deletion.",
+    "opening_direction": "बिना नाम के सेव किया था तुम्हारा नंबर, ताकि ढूंढना न पड़े।",
+    "twist_direction": "आज जब सचमुच कॉल करने की जरूरत पड़ी, तो समझ आया कि अब उस नंबर पर कोई और सुनता है, और खामोशी मेरी जीत है।",
+    "duration_seconds": 10,
     "posting_window": "13:00 - 14:00 IST",
-    "reason": "Previous successful test 'AfaLxMy6FMY' was published in the early afternoon window and leaned into self-respect themes."
+    "reason": "Building on the slight outperformance of the 'self respect' and 'phone number' patterns, this concept blends digital relatability with an empowered emotional twist."
   },
-  "experiment": "Testing if combining self-respect with a specific digital boundary action ('favorite list deletion') can lift baseline views beyond the 30-view threshold.",
-  "updated_at": "2026-09-12T12:42:22.073580+00:00",
+  "experiment": "Testing if combining a self-respect theme with an anonymous digital contact hook improves retention compared to standard chat deletion hooks.",
+  "updated_at": "2026-09-12T13:37:25.225168+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-12T12:42:24.637110+00:00"
+  "generated_at": "2026-09-12T13:37:27.896440+00:00"
 }
