@@ -1,35 +1,35 @@
 {
   "confidence": "20%",
-  "data_points": 8,
-  "overall_summary": "The channel shows very low view counts across all initial uploads (5 to 20 views), indicating low confidence in current algorithmic reach. Data is too small to determine a definitive winning format, requiring a structured exploration strategy focusing on high-engagement hooks related to relationships and overthinking.",
+  "data_points": 9,
+  "overall_summary": "View counts across all historical videos are extremely low (0 to 20 views), indicating low sample size and early-stage channel distribution. Confidence is low, requiring a controlled exploration strategy focusing on high-retention relatable hooks involving daily digital habits.",
   "winning_patterns": [
     {
-      "pattern": "Digital footprint & modern breakup triggers",
-      "evidence": "Videos focusing on phone numbers, names, and chat logs (e.g., A_eLARoegnw with 20 views, a9-G1X5jEOU with 18 views) performed slightly better than general poetry.",
-      "action": "Continue leveraging modern smartphone-related relationship pain points as hooks."
+      "pattern": "Phone/Chat habit triggers",
+      "evidence": "Videos referencing phone names, numbers, and chat interfaces like 'आज भी फोन में तुम्हारा नाम सुरक्षित है' (20 views) and 'नंबर पर अभी भी तेरी तस्वीर है' (18 views) performed relatively better than abstract thoughts.",
+      "action": "Prioritize micro-moments centered around smartphone usage and notifications."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic late-night tea/room ambiance hooks",
-      "evidence": "UIbMpCjVutQ ('मेज पर रखी चाय ठंडी हो गई') received only 5 views.",
-      "action": "Avoid cliché aesthetic openings and focus on immediate behavioral habits."
+      "pattern": "Zero-engagement abstract themes",
+      "evidence": "Video zL8saHvD-uI ('टाइपिंग... लिखकर फिर से डिलीट कर दिया') scored 0 views, possibly due to timing or heavy competition on generic typing tropes.",
+      "action": "Avoid generic typing hooks and ensure unique framing within digital relationship dynamics."
     }
   ],
   "next_video": {
-    "topic": "रिश्ते",
-    "emotion": "अधूरी उम्मीद और दर्द",
-    "hook_style": "Digital behavior & notification trigger",
+    "topic": "रात के ख्याल",
+    "emotion": "अधूरापन",
+    "hook_style": "Digital notification anxiety",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Typing a long message to an ex, then deleting it all instead of sending.",
-    "opening_direction": "टाइपिंग... लिखकर फिर से डिलीट कर दिया",
-    "twist_direction": "वो जो अल्फ़ाज़ दूसरों को भेजने थे, आज खुद के ही फोन की नोट्स ऐप में कैद रह गए।",
+    "concept": "A short narrative about checking the phone screen in the dark, expecting a notification from them, only to realize the notification light was for a delivery app.",
+    "opening_direction": "रात के सन्नाटे में फोन की स्क्रीन अचानक चमकी।",
+    "twist_direction": "लगा शायद तुम्हारा मैसेज होगा, पर वो सिर्फ एक कूरियर का नोटिफिकेशन था।",
     "duration_seconds": 15,
-    "posting_window": "13:00 - 14:00 IST",
-    "reason": "Mid-day posting window matches historical uploads that captured slightly higher baseline views (like a9-G1X5jEOU and AfaLxMy6FMY)."
+    "posting_window": "06:00 PM - 08:00 PM",
+    "reason": "Tests late-evening relatable phone habits during peak scrolling hours while keeping the emotional contrast sharp."
   },
-  "experiment": "Testing a raw, action-oriented digital habit hook ('typing and deleting') to drive higher watch time and relatable comments.",
-  "updated_at": "2026-09-12T04:40:32.170171+00:00",
+  "experiment": "Testing an emotional contrast hook using modern everyday tech annoyances combined with nighttime loneliness.",
+  "updated_at": "2026-09-12T05:39:17.261788+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-12T04:40:34.601570+00:00"
+  "generated_at": "2026-09-12T05:39:19.545409+00:00"
 }
