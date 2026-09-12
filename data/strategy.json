@@ -1,35 +1,35 @@
 {
   "confidence": "20%",
   "data_points": 9,
-  "overall_summary": "View counts across all historical videos are extremely low (0 to 20 views), indicating low sample size and early-stage channel distribution. Confidence is low, requiring a controlled exploration strategy focusing on high-retention relatable hooks involving daily digital habits.",
+  "overall_summary": "View counts across all historical videos are extremely low (0 to 20 views), indicating low sample size and minimal algorithmic distribution so far. Patterns are difficult to confirm reliably, but slightly higher initial views on relatable daily digital habits (like phone numbers, chat histories, and old names) suggest the audience responds to modern, highly visual micro-milieu touchpoints.",
   "winning_patterns": [
     {
-      "pattern": "Phone/Chat habit triggers",
-      "evidence": "Videos referencing phone names, numbers, and chat interfaces like 'आज भी फोन में तुम्हारा नाम सुरक्षित है' (20 views) and 'नंबर पर अभी भी तेरी तस्वीर है' (18 views) performed relatively better than abstract thoughts.",
-      "action": "Prioritize micro-moments centered around smartphone usage and notifications."
+      "pattern": "Digital footprint & smartphone life hooks",
+      "evidence": "Videos focusing on phone contacts, chat boxes, and stored names (e.g., 'आज भी फोन में तुम्हारा नाम सुरक्षित है' with 20 views, and 'नंबर पर अभी भी तेरी तस्वीर है' with 18 views) performed relatively better than abstract late-night thoughts.",
+      "action": "Continue focusing hooks on smartphone interactions, chat interfaces, and modern relationship relics."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Zero-engagement abstract themes",
-      "evidence": "Video zL8saHvD-uI ('टाइपिंग... लिखकर फिर से डिलीट कर दिया') scored 0 views, possibly due to timing or heavy competition on generic typing tropes.",
-      "action": "Avoid generic typing hooks and ensure unique framing within digital relationship dynamics."
+      "pattern": "Abstract silence or overly poetic time-based hooks",
+      "evidence": "Hooks like 'रात के दो बजे' (12 views) or 'मेज पर रखी चाय ठंडी हो गई' (5 views) and 0-view videos with complex descriptions showed lower traction in this sample.",
+      "action": "Avoid purely atmospheric or cliché poetic openings; ground the hook in a specific, immediate modern action."
     }
   ],
   "next_video": {
-    "topic": "रात के ख्याल",
-    "emotion": "अधूरापन",
-    "hook_style": "Digital notification anxiety",
+    "topic": "रिश्ते",
+    "emotion": "निराशा और आत्मसम्मान",
+    "hook_style": "Digital action hook",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short narrative about checking the phone screen in the dark, expecting a notification from them, only to realize the notification light was for a delivery app.",
-    "opening_direction": "रात के सन्नाटे में फोन की स्क्रीन अचानक चमकी।",
-    "twist_direction": "लगा शायद तुम्हारा मैसेज होगा, पर वो सिर्फ एक कूरियर का नोटिफिकेशन था।",
-    "duration_seconds": 15,
-    "posting_window": "06:00 PM - 08:00 PM",
-    "reason": "Tests late-evening relatable phone habits during peak scrolling hours while keeping the emotional contrast sharp."
+    "concept": "Accidentally clicking on a blocked profile picture only to realize it has finally been removed or updated.",
+    "opening_direction": "गैलरी साफ करते वक्त अचानक ब्लॉक लिस्ट खुल जाना",
+    "twist_direction": "और वहाँ अब उसकी पुरानी डीपी की जगह एक सादा डिफॉल्ट आइकॉन दिखना - जैसे वो इंसान हमेशा के लिए अजनबी बन गया हो।",
+    "duration_seconds": 12,
+    "posting_window": "07:00 PM - 09:00 PM",
+    "reason": "Evening hours typically align with higher reflective engagement, and testing a concrete digital action hook builds directly on the slightly better-performing phone/chat-related concepts."
   },
-  "experiment": "Testing an emotional contrast hook using modern everyday tech annoyances combined with nighttime loneliness.",
-  "updated_at": "2026-09-12T05:39:17.261788+00:00",
+  "experiment": "Testing if a specific visual digital realization (default profile picture after unblocking/blocking) outperforms saved-number hooks.",
+  "updated_at": "2026-09-12T06:42:32.336385+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-12T05:39:19.545409+00:00"
+  "generated_at": "2026-09-12T06:42:35.050469+00:00"
 }
