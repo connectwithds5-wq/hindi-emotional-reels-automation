@@ -1,35 +1,45 @@
 {
   "confidence": "20%",
   "data_points": 9,
-  "overall_summary": "View counts across all historical videos are extremely low (0 to 20 views), indicating low sample size and minimal algorithmic distribution so far. Patterns are difficult to confirm reliably, but slightly higher initial views on relatable daily digital habits (like phone numbers, chat histories, and old names) suggest the audience responds to modern, highly visual micro-milieu touchpoints.",
+  "overall_summary": "The channel has extremely low view counts across all recent uploads (0 to 21 views), making statistical pattern recognition unreliable. Performance is too sparse to declare a definitive winning formula, so recommendations rely on low-barrier everyday relationship scenarios and a controlled experiment with timing.",
   "winning_patterns": [
     {
-      "pattern": "Digital footprint & smartphone life hooks",
-      "evidence": "Videos focusing on phone contacts, chat boxes, and stored names (e.g., 'आज भी फोन में तुम्हारा नाम सुरक्षित है' with 20 views, and 'नंबर पर अभी भी तेरी तस्वीर है' with 18 views) performed relatively better than abstract late-night thoughts.",
-      "action": "Continue focusing hooks on smartphone interactions, chat interfaces, and modern relationship relics."
+      "pattern": "Self-respect and boundary setting hooks",
+      "evidence": "Video AfaLxMy6FMY ('self respect') achieved the highest views (21) with a tactile hook about deleting chats.",
+      "action": "Incorporate themes of personal boundaries and self-worth alongside heartbreak."
+    },
+    {
+      "pattern": "Physical objects/digital artifacts as anchors",
+      "evidence": "Videos referencing phone screens, names, and saved chats (A_eLARoegnw, WvZxup1LQYo) show relative stability within the low sample.",
+      "action": "Use concrete everyday digital interactions rather than abstract emotional statements."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract silence or overly poetic time-based hooks",
-      "evidence": "Hooks like 'रात के दो बजे' (12 views) or 'मेज पर रखी चाय ठंडी हो गई' (5 views) and 0-view videos with complex descriptions showed lower traction in this sample.",
-      "action": "Avoid purely atmospheric or cliché poetic openings; ground the hook in a specific, immediate modern action."
+      "pattern": "Abstract or purely atmospheric hooks",
+      "evidence": "Videos like zL8saHvD-uI ('टाइपिंग... लिखकर फिर से डिलीट कर दिया') received 0 views, possibly due to oversaturation or weak immediate pull.",
+      "action": "Avoid cliché typing-indicator tropes and focus on less obvious micro-moments."
+    },
+    {
+      "pattern": "Generic third-party storytelling titles",
+      "evidence": "Titles relying on generic emotional labels underperform compared to direct situational hooks.",
+      "action": "Keep titles tightly bound to the exact opening narrative of the short."
     }
   ],
   "next_video": {
-    "topic": "रिश्ते",
-    "emotion": "निराशा और आत्मसम्मान",
-    "hook_style": "Digital action hook",
+    "topic": "अकेलापन",
+    "emotion": "Melancholy and quiet realization",
+    "hook_style": "Unusual everyday object interaction",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Accidentally clicking on a blocked profile picture only to realize it has finally been removed or updated.",
-    "opening_direction": "गैलरी साफ करते वक्त अचानक ब्लॉक लिस्ट खुल जाना",
-    "twist_direction": "और वहाँ अब उसकी पुरानी डीपी की जगह एक सादा डिफॉल्ट आइकॉन दिखना - जैसे वो इंसान हमेशा के लिए अजनबी बन गया हो।",
-    "duration_seconds": 12,
-    "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Evening hours typically align with higher reflective engagement, and testing a concrete digital action hook builds directly on the slightly better-performing phone/chat-related concepts."
+    "concept": "A short about keeping an extra coffee mug or chair ready out of pure habit, long after the person has stopped visiting.",
+    "opening_direction": "Start with the simple habit of making two cups of tea or keeping a seat vacant.",
+    "twist_direction": "Realizing halfway through stirring that nobody is coming, yet still refusing to change the habit.",
+    "duration_seconds": 15,
+    "posting_window": "07:00 AM - 09:00 AM IST",
+    "reason": "Testing an early morning slot to catch viewers during early commute or wake-up routine, shifting away from afternoon/evening slots that previously yielded low traction."
   },
-  "experiment": "Testing if a specific visual digital realization (default profile picture after unblocking/blocking) outperforms saved-number hooks.",
-  "updated_at": "2026-09-12T06:42:32.336385+00:00",
+  "experiment": "Testing an early morning publishing window combined with an 'empty chair/habit' theme to escape the repetitive phone-screen and chat-deletion motifs.",
+  "updated_at": "2026-09-12T07:37:46.390520+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-12T06:42:35.050469+00:00"
+  "generated_at": "2026-09-12T07:37:49.495335+00:00"
 }
