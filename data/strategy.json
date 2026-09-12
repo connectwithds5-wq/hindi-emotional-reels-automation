@@ -1,45 +1,35 @@
 {
   "confidence": "20%",
   "data_points": 9,
-  "overall_summary": "The channel has extremely low view counts across all recent uploads (0 to 21 views), making statistical pattern recognition unreliable. Performance is too sparse to declare a definitive winning formula, so recommendations rely on low-barrier everyday relationship scenarios and a controlled experiment with timing.",
+  "overall_summary": "All historical videos currently have single-digit or very low double-digit views with zero engagement, indicating that confidence is extremely low and the channel is in an early testing phase. Content focused on personal boundaries and digital reminders (like chats and phone notes) performed marginally better.",
   "winning_patterns": [
     {
-      "pattern": "Self-respect and boundary setting hooks",
-      "evidence": "Video AfaLxMy6FMY ('self respect') achieved the highest views (21) with a tactile hook about deleting chats.",
-      "action": "Incorporate themes of personal boundaries and self-worth alongside heartbreak."
-    },
-    {
-      "pattern": "Physical objects/digital artifacts as anchors",
-      "evidence": "Videos referencing phone screens, names, and saved chats (A_eLARoegnw, WvZxup1LQYo) show relative stability within the low sample.",
-      "action": "Use concrete everyday digital interactions rather than abstract emotional statements."
+      "pattern": "Digital boundary & self-respect motifs",
+      "evidence": "Video AfaLxMy6FMY ('self respect', hook: 'उंगली उसी चैट पर रुकी थी') got the highest views (24).",
+      "action": "Incorporate themes dealing with taking action on chats, blocks, or choosing self-respect over lingering."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract or purely atmospheric hooks",
-      "evidence": "Videos like zL8saHvD-uI ('टाइपिंग... लिखकर फिर से डिलीट कर दिया') received 0 views, possibly due to oversaturation or weak immediate pull.",
-      "action": "Avoid cliché typing-indicator tropes and focus on less obvious micro-moments."
-    },
-    {
-      "pattern": "Generic third-party storytelling titles",
-      "evidence": "Titles relying on generic emotional labels underperform compared to direct situational hooks.",
-      "action": "Keep titles tightly bound to the exact opening narrative of the short."
+      "pattern": "Abstract or generic late-night atmospheric hooks",
+      "evidence": "Videos like uIbMpCjVutQ ('मेज पर रखी चाय ठंडी हो गई') and zL8saHvD-uI ('टाइपिंग... लिखकर फिर से डिलीट कर दिया') received very low views (4-5).",
+      "action": "Avoid overly poetic or slow-burn atmospheric openings; start with an active, highly concrete micro-decision."
     }
   ],
   "next_video": {
-    "topic": "अकेलापन",
-    "emotion": "Melancholy and quiet realization",
-    "hook_style": "Unusual everyday object interaction",
+    "topic": "self respect",
+    "emotion": "Empowerment mixed with quiet heartbreak",
+    "hook_style": "Active micro-decision",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short about keeping an extra coffee mug or chair ready out of pure habit, long after the person has stopped visiting.",
-    "opening_direction": "Start with the simple habit of making two cups of tea or keeping a seat vacant.",
-    "twist_direction": "Realizing halfway through stirring that nobody is coming, yet still refusing to change the habit.",
-    "duration_seconds": 15,
-    "posting_window": "07:00 AM - 09:00 AM IST",
-    "reason": "Testing an early morning slot to catch viewers during early commute or wake-up routine, shifting away from afternoon/evening slots that previously yielded low traction."
+    "concept": "A person goes to check if they are still blocked, realizes they finally aren't, but closes the app anyway because it doesn't matter anymore.",
+    "opening_direction": "आज उसने खुद अनब्लॉक कर दिया,",
+    "twist_direction": "पर मैंने सर्च बार में उसका नाम टाइप करना बंद कर दिया है।",
+    "duration_seconds": 12,
+    "posting_window": "13:00 - 14:00 IST",
+    "reason": "Building on the slight positive traction of the 'self respect' and digital interaction theme while tightening the narrative arc to create a stronger emotional turnaround."
   },
-  "experiment": "Testing an early morning publishing window combined with an 'empty chair/habit' theme to escape the repetitive phone-screen and chat-deletion motifs.",
-  "updated_at": "2026-09-12T07:37:46.390520+00:00",
+  "experiment": "Testing an active behavior-shifting hook ('unblocked') combined with self-respect closure versus passive waiting hooks.",
+  "updated_at": "2026-09-12T08:40:49.383808+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-12T07:37:49.495335+00:00"
+  "generated_at": "2026-09-12T08:40:51.751617+00:00"
 }
