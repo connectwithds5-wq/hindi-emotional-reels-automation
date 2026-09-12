@@ -1,40 +1,40 @@
 {
-  "confidence": "25%",
+  "confidence": "20%",
   "data_points": 9,
-  "overall_summary": "The sample size is very small, and views across all videos are extremely low (ranging between 5 and 28 views), resulting in low statistical confidence. However, subtle engagement indicators show slight preference toward 'self respect' and relatable communication artifacts like old chats or saved numbers over abstract poetic concepts.",
+  "overall_summary": "View counts across all 9 historical shorts are very low (ranging from 5 to 28 views) with zero engagement (likes/comments), indicating a low-sample size where the algorithm is still testing the content distribution. Confidence is low, and we need a controlled exploration combining our best-performing topic category with a strong everyday relatable hook.",
   "winning_patterns": [
     {
-      "pattern": "Actionable Self-Respect and Boundaries",
-      "evidence": "Video 'AfaLxMy6FMY' with topic 'self respect' and hook 'उंगली उसी चैट पर रुकी थी' gained 28 views, outperforming the channel average.",
-      "action": "Incorporate themes of personal boundaries and letting go of digital tethers rather than purely suffering in silence."
+      "pattern": "Self Respect and Boundaries Focus",
+      "evidence": "Video 'AfaLxMy6FMY' with topic 'self respect' and hook 'उंगली उसी चैट पर रुकी थी' received the highest views (28) in the dataset.",
+      "action": "Incorporate themes of personal boundaries and letting go rather than purely suffering in silence."
     },
     {
-      "pattern": "Tangible Communication Artifacts",
-      "evidence": "Hooks dealing with phone screens, names, and saved numbers ('आज भी फोन में तुम्हारा नाम सुरक्षित है') performed relatively better than pure abstract thoughts.",
-      "action": "Use concrete everyday digital interactions as hooks."
+      "pattern": "Relatable Digital Communication Hooks",
+      "evidence": "Videos referencing phone screens, saved names, and typing indicators (e.g., A_eLARoegnw, zL8saHvD-uI) consistently perform relatively better in the 16-20 view bracket.",
+      "action": "Use specific, tactile smartphone interaction details that resonate with modern emotional pain."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Late-Night Atmospheric Hooks",
-      "evidence": "Videos focusing heavily on generic night atmosphere ('मेज पर रखी चाय ठंडी हो गई', 'रात के दो बजे') had lower views (5-12).",
-      "action": "Avoid starting with weather, tea, or generic time mentions without a grounding human action."
+      "pattern": "Abstract or Cliché Night Hooks",
+      "evidence": "Videos like 'रात के दो बजे' (G0gKV1p3ZHc) or generic tea references ('मेज पर रखी चाय ठंडी हो गई') showed lower engagement.",
+      "action": "Avoid generic poetic openings and replace them with specific, sharp real-life situations."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment mixed with lingering pain",
-    "hook_style": "Tangible digital habit",
+    "emotion": "Empowerment mixed with silent heartbreak",
+    "hook_style": "Tactile smartphone action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Unfollowing someone not out of anger, but out of the realization that watching their stories hurts no one but yourself.",
-    "opening_direction": "कल रात गलती से उसकी प्रोफाइल खुल गई, और मैंने तुरंत ऐप बंद कर दिया।",
-    "twist_direction": "ब्लॉक करने का गुस्सा नहीं था, बस खुद को रोज़ तड़पाने से थक गया था.",
+    "concept": "A realization while removing someone from emergency contacts or favorite lists on the phone.",
+    "opening_direction": "Favorite list se uska naam hatate waqt",
+    "twist_direction": "Realizing that deleting the shortcut didn't remove the habit, but it finally gave peace back.",
     "duration_seconds": 15,
     "posting_window": "13:00 - 14:00 IST",
-    "reason": "Previous slightly better-performing video ('AfaLxMy6FMY') was posted around early afternoon (13:52) and focused on self-respect themes."
+    "reason": "Previous successful test 'AfaLxMy6FMY' was published in the early afternoon window and leaned into self-respect themes."
   },
-  "experiment": "Testing if shifting the emotional arc from passive heartbreak to quiet self-preservation improves watch time and view velocity.",
-  "updated_at": "2026-09-12T11:37:21.748921+00:00",
+  "experiment": "Testing if combining self-respect with a specific digital boundary action ('favorite list deletion') can lift baseline views beyond the 30-view threshold.",
+  "updated_at": "2026-09-12T12:42:22.073580+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-12T11:37:24.456899+00:00"
+  "generated_at": "2026-09-12T12:42:24.637110+00:00"
 }
