@@ -1,40 +1,40 @@
 {
   "confidence": "20%",
   "data_points": 9,
-  "overall_summary": "The channel shows very low overall view counts across all videos (ranging from 4 to 24 views), meaning statistical significance is not yet established. However, topics involving personal boundaries and self-respect (e.g., 'self respect' with 24 views) and tangible relationship artifacts (e.g., phone contacts, old chats with 20 views) slightly outperform abstract late-night thoughts. Confidence is low due to small sample sizes.",
+  "overall_summary": "The sample size is very small, and view counts across all videos are extremely low (ranging between 4 and 28 views), with zero engagement (likes/comments) recorded. Consequently, confidence is low, and the channel is in an exploratory phase to find reliable hooks and retention triggers.",
   "winning_patterns": [
     {
-      "pattern": "Action-oriented self-respect themes",
-      "evidence": "Video AfaLxMy6FMY ('self respect') achieved the highest views (24) with a hook about stopping oneself on a chat window.",
-      "action": "Incorporate choices involving dignity, moving on, or deleting reminders rather than passive sadness."
+      "pattern": "Action-oriented physical habits involving phones and chats",
+      "evidence": "Video AfaLxMy6FMY ('उंगली उसी चैट पर रुकी थी') on 'self respect' garnered the highest views (28) in the dataset.",
+      "action": "Focus hooks on tangible, everyday digital actions like deleting chats or hesitating over the keyboard."
     },
     {
-      "pattern": "Tangible digital artifacts",
-      "evidence": "Videos focusing on phone contacts, numbers, and chat histories (A_eLARoegnw, a9-G1X5jEOU) averaged higher than abstract late-night concepts.",
-      "action": "Use specific smartphone actions or interface habits as primary triggers."
+      "pattern": "Identity and boundaries (Self Respect)",
+      "evidence": "Self-respect and boundary-setting topics outperformed abstract late-night rambling.",
+      "action": "Blend emotional vulnerability with a strong concluding stance on personal dignity."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract late-night or tea-drinking tropes",
-      "evidence": "Videos like uIbMpCjVutQ ('मेज पर रखी चाय ठंडी हो गई') and zL8saHvD-uI received the lowest views (4-5).",
-      "action": "Avoid overly poetic or slow atmospheric openings; move straight to modern, relatable micro-interactions."
+      "pattern": "Abstract atmospheric hooks",
+      "evidence": "Videos with vague temporal hooks like 'रात के दो बजे' (G0gKV1p3ZHc) or 'मेज पर रखी चाय ठंडी हो गई' (uIbMpCjVutQ) received lower initial traction (5-12 views).",
+      "action": "Avoid purely atmospheric openings; ground the hook in a specific, relatable modern behavior."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowered realization after quiet heartbreak",
-    "hook_style": "Real-life moment with a physical or digital action",
+    "emotion": "Empowerment through letting go",
+    "hook_style": "Tactile phone action combined with a decision of dignity",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Scrolling past a pinned conversation, choosing to archive instead of replying to a late-night ping, valuing peace over temporary comfort.",
-    "opening_direction": "Pinning open an old conversation thread at midnight when a notification pops up.",
-    "twist_direction": "Instead of typing back an emotional paragraph, simply turning off notifications and placing the phone face down.",
+    "concept": "Staring at the block button, realizing that blocking them isn't for punishment, but for protecting your own peace.",
+    "opening_direction": "ब्लॉक करने से पहले हाथ रुका, सिर्फ यह सोचने के लिए...",
+    "twist_direction": "...कि अब उसे फर्क नहीं पड़ेगा, पर मुझे खुद से नजरें मिलाने के लिए यह करना ही था।",
     "duration_seconds": 12,
-    "posting_window": "13:00 - 15:00 IST",
-    "reason": "Midday and early afternoon test slots previously captured slightly better baseline engagement (matching successful afternoon uploads)."
+    "posting_window": "13:00 - 14:00 IST",
+    "reason": "Previous relative success ('self respect' topic with phone actions) suggests users engage slightly better with proactive emotional boundaries during midday breaks."
   },
-  "experiment": "Testing if shifting from passive longing ('रात के ख्याल') to active boundary-setting ('self respect') retains attention better in a micro-format.",
-  "updated_at": "2026-09-12T09:38:29.750009+00:00",
+  "experiment": "Testing if pairing a tactile smartphone action with a self-respect resolution yields better initial view velocity than passive late-night loneliness themes.",
+  "updated_at": "2026-09-12T10:38:04.494812+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-12T09:38:32.759294+00:00"
+  "generated_at": "2026-09-12T10:38:07.226084+00:00"
 }
