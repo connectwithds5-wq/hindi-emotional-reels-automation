@@ -1,35 +1,35 @@
 {
   "confidence": "20%",
   "data_points": 8,
-  "overall_summary": "The performance data is extremely small with very low views across all initial uploads, indicating that historical metrics do not yet provide statistically significant winning patterns. Confidence is low, requiring a controlled exploration strategy focusing on high-relatability hooks and tighter emotional twists.",
+  "overall_summary": "All historical videos currently have very low view counts (5 to 20 views) and zero engagement, indicating low sample size and lack of algorithmic distribution so far. Confidence is low, requiring a controlled exploration phase focusing on high-retention narrative structures.",
   "winning_patterns": [
     {
-      "pattern": "Relatable smartphone or communication artifacts",
-      "evidence": "Videos focusing on phone contacts, chats, or stored names (e.g., A_eLARoegnw with 20 views and a9-G1X5jEOU with 18 views) performed slightly better than abstract hooks.",
-      "action": "Continue leveraging everyday digital habits (typing, checking names, viewing chat interfaces) as hook foundations."
+      "pattern": "Tangible digital artifacts",
+      "evidence": "Videos focusing on phone interactions like 'आज भी फोन में तुम्हारा नाम सुरक्षित है' (20 views) and 'आधी रात को खाली चैट देखना' (15 views) performed slightly better than abstract emotional concepts.",
+      "action": "Continue leveraging modern smartphone isolation motifs like old chats, contact lists, and active status indicators."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Over-reliance on heavy self-respect concepts with niche actions",
-      "evidence": "Video AfaLxMy6FMY focusing on 'self respect' and deleting chats received only 1 view, indicating the specific framing or timing failed to connect.",
-      "action": "Soften self-respect themes by anchoring them first in universal midnight or overthinking micro-moments."
+      "pattern": "Abstract or overly dramatic hooks",
+      "evidence": "Broad statements like 'नंबर ब्लॉक नहीं किया कभी' (5 views) and self-respect angles like 'चैट डिलीट करने की हिम्मत' (5 views) yielded minimal traction in this dataset.",
+      "action": "Avoid abstract statements; ground hooks in immediate, highly specific physical or digital actions."
     }
   ],
   "next_video": {
-    "topic": "ओवरथिंकिंग",
-    "emotion": "तन्हाई और अधूरापन",
-    "hook_style": "Digital micro-moment",
+    "topic": "अधूरी मोहब्बत",
+    "emotion": "Nostalgia and silent heartbreak",
+    "hook_style": "Sensory and situational",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Staring at a typing indicator that appears and disappears without a message ever arriving during late-night hours.",
-    "opening_direction": "टाइपिंग... लिखकर गायब हो जाना,",
-    "twist_direction": "वो शब्द भेजने से डरता नहीं था, बस उसे डर था कि मेरे पूछने पर वो झूठ क्या बोलेगा।",
+    "concept": "Finding an old, forgotten voice note in an archived chat and realizing how much the voice has changed.",
+    "opening_direction": "Scroll down to an archived WhatsApp chat from two years ago and notice an unplayed audio message.",
+    "twist_direction": "Playing the voice note only to realize the person laughing in the audio is a complete stranger to the hardened person you've become today.",
     "duration_seconds": 15,
-    "posting_window": "06:00 PM - 08:00 PM",
-    "reason": "Testing a fresh overthinking angle tied directly to common messaging behavior during evening peak engagement hours."
+    "posting_window": "13:00 - 15:00 IST",
+    "reason": "Tests a sensory digital artifact (audio note) combined with a psychological twist about personal transformation."
   },
-  "experiment": "Testing if adding a subtle psychological twist to a common digital habit improves viewer retention compared to static phone screen hooks.",
-  "updated_at": "2026-09-11T23:36:59.428124+00:00",
+  "experiment": "Testing an auditory hook (voice note) instead of text/chat visual hooks to check if audio-driven retention improves initial view-to-swipe ratio.",
+  "updated_at": "2026-09-12T00:43:58.969889+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-11T23:37:01.954849+00:00"
+  "generated_at": "2026-09-12T00:44:01.559528+00:00"
 }
