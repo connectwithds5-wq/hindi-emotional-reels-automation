@@ -1,35 +1,35 @@
 {
-  "confidence": "25%",
+  "confidence": "30%",
   "data_points": 10,
-  "overall_summary": "The channel shows very low overall view counts across all 10 videos (ranging between 5 and 33 views). The highest performing video so far is about 'self respect' with the hook 'उंगली उसी चैट पर रुकी थी' (33 views), and another self-respect video performed decently with 21 views. However, due to the very small sample size and overall low engagement, confidence is low, and we must proceed with a controlled exploration combining high-performing self-respect/phone-interaction themes with a fresh narrative angle.",
+  "overall_summary": "Sample size is small with low overall view counts (5-33 views), so confidence remains low. However, modern phone-based hooks centered around 'Self Respect' and digital closure (deleting chats, unsaved numbers) outperform generic abstract imagery like cold tea or late-night waiting.",
   "winning_patterns": [
     {
-      "pattern": "Self-respect themes combined with phone interaction",
-      "evidence": "Video AfaLxMy6FMY ('चैट डिलीट करने की हिम्मत और खुद की इज्जत') got the highest views (33) using a tangible action hook about chats.",
-      "action": "Focus more narratives around digital boundaries, self-worth, and letting go of one-sided conversations."
+      "pattern": "Digital boundary & Self Respect themes",
+      "evidence": "Videos focusing on self-respect and modern phone actions ('AfaLxMy6FMY' with 33 views, 'aNR94Xxn0yM' with 24 views and 1 like) scored highest.",
+      "action": "Double down on micro-moments involving modern smartphones, digital privacy, and choosing self-worth over desperate waiting."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic late-night philosophical openings",
-      "evidence": "Videos focusing purely on abstract night thoughts ('रात के दो बजे', 'मेज पर रखी चाय') yielded lower views (5 to 12).",
-      "action": "Ground abstract emotional pain into specific, physical daily actions or modern digital micro-habits."
+      "pattern": "Generic imagery without strong actionable hooks",
+      "evidence": "'uIbMpCjVutQ' (tea cold, 5 views) and 'aUuNKfe7jm4' (5 views) lagged due to passive and visual imagery lacking immediate tension.",
+      "action": "Avoid purely poetic metaphor hooks; start directly with a specific, tension-filled digital interaction."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment mixed with quiet heartbreak",
-    "hook_style": "Tangible digital action",
-    "story_structure": "simple -> relatable -> twist",
-    "concept": "A short piece about finally removing someone from a pinned chat or favorite contacts list to reclaim peace of mind.",
-    "opening_direction": "पिन किए हुए मैसेज को अनपिन करना आसान होता है, पर उसकी जगह खाली देखना...",
-    "twist_direction": "...पर आज पहली बार उस खाली जगह पर सुकून महसूस हुआ, किसी का इंतज़ार नहीं।",
+    "emotion": "empowering pain / quiet strength",
+    "hook_style": "action-driven digital conflict",
+    "story_structure": "simple real-life moment -> relatable detail -> emotional twist",
+    "concept": "Archiving a shared photo album and disabling notification badges to regain control over memory triggers.",
+    "opening_direction": "Show a hand tapping 'Hide Album' on a smartphone screen late at night.",
+    "twist_direction": "It was not done out of anger, but to stop checking if they ever posted a story for you.",
     "duration_seconds": 15,
-    "posting_window": "13:00 - 14:00 IST",
-    "reason": "Previous successful uploads like AfaLxMy6FMY performed best when posted around early afternoon (13:52 IST) focusing on self respect and digital cleanup."
+    "posting_window": "13:30 - 14:00 UTC",
+    "reason": "The afternoon slot (around 13:45 UTC / 7:15 PM IST) consistently delivered higher views across past top performers."
   },
-  "experiment": "Testing whether actionable digital boundary-setting ('unpinning chats') outperforms passive viewing ('deleting chats') within the self respect category.",
-  "updated_at": "2026-09-12T21:37:36.287184+00:00",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-12T21:37:39.180152+00:00"
+  "experiment": "Testing action-first screen behavior (hiding photo albums) combined with self-respect messaging vs passive waiting themes.",
+  "updated_at": "2026-09-12T22:39:29.857733+00:00",
+  "model_used": "gemini-3.6-flash",
+  "generated_at": "2026-09-12T22:39:39.869143+00:00"
 }
