@@ -1,35 +1,35 @@
 {
-  "confidence": "20%",
+  "confidence": "25%",
   "data_points": 10,
-  "overall_summary": "Overall views across all 10 videos are extremely low (ranging between 5 and 33 views), indicating that the channel is in its initial testing phase and sample sizes are insufficient to declare definitive statistical winners. However, topics touching on digital boundaries and personal dignity ('self respect') like chats and deleted numbers showed slight relative outperformance.",
+  "overall_summary": "The channel shows very low overall view counts across all 10 videos (ranging between 5 and 33 views). The highest performing video so far is about 'self respect' with the hook 'उंगली उसी चैट पर रुकी थी' (33 views), and another self-respect video performed decently with 21 views. However, due to the very small sample size and overall low engagement, confidence is low, and we must proceed with a controlled exploration combining high-performing self-respect/phone-interaction themes with a fresh narrative angle.",
   "winning_patterns": [
     {
-      "pattern": "Digital Relationship Micro-moments",
-      "evidence": "Videos focusing on phone interactions (e.g., 'चैट डिलीट करने की हिम्मत' under self respect) garnered the highest views in the dataset (33 views).",
-      "action": "Continue focusing hooks on specific modern communication triggers like typing status, deleted chats, or contact names."
+      "pattern": "Self-respect themes combined with phone interaction",
+      "evidence": "Video AfaLxMy6FMY ('चैट डिलीट करने की हिम्मत और खुद की इज्जत') got the highest views (33) using a tangible action hook about chats.",
+      "action": "Focus more narratives around digital boundaries, self-worth, and letting go of one-sided conversations."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Vague Late-night/Tea Tropes",
-      "evidence": "Broad atmospheric hooks like 'मेज पर रखी चाय ठंडी हो गई' received lower views (5 views).",
-      "action": "Avoid overly poetic or generic scenery descriptions; ground the hooks in immediate, tangible phone or digital behaviors."
+      "pattern": "Generic late-night philosophical openings",
+      "evidence": "Videos focusing purely on abstract night thoughts ('रात के दो बजे', 'मेज पर रखी चाय') yielded lower views (5 to 12).",
+      "action": "Ground abstract emotional pain into specific, physical daily actions or modern digital micro-habits."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment through detachment",
-    "hook_style": "Action-oriented digital micro-moment",
+    "emotion": "Empowerment mixed with quiet heartbreak",
+    "hook_style": "Tangible digital action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short piece about finally muting someone who views every story anonymously within seconds, and realizing it's time to stop giving them front-row access to your life.",
-    "opening_direction": "तेरी नज़र अभी भी मेरी हर स्टोरी पर सबसे पहले होती है,",
-    "twist_direction": "पर आज मैंने तुझे देखने वालों की लिस्ट से ही बाहर कर दिया। तमाशा खत्म, पर्दा गिर गया।",
+    "concept": "A short piece about finally removing someone from a pinned chat or favorite contacts list to reclaim peace of mind.",
+    "opening_direction": "पिन किए हुए मैसेज को अनपिन करना आसान होता है, पर उसकी जगह खाली देखना...",
+    "twist_direction": "...पर आज पहली बार उस खाली जगह पर सुकून महसूस हुआ, किसी का इंतज़ार नहीं।",
     "duration_seconds": 15,
-    "posting_window": "13:30 - 14:00",
-    "reason": "Previous relative peak performance occurred around afternoon posting times (13:52), targeting mid-day content consumption habits."
+    "posting_window": "13:00 - 14:00 IST",
+    "reason": "Previous successful uploads like AfaLxMy6FMY performed best when posted around early afternoon (13:52 IST) focusing on self respect and digital cleanup."
   },
-  "experiment": "Testing an assertive self-respect hook focused on digital observation (viewing stories) rather than chat deletion.",
-  "updated_at": "2026-09-12T20:41:49.806707+00:00",
+  "experiment": "Testing whether actionable digital boundary-setting ('unpinning chats') outperforms passive viewing ('deleting chats') within the self respect category.",
+  "updated_at": "2026-09-12T21:37:36.287184+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-12T20:41:52.385415+00:00"
+  "generated_at": "2026-09-12T21:37:39.180152+00:00"
 }
