@@ -1,35 +1,35 @@
 {
-  "confidence": "30%",
+  "confidence": "20%",
   "data_points": 8,
-  "overall_summary": "Data volume is extremely low (8 total Shorts, max views: 20, 0 likes/comments across all videos). Confidence in identifying true algorithmic winners is low. Early indicators suggest digital-relational objects (saved contact numbers, silent notifications) perform slightly better than abstract midnight thoughts, but controlled exploration is required.",
+  "overall_summary": "The channel shows very low view counts across all initial uploads (5 to 20 views), indicating low confidence in current algorithmic reach. Data is too small to determine a definitive winning format, requiring a structured exploration strategy focusing on high-engagement hooks related to relationships and overthinking.",
   "winning_patterns": [
     {
-      "pattern": "Concrete digital touchpoints (Saved contact names, unsent messages)",
-      "evidence": "'पुराना नंबर और अधूरा रिश्ता' got 20 views and 'Dil Ki Diary: Bewafai Ka Dard' got 18 views, both referencing phone/contact triggers.",
-      "action": "Anchor hooks around specific, everyday smartphone interactions."
+      "pattern": "Digital footprint & modern breakup triggers",
+      "evidence": "Videos focusing on phone numbers, names, and chat logs (e.g., A_eLARoegnw with 20 views, a9-G1X5jEOU with 18 views) performed slightly better than general poetry.",
+      "action": "Continue leveraging modern smartphone-related relationship pain points as hooks."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract aesthetic descriptions without immediate personal conflict",
-      "evidence": "'रात के ख्याल और अधूरा इंतजार' got 5 views.",
-      "action": "Avoid purely poetic setups like cold tea; anchor immediately on a specific relatable action or realization."
+      "pattern": "Generic late-night tea/room ambiance hooks",
+      "evidence": "UIbMpCjVutQ ('मेज पर रखी चाय ठंडी हो गई') received only 5 views.",
+      "action": "Avoid cliché aesthetic openings and focus on immediate behavioral habits."
     }
   ],
   "next_video": {
-    "topic": "जो कहना रह गया",
-    "emotion": "Quiet regret with self-realization",
-    "hook_style": "Specific visual action + unexpected realization",
+    "topic": "रिश्ते",
+    "emotion": "अधूरी उम्मीद और दर्द",
+    "hook_style": "Digital behavior & notification trigger",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Typing a long explanation in the search bar or draft notes instead of sending it.",
-    "opening_direction": "Show fingers typing a heartfelt explanation inside the Notes app search bar.",
-    "twist_direction": "Reveal that the note wasn't saved for them—it was typed just to convince oneself to stop trying.",
+    "concept": "Typing a long message to an ex, then deleting it all instead of sending.",
+    "opening_direction": "टाइपिंग... लिखकर फिर से डिलीट कर दिया",
+    "twist_direction": "वो जो अल्फ़ाज़ दूसरों को भेजने थे, आज खुद के ही फोन की नोट्स ऐप में कैद रह गए।",
     "duration_seconds": 15,
     "posting_window": "13:00 - 14:00 IST",
-    "reason": "Mid-afternoon posts ('पुराना नंबर' at 13:19 UTC / 18:49 IST showed mild traction previously, testing early afternoon 13:30 IST window)."
+    "reason": "Mid-day posting window matches historical uploads that captured slightly higher baseline views (like a9-G1X5jEOU and AfaLxMy6FMY)."
   },
-  "experiment": "Testing 'Drafts/Notes App' visual context under the unexpressed emotional closure topic ('जो कहना रह गया').",
-  "updated_at": "2026-09-12T03:39:54.241967+00:00",
-  "model_used": "gemini-3.6-flash",
-  "generated_at": "2026-09-12T03:40:02.472331+00:00"
+  "experiment": "Testing a raw, action-oriented digital habit hook ('typing and deleting') to drive higher watch time and relatable comments.",
+  "updated_at": "2026-09-12T04:40:32.170171+00:00",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-09-12T04:40:34.601570+00:00"
 }
