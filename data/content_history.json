@@ -974,6 +974,85 @@
         "reason": "Testing a shift from helpless overthinking ('अकेलापन' / 'ओवरथिंकिंग') to empowered self-respect ('self respect'), which offers a satisfying emotional release."
       },
       "model_used": "gemini-3.5-flash-lite"
+    },
+    {
+      "hook": "टाइपिंग... लिखकर फिर से डिलीट कर दिया",
+      "lines": [
+        "उंगलियां आज भी वहीं रुकती हैं",
+        "जहां कभी हमारे किस्से शुरू होते थे",
+        "बहुत कुछ था जो कहना बाकी है",
+        "पर अब उन अल्फाज़ों का कोई घर नहीं",
+        "खुद को ही सुना कर सब मिटा दिया",
+        "रिश्ते जो टूटे तो फोन में ही कैद हो गए",
+        "अब सिर्फ नोट्स ऐप में सांस लेते हैं"
+      ],
+      "youtube_title": "रिश्ते: जब शब्द फोन के नोट्स में ही कैद रह जाएं",
+      "youtube_description": "रिश्ते अक्सर तब खत्म नहीं होते जब हम बात करना छोड़ देते हैं, बल्कि तब खत्म होते हैं जब हम कहना बंद कर देते हैं। ये कहानी है उन अनकहे शब्दों की जो किसी को भेजने के बजाय आज फोन की स्क्रीन पर ही दफन हो गए। क्या आपने भी कभी कुछ ऐसा महसूस किया है?",
+      "youtube_keywords": [
+        "Dil Ki Diary",
+        "emotional hindi short story",
+        "rishte",
+        "unspoken words",
+        "heartbreak reality",
+        "hindi micro fiction",
+        "typing status",
+        "sad reality of relationships",
+        "breakup feelings",
+        "notes app secrets",
+        "emotional hindi reel",
+        "relationship truth",
+        "dard bhari kahani"
+      ],
+      "youtube_hashtags": [
+        "DilKiDiary",
+        "Rishte",
+        "EmotionalHindi",
+        "MicroFiction",
+        "Heartbreak",
+        "HindiShorts",
+        "DeepThoughts"
+      ],
+      "caption": "लिखना तो बहुत कुछ था, पर भेजने के लिए अब तुम नहीं रहे। ये उन लम्हों के नाम, जो किसी को मिल नहीं पाए।",
+      "keywords": [
+        "Dil Ki Diary",
+        "Rishte",
+        "Emotional Hindi",
+        "Micro Story",
+        "Heartbreak",
+        "Typing",
+        "Delete",
+        "Personal Feelings",
+        "Hindi Story",
+        "Relationship"
+      ],
+      "hashtags": [
+        "DilKiDiary",
+        "Rishte",
+        "HindiKahani",
+        "Emotional",
+        "Heartbreak",
+        "MicroStory",
+        "Unspoken",
+        "ReelFeelings",
+        "HindiWriter",
+        "SadRealities",
+        "DeepConversations",
+        "Memories"
+      ],
+      "topic": "रिश्ते",
+      "strategy_used": {
+        "topic": "रिश्ते",
+        "emotion": "अधूरी उम्मीद और दर्द",
+        "hook_style": "Digital behavior & notification trigger",
+        "story_structure": "simple -> relatable -> twist",
+        "concept": "Typing a long message to an ex, then deleting it all instead of sending.",
+        "opening_direction": "टाइपिंग... लिखकर फिर से डिलीट कर दिया",
+        "twist_direction": "वो जो अल्फ़ाज़ दूसरों को भेजने थे, आज खुद के ही फोन की नोट्स ऐप में कैद रह गए।",
+        "duration_seconds": 15,
+        "posting_window": "13:00 - 14:00 IST",
+        "reason": "Mid-day posting window matches historical uploads that captured slightly higher baseline views (like a9-G1X5jEOU and AfaLxMy6FMY)."
+      },
+      "model_used": "gemini-3.1-flash-lite"
     }
   ]
 }
