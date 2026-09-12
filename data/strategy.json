@@ -1,35 +1,35 @@
 {
-  "confidence": "30%",
+  "confidence": "20%",
   "data_points": 10,
-  "overall_summary": "Sample size is small with low overall view counts (5-33 views), so confidence remains low. However, modern phone-based hooks centered around 'Self Respect' and digital closure (deleting chats, unsaved numbers) outperform generic abstract imagery like cold tea or late-night waiting.",
+  "overall_summary": "The channel has a very small sample size of views (all under 40) with negligible engagement across 10 videos. While absolute numbers are low, 'self respect' and digital/phone-related triggers (like deleting chats or unnamed numbers) show slight relative strength compared to abstract topics.",
   "winning_patterns": [
     {
-      "pattern": "Digital boundary & Self Respect themes",
-      "evidence": "Videos focusing on self-respect and modern phone actions ('AfaLxMy6FMY' with 33 views, 'aNR94Xxn0yM' with 24 views and 1 like) scored highest.",
-      "action": "Double down on micro-moments involving modern smartphones, digital privacy, and choosing self-worth over desperate waiting."
+      "pattern": "Digital Life Triggers",
+      "evidence": "Videos focusing on phone interactions like chat deletion and unnamed numbers (e.g., AfaLxMy6FMY, aNR94Xxn0yM) achieved the highest views (33 and 24).",
+      "action": "Prioritize modern, relatable digital micro-behaviors (typing and deleting, online status) over old-fashioned romantic clichés."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic imagery without strong actionable hooks",
-      "evidence": "'uIbMpCjVutQ' (tea cold, 5 views) and 'aUuNKfe7jm4' (5 views) lagged due to passive and visual imagery lacking immediate tension.",
-      "action": "Avoid purely poetic metaphor hooks; start directly with a specific, tension-filled digital interaction."
+      "pattern": "Abstract Late-Night Monologues",
+      "evidence": "Broad late-night or tea-drinking tropes (e.g., uIbMpCjVutQ, G0gKV1p3ZHc) received the lowest views (5 and 12).",
+      "action": "Avoid generic atmospheric setups and ground every story in an immediate, physical phone or text action."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "empowering pain / quiet strength",
-    "hook_style": "action-driven digital conflict",
-    "story_structure": "simple real-life moment -> relatable detail -> emotional twist",
-    "concept": "Archiving a shared photo album and disabling notification badges to regain control over memory triggers.",
-    "opening_direction": "Show a hand tapping 'Hide Album' on a smartphone screen late at night.",
-    "twist_direction": "It was not done out of anger, but to stop checking if they ever posted a story for you.",
+    "emotion": "empowering detachment",
+    "hook_style": "visual action-based text notification",
+    "story_structure": "simple -> relatable -> twist",
+    "concept": "Seeing someone view your story after months of silence, and choosing to mute them instead of replying.",
+    "opening_direction": "Notification pops up showing 'Seen by [Name]' on a broadcast or status after 6 months.",
+    "twist_direction": "Instead of feeling excited or tempted to text back, you tap 'Mute' because your peace matters more than their temporary boredom.",
     "duration_seconds": 15,
-    "posting_window": "13:30 - 14:00 UTC",
-    "reason": "The afternoon slot (around 13:45 UTC / 7:15 PM IST) consistently delivered higher views across past top performers."
+    "posting_window": "13:30 - 14:00 IST",
+    "reason": "Previous successful posts like 'self respect' peaked when published during afternoon hours (around 13:45 UTC/IST test windows), tapping into mid-day scrolling behavior."
   },
-  "experiment": "Testing action-first screen behavior (hiding photo albums) combined with self-respect messaging vs passive waiting themes.",
-  "updated_at": "2026-09-12T22:39:29.857733+00:00",
-  "model_used": "gemini-3.6-flash",
-  "generated_at": "2026-09-12T22:39:39.869143+00:00"
+  "experiment": "Testing if shifting from passive longing (waiting for texts) to active boundary-setting (muting/blocking) improves engagement on self-respect topics.",
+  "updated_at": "2026-09-12T23:36:36.790943+00:00",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-09-12T23:36:40.040697+00:00"
 }
