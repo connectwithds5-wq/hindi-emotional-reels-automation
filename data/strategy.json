@@ -1,40 +1,35 @@
 {
-  "confidence": "25%",
+  "confidence": "20%",
   "data_points": 10,
-  "overall_summary": "The channel shows early data with low view counts across all videos (max 33 views). However, topics related to personal agency and emotional boundaries like 'self respect' (e.g., 'चैट डिलीट करने की हिम्मत', views: 33) and tangible digital artifacts like saved numbers or typing states slightly outperform abstract romantic musings. Confidence is low due to small sample sizes.",
+  "overall_summary": "Overall views across all 10 videos are extremely low (ranging between 5 and 33 views), indicating that the channel is in its initial testing phase and sample sizes are insufficient to declare definitive statistical winners. However, topics touching on digital boundaries and personal dignity ('self respect') like chats and deleted numbers showed slight relative outperformance.",
   "winning_patterns": [
     {
-      "pattern": "Self Respect & Digital Boundaries",
-      "evidence": "Video AfaLxMy6FMY ('self respect' topic, hook 'उंगली उसी चैट पर रुकी थी') got the highest views (33).",
-      "action": "Focus more narratives on choices that protect personal dignity rather than passive suffering."
-    },
-    {
-      "pattern": "Tangible Smartphone Interaction Hooks",
-      "evidence": "Hooks involving typing, deleting chats, or unnamed numbers (e.g., A_eLARoegnw, zL8saHvD-uI, AfaLxMy6FMY) generate slightly better baseline engagement.",
-      "action": "Continue using highly specific, tactile mobile-screen scenarios as hooks."
+      "pattern": "Digital Relationship Micro-moments",
+      "evidence": "Videos focusing on phone interactions (e.g., 'चैट डिलीट करने की हिम्मत' under self respect) garnered the highest views in the dataset (33 views).",
+      "action": "Continue focusing hooks on specific modern communication triggers like typing status, deleted chats, or contact names."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Passive & Overused Romantic Sadness",
-      "evidence": "Abstract topics like general 'रात के ख्याल' or basic unrequited love without actionable realizations (e.g., aUuNKfe7jm4, uIbMpCjVutQ) received lower views (5 views).",
-      "action": "Avoid generic late-night melancholy without a specific behavioral anchor or realization."
+      "pattern": "Vague Late-night/Tea Tropes",
+      "evidence": "Broad atmospheric hooks like 'मेज पर रखी चाय ठंडी हो गई' received lower views (5 views).",
+      "action": "Avoid overly poetic or generic scenery descriptions; ground the hooks in immediate, tangible phone or digital behaviors."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowered detachment",
-    "hook_style": "Visual digital action combined with internal boundary-setting",
+    "emotion": "Empowerment through detachment",
+    "hook_style": "Action-oriented digital micro-moment",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization that keeping old voice notes is a trap, leading to the decision to clear out media files to finally move forward.",
-    "opening_direction": "Voice note player showing a 3-year-old audio message from them, left unplayed.",
-    "twist_direction": "Instead of pressing play to hear their voice one last time, pressing delete to hear the silence of peace.",
+    "concept": "A short piece about finally muting someone who views every story anonymously within seconds, and realizing it's time to stop giving them front-row access to your life.",
+    "opening_direction": "तेरी नज़र अभी भी मेरी हर स्टोरी पर सबसे पहले होती है,",
+    "twist_direction": "पर आज मैंने तुझे देखने वालों की लिस्ट से ही बाहर कर दिया। तमाशा खत्म, पर्दा गिर गया।",
     "duration_seconds": 15,
     "posting_window": "13:30 - 14:00",
-    "reason": "Previous successful video (AfaLxMy6FMY) around self-respect was posted during the early afternoon window and performed best."
+    "reason": "Previous relative peak performance occurred around afternoon posting times (13:52), targeting mid-day content consumption habits."
   },
-  "experiment": "Testing if shifting focus entirely from passive heartbreak to proactive self-respect storytelling consistently lifts base views above the 30-view threshold.",
-  "updated_at": "2026-09-12T19:36:38.420341+00:00",
+  "experiment": "Testing an assertive self-respect hook focused on digital observation (viewing stories) rather than chat deletion.",
+  "updated_at": "2026-09-12T20:41:49.806707+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-12T19:36:41.515624+00:00"
+  "generated_at": "2026-09-12T20:41:52.385415+00:00"
 }
