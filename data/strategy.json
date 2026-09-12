@@ -1,35 +1,35 @@
 {
   "confidence": "20%",
   "data_points": 8,
-  "overall_summary": "All historical videos currently have extremely low view counts (between 5 and 20 views) with zero likes or comments, indicating low sample size and insufficient distribution. Confidence is low, and we need a controlled exploration strategy focusing on high-friction relatable moments.",
+  "overall_summary": "Sample size is extremely small with low total views (5-20 views per video). Early signals indicate phone-centric relatability (saved contact names, chat history) slightly outperforms general atmospheric quotes.",
   "winning_patterns": [
     {
-      "pattern": "Digital footprint & modern relationship anxiety",
-      "evidence": "Videos focusing on phone contacts, old chats, and online status (e.g., A_eLARoegnw with 20 views and a9-G1X5jEOU with 18 views) performed slightly better than abstract concepts.",
-      "action": "Double down on modern smartphone-related relationship triggers like saved numbers and chat histories."
+      "pattern": "Specific phone screen interactions (saved numbers, empty chats, photos)",
+      "evidence": "Videos referencing phone contact name (20 views) and DP/photo (18 views) received the highest view counts in the dataset.",
+      "action": "Anchor hooks around relatable digital touchpoints rather than vague abstract thoughts."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic late-night solitude themes without a specific object",
-      "evidence": "Videos like 'रात के ख्याल' (uIbMpCjVutQ) scored the lowest (5 views).",
-      "action": "Avoid vague late-night ambiance hooks unless anchored to a specific physical or digital action."
+      "pattern": "Generic atmospheric setups without immediate personal context",
+      "evidence": "Tea cooling down on the table hook garnered only 5 views.",
+      "action": "Avoid starting videos with generic scenery or tea imagery; lead immediately with direct visual actions or personal phone habits."
     }
   ],
   "next_video": {
-    "topic": "रिश्ते",
-    "emotion": "Bittersweet realization",
-    "hook_style": "Visual and digital habit",
+    "topic": "जो कहना रह गया",
+    "emotion": "Quiet Regret & Unspoken Closure",
+    "hook_style": "Action-oriented visual scene",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Scrolling down to the very bottom of WhatsApp chats to find someone who is now a complete stranger.",
-    "opening_direction": "Start with the physical action of scrolling past hundreds of active daily chats to reach a pinned or archived name.",
-    "twist_direction": "Realizing that while their chat is buried at the bottom, their memory still occupies the top of your mind.",
+    "concept": "Typing a long honest message in the chat bar and then backspacing it all to send just a short polite reply.",
+    "opening_direction": "Start with a screen showing a long draft being deleted letter by letter.",
+    "twist_direction": "Reveal that the person received a quick 'I'm fine' reply while sitting next to someone else who never knew.",
     "duration_seconds": 15,
-    "posting_window": "2026-09-12T13:30:00Z",
-    "reason": "Tests afternoon engagement window with a strong, highly relatable digital habit hook."
+    "posting_window": "13:00 - 14:00 UTC",
+    "reason": "Mid-afternoon posts (around 13:45 UTC) performed consistently higher in the limited sample set."
   },
-  "experiment": "Testing if a deeper digital scroll action hook can break the low-view threshold compared to simple contact name hooks.",
-  "updated_at": "2026-09-12T01:38:20.510434+00:00",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-12T01:38:31.360356+00:00"
+  "experiment": "Testing if unsaid emotional text deletion ('जो कहना रह गया') creates higher retention than saved contact hooks.",
+  "updated_at": "2026-09-12T02:39:54.338393+00:00",
+  "model_used": "gemini-3.6-flash",
+  "generated_at": "2026-09-12T02:40:02.456036+00:00"
 }
