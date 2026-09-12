@@ -1053,6 +1053,78 @@
         "reason": "Mid-day posting window matches historical uploads that captured slightly higher baseline views (like a9-G1X5jEOU and AfaLxMy6FMY)."
       },
       "model_used": "gemini-3.1-flash-lite"
+    },
+    {
+      "hook": "बिना नाम के सेव किया था नंबर,",
+      "lines": [
+        "ताकि ढूंढना न पड़े कभी।",
+        "हर रात चैट पर नजर जाती रही,",
+        "उम्मीद थी शायद कोई पैगाम आए।",
+        "आज सच में जरूरत आन पड़ी,",
+        "कॉल मिलाने को हाथ आगे बढ़ा।",
+        "तभी समझ आया उस तरफ कोई और है,",
+        "और नंबर हटा देना ही मेरी जीत थी।"
+      ],
+      "youtube_title": "बिना नाम का नंबर और खामोश रात | Dil Ki Diary",
+      "youtube_description": "बिना नाम के सेव किए गए उस पुराने नंबर को देखने की आदत और आखिरकार खुद की खातिर उसे हटाने का यह शांत सफर। क्या आपने कभी किसी रिश्ते को बचाने से ज्यादा खुद को बचाने की कोशिश की है? अपने ऐसे अनुभवों को साझा करें।",
+      "youtube_keywords": [
+        "self respect emotional story",
+        "dil ki diary hindi",
+        "sad hindi micro story",
+        "silent heartbreak reels",
+        "phone number emotional shorts",
+        "letting go stories in hindi",
+        "self respect status",
+        "dil ki baat hindi",
+        "relatable hindi stories",
+        "1 am thoughts hindi",
+        "emotional reels hindi"
+      ],
+      "youtube_hashtags": [
+        "DilKiDiary",
+        "SelfRespect",
+        "EmotionalStory",
+        "Heartbreak",
+        "HindiStories",
+        "DeepThoughts",
+        "QuietRealization",
+        "Relatable"
+      ],
+      "caption": "कुछ नंबर फोन में सेव नहीं, दिल में चुभते हैं। आज उन्हें हमेशा के लिए हटाने की एक शांत सी कहानी।",
+      "keywords": [
+        "self respect",
+        "emotional story",
+        "dil ki diary",
+        "hindi micro story",
+        "letting go",
+        "silent heartbreak",
+        "phone number",
+        "relatable feelings"
+      ],
+      "hashtags": [
+        "dilkiadiary",
+        "selfrespect",
+        "emotional",
+        "hindistory",
+        "heartbreak",
+        "deepfeelings",
+        "relatable",
+        "1amthoughts"
+      ],
+      "topic": "self respect",
+      "strategy_used": {
+        "topic": "self respect",
+        "emotion": "Quiet realization and letting go",
+        "hook_style": "Digital micro-action confession",
+        "story_structure": "simple -> relatable -> twist",
+        "concept": "Saving a contact without a name, realizing that anonymity hurts more than deletion.",
+        "opening_direction": "बिना नाम के सेव किया था तुम्हारा नंबर, ताकि ढूंढना न पड़े।",
+        "twist_direction": "आज जब सचमुच कॉल करने की जरूरत पड़ी, तो समझ आया कि अब उस नंबर पर कोई और सुनता है, और खामोशी मेरी जीत है।",
+        "duration_seconds": 10,
+        "posting_window": "13:00 - 14:00 IST",
+        "reason": "Building on the slight outperformance of the 'self respect' and 'phone number' patterns, this concept blends digital relatability with an empowered emotional twist."
+      },
+      "model_used": "gemini-3.5-flash-lite"
     }
   ]
 }
