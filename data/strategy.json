@@ -1,35 +1,45 @@
 {
   "confidence": "20%",
-  "data_points": 9,
-  "overall_summary": "The channel shows early-stage data with very low view counts across all videos, leading to low statistical confidence. However, topics tied to digital boundaries and immediate action like 'self respect' (AfaLxMy6FMY) and tangible physical/digital relics like phone numbers and chat logs (A_eLARoegnw, a9-G1X5jEOU) show slightly relative better baseline engagement.",
+  "data_points": 10,
+  "overall_summary": "The channel has a very small sample size of 10 videos with uniformly low view counts (ranging between 5 and 28 views) and zero engagement (likes/comments). Because the data volume is statistically insignificant, confidence is low, and we must rely on a controlled exploration recommendation focused on high-performing emotional themes like self-respect and relatable smartphone habits.",
   "winning_patterns": [
     {
-      "pattern": "Tangible digital artifacts",
-      "evidence": "Videos focusing on phone numbers, names saved in phones, or chat logs (e.g., A_eLARoegnw, a9-G1X5jEOU, AfaLxMy6FMY) perform better than abstract emotional themes.",
-      "action": "Use specific, physical or smartphone-related objects and actions as the core trigger in future hooks."
+      "pattern": "Self-Respect and Boundaries Focus",
+      "evidence": "Video ID 'AfaLxMy6FMY' (topic: self respect, hook: 'उंगली उसी चैट पर रुकी थी') received the highest views in the dataset at 28 views.",
+      "action": "Produce more content touching upon personal boundaries, letting go, and protecting one's self-respect rather than purely passive sadness."
+    },
+    {
+      "pattern": "Concrete Smartphone Interractions",
+      "evidence": "Hooks mentioning physical phone actions like saved numbers, typing status, or looking at old chats generated steady baseline traction (e.g., A_eLARoegnw with 20 views, zL8saHvD-uI with 16 views).",
+      "action": "Continue using everyday digital habits as the foundational hook for emotional storytelling."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract late-night metaphors",
-      "evidence": "Broad concepts like tea getting cold or generic time mentions without a direct psychological trigger (e.g., uIbMpCjVutQ) yield lowest views.",
-      "action": "Avoid vague poetic intros; anchor every hook in a recognizable, daily digital or micro-habit."
+      "pattern": "Vague Late-Night Melodrama Hooks",
+      "evidence": "Hooks like 'रात के दो बजे' (G0gKV1p3ZHc - 12 views) or generic statements without a vivid physical anchor underperformed compared to tangible micro-actions.",
+      "action": "Avoid abstract time-based openings; ground every hook in a specific, tangible real-life object or action."
+    },
+    {
+      "pattern": "Passive Waiting Tropes",
+      "evidence": "Videos focusing heavily on waiting for someone to online without a proactive resolution or twist saw lower traction (e.g., WhJ-VwRa3Rg with 6 views).",
+      "action": "Pair waiting scenarios with an immediate self-realization or emotional turning point."
     }
   ],
   "next_video": {
-    "topic": "self respect",
-    "emotion": "Quiet realization and letting go",
-    "hook_style": "Digital micro-action confession",
+    "topic": "अधूरी मोहब्बत",
+    "emotion": "विराग और आत्म-सम्मान (Detachment and Self-Worth)",
+    "hook_style": "Simple real-life micro-moment involving everyday routine.",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Saving a contact without a name, realizing that anonymity hurts more than deletion.",
-    "opening_direction": "बिना नाम के सेव किया था तुम्हारा नंबर, ताकि ढूंढना न पड़े।",
-    "twist_direction": "आज जब सचमुच कॉल करने की जरूरत पड़ी, तो समझ आया कि अब उस नंबर पर कोई और सुनता है, और खामोशी मेरी जीत है।",
-    "duration_seconds": 10,
+    "concept": "A person makes two cups of tea out of pure habit, catches themselves mid-way, and decides to pour the extra cup down the drain as a final act of moving on.",
+    "opening_direction": "Start with the physical sound of pouring tea into two separate cups out of sheer muscle memory.",
+    "twist_direction": "Realizing the second cup has no one to claim it, stopping the pour halfway, and drinking both or throwing the second one away with a quiet smile of self-acceptance.",
+    "duration_seconds": 15,
     "posting_window": "13:00 - 14:00 IST",
-    "reason": "Building on the slight outperformance of the 'self respect' and 'phone number' patterns, this concept blends digital relatability with an empowered emotional twist."
+    "reason": "Tests a domestic, highly relatable physical trigger (making tea) combined with a proactive self-respect twist, building on the success seen in previous smartphone and boundary-themed shorts."
   },
-  "experiment": "Testing if combining a self-respect theme with an anonymous digital contact hook improves retention compared to standard chat deletion hooks.",
-  "updated_at": "2026-09-12T13:37:25.225168+00:00",
+  "experiment": "Testing whether shifting the emotional hook from digital smartphone habits to offline physical domestic habits (like making tea out of habit) improves initial retention and view velocity.",
+  "updated_at": "2026-09-12T14:39:51.381381+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-12T13:37:27.896440+00:00"
+  "generated_at": "2026-09-12T14:40:03.441473+00:00"
 }
