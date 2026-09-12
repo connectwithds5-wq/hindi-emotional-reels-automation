@@ -1,35 +1,35 @@
 {
-  "confidence": "20%",
+  "confidence": "30%",
   "data_points": 8,
-  "overall_summary": "Sample size is extremely small with low total views (5-20 views per video). Early signals indicate phone-centric relatability (saved contact names, chat history) slightly outperforms general atmospheric quotes.",
+  "overall_summary": "Data volume is extremely low (8 total Shorts, max views: 20, 0 likes/comments across all videos). Confidence in identifying true algorithmic winners is low. Early indicators suggest digital-relational objects (saved contact numbers, silent notifications) perform slightly better than abstract midnight thoughts, but controlled exploration is required.",
   "winning_patterns": [
     {
-      "pattern": "Specific phone screen interactions (saved numbers, empty chats, photos)",
-      "evidence": "Videos referencing phone contact name (20 views) and DP/photo (18 views) received the highest view counts in the dataset.",
-      "action": "Anchor hooks around relatable digital touchpoints rather than vague abstract thoughts."
+      "pattern": "Concrete digital touchpoints (Saved contact names, unsent messages)",
+      "evidence": "'पुराना नंबर और अधूरा रिश्ता' got 20 views and 'Dil Ki Diary: Bewafai Ka Dard' got 18 views, both referencing phone/contact triggers.",
+      "action": "Anchor hooks around specific, everyday smartphone interactions."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic atmospheric setups without immediate personal context",
-      "evidence": "Tea cooling down on the table hook garnered only 5 views.",
-      "action": "Avoid starting videos with generic scenery or tea imagery; lead immediately with direct visual actions or personal phone habits."
+      "pattern": "Abstract aesthetic descriptions without immediate personal conflict",
+      "evidence": "'रात के ख्याल और अधूरा इंतजार' got 5 views.",
+      "action": "Avoid purely poetic setups like cold tea; anchor immediately on a specific relatable action or realization."
     }
   ],
   "next_video": {
     "topic": "जो कहना रह गया",
-    "emotion": "Quiet Regret & Unspoken Closure",
-    "hook_style": "Action-oriented visual scene",
+    "emotion": "Quiet regret with self-realization",
+    "hook_style": "Specific visual action + unexpected realization",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Typing a long honest message in the chat bar and then backspacing it all to send just a short polite reply.",
-    "opening_direction": "Start with a screen showing a long draft being deleted letter by letter.",
-    "twist_direction": "Reveal that the person received a quick 'I'm fine' reply while sitting next to someone else who never knew.",
+    "concept": "Typing a long explanation in the search bar or draft notes instead of sending it.",
+    "opening_direction": "Show fingers typing a heartfelt explanation inside the Notes app search bar.",
+    "twist_direction": "Reveal that the note wasn't saved for them—it was typed just to convince oneself to stop trying.",
     "duration_seconds": 15,
-    "posting_window": "13:00 - 14:00 UTC",
-    "reason": "Mid-afternoon posts (around 13:45 UTC) performed consistently higher in the limited sample set."
+    "posting_window": "13:00 - 14:00 IST",
+    "reason": "Mid-afternoon posts ('पुराना नंबर' at 13:19 UTC / 18:49 IST showed mild traction previously, testing early afternoon 13:30 IST window)."
   },
-  "experiment": "Testing if unsaid emotional text deletion ('जो कहना रह गया') creates higher retention than saved contact hooks.",
-  "updated_at": "2026-09-12T02:39:54.338393+00:00",
+  "experiment": "Testing 'Drafts/Notes App' visual context under the unexpressed emotional closure topic ('जो कहना रह गया').",
+  "updated_at": "2026-09-12T03:39:54.241967+00:00",
   "model_used": "gemini-3.6-flash",
-  "generated_at": "2026-09-12T02:40:02.456036+00:00"
+  "generated_at": "2026-09-12T03:40:02.472331+00:00"
 }
