@@ -1,35 +1,45 @@
 {
-  "confidence": "25%",
+  "confidence": "35%",
   "data_points": 10,
-  "overall_summary": "The sample size of 10 videos is too small to establish definitive long-term viral patterns, though a slight positive lean is observed in content balancing self-respect with digital boundary milestones like deleting chats or blocking numbers.",
+  "overall_summary": "Sample size is small (10 videos, max 33 views), so statistical confidence is low. However, hooks grounded in decisive phone actions around self-respect and moving on outperform passive waiting and tea/mood metaphors.",
   "winning_patterns": [
     {
-      "pattern": "Digital Boundary Hooks",
-      "evidence": "Videos focusing on concrete digital actions like chat deletion and self-respect (e.g., AfaLxMy6FMY) garnered the highest views in the dataset (33 views).",
-      "action": "Incorporate tangible smartphone habits and personal boundaries into the narrative arc."
+      "pattern": "Decisive digital action paired with self-respect themes",
+      "evidence": "AfaLxMy6FMY ('उंगली उसी चैट पर रुकी थी', topic: self respect) scored the channel's highest views (33 views).",
+      "action": "Focus on active emotional choices (deleting, unsaving, closing chats) over passive longing."
+    },
+    {
+      "pattern": "Relatable digital interaction hooks (typing, contact names, unsent drafts)",
+      "evidence": "A_eLARoegnw (20 views) and zL8saHvD-uI (20 views) both used specific UI-driven moments ('टाइपिंग... लिखकर डिलीट', 'फोन में नाम').",
+      "action": "Anchor stories around modern phone UI micro-behaviors."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Late-Night Atmospheric Openings",
-      "evidence": "Openings like 'रात के दो बजे' (G0gKV1p3ZHc) or tea-related metaphors (uIbMpCjVutQ) resulted in lower initial traction (5-12 views).",
-      "action": "Avoid abstract time-of-night clichés; ground the beginning in a specific, physical action or device notification."
+      "pattern": "Generic ambient metaphors without active conflict",
+      "evidence": "uIbMpCjVutQ ('मेज पर रखी चाय ठंडी हो गई') got only 5 views.",
+      "action": "Avoid generic poetic clichés like cold tea or generic night scenery without an immediate personal micro-story."
+    },
+    {
+      "pattern": "Passive online status watching",
+      "evidence": "WhJ-VwRa3Rg ('घंटों से वो ऑनलाइन दिख रहा है') got 6 views.",
+      "action": "Shift focus from watching someone else to the protagonist taking control of their own peace."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowered heartbreak",
-    "hook_style": "Action-oriented micro-habit",
+    "emotion": "quiet empowerment with bittersweet resolution",
+    "hook_style": "unspoken digital boundary action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Removing someone from a favorite contact widget on the phone home screen.",
-    "opening_direction": "Widgets pe unka photo hatane ki koshish...",
-    "twist_direction": "Realizing that removing the shortcut finally freed up space on the home screen for yourself.",
-    "duration_seconds": 15,
-    "posting_window": "13:30 - 14:00 IST",
-    "reason": "Previous relative peak performance (AfaLxMy6FMY) occurred around the early afternoon publishing slot, focusing on self-respect themes."
+    "concept": "Clearing out the voice notes folder of an ex to reclaim internal peace.",
+    "opening_direction": "Show a finger pausing over a 45-second unplayed voice note from months ago.",
+    "twist_direction": "Instead of playing it to relive the pain, the user swipes left and hits delete without listening, realizing peace matters more than answers.",
+    "duration_seconds": 12,
+    "posting_window": "13:30 UTC - 14:00 UTC",
+    "reason": "The top-performing video (AfaLxMy6FMY, 33 views) posted at 13:52 UTC on self respect. Testing this slot again with a strong action-based self-respect angle."
   },
-  "experiment": "Testing if shifting the focus from passive late-night longing to active home-screen digital decluttering improves early viewer retention and view velocity.",
-  "updated_at": "2026-09-12T16:38:51.370646+00:00",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-12T16:38:53.872748+00:00"
+  "experiment": "Testing whether deletion of audio/media triggers higher engagement than chat deletion hooks.",
+  "updated_at": "2026-09-12T17:36:41.189889+00:00",
+  "model_used": "gemini-3.6-flash",
+  "generated_at": "2026-09-12T17:36:51.554413+00:00"
 }
