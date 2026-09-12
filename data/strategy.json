@@ -1,45 +1,40 @@
 {
-  "confidence": "20%",
+  "confidence": "25%",
   "data_points": 10,
-  "overall_summary": "The channel has a very small sample size of 10 videos with uniformly low view counts (ranging between 5 and 28 views) and zero engagement (likes/comments). Because the data volume is statistically insignificant, confidence is low, and we must rely on a controlled exploration recommendation focused on high-performing emotional themes like self-respect and relatable smartphone habits.",
+  "overall_summary": "The channel has a very small sample size of 10 videos with uniformly low view counts (ranging from 5 to 33 views) and zero likes/comments. The highest performing video so far (33 views) touches upon 'self respect' with a hook about checking chat histories, indicating a slight leaning toward empowerment mixed with heartbreak, but overall data is too sparse to establish definitive long-term winners.",
   "winning_patterns": [
     {
-      "pattern": "Self-Respect and Boundaries Focus",
-      "evidence": "Video ID 'AfaLxMy6FMY' (topic: self respect, hook: 'उंगली उसी चैट पर रुकी थी') received the highest views in the dataset at 28 views.",
-      "action": "Produce more content touching upon personal boundaries, letting go, and protecting one's self-respect rather than purely passive sadness."
+      "pattern": "Action-oriented self-respect themes",
+      "evidence": "Video AfaLxMy6FMY ('self respect', hook: 'उंगली उसी चैट पर रुकी थी') garnered the highest views (33) in the dataset.",
+      "action": "Incorporate themes where emotional pain transitions into a conscious choice of self-worth or letting go."
     },
     {
-      "pattern": "Concrete Smartphone Interractions",
-      "evidence": "Hooks mentioning physical phone actions like saved numbers, typing status, or looking at old chats generated steady baseline traction (e.g., A_eLARoegnw with 20 views, zL8saHvD-uI with 16 views).",
-      "action": "Continue using everyday digital habits as the foundational hook for emotional storytelling."
+      "pattern": "Relatable digital communication habits",
+      "evidence": "Videos focusing on phone screens, typing indicators, and saved contacts consistently get baseline engagement.",
+      "action": "Use smartphone-era micro-behaviors as the primary visual and emotional anchor in the hooks."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Vague Late-Night Melodrama Hooks",
-      "evidence": "Hooks like 'रात के दो बजे' (G0gKV1p3ZHc - 12 views) or generic statements without a vivid physical anchor underperformed compared to tangible micro-actions.",
-      "action": "Avoid abstract time-based openings; ground every hook in a specific, tangible real-life object or action."
-    },
-    {
-      "pattern": "Passive Waiting Tropes",
-      "evidence": "Videos focusing heavily on waiting for someone to online without a proactive resolution or twist saw lower traction (e.g., WhJ-VwRa3Rg with 6 views).",
-      "action": "Pair waiting scenarios with an immediate self-realization or emotional turning point."
+      "pattern": "Generic philosophical captions and broad titles",
+      "evidence": "Videos like a9-G1X5jEOU with generic titles and broad hooks performed lower or failed to stand out.",
+      "action": "Avoid generic Urdu-heavy or poetic clichés; stick to concrete, modern, everyday relationship micro-moments."
     }
   ],
   "next_video": {
     "topic": "अधूरी मोहब्बत",
-    "emotion": "विराग और आत्म-सम्मान (Detachment and Self-Worth)",
-    "hook_style": "Simple real-life micro-moment involving everyday routine.",
+    "emotion": "Nostalgia and bittersweet closure",
+    "hook_style": "Visual and tactile micro-moment",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A person makes two cups of tea out of pure habit, catches themselves mid-way, and decides to pour the extra cup down the drain as a final act of moving on.",
-    "opening_direction": "Start with the physical sound of pouring tea into two separate cups out of sheer muscle memory.",
-    "twist_direction": "Realizing the second cup has no one to claim it, stopping the pour halfway, and drinking both or throwing the second one away with a quiet smile of self-acceptance.",
+    "concept": "Finding an old, forgotten transit ticket or movie stub in a wallet that brings back the memory of the last date, only to realize the person who gave it is now a stranger.",
+    "opening_direction": "Purse ya wallet saf karte waqt achanak ek purana movie ticket ya bill mil jana.",
+    "twist_direction": "Ticket par likhi taarik yaad aana aur yeh sochna ki tab se ab tak sab kitna badal gaya, ab woh sirf ekajnabi hai.",
     "duration_seconds": 15,
-    "posting_window": "13:00 - 14:00 IST",
-    "reason": "Tests a domestic, highly relatable physical trigger (making tea) combined with a proactive self-respect twist, building on the success seen in previous smartphone and boundary-themed shorts."
+    "posting_window": "13:00 - 15:00 IST",
+    "reason": "Mid-day posting window aligns with previous publishing tests and targets viewers during downtime or post-lunch hours."
   },
-  "experiment": "Testing whether shifting the emotional hook from digital smartphone habits to offline physical domestic habits (like making tea out of habit) improves initial retention and view velocity.",
-  "updated_at": "2026-09-12T14:39:51.381381+00:00",
+  "experiment": "Testing physical nostalgia items (wallet/pocket finds) instead of digital screen habits (chats/calls) to see if tactile triggers perform better than phone-based hooks.",
+  "updated_at": "2026-09-12T15:37:56.048378+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-12T14:40:03.441473+00:00"
+  "generated_at": "2026-09-12T15:37:59.200827+00:00"
 }
