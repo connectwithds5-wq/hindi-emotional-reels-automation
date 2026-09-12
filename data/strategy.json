@@ -1,40 +1,35 @@
 {
   "confidence": "25%",
   "data_points": 10,
-  "overall_summary": "The channel has a very small sample size of 10 videos with uniformly low view counts (ranging from 5 to 33 views) and zero likes/comments. The highest performing video so far (33 views) touches upon 'self respect' with a hook about checking chat histories, indicating a slight leaning toward empowerment mixed with heartbreak, but overall data is too sparse to establish definitive long-term winners.",
+  "overall_summary": "The sample size of 10 videos is too small to establish definitive long-term viral patterns, though a slight positive lean is observed in content balancing self-respect with digital boundary milestones like deleting chats or blocking numbers.",
   "winning_patterns": [
     {
-      "pattern": "Action-oriented self-respect themes",
-      "evidence": "Video AfaLxMy6FMY ('self respect', hook: 'उंगली उसी चैट पर रुकी थी') garnered the highest views (33) in the dataset.",
-      "action": "Incorporate themes where emotional pain transitions into a conscious choice of self-worth or letting go."
-    },
-    {
-      "pattern": "Relatable digital communication habits",
-      "evidence": "Videos focusing on phone screens, typing indicators, and saved contacts consistently get baseline engagement.",
-      "action": "Use smartphone-era micro-behaviors as the primary visual and emotional anchor in the hooks."
+      "pattern": "Digital Boundary Hooks",
+      "evidence": "Videos focusing on concrete digital actions like chat deletion and self-respect (e.g., AfaLxMy6FMY) garnered the highest views in the dataset (33 views).",
+      "action": "Incorporate tangible smartphone habits and personal boundaries into the narrative arc."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic philosophical captions and broad titles",
-      "evidence": "Videos like a9-G1X5jEOU with generic titles and broad hooks performed lower or failed to stand out.",
-      "action": "Avoid generic Urdu-heavy or poetic clichés; stick to concrete, modern, everyday relationship micro-moments."
+      "pattern": "Generic Late-Night Atmospheric Openings",
+      "evidence": "Openings like 'रात के दो बजे' (G0gKV1p3ZHc) or tea-related metaphors (uIbMpCjVutQ) resulted in lower initial traction (5-12 views).",
+      "action": "Avoid abstract time-of-night clichés; ground the beginning in a specific, physical action or device notification."
     }
   ],
   "next_video": {
-    "topic": "अधूरी मोहब्बत",
-    "emotion": "Nostalgia and bittersweet closure",
-    "hook_style": "Visual and tactile micro-moment",
+    "topic": "self respect",
+    "emotion": "Empowered heartbreak",
+    "hook_style": "Action-oriented micro-habit",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Finding an old, forgotten transit ticket or movie stub in a wallet that brings back the memory of the last date, only to realize the person who gave it is now a stranger.",
-    "opening_direction": "Purse ya wallet saf karte waqt achanak ek purana movie ticket ya bill mil jana.",
-    "twist_direction": "Ticket par likhi taarik yaad aana aur yeh sochna ki tab se ab tak sab kitna badal gaya, ab woh sirf ekajnabi hai.",
+    "concept": "Removing someone from a favorite contact widget on the phone home screen.",
+    "opening_direction": "Widgets pe unka photo hatane ki koshish...",
+    "twist_direction": "Realizing that removing the shortcut finally freed up space on the home screen for yourself.",
     "duration_seconds": 15,
-    "posting_window": "13:00 - 15:00 IST",
-    "reason": "Mid-day posting window aligns with previous publishing tests and targets viewers during downtime or post-lunch hours."
+    "posting_window": "13:30 - 14:00 IST",
+    "reason": "Previous relative peak performance (AfaLxMy6FMY) occurred around the early afternoon publishing slot, focusing on self-respect themes."
   },
-  "experiment": "Testing physical nostalgia items (wallet/pocket finds) instead of digital screen habits (chats/calls) to see if tactile triggers perform better than phone-based hooks.",
-  "updated_at": "2026-09-12T15:37:56.048378+00:00",
+  "experiment": "Testing if shifting the focus from passive late-night longing to active home-screen digital decluttering improves early viewer retention and view velocity.",
+  "updated_at": "2026-09-12T16:38:51.370646+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-12T15:37:59.200827+00:00"
+  "generated_at": "2026-09-12T16:38:53.872748+00:00"
 }
