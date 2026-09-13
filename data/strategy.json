@@ -1,35 +1,40 @@
 {
   "confidence": "25%",
   "data_points": 11,
-  "overall_summary": "Dataset is small with low overall view counts across all videos. However, topics relating to 'self respect' and personal boundary-setting (e.g., deleting chats, pinning/unpinning, changing saved names) show a slight relative edge in engagement (e.g., AfaLxMy6FMY with 36 views, aNR94Xxn0yM with 24 views and the channel's only like). Purely abstract emotional or late-night thoughts underperformed.",
+  "overall_summary": "The channel shows very low overall viewership across 11 shorts, with 'self respect' and boundary-setting topics (like 'AfaLxMy6FMY' and 'aNR94Xxn0yM') slightly outperforming standard melancholic tropes. Confidence is low due to small sample sizes and flat engagement, requiring a balance between repeatable emotional pain-points and a controlled test of empowering self-respect themes.",
   "winning_patterns": [
     {
-      "pattern": "Action-oriented self-respect choices",
-      "evidence": "Videos focusing on concrete actions of moving on like 'चैट डिलीट करना' or deleting/saving numbers without names (AfaLxMy6FMY, aNR94Xxn0yM) achieved the highest views on the channel.",
-      "action": "Focus upcoming concepts on micro-actions related to digital boundaries and self-respect rather than passive longing."
+      "pattern": "Action-oriented self-respect hooks",
+      "evidence": "Videos focusing on concrete actions regarding chats/numbers under the 'self respect' topic (e.g., AfaLxMy6FMY with 36 views, aNR94Xxn0yM with 24 views) performed better than passive sadness.",
+      "action": "Focus hooks on physical actions involving the phone that reclaim personal dignity."
+    },
+    {
+      "pattern": "Tangible micro-moments",
+      "evidence": "Hooks utilizing physical, everyday objects or interface triggers (typing, deleting, pinning) gain relative traction compared to abstract statements.",
+      "action": "Keep hooks grounded in specific smartphone UI elements or immediate physical actions."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract late-night environment openings",
-      "evidence": "Openings purely reliant on time or atmosphere like 'रात के दो बजे' or 'मेज पर रखी चाय ठंडी हो गई' resulted in lower view counts (5-12 views).",
-      "action": "Avoid starting solely with atmospheric settings; anchor the hook immediately to a physical phone interaction or real-life micro-decision."
+      "pattern": "Abstract nighttime melancholy without action",
+      "evidence": "General late-night or tea-drinking tropes (e.g., uIbMpCjVutQ, aUuNKfe7jm4) stalled at 5 views.",
+      "action": "Avoid purely atmospheric openings; anchor the night/sadness to a definitive decision or boundary."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment mixed with lingering nostalgia",
-    "hook_style": "Tactile micro-action on a smartphone screen",
+    "emotion": "Empowering realization",
+    "hook_style": "Tactile digital action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization moment while scrolling through archived or hidden chat folders, choosing peace over holding onto an old connection.",
-    "opening_direction": "जब उस पुरानी चैट को 'Archive' से बाहर निकालकर वापस सामने देखना पड़ा,",
-    "twist_direction": "लगा था कि हाथ कांपेंगे डिलीट करते वक्त, पर सुकून तब मिला जब पता चला कि अब वहां कोई हलचल ही नहीं थी।",
+    "concept": "A short about finally removing someone from the 'close friends' story list or hiding status, shifting from passive waiting to quiet self-preservation.",
+    "opening_direction": "Name visible on the restricted viewer list for three whole months.",
+    "twist_direction": "Instead of checking who viewed it, pressing 'remove' and realizing the heavy heart suddenly feels completely light.",
     "duration_seconds": 15,
-    "posting_window": "05:30 PM - 07:00 PM IST",
-    "reason": "Aligns with the proven relative success of self-respect and digital boundary themes, moving away from weaker late-night atmospheric hooks."
+    "posting_window": "05:30 PM - 07:30 PM",
+    "reason": "Aligns with the top-performing 'self respect' sub-genre while testing a newer digital boundary-setting action (viewer lists) to see if it drives higher retention than chat deletion."
   },
-  "experiment": "Testing if shifting the focus from passive longing to active closure ('Archive' folder realization) improves watch time and interaction rates.",
-  "updated_at": "2026-09-13T11:37:59.030798+00:00",
+  "experiment": "Testing if digital boundary actions beyond basic chat deletion (like removing from close friends/status privacy) yield higher engagement in the self-respect category.",
+  "updated_at": "2026-09-13T12:42:07.396277+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-13T11:38:01.919625+00:00"
+  "generated_at": "2026-09-13T12:42:10.420167+00:00"
 }
