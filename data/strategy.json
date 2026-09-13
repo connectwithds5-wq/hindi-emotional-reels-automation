@@ -1,35 +1,40 @@
 {
-  "confidence": "25%",
+  "confidence": "20%",
   "data_points": 12,
-  "overall_summary": "Historical data shows a very small sample size with overall low view counts across the board. However, topics touching on 'self respect' and modern mobile interaction micro-moments (like chat deletions or saving unnamed numbers) show slight relative outperformance compared to generic emotional venting.",
+  "overall_summary": "The channel has a very small sample size of views (ranging from 5 to 36 views) and almost zero engagement, making statistical confidence low. However, topics blending modern digital habits (chats, typing, pins) with self-respect and subtle emotional detachment show slightly better initial traction.",
   "winning_patterns": [
     {
-      "pattern": "Action-oriented phone micro-habits",
-      "evidence": "Videos like 'चैट डिलीट करने की हिम्मत और खुद की इज्जत' (AfaLxMy6FMY) and 'बिना नाम का नंबर' (aNR94Xxn0yM) achieved the highest views (36 and 24 respectively) in the dataset.",
-      "action": "Focus hooks on tangible smartphone boundary-setting behaviors rather than abstract sadness."
+      "pattern": "Digital boundary and self-respect themes",
+      "evidence": "Videos like 'चैट डिलीट करने की हिम्मत और खुद की इज्जत' (AfaLxMy6FMY) reached 36 views, and 'बिना नाम का नंबर और खामोश रात' (aNR94Xxn0yM) reached 24 views, outperforming pure heartbreak/sadness clips.",
+      "action": "Focus more narratives on modern digital micro-decisions related to self-respect rather than just crying over memories."
+    },
+    {
+      "pattern": "Action-oriented micro-hooks",
+      "evidence": "Hooks featuring tangible actions like 'उंगली उसी चैट पर रुकी थी' or 'बिना नाम के सेव किया था नंबर' performed slightly better than abstract statements.",
+      "action": "Open scripts with a physical micro-action involving the phone or immediate surroundings."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract atmospheric hooks without a concrete action",
-      "evidence": "Videos like 'इमरजेंसी कॉन्टैक्ट से उसका नंबर हटाया' (hrjJ-QS9M8w) and 'नंबर ब्लॉक नहीं किया कभी' (aUuNKfe7jm4) underperformed significantly with very low view counts (3 and 5).",
-      "action": "Avoid passive longing hooks; tie the emotional state to an immediate decision or physical action."
+      "pattern": "Abstract or overly poetic midnight tropes",
+      "evidence": "Clips focused strictly on generic late-night melancholy like 'मेज पर रखी चाय ठंडी हो गई' (uIbMpCjVutQ) stalled at 5 views.",
+      "action": "Avoid generic atmospheric intros unless tied to a specific, relatable modern behavior."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowered detachment",
-    "hook_style": "Tangible digital boundary action",
+    "emotion": "Empowering detachment",
+    "hook_style": "Tactile digital action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Removing someone from the 'close friends' story viewers list on social media as a quiet act of taking back your peace.",
-    "opening_direction": "कर्सर 'क्लोज फ्रेंड्स' की लिस्ट पर था और उंगली नाम हटाने के लिए कांप रही थी।",
-    "twist_direction": "पर इस बार ब्लॉक करने से ज्यादा सुकून उस नाम को अपनी खामोश दुनिया से बाहर निकालने में मिला।",
+    "concept": "A realization that scrolling past someone's active status without clicking on their profile is the ultimate quiet victory of self-respect.",
+    "opening_direction": "Green active dot visible on the screen, but the thumb swipes past it to clear notifications instead.",
+    "twist_direction": "Instead of checking when they came online, closing the app entirely to read a book, realizing peace feels better than curiosity.",
     "duration_seconds": 10,
-    "posting_window": "13:30 - 14:30",
-    "reason": "Mid-day posting slots previously showed better relative engagement for self-respect content (e.g., AfaLxMy6FMY at 13:52)."
+    "posting_window": "13:00 - 14:00 IST",
+    "reason": "Previous mid-day uploads targeting self-respect micro-moments (e.g., AfaLxMy6FMY at 13:52) showed relative outperformance compared to morning or late-night slots in this limited dataset."
   },
-  "experiment": "Testing if shifting focus from chat/call logs to social media visibility boundaries ('close friends' list) maintains the high engagement seen in self-respect topics.",
-  "updated_at": "2026-09-13T18:40:47.427392+00:00",
+  "experiment": "Testing an active self-empowerment twist (choosing peace over curiosity) instead of pure sorrow or deletion.",
+  "updated_at": "2026-09-13T19:36:58.341739+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-13T18:40:50.157907+00:00"
+  "generated_at": "2026-09-13T19:37:01.243813+00:00"
 }
