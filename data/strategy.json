@@ -1,45 +1,45 @@
 {
   "confidence": "25%",
   "data_points": 12,
-  "overall_summary": "The channel has a very small sample size of low view counts (max 36 views) and almost zero engagement, making statistical confidence low. However, 'self respect' and smartphone-related micro-interactions (like deleted chats or unsaved numbers) show slight relative traction compared to abstract late-night thoughts.",
+  "overall_summary": "The channel has a very small dataset with low view counts overall (under 40 views per video). Videos centered around 'self respect' and smartphone-related micro-habits (like deleting chats or numbers) show slightly better engagement comparatively, but overall sample size is too low to establish a definitive viral formula. A controlled exploration approach is required.",
   "winning_patterns": [
     {
       "pattern": "Smartphone micro-action hooks",
-      "evidence": "Videos focusing on phone behaviors (e.g., 'उंगली उसी चैट पर रुकी थी', 'बिना नाम के सेव किया था नंबर') achieved the highest relative views (36 and 24 views).",
-      "action": "Continue anchoring hooks around everyday smartphone UI habits related to ex-partners."
+      "evidence": "Videos like 'चैट डिलीट करने की हिम्मत' (36 views) and 'बिना नाम का नंबर' (24 views) outperformed generic emotional hooks.",
+      "action": "Focus hooks on tangible smartphone or digital communication gestures rather than abstract feelings."
     },
     {
-      "pattern": "Self-respect and boundary setting",
-      "evidence": "Topic 'self respect' generated the channel's top viewed video ('चैट डिलीट करने की हिम्मत', 36 views).",
-      "action": "Lean into empowerment and letting go rather than purely helpless sadness."
+      "pattern": "Self-respect narrative framing",
+      "evidence": "The 'self respect' topic cluster generally attracts slightly higher initial traction than general heartbreak.",
+      "action": "Anchor heartbreak or overthinking stories into choices of personal dignity and boundary-setting."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract atmospheric hooks",
-      "evidence": "Broad late-night concepts like 'रात के दो बजे' (12 views) or 'मेज पर रखी चाय ठंडी हो गई' (5 views) underperformed.",
-      "action": "Avoid overly poetic or cliché weather/tea metaphors; ground stories in tangible modern objects and actions."
+      "pattern": "Abstract atmospheric openings",
+      "evidence": "Hooks like 'रात के दो बजे' (12 views) or 'मेज पर रखी चाय' (5 views) resulted in lower engagement.",
+      "action": "Avoid generic late-night or tea-drinking cliches; use specific physical actions instead."
     },
     {
-      "pattern": "Pure passive longing",
-      "evidence": "Topics centered entirely around waiting without action (e.g., 'नंबर ब्लॉक नहीं किया कभी') resulted in very low views (5 views).",
-      "action": "Ensure every script has a micro-movement toward closure or self-preservation."
+      "pattern": "Generic breakup captions and titles",
+      "evidence": "Broad titles mentioning general sadness underperformed compared to specific action-oriented scenarios.",
+      "action": "Ensure titles and hooks reference a precise, highly relatable digital dilemma."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Quiet closure",
-    "hook_style": "Tactile phone action",
+    "emotion": "Empowerment mixed with quiet closure",
+    "hook_style": "Digital boundary action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Removing someone from the phone's blocked list because they no longer matter enough to keep restricted.",
-    "opening_direction": "ब्लॉक लिस्ट से उसका नंबर अनब्लॉक करने की उंगली उठी,",
-    "twist_direction": "लगा था कि शायद दर्द होगा, पर अहसास हुआ कि अब उस नंबर का वजूद ही फोन से मिट चुका है—वो अब अजनबी भी नहीं रहा।",
-    "duration_seconds": 10,
-    "posting_window": "13:30 - 14:00",
-    "reason": "Previous successful self-respect videos performed best when posted in the early afternoon window around 13:45-13:52."
+    "concept": "A realization moment when blocking someone stops feeling like a punishment for them and starts feeling like peace for yourself.",
+    "opening_direction": "บลॉक लिस्ट खोलते वक्त उंगली उस नाम पर गई जिसे महीनों से सजा दे रहे थे।",
+    "twist_direction": "अचानक एहसास हुआ कि उसे सजा देते-देते कैद तो हम खुद अपने ही फोन में काट रहे थे, आज उसे अनब्लॉक करके हमेशा के लिए डिलीट कर दिया।",
+    "duration_seconds": 30,
+    "posting_window": "13:00 to 14:00 IST",
+    "reason": "Tests whether shifting the narrative from 'punishing the ex' to 'freeing oneself' via a digital setting increases completion and engagement."
   },
-  "experiment": "Testing if flipping the narrative from 'keeping/deleting a chat' to 'unblocking because of indifference' increases engagement.",
-  "updated_at": "2026-09-13T22:40:06.057378+00:00",
+  "experiment": "Testing if switching from vindictive blocking to complete digital erasure improves self-respect video engagement.",
+  "updated_at": "2026-09-13T23:37:50.201395+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-13T22:40:10.155509+00:00"
+  "generated_at": "2026-09-13T23:37:53.099649+00:00"
 }
