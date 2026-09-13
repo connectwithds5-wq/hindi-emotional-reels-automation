@@ -1,35 +1,35 @@
 {
   "confidence": "20%",
   "data_points": 10,
-  "overall_summary": "The channel has a very small sample size of 10 videos with very low view counts (ranging from 5 to 33 views), making it difficult to establish statistically significant winning patterns. However, themes related to 'self respect' and personal boundaries (e.g., video ID AfaLxMy6FMY with 33 views) slightly outperformed passive yearning.",
+  "overall_summary": "The channel has a very small sample size of 10 videos with uniformly low view counts (ranging from 5 to 33 views). Confidence is low, meaning we cannot declare definitive viral winners, but 'self respect' and relatable phone/chat habits (AfaLxMy6FMY, aNR94Xxn0yM) show slight relative outperformance compared to generic late-night or tea-drinking tropes.",
   "winning_patterns": [
     {
-      "pattern": "Self-respect and boundary setting",
-      "evidence": "Video 'AfaLxMy6FMY' (self respect) achieved the highest views (33) compared to pure sad/passive themes.",
-      "action": "Incorporate a subtle shift from helplessness to self-preservation in future scripts."
+      "pattern": "Action-oriented self-respect & digital boundaries",
+      "evidence": "Videos like 'चैट डिलीट करने की हिम्मत' (33 views) and 'बिना नाम का नंबर' (24 views) performed slightly better than abstract late-night rambling.",
+      "action": "Focus more narratives on modern digital micro-interactions involving personal boundaries and conscious choices."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Passive waiting and generic heartbreak",
-      "evidence": "Videos focusing solely on waiting or generic night thoughts (e.g., 'aUuNKfe7jm4', 'uIbMpCjVutQ') stayed at the absolute baseline of 5 views.",
-      "action": "Avoid purely passive setups; every sad moment must have an active, tangible daily trigger."
+      "pattern": "Cliché atmospheric openings",
+      "evidence": "Videos opening with overly generic setups like 'रात के दो बजे' or 'चाय ठंडी हो गई' stalled at 5-12 views.",
+      "action": "Avoid generic romantic poetry or weather/tea tropes; anchor hooks in specific, contemporary actions."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowered detachment",
-    "hook_style": "Tangible daily observation",
+    "emotion": "Empowerment mixed with quiet heartbreak",
+    "hook_style": "Action-oriented micro-decision",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization while removing someone's pinned chat from the top of the messaging app.",
-    "opening_direction": "Pin icon hatane ki aadat purani thi,",
-    "twist_direction": "Par aaj pehli baar use unpin karke niche jaate dekh, dard nahi... sukoon sa laga.",
-    "duration_seconds": 10,
-    "posting_window": "13:30 - 14:00 IST",
-    "reason": "Previous peak view counts occurred on videos published during the early afternoon window (around 13:45 to 13:52)."
+    "concept": "A protagonist who finally mutes a notifications-only contact, realizing peace feels better than constant expectation.",
+    "opening_direction": "Notification banner pops up on the screen, but instead of opening it, the thumb pauses.",
+    "twist_direction": "Instead of replying like every other time, the thumb pulls down to turn off notifications forever—not out of anger, but out of total exhaustion.",
+    "duration_seconds": 15,
+    "posting_window": "13:30 to 14:00 IST",
+    "reason": "Building on the slight outperformance of self-respect digital boundary themes (like chat deletion), tested at a proven afternoon upload slot from previous uploads."
   },
-  "experiment": "Testing if shifting the emotional resolution from 'sad waiting' to 'quiet self-respect' improves retention and view velocity on low-sample baseline.",
-  "updated_at": "2026-09-13T00:43:59.950914+00:00",
+  "experiment": "Testing if immediate digital action-oriented hooks (notification mute) drive higher initial retention and viewership than chat-deletion themes.",
+  "updated_at": "2026-09-13T01:39:48.120248+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-13T00:44:02.772311+00:00"
+  "generated_at": "2026-09-13T01:39:50.823306+00:00"
 }
