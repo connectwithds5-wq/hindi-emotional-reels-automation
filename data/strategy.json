@@ -1,35 +1,40 @@
 {
   "confidence": "20%",
   "data_points": 10,
-  "overall_summary": "The channel has a very small sample size of 10 videos with uniformly low view counts (ranging from 5 to 33 views). Confidence is low, meaning we cannot declare definitive viral winners, but 'self respect' and relatable phone/chat habits (AfaLxMy6FMY, aNR94Xxn0yM) show slight relative outperformance compared to generic late-night or tea-drinking tropes.",
+  "overall_summary": "The sample size is very small with low view counts overall. However, slight traction is visible on topics blending 'self respect' and modern digital relationship anxieties (like deleted chats and unsaved numbers), peaking with 33 views on the 'self respect' hook.",
   "winning_patterns": [
     {
-      "pattern": "Action-oriented self-respect & digital boundaries",
-      "evidence": "Videos like 'चैट डिलीट करने की हिम्मत' (33 views) and 'बिना नाम का नंबर' (24 views) performed slightly better than abstract late-night rambling.",
-      "action": "Focus more narratives on modern digital micro-interactions involving personal boundaries and conscious choices."
+      "pattern": "Digital breakup micro-moments",
+      "evidence": "Videos focusing on chat deletion and contact lists (e.g., 'उंगली उसी चैट पर रुकी थी', 'बिना नाम के सेव किया था नंबर') achieved the highest views (33 and 24).",
+      "action": "Lean into modern smartphone-era relationship pain points rather than abstract heartbreak."
+    },
+    {
+      "pattern": "Action-oriented self-respect themes",
+      "evidence": "The highest viewed video (33 views) dealt with choosing self-respect over lingering attachments.",
+      "action": "Pair heartbreak scenarios with a concluding note on dignity and moving on."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Cliché atmospheric openings",
-      "evidence": "Videos opening with overly generic setups like 'रात के दो बजे' or 'चाय ठंडी हो गई' stalled at 5-12 views.",
-      "action": "Avoid generic romantic poetry or weather/tea tropes; anchor hooks in specific, contemporary actions."
+      "pattern": "Abstract late-night poetic tropes",
+      "evidence": "Broad late-night concepts like 'रात के दो बजे' or 'चाय ठंडी हो गई' got lower engagement (5 to 12 views).",
+      "action": "Avoid generic atmospheric setups unless tied to a specific, tangible action."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment mixed with quiet heartbreak",
-    "hook_style": "Action-oriented micro-decision",
+    "emotion": "Empowerment through detachment",
+    "hook_style": "Tangible digital action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A protagonist who finally mutes a notifications-only contact, realizing peace feels better than constant expectation.",
-    "opening_direction": "Notification banner pops up on the screen, but instead of opening it, the thumb pauses.",
-    "twist_direction": "Instead of replying like every other time, the thumb pulls down to turn off notifications forever—not out of anger, but out of total exhaustion.",
+    "concept": "A realization moment while scrolling through archived chats where the protagonist finally decides to clear out old media files, realizing they are holding onto pixels, not a person.",
+    "opening_direction": "Gallery mein purani screenshots ki folder khali karne lagi...",
+    "twist_direction": "Pehle rona aata tha, aaj bas ek halki si muskaan aayi ki main kitni aage nikal aayi hoon.",
     "duration_seconds": 15,
     "posting_window": "13:30 to 14:00 IST",
-    "reason": "Building on the slight outperformance of self-respect digital boundary themes (like chat deletion), tested at a proven afternoon upload slot from previous uploads."
+    "reason": "Matches the successful timing and topic of previous higher-performing self-respect posts."
   },
-  "experiment": "Testing if immediate digital action-oriented hooks (notification mute) drive higher initial retention and viewership than chat-deletion themes.",
-  "updated_at": "2026-09-13T01:39:48.120248+00:00",
+  "experiment": "Testing if visual cleanup actions (gallery/screenshots) perform better than text/chat-based cleanup actions.",
+  "updated_at": "2026-09-13T02:38:55.625670+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-13T01:39:50.823306+00:00"
+  "generated_at": "2026-09-13T02:38:58.275894+00:00"
 }
