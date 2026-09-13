@@ -1,35 +1,35 @@
 {
-  "confidence": "25%",
-  "data_points": 11,
-  "overall_summary": "The channel shows initial baseline views across all videos with very low sample sizes. However, 'self respect' and boundary-setting topics (like deleting chats or muting pinned conversations) slightly outperform pure sadness or overthinking hooks. Confidence is low due to minimal engagement variance and low view counts overall.",
+  "confidence": "20%",
+  "data_points": 12,
+  "overall_summary": "Overall views are low across the board (ranging from 0 to 36), indicating early-stage channel distribution. However, 'self respect' and personal device-interaction hooks (like typing and deleting messages, or reviewing blocked/saved numbers) show slightly higher engagement relative to other abstract themes.",
   "winning_patterns": [
     {
-      "pattern": "Self Respect and Actionable Boundaries",
-      "evidence": "Videos like 'AfaLxMy6FMY' (36 views) and 'aNR94Xxn0yM' (24 views) focusing on self respect and taking action on chats performed better than passive sadness.",
-      "action": "Focus future scripts on moments of reclaiming self-respect rather than just suffering in silence."
+      "pattern": "Actionable phone/digital habit hooks",
+      "evidence": "Videos like AfaLxMy6FMY ('उंगली उसी चैट पर रुकी थी') and aNR94Xxn0yM ('बिना नाम के सेव किया था नंबर') achieved higher views (36 and 24) compared to abstract poetry.",
+      "action": "Focus hooks on physical, everyday digital micro-actions related to smartphones and personal boundaries."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Passive Overthinking / Waiting Hooks",
-      "evidence": "Hooks like 'रात के दो बजे' (12 views) or generic waiting tropes yielded lower relative engagement and views.",
-      "action": "Avoid passive time-based hooks and replace them with active tactile decisions regarding phones or personal space."
+      "pattern": "Zero-action extreme edge cases",
+      "evidence": "hrjJ-QS9M8w ('इमरजेंसी कॉन्टैक्ट से उसका नंबर हटाते वक्त') got 0 views, indicating either poor initial distribution or an overly specific/niche scenario that didn't connect.",
+      "action": "Avoid overly clinical or rare scenarios; stick to universal everyday relationship micro-moments."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowered detachment",
-    "hook_style": "Tactile phone action",
+    "emotion": "Empowering realization / Quiet closure",
+    "hook_style": "Visual digital action combined with internal hesitation",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A story about removing someone from the emergency contacts list after realizing nobody checks up on you.",
-    "opening_direction": "इमरजेंसी कॉन्टैक्ट से उसका नंबर हटाते वक्त,",
-    "twist_direction": "पूरी दुनिया को बचाने वाले हाथ जब खुद के लिए खड़े होते हैं, तो फोन की स्क्रीन धुंधली नहीं, साफ हो जाती है।",
-    "duration_seconds": 15,
-    "posting_window": "05:30 PM - 07:30 PM IST",
-    "reason": "Previous successful self-respect videos performed well around late afternoon/early evening windows, tapping into post-work reflection time."
+    "concept": "A moment where someone is about to check if their ex viewed their status, stops mid-way, and closes the app to reclaim their peace.",
+    "opening_direction": "स्टेटस देखने के लिए उंगली उठी ही थी,",
+    "twist_direction": "कि अचानक ख्याल आया—अब उसे फर्क पड़ना बंद हो चुका है, और मुझे भी।",
+    "duration_seconds": 10,
+    "posting_window": "05:30 PM - 07:30 PM",
+    "reason": "Tests a fresh variation of the successful digital boundary/self-respect pattern during evening unwinding hours when overthinking peaks."
   },
-  "experiment": "Testing an empowerment-driven self-respect hook against standard late-night overthinking hooks to see if active boundary-setting drives higher retention.",
-  "updated_at": "2026-09-13T13:38:10.105898+00:00",
+  "experiment": "Testing an active 'empowerment/letting go' digital micro-habit instead of passive sadness to see if positive self-respect hooks drive higher retention.",
+  "updated_at": "2026-09-13T14:38:56.324011+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-13T13:38:12.588881+00:00"
+  "generated_at": "2026-09-13T14:38:58.964060+00:00"
 }
