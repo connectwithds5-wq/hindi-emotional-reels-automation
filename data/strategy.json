@@ -1,35 +1,35 @@
 {
   "confidence": "25%",
   "data_points": 11,
-  "overall_summary": "The channel has a very small sample size of views (ranging between 4 and 34), making it difficult to rely on statistically significant winning patterns. However, topics touching on 'self respect' (e.g., AfaLxMy6FMY with 34 views, aNR94Xxn0yM with 24 views) show slightly higher baseline engagement compared to pure despair or late-night tropes.",
+  "overall_summary": "The channel has a very small sample size with overall low view counts (ranging from 5 to 34 views). Content revolving around 'self respect' (specifically AfaLxMy6FMY and aNR94Xxn0yM) and relatable digital artifact moments (like chat interactions and phone notes) shows slightly better baseline performance compared to generic late-night or abstract emotional topics.",
   "winning_patterns": [
     {
-      "pattern": "Self-respect and boundary-setting",
-      "evidence": "Videos focusing on self respect (AfaLxMy6FMY, aNR94Xxn0yM) achieved the highest view counts in the dataset (34 and 24 views respectively).",
-      "action": "Blend emotional vulnerability with empowerment or self-preservation themes."
+      "pattern": "Digital boundary-setting and Self-Respect",
+      "evidence": "Videos focusing on self-respect actions like deleting chats or removing contact names (e.g., AfaLxMy6FMY with 34 views, aNR94Xxn0yM with 24 views) outperformed abstract emotional ones.",
+      "action": "Focus more stories on micro-actions of self-respect involving mobile/digital habits rather than just passive sadness."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract late-night or tea-drinking tropes without direct interactive digital actions",
-      "evidence": "Videos like 'uIbMpCjVutQ' (tea getting cold) and '0H4VygZ3DIU' (muted pinned chat) underperformed (5 and 4 views).",
-      "action": "Avoid generic atmospheric clichés and focus on specific, tactile smartphone behaviors."
+      "pattern": "Abstract late-night setting without a concrete action",
+      "evidence": "Videos like uIbMpCjVutQ ('मेज पर रखी चाय ठंडी हो गई') and aUuNKfe7jm4 ('नंबर ब्लॉक नहीं किया कभी') received only 5 views.",
+      "action": "Avoid purely atmospheric hooks without a tangible everyday trigger or physical action."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowered detachment",
-    "hook_style": "Tangible digital action",
+    "emotion": "Empowering realization",
+    "hook_style": "Action-oriented digital micro-moment",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization that checking someone's 'last seen' status has quietly stopped being a habit, marking true emotional freedom.",
-    "opening_direction": "कल अचानक ध्यान आया कि मैंने उसका 'Last Seen' देखे हुए पूरे तीन दिन हो गए।",
-    "twist_direction": "पहले जो आदत थी, वो अब मुमुर्षा नहीं बल्कि सुकून बन चुकी है—मैंने उसे ब्लॉक नहीं किया, बस अब देखना छोड़ दिया।",
-    "duration_seconds": 10,
-    "posting_window": "13:00 - 14:00 IST",
-    "reason": "Matches the successful self-respect posting window and tests a mature, uplifting shift from toxic overthinking to inner peace."
+    "concept": "A protagonist who finally removes a high-priority contact from their favorites list, realizing that holding onto the illusion of priority was hurting their peace.",
+    "opening_direction": "فہرست میں سب سے اوپر والا نام اب نیچے کھسک رہا تھا...",
+    "twist_direction": "पर इस बार दिल में अ अफ़सोस नहीं, एक अजीब सा हल्कापन था क्योंकि अब वो वीआईपी लिस्ट का हिस्सा नहीं था।",
+    "duration_seconds": 12,
+    "posting_window": "05:30 PM - 07:30 PM",
+    "reason": "Previous successful self-respect shorts were posted around afternoon/evening transitions and performed relatively better than late-night ones."
   },
-  "experiment": "Testing if shifting the 'self respect' narrative from active deletion (blocking/deleting chats) to passive emotional detachment (forgetting to check last seen) maintains or improves view velocity.",
-  "updated_at": "2026-09-13T06:44:24.398086+00:00",
+  "experiment": "Testing if shifting the focus slightly from pure heartbreak to active self-worth boundary setting can improve baseline retention and view velocity.",
+  "updated_at": "2026-09-13T07:39:08.368045+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-13T06:44:26.972864+00:00"
+  "generated_at": "2026-09-13T07:39:19.393190+00:00"
 }
