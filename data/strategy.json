@@ -1,40 +1,35 @@
 {
   "confidence": "20%",
-  "data_points": 10,
-  "overall_summary": "The channel has a very small sample size of 10 videos with low overall views (ranging from 5 to 34). Confidence is low due to insufficient engagement data. However, early indicators show a slight preference for 'self respect' and personal communication artifact topics (like chats, phone numbers, typing drafts) over generic emotional poetry.",
+  "data_points": 11,
+  "overall_summary": "The channel has a very small sample size with overall low view counts (ranging from 0 to 34 views). Content focusing on 'self respect' (e.g., video AfaLxMy6FMY and aNR94Xxn0yM) and personal digital boundaries performed slightly better than abstract late-night thoughts, though confidence remains low across the board.",
   "winning_patterns": [
     {
-      "pattern": "Digital artifacts and micro-moments of hesitation",
-      "evidence": "Videos focusing on specific digital actions like 'टाइपिंग... लिखकर फिर से डिलीट कर दिया' (20 views) and 'बिना नाम के सेव किया था नंबर' (24 views, 1 like) performed slightly better than abstract hooks.",
-      "action": "Double down on modern, highly relatable smartphone-era emotional triggers rather than abstract late-night poetry."
-    },
-    {
-      "pattern": "Self-respect boundary-setting",
-      "evidence": "AfaLxMy6FMY ('self respect' topic) received the highest view count on the channel at 34 views.",
-      "action": "Incorporate quiet empowerment and boundary-setting into the emotional narrative arc."
+      "pattern": "Digital Boundary Actions",
+      "evidence": "Videos focusing on concrete phone actions related to self-respect (like deleting chats or removing saved names, e.g., AfaLxMy6FMY with 34 views) outperformed abstract emotional ones.",
+      "action": "Focus hooks on tangible, everyday mobile actions tied to emotional boundaries."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract atmospheric hooks",
-      "evidence": "Hooks like 'मेज पर रखी चाय ठंडी हो गई' and 'रात के दो बजे' yielded lower views (5 and 12 respectively) compared to concrete modern communication triggers.",
-      "action": "Avoid purely atmospheric or cliché poetic openers; ground the opening in immediate physical or digital actions."
+      "pattern": "Abstract Atmospheric Openings",
+      "evidence": "Openings based purely on weather, tea, or late-night timing (e.g., uIbMpCjVutQ, G0gKV1p3ZHc) yielded very low view counts (5-12 views).",
+      "action": "Avoid generic atmospheric setups and ground the hook in a specific action or visual detail."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Quiet closure and dignity",
-    "hook_style": "Concrete tactile action involving modern communication",
+    "emotion": "Empowered detachment",
+    "hook_style": "Tangible digital habit",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short piece about finally muting a chat that used to be pinned at the very top, realizing peace is better than constant updates.",
-    "opening_direction": "Pin to unpin: The thumb hesitates over the 'Pin Chat' option that has stayed at the top for over a year.",
-    "twist_direction": "Instead of feeling sad when it drops to the bottom of the list, a quiet sense of relief takes over because the weight is finally lifted.",
+    "concept": "A story about removing someone from close friend circles or story viewers list, realizing that silence is louder than blocking.",
+    "opening_direction": "Dost ki story check karte waqt achanak tera naam top viewer list mein dikh gaya...",
+    "twist_direction": "...par is baar maine story delete nahi ki, sirf tumhe apni close list se hata diya.",
     "duration_seconds": 12,
-    "posting_window": "13:00 - 14:00 IST",
-    "reason": "Aligns with the top-performing 'self-respect' pattern while testing a subtle variation in digital habit breaking (pinning vs deleting)."
+    "posting_window": "13:30 - 14:00",
+    "reason": "Previous mid-day self-respect posts showed slightly higher engagement trends compared to early morning or late night."
   },
-  "experiment": "Testing if shifting the focus from 'deletion' to 'un-pinning/muting' retains the high-intent self-respect audience.",
-  "updated_at": "2026-09-13T04:54:09.636188+00:00",
+  "experiment": "Testing if shifting from 'blocking/chat deletion' to 'social media visibility control (close friends/viewers)' resonates better with self-respect themes.",
+  "updated_at": "2026-09-13T05:38:23.135993+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-13T04:54:12.693513+00:00"
+  "generated_at": "2026-09-13T05:38:25.564187+00:00"
 }
