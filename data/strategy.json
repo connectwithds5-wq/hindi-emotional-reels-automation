@@ -1,35 +1,35 @@
 {
   "confidence": "25%",
   "data_points": 11,
-  "overall_summary": "The channel shows initial baseline views ranging from 5 to 36 views across emotional niches. The highest performing video (36 views) focused on 'self respect' with a tactile, action-oriented hook ('उंगली उसी चैट पर रुकी थी'). Overall sample size is too low to establish a definitive long-term trend, pointing towards a need for continued testing on high-friction modern relationship moments.",
+  "overall_summary": "Dataset is small with low overall view counts across all videos. However, topics relating to 'self respect' and personal boundary-setting (e.g., deleting chats, pinning/unpinning, changing saved names) show a slight relative edge in engagement (e.g., AfaLxMy6FMY with 36 views, aNR94Xxn0yM with 24 views and the channel's only like). Purely abstract emotional or late-night thoughts underperformed.",
   "winning_patterns": [
     {
-      "pattern": "Tactile Phone Actions",
-      "evidence": "Videos focusing on concrete phone interactions like chat deletion, un-sending text, or muting pinned chats (e.g., AfaLxMy6FMY, aNR94Xxn0yM) achieved the highest view counts in the dataset (36 and 24 views respectively).",
-      "action": "Prioritize micro-actions involving smartphone habits, typing boxes, and notifications as core narrative drivers."
+      "pattern": "Action-oriented self-respect choices",
+      "evidence": "Videos focusing on concrete actions of moving on like 'चैट डिलीट करना' or deleting/saving numbers without names (AfaLxMy6FMY, aNR94Xxn0yM) achieved the highest views on the channel.",
+      "action": "Focus upcoming concepts on micro-actions related to digital boundaries and self-respect rather than passive longing."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Atmospheric Openings",
-      "evidence": "Broad environmental or time-based hooks like 'रात के दो बजे' (G0gKV1p3ZHc) or generic tea references (uIbMpCjVutQ) had lower relative pull (12 and 5 views).",
-      "action": "Avoid vague late-night ambiance openings; ground every scene immediately in a specific personal dilemma or digital artifact."
+      "pattern": "Abstract late-night environment openings",
+      "evidence": "Openings purely reliant on time or atmosphere like 'रात के दो बजे' or 'मेज पर रखी चाय ठंडी हो गई' resulted in lower view counts (5-12 views).",
+      "action": "Avoid starting solely with atmospheric settings; anchor the hook immediately to a physical phone interaction or real-life micro-decision."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowered detachment",
-    "hook_style": "Visual digital action",
+    "emotion": "Empowerment mixed with lingering nostalgia",
+    "hook_style": "Tactile micro-action on a smartphone screen",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization moment while looking at mutual social media stories, choosing peace over lurking.",
-    "opening_direction": "स्टोरी देखते-देखते अचानक उंगली बीच में रुक गई।",
-    "twist_direction": "इस बार उसे बिना देखे आगे बढ़ाने में जो सुकून था, वो उसे देखने में कभी नहीं मिला।",
-    "duration_seconds": 12,
-    "posting_window": "13:30 to 14:30 IST",
-    "reason": "Previous successful self-respect and chat-related uploads performed best during early afternoon windows."
+    "concept": "A realization moment while scrolling through archived or hidden chat folders, choosing peace over holding onto an old connection.",
+    "opening_direction": "जब उस पुरानी चैट को 'Archive' से बाहर निकालकर वापस सामने देखना पड़ा,",
+    "twist_direction": "लगा था कि हाथ कांपेंगे डिलीट करते वक्त, पर सुकून तब मिला जब पता चला कि अब वहां कोई हलचल ही नहीं थी।",
+    "duration_seconds": 15,
+    "posting_window": "05:30 PM - 07:00 PM IST",
+    "reason": "Aligns with the proven relative success of self-respect and digital boundary themes, moving away from weaker late-night atmospheric hooks."
   },
-  "experiment": "Testing if visual social media lurking behaviors convert better into self-respect narratives compared to messaging-app specific actions.",
-  "updated_at": "2026-09-13T10:39:00.955462+00:00",
+  "experiment": "Testing if shifting the focus from passive longing to active closure ('Archive' folder realization) improves watch time and interaction rates.",
+  "updated_at": "2026-09-13T11:37:59.030798+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-13T10:39:03.790610+00:00"
+  "generated_at": "2026-09-13T11:38:01.919625+00:00"
 }
