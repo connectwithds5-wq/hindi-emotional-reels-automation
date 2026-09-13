@@ -1,35 +1,35 @@
 {
   "confidence": "25%",
   "data_points": 12,
-  "overall_summary": "The channel shows initial views ranging from 3 to 36, indicating a very early stage with low sample size and low overall engagement. Content centered around 'self respect' (specifically mobile/chat-related actions like deleting chats and clearing numbers) achieved slightly higher relative traction, such as 'चैट डिलीट करने की हिम्मत और खुद की इज्जत' (36 views), whereas broader emotional topics underperformed.",
+  "overall_summary": "The channel has a very small sample size of views (ranging between 3 to 36 views) and almost zero engagement, meaning confidence in current data is low. However, early patterns suggest that grounded, action-oriented topics involving 'self respect' and relatable phone interactions perform slightly better than abstract emotional concepts.",
   "winning_patterns": [
     {
-      "pattern": "Action-oriented Self-Respect hooks involving phones",
-      "evidence": "Videos like AfaLxMy6FMY ('उंगली उसी चैट पर रुकी थी') and aNR94Xxn0yM ('बिना नाम के सेव किया था नंबर') achieved the highest view counts in the dataset (36 and 24 views respectively).",
-      "action": "Continue focusing on micro-actions related to smartphones, chats, and self-respect rather than abstract emotional quotes."
+      "pattern": "Action-based phone and chat boundaries",
+      "evidence": "Videos like 'चैट डिलीट करने की हिम्मत' (AfaLxMy6FMY) with 36 views and 'बिना नाम का नंबर' (aNR94Xxn0yM) with 24 views outperformed abstract night thoughts.",
+      "action": "Focus hooks on tangible smartphone boundary actions like deleting, archiving, or changing contact names rather than general loneliness."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic abstract emotional setups without physical triggers",
-      "evidence": "Videos with broad hooks like hrjJ-QS9M8w ('इमरजेंसी कॉन्टैक्ट से उसका नंबर हटाते वक्त') or aUuNKfe7jm4 got very low views (3 and 5 views).",
-      "action": "Avoid abstract phrasing; ground every hook in an immediate, recognizable physical object or action."
+      "pattern": "Abstract atmospheric hooks without physical anchors",
+      "evidence": "Videos with purely atmospheric setups like 'रात के दो बजे' (G0gKV1p3ZHc) or 'इमरजेंसी कॉन्टैक्ट' (hrjJ-QS9M8w) received lower traction in this batch.",
+      "action": "Avoid abstract time-of-night openings unless tied immediately to a concrete physical object or action."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "empowering detachment",
-    "hook_style": "physical notification sound trigger",
+    "emotion": "Quiet closure and empowerment",
+    "hook_style": "Tangible digital action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short narrative about turning off read receipts and online status, shifting from waiting for someone to finally ignoring the blue ticks.",
-    "opening_direction": "Start with the sound of a message arriving and the immediate temptation to check who it is.",
-    "twist_direction": "Instead of opening the chat to reply instantly, turning off last seen completely and closing the app with a sense of calm.",
-    "duration_seconds": 15,
-    "posting_window": "13:00 - 14:00 IST",
-    "reason": "Aligns with the proven performing slot and topic category (self-respect/chat management) while testing a new notification-based hook."
+    "concept": "A short piece about removing someone from the 'favorites' widget on the phone home screen and placing a widget of a personal goal or blank space instead.",
+    "opening_direction": "होम स्क्रीन के उस विजेट से तुम्हारी तस्वीर हटाते वक्त,",
+    "twist_direction": "लगा जगह खाली हो जाएगी, पर पहली बार फोन देखने पर सुकून महसूस हुआ।",
+    "duration_seconds": 10,
+    "posting_window": "13:30 to 14:00 IST",
+    "reason": "Previous relative peaks occurred on early afternoon uploads (13:52 IST), which fits the mid-day reflection window for viewers."
   },
-  "experiment": "Testing if an auditory/notification-based hook improves initial retention compared to text-reading hooks.",
-  "updated_at": "2026-09-13T16:39:28.244462+00:00",
+  "experiment": "Testing a home screen widget removal hook vs the previously tested chat/number deletion hooks to see if visual digital clutter resonates better.",
+  "updated_at": "2026-09-13T17:38:00.830369+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-13T16:39:30.985812+00:00"
+  "generated_at": "2026-09-13T17:38:03.403043+00:00"
 }
