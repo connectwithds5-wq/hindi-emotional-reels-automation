@@ -1,40 +1,35 @@
 {
   "confidence": "25%",
   "data_points": 11,
-  "overall_summary": "The channel shows early traction with 'self respect' (e.g., video AfaLxMy6FMY at 34 views) and phone/chat-based micro-moments. However, overall view counts are generally low and sample sizes are small, meaning confidence is low and we need a controlled exploration combining repeatable messaging with a slight variant in the hook.",
+  "overall_summary": "The channel shows initial baseline views ranging from 5 to 36 views across emotional niches. The highest performing video (36 views) focused on 'self respect' with a tactile, action-oriented hook ('उंगली उसी चैट पर रुकी थी'). Overall sample size is too low to establish a definitive long-term trend, pointing towards a need for continued testing on high-friction modern relationship moments.",
   "winning_patterns": [
     {
-      "pattern": "Self Respect & Boundaries",
-      "evidence": "Videos focusing on self-respect and letting go (AfaLxMy6FMY, aNR94Xxn0yM) outperformed pure sadness or unrequited love hooks.",
-      "action": "Focus future topics on themes where emotional pain intersects with personal dignity and self-worth."
-    },
-    {
-      "pattern": "Tangible Digital Micro-Moments",
-      "evidence": "Hooks mentioning actions on a phone screen (typing/deleting, pinned chats, unnamed numbers) resonate well within the niche.",
-      "action": "Continue using relatable modern smartphone habits as the entry point for the narrative."
+      "pattern": "Tactile Phone Actions",
+      "evidence": "Videos focusing on concrete phone interactions like chat deletion, un-sending text, or muting pinned chats (e.g., AfaLxMy6FMY, aNR94Xxn0yM) achieved the highest view counts in the dataset (36 and 24 views respectively).",
+      "action": "Prioritize micro-actions involving smartphone habits, typing boxes, and notifications as core narrative drivers."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Vague Late-Night Melodrama",
-      "evidence": "Abstract hooks like 'रात के दो बजे' or generic tea metaphors (uIbMpCjVutQ, G0gKV1p3ZHc) yielded lower initial views.",
-      "action": "Avoid generic atmospheric intros; anchor every story in a specific, physical action or device interaction."
+      "pattern": "Abstract Atmospheric Openings",
+      "evidence": "Broad environmental or time-based hooks like 'रात के दो बजे' (G0gKV1p3ZHc) or generic tea references (uIbMpCjVutQ) had lower relative pull (12 and 5 views).",
+      "action": "Avoid vague late-night ambiance openings; ground every scene immediately in a specific personal dilemma or digital artifact."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment through letting go",
-    "hook_style": "Action-oriented digital realization",
+    "emotion": "Empowered detachment",
+    "hook_style": "Visual digital action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A story about noticing a blocked contact list for the first time and realizing you were the one who stopped caring.",
-    "opening_direction": "Checking the blocked list settings out of pure boredom, not out of longing.",
-    "twist_direction": "Instead of feeling the urge to unblock, a sudden sense of liberation hits when you realize their name doesn't even trigger a heartbeat anymore.",
-    "duration_seconds": 25,
-    "posting_window": "13:00 - 14:00 IST",
-    "reason": "Aligns with the successful self-respect and phone-habit patterns while testing a slightly more empowering psychological twist."
+    "concept": "A realization moment while looking at mutual social media stories, choosing peace over lurking.",
+    "opening_direction": "स्टोरी देखते-देखते अचानक उंगली बीच में रुक गई।",
+    "twist_direction": "इस बार उसे बिना देखे आगे बढ़ाने में जो सुकून था, वो उसे देखने में कभी नहीं मिला।",
+    "duration_seconds": 12,
+    "posting_window": "13:30 to 14:30 IST",
+    "reason": "Previous successful self-respect and chat-related uploads performed best during early afternoon windows."
   },
-  "experiment": "Testing an empowering self-respect narrative where the protagonist loses emotional attachment entirely, shifting from sadness to indifference.",
-  "updated_at": "2026-09-13T10:03:41.815250+00:00",
+  "experiment": "Testing if visual social media lurking behaviors convert better into self-respect narratives compared to messaging-app specific actions.",
+  "updated_at": "2026-09-13T10:39:00.955462+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-13T10:03:44.813538+00:00"
+  "generated_at": "2026-09-13T10:39:03.790610+00:00"
 }
