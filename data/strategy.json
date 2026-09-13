@@ -1,35 +1,35 @@
 {
-  "confidence": "20%",
+  "confidence": "25%",
   "data_points": 12,
-  "overall_summary": "The channel has a very small sample size with extremely low view counts across the board, making overall performance metrics statistically low-confidence. However, 'self respect' and digital-age modern heartbreak hooks (like phone actions) show slight relative traction.",
+  "overall_summary": "The channel shows initial views ranging from 3 to 36, indicating a very early stage with low sample size and low overall engagement. Content centered around 'self respect' (specifically mobile/chat-related actions like deleting chats and clearing numbers) achieved slightly higher relative traction, such as 'चैट डिलीट करने की हिम्मत और खुद की इज्जत' (36 views), whereas broader emotional topics underperformed.",
   "winning_patterns": [
     {
-      "pattern": "Action-oriented phone behavior hooks",
-      "evidence": "Videos focusing on tangible digital actions like deleting chats or modifying phone contacts (e.g., 'उंगली उसी चैट पर रुकी थी' - 36 views, 'बिना नाम के सेव किया था नंबर' - 24 views) outperformed abstract emotional statements.",
-      "action": "Continue to anchor the opening hook in a physical, highly relatable smartphone action or moment."
+      "pattern": "Action-oriented Self-Respect hooks involving phones",
+      "evidence": "Videos like AfaLxMy6FMY ('उंगली उसी चैट पर रुकी थी') and aNR94Xxn0yM ('बिना नाम के सेव किया था नंबर') achieved the highest view counts in the dataset (36 and 24 views respectively).",
+      "action": "Continue focusing on micro-actions related to smartphones, chats, and self-respect rather than abstract emotional quotes."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic poetic or time-based clichés",
-      "evidence": "Broad situational hooks like 'रात के दो बजे' or 'मेज पर रखी चाय ठंडी हो गई' resulted in lower view counts (5-12 views).",
-      "action": "Avoid generic nighttime or poetry-style openings; stick to concrete, modern micro-moments."
+      "pattern": "Generic abstract emotional setups without physical triggers",
+      "evidence": "Videos with broad hooks like hrjJ-QS9M8w ('इमरजेंसी कॉन्टैक्ट से उसका नंबर हटाते वक्त') or aUuNKfe7jm4 got very low views (3 and 5 views).",
+      "action": "Avoid abstract phrasing; ground every hook in an immediate, recognizable physical object or action."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment through letting go",
-    "hook_style": "Tangible digital boundary setting",
+    "emotion": "empowering detachment",
+    "hook_style": "physical notification sound trigger",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Removing someone from a shared streaming or delivery family plan to finally sever the last digital tie.",
-    "opening_direction": "Netflix या Spotify की फैमिली अकाउंट सेटिंग खोलना...",
-    "twist_direction": "...और उस एक नाम को रिमूव करने के बाद जो अचानक से सुकून महसूस हुआ, वो किसी जीत से कम नहीं था।",
-    "duration_seconds": 10,
-    "posting_window": "13:30 - 14:00",
-    "reason": "Mid-day posting slots historically captured slightly better initial traction in this dataset (e.g., 13:52 upload yielded highest views)."
+    "concept": "A short narrative about turning off read receipts and online status, shifting from waiting for someone to finally ignoring the blue ticks.",
+    "opening_direction": "Start with the sound of a message arriving and the immediate temptation to check who it is.",
+    "twist_direction": "Instead of opening the chat to reply instantly, turning off last seen completely and closing the app with a sense of calm.",
+    "duration_seconds": 15,
+    "posting_window": "13:00 - 14:00 IST",
+    "reason": "Aligns with the proven performing slot and topic category (self-respect/chat management) while testing a new notification-based hook."
   },
-  "experiment": "Testing a modern domestic utility app boundary (sharing/subscriptions) instead of direct chat/contact deletion to check if relatable micro-habits broaden engagement.",
-  "updated_at": "2026-09-13T15:38:54.441691+00:00",
+  "experiment": "Testing if an auditory/notification-based hook improves initial retention compared to text-reading hooks.",
+  "updated_at": "2026-09-13T16:39:28.244462+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-13T15:38:57.038842+00:00"
+  "generated_at": "2026-09-13T16:39:30.985812+00:00"
 }
