@@ -1,40 +1,40 @@
 {
-  "confidence": "20%",
+  "confidence": "25%",
   "data_points": 12,
-  "overall_summary": "The channel has a very small sample size of views (ranging from 5 to 36 views) and almost zero engagement, making statistical confidence low. However, topics blending modern digital habits (chats, typing, pins) with self-respect and subtle emotional detachment show slightly better initial traction.",
+  "overall_summary": "The channel has a very small sample size of low-view videos (max 36 views), indicating low confidence in statistical certainty. However, topics involving 'self respect' (e.g., AfaLxMy6FMY with 36 views, aNR94Xxn0yM with 24 views) and tangible phone/chat interaction hooks show a slight edge in engagement compared to purely abstract emotional concepts.",
   "winning_patterns": [
     {
-      "pattern": "Digital boundary and self-respect themes",
-      "evidence": "Videos like 'चैट डिलीट करने की हिम्मत और खुद की इज्जत' (AfaLxMy6FMY) reached 36 views, and 'बिना नाम का नंबर और खामोश रात' (aNR94Xxn0yM) reached 24 views, outperforming pure heartbreak/sadness clips.",
-      "action": "Focus more narratives on modern digital micro-decisions related to self-respect rather than just crying over memories."
+      "pattern": "Self-respect and boundary setting themes",
+      "evidence": "Videos like 'चैट डिलीट करने की हिम्मत' (36 views) and 'बिना नाम का नंबर' (24 views) outperformed generic emotional hooks.",
+      "action": "Focus future iterations on empowerment, reclaiming self-worth, and taking active steps to move on rather than just passive suffering."
     },
     {
-      "pattern": "Action-oriented micro-hooks",
-      "evidence": "Hooks featuring tangible actions like 'उंगली उसी चैट पर रुकी थी' or 'बिना नाम के सेव किया था नंबर' performed slightly better than abstract statements.",
-      "action": "Open scripts with a physical micro-action involving the phone or immediate surroundings."
+      "pattern": "Relatable smartphone interaction hooks",
+      "evidence": "Hooks mentioning chat actions, pinned chats, or phone screens ('उंगली उसी चैट पर रुकी थी') perform better than vague statements.",
+      "action": "Use specific, tactile mobile phone micro-actions in the hook to instantly trigger viewer curiosity."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract or overly poetic midnight tropes",
-      "evidence": "Clips focused strictly on generic late-night melancholy like 'मेज पर रखी चाय ठंडी हो गई' (uIbMpCjVutQ) stalled at 5 views.",
-      "action": "Avoid generic atmospheric intros unless tied to a specific, relatable modern behavior."
+      "pattern": "Abstract poetic openings without a grounding object",
+      "evidence": "Videos with vague philosophical hooks ('नंबर ब्लॉक नहीं किया कभी') underperformed (5 views).",
+      "action": "Avoid purely abstract statements; always anchor the opening in a physical object or immediate action."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowering detachment",
-    "hook_style": "Tactile digital action",
+    "emotion": "Empowerment through letting go",
+    "hook_style": "Tactile phone action micro-moment",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization that scrolling past someone's active status without clicking on their profile is the ultimate quiet victory of self-respect.",
-    "opening_direction": "Green active dot visible on the screen, but the thumb swipes past it to clear notifications instead.",
-    "twist_direction": "Instead of checking when they came online, closing the app entirely to read a book, realizing peace feels better than curiosity.",
-    "duration_seconds": 10,
+    "concept": "A realization moment where removing someone from a hidden folder or archived chat brings unexpected peace instead of pain.",
+    "opening_direction": "अकसर हम उन लोगों को 'Archived' में छुपाकर रखते हैं...",
+    "twist_direction": "आज उसे हमेशा के लिए अनफॉलो या डिलीट करते वक्त अहसास हुआ कि डर उसे खोने का नहीं, खुद को खोने का था।",
+    "duration_seconds": 15,
     "posting_window": "13:00 - 14:00 IST",
-    "reason": "Previous mid-day uploads targeting self-respect micro-moments (e.g., AfaLxMy6FMY at 13:52) showed relative outperformance compared to morning or late-night slots in this limited dataset."
+    "reason": "Previous successful self-respect videos (like AfaLxMy6FMY) were published in the early afternoon window and focused on digital clutter clearing."
   },
-  "experiment": "Testing an active self-empowerment twist (choosing peace over curiosity) instead of pure sorrow or deletion.",
-  "updated_at": "2026-09-13T19:36:58.341739+00:00",
+  "experiment": "Testing if shifting from passive longing (रात के ख्याल) to active digital closure (archived chats/hidden folders) drives higher view-through rates.",
+  "updated_at": "2026-09-13T20:39:28.378690+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-13T19:37:01.243813+00:00"
+  "generated_at": "2026-09-13T20:39:31.159881+00:00"
 }
