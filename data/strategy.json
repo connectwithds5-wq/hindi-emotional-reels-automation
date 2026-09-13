@@ -1,35 +1,45 @@
 {
   "confidence": "25%",
   "data_points": 12,
-  "overall_summary": "View counts across all 12 videos are exceptionally low (ranging from 5 to 36 views), indicating low statistical significance and early-stage audience discovery. However, content focused on 'self respect' and tangible smartphone actions (like deleting chats or removing numbers) slightly outperformed abstract late-night themes.",
+  "overall_summary": "The channel has a very small sample size of low view counts (max 36 views) and almost zero engagement, making statistical confidence low. However, 'self respect' and smartphone-related micro-interactions (like deleted chats or unsaved numbers) show slight relative traction compared to abstract late-night thoughts.",
   "winning_patterns": [
     {
-      "pattern": "Action-oriented smartphone triggers",
-      "evidence": "Videos like 'चैट डिलीट करने की हिम्मत' (AfaLxMy6FMY) with 36 views and 'बिना नाम का नंबर' (aNR94Xxn0yM) with 24 views performed relatively better than abstract ones.",
-      "action": "Focus hooks around physical actions on a phone related to boundaries and self-respect."
+      "pattern": "Smartphone micro-action hooks",
+      "evidence": "Videos focusing on phone behaviors (e.g., 'उंगली उसी चैट पर रुकी थी', 'बिना नाम के सेव किया था नंबर') achieved the highest relative views (36 and 24 views).",
+      "action": "Continue anchoring hooks around everyday smartphone UI habits related to ex-partners."
+    },
+    {
+      "pattern": "Self-respect and boundary setting",
+      "evidence": "Topic 'self respect' generated the channel's top viewed video ('चैट डिलीट करने की हिम्मत', 36 views).",
+      "action": "Lean into empowerment and letting go rather than purely helpless sadness."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract late-night environment openers",
-      "evidence": "Openers like 'रात के दो बजे' (G0gKV1p3ZHc) and 'मेज पर रखी चाय ठंडी हो गई' (uIbMpCjVutQ) pulled lower views (5 to 12).",
-      "action": "Avoid starting purely with time-of-night or weather descriptions; anchor to a specific digital artifact instead."
+      "pattern": "Abstract atmospheric hooks",
+      "evidence": "Broad late-night concepts like 'रात के दो बजे' (12 views) or 'मेज पर रखी चाय ठंडी हो गई' (5 views) underperformed.",
+      "action": "Avoid overly poetic or cliché weather/tea metaphors; ground stories in tangible modern objects and actions."
+    },
+    {
+      "pattern": "Pure passive longing",
+      "evidence": "Topics centered entirely around waiting without action (e.g., 'नंबर ब्लॉक नहीं किया कभी') resulted in very low views (5 views).",
+      "action": "Ensure every script has a micro-movement toward closure or self-preservation."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment through quiet detachment",
-    "hook_style": "Visual phone screen notification trigger",
+    "emotion": "Quiet closure",
+    "hook_style": "Tactile phone action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short piece about turning off read receipts for just one specific person, realizing that peace matters more than them knowing you saw their message.",
-    "opening_direction": "Blue ticks turned off just for one chat.",
-    "twist_direction": "Realizing the true peace isn't hiding your status from them, but finally losing the urge to check if they noticed.",
+    "concept": "Removing someone from the phone's blocked list because they no longer matter enough to keep restricted.",
+    "opening_direction": "ब्लॉक लिस्ट से उसका नंबर अनब्लॉक करने की उंगली उठी,",
+    "twist_direction": "लगा था कि शायद दर्द होगा, पर अहसास हुआ कि अब उस नंबर का वजूद ही फोन से मिट चुका है—वो अब अजनबी भी नहीं रहा।",
     "duration_seconds": 10,
-    "posting_window": "13:00 - 14:00 IST",
-    "reason": "Mid-day posting slots showed minor relative traction in historical data (e.g., AfaLxMy6FMY published around 13:52)."
+    "posting_window": "13:30 - 14:00",
+    "reason": "Previous successful self-respect videos performed best when posted in the early afternoon window around 13:45-13:52."
   },
-  "experiment": "Testing if shifting focus entirely from late-night sadness to daytime digital boundaries ('self respect' topic) yields higher initial impressions and retention.",
-  "updated_at": "2026-09-13T21:38:22.930624+00:00",
+  "experiment": "Testing if flipping the narrative from 'keeping/deleting a chat' to 'unblocking because of indifference' increases engagement.",
+  "updated_at": "2026-09-13T22:40:06.057378+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-13T21:38:26.070188+00:00"
+  "generated_at": "2026-09-13T22:40:10.155509+00:00"
 }
