@@ -1199,6 +1199,78 @@
         "reason": "Aligns with the top-performing 'self-respect' pattern while testing a subtle variation in digital habit breaking (pinning vs deleting)."
       },
       "model_used": "gemini-3.1-flash-lite"
+    },
+    {
+      "hook": "इमरजेंसी कॉन्टैक्ट से उसका नंबर हटाते वक्त,",
+      "lines": [
+        "हाथ जरा सा काँपा जरूर।",
+        "पर स्क्रीन पर नाम देखते ही,",
+        "याद आया वो कभी नहीं आया।",
+        "मुश्किल वक्त में सिर्फ साया था,",
+        "और वो भी पराया نکلا।",
+        "अकेलेपन से डरना अब छोड़ दिया,",
+        "खुद को खुद ही थाम लिया।"
+      ],
+      "youtube_title": "इमरजेंसी कॉन्टैक्ट से उसका नंबर हटाया | Self Respect Story",
+      "youtube_description": "जब जिंदगी के मुश्किल दौर में कोई साथ नहीं देता, तो खुद के लिए खड़े होना पड़ता है। इमरजेंसी कॉन्टैक्ट लिस्ट से उसका नंबर हटाने का एक शांत और गहरा अनुभव। क्या आपने कभी अपने आत्मसम्मान के लिए किसी को अपनी जिंदगी से दूर किया है?",
+      "youtube_keywords": [
+        "self respect story in hindi",
+        "dil ki diary hindi story",
+        "emotional hindi micro story",
+        "emergency contact delete status",
+        "self respect reels hindi",
+        "sad emotional status hindi",
+        "deep self respect thoughts",
+        "hindi emotional diary",
+        "akelapan status hindi",
+        "khud ke liye jeena",
+        "zindagi aur self respect"
+      ],
+      "youtube_hashtags": [
+        "SelfRespect",
+        "DilKiDiary",
+        "EmotionalStory",
+        "HindiQuotes",
+        "LifeLessons",
+        "DeepThoughts",
+        "MentalPeace",
+        "Shorts"
+      ],
+      "caption": "कुछ नाम फोन की लिस्ट से हट जाएं तो दिल का बोझ थोड़ा हल्का हो जाता है। खुद से प्यार करना ही सबसे बड़ा सफर है।",
+      "keywords": [
+        "self respect",
+        "hindi story",
+        "emotional",
+        "dil ki diary",
+        "boundaries",
+        "loneliness",
+        "inner strength",
+        "hindi reels"
+      ],
+      "hashtags": [
+        "selfrespect",
+        "dilkidiary",
+        "hindistory",
+        "emotional",
+        "lifelessons",
+        "deepthoughts",
+        "innerpeace",
+        "solitude"
+      ],
+      "topic": "self respect",
+      "strategy_used": {
+        "topic": "self respect",
+        "emotion": "Empowered detachment",
+        "hook_style": "Tactile phone action",
+        "story_structure": "simple -> relatable -> twist",
+        "concept": "A story about removing someone from the emergency contacts list after realizing nobody checks up on you.",
+        "opening_direction": "इमरजेंसी कॉन्टैक्ट से उसका नंबर हटाते वक्त,",
+        "twist_direction": "पूरी दुनिया को बचाने वाले हाथ जब खुद के लिए खड़े होते हैं, तो फोन की स्क्रीन धुंधली नहीं, साफ हो जाती है।",
+        "duration_seconds": 15,
+        "posting_window": "05:30 PM - 07:30 PM IST",
+        "reason": "Previous successful self-respect videos performed well around late afternoon/early evening windows, tapping into post-work reflection time."
+      },
+      "model_used": "gemini-3.5-flash-lite"
     }
   ]
 }
