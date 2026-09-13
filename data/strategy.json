@@ -1,35 +1,35 @@
 {
   "confidence": "20%",
   "data_points": 12,
-  "overall_summary": "Overall views are low across the board (ranging from 0 to 36), indicating early-stage channel distribution. However, 'self respect' and personal device-interaction hooks (like typing and deleting messages, or reviewing blocked/saved numbers) show slightly higher engagement relative to other abstract themes.",
+  "overall_summary": "The channel has a very small sample size with extremely low view counts across the board, making overall performance metrics statistically low-confidence. However, 'self respect' and digital-age modern heartbreak hooks (like phone actions) show slight relative traction.",
   "winning_patterns": [
     {
-      "pattern": "Actionable phone/digital habit hooks",
-      "evidence": "Videos like AfaLxMy6FMY ('उंगली उसी चैट पर रुकी थी') and aNR94Xxn0yM ('बिना नाम के सेव किया था नंबर') achieved higher views (36 and 24) compared to abstract poetry.",
-      "action": "Focus hooks on physical, everyday digital micro-actions related to smartphones and personal boundaries."
+      "pattern": "Action-oriented phone behavior hooks",
+      "evidence": "Videos focusing on tangible digital actions like deleting chats or modifying phone contacts (e.g., 'उंगली उसी चैट पर रुकी थी' - 36 views, 'बिना नाम के सेव किया था नंबर' - 24 views) outperformed abstract emotional statements.",
+      "action": "Continue to anchor the opening hook in a physical, highly relatable smartphone action or moment."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Zero-action extreme edge cases",
-      "evidence": "hrjJ-QS9M8w ('इमरजेंसी कॉन्टैक्ट से उसका नंबर हटाते वक्त') got 0 views, indicating either poor initial distribution or an overly specific/niche scenario that didn't connect.",
-      "action": "Avoid overly clinical or rare scenarios; stick to universal everyday relationship micro-moments."
+      "pattern": "Generic poetic or time-based clichés",
+      "evidence": "Broad situational hooks like 'रात के दो बजे' or 'मेज पर रखी चाय ठंडी हो गई' resulted in lower view counts (5-12 views).",
+      "action": "Avoid generic nighttime or poetry-style openings; stick to concrete, modern micro-moments."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowering realization / Quiet closure",
-    "hook_style": "Visual digital action combined with internal hesitation",
+    "emotion": "Empowerment through letting go",
+    "hook_style": "Tangible digital boundary setting",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A moment where someone is about to check if their ex viewed their status, stops mid-way, and closes the app to reclaim their peace.",
-    "opening_direction": "स्टेटस देखने के लिए उंगली उठी ही थी,",
-    "twist_direction": "कि अचानक ख्याल आया—अब उसे फर्क पड़ना बंद हो चुका है, और मुझे भी।",
+    "concept": "Removing someone from a shared streaming or delivery family plan to finally sever the last digital tie.",
+    "opening_direction": "Netflix या Spotify की फैमिली अकाउंट सेटिंग खोलना...",
+    "twist_direction": "...और उस एक नाम को रिमूव करने के बाद जो अचानक से सुकून महसूस हुआ, वो किसी जीत से कम नहीं था।",
     "duration_seconds": 10,
-    "posting_window": "05:30 PM - 07:30 PM",
-    "reason": "Tests a fresh variation of the successful digital boundary/self-respect pattern during evening unwinding hours when overthinking peaks."
+    "posting_window": "13:30 - 14:00",
+    "reason": "Mid-day posting slots historically captured slightly better initial traction in this dataset (e.g., 13:52 upload yielded highest views)."
   },
-  "experiment": "Testing an active 'empowerment/letting go' digital micro-habit instead of passive sadness to see if positive self-respect hooks drive higher retention.",
-  "updated_at": "2026-09-13T14:38:56.324011+00:00",
+  "experiment": "Testing a modern domestic utility app boundary (sharing/subscriptions) instead of direct chat/contact deletion to check if relatable micro-habits broaden engagement.",
+  "updated_at": "2026-09-13T15:38:54.441691+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-13T14:38:58.964060+00:00"
+  "generated_at": "2026-09-13T15:38:57.038842+00:00"
 }
