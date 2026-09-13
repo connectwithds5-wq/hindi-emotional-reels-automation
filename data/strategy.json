@@ -1,40 +1,35 @@
 {
-  "confidence": "20%",
+  "confidence": "25%",
   "data_points": 10,
-  "overall_summary": "The sample size is very small with low view counts overall. However, slight traction is visible on topics blending 'self respect' and modern digital relationship anxieties (like deleted chats and unsaved numbers), peaking with 33 views on the 'self respect' hook.",
+  "overall_summary": "View counts across all 10 videos are extremely low (ranging from 5 to 34 views), indicating an early-stage channel with minimal baseline distribution. However, 'self respect' and boundary-setting topics (like deleting chats or numbers) performed relatively better, showing early signs of audience resonance with empowerment over pure sadness.",
   "winning_patterns": [
     {
-      "pattern": "Digital breakup micro-moments",
-      "evidence": "Videos focusing on chat deletion and contact lists (e.g., 'उंगली उसी चैट पर रुकी थी', 'बिना नाम के सेव किया था नंबर') achieved the highest views (33 and 24).",
-      "action": "Lean into modern smartphone-era relationship pain points rather than abstract heartbreak."
-    },
-    {
-      "pattern": "Action-oriented self-respect themes",
-      "evidence": "The highest viewed video (33 views) dealt with choosing self-respect over lingering attachments.",
-      "action": "Pair heartbreak scenarios with a concluding note on dignity and moving on."
+      "pattern": "Self-respect and boundary themes",
+      "evidence": "Videos under 'self respect' like AfaLxMy6FMY (34 views) and aNR94Xxn0yM (24 views, 1 like) outperformed generic sadness clips.",
+      "action": "Focus on the transition from heartbreak to reclaiming self-worth."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract late-night poetic tropes",
-      "evidence": "Broad late-night concepts like 'रात के दो बजे' or 'चाय ठंडी हो गई' got lower engagement (5 to 12 views).",
-      "action": "Avoid generic atmospheric setups unless tied to a specific, tangible action."
+      "pattern": "Pure sad/waiting loops",
+      "evidence": "Videos focused purely on waiting or generic night thoughts (e.g., uIbMpCjVutQ, aUuNKfe7jm4) hovered around 5 views.",
+      "action": "Avoid passive longing hooks; pair emotional triggers with active emotional decisions."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment through detachment",
-    "hook_style": "Tangible digital action",
+    "emotion": "Empowered closure",
+    "hook_style": "Action-oriented smartphone habit",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization moment while scrolling through archived chats where the protagonist finally decides to clear out old media files, realizing they are holding onto pixels, not a person.",
-    "opening_direction": "Gallery mein purani screenshots ki folder khali karne lagi...",
-    "twist_direction": "Pehle rona aata tha, aaj bas ek halki si muskaan aayi ki main kitni aage nikal aayi hoon.",
+    "concept": "A story about muting status updates of someone who still watches yours, realizing your peace matters more than their attention.",
+    "opening_direction": "Start with the specific action of seeing their view on your story first, yet they never reply.",
+    "twist_direction": "Instead of waiting for their message, you remove them from your viewers list entirely—choosing inner peace over curiosity.",
     "duration_seconds": 15,
-    "posting_window": "13:30 to 14:00 IST",
-    "reason": "Matches the successful timing and topic of previous higher-performing self-respect posts."
+    "posting_window": "13:30 - 14:30 IST",
+    "reason": "Previous successful uploads (like AfaLxMy6FMY and aNR94Xxn0yM) performed best when published around midday (13:40 - 13:50 UTC/IST equivalent window)."
   },
-  "experiment": "Testing if visual cleanup actions (gallery/screenshots) perform better than text/chat-based cleanup actions.",
-  "updated_at": "2026-09-13T02:38:55.625670+00:00",
+  "experiment": "Testing an active self-respect boundary (muting/blocking stories) instead of passive chat/number staring to see if empowerment drives higher engagement.",
+  "updated_at": "2026-09-13T03:40:10.119929+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-13T02:38:58.275894+00:00"
+  "generated_at": "2026-09-13T03:40:12.689834+00:00"
 }
