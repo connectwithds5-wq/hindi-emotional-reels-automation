@@ -1,35 +1,35 @@
 {
   "confidence": "25%",
   "data_points": 13,
-  "overall_summary": "The channel shows very low overall view counts (mostly under 30 views), indicating low algorithmic distribution so far. However, 'self respect' and smartphone-habit hooks (like typing and deleting messages, or contact management) show slightly better traction compared to generic emotional topics.",
+  "overall_summary": "The channel has low sample sizes across 13 videos, with views ranging between 3 and 40. Content centered around modern relationship friction, digital touchpoints (chats, blocked numbers, typing status), and self-respect shows slight relative traction compared to abstract emotional topics.",
   "winning_patterns": [
     {
-      "pattern": "Smartphone-habit hooks",
-      "evidence": "Videos like 'उंगली उसी चैट पर रुकी थी' (Self Respect) and 'बिना नाम के सेव किया था नंबर' received relatively higher views (40 and 26).",
-      "action": "Focus hooks on modern digital habits related to breakup, texting, and boundary setting."
+      "pattern": "Digital micro-actions and phone boundary themes",
+      "evidence": "Videos focusing on phone interactions like 'AfaLxMy6FMY' (self respect, 40 views) and 'aNR94Xxn0yM' (self respect, 26 views) outperformed generic emotional quotes.",
+      "action": "Continue focusing on specific, tactile digital habits (chats, notifications, muting, deleting) rather than abstract loneliness."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic emotional statements",
-      "evidence": "Broad phrases like 'रात के दो बजे' or generic titles without a strong physical micro-action underperformed.",
-      "action": "Avoid purely atmospheric hooks; tie every hook to a specific, tangible action on a smartphone or daily routine."
+      "pattern": "Abstract poetic hooks without physical anchors",
+      "evidence": "Videos like 'wFimeeP_aVc' ('ब्लू टिक्स आज छिपा दिए', 3 views) and 'aUuNKfe7jm4' ('नंबर ब्लॉक नहीं किया कभी', 5 views) performed poorly when lacking a strong situational conflict.",
+      "action": "Avoid abstract statements; ground every hook in an immediate, recognizable everyday action."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment mixed with lingering pain",
-    "hook_style": "Tangible digital action",
+    "emotion": "empowered detachment",
+    "hook_style": "action-oriented micro-conflict",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short narrative about removing someone from the phone's wallpaper/lock screen, realizing the space looks empty yet peaceful.",
-    "opening_direction": "वॉलपेपर बदलते वक्त जब उसकी तस्वीर हटाई,",
-    "twist_direction": "स्क्रीन खाली-खाली जरूर लगी, पर फोन उठाने पर अब दिल नहीं धड़का.",
-    "duration_seconds": 12,
+    "concept": "Removing someone from the phone's lock screen wallpaper to reclaim personal space.",
+    "opening_direction": "Lock screen wallpaper change notification or the act of pressing 'remove wallpaper'.",
+    "twist_direction": "Realizing that seeing the default blank screen feels heavier for a second, but infinitely more liberating than looking at a ghost.",
+    "duration_seconds": 15,
     "posting_window": "05:30 PM - 07:30 PM",
-    "reason": "Aligns with the successful 'self respect' and smartphone-action pattern from previous top performers while testing a fresh visual trigger."
+    "reason": "Aligns with peak self-respect interest patterns in historical data while testing a fresh visual trigger (lock screen)."
   },
-  "experiment": "Testing lock-screen and wallpaper aesthetics as a new trigger within the high-performing 'self respect' category.",
-  "updated_at": "2026-09-14T05:40:01.752496+00:00",
+  "experiment": "Testing lock-screen visuals vs. chat-box visuals for self-respect narratives",
+  "updated_at": "2026-09-14T06:45:51.686171+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-14T05:40:04.209438+00:00"
+  "generated_at": "2026-09-14T06:45:54.525014+00:00"
 }
