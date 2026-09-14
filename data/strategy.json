@@ -1,35 +1,35 @@
 {
-  "confidence": "65%",
+  "confidence": "35%",
   "data_points": 14,
-  "overall_summary": "The channel shows a clear preference for 'Self Respect' content over abstract 'Overthinking' or 'Night Thoughts' themes. High-performing videos (40, 29, 27 views) focus on the tangible act of cutting ties (deleting chats/numbers), whereas abstract emotional musings are underperforming.",
+  "overall_summary": "The channel shows initial viewer traction leaning towards 'self respect' and personal boundaries topics, particularly touching upon phone interactions (chats, numbers, status). However, overall view counts are low (mostly under 40 views) and engagement is sparse, indicating low sample confidence and a need for controlled exploration.",
   "winning_patterns": [
     {
-      "pattern": "Action-oriented Self Respect",
-      "evidence": "Videos about deleting chats or removing numbers (AfaLxMy6FMY, wFimeeP_aVc, aNR94Xxn0yM) consistently outperform abstract emotional stories.",
-      "action": "Focus on specific, relatable digital actions that signify moving on."
+      "pattern": "Self Respect & Phone Boundaries",
+      "evidence": "Videos centered around 'self respect' with phone-related hooks (e.g., 'उंगली उसी चैट पर रुकी थी' at 40 views, 'ब्लू टिक्स आज छिपा दिए' at 31 views, and 'बिना नाम के सेव किया था नंबर' at 27 views) perform relatively better than abstract emotional topics.",
+      "action": "Double down on real-life digital boundary moments combined with self-respect themes."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Night Thoughts",
-      "evidence": "General musings about 'night thoughts' or 'tea getting cold' (uIbMpCjVutQ, G0gKV1p3ZHc) have very low engagement.",
-      "action": "Avoid vague poetic openings; start with a specific, relatable digital or physical friction point."
+      "pattern": "Vague Late-Night Cliches",
+      "evidence": "Broad hooks like 'रात के दो बजे' (12 views) or generic poetic setups ('मेज पर रखी चाय ठंडी हो गई' at 5 views) underperformed compared to specific micro-actions.",
+      "action": "Avoid generic time-of-night tropes and focus on hyper-specific physical actions involving a smartphone."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment through closure",
-    "hook_style": "Specific digital action",
+    "emotion": "Empowerment through letting go",
+    "hook_style": "Specific physical action on phone",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "The moment you realize you no longer check if they viewed your story.",
-    "opening_direction": "Start with the specific habit of checking the 'viewed by' list on a status update.",
-    "twist_direction": "Reveal that you stopped checking not because you don't care, but because you finally stopped looking for their validation.",
+    "concept": "A realization moment while removing someone from the close friends or restricted story list on Instagram/WhatsApp, shifting focus from waiting for their view to reclaiming personal peace.",
+    "opening_direction": "क्लोज़ फ्रेंड्स लिस्ट से उसका नाम हटाने ही वाला था कि...",
+    "twist_direction": "...हाथ रुक गया, यह सोचकर कि अब उसे फर्क ही नहीं पड़ता कि मैं क्या पोस्ट कर रहा हूँ या नहीं।",
     "duration_seconds": 15,
-    "posting_window": "05:30 AM - 06:00 AM",
-    "reason": "Early morning slots have shown better traction for self-reflection content compared to late-night uploads."
+    "posting_window": "05:30 PM - 07:30 PM",
+    "reason": "Aligns with the proven 'self respect + phone micro-action' pattern while testing a slightly different platform feature (stories/close friends) to expand the digital boundary niche."
   },
-  "experiment": "Testing if 'Status/Story' engagement is as compelling as 'Chat/Message' engagement for the self-respect niche.",
-  "updated_at": "2026-09-14T16:42:30.991707+00:00",
-  "model_used": "gemini-3.1-flash-lite",
-  "generated_at": "2026-09-14T16:42:35.125561+00:00"
+  "experiment": "Testing if moving the digital boundary hook from chat/numbers to story-viewing/close-friends lists retains the higher view count seen in self-respect videos.",
+  "updated_at": "2026-09-14T17:40:41.151335+00:00",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-09-14T17:40:44.194362+00:00"
 }
