@@ -1,40 +1,35 @@
 {
-  "confidence": "25%",
+  "confidence": "35%",
   "data_points": 13,
-  "overall_summary": "The channel shows consistent low-sample performance across multiple emotional topics. 'Self respect' (e.g., AfaLxMy6FMY with 40 views) and relatable phone/chat-related micro-moments perform relatively better than abstract late-night concepts, though overall view counts remain under 50. Confidence is low due to limited traffic, requiring a controlled blend of the winning self-respect/phone interaction angle and small experimentation.",
+  "overall_summary": "View counts across all 13 videos are extremely low (ranging between 5 and 40 views), indicating that channel discovery is still in its infancy and statistical significance is weak. However, topics touching on 'self respect' (specifically featuring actions like deleting chats, removing numbers, or handling Blue Ticks) show a slight relative outperformance (e.g., AfaLxMy6FMY at 40 views, aNR94Xxn0yM at 27 views), compared to abstract or late-night thoughts which underperformed.",
   "winning_patterns": [
     {
-      "pattern": "Phone and chat interface micro-moments",
-      "evidence": "Videos focusing on specific mobile actions like deleting chats or removing numbers (e.g., AfaLxMy6FMY, aNR94Xxn0yM) achieved the highest views (40 and 27 respectively).",
-      "action": "Continue framing hooks around tangible smartphone interactions tied to emotional choices."
-    },
-    {
-      "pattern": "Self-respect over passive yearning",
-      "evidence": "Content emphasizing personal boundaries and letting go (Self Respect topic) outperformed purely sad, passive late-night rambling.",
-      "action": "Pivot stories toward empowerment and quiet self-worth rather than endless waiting."
+      "pattern": "Actionable Self-Respect Moments",
+      "evidence": "Videos focusing on concrete self-respect actions like chat deletion or number removal (e.g., AfaLxMy6FMY with 40 views, wFimeeP_aVc with 25 views) perform better than abstract emotional hooks.",
+      "action": "Double down on micro-decisions related to digital boundaries and self-worth."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract or generic late-night melancholy",
-      "evidence": "Videos like uIbMpCjVutQ ('मेज पर रखी चाय ठंडी हो गई') and aUuNKfe7jm4 generated very low engagement (5 views).",
-      "action": "Avoid vague atmospheric setups without an immediate, relatable daily artifact or action."
+      "pattern": "Abstract Late-Night Atmospheric Openings",
+      "evidence": "Videos starting with general night settings or unanchored poetic lines (e.g., uIbMpCjVutQ 'मेज पर रखी चाय ठंडी हो गई' with 5 views, aUuNKfe7jm4 with 5 views) received minimal traction.",
+      "action": "Avoid passive descriptions of weather or tea; anchor hooks in specific, tangible smartphone actions."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "quiet liberation",
-    "hook_style": "tangible digital boundary action",
+    "emotion": "Empowered detachment",
+    "hook_style": "Tangible digital boundary action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Removing someone from the phone's 'Favorites' widget on the home screen, realizing they are no longer the first tap of the day.",
-    "opening_direction": "होम स्क्रीन के उस पहले विजेट से उसकी तस्वीर हटाते वक्त,",
-    "twist_direction": "लगा था उंगली कांपेगी, पर स्क्रीन खाली होते ही पहली बार सुकून की सांस आई।",
-    "duration_seconds": 10,
-    "posting_window": "05:30 PM - 07:30 PM",
-    "reason": "Leverages the proven high-performing 'self respect' and 'phone action' patterns while avoiding repetitive opening hooks like 'नंबर' or 'चैट'."
+    "concept": "A short narrative about scrolling down the status view list, realizing they viewed it first again, and finally turning off status visibility for them.",
+    "opening_direction": "स्टेटस लिस्ट में सबसे ऊपर उन्हीं का नाम था,",
+    "twist_direction": "हर बार की तरह इस बार भी देखने के बाद, मैंने उनके लिए हमेशा के लिए स्टेटस हाइड कर दिया। तमाशा देखने वाले अब खाली स्क्रीन देखते रह गए।",
+    "duration_seconds": 12,
+    "posting_window": "13:45 - 14:15",
+    "reason": "Building on the winning 'self respect' digital boundaries pattern (similar to deleting chats or removing numbers), focusing on status visibility taps into a highly relatable modern social media habit with a strong empowered twist."
   },
-  "experiment": "Testing a home-screen widget removal hook to see if visual digital habits outperform chat-deletion hooks.",
-  "updated_at": "2026-09-14T12:45:44.404935+00:00",
+  "experiment": "Testing if social media status/story privacy settings drive better engagement than chat/number deletion hooks within the self-respect category.",
+  "updated_at": "2026-09-14T13:42:23.920102+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-14T12:45:47.339676+00:00"
+  "generated_at": "2026-09-14T13:42:27.118471+00:00"
 }
