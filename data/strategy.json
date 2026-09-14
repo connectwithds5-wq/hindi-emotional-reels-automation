@@ -1,35 +1,35 @@
 {
-  "confidence": "25%",
+  "confidence": "35%",
   "data_points": 14,
-  "overall_summary": "Overall view counts are very low across the board (ranging from 5 to 40 views), meaning statistical confidence is quite low. However, 'self respect' and personal digital boundary topics (like clearing chats and removing numbers) tend to perform relatively better compared to generic emotional topics.",
+  "overall_summary": "The channel shows early traction with 'self respect' (AfaLxMy6FMY - 40 views, aNR94Xxn0yM - 27 views, wFimeeP_aVc - 29 views) performing better than abstract late-night or one-sided love themes. However, overall sample size is extremely low, so confidence is limited and requires a controlled exploration strategy focused on tangible boundaries of self-worth.",
   "winning_patterns": [
     {
-      "pattern": "Digital boundary actions",
-      "evidence": "Videos focusing on self-respect actions like deleting chats or removing saved numbers (e.g., 'चैट डिलीट करने की हिम्मत', 'बिना नाम के नंबर') gained relative peaks up to 40 views.",
-      "action": "Focus storytelling on micro-actions related to phone screens, chats, and setting personal boundaries."
+      "pattern": "Actionable Self-Respect Moments",
+      "evidence": "Videos focusing on deleting chats, removing numbers, and prioritizing self-worth (e.g., AfaLxMy6FMY with 40 views and aNR94Xxn0yM with 27 views) outperform vague emotional monologues.",
+      "action": "Double down on real-world actions taken to reclaim dignity after being ignored."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic late-night brooding",
-      "evidence": "Broad night-time or tea-drinking tropes (e.g., 'रात के दो बजे', 'चाय ठंडी हो गई') underperformed significantly, hitting lows of 5-12 views.",
-      "action": "Avoid vague ambient setups; tie emotional moments to specific, tangible everyday digital triggers."
+      "pattern": "Abstract Late-Night Monologues",
+      "evidence": "Vague themes like 'रात के ख्याल' or generic waiting (e.g., uIbMpCjVutQ with 5 views, rwOUYo_hayQ with 1 view) struggle to grab immediate attention.",
+      "action": "Ground every emotional feeling into a specific smartphone or physical micro-action."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment through letting go",
-    "hook_style": "Tangible real-life notification action",
+    "emotion": "Empowerment through detachment",
+    "hook_style": "Tangible smartphone boundary action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Turning off read receipts so they can no longer see when you've seen their message, reclaiming your peace.",
-    "opening_direction": "Blue ticks turned off for just one specific contact.",
-    "twist_direction": "Realizing the freedom that comes when they can no longer check if you're waiting.",
+    "concept": "Removing someone from close friends or hidden story lists because their silent viewing without interaction has become an emotional drain.",
+    "opening_direction": "जब उसकी नज़रों में होने की चाहत, खुद की नजरों में गिरने लगे...",
+    "twist_direction": "...तो स्टोरी ब्लॉक करना ब्लॉक करने से बड़ा कदम होता है।",
     "duration_seconds": 10,
     "posting_window": "05:30 PM - 07:30 PM",
-    "reason": "Tests if practical digital self-respect actions can sustain the relative success seen in previous boundary-setting shorts."
+    "reason": "Aligns with the proven self-respect theme while testing a fresh real-life digital boundary that hasn't been used yet."
   },
-  "experiment": "Testing if specific notification privacy settings ('last seen' or 'read receipts') drive higher engagement than broader chat deletion concepts.",
-  "updated_at": "2026-09-14T14:43:22.307661+00:00",
+  "experiment": "Testing if shifting from phone number deletion to social media visibility boundaries (Close Friends/Story lists) maintains the high-view momentum of self-respect content.",
+  "updated_at": "2026-09-14T15:42:25.183838+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-14T14:43:25.063947+00:00"
+  "generated_at": "2026-09-14T15:42:28.496382+00:00"
 }
