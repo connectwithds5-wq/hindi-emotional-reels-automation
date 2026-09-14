@@ -1,35 +1,40 @@
 {
   "confidence": "35%",
   "data_points": 14,
-  "overall_summary": "The channel shows initial viewer traction leaning towards 'self respect' and personal boundaries topics, particularly touching upon phone interactions (chats, numbers, status). However, overall view counts are low (mostly under 40 views) and engagement is sparse, indicating low sample confidence and a need for controlled exploration.",
+  "overall_summary": "The channel shows early traction in 'self respect' (e.g., AfaLxMy6FMY with 40 views) and grounded relationship topics like phone numbers and chat logs, while abstract emotional topics like late-night thoughts underperform due to low sample sizes and generic formatting.",
   "winning_patterns": [
     {
-      "pattern": "Self Respect & Phone Boundaries",
-      "evidence": "Videos centered around 'self respect' with phone-related hooks (e.g., 'उंगली उसी चैट पर रुकी थी' at 40 views, 'ब्लू टिक्स आज छिपा दिए' at 31 views, and 'बिना नाम के सेव किया था नंबर' at 27 views) perform relatively better than abstract emotional topics.",
-      "action": "Double down on real-life digital boundary moments combined with self-respect themes."
+      "pattern": "Actionable Self-Respect Moments",
+      "evidence": "Video AfaLxMy6FMY ('चैट डिलीट करने की हिम्मत और खुद की इज्जत') achieved the highest views (40) by focusing on an active decision rather than passive sadness.",
+      "action": "Create more scenarios involving definitive boundaries like muting, deleting, or removing someone from priority lists."
+    },
+    {
+      "pattern": "Tactile Phone Interactivity Hooks",
+      "evidence": "Hooks involving specific UI elements like 'उंगली उसी चैट पर रुकी थी' (AfaLxMy6FMY) or 'बिना नाम के सेव किया था नंबर' (aNR94Xxn0yM) outperformed vague emotional statements.",
+      "action": "Use specific smartphone interaction triggers as hooks for relatability."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Vague Late-Night Cliches",
-      "evidence": "Broad hooks like 'रात के दो बजे' (12 views) or generic poetic setups ('मेज पर रखी चाय ठंडी हो गई' at 5 views) underperformed compared to specific micro-actions.",
-      "action": "Avoid generic time-of-night tropes and focus on hyper-specific physical actions involving a smartphone."
+      "pattern": "Abstract Late-Night Moods",
+      "evidence": "Videos focusing purely on time and vague feelings like 'रात के दो बजे' (G0gKV1p3ZHc) or 'मेज पर रखी चाय ठंडी हो गई' (uIbMpCjVutQ) had the lowest view counts (5-12 views).",
+      "action": "Ground abstract late-night themes into tangible smartphone or daily routine actions."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment through letting go",
-    "hook_style": "Specific physical action on phone",
+    "emotion": "Empowerment through detachment",
+    "hook_style": "Tactile notification boundary",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization moment while removing someone from the close friends or restricted story list on Instagram/WhatsApp, shifting focus from waiting for their view to reclaiming personal peace.",
-    "opening_direction": "क्लोज़ फ्रेंड्स लिस्ट से उसका नाम हटाने ही वाला था कि...",
-    "twist_direction": "...हाथ रुक गया, यह सोचकर कि अब उसे फर्क ही नहीं पड़ता कि मैं क्या पोस्ट कर रहा हूँ या नहीं।",
+    "concept": "Turning off read receipts or removing a birthday reminder notification to reclaim personal peace.",
+    "opening_direction": "कलेंडर ऐप पर उसका जन्मदिन खुद से डिलीट करते वक्त,",
+    "twist_direction": "समझ आया कि कुछ तारीखें अब सिर्फ नंबर रह जाती हैं, घाव नहीं।",
     "duration_seconds": 15,
-    "posting_window": "05:30 PM - 07:30 PM",
-    "reason": "Aligns with the proven 'self respect + phone micro-action' pattern while testing a slightly different platform feature (stories/close friends) to expand the digital boundary niche."
+    "posting_window": "13:00 - 14:00 IST",
+    "reason": "Previous top-performing videos (like AfaLxMy6FMY and aNR94Xxn0yM) were published around early afternoon and focused on self-respect actions via digital markers."
   },
-  "experiment": "Testing if moving the digital boundary hook from chat/numbers to story-viewing/close-friends lists retains the higher view count seen in self-respect videos.",
-  "updated_at": "2026-09-14T17:40:41.151335+00:00",
+  "experiment": "Testing a transition from phone chat habits to calendar/notification memory triggers under the 'self respect' theme.",
+  "updated_at": "2026-09-14T18:44:38.371554+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-14T17:40:44.194362+00:00"
+  "generated_at": "2026-09-14T18:44:41.174218+00:00"
 }
