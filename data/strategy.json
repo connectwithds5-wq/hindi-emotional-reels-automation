@@ -1,35 +1,35 @@
 {
-  "confidence": "25%",
+  "confidence": "30%",
   "data_points": 13,
-  "overall_summary": "The channel shows very low overall view counts across 13 videos, making statistical confidence quite low. However, 'self respect' and relatable phone/chat interaction hooks (like AfaLxMy6FMY with 40 views) slightly outperform abstract late-night poems or generic statements.",
+  "overall_summary": "View counts across all uploaded shorts remain extremely low (3 to 40 views), indicating that overall channel reach and algorithmic discovery are still in the early exploration phase. However, self respect topics combined with specific tangible smartphone actions (like deleting chats or unnamed numbers) show slightly better baseline views compared to abstract late-night musings.",
   "winning_patterns": [
     {
-      "pattern": "Tactile phone/chat interaction hooks",
-      "evidence": "Videos focusing on specific mobile actions like deleting chats, checking blue ticks, or contact lists (e.g., AfaLxMy6FMY, aNR94Xxn0yM) received relatively higher views compared to abstract topics.",
-      "action": "Incorporate micro-actions related to smartphones and messaging apps into future hooks."
+      "pattern": "Tangible digital boundary-setting",
+      "evidence": "Videos focusing on concrete phone actions under 'self respect' (e.g., 'उंगली उसी चैट पर रुकी थी' with 40 views, and 'बिना नाम के सेव किया था नंबर' with 26 views) outperformed abstract emotional ones.",
+      "action": "Focus hooks and stories around physical, everyday smartphone triggers related to digital boundaries and self-worth."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract atmospheric hooks",
-      "evidence": "Openings like 'रात के दो बजे' (G0gKV1p3ZHc) or 'मेज पर रखी चाय' (uIbMpCjVutQ) had lower traction (5-12 views), indicating they feel too generic.",
-      "action": "Avoid purely atmospheric openings and ground the hook in a specific, tangible digital or physical action."
+      "pattern": "Abstract late-night environment openings",
+      "evidence": "Openings like 'रात के दो बजे' (12 views) or 'मेज पर रखी चाय ठंडी हो गई' (5 views) yielded lower engagement in this sample size.",
+      "action": "Avoid purely atmospheric openings; anchor the start of the story into an active, immediate decision or action."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowering realization",
-    "hook_style": "Digital micro-action",
+    "emotion": "empowerment through letting go",
+    "hook_style": "action-oriented micro-decision",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization that scrolling past someone's active status without clicking is the ultimate form of moving on.",
-    "opening_direction": "जब उंगली स्क्रॉल करते-करते अचानक उसकी स्टोरी पर रुक गई,",
-    "twist_direction": "पर इस बार दिल ने नहीं, बल्कि अंगूठे ने खुद ब खुद 'Hide Story' पर क्लिक कर दिया।",
-    "duration_seconds": 10,
-    "posting_window": "13:30 - 14:00",
-    "reason": "Midday posting slots previously aligned with the channel's highest-performing video (AfaLxMy6FMY at 13:52)."
+    "concept": "A story about clearing out old archived photos in the gallery that were kept hidden, symbolizing final emotional detachment rather than just messaging apps.",
+    "opening_direction": "Gallery ke hidden folder ka password dalte hi,",
+    "twist_direction": "pata chala ki ab un tasviro ko dekh kar dard nahi, sirf ek ajnabi sa chehra dikhta hai jise main kabhi nahi janta tha.",
+    "duration_seconds": 12,
+    "posting_window": "05:30 PM - 07:30 PM",
+    "reason": "Building on the successful 'self respect' and smartphone cleanup pattern while slightly expanding the visual trigger from text chats to photo galleries as a controlled low-budget experiment."
   },
-  "experiment": "Testing a proactive emotional shift (moving from sadness to active digital boundary-setting) during the afternoon posting window.",
-  "updated_at": "2026-09-14T08:42:25.733342+00:00",
+  "experiment": "Testing whether shifting the digital action trigger from text message chats to a photo gallery hidden folder maintains or improves the self-respect content performance.",
+  "updated_at": "2026-09-14T09:41:52.589126+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-14T08:42:28.385731+00:00"
+  "generated_at": "2026-09-14T09:41:55.532517+00:00"
 }
