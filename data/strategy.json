@@ -1,40 +1,35 @@
 {
   "confidence": "25%",
-  "data_points": 12,
-  "overall_summary": "The sample size of 12 videos is too small and overall views are extremely low (mostly under 30 views, zero comments), making statistical confidence low. However, 'self respect' and smartphone micro-interactions (like clearing chats and deleting numbers) show slight relative strength compared to general sadness, but require controlled testing.",
+  "data_points": 13,
+  "overall_summary": "The channel shows very low overall view counts (mostly under 30 views), indicating low algorithmic distribution so far. However, 'self respect' and smartphone-habit hooks (like typing and deleting messages, or contact management) show slightly better traction compared to generic emotional topics.",
   "winning_patterns": [
     {
-      "pattern": "Smartphone micro-interaction hooks",
-      "evidence": "Videos focusing on phone actions like deleting chats or saving numbers (e.g., AfaLxMy6FMY with 40 views, aNR94Xxn0yM with 26 views) performed better than purely abstract concepts.",
-      "action": "Use concrete digital habits (typing indicators, pinned chats, contact lists) as starting points."
-    },
-    {
-      "pattern": "Self-respect empowerment angle",
-      "evidence": "The highest performing video (AfaLxMy6FMY, 40 views) tackled self-respect over passive heartbreak.",
-      "action": "Combine emotional vulnerability with a subtle shift towards personal dignity or setting boundaries."
+      "pattern": "Smartphone-habit hooks",
+      "evidence": "Videos like 'उंगली उसी चैट पर रुकी थी' (Self Respect) and 'बिना नाम के सेव किया था नंबर' received relatively higher views (40 and 26).",
+      "action": "Focus hooks on modern digital habits related to breakup, texting, and boundary setting."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic late-night abstract sadness",
-      "evidence": "Abstract hooks like 'रात के दो बजे' (G0gKV1p3ZHc) or 'नंबर ब्लॉक नहीं किया कभी' (aUuNKfe7jm4) underperformed in this small batch.",
-      "action": "Avoid vague nocturnal poetry; ground the emotion in a specific physical or digital action."
+      "pattern": "Generic emotional statements",
+      "evidence": "Broad phrases like 'रात के दो बजे' or generic titles without a strong physical micro-action underperformed.",
+      "action": "Avoid purely atmospheric hooks; tie every hook to a specific, tangible action on a smartphone or daily routine."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Bittersweet realization and quiet strength",
-    "hook_style": "Physical action involving a phone notification",
+    "emotion": "Empowerment mixed with lingering pain",
+    "hook_style": "Tangible digital action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A story about turning off read receipts to stop checking if they saw your message, realizing peace matters more than their attention.",
-    "opening_direction": "Blue ticks turned off. Not out of anger, but out of exhaustion from calculating how long they took to reply.",
-    "twist_direction": "When they finally ask why you hid your read receipts, you don't feel the urge to explain yourself anymore.",
-    "duration_seconds": 10,
-    "posting_window": "05:30 PM - 07:00 PM",
-    "reason": "Previous successful uploads leaned toward early evening slots and self-respect smartphone mechanics."
+    "concept": "A short narrative about removing someone from the phone's wallpaper/lock screen, realizing the space looks empty yet peaceful.",
+    "opening_direction": "वॉलपेपर बदलते वक्त जब उसकी तस्वीर हटाई,",
+    "twist_direction": "स्क्रीन खाली-खाली जरूर लगी, पर फोन उठाने पर अब दिल नहीं धड़का.",
+    "duration_seconds": 12,
+    "posting_window": "05:30 PM - 07:30 PM",
+    "reason": "Aligns with the successful 'self respect' and smartphone-action pattern from previous top performers while testing a fresh visual trigger."
   },
-  "experiment": "Testing whether shifting from deleting numbers to changing privacy settings (read receipts) maintains engagement for self-respect content.",
-  "updated_at": "2026-09-14T04:42:16.269894+00:00",
+  "experiment": "Testing lock-screen and wallpaper aesthetics as a new trigger within the high-performing 'self respect' category.",
+  "updated_at": "2026-09-14T05:40:01.752496+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-14T04:42:19.295171+00:00"
+  "generated_at": "2026-09-14T05:40:04.209438+00:00"
 }
