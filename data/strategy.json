@@ -1,40 +1,40 @@
 {
-  "confidence": "45%",
+  "confidence": "25%",
   "data_points": 12,
-  "overall_summary": "The channel shows a clear preference for 'Self Respect' and 'Digital Relatability' (phone/chat interactions). While sample sizes are small, videos focusing on active decisions (deleting chats, removing numbers) perform better than passive 'overthinking' content.",
+  "overall_summary": "The channel has a very small sample size with overall low view counts (max 40 views). However, content touching upon 'self respect' (e.g., AfaLxMy6FMY with 40 views and aNR94Xxn0yM with 26 views) shows slightly better baseline performance compared to pure sad or overthinking hooks.",
   "winning_patterns": [
     {
-      "pattern": "Active Self-Respect",
-      "evidence": "The video 'चैट डिलीट करने की हिम्मत' (40 views) is the highest performer.",
-      "action": "Focus on the moment of decision-making rather than just the feeling of sadness."
+      "pattern": "Self-respect and boundary-setting themes",
+      "evidence": "Videos like 'चैट डिलीट करने की हिम्मत' (40 views) and 'बिना नाम का नंबर' (26 views) performed relatively better than abstract late-night thoughts.",
+      "action": "Focus more narratives on personal empowerment, dignity, and making the hard choice to let go."
     },
     {
-      "pattern": "Digital Micro-moments",
-      "evidence": "Hooks involving phone interfaces (pinned chats, typing/deleting, contact lists) have consistently higher engagement than abstract emotional statements.",
-      "action": "Keep using specific UI-based hooks."
+      "pattern": "Tangible, physical phone actions in hooks",
+      "evidence": "Hooks mentioning specific smartphone interactions (e.g., 'उंगली उसी चैट पर रुकी थी', 'बिना नाम के सेव किया था नंबर') ground the emotion quickly.",
+      "action": "Continue using concrete, everyday digital habits as hook triggers."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Passive Overthinking",
-      "evidence": "Videos like 'रात के ख्याल' and 'ओवरथिंकिंग' (5-7 views) have lower engagement compared to self-respect content.",
-      "action": "Shift focus from 'suffering' to 'reclaiming' the narrative."
+      "pattern": "Generic late-night atmospheric openings",
+      "evidence": "Hooks like 'रात के दो बजे' or 'मेज पर रखी चाय ठंडी हो गई' yielded very low views (5-12 views).",
+      "action": "Avoid purely abstract time-of-night openings without a specific, actionable object or digital trigger."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment through detachment",
-    "hook_style": "Action-oriented UI moment",
+    "emotion": "Empowerment mixed with quiet closure",
+    "hook_style": "Action-oriented digital cleanup",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "The act of removing a 'favorite' or 'star' from a contact list.",
-    "opening_direction": "Start with the visual of the 'Star' icon next to a name in the contact list.",
-    "twist_direction": "The realization that removing the star didn't just change the list, it changed the priority of the person in your life.",
-    "duration_seconds": 15,
-    "posting_window": "13:30 - 14:00 IST",
-    "reason": "Historical data shows peak interest in content posted in the early afternoon, specifically around the 13:40-13:50 window."
+    "concept": "A realization that scrolling through a muted profile hurts more than completely archiving past conversations.",
+    "opening_direction": "जब महीनों बाद गलती से उसकी प्रोफाइल पर उंगली चली गई,",
+    "twist_direction": "और इस बार दर्द नहीं हुआ, बस एक अजीब सी हंसी आई कि मैं किसे तलाश रहा था।",
+    "duration_seconds": 10,
+    "posting_window": "05:30 PM - 07:30 PM IST",
+    "reason": "Aligns with the top-performing 'self respect' theme while testing a slight variation in the realization-based emotional twist during peak evening engagement."
   },
-  "experiment": "Testing if a 'visual action' (un-starring a contact) performs better than a 'deletion action' (deleting a chat).",
-  "updated_at": "2026-09-14T02:41:01.267162+00:00",
-  "model_used": "gemini-3.1-flash-lite",
-  "generated_at": "2026-09-14T02:41:04.982608+00:00"
+  "experiment": "Testing if shifting the self-respect narrative from 'deleting/blocking' to 'complete emotional indifference/realization' retains or improves view velocity.",
+  "updated_at": "2026-09-14T03:42:18.004120+00:00",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-09-14T03:42:20.657895+00:00"
 }
