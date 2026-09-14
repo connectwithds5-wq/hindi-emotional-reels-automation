@@ -1,40 +1,35 @@
 {
   "confidence": "25%",
   "data_points": 13,
-  "overall_summary": "The channel is in its early testing phase with very low sample sizes across 13 videos (views ranging from 3 to 40). While 'self respect' topics and phone/chat-based everyday hooks (like deleting chats or unnamed numbers) showed slightly higher baseline traction (e.g., AfaLxMy6FMY with 40 views, aNR94Xxn0yM with 26 views), overall engagement is too low to establish definitive viral patterns. Confidence is low, and a controlled exploration approach is required.",
+  "overall_summary": "The channel shows very low overall view counts across 13 videos, making statistical confidence quite low. However, 'self respect' and relatable phone/chat interaction hooks (like AfaLxMy6FMY with 40 views) slightly outperform abstract late-night poems or generic statements.",
   "winning_patterns": [
     {
-      "pattern": "Phone and Chat-Centric Hooks",
-      "evidence": "Videos referencing phone actions, chat screens, or contact lists (e.g., 'उंगली उसी चैट पर रुकी थी', 'बिना नाम के सेव किया था नंबर') generated relatively higher views like 40 and 26.",
-      "action": "Continue focusing hooks on tangible, modern digital relationship behaviors rather than abstract poetic statements."
-    },
-    {
-      "pattern": "Empowerment & Self-Respect Themes",
-      "evidence": "The topic 'self respect' (specifically letting go or choosing oneself) showed slightly better performance compared to passive sadness.",
-      "action": "Frame emotional vulnerability around personal boundaries and self-worth."
+      "pattern": "Tactile phone/chat interaction hooks",
+      "evidence": "Videos focusing on specific mobile actions like deleting chats, checking blue ticks, or contact lists (e.g., AfaLxMy6FMY, aNR94Xxn0yM) received relatively higher views compared to abstract topics.",
+      "action": "Incorporate micro-actions related to smartphones and messaging apps into future hooks."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract or Cliché Poetic Openings",
-      "evidence": "Videos using overly generic dramatic hooks or atmospheric descriptions without a concrete physical action underperformed.",
-      "action": "Avoid abstract poetic openings; anchor the start of the video in a specific, everyday digital or physical micro-moment."
+      "pattern": "Abstract atmospheric hooks",
+      "evidence": "Openings like 'रात के दो बजे' (G0gKV1p3ZHc) or 'मेज पर रखी चाय' (uIbMpCjVutQ) had lower traction (5-12 views), indicating they feel too generic.",
+      "action": "Avoid purely atmospheric openings and ground the hook in a specific, tangible digital or physical action."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Quiet closure and self-worth",
-    "hook_style": "Physical object / tangible action moment",
+    "emotion": "Empowering realization",
+    "hook_style": "Digital micro-action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short narrative about finally removing someone's birthday reminder from the phone calendar, shifting focus from waiting for a wish to protecting one's own peace.",
-    "opening_direction": "Calendar app notification popping up with an old nickname.",
-    "twist_direction": "Instead of feeling sad or tempted to text, calmly tapping 'delete event' and setting a reminder for one's own goals instead.",
+    "concept": "A realization that scrolling past someone's active status without clicking is the ultimate form of moving on.",
+    "opening_direction": "जब उंगली स्क्रॉल करते-करते अचानक उसकी स्टोरी पर रुक गई,",
+    "twist_direction": "पर इस बार दिल ने नहीं, बल्कि अंगूठे ने खुद ब खुद 'Hide Story' पर क्लिक कर दिया।",
     "duration_seconds": 10,
-    "posting_window": "05:30 PM - 07:30 PM",
-    "reason": "Tests a fresh digital trigger (calendar reminder) outside of chats and call logs, combining the winning 'self respect' theme with a relatable everyday micro-habit."
+    "posting_window": "13:30 - 14:00",
+    "reason": "Midday posting slots previously aligned with the channel's highest-performing video (AfaLxMy6FMY at 13:52)."
   },
-  "experiment": "Testing calendar/reminder-based notifications as a new hook category for self-respect stories to see if it outperforms chat-based hooks.",
-  "updated_at": "2026-09-14T07:42:07.290102+00:00",
+  "experiment": "Testing a proactive emotional shift (moving from sadness to active digital boundary-setting) during the afternoon posting window.",
+  "updated_at": "2026-09-14T08:42:25.733342+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-14T07:42:10.312856+00:00"
+  "generated_at": "2026-09-14T08:42:28.385731+00:00"
 }
