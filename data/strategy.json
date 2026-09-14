@@ -1,35 +1,40 @@
 {
   "confidence": "25%",
   "data_points": 13,
-  "overall_summary": "The channel shows initial viewer traction on 'Self Respect' and relatable phone-interaction hooks (e.g., AfaLxMy6FMY with 40 views, aNR94Xxn0yM with 27 views), though overall sample sizes are very low and engagement (likes/comments) remains nearly zero. Content focusing on digital boundaries, chat actions, and personal dignity performs marginally better than abstract night thoughts.",
+  "overall_summary": "The channel shows consistent low-sample performance across multiple emotional topics. 'Self respect' (e.g., AfaLxMy6FMY with 40 views) and relatable phone/chat-related micro-moments perform relatively better than abstract late-night concepts, though overall view counts remain under 50. Confidence is low due to limited traffic, requiring a controlled blend of the winning self-respect/phone interaction angle and small experimentation.",
   "winning_patterns": [
     {
-      "pattern": "Action-oriented phone or chat rituals",
-      "evidence": "Videos focusing on concrete phone UI actions like deleting chats, removing pins, or clearing names (e.g., AfaLxMy6FMY, aNR94Xxn0yM) achieved the highest view counts in the dataset (40 and 27 views).",
-      "action": "Double down on real-life smartphone micro-habits related to self-respect and moving on."
+      "pattern": "Phone and chat interface micro-moments",
+      "evidence": "Videos focusing on specific mobile actions like deleting chats or removing numbers (e.g., AfaLxMy6FMY, aNR94Xxn0yM) achieved the highest views (40 and 27 respectively).",
+      "action": "Continue framing hooks around tangible smartphone interactions tied to emotional choices."
+    },
+    {
+      "pattern": "Self-respect over passive yearning",
+      "evidence": "Content emphasizing personal boundaries and letting go (Self Respect topic) outperformed purely sad, passive late-night rambling.",
+      "action": "Pivot stories toward empowerment and quiet self-worth rather than endless waiting."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Vague atmospheric hooks about time or tea",
-      "evidence": "General ambient hooks like 'रात के दो बजे' or 'मेज पर रखी चाय ठंडी हो गई' yielded lower views (5 to 12 views).",
-      "action": "Avoid overly poetic or slow-burn atmospheric openings; anchor the story immediately in a tangible everyday action or object."
+      "pattern": "Abstract or generic late-night melancholy",
+      "evidence": "Videos like uIbMpCjVutQ ('मेज पर रखी चाय ठंडी हो गई') and aUuNKfe7jm4 generated very low engagement (5 views).",
+      "action": "Avoid vague atmospheric setups without an immediate, relatable daily artifact or action."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowered detachment",
-    "hook_style": "Concrete phone action paired with an internal realization",
+    "emotion": "quiet liberation",
+    "hook_style": "tangible digital boundary action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short narrative about clearing out old archived chats that were kept just in case, realizing that letting go of the digital archive brings final mental peace.",
-    "opening_direction": "ارشيف (Archive) फोल्डर खोला और...",
-    "twist_direction": "...पता चला कि जिसे संभाल कर रखा था, वो अब सिर्फ एक स्टोरेज स्पेस घेर रहा था, जगह दिल में नहीं.",
+    "concept": "Removing someone from the phone's 'Favorites' widget on the home screen, realizing they are no longer the first tap of the day.",
+    "opening_direction": "होम स्क्रीन के उस पहले विजेट से उसकी तस्वीर हटाते वक्त,",
+    "twist_direction": "लगा था उंगली कांपेगी, पर स्क्रीन खाली होते ही पहली बार सुकून की सांस आई।",
     "duration_seconds": 10,
     "posting_window": "05:30 PM - 07:30 PM",
-    "reason": "Aligns with the proven 'self-respect' and phone-interaction winning pattern while testing a slightly different UI element (archive folder instead of blocked lists or pinned chats)."
+    "reason": "Leverages the proven high-performing 'self respect' and 'phone action' patterns while avoiding repetitive opening hooks like 'नंबर' or 'चैट'."
   },
-  "experiment": "Testing if moving from blocked/deleted chats to the 'Archive' folder category maintains viewer retention for self-respect content.",
-  "updated_at": "2026-09-14T11:41:54.638917+00:00",
+  "experiment": "Testing a home-screen widget removal hook to see if visual digital habits outperform chat-deletion hooks.",
+  "updated_at": "2026-09-14T12:45:44.404935+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-14T11:41:57.334179+00:00"
+  "generated_at": "2026-09-14T12:45:47.339676+00:00"
 }
