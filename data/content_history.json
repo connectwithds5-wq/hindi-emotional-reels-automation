@@ -1271,6 +1271,76 @@
         "reason": "Previous successful self-respect videos performed well around late afternoon/early evening windows, tapping into post-work reflection time."
       },
       "model_used": "gemini-3.5-flash-lite"
+    },
+    {
+      "hook": "ब्लू टिक्स आज छिपा दिए",
+      "lines": [
+        "गुस्से में नहीं",
+        "बस हिसाब से थक गया था",
+        "कि वो कितनी देर में लौटा",
+        "कब उसने मैसेज देखा",
+        "हर पल ये सोचना",
+        "अब खुद को खोने जैसा है",
+        "सुकून उसके जवाब से बड़ा निकला"
+      ],
+      "youtube_title": "जब रिप्लाई का इंतज़ार खत्म हो जाए | Self Respect Story",
+      "youtube_description": "ब्लू टिक्स छिपाने की कहानी जो आपके आत्मसम्मान से जुड़ी है। जब किसी के ऑनलाइन होने का इंतज़ार करने से ज्यादा सुकून खुद की शांति में मिलने लगे। क्या आपने कभी अपने सुकून के लिए ऐसा फैसला लिया है?",
+      "youtube_keywords": [
+        "self respect story in hindi",
+        "dil ki diary emotional story",
+        "blue ticks off reality",
+        "mental peace over attention",
+        "quiet strength status",
+        "hindi micro story",
+        "emotional reels hindi",
+        "self respect status",
+        "relatable hindi poetry",
+        "attitude and self respect"
+      ],
+      "youtube_hashtags": [
+        "SelfRespect",
+        "DilKiDiary",
+        "EmotionalStory",
+        "HindiReels",
+        "InnerPeace",
+        "Shorts",
+        "Relatable"
+      ],
+      "caption": "कुछ लड़ाइयां खुद को बचाने के लिए होती हैं, किसी को हराने के लिए नहीं।",
+      "keywords": [
+        "self respect",
+        "peace over attention",
+        "hindi emotional story",
+        "dil ki diary",
+        "relatable thoughts",
+        "quiet strength",
+        "mental peace",
+        "deep words"
+      ],
+      "hashtags": [
+        "selfrespect",
+        "dilkidiary",
+        "emotional",
+        "hindistory",
+        "peace",
+        "relatable",
+        "deep",
+        "thoughtoftheday"
+      ],
+      "topic": "self respect",
+      "strategy_used": {
+        "topic": "self respect",
+        "emotion": "Bittersweet realization and quiet strength",
+        "hook_style": "Physical action involving a phone notification",
+        "story_structure": "simple -> relatable -> twist",
+        "concept": "A story about turning off read receipts to stop checking if they saw your message, realizing peace matters more than their attention.",
+        "opening_direction": "Blue ticks turned off. Not out of anger, but out of exhaustion from calculating how long they took to reply.",
+        "twist_direction": "When they finally ask why you hid your read receipts, you don't feel the urge to explain yourself anymore.",
+        "duration_seconds": 10,
+        "posting_window": "05:30 PM - 07:00 PM",
+        "reason": "Previous successful uploads leaned toward early evening slots and self-respect smartphone mechanics."
+      },
+      "model_used": "gemini-3.5-flash-lite"
     }
   ]
 }
