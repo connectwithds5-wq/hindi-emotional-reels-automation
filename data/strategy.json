@@ -1,35 +1,40 @@
 {
   "confidence": "25%",
   "data_points": 13,
-  "overall_summary": "The channel has low sample sizes across 13 videos, with views ranging between 3 and 40. Content centered around modern relationship friction, digital touchpoints (chats, blocked numbers, typing status), and self-respect shows slight relative traction compared to abstract emotional topics.",
+  "overall_summary": "The channel is in its early testing phase with very low sample sizes across 13 videos (views ranging from 3 to 40). While 'self respect' topics and phone/chat-based everyday hooks (like deleting chats or unnamed numbers) showed slightly higher baseline traction (e.g., AfaLxMy6FMY with 40 views, aNR94Xxn0yM with 26 views), overall engagement is too low to establish definitive viral patterns. Confidence is low, and a controlled exploration approach is required.",
   "winning_patterns": [
     {
-      "pattern": "Digital micro-actions and phone boundary themes",
-      "evidence": "Videos focusing on phone interactions like 'AfaLxMy6FMY' (self respect, 40 views) and 'aNR94Xxn0yM' (self respect, 26 views) outperformed generic emotional quotes.",
-      "action": "Continue focusing on specific, tactile digital habits (chats, notifications, muting, deleting) rather than abstract loneliness."
+      "pattern": "Phone and Chat-Centric Hooks",
+      "evidence": "Videos referencing phone actions, chat screens, or contact lists (e.g., 'उंगली उसी चैट पर रुकी थी', 'बिना नाम के सेव किया था नंबर') generated relatively higher views like 40 and 26.",
+      "action": "Continue focusing hooks on tangible, modern digital relationship behaviors rather than abstract poetic statements."
+    },
+    {
+      "pattern": "Empowerment & Self-Respect Themes",
+      "evidence": "The topic 'self respect' (specifically letting go or choosing oneself) showed slightly better performance compared to passive sadness.",
+      "action": "Frame emotional vulnerability around personal boundaries and self-worth."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract poetic hooks without physical anchors",
-      "evidence": "Videos like 'wFimeeP_aVc' ('ब्लू टिक्स आज छिपा दिए', 3 views) and 'aUuNKfe7jm4' ('नंबर ब्लॉक नहीं किया कभी', 5 views) performed poorly when lacking a strong situational conflict.",
-      "action": "Avoid abstract statements; ground every hook in an immediate, recognizable everyday action."
+      "pattern": "Abstract or Cliché Poetic Openings",
+      "evidence": "Videos using overly generic dramatic hooks or atmospheric descriptions without a concrete physical action underperformed.",
+      "action": "Avoid abstract poetic openings; anchor the start of the video in a specific, everyday digital or physical micro-moment."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "empowered detachment",
-    "hook_style": "action-oriented micro-conflict",
+    "emotion": "Quiet closure and self-worth",
+    "hook_style": "Physical object / tangible action moment",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Removing someone from the phone's lock screen wallpaper to reclaim personal space.",
-    "opening_direction": "Lock screen wallpaper change notification or the act of pressing 'remove wallpaper'.",
-    "twist_direction": "Realizing that seeing the default blank screen feels heavier for a second, but infinitely more liberating than looking at a ghost.",
-    "duration_seconds": 15,
+    "concept": "A short narrative about finally removing someone's birthday reminder from the phone calendar, shifting focus from waiting for a wish to protecting one's own peace.",
+    "opening_direction": "Calendar app notification popping up with an old nickname.",
+    "twist_direction": "Instead of feeling sad or tempted to text, calmly tapping 'delete event' and setting a reminder for one's own goals instead.",
+    "duration_seconds": 10,
     "posting_window": "05:30 PM - 07:30 PM",
-    "reason": "Aligns with peak self-respect interest patterns in historical data while testing a fresh visual trigger (lock screen)."
+    "reason": "Tests a fresh digital trigger (calendar reminder) outside of chats and call logs, combining the winning 'self respect' theme with a relatable everyday micro-habit."
   },
-  "experiment": "Testing lock-screen visuals vs. chat-box visuals for self-respect narratives",
-  "updated_at": "2026-09-14T06:45:51.686171+00:00",
+  "experiment": "Testing calendar/reminder-based notifications as a new hook category for self-respect stories to see if it outperforms chat-based hooks.",
+  "updated_at": "2026-09-14T07:42:07.290102+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-14T06:45:54.525014+00:00"
+  "generated_at": "2026-09-14T07:42:10.312856+00:00"
 }
