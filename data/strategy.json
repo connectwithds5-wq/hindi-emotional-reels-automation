@@ -1,45 +1,35 @@
 {
   "confidence": "25%",
   "data_points": 12,
-  "overall_summary": "The channel has a very small dataset with low view counts overall (under 40 views per video). Videos centered around 'self respect' and smartphone-related micro-habits (like deleting chats or numbers) show slightly better engagement comparatively, but overall sample size is too low to establish a definitive viral formula. A controlled exploration approach is required.",
+  "overall_summary": "The channel shows very low overall view counts across all recent uploads, indicating low initial distribution or algorithmic traction. However, 'self respect' and boundary-setting themes (like deleting chats or removing numbers) show slight relative outperformance compared to generic sad or romantic hooks, though sample sizes are too small for high confidence.",
   "winning_patterns": [
     {
-      "pattern": "Smartphone micro-action hooks",
-      "evidence": "Videos like 'चैट डिलीट करने की हिम्मत' (36 views) and 'बिना नाम का नंबर' (24 views) outperformed generic emotional hooks.",
-      "action": "Focus hooks on tangible smartphone or digital communication gestures rather than abstract feelings."
-    },
-    {
-      "pattern": "Self-respect narrative framing",
-      "evidence": "The 'self respect' topic cluster generally attracts slightly higher initial traction than general heartbreak.",
-      "action": "Anchor heartbreak or overthinking stories into choices of personal dignity and boundary-setting."
+      "pattern": "Actionable Self-Respect Hooks",
+      "evidence": "Videos like 'चैट डिलीट करने की हिम्मत' (AfaLxMy6FMY, 36 views) and 'बिना नाम का नंबर' (aNR94Xxn0yM, 24 views) performed relatively better than abstract emotional topics.",
+      "action": "Focus hooks on concrete, empowering digital boundary actions rather than passive sadness."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract atmospheric openings",
-      "evidence": "Hooks like 'रात के दो बजे' (12 views) or 'मेज पर रखी चाय' (5 views) resulted in lower engagement.",
-      "action": "Avoid generic late-night or tea-drinking cliches; use specific physical actions instead."
-    },
-    {
-      "pattern": "Generic breakup captions and titles",
-      "evidence": "Broad titles mentioning general sadness underperformed compared to specific action-oriented scenarios.",
-      "action": "Ensure titles and hooks reference a precise, highly relatable digital dilemma."
+      "pattern": "Abstract or Passive Night Thoughts",
+      "evidence": "Videos like 'रात के ख्याल' and general late-night brooding (e.g., uIbMpCjVutQ, 5 views) underperformed.",
+      "action": "Avoid purely atmospheric hooks without a specific, tangible object or action attached."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment mixed with quiet closure",
-    "hook_style": "Digital boundary action",
+    "emotion": "Empowerment through letting go",
+    "hook_style": "Tangible digital action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization moment when blocking someone stops feeling like a punishment for them and starts feeling like peace for yourself.",
-    "opening_direction": "บลॉक लिस्ट खोलते वक्त उंगली उस नाम पर गई जिसे महीनों से सजा दे रहे थे।",
-    "twist_direction": "अचानक एहसास हुआ कि उसे सजा देते-देते कैद तो हम खुद अपने ही फोन में काट रहे थे, आज उसे अनब्लॉक करके हमेशा के लिए डिलीट कर दिया।",
-    "duration_seconds": 30,
-    "posting_window": "13:00 to 14:00 IST",
-    "reason": "Tests whether shifting the narrative from 'punishing the ex' to 'freeing oneself' via a digital setting increases completion and engagement."
+    "concept": "A realization moment while scrolling through archived or hidden photos, choosing delete over holding onto false hope.",
+    "opening_direction": "गैलरी के सबसे पुराने फोल्डर को खोलते वक्त उंगली थम गई,",
+    "twist_direction": "तस्वीरें वही थीं, लेकिन इस बार चेहरे पर आंसू नहीं, फोन डिलीट बटन पर दबा हुआ आत्मविश्वास था।",
+    "duration_seconds": 15,
+    "posting_window": "13:30 - 14:00 IST",
+    "reason": "Previous relative peaks occurred on early afternoon uploads targeting mid-day reflection, specifically leveraging the winning 'self respect' topic cluster."
   },
-  "experiment": "Testing if switching from vindictive blocking to complete digital erasure improves self-respect video engagement.",
-  "updated_at": "2026-09-13T23:37:50.201395+00:00",
+  "experiment": "Testing a visual/gallery-based memory cleanup hook instead of messaging/chat-based hooks to diversify the self-respect content angle.",
+  "updated_at": "2026-09-14T00:45:04.546384+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-13T23:37:53.099649+00:00"
+  "generated_at": "2026-09-14T00:45:06.985230+00:00"
 }
