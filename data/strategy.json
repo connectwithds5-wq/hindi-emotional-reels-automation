@@ -1,35 +1,40 @@
 {
-  "confidence": "30%",
+  "confidence": "25%",
   "data_points": 13,
-  "overall_summary": "View counts across all uploaded shorts remain extremely low (3 to 40 views), indicating that overall channel reach and algorithmic discovery are still in the early exploration phase. However, self respect topics combined with specific tangible smartphone actions (like deleting chats or unnamed numbers) show slightly better baseline views compared to abstract late-night musings.",
+  "overall_summary": "The channel shows initial viewer traction with topics centered around 'self respect' and smartphone-related micro-moments (like chat histories and saved numbers), with 'AfaLxMy6FMY' peaking at 40 views. However, overall sample sizes and engagement (likes/comments) remain very low, indicating that while certain everyday hooks resonate slightly more, confidence in the data is low and requires controlled exploratory testing.",
   "winning_patterns": [
     {
-      "pattern": "Tangible digital boundary-setting",
-      "evidence": "Videos focusing on concrete phone actions under 'self respect' (e.g., 'उंगली उसी चैट पर रुकी थी' with 40 views, and 'बिना नाम के सेव किया था नंबर' with 26 views) outperformed abstract emotional ones.",
-      "action": "Focus hooks and stories around physical, everyday smartphone triggers related to digital boundaries and self-worth."
+      "pattern": "Smartphone interaction hooks",
+      "evidence": "Videos focusing on tactile digital actions like chat deletions, pinned chats, and saved numbers (e.g., 'AfaLxMy6FMY' with 40 views and 'aNR94Xxn0yM' with 26 views) outperform abstract emotional statements.",
+      "action": "Continue focusing hooks on specific smartphone screen actions or micro-moments."
+    },
+    {
+      "pattern": "Self-respect narrative integration",
+      "evidence": "Blending everyday heartbreak with an assertive choice or self-preservation theme yields relatively higher views compared to purely passive suffering.",
+      "action": "Frame emotional vulnerability around reclaiming personal boundaries."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract late-night environment openings",
-      "evidence": "Openings like 'रात के दो बजे' (12 views) or 'मेज पर रखी चाय ठंडी हो गई' (5 views) yielded lower engagement in this sample size.",
-      "action": "Avoid purely atmospheric openings; anchor the start of the story into an active, immediate decision or action."
+      "pattern": "Abstract or overly broad emotional hooks",
+      "evidence": "Hooks like 'रात के दो बजे' (G0gKV1p3ZHc) or passive tea/night thoughts (uIbMpCjVutQ) had lower traction (5-12 views).",
+      "action": "Avoid generic late-night atmospheric openings unless tied to a specific physical action."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "empowerment through letting go",
-    "hook_style": "action-oriented micro-decision",
+    "emotion": "Quiet closure",
+    "hook_style": "Tactile notification action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A story about clearing out old archived photos in the gallery that were kept hidden, symbolizing final emotional detachment rather than just messaging apps.",
-    "opening_direction": "Gallery ke hidden folder ka password dalte hi,",
-    "twist_direction": "pata chala ki ab un tasviro ko dekh kar dard nahi, sirf ek ajnabi sa chehra dikhta hai jise main kabhi nahi janta tha.",
-    "duration_seconds": 12,
-    "posting_window": "05:30 PM - 07:30 PM",
-    "reason": "Building on the successful 'self respect' and smartphone cleanup pattern while slightly expanding the visual trigger from text chats to photo galleries as a controlled low-budget experiment."
+    "concept": "Turning off read receipts or muting a specific app notification tone for one specific person, realizing that the silence hurts less than the delayed reply.",
+    "opening_direction": "Notification settings screen where the custom ringtone for them is finally changed to default.",
+    "twist_direction": "Realizing the silence of a default tone feels lighter than the anxiety of expecting a unique ringtone.",
+    "duration_seconds": 10,
+    "posting_window": "05:30 PM - 07:30 PM IST",
+    "reason": "Tests if shifting the focus from chat interfaces to notification audio settings maintains the winning digital micro-interaction pattern."
   },
-  "experiment": "Testing whether shifting the digital action trigger from text message chats to a photo gallery hidden folder maintains or improves the self-respect content performance.",
-  "updated_at": "2026-09-14T09:41:52.589126+00:00",
+  "experiment": "Testing if changing notification audio settings as a hook performs as well as chat deletion/number blocking hooks for self-respect topics.",
+  "updated_at": "2026-09-14T10:41:02.855826+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-14T09:41:55.532517+00:00"
+  "generated_at": "2026-09-14T10:41:05.765345+00:00"
 }
