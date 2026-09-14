@@ -1,35 +1,35 @@
 {
-  "confidence": "35%",
+  "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "The channel shows early traction with 'self respect' (AfaLxMy6FMY - 40 views, aNR94Xxn0yM - 27 views, wFimeeP_aVc - 29 views) performing better than abstract late-night or one-sided love themes. However, overall sample size is extremely low, so confidence is limited and requires a controlled exploration strategy focused on tangible boundaries of self-worth.",
+  "overall_summary": "The channel shows a clear preference for 'Self Respect' content over abstract 'Overthinking' or 'Night Thoughts' themes. High-performing videos (40, 29, 27 views) focus on the tangible act of cutting ties (deleting chats/numbers), whereas abstract emotional musings are underperforming.",
   "winning_patterns": [
     {
-      "pattern": "Actionable Self-Respect Moments",
-      "evidence": "Videos focusing on deleting chats, removing numbers, and prioritizing self-worth (e.g., AfaLxMy6FMY with 40 views and aNR94Xxn0yM with 27 views) outperform vague emotional monologues.",
-      "action": "Double down on real-world actions taken to reclaim dignity after being ignored."
+      "pattern": "Action-oriented Self Respect",
+      "evidence": "Videos about deleting chats or removing numbers (AfaLxMy6FMY, wFimeeP_aVc, aNR94Xxn0yM) consistently outperform abstract emotional stories.",
+      "action": "Focus on specific, relatable digital actions that signify moving on."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Late-Night Monologues",
-      "evidence": "Vague themes like 'रात के ख्याल' or generic waiting (e.g., uIbMpCjVutQ with 5 views, rwOUYo_hayQ with 1 view) struggle to grab immediate attention.",
-      "action": "Ground every emotional feeling into a specific smartphone or physical micro-action."
+      "pattern": "Abstract Night Thoughts",
+      "evidence": "General musings about 'night thoughts' or 'tea getting cold' (uIbMpCjVutQ, G0gKV1p3ZHc) have very low engagement.",
+      "action": "Avoid vague poetic openings; start with a specific, relatable digital or physical friction point."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment through detachment",
-    "hook_style": "Tangible smartphone boundary action",
+    "emotion": "Empowerment through closure",
+    "hook_style": "Specific digital action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Removing someone from close friends or hidden story lists because their silent viewing without interaction has become an emotional drain.",
-    "opening_direction": "जब उसकी नज़रों में होने की चाहत, खुद की नजरों में गिरने लगे...",
-    "twist_direction": "...तो स्टोरी ब्लॉक करना ब्लॉक करने से बड़ा कदम होता है।",
-    "duration_seconds": 10,
-    "posting_window": "05:30 PM - 07:30 PM",
-    "reason": "Aligns with the proven self-respect theme while testing a fresh real-life digital boundary that hasn't been used yet."
+    "concept": "The moment you realize you no longer check if they viewed your story.",
+    "opening_direction": "Start with the specific habit of checking the 'viewed by' list on a status update.",
+    "twist_direction": "Reveal that you stopped checking not because you don't care, but because you finally stopped looking for their validation.",
+    "duration_seconds": 15,
+    "posting_window": "05:30 AM - 06:00 AM",
+    "reason": "Early morning slots have shown better traction for self-reflection content compared to late-night uploads."
   },
-  "experiment": "Testing if shifting from phone number deletion to social media visibility boundaries (Close Friends/Story lists) maintains the high-view momentum of self-respect content.",
-  "updated_at": "2026-09-14T15:42:25.183838+00:00",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-14T15:42:28.496382+00:00"
+  "experiment": "Testing if 'Status/Story' engagement is as compelling as 'Chat/Message' engagement for the self-respect niche.",
+  "updated_at": "2026-09-14T16:42:30.991707+00:00",
+  "model_used": "gemini-3.1-flash-lite",
+  "generated_at": "2026-09-14T16:42:35.125561+00:00"
 }
