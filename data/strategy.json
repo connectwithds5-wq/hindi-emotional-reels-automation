@@ -1,35 +1,40 @@
 {
-  "confidence": "25%",
+  "confidence": "45%",
   "data_points": 12,
-  "overall_summary": "Data volume is very low across all uploaded videos (views ranging from 5 to 38), making it difficult to establish high-confidence statistical trends. However, topics touching upon 'self respect' (e.g., AfaLxMy6FMY with 38 views and aN-R4Xxn0yM with 24 views) show slight relative outperformance compared to generic late-night or one-sided love themes. Confidence is low, and we must proceed with a controlled exploration strategy.",
+  "overall_summary": "The channel shows a clear preference for 'Self Respect' and 'Digital Relatability' (phone/chat interactions). While sample sizes are small, videos focusing on active decisions (deleting chats, removing numbers) perform better than passive 'overthinking' content.",
   "winning_patterns": [
     {
-      "pattern": "Actionable Self-Respect Decisions",
-      "evidence": "Videos focusing on deleting chats, clearing names, or self-protection ('self respect' topic) yielded the highest view counts in the dataset (e.g., 38 and 24 views).",
-      "action": "Lean more into micro-actions related to boundaries and letting go rather than passive sadness."
+      "pattern": "Active Self-Respect",
+      "evidence": "The video 'चैट डिलीट करने की हिम्मत' (40 views) is the highest performer.",
+      "action": "Focus on the moment of decision-making rather than just the feeling of sadness."
+    },
+    {
+      "pattern": "Digital Micro-moments",
+      "evidence": "Hooks involving phone interfaces (pinned chats, typing/deleting, contact lists) have consistently higher engagement than abstract emotional statements.",
+      "action": "Keep using specific UI-based hooks."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Late-Night Ramblings",
-      "evidence": "Vague hooks about tea getting cold or late-night overthinking without a tangible object or action resulted in very low views (5-12 views).",
-      "action": "Avoid generic atmospheric setups; ground every story in a specific physical object or digital interaction."
+      "pattern": "Passive Overthinking",
+      "evidence": "Videos like 'रात के ख्याल' and 'ओवरथिंकिंग' (5-7 views) have lower engagement compared to self-respect content.",
+      "action": "Shift focus from 'suffering' to 'reclaiming' the narrative."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment mixed with quiet closure",
-    "hook_style": "Tangible digital boundary action",
+    "emotion": "Empowerment through detachment",
+    "hook_style": "Action-oriented UI moment",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Removing someone from the phone's blocked list permanently not out of anger, but complete indifference.",
-    "opening_direction": "बेड पर लेटे-लेटे ब्लॉक लिस्ट ओपन की...",
-    "twist_direction": "...और फिर उस उंगली से हमेशा के लिए 'अनब्लॉक' करके नंबर ही डिलीट कर दिया। अब फर्क पड़ना बंद हो गया था।",
-    "duration_seconds": 12,
-    "posting_window": "13:30 - 14:00 (Early Afternoon Test)",
-    "reason": "Previous relative peaks occurred around early afternoon uploads dealing with active self-respect decisions. Testing if an active closure hook outperforms passive chat deletion."
+    "concept": "The act of removing a 'favorite' or 'star' from a contact list.",
+    "opening_direction": "Start with the visual of the 'Star' icon next to a name in the contact list.",
+    "twist_direction": "The realization that removing the star didn't just change the list, it changed the priority of the person in your life.",
+    "duration_seconds": 15,
+    "posting_window": "13:30 - 14:00 IST",
+    "reason": "Historical data shows peak interest in content posted in the early afternoon, specifically around the 13:40-13:50 window."
   },
-  "experiment": "Testing active indifference (removing from block list permanently) vs. passive chat deletion to see which boundary-setting theme drives higher engagement.",
-  "updated_at": "2026-09-14T01:39:41.122775+00:00",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-14T01:39:43.934192+00:00"
+  "experiment": "Testing if a 'visual action' (un-starring a contact) performs better than a 'deletion action' (deleting a chat).",
+  "updated_at": "2026-09-14T02:41:01.267162+00:00",
+  "model_used": "gemini-3.1-flash-lite",
+  "generated_at": "2026-09-14T02:41:04.982608+00:00"
 }
