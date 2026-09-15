@@ -1,35 +1,40 @@
 {
   "confidence": "65%",
   "data_points": 15,
-  "overall_summary": "Analysis of the recent historical data shows a clear shift in audience engagement. While older videos focused broadly on 'overthinking' and late-night feelings yielding low views (5-20 views), newer content centered around 'self respect'—specifically actions involving chat interactions, blocking, deleting, and status lists—consistently performs better (averaging 30-40 views, peaking at 40). The audience responds strongly to tactile, everyday digital boundary-setting rather than abstract sadness.",
+  "overall_summary": "Analysis of the recent shorts indicates that 'self respect' combined with digital boundary-setting triggers (like chat interactions, muting pinned chats, or clearing status lists) performs noticeably better than passive heartbreak or abstract overthinking themes. Videos focusing on 'self respect' consistently pull higher view counts (ranging between 32 to 40 views) compared to generic emotional venting.",
   "winning_patterns": [
     {
-      "pattern": "Digital Boundary Actions (Self Respect)",
-      "evidence": "Videos like 'चैट डिलीट करने की हिम्मत' (40 views), 'ब्लू टिक्स आज छिपा दिए' (34 views), and 'स्टेटस लिस्ट से उसका नाम' (33 views) consistently outperform abstract emotional content.",
-      "action": "Focus story hooks on micro-actions involving smartphone interfaces related to self-respect and moving on."
+      "pattern": "Digital Boundary Actions",
+      "evidence": "Videos like 'चैट डिलीट करने की हिम्मत...' (40 views) and 'स्टेटस लिस्ट में सबसे ऊपर...' (36 views) outperform vague sad poetry.",
+      "action": "Center hooks around specific UI actions like muting, blocking, clearing lists, or hiding read receipts."
+    },
+    {
+      "pattern": "Active Self-Preservation Over Passive Sadness",
+      "evidence": "Content emphasizing reclaiming self-worth over crying over lost love gets higher traction.",
+      "action": "Frame the emotional narrative around choosing oneself over waiting for a reply."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Late-Night Melodrama",
-      "evidence": "Videos focusing heavily on generic time markers or abstract thoughts like 'रात के दो बजे' (12 views) or 'मेज पर रखी चाय ठंडी हो गई' (5 views) show very low traction.",
-      "action": "Avoid purely atmospheric openings without a specific, relatable modern conflict."
+      "pattern": "Vague Late-Night Melancholy",
+      "evidence": "Videos focusing solely on 'रात के ख्याल' or abstract overthinking without a concrete interaction hook (e.g., 'रात के दो बजे' or 'चाय ठंडी हो गई') yield lower views (5-12 views).",
+      "action": "Avoid purely atmospheric openings; ground every emotional thought in a tangible trigger."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment and detachment",
-    "hook_style": "Tactile digital action",
+    "emotion": "Empowering closure and letting go",
+    "hook_style": "Action-oriented notification trigger",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization moment when clearing out phone galleries or archived folders where an old shared photo is finally deleted instead of saved to cloud storage.",
-    "opening_direction": "Gallery clean-up notification: 'Deleting 500 items from Recently Deleted.'",
-    "twist_direction": "Realizing the final photo isn't being deleted with tears, but with a blank, indifferent stare because the memory finally lost its weight.",
+    "concept": "A realization that checking if they viewed your story no longer brings anxiety, but complete indifference.",
+    "opening_direction": "जब स्टोरी व्यूअर्स की लिस्ट में सबसे ऊपर उनका नाम ढूंढना अचानक बंद हो जाए,",
+    "twist_direction": "तब एहसास होता है कि हार तुम्हारी नहीं, तुम्हारी परवाह की हुई है।",
     "duration_seconds": 10,
-    "posting_window": "05:30 PM - 07:30 PM",
-    "reason": "Aligns with the proven self-respect and digital cleanup winning pattern while slightly testing a gallery/media cleanup angle instead of just chats."
+    "posting_window": "13:00 - 14:00 UTC",
+    "reason": "Matches the proven high-performing publishing time slot and leverages the winning 'self-respect UI trigger' pattern."
   },
-  "experiment": "Testing whether shifting the self-respect tactile hook from chat apps (WhatsApp/Instagram) to phone storage/photo galleries retains the higher view counts.",
-  "updated_at": "2026-09-15T05:42:18.050703+00:00",
+  "experiment": "Testing if shifting the digital trigger from chat interfaces (chats/numbers) to social viewing habits (story view lists) maintains audience retention and engagement.",
+  "updated_at": "2026-09-15T06:45:26.112857+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-15T05:42:20.932195+00:00"
+  "generated_at": "2026-09-15T06:45:28.809899+00:00"
 }
