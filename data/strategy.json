@@ -1,35 +1,35 @@
 {
   "confidence": "45%",
-  "data_points": 15,
-  "overall_summary": "While the channel is experimenting across various emotional themes, videos centered around 'self respect' and digital micro-behaviors (chats, blocking, statuses) have yielded higher view counts (averaging 25-40 views) compared to generic late-night sadness topics (averaging 5-15 views). However, due to the overall low sample size and low engagement (likes/comments), confidence is moderate-low, necessitating a continuation of the winning self-respect framework with a slight controlled exploration.",
+  "data_points": 16,
+  "overall_summary": "The channel shows consistent interest in 'self respect' and 'ओवरथिंकिंग' topics, with the highest views concentrating around specific digital-age boundary-setting actions (e.g., deleting chats, muting, removing statuses). While absolute view counts are low across the board, 'self respect' themes consistently outperform generic heartbreak or poetry.",
   "winning_patterns": [
     {
-      "pattern": "Digital micro-behavior hooks tied to self-respect",
-      "evidence": "Videos like 'उंगली उसी चैट पर रुकी थी' (AfaLxMy6FMY - 40 views) and 'स्टेटस लिस्ट में सबसे ऊपर उन्हीं का नाम था' (rwOUYo_hayQ - 37 views) outperformed generic sad themes.",
-      "action": "Focus hooks on tangible, modern smartphone actions like muting, hiding stories, or removing pinned chats."
+      "pattern": "Digital Boundary Hooks",
+      "evidence": "Videos like 'चैट डिलीट करने की हिम्मत' (40 views) and 'स्टेटस लिस्ट में सबसे ऊपर' (37 views) perform better than abstract heartbreak hooks.",
+      "action": "Focus hooks on modern digital micro-interactions related to letting go and preserving self-respect."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Vague late-night atmospheric hooks",
-      "evidence": "Videos like 'रात के दो बजे' (G0gKV1p3ZHc - 12 views) and 'मेज पर रखी चाय ठंडी हो गई' (uIbMpCjVutQ - 5 views) underperformed significantly.",
-      "action": "Avoid abstract poetic openings about time or weather; ground the start in an immediate, recognizable phone-screen action."
+      "pattern": "Zero-view outlier on same-day duplicate formatting",
+      "evidence": "Video 8tBTO2WCWg4 got 0 views, potentially due to over-saturation of self-respect uploads in a short window or weak hook delivery.",
+      "action": "Space out similar sub-topics and ensure the hook immediately triggers a visceral reaction."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment through emotional detachment",
-    "hook_style": "Visual and psychological digital action",
+    "emotion": "Empowered detachment",
+    "hook_style": "Modern notification context",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Removing someone from close friends or restricted story lists, realizing that hiding your peace is better than showing your pain.",
-    "opening_direction": "Stories पर लॉक लगाने से पहले, मैंने उसे सिर्फ एक क्लिक में 'Close Friends' से बाहर कर दिया।",
-    "twist_direction": "डर था कि वो पूछेगा क्यों, पर जब 24 घंटे बीतने पर भी उसका मैसेज नहीं आया, तब समझ आया कि मेरा डर ही सबसे बड़ा धोखा था।",
+    "concept": "A protagonist who finally turns off read receipts, realizing that peace matters more than letting someone know you saw their message.",
+    "opening_direction": "ब्लू टिक्स हमेशा के लिए ऑफ करने से पहले...",
+    "twist_direction": "यह सोचना छोड़ दिया कि वो क्या सोचेंगे, असली सुकून तो तब मिला जब फर्क पड़ना बंद हो गया।",
     "duration_seconds": 10,
-    "posting_window": "05:30 PM - 07:30 PM IST",
-    "reason": "Leverages the proven high-performing 'self respect' topic and digital-boundary theme while testing story-view privacy as a fresh relatable detail."
+    "posting_window": "18:00 - 20:00 IST",
+    "reason": "Leverages the proven high-performing 'self-respect and digital detachment' pattern that previously yielded the channel's top views."
   },
-  "experiment": "Testing whether shifting from chat deletion to Instagram/WhatsApp story privacy settings increases comment/like engagement.",
-  "updated_at": "2026-09-15T13:41:22.276479+00:00",
+  "experiment": "Testing if shifting the digital boundary focus from chat/status deletions to privacy settings (read receipts) maintains audience retention.",
+  "updated_at": "2026-09-15T14:40:56.451344+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-15T13:41:26.090414+00:00"
+  "generated_at": "2026-09-15T14:41:06.995828+00:00"
 }
