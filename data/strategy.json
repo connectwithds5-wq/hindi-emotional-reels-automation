@@ -1,35 +1,35 @@
 {
   "confidence": "35%",
   "data_points": 15,
-  "overall_summary": "The channel shows early traction in 'self respect' and specific digital-age boundary topics (like deleting chats, muting pins, and blocking). However, overall view counts are generally low (ranging from 5 to 40 views), meaning confidence is low and patterns should be treated as early signals rather than definitive viral formulas. A controlled exploration focusing heavily on the winning 'self respect and digital boundaries' theme is recommended.",
+  "overall_summary": "The channel shows early positive signals toward 'self respect' and boundary-setting themes (specifically involving phone interactions, chats, and contact lists), outperforming generic late-night overthinking posts. However, absolute view counts remain low across the board, so confidence is low and requires continued testing of winning formats.",
   "winning_patterns": [
     {
-      "pattern": "Digital boundary and self-respect actions",
-      "evidence": "Videos focusing on 'self respect' like AfaLxMy6FMY ('चैट डिलीट करने की हिम्मत', 40 views) and rwOUYo_hayQ (36 views) outperform general emotional or late-night rambling videos.",
-      "action": "Double down on micro-actions related to phone usage and self-respect, such as muting, unfollowing, or hiding stories."
+      "pattern": "Digital boundary actions (Self Respect)",
+      "evidence": "Videos like AfaLxMy6FMY ('चैट डिलीट करने की हिम्मत', 40 views), rwOUYo_hayQ ('स्टेटस लिस्ट में सबसे ऊपर', 36 views), and wFimeeP_aVc ('ब्लू टिक्स', 32 views) performed better than generic night thoughts.",
+      "action": "Double down on micro-actions related to phones, chats, and visible digital boundaries (muting, hiding status, removing from lists)."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Vague late-night or tea-drinking ambient concepts",
-      "evidence": "Videos like uIbMpCjVutQ ('चाय ठंडी हो गई', 5 views) received minimal traction, indicating that overly poetic or abstract concepts fail to grab immediate attention.",
-      "action": "Avoid purely atmospheric hooks and ground every story in a concrete, highly specific modern digital action."
+      "pattern": "Vague night-time and tea/loneliness tropes",
+      "evidence": "uIbMpCjVutQ ('चाय ठंडी हो गई', 5 views) and G0gKV1p3ZHc ('रात के दो बजे', 12 views) generated lower engagement compared to specific digital interaction hooks.",
+      "action": "Avoid abstract poetic concepts and anchor every emotional narrative in a concrete, everyday object or digital action."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowered detachment",
-    "hook_style": "Visual and situational digital action",
+    "emotion": "Empowerment through detachment",
+    "hook_style": "Visual/Action-oriented digital cue",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Removing someone from a close friends list or hidden story feature after realizing they no longer view or care about your updates.",
-    "opening_direction": "जब मैंने अपनी स्टोरी से उसका नाम हमेशा के लिए हटाया,",
-    "twist_direction": "लगा था बुरा लगेगा, पर उस खालीपन की जगह एक अजीब सा सुकून आ गया कि अब तमाशा देखने वाला कोई नहीं बचा।",
-    "duration_seconds": 12,
-    "posting_window": "13:00 - 14:00",
-    "reason": "Aligns directly with the high-performing 'self respect' digital-boundary theme seen in top videos, utilizing a fresh everyday scenario without repeating exact previous hooks."
+    "concept": "Removing someone from the phone's quick-dial or widget screen and realizing the empty space actually looks peaceful.",
+    "opening_direction": "Home screen widget par jo ek hi chehra hamesha dikhta tha...",
+    "twist_direction": "...aaj use drag karke hata diya, aur screen achanak se zyada saaf lagne lagi.",
+    "duration_seconds": 15,
+    "posting_window": "13:00 to 14:00 IST",
+    "reason": "Aligns with the proven high-performing 'self respect + phone interaction' pattern while testing a new visual trigger (home screen widget instead of chat/status)."
   },
-  "experiment": "Testing if shifting from deleting chats to hiding social media visibility (close friends/stories) maintains or improves the engagement seen in self-respect shorts.",
-  "updated_at": "2026-09-15T08:43:40.046465+00:00",
+  "experiment": "Testing if home screen/widget removal hooks perform as well as chat deletion and status-hiding hooks.",
+  "updated_at": "2026-09-15T09:44:05.533312+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-15T08:43:43.378444+00:00"
+  "generated_at": "2026-09-15T09:44:08.414438+00:00"
 }
