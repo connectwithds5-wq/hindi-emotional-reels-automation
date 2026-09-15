@@ -1,35 +1,35 @@
 {
-  "confidence": "65%",
+  "confidence": "35%",
   "data_points": 16,
-  "overall_summary": "Analysis of the recent 16 videos shows that 'self respect' and boundary-setting topics (like muting chats, removing emergency contacts, or unpinning chats) consistently outperform generic late-night overthinking or raw sadness posts. View counts for self-respect pieces range higher (up to 38-40 views), whereas passive waiting tropes get lower traction. However, overall sample size is still small, so we must double down on the winning self-respect framework while reserving a small experiment budget for a fresh emotional angle.",
+  "overall_summary": "Historical data indicates that content focused on 'self respect' (specifically involving chats, blocking, deleting, and status lists) consistently outperforms generic emotional topics like 'रात के ख्याल' or 'बेवफाई' in terms of view counts. However, overall sample size is low and engagement (likes/comments) is near zero, suggesting low viewer conversion.",
   "winning_patterns": [
     {
-      "pattern": "Action-oriented Self Respect hooks",
-      "evidence": "Videos like 'चैट डिलीट करने की हिम्मत' (40 views), 'ब्लू टिक्स आज छिपा दिए' (32 views), and 'स्टेटस लिस्ट में सबसे ऊपर उन्हीं का नाम था' (38 views) performed better than passive observational hooks.",
-      "action": "Focus hooks on tangible digital boundaries (chats, statuses, block/unpin actions) rather than general feelings of loneliness."
+      "pattern": "Actionable Self-Respect & Phone UI Triggers",
+      "evidence": "Videos focusing on self-respect, chat deletion, hiding statuses, and muting pinned chats (e.g., 'चैट डिलीट करने की हिम्मत', 'Self Respect Status Story', 'Why I finally muted that pinned chat') received the highest views in the dataset (32 to 40 views).",
+      "action": "Double down on real-life smartphone UI/UX micro-moments tied directly to setting personal boundaries and self-respect."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Passive Late-Night Overthinking Tropes",
-      "evidence": "Videos focusing purely on time of night or unreturned texts like 'रात के दो बजे' (12 views) or 'मेज पर रखी चाय ठंडी हो गई' (5 views) show lower engagement.",
-      "action": "Avoid purely atmospheric or passive waiting hooks unless paired with an empowering choice or self-respect twist."
+      "pattern": "Vague Late-Night Melodrama",
+      "evidence": "Broad atmospheric concepts like 'रात के ख्याल' (uIbMpCjVutQ - 5 views) and abstract betrayal 'बेवफाई' (a9-G1X5jEOU - 18 views) underperformed compared to concrete digital boundary-setting stories.",
+      "action": "Move away from abstract poetry and vague night thoughts; root every story in a concrete, highly specific modern behavior."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment mixed with closure",
-    "hook_style": "Tactile digital action",
+    "emotion": "Empowering realization",
+    "hook_style": "Modern digital micro-action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization moment when clearing out phone storage and deleting old photos of an ex, choosing peace over holding onto pixels.",
-    "opening_direction": "गैलरी से तस्वीरें सेलेक्ट करते वक्त,",
-    "twist_direction": "डिलीट का बटन दबाने से पहले हाथ जरूर कांपे, पर इस बार उंगली वापस नहीं हटी—क्योंकि उस खाली जगह पर अब मेरा सुकून बसता है।",
-    "duration_seconds": 12,
-    "posting_window": "05:35 PM - 05:45 PM IST",
-    "reason": "Previous top-performing self-respect videos were published around the late afternoon / early evening slot, capturing users winding down and reflecting."
+    "concept": "Removing someone from the 'Close Friends' or custom privacy list on Instagram/WhatsApp stories, realizing they haven't viewed your stories in weeks anyway.",
+    "opening_direction": "क्ोज फ्रेंड्स लिस्ट से उसका नाम अनटिक करने से पहले,",
+    "twist_direction": "लगा था दिल दुखेगा, पर पता चला कि वो तो महीनों से मेरी स्टोरी देखता ही नहीं था। तमाशा सिर्फ मेरे दिमाग में चल रहा था।",
+    "duration_seconds": 15,
+    "posting_window": "13:00 - 14:00 IST",
+    "reason": "Matches the proven high-performing 'self respect' and 'digital boundary' pattern while introducing a slight variation to test audience reaction to illusion vs. reality."
   },
-  "experiment": "Testing a phone gallery deletion hook combined with a physical shivering-finger detail to see if visual digital clutter resonates as strongly as chat list boundaries.",
-  "updated_at": "2026-09-15T17:38:51.934398+00:00",
+  "experiment": "Testing if shifting the self-respect narrative from 'deleting their presence' to 'realizing their irrelevance' generates higher engagement.",
+  "updated_at": "2026-09-15T18:42:20.503221+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-15T17:38:55.109010+00:00"
+  "generated_at": "2026-09-15T18:42:23.481225+00:00"
 }
