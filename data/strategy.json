@@ -1,35 +1,35 @@
 {
-  "confidence": "35%",
+  "confidence": "65%",
   "data_points": 16,
-  "overall_summary": "Historical data indicates that content focused on 'self respect' (specifically involving chats, blocking, deleting, and status lists) consistently outperforms generic emotional topics like 'रात के ख्याल' or 'बेवफाई' in terms of view counts. However, overall sample size is low and engagement (likes/comments) is near zero, suggesting low viewer conversion.",
+  "overall_summary": "The 'self respect' topic consistently drives higher views (ranging from 25 to 40 views) compared to topics like 'रात के ख्याल' or 'एकतरफा प्यार' which underperformed in this sample set. Hooks involving modern smartphone communication habits (chats, status lists, pinned messages) resonate best.",
   "winning_patterns": [
     {
-      "pattern": "Actionable Self-Respect & Phone UI Triggers",
-      "evidence": "Videos focusing on self-respect, chat deletion, hiding statuses, and muting pinned chats (e.g., 'चैट डिलीट करने की हिम्मत', 'Self Respect Status Story', 'Why I finally muted that pinned chat') received the highest views in the dataset (32 to 40 views).",
-      "action": "Double down on real-life smartphone UI/UX micro-moments tied directly to setting personal boundaries and self-respect."
+      "pattern": "Digital boundary setting & Self-respect",
+      "evidence": "Videos like 'चैट डिलीट करने की हिम्मत' (40 views) and 'स्टेटस लिस्ट में सबसे ऊपर' (38 views) performed significantly higher than general late-night thoughts.",
+      "action": "Focus heavily on modern boundary-setting narratives related to phones, chats, and self-worth."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Vague Late-Night Melodrama",
-      "evidence": "Broad atmospheric concepts like 'रात के ख्याल' (uIbMpCjVutQ - 5 views) and abstract betrayal 'बेवफाई' (a9-G1X5jEOU - 18 views) underperformed compared to concrete digital boundary-setting stories.",
-      "action": "Move away from abstract poetry and vague night thoughts; root every story in a concrete, highly specific modern behavior."
+      "pattern": "Vague late-night atmospheric hooks",
+      "evidence": "Videos like 'रात के ख्याल' (5 views) and 'रात के दो बजे' (12 views) received very low engagement.",
+      "action": "Avoid generic late-night melancholy without a concrete, relatable digital or physical action hook."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowering realization",
-    "hook_style": "Modern digital micro-action",
+    "emotion": "Empowerment through detachment",
+    "hook_style": "Digital action hook",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Removing someone from the 'Close Friends' or custom privacy list on Instagram/WhatsApp stories, realizing they haven't viewed your stories in weeks anyway.",
-    "opening_direction": "क्ोज फ्रेंड्स लिस्ट से उसका नाम अनटिक करने से पहले,",
-    "twist_direction": "लगा था दिल दुखेगा, पर पता चला कि वो तो महीनों से मेरी स्टोरी देखता ही नहीं था। तमाशा सिर्फ मेरे दिमाग में चल रहा था।",
+    "concept": "A realization moment when muting notifications from someone special no longer feels painful, but liberating.",
+    "opening_direction": "जब फोन की स्क्रीन पर उसका नोटिफिकेशन बैनर चमका, और इस बार हाथ म्यूट बटन पर बिना किसी कंपकंपी के गया।",
+    "twist_direction": "सोंचा था दिल बैठेगा, पर हैरानी तब हुई जब सुकून महसूस हुआ—जैसे कोई भारी बोझ हमेशा के लिए उतर गया हो।",
     "duration_seconds": 15,
-    "posting_window": "13:00 - 14:00 IST",
-    "reason": "Matches the proven high-performing 'self respect' and 'digital boundary' pattern while introducing a slight variation to test audience reaction to illusion vs. reality."
+    "posting_window": "13:00 - 14:00",
+    "reason": "Previous successful self-respect shorts performed well during midday slots and utilized clear digital interaction hooks like chat management."
   },
-  "experiment": "Testing if shifting the self-respect narrative from 'deleting their presence' to 'realizing their irrelevance' generates higher engagement.",
-  "updated_at": "2026-09-15T18:42:20.503221+00:00",
+  "experiment": "Testing if shifting focus from generic digital deletion (chat/number) to notification/mute settings maintains the high-view baseline established by the self-respect category.",
+  "updated_at": "2026-09-15T19:39:22.755332+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-15T18:42:23.481225+00:00"
+  "generated_at": "2026-09-15T19:39:25.763981+00:00"
 }
