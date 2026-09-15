@@ -1,35 +1,40 @@
 {
-  "confidence": "35%",
+  "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "The channel shows early traction in themes related to 'self respect' and boundary-setting (e.g., deleting chats, removing saved numbers), outperforming general sadness or open-ended loneliness themes. However, overall view counts are generally low, indicating that confidence is still limited and requires ongoing pattern testing.",
+  "overall_summary": "Analysis of the recent 14 Shorts indicates that 'self respect' and boundary-setting themes (e.g., deleting chats, removing saved numbers) perform relatively better in terms of view counts (averaging 30-40 views) compared to passive overthinking or general sad quotes (which hover around 5-20 views). Action-oriented emotional moments drive higher initial engagement.",
   "winning_patterns": [
     {
-      "pattern": "Action-Oriented Self-Respect",
-      "evidence": "Videos focusing on concrete self-respect actions like deleting chats, muting pinned chats, or removing numbers (e.g., AfaLxMy6FMY with 40 views, wFimeeP_aVc with 34 views, rwOUYo_hayQ with 33 views) perform better than abstract sadness.",
-      "action": "Pivot more hooks toward tangible boundary-setting moments in digital life."
+      "pattern": "Action-oriented Self Respect",
+      "evidence": "Videos like 'चैट डिलीट करने की हिम्मत' (40 views) and 'स्टेटस लिस्ट में सबसे ऊपर' (33 views) outperform passive emotional pain.",
+      "action": "Focus storytelling on a definitive micro-action taken to reclaim personal dignity."
+    },
+    {
+      "pattern": "Tactile Digital Cues",
+      "evidence": "Hooks mentioning specific phone interfaces (pinned chats, emergency contacts, blue ticks) capture attention quickly.",
+      "action": "Continue using highly specific, relatable digital relationship artifacts in hooks."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Passive Loneliness and Generalized Sadness",
-      "evidence": "Topics like 'रात के ख्याल' and general 'एकतरफा प्यार' with passive imagery (e.g., cold tea, vague waiting) received the lowest views (5 to 12 views).",
-      "action": "Avoid passive descriptions of waiting and replace them with proactive emotional turning points."
+      "pattern": "Vague Nighttime Sadness",
+      "evidence": "Broad hooks like 'रात के दो बजे' (12 views) or 'मेज पर रखी चाय' (5 views) resulted in lower view counts.",
+      "action": "Avoid generic late-night atmospheric openings unless tied to a specific digital or physical action."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment through letting go",
-    "hook_style": "Visual and situational micro-action",
+    "emotion": "Empowered detachment",
+    "hook_style": "Tactile digital action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short piece about removing someone from the 'close friends' list or hiding stories from a specific viewer, turning a quiet digital boundary into a moment of reclaiming personal peace.",
-    "opening_direction": "Start with the specific physical action of tapping the settings icon to restrict who can see your daily updates.",
-    "twist_direction": "Realizing that hiding your story isn't about them missing it, but about you finally stopping the performance of waiting for their reaction.",
-    "duration_seconds": 15,
-    "posting_window": "13:30 - 14:00 IST",
-    "reason": "Previous successful self-respect uploads (like AfaLxMy6FMY and aNR94Xxn0yM) were published in the early afternoon window and focused on digital boundaries."
+    "concept": "Removing someone from the 'Close Friends' or restricted list on social media as an act of silent closure rather than revenge.",
+    "opening_direction": "कथा की शुरुआत इस बात से हो कि कैसे 'क्लोज फ्रेंड्स' स्टोरी सिर्फ एक शख्स के लिए डाली जाती थी।",
+    "twist_direction": "और फिर अचानक उस एक शख्स को उस लिस्ट से हमेशा के लिए हटाकर, खुद के लिए जीने का फैसला कर लेना।",
+    "duration_seconds": 10,
+    "posting_window": "13:00 - 14:00 IST",
+    "reason": "Matches the proven high-performing self-respect and digital boundary-setting pattern."
   },
-  "experiment": "Testing if shifting the self-respect theme from phone contacts/chats to social media privacy settings (like stories and close friends lists) maintains or improves view velocity.",
-  "updated_at": "2026-09-14T23:37:13.452709+00:00",
+  "experiment": "Testing social media privacy settings ('Close Friends' list removal) as a fresh sub-theme within the winning 'self respect' category.",
+  "updated_at": "2026-09-15T00:45:09.948590+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-14T23:37:16.229667+00:00"
+  "generated_at": "2026-09-15T00:45:12.640197+00:00"
 }
