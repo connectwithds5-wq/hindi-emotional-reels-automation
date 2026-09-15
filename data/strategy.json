@@ -1,35 +1,40 @@
 {
   "confidence": "65%",
   "data_points": 16,
-  "overall_summary": "The 'self respect' topic consistently drives higher views (ranging from 25 to 40 views) compared to topics like 'रात के ख्याल' or 'एकतरफा प्यार' which underperformed in this sample set. Hooks involving modern smartphone communication habits (chats, status lists, pinned messages) resonate best.",
+  "overall_summary": "Data shows clear audience inclination toward 'self respect' and modern digital relationship boundaries (chats, status lists, blue ticks) yielding the highest view counts (e.g., AfaLxMy6FMY at 40 views, rwOUYo_hayQ at 38 views), whereas pure abstract late-night rambling has underperformed.",
   "winning_patterns": [
     {
-      "pattern": "Digital boundary setting & Self-respect",
-      "evidence": "Videos like 'चैट डिलीट करने की हिम्मत' (40 views) and 'स्टेटस लिस्ट में सबसे ऊपर' (38 views) performed significantly higher than general late-night thoughts.",
-      "action": "Focus heavily on modern boundary-setting narratives related to phones, chats, and self-worth."
+      "pattern": "Modern Digital Micro-Interactions",
+      "evidence": "Shorts focusing on concrete phone actions like deleting chats or muting pinned chats (e.g., AfaLxMy6FMY, 0H4VygZ3DIU) consistently achieve higher views (30-40 range) compared to general loneliness.",
+      "action": "Focus hooks and stories around everyday smartphone UI moments (typing, deleting, viewing status lists)."
+    },
+    {
+      "pattern": "Empowerment & Self Respect Shift",
+      "evidence": "Audience responds better when the narrative shifts from passive suffering to active self-preservation or boundary setting.",
+      "action": "Continue utilizing the 'self respect' topic cluster with strong, decisive conclusions."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Vague late-night atmospheric hooks",
-      "evidence": "Videos like 'रात के ख्याल' (5 views) and 'रात के दो बजे' (12 views) received very low engagement.",
-      "action": "Avoid generic late-night melancholy without a concrete, relatable digital or physical action hook."
+      "pattern": "Abstract Late-Night Atmospheric Hooks",
+      "evidence": "Videos focusing heavily on generic time references like 'रात के दो बजे' (G0gKV1p3ZHc) or 'चाय ठंडी हो गई' (uIbMpCjVutQ) had the lowest views (5-12 range).",
+      "action": "Avoid starting with weather, tea, or generic time stamps; anchor immediately to specific visual phone cues."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment through detachment",
-    "hook_style": "Digital action hook",
+    "emotion": "Closure and emotional detachment",
+    "hook_style": "Direct notification-based action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization moment when muting notifications from someone special no longer feels painful, but liberating.",
-    "opening_direction": "जब फोन की स्क्रीन पर उसका नोटिफिकेशन बैनर चमका, और इस बार हाथ म्यूट बटन पर बिना किसी कंपकंपी के गया।",
-    "twist_direction": "सोंचा था दिल बैठेगा, पर हैरानी तब हुई जब सुकून महसूस हुआ—जैसे कोई भारी बोझ हमेशा के लिए उतर गया हो।",
+    "concept": "Turning off read receipts so they never know you saw it, realizing your peace matters more than their curiosity.",
+    "opening_direction": "लास्ट सीन छुपाने की सेटिंग ऑन करते वक्त,",
+    "twist_direction": "डर था कि वो क्या सोचेंगे, पर असल सुकून तब मिला जब फर्क पड़ना बंद हो गया।",
     "duration_seconds": 15,
-    "posting_window": "13:00 - 14:00",
-    "reason": "Previous successful self-respect shorts performed well during midday slots and utilized clear digital interaction hooks like chat management."
+    "posting_window": "13:00 to 14:00",
+    "reason": "Matches the proven high-performing self-respect digital boundary framework while testing a fresh phone setting hook."
   },
-  "experiment": "Testing if shifting focus from generic digital deletion (chat/number) to notification/mute settings maintains the high-view baseline established by the self-respect category.",
-  "updated_at": "2026-09-15T19:39:22.755332+00:00",
+  "experiment": "Testing if privacy settings/read receipt controls drive higher engagement than chat deletion hooks.",
+  "updated_at": "2026-09-15T20:39:18.051579+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-15T19:39:25.763981+00:00"
+  "generated_at": "2026-09-15T20:39:21.313406+00:00"
 }
