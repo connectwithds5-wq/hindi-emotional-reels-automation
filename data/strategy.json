@@ -1,40 +1,40 @@
 {
-  "confidence": "65%",
+  "confidence": "45%",
   "data_points": 16,
-  "overall_summary": "Data shows clear audience inclination toward 'self respect' and modern digital relationship boundaries (chats, status lists, blue ticks) yielding the highest view counts (e.g., AfaLxMy6FMY at 40 views, rwOUYo_hayQ at 38 views), whereas pure abstract late-night rambling has underperformed.",
+  "overall_summary": "View counts are generally low across the board (ranging from 5 to 40 views), making confidence low. However, 'self respect' topic combined with highly visual, smartphone-centric hooks (like deleting chats, muting pins, checking status lists) consistently outperforms generic emotional topics like late-night thoughts or unrequited love.",
   "winning_patterns": [
     {
-      "pattern": "Modern Digital Micro-Interactions",
-      "evidence": "Shorts focusing on concrete phone actions like deleting chats or muting pinned chats (e.g., AfaLxMy6FMY, 0H4VygZ3DIU) consistently achieve higher views (30-40 range) compared to general loneliness.",
-      "action": "Focus hooks and stories around everyday smartphone UI moments (typing, deleting, viewing status lists)."
+      "pattern": "Smartphone-action hooks",
+      "evidence": "Videos with hooks about specific phone UI actions (e.g., 'उंगली उसी चैट पर रुकी थी', 'ब्लू टिक्स आज छिपा दिए', 'स्टेटस लिस्ट में सबसे ऊपर') achieved the highest views (32-40 views).",
+      "action": "Double down on real-life micro-actions related to smartphones and messaging apps."
     },
     {
-      "pattern": "Empowerment & Self Respect Shift",
-      "evidence": "Audience responds better when the narrative shifts from passive suffering to active self-preservation or boundary setting.",
-      "action": "Continue utilizing the 'self respect' topic cluster with strong, decisive conclusions."
+      "pattern": "Self-respect and boundary-setting",
+      "evidence": "Topics categorized under 'self respect' generated higher average engagement and views compared to passive sadness or 'अधूरी मोहब्बत'.",
+      "action": "Frame emotional stories around empowerment, detachment, and reclaiming personal peace rather than just suffering."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Late-Night Atmospheric Hooks",
-      "evidence": "Videos focusing heavily on generic time references like 'रात के दो बजे' (G0gKV1p3ZHc) or 'चाय ठंडी हो गई' (uIbMpCjVutQ) had the lowest views (5-12 range).",
-      "action": "Avoid starting with weather, tea, or generic time stamps; anchor immediately to specific visual phone cues."
+      "pattern": "Abstract poetic/sensory hooks",
+      "evidence": "Hooks like 'रात के दो बजे' or 'मेज पर रखी चाय ठंडी हो गई' received very low views (5-12 views).",
+      "action": "Avoid slow, poetic setups. Start directly with a relatable, tangible moment of modern life."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Closure and emotional detachment",
-    "hook_style": "Direct notification-based action",
+    "emotion": "Empowerment through detachment",
+    "hook_style": "Action-oriented phone screen moment",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Turning off read receipts so they never know you saw it, realizing your peace matters more than their curiosity.",
-    "opening_direction": "लास्ट सीन छुपाने की सेटिंग ऑन करते वक्त,",
-    "twist_direction": "डर था कि वो क्या सोचेंगे, पर असल सुकून तब मिला जब फर्क पड़ना बंद हो गया।",
+    "concept": "Removing someone from the 'Close Friends' list or custom story privacy settings.",
+    "opening_direction": "कस्टम स्टोरी की सेटिंग खोलते ही,",
+    "twist_direction": "सोचा था उन्हें बुरा लगेगा, पर उस एक क्लिक के बाद जो सुकून मिला, वह अनमोल था।",
     "duration_seconds": 15,
-    "posting_window": "13:00 to 14:00",
-    "reason": "Matches the proven high-performing self-respect digital boundary framework while testing a fresh phone setting hook."
+    "posting_window": "13:30 - 14:00 (matching the peak timing of previous top-performing self-respect shorts)",
+    "reason": "Leverages the proven winning pattern of digital boundary-setting (social media privacy actions) while avoiding the weak abstract poetry openings."
   },
-  "experiment": "Testing if privacy settings/read receipt controls drive higher engagement than chat deletion hooks.",
-  "updated_at": "2026-09-15T20:39:18.051579+00:00",
+  "experiment": "Testing a slightly shorter duration with a digital boundary-setting hook that hasn't been used yet ('Close Friends' privacy list).",
+  "updated_at": "2026-09-15T21:38:07.312251+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-15T20:39:21.313406+00:00"
+  "generated_at": "2026-09-15T21:38:10.152272+00:00"
 }
