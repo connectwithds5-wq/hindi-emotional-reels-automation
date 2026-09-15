@@ -1,35 +1,35 @@
 {
   "confidence": "25%",
   "data_points": 15,
-  "overall_summary": "The channel has low overall view counts across the board, making data-driven conclusions tentative. However, topics touching on 'self respect' (e.g., AfaLxMy6FMY with 40 views, rwOUYo_hayQ with 37 views, wFimeeP_aVc with 32 views) show a relative performance lift compared to abstract late-night themes.",
+  "overall_summary": "The sample size is relatively small across 15 videos, though 'self respect' topic formats generally show slightly higher baseline views (e.g., AfaLxMy6FMY with 40 views, rwOUYo_hayQ with 37 views), whereas purely abstract emotional topics like 'रात के ख्याल' or 'एकतरफा प्यार' underperformed heavily in this sample. Confidence in these patterns is low, necessitating a controlled exploration strategy.",
   "winning_patterns": [
     {
-      "pattern": "Action-oriented Self Respect hooks",
-      "evidence": "Videos focusing on concrete digital actions regarding self-respect like deleting chats or blocking (e.g., AfaLxMy6FMY, rwOUYo_hayQ) generated the highest views in the sample set (37-40 views).",
-      "action": "Continue framing hooks around tangible digital boundaries rather than vague emotional statements."
+      "pattern": "Self Respect boundary actions",
+      "evidence": "Videos centered around active boundaries like deleting chats or removing names (e.g., AfaLxMy6FMY, rwOUYo_hayQ, wFimeeP_aVc) averaged around 30-40 views, higher than the channel average.",
+      "action": "Lean into micro-actions of digital self-respect involving immediate smartphone UI realities."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Passive late-night conceptual poetry",
-      "evidence": "Topics like 'रात के ख्याल' and open-ended 'ओवरथिंकिंग' (e.g., uIbMpCjVutQ, WhJ-VwRa3Rg) underperformed with views dropping as low as 5 to 7.",
-      "action": "Avoid passive descriptions of weather or time; anchor late-night thoughts to a specific observable action or digital artifact."
+      "pattern": "Abstract poetic late-night reflections",
+      "evidence": "Videos focusing heavily on poetic atmosphere without an immediate relatable micro-action (e.g., uIbMpCjVutQ, aUuNKfe7jm4) received very low views (5 views).",
+      "action": "Avoid purely passive atmospheric hooks; always anchor the narrative to a tangible everyday digital or physical trigger."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment through detachment",
-    "hook_style": "Tangible digital artifact check",
+    "emotion": "Empowering detachment",
+    "hook_style": "Tangible digital UI trigger",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Noticing someone viewed your status after months of silence, and choosing not to look back.",
-    "opening_direction": "अचानक महीनों बाद व्यूअर्स लिस्ट में उसका नाम सबसे ऊपर दिखा।",
-    "twist_direction": "दिल ने चाहा एक बार टैप कर लूं, पर उंगली खुद-ब-खुद 'हाइड स्टेटस' पर चली गई।",
+    "concept": "A short piece on finally turning off 'Last Seen' or removing a shared playlist because you no longer care who is watching.",
+    "opening_direction": "जब सेटिंग्स में जाकर 'Last Seen' हमेशा के लिए छुपा दिया,",
+    "twist_direction": "शुरुआत में डर था कि वो क्या सोचेंगे, पर आज एहसास हुआ कि अब फर्क ही नहीं पड़ता।",
     "duration_seconds": 10,
-    "posting_window": "13:00 - 14:00 IST",
-    "reason": "Leverages the winning self-respect and digital boundary pattern while testing a curiosity-driven view-list hook."
+    "posting_window": "05:30 PM - 07:30 PM",
+    "reason": "Aligns with the proven higher-performing 'self respect' micro-action category while testing a new digital boundary setting to prevent format fatigue."
   },
-  "experiment": "Testing if status-view notifications combined with self-respect boundaries outperform chat-deletion hooks.",
-  "updated_at": "2026-09-15T11:41:38.966283+00:00",
+  "experiment": "Testing whether digital privacy settings (like hiding last seen) drive higher engagement compared to chat/number deletion hooks.",
+  "updated_at": "2026-09-15T12:44:23.601482+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-15T11:41:41.889278+00:00"
+  "generated_at": "2026-09-15T12:44:26.556733+00:00"
 }
