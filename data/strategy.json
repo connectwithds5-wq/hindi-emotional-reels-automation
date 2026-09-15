@@ -1,40 +1,35 @@
 {
-  "confidence": "65%",
+  "confidence": "35%",
   "data_points": 15,
-  "overall_summary": "Analysis of the recent shorts indicates that 'self respect' combined with digital boundary-setting triggers (like chat interactions, muting pinned chats, or clearing status lists) performs noticeably better than passive heartbreak or abstract overthinking themes. Videos focusing on 'self respect' consistently pull higher view counts (ranging between 32 to 40 views) compared to generic emotional venting.",
+  "overall_summary": "The channel shows early traction with the 'self respect' topic (specifically peaking at 40 views with AfaLxMy6FMY), while generalized late-night overthinking or raw heartbreak pieces without concrete actions show lower average engagement. Sample sizes are small, necessitating controlled exploration.",
   "winning_patterns": [
     {
-      "pattern": "Digital Boundary Actions",
-      "evidence": "Videos like 'चैट डिलीट करने की हिम्मत...' (40 views) and 'स्टेटस लिस्ट में सबसे ऊपर...' (36 views) outperform vague sad poetry.",
-      "action": "Center hooks around specific UI actions like muting, blocking, clearing lists, or hiding read receipts."
-    },
-    {
-      "pattern": "Active Self-Preservation Over Passive Sadness",
-      "evidence": "Content emphasizing reclaiming self-worth over crying over lost love gets higher traction.",
-      "action": "Frame the emotional narrative around choosing oneself over waiting for a reply."
+      "pattern": "Action-oriented Self Respect hooks",
+      "evidence": "Videos focusing on self-respect, deleting chats, and taking control (e.g., AfaLxMy6FMY with 40 views, rwOUYo_hayQ with 36 views) outperform generic late-night sadness.",
+      "action": "Double down on scenarios where a conscious decision is made to reclaim personal dignity rather than just suffering silently."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Vague Late-Night Melancholy",
-      "evidence": "Videos focusing solely on 'रात के ख्याल' or abstract overthinking without a concrete interaction hook (e.g., 'रात के दो बजे' or 'चाय ठंडी हो गई') yield lower views (5-12 views).",
-      "action": "Avoid purely atmospheric openings; ground every emotional thought in a tangible trigger."
+      "pattern": "Passive Overthinking / Vague Late Night Hooks",
+      "evidence": "Clips with purely atmospheric hooks like 'रात के दो बजे' (G0gKV1p3ZHc) or generic waiting (uIbMpCjVutQ) had the lowest view counts (5-12 views).",
+      "action": "Avoid purely abstract statements; anchor every emotional state to a concrete physical artifact or daily routine object."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowering closure and letting go",
-    "hook_style": "Action-oriented notification trigger",
+    "emotion": "Empowered detachment",
+    "hook_style": "Tangible physical action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization that checking if they viewed your story no longer brings anxiety, but complete indifference.",
-    "opening_direction": "जब स्टोरी व्यूअर्स की लिस्ट में सबसे ऊपर उनका नाम ढूंढना अचानक बंद हो जाए,",
-    "twist_direction": "तब एहसास होता है कि हार तुम्हारी नहीं, तुम्हारी परवाह की हुई है।",
-    "duration_seconds": 10,
+    "concept": "Unfollowing someone not out of anger, but out of total emotional indifference.",
+    "opening_direction": "Scrolling through the following list and seeing an inactive profile.",
+    "twist_direction": "Realizing that unfollowing them didn't feel like a loss, but finally clearing out digital clutter.",
+    "duration_seconds": 15,
     "posting_window": "13:00 - 14:00 UTC",
-    "reason": "Matches the proven high-performing publishing time slot and leverages the winning 'self-respect UI trigger' pattern."
+    "reason": "Mid-day posting slots aligned well with previous high-performing self-respect uploads."
   },
-  "experiment": "Testing if shifting the digital trigger from chat interfaces (chats/numbers) to social viewing habits (story view lists) maintains audience retention and engagement.",
-  "updated_at": "2026-09-15T06:45:26.112857+00:00",
+  "experiment": "Testing if shifting from 'blocking/deleting chats' to 'unfollowing/removing mutuals' retains the high self-respect engagement.",
+  "updated_at": "2026-09-15T07:42:18.966241+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-15T06:45:28.809899+00:00"
+  "generated_at": "2026-09-15T07:42:21.611372+00:00"
 }
