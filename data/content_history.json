@@ -1485,6 +1485,79 @@
         "reason": "Building directly on the proven high-performing self-respect and chat/list management niche while testing a new digital boundary scenario."
       },
       "model_used": "gemini-3.5-flash-lite"
+    },
+    {
+      "hook": "स्टोरी पर पाबंदी लगाने से पहले,",
+      "lines": [
+        "मैंने उसे सूची से हटा दिया।",
+        "उम्मीद थी कोई सवाल आएगा,",
+        "पूरा दिन यूं ही बीत गया।",
+        "मैसेज का सन्नाटा चीख उठा,",
+        "मेरा डर ही सबसे बड़ा धोखा था।",
+        "खुद को छुपाना छोड़ दिया,",
+        "सुकून शोर से कहीं बेहतर है।"
+      ],
+      "youtube_title": "Dil Ki Diary | Self Respect Emotional Story",
+      "youtube_description": "Ek choti si kahani self-respect aur emotional detachment ke baare mein. Jab aap kisi ko apni zindagi se dur karte hain, toh asli sukoon milta hai. Kya aapne kabhi aisi sthiti ka samna kiya hai?",
+      "youtube_keywords": [
+        "self respect emotional story",
+        "dil ki diary hindi",
+        "emotional detachment status",
+        "hindi micro story",
+        "sad reality status",
+        "mental peace over people",
+        "deep emotional status",
+        "self respect status hindi",
+        "dil ki diary reel",
+        "silent heartbreak story",
+        "khud ki izzat status",
+        "relatable hindi story"
+      ],
+      "youtube_hashtags": [
+        "DilKiDiary",
+        "SelfRespect",
+        "EmotionalStory",
+        "HindiReels",
+        "MentalPeace",
+        "DeepThoughts",
+        "Heartbreak"
+      ],
+      "caption": "कभी-कभी किसी को अपनी जिंदगी से दूर करना ही सबसे बड़ा सुकून होता है। खुद की कीमत पहचानिए।",
+      "keywords": [
+        "self respect",
+        "emotional story",
+        "hindi reels",
+        "mental peace",
+        "deep thoughts",
+        "dil ki diary",
+        "silent pain",
+        "self worth"
+      ],
+      "hashtags": [
+        "DilKiDiary",
+        "SelfRespect",
+        "EmotionalStory",
+        "HindiReels",
+        "MentalPeace",
+        "DeepThoughts",
+        "Heartbreak",
+        "SelfWorth",
+        "Relatable"
+      ],
+      "topic": "self respect",
+      "strategy_used": {
+        "topic": "self respect",
+        "emotion": "Empowerment through emotional detachment",
+        "hook_style": "Visual and psychological digital action",
+        "story_structure": "simple -> relatable -> twist",
+        "concept": "Removing someone from close friends or restricted story lists, realizing that hiding your peace is better than showing your pain.",
+        "opening_direction": "Stories पर लॉक लगाने से पहले, मैंने उसे सिर्फ एक क्लिक में 'Close Friends' से बाहर कर दिया।",
+        "twist_direction": "डर था कि वो पूछेगा क्यों, पर जब 24 घंटे बीतने पर भी उसका मैसेज नहीं आया, तब समझ आया कि मेरा डर ही सबसे बड़ा धोखा था।",
+        "duration_seconds": 10,
+        "posting_window": "05:30 PM - 07:30 PM IST",
+        "reason": "Leverages the proven high-performing 'self respect' topic and digital-boundary theme while testing story-view privacy as a fresh relatable detail."
+      },
+      "model_used": "gemini-3.5-flash-lite"
     }
   ]
 }
