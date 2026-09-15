@@ -1413,6 +1413,78 @@
         "reason": "Building on the winning 'self respect' digital boundaries pattern (similar to deleting chats or removing numbers), focusing on status visibility taps into a highly relatable modern social media habit with a strong empowered twist."
       },
       "model_used": "gemini-3.5-flash-lite"
+    },
+    {
+      "hook": "लिस्ट से उसका नाम हटाने से पहले,",
+      "lines": [
+        "उंगली काफी देर रुकी रही।",
+        "सोचा था दिल दुखेगा,",
+        "पर स्क्रीन पर वो दिखा ही नहीं।",
+        "चेक किया तो समझ आया,",
+        "उसने बहुत पहले हटा दिया था।",
+        "फर्क उसे भी नहीं पड़ा,",
+        "सुकून है मुझे भी नहीं।"
+      ],
+      "youtube_title": "Self Respect Status | Jab Aapko Fark Padhna Band Ho Jaaye",
+      "youtube_description": "Ek choti si kahani self respect aur detachment ke bare mein. Jab digital boundaries set karne par pata chalta hai ki ab kisi ke hone ya na hone se koi fark nahi padta. Kya aapke sath bhi kabhi aesa hua hai?",
+      "youtube_keywords": [
+        "self respect status",
+        "emotional hindi stories",
+        "dil ki diary",
+        "detachment status",
+        "silent heartbreak hindi",
+        "relatable hindi lines",
+        "deep emotional shorts",
+        "self respect reels",
+        "mental peace status",
+        "sad poetry hindi",
+        "khud ki izzat"
+      ],
+      "youtube_hashtags": [
+        "SelfRespect",
+        "DilKiDiary",
+        "Emotional",
+        "HindiStories",
+        "DeepThoughts",
+        "Relatable",
+        "Peace",
+        "Shorts"
+      ],
+      "caption": "लिस्ट छोटी करने में डर तब लगता है, जब सामने वाले की अहमियत बाकी हो। पर जब खालीपन महसूस न हो, तो समझो जंग जीत गए।",
+      "keywords": [
+        "self respect",
+        "detachment",
+        "mental peace",
+        "emotional story",
+        "hindi lines",
+        "relatable",
+        "dil ki diary",
+        "hidden story"
+      ],
+      "hashtags": [
+        "selfrespect",
+        "dilkidiary",
+        "emotional",
+        "hindistories",
+        "deepthoughts",
+        "relatable",
+        "peace",
+        "lifelessons"
+      ],
+      "topic": "self respect",
+      "strategy_used": {
+        "topic": "self respect",
+        "emotion": "Empowerment through detachment",
+        "hook_style": "Digital boundary action",
+        "story_structure": "simple -> relatable -> twist",
+        "concept": "A realization moment when removing someone from your close-friends list or hidden story viewers, choosing personal peace over public appearance.",
+        "opening_direction": "लिस्ट से उसका नाम हटाने से पहले,",
+        "twist_direction": "पता चला कि उसे फर्क ही नहीं पड़ा, और यही इस बात का सबसे बड़ा सुकून था कि अब मुझे भी कोई फर्क नहीं पड़ता।",
+        "duration_seconds": 12,
+        "posting_window": "13:00 - 14:00 IST",
+        "reason": "Building directly on the proven high-performing self-respect and chat/list management niche while testing a new digital boundary scenario."
+      },
+      "model_used": "gemini-3.5-flash-lite"
     }
   ]
 }
