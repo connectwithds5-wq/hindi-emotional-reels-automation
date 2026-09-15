@@ -1,35 +1,35 @@
 {
-  "confidence": "45%",
+  "confidence": "65%",
   "data_points": 16,
-  "overall_summary": "The channel shows consistent interest in 'self respect' and 'ओवरथिंकिंग' topics, with the highest views concentrating around specific digital-age boundary-setting actions (e.g., deleting chats, muting, removing statuses). While absolute view counts are low across the board, 'self respect' themes consistently outperform generic heartbreak or poetry.",
+  "overall_summary": "Analysis of 16 videos shows clear viewer preference for 'self respect' topics with active smartphone/digital boundary hooks (averaging ~26 views, outperforming other categories). Passive sadness like 'रात के ख्याल' or abstract waiting underperforms significantly (views as low as 5-7).",
   "winning_patterns": [
     {
-      "pattern": "Digital Boundary Hooks",
-      "evidence": "Videos like 'चैट डिलीट करने की हिम्मत' (40 views) and 'स्टेटस लिस्ट में सबसे ऊपर' (37 views) perform better than abstract heartbreak hooks.",
-      "action": "Focus hooks on modern digital micro-interactions related to letting go and preserving self-respect."
+      "pattern": "Digital Boundary Actions",
+      "evidence": "Videos focusing on self-respect actions like deleting chats, muting, or removing numbers (e.g., AfaLxMy6FMY with 40 views, rwOUYo_hayQ with 38 views) consistently outperform abstract emotional pieces.",
+      "action": "Double down on 'self respect' combined with modern smartphone interface triggers (pinned chats, active status, blocking/muting)."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Zero-view outlier on same-day duplicate formatting",
-      "evidence": "Video 8tBTO2WCWg4 got 0 views, potentially due to over-saturation of self-respect uploads in a short window or weak hook delivery.",
-      "action": "Space out similar sub-topics and ensure the hook immediately triggers a visceral reaction."
+      "pattern": "Abstract Late-Night Sadness",
+      "evidence": "Topics like 'रात के ख्याल' and generic waiting (e.g., uIbMpCjVutQ with 5 views, WhJ-VwRa3Rg with 7 views) yielded very low engagement.",
+      "action": "Avoid purely atmospheric hooks about tea, cold nights, or general darkness without a tangible, relatable modern decision point."
     }
   ],
   "next_video": {
     "topic": "self respect",
     "emotion": "Empowered detachment",
-    "hook_style": "Modern notification context",
+    "hook_style": "Digital interface action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A protagonist who finally turns off read receipts, realizing that peace matters more than letting someone know you saw their message.",
-    "opening_direction": "ब्लू टिक्स हमेशा के लिए ऑफ करने से पहले...",
-    "twist_direction": "यह सोचना छोड़ दिया कि वो क्या सोचेंगे, असली सुकून तो तब मिला जब फर्क पड़ना बंद हो गया।",
-    "duration_seconds": 10,
-    "posting_window": "18:00 - 20:00 IST",
-    "reason": "Leverages the proven high-performing 'self-respect and digital detachment' pattern that previously yielded the channel's top views."
+    "concept": "Removing someone from the close friends list or hiding stories from them to reclaim personal peace.",
+    "opening_direction": "ग्रीन टिक स्टोरी व्यूअर्स में सबसे ऊपर उसी का नाम था,",
+    "twist_direction": "इस बार उसे ब्लॉक करने के बजाय, अपनी खुशी उससे छिपाने में जो सुकून मिला, वो किसी जीत से कम नहीं था।",
+    "duration_seconds": 15,
+    "posting_window": "13:00 - 14:00 IST",
+    "reason": "Previous successful self-respect videos like rwOUYo_hayQ and AfaLxMy6FMY performed well in the early afternoon slot and utilized social media feature triggers."
   },
-  "experiment": "Testing if shifting the digital boundary focus from chat/status deletions to privacy settings (read receipts) maintains audience retention.",
-  "updated_at": "2026-09-15T14:40:56.451344+00:00",
+  "experiment": "Testing if shifting focus strictly to social media privacy settings (stories/close friends) maintains the high-view momentum established by chat deletion hooks.",
+  "updated_at": "2026-09-15T15:40:59.276996+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-15T14:41:06.995828+00:00"
+  "generated_at": "2026-09-15T15:41:01.944605+00:00"
 }
