@@ -1,35 +1,35 @@
 {
-  "confidence": "25%",
+  "confidence": "45%",
   "data_points": 15,
-  "overall_summary": "The sample size is relatively small across 15 videos, though 'self respect' topic formats generally show slightly higher baseline views (e.g., AfaLxMy6FMY with 40 views, rwOUYo_hayQ with 37 views), whereas purely abstract emotional topics like 'रात के ख्याल' or 'एकतरफा प्यार' underperformed heavily in this sample. Confidence in these patterns is low, necessitating a controlled exploration strategy.",
+  "overall_summary": "While the channel is experimenting across various emotional themes, videos centered around 'self respect' and digital micro-behaviors (chats, blocking, statuses) have yielded higher view counts (averaging 25-40 views) compared to generic late-night sadness topics (averaging 5-15 views). However, due to the overall low sample size and low engagement (likes/comments), confidence is moderate-low, necessitating a continuation of the winning self-respect framework with a slight controlled exploration.",
   "winning_patterns": [
     {
-      "pattern": "Self Respect boundary actions",
-      "evidence": "Videos centered around active boundaries like deleting chats or removing names (e.g., AfaLxMy6FMY, rwOUYo_hayQ, wFimeeP_aVc) averaged around 30-40 views, higher than the channel average.",
-      "action": "Lean into micro-actions of digital self-respect involving immediate smartphone UI realities."
+      "pattern": "Digital micro-behavior hooks tied to self-respect",
+      "evidence": "Videos like 'उंगली उसी चैट पर रुकी थी' (AfaLxMy6FMY - 40 views) and 'स्टेटस लिस्ट में सबसे ऊपर उन्हीं का नाम था' (rwOUYo_hayQ - 37 views) outperformed generic sad themes.",
+      "action": "Focus hooks on tangible, modern smartphone actions like muting, hiding stories, or removing pinned chats."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract poetic late-night reflections",
-      "evidence": "Videos focusing heavily on poetic atmosphere without an immediate relatable micro-action (e.g., uIbMpCjVutQ, aUuNKfe7jm4) received very low views (5 views).",
-      "action": "Avoid purely passive atmospheric hooks; always anchor the narrative to a tangible everyday digital or physical trigger."
+      "pattern": "Vague late-night atmospheric hooks",
+      "evidence": "Videos like 'रात के दो बजे' (G0gKV1p3ZHc - 12 views) and 'मेज पर रखी चाय ठंडी हो गई' (uIbMpCjVutQ - 5 views) underperformed significantly.",
+      "action": "Avoid abstract poetic openings about time or weather; ground the start in an immediate, recognizable phone-screen action."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowering detachment",
-    "hook_style": "Tangible digital UI trigger",
+    "emotion": "Empowerment through emotional detachment",
+    "hook_style": "Visual and psychological digital action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short piece on finally turning off 'Last Seen' or removing a shared playlist because you no longer care who is watching.",
-    "opening_direction": "जब सेटिंग्स में जाकर 'Last Seen' हमेशा के लिए छुपा दिया,",
-    "twist_direction": "शुरुआत में डर था कि वो क्या सोचेंगे, पर आज एहसास हुआ कि अब फर्क ही नहीं पड़ता।",
+    "concept": "Removing someone from close friends or restricted story lists, realizing that hiding your peace is better than showing your pain.",
+    "opening_direction": "Stories पर लॉक लगाने से पहले, मैंने उसे सिर्फ एक क्लिक में 'Close Friends' से बाहर कर दिया।",
+    "twist_direction": "डर था कि वो पूछेगा क्यों, पर जब 24 घंटे बीतने पर भी उसका मैसेज नहीं आया, तब समझ आया कि मेरा डर ही सबसे बड़ा धोखा था।",
     "duration_seconds": 10,
-    "posting_window": "05:30 PM - 07:30 PM",
-    "reason": "Aligns with the proven higher-performing 'self respect' micro-action category while testing a new digital boundary setting to prevent format fatigue."
+    "posting_window": "05:30 PM - 07:30 PM IST",
+    "reason": "Leverages the proven high-performing 'self respect' topic and digital-boundary theme while testing story-view privacy as a fresh relatable detail."
   },
-  "experiment": "Testing whether digital privacy settings (like hiding last seen) drive higher engagement compared to chat/number deletion hooks.",
-  "updated_at": "2026-09-15T12:44:23.601482+00:00",
+  "experiment": "Testing whether shifting from chat deletion to Instagram/WhatsApp story privacy settings increases comment/like engagement.",
+  "updated_at": "2026-09-15T13:41:22.276479+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-15T12:44:26.556733+00:00"
+  "generated_at": "2026-09-15T13:41:26.090414+00:00"
 }
