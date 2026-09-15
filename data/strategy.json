@@ -1,35 +1,35 @@
 {
   "confidence": "65%",
-  "data_points": 14,
-  "overall_summary": "Analysis of 14 Shorts reveals that content focusing on 'self respect' (specifically centered around chat interactions, blocking, deleting, and muting) consistently outperforms broader topics like 'रात के ख्याल' or abstract 'अधूरी मोहब्बत'. View counts are generally low across the board (5 to 40 views), but self-respect tactical hooks attract the highest relative baseline views.",
+  "data_points": 15,
+  "overall_summary": "Analysis of the recent historical data shows a clear shift in audience engagement. While older videos focused broadly on 'overthinking' and late-night feelings yielding low views (5-20 views), newer content centered around 'self respect'—specifically actions involving chat interactions, blocking, deleting, and status lists—consistently performs better (averaging 30-40 views, peaking at 40). The audience responds strongly to tactile, everyday digital boundary-setting rather than abstract sadness.",
   "winning_patterns": [
     {
-      "pattern": "Action-Oriented Self-Respect Hooks",
-      "evidence": "Videos like AfaLxMy6FMY ('उंगली उसी चैट पर रुकी थी' - 40 views), aNR94Xxn0yM (27 views), and wFimeeP_aVc ('ब्लू टिक्स आज छिपा दिए' - 34 views) outperform abstract emotional statements.",
-      "action": "Focus future scripts on concrete smartphone actions related to boundaries and self-respect."
+      "pattern": "Digital Boundary Actions (Self Respect)",
+      "evidence": "Videos like 'चैट डिलीट करने की हिम्मत' (40 views), 'ब्लू टिक्स आज छिपा दिए' (34 views), and 'स्टेटस लिस्ट से उसका नाम' (33 views) consistently outperform abstract emotional content.",
+      "action": "Focus story hooks on micro-actions involving smartphone interfaces related to self-respect and moving on."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Passive Late-Night/Tea Tropes",
-      "evidence": "Videos focusing on passive themes like 'मेज पर रखी चाय ठंडी हो गई' (uIbMpCjVutQ) received only 5 views.",
-      "action": "Avoid passive atmospheric tropes; anchor every emotional observation to a tangible phone or digital boundary action."
+      "pattern": "Abstract Late-Night Melodrama",
+      "evidence": "Videos focusing heavily on generic time markers or abstract thoughts like 'रात के दो बजे' (12 views) or 'मेज पर रखी चाय ठंडी हो गई' (5 views) show very low traction.",
+      "action": "Avoid purely atmospheric openings without a specific, relatable modern conflict."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment through detachment",
-    "hook_style": "Digital boundary action",
+    "emotion": "Empowerment and detachment",
+    "hook_style": "Tactile digital action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization moment when removing someone from your close-friends list or hidden story viewers, choosing personal peace over public appearance.",
-    "opening_direction": "लिस्ट से उसका नाम हटाने से पहले,",
-    "twist_direction": "पता चला कि उसे फर्क ही नहीं पड़ा, और यही इस बात का सबसे बड़ा सुकून था कि अब मुझे भी कोई फर्क नहीं पड़ता।",
-    "duration_seconds": 12,
-    "posting_window": "13:00 - 14:00 IST",
-    "reason": "Building directly on the proven high-performing self-respect and chat/list management niche while testing a new digital boundary scenario."
+    "concept": "A realization moment when clearing out phone galleries or archived folders where an old shared photo is finally deleted instead of saved to cloud storage.",
+    "opening_direction": "Gallery clean-up notification: 'Deleting 500 items from Recently Deleted.'",
+    "twist_direction": "Realizing the final photo isn't being deleted with tears, but with a blank, indifferent stare because the memory finally lost its weight.",
+    "duration_seconds": 10,
+    "posting_window": "05:30 PM - 07:30 PM",
+    "reason": "Aligns with the proven self-respect and digital cleanup winning pattern while slightly testing a gallery/media cleanup angle instead of just chats."
   },
-  "experiment": "Testing if shifting from 'deleting chats' to 'removing from close circles/stories' maintains the high view baseline of the self-respect category.",
-  "updated_at": "2026-09-15T04:42:45.749779+00:00",
+  "experiment": "Testing whether shifting the self-respect tactile hook from chat apps (WhatsApp/Instagram) to phone storage/photo galleries retains the higher view counts.",
+  "updated_at": "2026-09-15T05:42:18.050703+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-15T04:42:48.258411+00:00"
+  "generated_at": "2026-09-15T05:42:20.932195+00:00"
 }
