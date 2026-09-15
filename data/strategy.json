@@ -1,40 +1,40 @@
 {
-  "confidence": "35%",
+  "confidence": "65%",
   "data_points": 16,
-  "overall_summary": "Initial channel data shows a clear early preference for 'self respect' topics with everyday smartphone triggers (like chat clearing and blue ticks) over abstract late-night thoughts. However, since total views remain under 50 across all videos, overall statistical confidence is low and requires controlled testing.",
+  "overall_summary": "The channel shows initial traction leaning towards 'self respect' and smartphone/chat-related micro-moments. Videos focusing on digital boundaries (blocking, hiding status, deleting chats) consistently outperform generic heartbreak or late-night tropes in terms of view counts.",
   "winning_patterns": [
     {
-      "pattern": "Concrete Smartphone Actions",
-      "evidence": "Videos like 'चैट डिलीट करने की हिम्मत' (40 views) and 'Self Respect Status Story' (39 views) outperform abstract topics like late-night thoughts (5-12 views).",
-      "action": "Focus hooks on physical, recognizable actions involving phones (chats, blocking, hiding stories, removing contacts)."
+      "pattern": "Digital boundary actions (Self Respect)",
+      "evidence": "Videos like 'rwOUYo_hayQ' (39 views), 'wFimeeP_aVc' (35 views), and 'AfaLxMy6FMY' (40 views) outperform general emotional themes.",
+      "action": "Focus heavily on modern smartphone micro-interactions related to letting go and reclaiming self-respect."
     },
     {
-      "pattern": "Empowerment & Boundaries",
-      "evidence": "Self-respect narrative angles with a firm boundary ('तमाशा खत्म') generate better traction than passive waiting.",
-      "action": "Center emotional plots around reclaiming personal peace rather than just mourning loss."
+      "pattern": "Visual and tactile hooks",
+      "evidence": "Hooks mentioning specific UI elements ('ब्लू टिक्स', 'पिन बटन', 'चैट') grab higher early attention.",
+      "action": "Use specific, tactile smartphone interface actions as the opening trigger."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Late-Night Ambience",
-      "evidence": "Topics like 'रात के ख्याल' and 'ओवरथिंकिंग' with vague setups ('रात के दो बजे', 'चाय ठंडी हो गई') averaged low views (5-12 views).",
-      "action": "Avoid starting with weather, time, or generalized melancholy without a specific physical prompt."
+      "pattern": "Abstract late-night existential monologues",
+      "evidence": "Videos like 'uIbMpCjVutQ' (5 views) and 'aUuNKfe7jm4' (5 views) regarding tea or vague night feelings performed poorly.",
+      "action": "Avoid generic atmospheric setups unless anchored to a specific, relatable modern action."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Quiet closure",
-    "hook_style": "Action-oriented notification trigger",
+    "emotion": "Empowerment through detachment",
+    "hook_style": "Tactile UI action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Turning off read receipts because peace matters more than letting them know you saw it.",
-    "opening_direction": "Turning off 'Last Seen' or blue ticks permanently in settings.",
-    "twist_direction": "Realizing the silence from their end no longer hurts because you stopped checking who is watching.",
+    "concept": "Removing someone from the 'Close Friends' or hidden story list after months of silent viewing.",
+    "opening_direction": "ग्रीन सर्कल वाली स्टोरी पर उंगली रुकी, जो सिर्फ खास लोगों के लिए थी।",
+    "twist_direction": "सोचा था हटाने से दिल दुखेगा, पर उसे बाहर करके पहली बार खुद को सबसे ऊपर रखने की राहत महसूस हुई।",
     "duration_seconds": 15,
-    "posting_window": "05:30 PM - 07:00 PM IST",
-    "reason": "Aligns with the proven high-performing 'self respect' and digital boundary theme while testing a fresh setting-based trigger."
+    "posting_window": "13:00 to 14:00 (Early afternoon peak based on top performing time slots)",
+    "reason": "Capitalizes on the winning self-respect digital boundary pattern with a fresh UI interaction that hasn't been overused yet."
   },
-  "experiment": "Testing settings-level digital privacy actions ('Last Seen/Blue Ticks') versus chat-thread actions for self-respect content.",
-  "updated_at": "2026-09-15T22:38:43.410480+00:00",
+  "experiment": "Testing if shifting from main chat deletion to 'Close Friends/Hidden Story' list exclusion maintains the high view baseline of self-respect content.",
+  "updated_at": "2026-09-15T23:38:24.351809+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-15T22:38:46.308596+00:00"
+  "generated_at": "2026-09-15T23:38:27.274006+00:00"
 }
