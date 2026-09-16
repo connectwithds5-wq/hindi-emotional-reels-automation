@@ -1,40 +1,40 @@
 {
   "confidence": "65%",
   "data_points": 16,
-  "overall_summary": "The channel shows a clear preference among viewers for content centered around 'self respect', specifically dealing with digital boundaries like chats, statuses, and muting notifications. Content focused on empowerment and letting go consistently outperforms general heartbreak or late-night overthinking.",
+  "overall_summary": "Analysis of the recent 16 videos shows that 'self respect' and boundary-setting topics (like muting chats, removing emergency contacts, hiding blue ticks) consistently attract higher views (averaging 30-40 views) compared to generic late-night or one-sided love themes (which range between 5-20 views). However, overall engagement (likes and comments) remains sparse across the board, indicating low sample size and early-stage channel dynamics.",
   "winning_patterns": [
     {
-      "pattern": "Digital Boundary Actions",
-      "evidence": "Videos like 'चैट डिलीट करने की हिम्मत' (40 views) and 'Self Respect Status Story' (39 views) outperform generic relationship posts.",
-      "action": "Focus storytelling on modern smartphone triggers like muting, hiding stories, or deleting specific chat threads."
+      "pattern": "Action-oriented Self-Respect Decisions",
+      "evidence": "Videos focusing on concrete boundary actions like muting pinned chats ('0H4VygZ3DIU', 21 views), removing emergency contacts ('hrjJ-QS9M8w', 12 views), hiding blue ticks ('wFimeeP_aVc', 35 views), and status list pruning ('rwOUYo_hayQ', 39 views) perform better than abstract emotional pain.",
+      "action": "Double down on micro-actions related to digital detachment and self-preservation."
     },
     {
-      "pattern": "Direct, Tangible Hooks",
-      "evidence": "Hooks mentioning specific UI elements (e.g., 'उंगली उसी चैट पर रुकी थी', 'स्टेटस लिस्ट में सबसे ऊपर') generate higher initial engagement.",
-      "action": "Start hooks with physical actions related to phone screens or immediate decisions."
+      "pattern": "Tangible UI/Smartphone Hook Triggers",
+      "evidence": "Hooks mentioning specific phone interfaces ('स्टेटस लिस्ट में सबसे ऊपर उन्हीं का नाम था', 'ब्लू टिक्स आज छिपा दिए') outperform poetry-heavy openers.",
+      "action": "Use specific smartphone actions or interface states as immediate hooks."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Passive Late-Night Overthinking",
-      "evidence": "Videos like 'रात के ख्याल और अधूरा इंतजार' (5 views) and 'ओवरथिंकिंग और अधूरी उम्मीद' (7 views) received significantly lower views.",
-      "action": "Reduce abstract late-night rambling; ground every overthinking thought into a concrete action or decision."
+      "pattern": "Generic Late-Night / Abstract Melancholy",
+      "evidence": "Videos like 'रात के ख्याल और अधूरा इंतजार' ('uIbMpCjVutQ', 5 views) and 'रात के दो बजे' ('G0gKV1p3ZHc', 12 views) underperform.",
+      "action": "Avoid vague time-of-night tropes unless paired with a very specific, actionable digital behavior."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowered relief",
-    "hook_style": "Action-oriented phone screen moment",
+    "emotion": "Empowered detachment",
+    "hook_style": "Smartphone interaction detail",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization that scrolling past someone's uploaded story without clicking it anymore brings true freedom.",
-    "opening_direction": "उनकी स्टोरी देखने के लिए हाथ खुद-ब-खुद बढ़ा,",
-    "twist_direction": "रुक गया, क्योंकि इस बार जिज्ञासा नहीं, सिर्फ एक अजनबी सा सुकून था।",
-    "duration_seconds": 10,
-    "posting_window": "13:00 - 14:00 IST",
-    "reason": "Aligns with the proven high-performing 'self respect' and digital boundary theme while testing a slightly different micro-action (ignoring a story instead of deleting a chat)."
+    "concept": "A realization that checking someone's 'Last Seen' is no longer a habit of longing, but mere curiosity, leading to the final decision of turning off Last Seen entirely.",
+    "opening_direction": "कल तक जो रातभर 'Last Seen' चेक करने की आदत थी...",
+    "twist_direction": "...आज अचानक वो सेटिंग ऑफ करते वक्त एहसास हुआ कि अब फर्क पड़ना बंद हो गया है।",
+    "duration_seconds": 25,
+    "posting_window": "13:30 - 14:00",
+    "reason": "Previous successful self-respect shorts (like 'rwOUYo_hayQ' and 'wFimeeP_aVc') were published in the early afternoon window and focused on digital control actions."
   },
-  "experiment": "Testing if narrative around ignoring/skipping a digital update performs as well as deleting or blocking contacts.",
-  "updated_at": "2026-09-16T03:41:13.563222+00:00",
+  "experiment": "Testing if shifting from 'hiding others from view' to 'hiding own status/activity' drives better engagement within the proven self-respect topic cluster.",
+  "updated_at": "2026-09-16T04:41:06.487547+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-16T03:41:16.294413+00:00"
+  "generated_at": "2026-09-16T04:41:09.635565+00:00"
 }
