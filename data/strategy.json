@@ -1,40 +1,45 @@
 {
-  "confidence": "65%",
+  "confidence": "70%",
   "data_points": 17,
-  "overall_summary": "Analysis of the initial 17 videos reveals that 'self respect' combined with modern, tactile smartphone interactions (like deleting chats, hiding last seen, or blocking) consistently outperforms abstract romantic tropes like 'बेवफाई' or generalized 'ओवरथिंकिंग'. Content focusing on reclaiming personal dignity generates higher view counts (averaging 30-40 views compared to under 15 for older tropes).",
+  "overall_summary": "Analysis of the recent 17 shorts indicates that 'self respect' combined with modern smartphone/chat behavior micro-moments (like clearing chats, muting, or removing pinned status) consistently outperforms general emotional topics like 'अधूरी मोहब्बत' or broad 'ओवरथिंकिंग' in view counts. View counts peak between 20 to 40 views for self-respect chat actions, whereas passive late-night longing performs lower.",
   "winning_patterns": [
     {
-      "pattern": "Tactile Phone Interactivity Hooks",
-      "evidence": "Videos referencing specific UI elements (e.g., 'उंगली उसी चैट पर रुकी थी', 'ब्लू टिक्स आज छिपा दिए', 'स्टेटस लिस्ट में सबसे ऊपर') achieved the highest views (AfaLxMy6FMY at 40 views, rwOUYo_hayQ at 39 views).",
-      "action": "Prioritize everyday digital interface actions as anchor points for emotional storytelling."
+      "pattern": "Actionable digital boundary-setting",
+      "evidence": "Videos like AfaLxMy6FMY (Self Respect, 40 views) and rwOUYo_hayQ (Self Respect, 39 views) leverage immediate smartphone interactions such as looking at status lists or deleting chats.",
+      "action": "Focus hooks on tangible, modern smartphone triggers related to self-worth."
     },
     {
-      "pattern": "Core Theme: Self Respect over Longing",
-      "evidence": "Topics tagged under 'self respect' averaged roughly double the views compared to 'ओवरथिंकिंग' or 'रात के ख्याल'.",
-      "action": "Pivot the emotional narrative arc away from passive suffering toward active boundary-setting and self-preservation."
+      "pattern": "Specific physical actions over abstract feelings",
+      "evidence": "aNR94Xxn0yM (27 views) and wFimeeP_aVc (35 views) use precise physical triggers ('बिना नाम के सेव किया था नंबर', 'ब्लू टिक्स आज छिपा दिए').",
+      "action": "Start with a highly specific micro-action rather than general time or weather settings."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Late-Night Monologues",
-      "evidence": "Videos like 'रात के दो बजे' (G0gKV1p3ZHc) and 'मेज पर रखी चाय' (uIbMpCjVutQ) had very low traction (5-12 views).",
-      "action": "Avoid purely ambient or atmospheric hooks without a specific concrete action or object."
+      "pattern": "Passive late-night atmosphere descriptions",
+      "evidence": "uIbMpCjVutQ ('मेज पर रखी चाय ठंडी हो गई') got only 5 views.",
+      "action": "Avoid purely poetic or weather-based openings without a concrete digital or behavioral interaction."
+    },
+    {
+      "pattern": "Zero-action timing descriptions",
+      "evidence": "WhJ-VwRa3Rg ('घंटों से वो ऑनलाइन दिख रहा है') got 7 views.",
+      "action": "Move away from passive waiting to active moving on."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment through detachment",
-    "hook_style": "Tactile UI action",
+    "emotion": "Empowerment & Detachment",
+    "hook_style": "Digital action micro-moment",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Removing someone from the 'Close Friends' or custom privacy list on Instagram/WhatsApp stories.",
-    "opening_direction": "कस्टम स्टोरी प्राइवेसी की सेटिंग खोलते ही, उसका नाम अनचेक करने वाली उंगली एक सेकंड के लिए रुकी।",
-    "twist_direction": "लगा था कि बुरा लगेगा, पर जब कहानी सिर्फ खुद के लिए पोस्ट हुई, तो पहली बार फोन की स्क्रीन पर अपना अक्स साफ दिखा।",
+    "concept": "Removing someone from close friends story list after realizing they no longer watch your updates.",
+    "opening_direction": "क्लोज़ फ्रेंड्स लिस्ट खोलकर, उसका नाम हटाने ही वाला था कि...",
+    "twist_direction": "पता चला उसने तो बहुत पहले ही म्यूट कर रखा था, और यह देखकर बुरा लगने के बजाय चेहरे पर एक सुकून भरी हंसी आ गई।",
     "duration_seconds": 12,
-    "posting_window": "05:30 PM - 07:00 PM IST",
-    "reason": "Capitalizes on the proven high-performing 'self respect + digital boundary' pattern while testing a slightly different platform interaction feature (stories privacy)."
+    "posting_window": "05:30 PM - 07:00 PM",
+    "reason": "Capitalizes on the proven high-performing 'self respect' and 'social media boundary' pattern while introducing a slightly fresh twist on the 'Close Friends' feature."
   },
-  "experiment": "Testing if shifting the focus from chat deletion/muting to story visibility controls maintains the high-view baseline established by self-respect content.",
-  "updated_at": "2026-09-16T05:40:32.944403+00:00",
+  "experiment": "Testing if shifting the self-respect micro-action from chat/calls to 'Close Friends' story settings maintains the higher view counts seen in chat deletion videos.",
+  "updated_at": "2026-09-16T06:44:58.395307+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-16T05:40:35.824113+00:00"
+  "generated_at": "2026-09-16T06:45:01.591595+00:00"
 }
