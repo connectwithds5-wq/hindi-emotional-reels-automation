@@ -1,40 +1,40 @@
 {
   "confidence": "65%",
   "data_points": 16,
-  "overall_summary": "Analysis of the recent 16 videos shows that 'self respect' is clearly outperforming other topics, capturing the highest view counts consistently (ranging between 22 to 40 views, notably video AfaLxMy6FMY at 40 and rwOUYo_hayQ at 39). In contrast, generic late-night or overthinking themes with abstract hooks (like WhJ-VwRa3Rg or uIbMpCjVutQ) are underperforming. The audience strongly connects with micro-actions related to digital boundaries and self-worth.",
+  "overall_summary": "Data shows clear audience preference towards 'self respect' and boundary-setting themes (e.g., deleting chats, removing numbers, muting statuses) yielding higher average views (30-40 views) compared to generic overthinking or late-night sadness tropes which stagnated at lower views (5-20 views).",
   "winning_patterns": [
     {
-      "pattern": "Digital Boundary Actions",
-      "evidence": "Videos focusing on deleting chats, blocking, muting, or hiding status (e.g., AfaLxMy6FMY, rwOUYo_hayQ, 0H4VygZ3DIU) consistently average higher views (30-40) compared to abstract poetry.",
-      "action": "Focus hooks and stories around concrete smartphone actions that symbolize emotional detachment and self-respect."
+      "pattern": "Action-oriented self-respect moments",
+      "evidence": "Videos like 'AfaLxMy6FMY' (Self Respect, 40 views), 'wFimeeP_aVc' (35 views), and 'rwOUYo_hayQ' (39 views) outperform passive sadness content.",
+      "action": "Focus storytelling on micro-decisions of walking away or reclaiming dignity (like muting, deleting, hiding stories)."
     },
     {
-      "pattern": "Action-Oriented Hook Starters",
-      "evidence": "Hooks starting with precise physical or screen interactions (e.g., 'उंगली उसी चैट पर रुकी थी', 'स्टेटस लिस्ट में सबसे ऊपर') hook the viewer immediately.",
-      "action": "Open scripts with an active, tactile moment involving the phone screen or contact list."
+      "pattern": "Tangible digital hook details",
+      "evidence": "Hooks mentioning specific smartphone interface elements like blue ticks, pinned chats, and status lists generate better immediate traction.",
+      "action": "Open hooks with physical actions on the phone screen related to cutting access."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Late-Night Weather/Environment Hooks",
-      "evidence": "Videos like 'रात के ख्याल और अधूरा इंतजार' (hook: 'मेज पर रखी चाय ठंडी हो गई') received only 5 views.",
-      "action": "Avoid generic atmospheric intros about tea, cold nights, or general longing without a sharp behavioral trigger."
+      "pattern": "Abstract late-night overthinking tropes",
+      "evidence": "Videos like 'uIbMpCjVutQ' ('मेज पर रखी चाय ठंडी हो गई') got only 5 views.",
+      "action": "Avoid overly poetic, slow-burn setups; keep hooks grounded in modern digital relationship realities."
     }
   ],
   "next_video": {
     "topic": "self respect",
     "emotion": "Empowerment through detachment",
-    "hook_style": "Tactile smartphone action",
+    "hook_style": "Digital interface action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization moment when scrolling through contacts and deciding to clear out outdated emotional tethers that no longer deserve space.",
-    "opening_direction": "कॉन्टैक्ट लिस्ट स्क्रॉल करते हुए जब अचानक सालों पुराना नाम सामने आ जाए।",
-    "twist_direction": "इस बार उसे डिलीट करने में हाथ नहीं काँपे, बल्कि एक अजीब सा सुकून मिला कि अब फर्क नहीं पड़ता।",
-    "duration_seconds": 15,
-    "posting_window": "13:00 - 14:00 IST",
-    "reason": "Matches the proven high-performing 'self respect' and digital boundary theme while testing a scrolling/contact-cleanup micro-moment to prevent format fatigue."
+    "concept": "Removing someone from the close friends or restricted list on social media after realizing they only view stories out of boredom, leading to unexpected inner peace.",
+    "opening_direction": "क्लोज़ फ्रेंड्स लिस्ट एडिट करते वक्त,",
+    "twist_direction": "जब उन्हें बाहर किया, तो लगा था बुरा लगेगा... पर स्क्रीन पर सिर्फ एक शांत सी राहत थी।",
+    "duration_seconds": 12,
+    "posting_window": "05:30 PM - 07:00 PM",
+    "reason": "Capitalizes on the proven high-performing 'self respect' and digital boundary-setting pattern while testing a slightly different feature (close friends list) than chats and numbers."
   },
-  "experiment": "Testing a contact-scrolling action hook combined with self-respect realization to see if it outperforms chat-deletion hooks.",
-  "updated_at": "2026-09-16T00:44:07.723492+00:00",
+  "experiment": "Testing if shifting the boundary-setting action from chat/calls to social media features ('Close Friends' list) maintains high engagement.",
+  "updated_at": "2026-09-16T01:39:08.105053+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-16T00:44:10.751844+00:00"
+  "generated_at": "2026-09-16T01:39:10.863769+00:00"
 }
