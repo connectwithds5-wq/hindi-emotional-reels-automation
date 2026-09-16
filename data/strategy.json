@@ -1,35 +1,40 @@
 {
-  "confidence": "50%",
+  "confidence": "65%",
   "data_points": 16,
-  "overall_summary": "Data shows a strong shift toward 'self respect' concepts featuring actionable digital boundaries (e.g., chat deletion, hiding blue ticks, muted chats), yielding 30-40 views consistently compared to passive emotional topics (5-17 views). Confidence remains moderate due to low overall view counts.",
+  "overall_summary": "The channel shows a clear preference among viewers for content centered around 'self respect', specifically dealing with digital boundaries like chats, statuses, and muting notifications. Content focused on empowerment and letting go consistently outperforms general heartbreak or late-night overthinking.",
   "winning_patterns": [
     {
-      "pattern": "Self-respect tied to digital boundaries (chat actions, blue ticks, status hidden)",
-      "evidence": "Videos focusing on self respect averaged 29 views, with peak performance at 40 views (AfaLxMy6FMY - chat delete) and 39 views (rwOUYo_hayQ - status list).",
-      "action": "Double down on micro-actions people take on smartphones to enforce personal boundaries."
+      "pattern": "Digital Boundary Actions",
+      "evidence": "Videos like 'चैट डिलीट करने की हिम्मत' (40 views) and 'Self Respect Status Story' (39 views) outperform generic relationship posts.",
+      "action": "Focus storytelling on modern smartphone triggers like muting, hiding stories, or deleting specific chat threads."
+    },
+    {
+      "pattern": "Direct, Tangible Hooks",
+      "evidence": "Hooks mentioning specific UI elements (e.g., 'उंगली उसी चैट पर रुकी थी', 'स्टेटस लिस्ट में सबसे ऊपर') generate higher initial engagement.",
+      "action": "Start hooks with physical actions related to phone screens or immediate decisions."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Passive night thoughts / Overthinking without an active turning point",
-      "evidence": "Topics like 'रात के ख्याल' and 'ओवरथिंकिंग' logged lowest views (5 to 17 views).",
-      "action": "Avoid purely passive sadness; always ground the narrative in a decisive moment of moving on."
+      "pattern": "Passive Late-Night Overthinking",
+      "evidence": "Videos like 'रात के ख्याल और अधूरा इंतजार' (5 views) and 'ओवरथिंकिंग और अधूरी उम्मीद' (7 views) received significantly lower views.",
+      "action": "Reduce abstract late-night rambling; ground every overthinking thought into a concrete action or decision."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "quiet empowerment",
-    "hook_style": "relatable digital trigger",
+    "emotion": "Empowered relief",
+    "hook_style": "Action-oriented phone screen moment",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Removing someone's media auto-download setting to stop saving memories automatically.",
-    "opening_direction": "Show fingers turning off 'Media Auto-Download' specifically for one pinned chat.",
-    "twist_direction": "The realization that deleting photos isn't enough; stopping new memories from taking space in your gallery is where peace begins.",
-    "duration_seconds": 15,
-    "posting_window": "13:30 - 14:00 UTC",
-    "reason": "Top-performing videos consistently utilize phone settings/ui actions as emotional visual metaphors during the 13:40 UTC posting window."
+    "concept": "A realization that scrolling past someone's uploaded story without clicking it anymore brings true freedom.",
+    "opening_direction": "उनकी स्टोरी देखने के लिए हाथ खुद-ब-खुद बढ़ा,",
+    "twist_direction": "रुक गया, क्योंकि इस बार जिज्ञासा नहीं, सिर्फ एक अजनबी सा सुकून था।",
+    "duration_seconds": 10,
+    "posting_window": "13:00 - 14:00 IST",
+    "reason": "Aligns with the proven high-performing 'self respect' and digital boundary theme while testing a slightly different micro-action (ignoring a story instead of deleting a chat)."
   },
-  "experiment": "Testing if setting-specific UI actions (Media Auto-Download) drive stronger relatable resonance than chat/status deletion.",
-  "updated_at": "2026-09-16T02:40:20.031253+00:00",
-  "model_used": "gemini-3.6-flash",
-  "generated_at": "2026-09-16T02:40:28.647664+00:00"
+  "experiment": "Testing if narrative around ignoring/skipping a digital update performs as well as deleting or blocking contacts.",
+  "updated_at": "2026-09-16T03:41:13.563222+00:00",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-09-16T03:41:16.294413+00:00"
 }
