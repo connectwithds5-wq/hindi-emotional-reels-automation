@@ -1558,6 +1558,78 @@
         "reason": "Leverages the proven high-performing 'self respect' topic and digital-boundary theme while testing story-view privacy as a fresh relatable detail."
       },
       "model_used": "gemini-3.5-flash-lite"
+    },
+    {
+      "hook": "कल तक जो रातभर",
+      "lines": [
+        "लास्ट सीन चेक करने की आदत थी",
+        "आज वही स्क्रीन नीरस लगी",
+        "उंगली खुद ब खुद सेटिंग पर गई",
+        "ब्लू टिक और टाइम दोनों छुपा दिए",
+        "सोचा था दिल थोड़ा तो धड़केगा",
+        "मगर भीतर कमाल की शांति छाई",
+        "मोहब्बत हार गई उस एक पल में"
+      ],
+      "youtube_title": "Last Seen Hide Karne Ka Ehsaas | Self Respect Status",
+      "youtube_description": "जब किसी का लास्ट सीन देखना आदत से बदलकर सिर्फ एक जिज्ञासा बन जाए, तब खुद को बचाने का सही समय आ जाता है। यह छोटी सी कहानी उसी शांत आत्मसम्मान और डिजिटल डिटैचमेंट की है। क्या आपने कभी अपने स्टेटस छुपाकर खुद को सुकून दिया है?",
+      "youtube_keywords": [
+        "self respect status",
+        "last seen hide emotional story",
+        "dil ki diary hindi",
+        "emotional detachment status",
+        "whatsapp last seen hidden",
+        "sad hindi micro story",
+        "self respect reels hindi",
+        "deep emotional hindi shorts",
+        "dil ko chu lene wali kahani",
+        "silent heartbreak status",
+        "attitude and self respect quotes",
+        "khud ke liye jeena"
+      ],
+      "youtube_hashtags": [
+        "SelfRespect",
+        "DilKiDiary",
+        "EmotionalStory",
+        "HindiShorts",
+        "DeepThoughts",
+        "Relatable",
+        "PeaceOfMind"
+      ],
+      "caption": "जब किसी की मौजूदगी या गैर-मौजूदगी का असर होना बंद हो जाए, समझो खुद को वापस पा लिया।",
+      "keywords": [
+        "self respect",
+        "last seen",
+        "emotional story",
+        "dil ki diary",
+        "hindi micro story",
+        "detachment",
+        "peace",
+        "relatable"
+      ],
+      "hashtags": [
+        "SelfRespect",
+        "DilKiDiary",
+        "EmotionalStory",
+        "HindiShorts",
+        "DeepThoughts",
+        "Relatable",
+        "PeaceOfMind",
+        "SilentHeartbreak"
+      ],
+      "topic": "self respect",
+      "strategy_used": {
+        "topic": "self respect",
+        "emotion": "Empowered detachment",
+        "hook_style": "Smartphone interaction detail",
+        "story_structure": "simple -> relatable -> twist",
+        "concept": "A realization that checking someone's 'Last Seen' is no longer a habit of longing, but mere curiosity, leading to the final decision of turning off Last Seen entirely.",
+        "opening_direction": "कल तक जो रातभर 'Last Seen' चेक करने की आदत थी...",
+        "twist_direction": "...आज अचानक वो सेटिंग ऑफ करते वक्त एहसास हुआ कि अब फर्क पड़ना बंद हो गया है।",
+        "duration_seconds": 25,
+        "posting_window": "13:30 - 14:00",
+        "reason": "Previous successful self-respect shorts (like 'rwOUYo_hayQ' and 'wFimeeP_aVc') were published in the early afternoon window and focused on digital control actions."
+      },
+      "model_used": "gemini-3.5-flash-lite"
     }
   ]
 }
