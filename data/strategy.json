@@ -1,35 +1,35 @@
 {
   "confidence": "65%",
   "data_points": 19,
-  "overall_summary": "Analysis of recent uploads shows clear traction for 'self respect' and boundary-setting themes (specifically regarding mobile interactions like pinned chats, status lists, and blocking/deleting) with views averaging 30-41 on top performers. Conversely, late-night general overthinking or overly poetic relationship musings underperformed (views between 3 to 12).",
+  "overall_summary": "Data shows clear audience leaning toward 'self respect' and smartphone-interaction micro-moments (chat apps, status lists, deleted texts) rather than generic late-night sadness. Content focused on boundaries and letting go outperforms abstract loneliness.",
   "winning_patterns": [
     {
-      "pattern": "Action-oriented Self-Respect Hooks",
-      "evidence": "Videos like rwOUYo_hayQ (41 views) and AfaLxMy6FMY (40 views) focus on micro-decisions regarding digital boundaries (status lists, chat deletions).",
-      "action": "Continue utilizing micro-actions on the phone screen as hooks for self-respect content."
+      "pattern": "Digital boundary micro-actions",
+      "evidence": "Videos focusing on concrete phone actions like deleting chats, muting pinned chats, or hiding status (e.g., rwOUYo_hayQ with 41 views, AfaLxMy6FMY with 40 views, wFimeeP_aVc with 35 views) perform noticeably better than abstract night thoughts.",
+      "action": "Continue framing emotional pain around modern smartphone habits and boundary-setting decisions."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Late-Night Atmospheric Tropes",
-      "evidence": "Videos like hT4EGP69mRw (4 views) and LBGCloAitok (3 views) using generic ringtone or repetitive unpinning themes saw sharp drops.",
-      "action": "Avoid repeating identical mobile settings metaphors; pivot to fresh micro-realities."
+      "pattern": "Abstract atmospheric loneliness",
+      "evidence": "Vague themes like late-night tea, general waiting, or unspecific night thoughts (e.g., uIbMpCjVutQ with 5 views, Ct4R0He3BV4 with 7 views) suffer from low engagement due to lack of a tangible trigger.",
+      "action": "Avoid purely atmospheric hooks; anchor every story to a specific physical or digital artifact."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment through quiet detachment",
-    "hook_style": "Visual/Digital micro-action",
+    "emotion": "Empowerment through detachment",
+    "hook_style": "Tactile phone interaction",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Removing someone from the phone's auto-suggested contact list and realizing the keyboard stopped typing their name out of habit.",
-    "opening_direction": "Keyboard ka pehla akshar dabate hi jab uska naam suggestion me sabse upar dikhna band ho jaye...",
-    "twist_direction": "...toh samajh aaya ki ab ungliyon ko bhi yaad ho gaya hai ki woh ab is zindagi ka hissa nahi hain.",
+    "concept": "A realization moment when clearing out phone storage and coming across old voice notes that are no longer painful to listen to.",
+    "opening_direction": "फोन की स्टोरेज साफ करते वक्त वो पुराना वॉइस नोट मिल गया।",
+    "twist_direction": "पूरी ऑडियो सुनने की हिम्मत जुटाई, पर इस बार चेहरे पर आंसू नहीं, एक हल्की सी हंसी थी क्योंकि आवाज अनजान लग रही थी।",
     "duration_seconds": 15,
     "posting_window": "13:00 - 14:00 IST",
-    "reason": "Leverages the proven high-performing self-respect theme tied to a fresh digital muscle-memory habit rather than repetitive chat pinning/unpinning."
+    "reason": "Mid-day posting slots tied to self-respect narratives have historically pulled higher baseline views across the channel."
   },
-  "experiment": "Testing if keyboard auto-suggestion habits perform better as a self-respect hook than contact list removals.",
-  "updated_at": "2026-09-17T17:39:35.540282+00:00",
+  "experiment": "Testing if shifting from deletion/blocking actions to indifference/storage cleanup improves emotional resonance.",
+  "updated_at": "2026-09-17T18:43:02.376973+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-17T17:39:38.517176+00:00"
+  "generated_at": "2026-09-17T18:43:12.664922+00:00"
 }
