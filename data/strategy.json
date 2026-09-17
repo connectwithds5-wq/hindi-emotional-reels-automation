@@ -1,35 +1,35 @@
 {
-  "confidence": "35%",
+  "confidence": "75%",
   "data_points": 18,
-  "overall_summary": "The historical performance data shows clear early traction for 'self respect' topics combined with modern digital boundary micro-actions (like blocking, deleting chats, or hiding stories), outperforming older traditional romantic tropes like late-night thoughts or general heartbreak. However, overall sample size is low, so confidence is moderate-low.",
+  "overall_summary": "The channel shows a clear audience preference for 'Self Respect' topics over generic 'Overthinking' or 'Sad' stories. High-performing videos revolve around digital boundaries (deleting chats, hiding status, removing numbers).",
   "winning_patterns": [
     {
-      "pattern": "Digital Boundary Actions in Self Respect",
-      "evidence": "Videos focusing on 'self respect' combined with smartphone interactions (e.g., 'rwOUYo_hayQ' with 41 views, 'AfaLxMy6FMY' with 40 views, 'wFimeeP_aVc' with 35 views) consistently outperformed generic emotional videos.",
-      "action": "Focus future core content heavily on digital self-respect moments (chat pinning, status lists, blue ticks)."
+      "pattern": "Digital Boundary Setting",
+      "evidence": "Videos like 'चैट डिलीट करने की हिम्मत' (40 views) and 'Self Respect Status' (41 views) are the highest performers.",
+      "action": "Focus on the physical act of cutting digital ties as a metaphor for internal healing."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Late Night / Tea Tropes",
-      "evidence": "Videos relying on vague ambient setups like 'tea getting cold' or '2 AM' ('uIbMpCjVutQ' with 5 views, 'WhJ-VwRa3Rg' with 7 views) yielded very low engagement.",
-      "action": "Avoid generic atmospheric intros; anchor every story in a specific, tangible action or phone interface detail."
+      "pattern": "Abstract Sadness/Overthinking",
+      "evidence": "Videos like 'रात के ख्याल' (5 views) and 'Last Seen Hide' (4 views) show low engagement compared to active self-respect decisions.",
+      "action": "Shift from passive 'feeling sad' to active 'taking control' narratives."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment & Detachment",
-    "hook_style": "Digital interface action",
+    "emotion": "Empowerment through detachment",
+    "hook_style": "Action-oriented digital trigger",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short emotional story about clearing out old archived chats from a WhatsApp or messaging app that were kept 'just in case', realizing the storage isn't the only thing being freed up.",
-    "opening_direction": "जब उस आर्काइव्ड चैट को खोलने की बारी आई,",
-    "twist_direction": "लगा था कि दिल बैठेगा, पर यकीन मानिए... उस खाली हुई जगह पर सिर्फ सुकून सांस ले रहा था।",
-    "duration_seconds": 10,
+    "concept": "The act of removing a 'pinned' contact from the top of the chat list.",
+    "opening_direction": "Start with the visual of the thumb hovering over the 'unpin' button.",
+    "twist_direction": "Instead of feeling lonely, the protagonist realizes the space at the top is now free for their own peace.",
+    "duration_seconds": 15,
     "posting_window": "13:00 - 14:00 IST",
-    "reason": "Matches the proven high-performing self-respect digital boundary template (deleting/clearing chats) which historically drives the highest view counts on the channel."
+    "reason": "Historical data shows peak performance for videos published in the early afternoon window (13:00-14:00)."
   },
-  "experiment": "Testing if archiving/clearing an 'archived chat' performs on par with deleting primary pinned chats.",
-  "updated_at": "2026-09-17T12:44:01.447220+00:00",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-17T12:44:04.119408+00:00"
+  "experiment": "Testing a shift from 'sadness-focused' captions to 'growth-focused' captions to see if it improves retention.",
+  "updated_at": "2026-09-17T13:41:24.464576+00:00",
+  "model_used": "gemini-3.1-flash-lite",
+  "generated_at": "2026-09-17T13:41:28.783355+00:00"
 }
