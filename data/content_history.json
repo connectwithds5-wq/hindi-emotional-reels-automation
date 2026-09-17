@@ -1630,6 +1630,77 @@
         "reason": "Previous successful self-respect shorts (like 'rwOUYo_hayQ' and 'wFimeeP_aVc') were published in the early afternoon window and focused on digital control actions."
       },
       "model_used": "gemini-3.5-flash-lite"
+    },
+    {
+      "hook": "जब उसका स्पेशल रिंगटोन बदल कर",
+      "lines": [
+        "डिफ़ॉल्ट टोन पर सेट किया,",
+        "लगा था कि दिल टूट जाएगा।",
+        "मगर अगली कॉल जब बजी,",
+        "तो आवाज़ चुभी नहीं ज़रा भी।",
+        "उसकी गैर-ज़रूरी आवाज़ से,",
+        "खुद को आज़ाद कर लिया मैंने।",
+        "खामोशी अब सज़ा नहीं लगती,"
+      ],
+      "youtube_title": "Jab Uska Special Ringtone Default Kiya | Self Respect Story",
+      "youtube_description": "Jab kisi khaas ki notification tone ko default kar diya jaye, toh dard ki jagah sukoon milne lagta hai. Ye choti si kahani hai khud ko chunne aur self respect ki. Kya aapne kabhi khud ke liye aisi khamoshi chuni hai?",
+      "youtube_keywords": [
+        "self respect status",
+        "emotional hindi stories",
+        "dil ki diary",
+        "silent heartbreak",
+        "moving on status",
+        "self respect reels",
+        "notification tone story",
+        "deep emotional status",
+        "khamoshi aur sukoon",
+        "relatable hindi reels",
+        "self respect poetry"
+      ],
+      "youtube_hashtags": [
+        "SelfRespect",
+        "DilKiDiary",
+        "EmotionalStory",
+        "HindiReels",
+        "SilentHeartbreak",
+        "PeaceOverPain",
+        "DeepThoughts"
+      ],
+      "caption": "जब किसी का इंतज़ार खत्म होता है, तब खुद की तलाश शुरू होती है। कुछ बदलाव दर्द नहीं, सिर्फ सुकून देते हैं।",
+      "keywords": [
+        "self respect",
+        "emotional story",
+        "dil ki diary",
+        "notification settings",
+        "silent pain",
+        "relatable reels",
+        "hindi micro story",
+        "boundaries"
+      ],
+      "hashtags": [
+        "selfrespect",
+        "dilkidiary",
+        "emotional",
+        "hindistory",
+        "peace",
+        "relatable",
+        "boundaries",
+        "solitude"
+      ],
+      "topic": "self respect",
+      "strategy_used": {
+        "topic": "self respect",
+        "emotion": "Empowerment through detachment",
+        "hook_style": "Tactical notification action",
+        "story_structure": "simple -> relatable -> twist",
+        "concept": "A realization moment when muting someone's notification tone stops feeling like a punishment and starts feeling like silence.",
+        "opening_direction": "जब उसका स्पेशल रिंगटोन बदल कर 'default' कर दिया,",
+        "twist_direction": "लगा था दिल टूटेगा, पर फोन की खामोशी ने पहली बार सुकून दे दिया।",
+        "duration_seconds": 10,
+        "posting_window": "13:30 - 14:00 IST",
+        "reason": "Building on the winning performance of previous afternoon posts centered around active boundary-setting and self-respect."
+      },
+      "model_used": "gemini-3.5-flash-lite"
     }
   ]
 }
