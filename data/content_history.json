@@ -1701,6 +1701,75 @@
         "reason": "Building on the winning performance of previous afternoon posts centered around active boundary-setting and self-respect."
       },
       "model_used": "gemini-3.5-flash-lite"
+    },
+    {
+      "hook": "अंगूठा पिन आइकॉन पर आकर ठिठक गया",
+      "lines": [
+        "रोज की तरह आज भी चैट खुली थी",
+        "सबसे ऊपर चमकता हुआ उसका नाम",
+        "हटाने के लिए हाथ कांप रहा था",
+        "बरसों से वहीं था उसका ठिकाना",
+        "फिर धीरे से बटन दबा दिया",
+        "डर था शायद दिल बैठ जाएगा",
+        "पर आज पहली बार सांस हल्की हुई"
+      ],
+      "youtube_title": "चैट से उसका नाम अनपिन करते ही मिला असली सुकून | Self Respect",
+      "youtube_description": "चैट लिस्ट में सबसे ऊपर पिन किए गए इंसान को हटाने का सफर। यह कहानी है उस छोटे से फैसले की जो आत्मसम्मान और खुद की शांति के लिए बहुत जरूरी होता है। क्या आपने कभी किसी को अपनी प्रायोरिटी लिस्ट से हटाया है?",
+      "youtube_keywords": [
+        "self respect status",
+        "emotional hindi stories",
+        "dil ki diary hindi",
+        "whatsapp chat unpin story",
+        "mental peace shorts",
+        "letting go emotional hindi",
+        "self love hindi reels",
+        "deep hindi thoughts",
+        "sad to growth hindi",
+        "dil ki baat"
+      ],
+      "youtube_hashtags": [
+        "SelfRespect",
+        "MentalPeace",
+        "DilKiDiary",
+        "HindiStories",
+        "EmotionalReels",
+        "LettingGo",
+        "InnerStrength"
+      ],
+      "caption": "चैट में सबसे ऊपर की जगह हमेशा दूसरों के नाम नहीं होती। कभी-कभी उस जगह को खाली छोड़ना ही खुद से मोहब्बत की सबसे बड़ी शुरुआत होती है।",
+      "keywords": [
+        "self respect",
+        "emotional story",
+        "mental peace",
+        "letting go",
+        "dil ki diary",
+        "hindi reels",
+        "personal growth",
+        "boundaries"
+      ],
+      "hashtags": [
+        "selfrespect",
+        "mentalpeace",
+        "dilkidiary",
+        "hindireels",
+        "lettinggo",
+        "growthmindset",
+        "emotionalstory"
+      ],
+      "topic": "self respect",
+      "strategy_used": {
+        "topic": "self respect",
+        "emotion": "Empowerment through detachment",
+        "hook_style": "Action-oriented digital trigger",
+        "story_structure": "simple -> relatable -> twist",
+        "concept": "The act of removing a 'pinned' contact from the top of the chat list.",
+        "opening_direction": "Start with the visual of the thumb hovering over the 'unpin' button.",
+        "twist_direction": "Instead of feeling lonely, the protagonist realizes the space at the top is now free for their own peace.",
+        "duration_seconds": 15,
+        "posting_window": "13:00 - 14:00 IST",
+        "reason": "Historical data shows peak performance for videos published in the early afternoon window (13:00-14:00)."
+      },
+      "model_used": "gemini-3.5-flash-lite"
     }
   ]
 }
