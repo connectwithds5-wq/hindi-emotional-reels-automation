@@ -1,35 +1,45 @@
 {
-  "confidence": "40%",
+  "confidence": "35%",
   "data_points": 18,
-  "overall_summary": "The channel shows early preference for 'self respect' and modern communication-related topics (chats, status lists, blue ticks) rather than vague late-night loneliness. However, overall view counts are generally low, indicating that confidence is still low and we need a controlled exploration of fresh hooks while doubling down on digital boundary themes.",
+  "overall_summary": "The channel has a very small sample size with overall low view counts (mostly under 50 views). However, content leaning into 'self respect' (e.g., deleting chats, removing pins, hiding status) has relatively outperformed general late-night thoughts or unrequited love topics. Confidence is low due to sparse engagement data.",
   "winning_patterns": [
     {
-      "pattern": "Digital boundary actions (Self Respect)",
-      "evidence": "Videos focusing on status lists, pinned chats, and muting (e.g., rwOUYo_hayQ with 41 views, AfaLxMy6FMY with 40 views, wFimeeP_aVc with 35 views) outperform generic night/tea themes.",
-      "action": "Continue focusing on micro-interactions on smartphones representing emotional detachment and self-respect."
+      "pattern": "Self-respect and boundary setting",
+      "evidence": "Videos focused on self-respect like 'rwOUYo_hayQ' (41 views) and 'AfaLxMy6FMY' (40 views) performed better than general late-night topics.",
+      "action": "Focus upcoming concepts on actionable digital boundaries and self-worth."
+    },
+    {
+      "pattern": "Specific smartphone UI micro-moments",
+      "evidence": "Hooks mentioning specific phone actions (pinned chat, status lists, blue ticks) generated higher baseline views.",
+      "action": "Continue using highly relatable digital interaction triggers in hooks."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract or overly poetic late-night tropes",
-      "evidence": "Videos like 'uIbMpCjVutQ' (cold tea, general night thoughts) received only 5 views.",
-      "action": "Avoid vague poetic setups; ground every story in specific, highly observable modern smartphone or daily life habits."
+      "pattern": "Vague late-night poetic melancholia",
+      "evidence": "Videos like 'uIbMpCjVutQ' (5 views) and 'WhJ-VwRa3Rg' (7 views) with generic late-night atmospheric hooks underperformed.",
+      "action": "Avoid abstract poetic openings; anchor stories in specific, mundane daily actions."
+    },
+    {
+      "pattern": "Overused ringtone or block tropes",
+      "evidence": "Recent variations like ringtone changes ('hT4EGP69mRw', 0 views) showed complete drop-off, indicating saturation or poor execution timing.",
+      "action": "Move away from ringtone tropes for now and test fresh boundaries."
     }
   ],
   "next_video": {
     "topic": "self respect",
     "emotion": "Empowered detachment",
-    "hook_style": "Action-oriented digital micro-habit",
+    "hook_style": "Digital action micro-moment",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization moment when clearing out old photo backups in cloud storage and stumbling upon a folder you forgot to delete, then deciding to empty the trash permanently.",
-    "opening_direction": "클라우द (Cloud) स्टोरेज का बैकअप साफ करते वक्त...",
-    "twist_direction": "जब फोन ने पूछा 'Permanently Delete?', उंगली बिना कांपे 'Yes' पर टिक गई।",
-    "duration_seconds": 10,
-    "posting_window": "13:00 - 14:00 IST",
-    "reason": "Previous successful posts like rwOUYo_hayQ and AfaLxMy6FMY performed relatively well during afternoon publishing windows, focusing on definitive digital cleanup actions."
+    "concept": "A story about removing someone from the 'Close Friends' list on Instagram, realizing that hiding your peace is better than showing your pain.",
+    "opening_direction": "क्लोर फ्रेंड्स लिस्ट से उसका नाम हटाने से पहले...",
+    "twist_direction": "लगा था उसे बुरा लगेगा, पर एहसास हुआ कि अब उसे फर्क ही नहीं पड़ता कि मैं क्या जी रहा हूँ।",
+    "duration_seconds": 12,
+    "posting_window": "05:30 PM - 07:00 PM",
+    "reason": "Tests a fresh digital boundary ('Close Friends' list) instead of standard chat deletions, keeping the winning self-respect theme alive while experimenting with a new platform feature."
   },
-  "experiment": "Testing cloud storage/photo backup cleanup as a fresh metaphor for digital letting go, moving slightly beyond chat windows.",
-  "updated_at": "2026-09-17T09:42:00.377650+00:00",
+  "experiment": "Testing Instagram 'Close Friends' list removal as a hook instead of WhatsApp chat/status actions to see if platform diversification impacts engagement.",
+  "updated_at": "2026-09-17T10:40:49.664875+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-17T09:42:03.284770+00:00"
+  "generated_at": "2026-09-17T10:40:52.739118+00:00"
 }
