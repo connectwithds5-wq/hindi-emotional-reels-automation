@@ -1,35 +1,35 @@
 {
   "confidence": "65%",
   "data_points": 19,
-  "overall_summary": "The channel shows consistent modest views specifically on 'self respect' topics, particularly when utilizing relatable modern digital communication hurdles like chats, status updates, and contact lists. Broader topics like 'रात के ख्याल' and general 'ओवरथिंकिंग' received lower overall traction in this sample set.",
+  "overall_summary": "Analysis of recent uploads shows clear traction for 'self respect' and boundary-setting themes (specifically regarding mobile interactions like pinned chats, status lists, and blocking/deleting) with views averaging 30-41 on top performers. Conversely, late-night general overthinking or overly poetic relationship musings underperformed (views between 3 to 12).",
   "winning_patterns": [
     {
-      "pattern": "Digital boundary-setting in relationships",
-      "evidence": "Videos like 'AfaLxMy6FMY' (40 views), 'rwOUYo_hayQ' (41 views), and 'wFimeeP_aVc' (35 views) focusing on pinning chats, hiding status, or deleting chats perform significantly better than abstract emotional concepts.",
-      "action": "Focus upcoming hooks strictly around concrete smartphone interface actions tied to emotional detachment and self-respect."
+      "pattern": "Action-oriented Self-Respect Hooks",
+      "evidence": "Videos like rwOUYo_hayQ (41 views) and AfaLxMy6FMY (40 views) focus on micro-decisions regarding digital boundaries (status lists, chat deletions).",
+      "action": "Continue utilizing micro-actions on the phone screen as hooks for self-respect content."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract late-night or tea-time metaphors",
-      "evidence": "Videos like 'uIbMpCjVutQ' (5 views, tea getting cold) and 'G0gKV1p3ZHc' (12 views, 2 AM solitude) underperformed compared to digital action prompts.",
-      "action": "Move away from cliché poetic weather/food imagery and stick to tangible smartphone behaviors."
+      "pattern": "Generic Late-Night Atmospheric Tropes",
+      "evidence": "Videos like hT4EGP69mRw (4 views) and LBGCloAitok (3 views) using generic ringtone or repetitive unpinning themes saw sharp drops.",
+      "action": "Avoid repeating identical mobile settings metaphors; pivot to fresh micro-realities."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowered detachment",
-    "hook_style": "Digital action micro-moment",
+    "emotion": "Empowerment through quiet detachment",
+    "hook_style": "Visual/Digital micro-action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Removing someone from the phone's shortcut widget or home screen layout after months of keeping them easily accessible.",
-    "opening_direction": "Home screen ki widget se unki tasveer hatate waqt...",
-    "twist_direction": "...pata chala ki jagah khali nahi hui, balki phone ki screen ab pehle se zyada saaf lagne lagi.",
-    "duration_seconds": 12,
-    "posting_window": "05:30 PM - 07:00 PM",
-    "reason": "Aligns with the proven high-performing 'self respect' and digital boundary theme while testing a fresh opening hook (widget removal) instead of just chat pins."
+    "concept": "Removing someone from the phone's auto-suggested contact list and realizing the keyboard stopped typing their name out of habit.",
+    "opening_direction": "Keyboard ka pehla akshar dabate hi jab uska naam suggestion me sabse upar dikhna band ho jaye...",
+    "twist_direction": "...toh samajh aaya ki ab ungliyon ko bhi yaad ho gaya hai ki woh ab is zindagi ka hissa nahi hain.",
+    "duration_seconds": 15,
+    "posting_window": "13:00 - 14:00 IST",
+    "reason": "Leverages the proven high-performing self-respect theme tied to a fresh digital muscle-memory habit rather than repetitive chat pinning/unpinning."
   },
-  "experiment": "Testing phone home-screen widgets as an emotional anchor instead of chat pins or status lists.",
-  "updated_at": "2026-09-17T16:40:17.409971+00:00",
+  "experiment": "Testing if keyboard auto-suggestion habits perform better as a self-respect hook than contact list removals.",
+  "updated_at": "2026-09-17T17:39:35.540282+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-17T16:40:20.233964+00:00"
+  "generated_at": "2026-09-17T17:39:38.517176+00:00"
 }
