@@ -1,35 +1,35 @@
 {
-  "confidence": "35%",
+  "confidence": "65%",
   "data_points": 19,
-  "overall_summary": "The channel shows early traction in the 'self respect' topic with slightly higher view counts on specific phone-interaction hooks (e.g., status lists, muted chats), but overall engagement (likes and comments) remains extremely sparse, indicating low sample sizes and weak active audience feedback.",
+  "overall_summary": "The channel shows consistent modest views specifically on 'self respect' topics, particularly when utilizing relatable modern digital communication hurdles like chats, status updates, and contact lists. Broader topics like 'रात के ख्याल' and general 'ओवरथिंकिंग' received lower overall traction in this sample set.",
   "winning_patterns": [
     {
-      "pattern": "Action-oriented Self-Respect Hooks",
-      "evidence": "Videos focusing on concrete phone UI actions related to self-respect (like rwOUYo_hayQ, 0H4VygZ3DIU) pulled the highest views in the dataset (41 and 21 views).",
-      "action": "Continue focusing on specific, everyday smartphone boundary-setting moments rather than abstract emotional pain."
+      "pattern": "Digital boundary-setting in relationships",
+      "evidence": "Videos like 'AfaLxMy6FMY' (40 views), 'rwOUYo_hayQ' (41 views), and 'wFimeeP_aVc' (35 views) focusing on pinning chats, hiding status, or deleting chats perform significantly better than abstract emotional concepts.",
+      "action": "Focus upcoming hooks strictly around concrete smartphone interface actions tied to emotional detachment and self-respect."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Late-Night Overthinking Tropes",
-      "evidence": "Videos relying purely on abstract concepts like 'रात के दो बजे' or 'चाय ठंडी हो गई' (e.g., G0gKV1p3ZHc, uIbMpCjVutQ) had very low views (5-12 views).",
-      "action": "Avoid vague romantic nostalgia hooks and anchor narratives in physical, observable micro-actions."
+      "pattern": "Abstract late-night or tea-time metaphors",
+      "evidence": "Videos like 'uIbMpCjVutQ' (5 views, tea getting cold) and 'G0gKV1p3ZHc' (12 views, 2 AM solitude) underperformed compared to digital action prompts.",
+      "action": "Move away from cliché poetic weather/food imagery and stick to tangible smartphone behaviors."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment through letting go",
-    "hook_style": "Tactile phone action",
+    "emotion": "Empowered detachment",
+    "hook_style": "Digital action micro-moment",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Removing someone from the phone's quick-dial or widget screen to reclaim personal space.",
-    "opening_direction": "Home screen widget par unki photo hatane ka faisla.",
-    "twist_direction": "Jab screen khali hui, toh pata chala ki jagah unki nahi, sirf unke khauff ki thi.",
-    "duration_seconds": 15,
-    "posting_window": "13:00 - 14:00 IST",
-    "reason": "Leverages the proven 'phone interaction / boundary setting' winning pattern while introducing a fresh visual element (home screen widget) to avoid repeating exact previous hooks."
+    "concept": "Removing someone from the phone's shortcut widget or home screen layout after months of keeping them easily accessible.",
+    "opening_direction": "Home screen ki widget se unki tasveer hatate waqt...",
+    "twist_direction": "...pata chala ki jagah khali nahi hui, balki phone ki screen ab pehle se zyada saaf lagne lagi.",
+    "duration_seconds": 12,
+    "posting_window": "05:30 PM - 07:00 PM",
+    "reason": "Aligns with the proven high-performing 'self respect' and digital boundary theme while testing a fresh opening hook (widget removal) instead of just chat pins."
   },
-  "experiment": "Testing if home-screen widget removal performs similarly or better than chat-pin removal hooks.",
-  "updated_at": "2026-09-17T15:40:14.583485+00:00",
+  "experiment": "Testing phone home-screen widgets as an emotional anchor instead of chat pins or status lists.",
+  "updated_at": "2026-09-17T16:40:17.409971+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-17T15:40:17.296436+00:00"
+  "generated_at": "2026-09-17T16:40:20.233964+00:00"
 }
