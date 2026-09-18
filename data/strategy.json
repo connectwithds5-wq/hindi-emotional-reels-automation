@@ -1,35 +1,35 @@
 {
-  "confidence": "25%",
-  "data_points": 20,
-  "overall_summary": "The channel has a very small dataset with low overall view counts (max 41 views), making statistical confidence low. However, 'self respect' and phone/chat-related micro-interactions (like clearing chat histories or removing names) show slightly better pull compared to abstract emotional topics.",
+  "confidence": "35%",
+  "data_points": 21,
+  "overall_summary": "The channel shows mixed performance with low overall sample sizes. Topics around 'self respect' with modern phone-interaction hooks (like muted chats, pinned lists, or deleting chats) show relative outperformance compared to generic emotional themes. However, overall engagement (likes and comments) remains extremely low, indicating the need for sharper emotional hooks and better call-to-action triggers.",
   "winning_patterns": [
     {
-      "pattern": "Phone interface micro-interactions",
-      "evidence": "Videos referencing concrete actions like deleting chats or removing names (e.g., rwOUYo_hayQ with 41 views, AfaLxMy6FMY with 40 views) outperform abstract statements.",
-      "action": "Anchor future stories around tangible, everyday smartphone habits related to letting go."
+      "pattern": "Modern smartphone micro-interactions",
+      "evidence": "Videos like 'rwOUYo_hayQ' (41 views) and 'AfaLxMy6FMY' (40 views) used hooks related to status lists and pinned chats.",
+      "action": "Continue focusing on digital boundaries and smartphone-related relational habits."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract night/loneliness themes",
-      "evidence": "Broad topics like 'रात के ख्याल' or open-ended late-night loneliness (e.g., uIbMpCjVutQ with 5 views) receive significantly lower engagement.",
-      "action": "Avoid vague late-night ambiance hooks unless tied to a specific, relatable physical action."
+      "pattern": "Late-night brooding themes without a concrete action",
+      "evidence": "Videos focusing purely on waiting or late-night sadness (e.g., 'uIbMpCjVutQ', 'aUuNKfe7jm4') received very low views (5 views).",
+      "action": "Avoid passive sadness; always tie emotional concepts to an active personal choice or realization."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment / Detachment",
-    "hook_style": "Tangible tech action",
+    "emotion": "Empowerment through letting go",
+    "hook_style": "Digital action-oriented hook",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Removing someone from the phone's shared photo album access rather than just blocking them.",
-    "opening_direction": "जब गैलरी की शेयर्ड एलबम से उसका नाम हटाया,",
-    "twist_direction": "तस्वीरें तो डिलीट करने में वक्त लगा, पर फोन की स्टोरेज से ज्यादा दिल हल्का हो गया।",
+    "concept": "Removing someone from the phone's wallpaper or lock screen as an act of reclaiming personal space.",
+    "opening_direction": "Lock screen wallpaper badalte waqt...",
+    "twist_direction": "Pata chala ki dard wallpaper hatane mein nahi, balki ye realize karne mein tha ki kitne mahine se wahan unka chehra nahi, sirf ek aadat thi.",
     "duration_seconds": 15,
-    "posting_window": "05:30 AM - 07:30 AM IST",
-    "reason": "Building on the success of phone-habit hooks ('self respect' category), targeting photo sharing brings a fresh yet familiar angle of modern digital detachment."
+    "posting_window": "13:00 - 14:00 IST",
+    "reason": "Tests a fresh digital interaction point (wallpaper change) within the winning 'self respect' category while avoiding the repetitive 'pinned chat' or 'blocked list' tropes."
   },
-  "experiment": "Testing a non-chat digital boundary (Photo Shared Albums) to see if visual digital habits perform better than messaging-based hooks.",
-  "updated_at": "2026-09-18T13:39:53.491067+00:00",
+  "experiment": "Testing if shifting the digital micro-interaction from messaging apps to phone wallpaper/lock screen retains viewer retention for self-respect content.",
+  "updated_at": "2026-09-18T14:40:09.516678+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-18T13:39:55.843958+00:00"
+  "generated_at": "2026-09-18T14:40:12.135333+00:00"
 }
