@@ -1843,6 +1843,79 @@
         "reason": "Aligns with the proven winning pattern of digital boundary actions within the 'self respect' category while introducing a fresh psychological twist to avoid repetitive phrasing."
       },
       "model_used": "gemini-3.5-flash-lite"
+    },
+    {
+      "hook": "जब गैलरी की शेयर्ड एलबम से उसका नाम हटाया,",
+      "lines": [
+        "हजारों पुरानी यादें एक झटके में सिमट गईं।",
+        "हर तस्वीर से हटने में वक्त तो लगा,",
+        "पर उंगलियों की इस छोटी सी हरकत ने,",
+        "दिल का सारा बोझ ही खींच लिया।",
+        "अब फोन की स्टोरेज खाली हो या ना हो,",
+        "मगर सीने में अब कोई घुटन नहीं बची।",
+        "खोई हुई जगह वापस पाने से कहीं बेहतर,"
+      ],
+      "youtube_title": "जब गैलरी की शेयर्ड एलबम से उसका नाम हटाया | Dil Ki Diary",
+      "youtube_description": "फोन की शेयर्ड एलबम से किसी को हटाना सिर्फ डिजिटल सफाई नहीं, बल्कि खुद के आत्मसम्मान को वापस पाने का शांत सफर है। कभी-कभी यादें मिटाने से ज्यादा सुकून खुद को संभालने में मिलता है। क्या आपने कभी अपने फोन से किसी की ऐसी डिजिटल पहुंच को खत्म किया है?",
+      "youtube_keywords": [
+        "self respect status",
+        "digital detachment status",
+        "dil ki diary hindi",
+        "emotional micro story",
+        "self respect shayari",
+        "phone gallery memories",
+        "silent heartbreak hindi",
+        "self respect reels hindi",
+        "rishtey aur self respect",
+        "deep emotional hindi lines",
+        "dil ki baat",
+        "sad status hindi"
+      ],
+      "youtube_hashtags": [
+        "DilKiDiary",
+        "SelfRespect",
+        "EmotionalStory",
+        "HindiReels",
+        "Heartbroken",
+        "DeepThoughts",
+        "LifeLessons",
+        "PeaceOfMind"
+      ],
+      "caption": "फोन की गैलरी से तो यादें हट गईं, पर खुद का खोया हुआ सुकून वापस मिल गया। कुछ फासले दर्द नहीं, जीने का नया सलीका सिखाते हैं।",
+      "keywords": [
+        "self respect",
+        "digital boundary",
+        "emotional story",
+        "hindi status",
+        "dil ki diary",
+        "self worth",
+        "moving on",
+        "silent healing"
+      ],
+      "hashtags": [
+        "DilKiDiary",
+        "SelfRespect",
+        "Emotional",
+        "HindiWriting",
+        "DeepWords",
+        "LifeQuotes",
+        "Healing",
+        "Peace"
+      ],
+      "topic": "self respect",
+      "strategy_used": {
+        "topic": "self respect",
+        "emotion": "Empowerment / Detachment",
+        "hook_style": "Tangible tech action",
+        "story_structure": "simple -> relatable -> twist",
+        "concept": "Removing someone from the phone's shared photo album access rather than just blocking them.",
+        "opening_direction": "जब गैलरी की शेयर्ड एलबम से उसका नाम हटाया,",
+        "twist_direction": "तस्वीरें तो डिलीट करने में वक्त लगा, पर फोन की स्टोरेज से ज्यादा दिल हल्का हो गया।",
+        "duration_seconds": 15,
+        "posting_window": "05:30 AM - 07:30 AM IST",
+        "reason": "Building on the success of phone-habit hooks ('self respect' category), targeting photo sharing brings a fresh yet familiar angle of modern digital detachment."
+      },
+      "model_used": "gemini-3.5-flash-lite"
     }
   ]
 }
