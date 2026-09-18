@@ -1,40 +1,35 @@
 {
-  "confidence": "65%",
+  "confidence": "30%",
   "data_points": 21,
-  "overall_summary": "The channel 'Dil Ki Diary' has published 21 shorts focusing primarily on emotional topics like self-respect, overthinking, and relationships. Content centered around tactical, highly specific digital micro-moments of letting go (especially under the 'self respect' and chat-interaction theme) yields higher baseline views compared to abstract emotional statements. However, overall view counts remain modest, suggesting a need to refine hyper-relatable everyday actions into the hook structure.",
+  "overall_summary": "The channel shows early preference for 'self respect' and digital-age boundary topics (chats, status lists, blue ticks) rather than abstract emotional poetry. However, overall view counts remain very low across all videos, indicating the sample size is small and algorithm discovery is still in the exploration phase.",
   "winning_patterns": [
     {
-      "pattern": "Digital micro-actions & UI decisions as hooks",
-      "evidence": "Videos like 'Self Respect Status | Jab Aapko Fark Padhna Band Ho Jaaye' (32 views), 'Self Respect Status Story in Hindi' (41 views), and 'चैट डिलीट करने की हिम्मत' (40 views) outperform general relationship statements.",
-      "action": "Focus hooks on concrete, highly specific smartphone interface actions (e.g., changing pin status, muting chats, removing from emergency contacts)."
-    },
-    {
-      "pattern": "Empowering self-respect framing over passive sadness",
-      "evidence": "Viewers consistently engage better with 'self respect' tagged clips where the protagonist makes an active choice to move on rather than wallowing in pure heartbreak.",
-      "action": "Ensure the narrative arc shifts from passive pain to an empowering personal boundary."
+      "pattern": "Digital Boundary Triggers",
+      "evidence": "Videos focusing on concrete modern phone interactions like status lists, pinned chats, and blue ticks (e.g., rwOUYo_hayQ, wFimeeP_aVc, AfaLxMy6FMY) garnered higher relative views (35-41 views) compared to abstract late-night tropes.",
+      "action": "Focus hooks on tangible smartphone UI actions and digital boundaries."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract poetry or vague nighttime thoughts",
-      "evidence": "Videos like 'रात के ख्याल और अधूरा इंतजार' (5 views) and 'जब गैलरी की शेयर्ड एलबम...' (0 views) with broad conceptual framing fail to capture immediate scroll-stopping attention.",
-      "action": "Avoid overly poetic or philosophical openings; anchor every story in a concrete, everyday digital artifact or physical action."
+      "pattern": "Abstract Late-Night Tropes",
+      "evidence": "Broad late-night or generic heartbreak themes (e.g., uIbMpCjVutQ with 5 views, WhJ-VwRa3Rg with 7 views) underperformed.",
+      "action": "Avoid generic atmospheric openings and tie all emotional states to specific micro-actions."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment through emotional detachment",
-    "hook_style": "Specific tactile phone habit interrupted",
+    "emotion": "Empowerment through letting go",
+    "hook_style": "Digital micro-action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short about removing someone's shortcut widget from the phone's home screen, realizing the empty space looks better clean.",
-    "opening_direction": "होम स्क्रीन पर उनका बनाया हुआ शॉर्टकट विजेट आज आखिरकार हटा दिया।",
-    "twist_direction": "सोचा था जगह खाली लगेगी, पर सच तो यह है कि अब फोन की स्क्रीन पहले से ज्यादा साफ और सुकून भरी लगती है।",
-    "duration_seconds": 12,
-    "posting_window": "05:30 PM - 07:00 PM IST",
-    "reason": "Capitalizes on the winning pattern of concrete UI/digital boundary actions while testing a fresh everyday object (home screen widget) outside of just chat apps."
+    "concept": "Removing someone from close friends story list on Instagram and realizing the silence feels peaceful instead of lonely.",
+    "opening_direction": "क्लिक करके उसे 'क्लोज़ फ्रेंड्स' की लिस्ट से बाहर कर दिया,",
+    "twist_direction": "डर था कि वो पूछेगा क्यों हटाया, पर अब फर्क सिर्फ इतना पड़ता है कि मेरी कहानी अब सिर्फ मेरी है।",
+    "duration_seconds": 15,
+    "posting_window": "05:30 PM - 06:30 PM",
+    "reason": "Tests a fresh digital UI boundary trigger ('Close Friends' list) that aligns with the higher-performing self-respect chat/status deletion theme."
   },
-  "experiment": "Testing whether shifting from chat-window actions to home-screen UI habits maintains the high-view baseline for self-respect content.",
-  "updated_at": "2026-09-18T15:40:27.780741+00:00",
+  "experiment": "Testing a newer social media boundary trigger ('Close Friends' list removal) to see if it outperforms standard chat/number deletion hooks.",
+  "updated_at": "2026-09-18T16:39:22.338935+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-18T15:40:31.189884+00:00"
+  "generated_at": "2026-09-18T16:39:25.113693+00:00"
 }
