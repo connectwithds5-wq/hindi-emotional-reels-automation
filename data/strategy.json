@@ -1,35 +1,40 @@
 {
-  "confidence": "65%",
+  "confidence": "75%",
   "data_points": 20,
-  "overall_summary": "Analysis of the historical data reveals that 'self respect' is clearly outperforming other topics, capturing higher view counts (ranging between 30 to 41 views) compared to topics like 'ओवरथिंकिंग' or 'रात के ख्याल' which stagnate in single digits or low teens. The audience strongly engages with modern digital boundary-setting moments (status lists, pinned chats, deleted texts).",
+  "overall_summary": "The channel shows a clear audience preference for 'Self Respect' content over generic 'Overthinking' or 'Sad' stories. High-performing videos (30-40 views) consistently focus on digital boundaries (deleting chats, unpinning, blocking, or hiding status).",
   "winning_patterns": [
     {
-      "pattern": "Digital Boundary-Setting",
-      "evidence": "Videos focusing on self-respect actions regarding social media and messaging (e.g., status lists, unpinning chats, removing numbers) achieved the highest views on the channel (e.g., rwOUYo_hayQ with 41 views, AfaLxMy6FMY with 40 views).",
-      "action": "Double down on 'self respect' themes integrated with modern smartphone micro-interactions."
+      "pattern": "Digital Boundary Setting",
+      "evidence": "Videos about unpinning chats, deleting history, and hiding status perform significantly better than abstract emotional monologues.",
+      "action": "Continue focusing on specific, relatable digital actions that signify moving on."
+    },
+    {
+      "pattern": "Action-Oriented Hooks",
+      "evidence": "Hooks describing a physical action (e.g., 'thumb hovering over the pin button') perform better than vague emotional statements.",
+      "action": "Start every video with a specific, tactile action."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Late-Night Melodrama",
-      "evidence": "General late-night themes without specific, tangible triggers (e.g., uIbMpCjVutQ with 5 views about cold tea) perform poorly.",
-      "action": "Avoid vague poetic setups; anchor every story in an immediate, physical phone or daily life action."
+      "pattern": "Abstract Nighttime Melancholy",
+      "evidence": "Videos focusing on 'late night thoughts' or 'tea getting cold' have the lowest engagement (5-12 views).",
+      "action": "Avoid passive, atmospheric storytelling; pivot to active, decisive storytelling."
     }
   ],
   "next_video": {
     "topic": "self respect",
     "emotion": "Empowerment through detachment",
-    "hook_style": "Tactile digital micro-action",
+    "hook_style": "Tactile digital action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization moment when clearing out phone storage and deleting old, blurry screenshots of a past conversation.",
-    "opening_direction": "गैलरी से पुराने स्क्रीनशॉट डिलीट करते वक्त...",
-    "twist_direction": "पता चला कि जिन्हें याद रखने के लिए संभाल रखा था, वे फोन की स्पेस नहीं बल्कि दिल का सुकून घेर रहे थे।",
+    "concept": "The act of removing a 'shared' playlist or photo album that was once special.",
+    "opening_direction": "Start with the specific action of opening the music app or gallery and seeing a shared folder.",
+    "twist_direction": "Instead of feeling sad about the memory, the protagonist deletes it not out of anger, but out of a sudden realization that the space is better used for their own peace.",
     "duration_seconds": 15,
-    "posting_window": "13:00 - 14:00 IST",
-    "reason": "Matches the proven high-performing 'self respect' and digital cleanup pattern that consistently draws the highest view counts on the channel."
+    "posting_window": "13:00-14:00 UTC",
+    "reason": "Mid-day posting has shown higher engagement for the 'Self Respect' series compared to early morning slots."
   },
-  "experiment": "Testing a visual gallery/screenshot cleanup trigger instead of a messaging app hook to see if the self-respect pattern holds across different phone habits.",
-  "updated_at": "2026-09-18T07:39:36.892501+00:00",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-18T07:39:39.426431+00:00"
+  "experiment": "Testing if 'Digital Decluttering' (beyond just chats) maintains the high engagement of the 'Self Respect' series.",
+  "updated_at": "2026-09-18T08:41:04.898582+00:00",
+  "model_used": "gemini-3.1-flash-lite",
+  "generated_at": "2026-09-18T08:41:08.126279+00:00"
 }
