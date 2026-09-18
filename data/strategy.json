@@ -1,35 +1,35 @@
 {
   "confidence": "25%",
   "data_points": 21,
-  "overall_summary": "The channel's performance data is limited, with most videos receiving low view counts (under 50 views). However, topics centered around 'self respect' and phone interaction micro-moments (like checking lists, blocking, or deleting chats) show slightly better baseline views compared to abstract late-night thoughts or unrequited love.",
+  "overall_summary": "Most videos have low views, but topics centering around 'self respect' and smartphone micro-interactions (like unpinning chats, deleting lists, or status views) show slightly higher engagement (e.g., AfaLxMy6FMY at 40 views, rwOUYo_hayQ at 41 views, wFimeeP_aVc at 35 views). Confidence is low due to overall small sample sizes.",
   "winning_patterns": [
     {
-      "pattern": "Phone-centric micro-moments for Self Respect",
-      "evidence": "Videos like 'Self Respect Status Story in Hindi' (41 views) and 'चैट डिलीट करने की हिम्मत' (40 views) outperform abstract topics.",
-      "action": "Focus hooks on tangible, everyday smartphone actions related to boundaries and self-worth."
+      "pattern": "Smartphone micro-actions as hooks",
+      "evidence": "Videos focusing on specific phone actions like unpinning chats or checking status lists (e.g., rwOUYo_hayQ, wFimeeP_aVc, 0H4VygZ3DIU) performed better relative to the channel average.",
+      "action": "Continue focusing on specific digital breakup rituals involving smartphones."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract late-night or tea-time metaphors",
-      "evidence": "Videos like 'मेज पर रखी चाय ठंडी हो गई' (5 views) and 'रात के दो बजे' (12 views) generated very low engagement.",
-      "action": "Avoid generic atmospheric intros; ground every story in a specific, actionable digital behavior."
+      "pattern": "Vague emotional statements without specific objects",
+      "evidence": "Broad hooks or purely philosophical night thoughts (e.g., uIbMpCjVutQ, hT4EGP69mRw) had very low views.",
+      "action": "Avoid abstract statements; ground every story in a tangible, relatable everyday object or action."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment and detachment",
-    "hook_style": "Action-oriented digital habit",
+    "emotion": "Empowerment through letting go",
+    "hook_style": "Digital boundary setting",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A story about turning off read receipts and realizing the relief of not wondering if they saw your message.",
-    "opening_direction": "जब से 'Read Receipts' हमेशा के लिए बंद किए हैं,",
-    "twist_direction": "पता चला कि सुकून किसी के रिप्लाई का इंतज़ार करने में नहीं, बल्कि यह ना जानने में है कि उसने मैसेज देखा भी या नहीं।",
-    "duration_seconds": 15,
-    "posting_window": "13:45 - 14:00",
-    "reason": "Leverages the winning self-respect pattern and smartphone UI interaction theme while shifting away from overused chat deletion hooks to test a fresh digital boundary concept."
+    "concept": "A story about clearing out old archived chats that were kept just for the sake of history, and finally hitting archive-delete.",
+    "opening_direction": "आर्काइव फोल्डर में दबी उस पुरानी चैट को खोला,",
+    "twist_direction": "पता चला जिसे सहेज कर रख रहे थे, वो जगह अब सिर्फ एक कबाड़ बन चुकी थी।",
+    "duration_seconds": 12,
+    "posting_window": "13:45 IST",
+    "reason": "Afternoon posting windows historically aligned with some of the higher view counts in this dataset."
   },
-  "experiment": "Testing a digital boundary setting ('Read Receipts') instead of chat deletion or number blocking to see if it sustains the self-respect niche interest.",
-  "updated_at": "2026-09-18T21:38:21.158465+00:00",
+  "experiment": "Testing an 'archive folder' smartphone micro-action instead of pinned chats or status lists to diversify within the winning self-respect pattern.",
+  "updated_at": "2026-09-18T22:38:33.052467+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-18T21:38:24.503272+00:00"
+  "generated_at": "2026-09-18T22:38:35.580111+00:00"
 }
