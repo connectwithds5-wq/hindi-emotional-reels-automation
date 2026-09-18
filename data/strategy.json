@@ -1,40 +1,35 @@
 {
-  "confidence": "65%",
+  "confidence": "75%",
   "data_points": 19,
-  "overall_summary": "The channel shows a clear performance concentration around the 'self respect' topic, with videos touching on tangible digital boundaries (chats, status lists, blue ticks) outperforming abstract emotional concepts like general loneliness or late-night thoughts. However, since overall view counts remain modest (ranging from 5 to 41 views) and engagement is sparse, the pattern indicates a directional preference rather than a proven viral formula.",
+  "overall_summary": "The channel shows a clear preference for 'Self Respect' topics, which consistently outperform other categories like 'Overthinking' or 'Relationships'. Viewers engage most with stories involving digital boundaries (deleting chats, unpinning, blocking).",
   "winning_patterns": [
     {
-      "pattern": "Digital Boundary Actions",
-      "evidence": "Videos focusing on concrete phone actions like deleting chats, muting pinned chats, or hiding status lists (e.g., 'rwOUYo_hayQ' with 41 views, 'AfaLxMy6FMY' with 40 views, 'wFimeeP_aVc' with 35 views) consistently perform better than abstract thoughts.",
-      "action": "Prioritize micro-actions related to smartphone interfaces, notification settings, and contact management as the core narrative anchors."
-    },
-    {
-      "pattern": "Empowerment & Self-Worth Shift",
-      "evidence": "Audience response favors the transition from passive waiting to active self-respect ('खुद को चुनना') over pure helplessness or grief.",
-      "action": "Ensure stories feature a definitive turning point where the protagonist reclaims their self-worth rather than staying in perpetual sadness."
+      "pattern": "Digital Boundary Setting",
+      "evidence": "Videos like 'चैट डिलीट करने की हिम्मत' (40 views) and 'Self Respect Status' (41 views) are the top performers.",
+      "action": "Focus on the physical act of removing someone from digital spaces as a metaphor for healing."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Late-Night Ambience",
-      "evidence": "Broad atmospheric concepts like 'रात के ख्याल' or general cold tea metaphors (e.g., 'uIbMpCjVutQ' with 5 views, 'hT4EGP69mRw' with 5 views) underperform due to lack of a specific, high-tension visual or situational hook.",
-      "action": "Avoid purely poetic or overly vague openings; ground every emotional state in an immediate, recognizable object or digital habit."
+      "pattern": "Vague Emotional Rambling",
+      "evidence": "Videos with abstract hooks like 'रात के ख्याल' (5 views) or 'इमरजेंसी कॉन्टैक्ट' (12 views) perform significantly worse than specific digital actions.",
+      "action": "Avoid abstract poetic openings; start with a concrete, relatable digital interaction."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowered detachment",
-    "hook_style": "Tactile notification interaction",
+    "emotion": "Empowerment through detachment",
+    "hook_style": "Action-oriented digital trigger",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short piece capturing the exact moment someone turns off read receipts permanently after realizing they no longer care if the other person knows they've seen the message.",
-    "opening_direction": "Settings menu glowing in a dark room, tapping on privacy settings.",
-    "twist_direction": "Instead of checking if they read it, turning off the blue ticks forever and feeling an unexpected wave of absolute calm.",
-    "duration_seconds": 12,
-    "posting_window": "13:45 - 14:15 IST",
-    "reason": "Aligns with the top-performing 'self respect' and digital boundary theme while testing a slightly different interface action (read receipts) to prevent exact repetition of chat deletion hooks."
+    "concept": "Removing a shared photo from the gallery",
+    "opening_direction": "Start with the specific action of selecting a photo in the gallery that you've been avoiding for months.",
+    "twist_direction": "Instead of feeling sad about deleting it, realize that the photo was just pixels and the person in it is now a stranger.",
+    "duration_seconds": 10,
+    "posting_window": "05:30 AM - 06:00 AM IST",
+    "reason": "Morning slots have shown better traction for self-respect content, likely as people start their day with a fresh mindset."
   },
-  "experiment": "Testing if shifting the digital boundary hook from chat deletion/pinning to privacy settings (read receipts) maintains high view counts.",
-  "updated_at": "2026-09-18T00:42:50.722464+00:00",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-18T00:42:53.864667+00:00"
+  "experiment": "Testing if a 'Gallery/Photo' based hook performs better than the 'Chat/Message' based hooks that have become saturated.",
+  "updated_at": "2026-09-18T01:39:03.262324+00:00",
+  "model_used": "gemini-3.1-flash-lite",
+  "generated_at": "2026-09-18T01:39:06.070938+00:00"
 }
