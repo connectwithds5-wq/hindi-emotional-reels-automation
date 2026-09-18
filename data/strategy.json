@@ -1,35 +1,40 @@
 {
-  "confidence": "35%",
+  "confidence": "65%",
   "data_points": 21,
-  "overall_summary": "The channel shows mixed performance with low overall sample sizes. Topics around 'self respect' with modern phone-interaction hooks (like muted chats, pinned lists, or deleting chats) show relative outperformance compared to generic emotional themes. However, overall engagement (likes and comments) remains extremely low, indicating the need for sharper emotional hooks and better call-to-action triggers.",
+  "overall_summary": "The channel 'Dil Ki Diary' has published 21 shorts focusing primarily on emotional topics like self-respect, overthinking, and relationships. Content centered around tactical, highly specific digital micro-moments of letting go (especially under the 'self respect' and chat-interaction theme) yields higher baseline views compared to abstract emotional statements. However, overall view counts remain modest, suggesting a need to refine hyper-relatable everyday actions into the hook structure.",
   "winning_patterns": [
     {
-      "pattern": "Modern smartphone micro-interactions",
-      "evidence": "Videos like 'rwOUYo_hayQ' (41 views) and 'AfaLxMy6FMY' (40 views) used hooks related to status lists and pinned chats.",
-      "action": "Continue focusing on digital boundaries and smartphone-related relational habits."
+      "pattern": "Digital micro-actions & UI decisions as hooks",
+      "evidence": "Videos like 'Self Respect Status | Jab Aapko Fark Padhna Band Ho Jaaye' (32 views), 'Self Respect Status Story in Hindi' (41 views), and 'चैट डिलीट करने की हिम्मत' (40 views) outperform general relationship statements.",
+      "action": "Focus hooks on concrete, highly specific smartphone interface actions (e.g., changing pin status, muting chats, removing from emergency contacts)."
+    },
+    {
+      "pattern": "Empowering self-respect framing over passive sadness",
+      "evidence": "Viewers consistently engage better with 'self respect' tagged clips where the protagonist makes an active choice to move on rather than wallowing in pure heartbreak.",
+      "action": "Ensure the narrative arc shifts from passive pain to an empowering personal boundary."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Late-night brooding themes without a concrete action",
-      "evidence": "Videos focusing purely on waiting or late-night sadness (e.g., 'uIbMpCjVutQ', 'aUuNKfe7jm4') received very low views (5 views).",
-      "action": "Avoid passive sadness; always tie emotional concepts to an active personal choice or realization."
+      "pattern": "Abstract poetry or vague nighttime thoughts",
+      "evidence": "Videos like 'रात के ख्याल और अधूरा इंतजार' (5 views) and 'जब गैलरी की शेयर्ड एलबम...' (0 views) with broad conceptual framing fail to capture immediate scroll-stopping attention.",
+      "action": "Avoid overly poetic or philosophical openings; anchor every story in a concrete, everyday digital artifact or physical action."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment through letting go",
-    "hook_style": "Digital action-oriented hook",
+    "emotion": "Empowerment through emotional detachment",
+    "hook_style": "Specific tactile phone habit interrupted",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Removing someone from the phone's wallpaper or lock screen as an act of reclaiming personal space.",
-    "opening_direction": "Lock screen wallpaper badalte waqt...",
-    "twist_direction": "Pata chala ki dard wallpaper hatane mein nahi, balki ye realize karne mein tha ki kitne mahine se wahan unka chehra nahi, sirf ek aadat thi.",
-    "duration_seconds": 15,
-    "posting_window": "13:00 - 14:00 IST",
-    "reason": "Tests a fresh digital interaction point (wallpaper change) within the winning 'self respect' category while avoiding the repetitive 'pinned chat' or 'blocked list' tropes."
+    "concept": "A short about removing someone's shortcut widget from the phone's home screen, realizing the empty space looks better clean.",
+    "opening_direction": "होम स्क्रीन पर उनका बनाया हुआ शॉर्टकट विजेट आज आखिरकार हटा दिया।",
+    "twist_direction": "सोचा था जगह खाली लगेगी, पर सच तो यह है कि अब फोन की स्क्रीन पहले से ज्यादा साफ और सुकून भरी लगती है।",
+    "duration_seconds": 12,
+    "posting_window": "05:30 PM - 07:00 PM IST",
+    "reason": "Capitalizes on the winning pattern of concrete UI/digital boundary actions while testing a fresh everyday object (home screen widget) outside of just chat apps."
   },
-  "experiment": "Testing if shifting the digital micro-interaction from messaging apps to phone wallpaper/lock screen retains viewer retention for self-respect content.",
-  "updated_at": "2026-09-18T14:40:09.516678+00:00",
+  "experiment": "Testing whether shifting from chat-window actions to home-screen UI habits maintains the high-view baseline for self-respect content.",
+  "updated_at": "2026-09-18T15:40:27.780741+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-18T14:40:12.135333+00:00"
+  "generated_at": "2026-09-18T15:40:31.189884+00:00"
 }
