@@ -1,40 +1,35 @@
 {
-  "confidence": "35%",
+  "confidence": "45%",
   "data_points": 21,
-  "overall_summary": "Confidence is relatively low due to low view counts across the board, but a clear content preference emerges: topics centered around 'self respect' and concrete phone interaction micro-moments (like pinning, deleting chats, or changing names) outperform abstract emotional poetry.",
+  "overall_summary": "View counts show high variance with very low sample sizes across early uploads. Content focusing on actionable 'self respect' themes (like muting pinned chats, deleting history, status lists) outperforms generic late-night overthinking or abstract sadness, though overall engagement (likes and comments) remains flat. A controlled exploration approach is needed to refine retention while sticking to concrete, relatable phone/chat micro-moments.",
   "winning_patterns": [
     {
-      "pattern": "Specific Phone Interaction Hooks",
-      "evidence": "Videos like 'Self Respect Story' (rwOUYo_hayQ - 41 views) and 'چات डिलीट करने की हिम्मत' (AfaLxMy6FMY - 40 views) feature exact tactile phone actions.",
-      "action": "Use specific, high-intent smartphone UI actions as hooks."
-    },
-    {
-      "pattern": "Self-Respect & Detachment Theme",
-      "evidence": "Almost all top-performing videos in the dataset belong to the 'self respect' topic rather than generic sadness or bewafai.",
-      "action": "Double down on empowerment, moving on, and the exact moment apathy replaces pain."
+      "pattern": "Specific digital/phone actions related to self-respect",
+      "evidence": "Videos like AfaLxMy6FMY ('चैट डिलीट करने की हिम्मत', 40 views), rwOUYo_hayQ ('स्टेटस लिस्ट में सबसे ऊपर', 41 views), and 0H4VygZ3DIU ('pinned chat', 21 views) perform better than abstract poetry.",
+      "action": "Double down on micro-interactions with phone interfaces (chat lists, online statuses, muted notifications) framed through the lens of reclaiming self-respect."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Night Thoughts & Open-Ended Sadness",
-      "evidence": "Videos like 'रात के ख्याल' (uIbMpCjVutQ - 5 views) and abstract overthinking hooks underperformed significantly.",
-      "action": "Avoid generic late-night atmospheric openings without a grounded, actionable micro-moment."
+      "pattern": "Overly generic late-night or tea-time metaphors",
+      "evidence": "uIbMpCjVutQ ('मेज पर रखी चाय ठंडी हो गई') and G0gKV1p3ZHc ('रात के दो बजे') stagnated at 5 and 12 views respectively.",
+      "action": "Avoid cliché aesthetic openings about tea, weather, or clock times unless tied to a specific, high-friction digital behavior."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment through emotional detachment",
-    "hook_style": "Tactile phone action micro-moment",
+    "emotion": "Empowered detachment / Relief",
+    "hook_style": "Visual and tactile action on a phone screen",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short story about removing someone from the phone's keyboard predictive text history, symbolizing the final erasure of their name from daily habits.",
-    "opening_direction": "कीबोर्ड पर पहला अक्षर टाइप करते ही...",
-    "twist_direction": "जब फोन ने उनका नाम खुद-ब-खुद प्रेडिक्ट करना बंद कर दिया, तब समझ आया कि वो ज़हन से भी जा चुके हैं।",
-    "duration_seconds": 15,
-    "posting_window": "13:00 - 14:00 IST",
-    "reason": "Previous successful self-respect shorts were posted around early afternoon (13:47 UTC/IST equivalents) and relied heavily on concrete digital micro-habits."
+    "concept": "A realization moment when archiving an old group or shared chat where both of you used to talk endlessly, turning a painful memory into a quiet personal victory.",
+    "opening_direction": "Archived chats folder mein jab woh purana group sabse niche gaya...",
+    "twist_direction": "Pehle dard hota tha ki ab koi message nahi aayega, aaj khushi hoti hai ki notification tray ab bas meri apne liye notifications se bhari hai.",
+    "duration_seconds": 12,
+    "posting_window": "05:30 PM - 07:00 PM IST",
+    "reason": "Aligns with the proven high-performing self-respect digital cleanup format while testing an archival/group-chat angle rather than 1-on-1 direct chats."
   },
-  "experiment": "Testing a non-chat, peripheral phone habit (keyboard predictive text history) instead of direct chat deletion to see if the self-respect theme scales to other digital interactions.",
-  "updated_at": "2026-09-18T18:40:43.321960+00:00",
+  "experiment": "Testing an archival/group-chat context instead of direct 1-on-1 chat deletion to see if broader digital cleanup hooks improve retention.",
+  "updated_at": "2026-09-18T19:36:34.615324+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-18T18:40:45.868269+00:00"
+  "generated_at": "2026-09-18T19:36:38.162132+00:00"
 }
