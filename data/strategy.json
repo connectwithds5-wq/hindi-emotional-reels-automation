@@ -1,35 +1,35 @@
 {
   "confidence": "65%",
   "data_points": 19,
-  "overall_summary": "Analysis of the performance data reveals that the 'self respect' topic consistently drives higher view counts (ranging between 28 to 41 views) compared to other emotional themes like 'ओवरथिंकिंग' or 'रात के ख्याल' which struggle below 20 views. Specifically, modern smartphone micro-interactions related to boundaries (e.g., status lists, blue ticks, pinned chats) perform best. However, absolute view numbers are still low across the board, signaling a need to refine hook pacing while leaning into the proven self-respect narrative.",
+  "overall_summary": "The channel's performance clearly highlights 'self respect' as the dominant winning content topic compared to generalized sadness or overthinking, pulling significantly higher view counts (averaging 30+ views vs single digits for late-night overthinking hooks).",
   "winning_patterns": [
     {
-      "pattern": "Smartphone Boundary Actions",
-      "evidence": "Videos focusing on digital boundaries under the 'self respect' topic (e.g., rwOUYo_hayQ, wFimeeP_aVc, AfaLxMy6FMY) achieved the highest views (40-41).",
-      "action": "Double down on real-life digital micro-habits specifically tied to reclaiming personal dignity."
+      "pattern": "Action-oriented Self Respect Hooks",
+      "evidence": "Videos focusing on deleting chats, hiding status, or removing pinned names (e.g., rwOUYo_hayQ with 41 views, AfaLxMy6FMY with 40 views) consistently outperform passive sad thoughts.",
+      "action": "Focus future scripts on concrete digital boundaries (blocking, unpinning, clearing histories) rather than abstract sadness."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Late-Night Atmospheric Monologues",
-      "evidence": "Topics like 'रात के ख्याल' and general 'ओवरथिंकिंग' without concrete visual anchors (e.g., uIbMpCjVutQ with 5 views, WhJ-VwRa3Rg with 7 views) underperformed.",
-      "action": "Avoid vague philosophical statements about night or tea; anchor every script in a tangible, specific action."
+      "pattern": "Late Night Passive Overthinking",
+      "evidence": "Hooks like 'रात के दो बजे' (G0gKV1p3ZHc) or 'मेज पर रखी चाय ठंडी हो गई' (uIbMpCjVutQ) scored very low views (5 to 12 views).",
+      "action": "Reduce passive poetic tropes about time and tea; ground the pain in modern smartphone micro-interactions."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment and quiet detachment",
-    "hook_style": "Visual phone habit confirmation",
+    "emotion": "Empowerment through detachment",
+    "hook_style": "Digital micro-interaction constraint",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short story about removing someone from the phone's blocked list not to unblock them, but because their existence on that list no longer holds any emotional weight or value.",
-    "opening_direction": "ब्लॉक लिस्ट खोलते ही जब उसकी आईडी सबसे ऊपर दिखी,",
-    "twist_direction": "उसे अनब्लॉक करने के लिए नहीं, बल्कि यह देखने के लिए कि अब उस पर गुस्सा क्यों नहीं आता।",
-    "duration_seconds": 12,
-    "posting_window": "13:00 - 14:00 UTC",
-    "reason": "Leverages the proven high-performing 'self respect' smartphone-action pattern while introducing a fresh emotional angle on the blocked list instead of the overused pinned chats or status lists."
+    "concept": "Removing someone from the phone's quick-share/frequent contact suggestions list.",
+    "opening_direction": "शेयर शीट पर सबसे ऊपर दिखने वाले उस एक चेहरे को देखा",
+    "twist_direction": "इस बार उसे फॉरवर्ड नहीं, हमेशा के लिए हाइड कर दिया। अब स्क्रीन खाली है, और दिल हल्का।",
+    "duration_seconds": 15,
+    "posting_window": "13:45 - 14:00",
+    "reason": "Aligns with the proven high-performing self-respect time slot and leverages the winning smartphone-action hook pattern."
   },
-  "experiment": "Testing whether shifting the self-respect narrative from 'deleting/hiding' to 'indifference towards the blocked list' maintains viewer retention.",
-  "updated_at": "2026-09-18T02:40:09.257446+00:00",
+  "experiment": "Testing a UI sharing-menu boundary action instead of chat-pin removal to check if the 'quick-share' trigger retains the high view counts of the unpin/delete chat trend.",
+  "updated_at": "2026-09-18T03:40:15.478232+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-18T02:40:12.020707+00:00"
+  "generated_at": "2026-09-18T03:40:18.038619+00:00"
 }
