@@ -1770,6 +1770,79 @@
         "reason": "Historical data shows peak performance for videos published in the early afternoon window (13:00-14:00)."
       },
       "model_used": "gemini-3.5-flash-lite"
+    },
+    {
+      "hook": "ब्लॉक लिस्ट से उसका नंबर बाहर निकाला,",
+      "lines": [
+        "सोचा था अब हिसाब बराबर होगा।",
+        "पर उंगली डिलीट करने पर नहीं रुकी,",
+        "बल्कि उसे आजाद कर दिया।",
+        "वो शख्स जो कभी सजा हुआ करता था,",
+        "आज फोन की एक आम जगह था।",
+        "तब समझ आया कि खामोशी क्या होती है,",
+        "अब उसे रोकने की कोई जरूरत नहीं।"
+      ],
+      "youtube_title": "Self Respect Status | Jab Fark Padna Band Ho Jaye | Dil Ki Diary",
+      "youtube_description": "Jab kisi ko block list se bahar nikalne par bhi koi asar na ho, toh wahin asli self-respect shuru hoti hai. Ek aisi khamosh kahani jo aapke dil ko chu jayegi. Kya aapne kabhi kisi ko apni zindagi se aise hi azaad kiya hai?",
+      "youtube_keywords": [
+        "self respect status",
+        "emotional status hindi",
+        "detachment status",
+        "dil ki diary",
+        "sad poetry hindi",
+        "attitude self respect",
+        "deep emotional shorts",
+        "hindi micro story",
+        "mental peace status",
+        "moving on status",
+        "khamoshi status",
+        "self love poetry"
+      ],
+      "youtube_hashtags": [
+        "SelfRespect",
+        "DilKiDiary",
+        "EmotionalShorts",
+        "DeepMeaning",
+        "HindiQuotes",
+        "PeaceOfMind",
+        "ReelsIndia"
+      ],
+      "caption": "कुछ रिश्ते ब्लॉक लिस्ट से नहीं, बल्कि ज़हन से बाहर निकलते हैं। जब फर्क पड़ना बंद हो जाए, तो समझो जंग जीत गए।",
+      "keywords": [
+        "self respect",
+        "detachment",
+        "block list",
+        "emotional hindi",
+        "moving on",
+        "peace",
+        "deep thoughts",
+        "khamoshi",
+        "attitude"
+      ],
+      "hashtags": [
+        "SelfRespect",
+        "DilKiDiary",
+        "Emotional",
+        "DeepThoughts",
+        "Peace",
+        "HindiLines",
+        "LifeLessons",
+        "Reels"
+      ],
+      "topic": "self respect",
+      "strategy_used": {
+        "topic": "self respect",
+        "emotion": "Empowerment through detachment",
+        "hook_style": "Tactile digital boundary action",
+        "story_structure": "simple -> relatable -> twist",
+        "concept": "Removing someone from the phone's blocked list not out of love, but because they no longer matter enough to be blocked.",
+        "opening_direction": "ब्लॉक लिस्ट से उसका नंबर बाहर निकाला,",
+        "twist_direction": "और महसूस हुआ कि अब उसे छुपाने या रोकने की कोई जरूरत ही नहीं बची, क्योंकि फर्क पड़ना बंद हो चुका है।",
+        "duration_seconds": 10,
+        "posting_window": "13:45 UTC",
+        "reason": "Aligns with the proven winning pattern of digital boundary actions within the 'self respect' category while introducing a fresh psychological twist to avoid repetitive phrasing."
+      },
+      "model_used": "gemini-3.5-flash-lite"
     }
   ]
 }
