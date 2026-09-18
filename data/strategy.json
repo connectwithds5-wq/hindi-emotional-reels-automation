@@ -1,35 +1,40 @@
 {
   "confidence": "35%",
   "data_points": 21,
-  "overall_summary": "The channel shows low overall views and low engagement across 21 videos. Content heavily leans on 'self respect' and digital/phone interaction hooks. While self-respect topics relative to phone actions (deleting chats, blocking, unpinning) received slightly better baseline views (40, 41, 35) early on, recent uploads have sharply dropped in views, pointing towards possible algorithm fatigue, saturation of repetitive phone-based hooks, or suboptimal posting times. Confidence is low due to small absolute view counts.",
+  "overall_summary": "Confidence is relatively low due to low view counts across the board, but a clear content preference emerges: topics centered around 'self respect' and concrete phone interaction micro-moments (like pinning, deleting chats, or changing names) outperform abstract emotional poetry.",
   "winning_patterns": [
     {
-      "pattern": "Digital boundary action hooks",
-      "evidence": "Videos like 'चैट डिलीट करने की हिम्मत और खुद की इज्जत' (40 views) and 'Self Respect Status Story' (41 views) performed best.",
-      "action": "Continue focusing on micro-actions related to digital boundaries and self-respect."
+      "pattern": "Specific Phone Interaction Hooks",
+      "evidence": "Videos like 'Self Respect Story' (rwOUYo_hayQ - 41 views) and 'چات डिलीट करने की हिम्मत' (AfaLxMy6FMY - 40 views) feature exact tactile phone actions.",
+      "action": "Use specific, high-intent smartphone UI actions as hooks."
+    },
+    {
+      "pattern": "Self-Respect & Detachment Theme",
+      "evidence": "Almost all top-performing videos in the dataset belong to the 'self respect' topic rather than generic sadness or bewafai.",
+      "action": "Double down on empowerment, moving on, and the exact moment apathy replaces pain."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Repetitive pinning/unpinning chat hooks",
-      "evidence": "Recent videos like 'Jab Uska Special Ringtone Default Kiya' (5 views) and 'चैट से उसका नाम अनपिन करते ही मिला असली सुकून' (5 views) yielded very low views.",
-      "action": "Avoid reusing exact variations of pinning, unpinning, or deleting chats for a while to prevent repetitive hook fatigue."
+      "pattern": "Abstract Night Thoughts & Open-Ended Sadness",
+      "evidence": "Videos like 'रात के ख्याल' (uIbMpCjVutQ - 5 views) and abstract overthinking hooks underperformed significantly.",
+      "action": "Avoid generic late-night atmospheric openings without a grounded, actionable micro-moment."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Quiet realization and detachment",
-    "hook_style": "Unconventional physical/mental space boundary instead of phone screens",
+    "emotion": "Empowerment through emotional detachment",
+    "hook_style": "Tactile phone action micro-moment",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Walking past a favorite local spot or cafe where you used to wait for them, and realizing you don't even bother looking inside anymore.",
-    "opening_direction": "उस कैफे के सामने से गुजरते वक्त, जहां कभी घंटों बैठा करते थे।",
-    "twist_direction": "इस बार नजरें अंदर तलाशने के लिए नहीं उठीं, बल्कि फोन पर किसी और काम में मग्न थीं—और यही सबसे बड़ी जीत थी।",
+    "concept": "A short story about removing someone from the phone's keyboard predictive text history, symbolizing the final erasure of their name from daily habits.",
+    "opening_direction": "कीबोर्ड पर पहला अक्षर टाइप करते ही...",
+    "twist_direction": "जब फोन ने उनका नाम खुद-ब-खुद प्रेडिक्ट करना बंद कर दिया, तब समझ आया कि वो ज़हन से भी जा चुके हैं।",
     "duration_seconds": 15,
     "posting_window": "13:00 - 14:00 IST",
-    "reason": "Previous mid-day uploads (around 13:42 - 13:47 UTC) showed relatively better performance peaks. Shifting away from phone screen actions to a real-world physical space test helps counter recent content fatigue while staying strictly within the winning 'self respect' topic pillar."
+    "reason": "Previous successful self-respect shorts were posted around early afternoon (13:47 UTC/IST equivalents) and relied heavily on concrete digital micro-habits."
   },
-  "experiment": "Testing a real-world physical space boundary hook instead of digital phone interactions to break recent view stagnation.",
-  "updated_at": "2026-09-18T17:36:27.508784+00:00",
+  "experiment": "Testing a non-chat, peripheral phone habit (keyboard predictive text history) instead of direct chat deletion to see if the self-respect theme scales to other digital interactions.",
+  "updated_at": "2026-09-18T18:40:43.321960+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-18T17:36:30.590891+00:00"
+  "generated_at": "2026-09-18T18:40:45.868269+00:00"
 }
