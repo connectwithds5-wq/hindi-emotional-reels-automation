@@ -1,45 +1,45 @@
 {
-  "confidence": "35%",
+  "confidence": "65%",
   "data_points": 20,
-  "overall_summary": "Data volume is low across most uploads, making statistical certainty limited. However, 'self respect' topics combined with tactile phone interaction hooks (e.g., status lists, chat deletions, muted notifications) show slightly higher baseline views compared to abstract emotional topics.",
+  "overall_summary": "Analysis of the recent 20 uploads shows that the 'self respect' topic consistently outperforms traditional heartbreak and late-night overthinking hooks, registering higher view counts (e.g., 41, 35, 40 views compared to 5-12 views for older tropes). However, overall sample size and engagement (likes/comments) remain very low, indicating that while niche topic selection is improving, the narrative tension and call-to-action need strengthening.",
   "winning_patterns": [
     {
-      "pattern": "Tactile phone action hooks",
-      "evidence": "Videos focusing on specific UI actions like checking status lists (rwOUYo_hayQ - 41 views) or hiding blue ticks (wFimeeP_aVc - 35 views) perform better than abstract poetry.",
-      "action": "Use concrete, everyday smartphone actions as hooks instead of vague emotional statements."
+      "pattern": "Self Respect Action Tropes",
+      "evidence": "Videos focusing on boundary-setting under the 'self respect' topic (e.g., rwOUYo_hayQ with 41 views, wFimeeP_aVc with 35 views, AfaLxMy6FMY with 40 views) significantly outperform general sadness.",
+      "action": "Double down on micro-actions related to digital boundaries and self-worth."
     },
     {
-      "pattern": "Self-respect narrative framing",
-      "evidence": "Topics centered around boundary setting and self-respect consistently outperform pure sadness/overthinking videos.",
-      "action": "Lean into empowerment and emotional detachment over passive waiting."
+      "pattern": "Tactile Digital Hooks",
+      "evidence": "Hooks mentioning specific phone interactions like status lists, blue ticks, or pinned chats generate better initial traction than abstract heartbreak quotes.",
+      "action": "Continue anchoring hooks in tangible smartphone behaviors."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract late-night poetic hooks",
-      "evidence": "Hooks like 'रात के दो बजे' (G0gKV1p3ZHc - 12 views) or 'मेज पर रखी चाय' (uIbMpCjVutQ - 5 views) resulted in lower engagement.",
-      "action": "Avoid generic late-night tropes unless paired with a sharp, modern behavioral trigger."
+      "pattern": "Abstract Late-Night Melodrama",
+      "evidence": "Videos like uIbMpCjVutQ ('मेज पर रखी चाय ठंडी हो गई') and hT4EGP69mRw ('जब उसका स्पेशल रिंगटोन बदल कर') received very low views (5 views), showing fatigue for cliché poetic imagery.",
+      "action": "Move away from poetic weather/tea metaphors and focus strictly on concrete modern relationship micro-moments."
     },
     {
-      "pattern": "Repetitive blocking/deleting scenarios",
-      "evidence": "Multiple variations around blocking or deleting numbers (-axunwJDsCA - 0 views) are showing diminishing returns due to saturation.",
-      "action": "Shift from deleting contacts to subtler modern relationship milestones like removing someone from close friends or hiding stories."
+      "pattern": "Zero Engagement Loop",
+      "evidence": "Almost all videos have 0 likes and 0 comments despite steady views, showing a lack of a participatory narrative or question prompt.",
+      "action": "Incorporate a subtle unresolved tension or a relatable micro-question at the end to prompt comments."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment through quiet detachment",
-    "hook_style": "Modern social media feature interaction",
+    "emotion": "Empowerment through detachment",
+    "hook_style": "Tangible digital boundary action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Removing someone from your 'Close Friends' list on Instagram and realizing no explanation is owed.",
-    "opening_direction": "क्लिक किया और ग्रीन सर्कल वाले उस नाम को हटा दिया।",
-    "twist_direction": "सोचा था बुरा लगेगा, पर उस एक क्लिक ने बता दिया कि अब मेरी निजी जिंदगी देखने का हक़ उसने बहुत पहले ही खो दिया था।",
-    "duration_seconds": 12,
-    "posting_window": "13:30 - 14:00",
-    "reason": "Tests a fresh digital boundary mechanism ('Close Friends' list) that younger audiences relate to heavily, moving away from overused phone call/chat deletion tropes."
+    "concept": "A short story about removing someone from the phone's auto-suggestions or predictive text list, symbolizing complete mental detachment.",
+    "opening_direction": "कीबोर्ड पर टाइप करते वक्त उसका नाम सजेशन में सबसे पहले आना...",
+    "twist_direction": "आज जब उस शब्द को डिक्शनरी से हमेशा के लिए डिलीट किया, तो लगा उंगलियां नहीं, ज़िम्मेदारी हल्की हुई है।",
+    "duration_seconds": 15,
+    "posting_window": "05:30 AM - 06:00 AM IST",
+    "reason": "Previous successful self-respect shorts (like wFimeeP_aVc and Y4finYMxnIU) performed well when published during early morning hours, catching users during their initial phone check."
   },
-  "experiment": "Testing if shifting the self-respect theme from WhatsApp chats to Instagram features ('Close Friends' exclusion) increases viewer retention and comments.",
-  "updated_at": "2026-09-18T09:39:48.463579+00:00",
+  "experiment": "Testing if shifting the digital boundary hook from chat/status settings to the smartphone keyboard predictive text/suggestions improves retention and engagement.",
+  "updated_at": "2026-09-18T10:40:00.869505+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-18T09:39:51.436026+00:00"
+  "generated_at": "2026-09-18T10:40:04.111198+00:00"
 }
