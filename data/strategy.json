@@ -1,40 +1,35 @@
 {
-  "confidence": "85%",
+  "confidence": "25%",
   "data_points": 21,
-  "overall_summary": "The channel shows a clear performance spike in 'Self Respect' content compared to 'Overthinking' or 'General Sadness'. Audiences engage significantly more when the content focuses on active, decisive actions (deleting/blocking/unpinning) rather than passive suffering.",
+  "overall_summary": "The channel has low sample sizes across 21 videos, with 'self respect' topics yielding slightly higher relative views (up to 41 views) compared to generalized emotional or late-night thoughts. However, engagement (likes/comments) is near zero overall, indicating low statistical confidence. A controlled exploration approach focused on concrete digital boundary-setting is warranted.",
   "winning_patterns": [
     {
-      "pattern": "Active Self-Respect Actions",
-      "evidence": "Videos like 'चैट डिलीट करने की हिम्मत' (40 views) and 'Self Respect Status' (41 views) outperform passive content.",
-      "action": "Focus on the 'moment of decision' where the protagonist takes control of their digital space."
-    },
-    {
-      "pattern": "Digital Minimalism Hooks",
-      "evidence": "Hooks involving specific UI elements (pinned chats, blue ticks, shared albums) have higher retention.",
-      "action": "Continue using specific digital interface triggers as the entry point."
+      "pattern": "Actionable digital boundary hooks",
+      "evidence": "Videos like 'Self Respect Status Story in Hindi' (rwOUYo_hayQ, 41 views) and 'चैट डिलीट करने की हिम्मत' (AfaLxMy6FMY, 40 views) performing better than abstract emotional themes.",
+      "action": "Continue focusing hooks on specific smartphone actions related to breaking digital ties (chats, lists, status)."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Passive Overthinking",
-      "evidence": "Videos about 'night thoughts' or 'waiting' (5-17 views) show lower engagement than active self-respect content.",
-      "action": "Shift from 'waiting for a reply' to 'choosing not to care about the reply'."
+      "pattern": "Generic late-night atmospheric hooks",
+      "evidence": "Videos like 'रात के ख्याल और अधूरा इंतजार' (uIbMpCjVutQ, 5 views) with abstract openings ('मेज पर रखी चाय ठंडी हो गई') underperformed significantly.",
+      "action": "Avoid vague poetic openings; ground every hook in an immediate, recognizable digital or physical interaction."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment through indifference",
-    "hook_style": "Action-oriented UI trigger",
+    "emotion": "Empowered detachment",
+    "hook_style": "Immediate digital action with a micro-conflict",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "The act of removing a 'Favorite' contact from the top of the phone list.",
-    "opening_direction": "Start with the physical action of long-pressing a contact name in the phone list.",
-    "twist_direction": "Instead of feeling sad about the loss, the narrator realizes the list looks cleaner and feels lighter without the 'special' tag.",
+    "concept": "A short piece on archiving a shared playlist or hidden favorite folder that used to define the relationship, turning the deletion into a quiet reclamation of personal space.",
+    "opening_direction": "म्यूजिक ऐप की उस प्राइवेट प्लेलिस्ट को खोला जिसमें सिर्फ हमारे गानों का सफर था।",
+    "twist_direction": "गाने आज भी वही थे, बस अब उन्हें सुनने वाला दिल मेरा अपना हो चुका था।",
     "duration_seconds": 15,
-    "posting_window": "13:00 - 14:00 IST",
-    "reason": "Historical data shows peak engagement for this channel occurs in the early afternoon, specifically around 13:45-14:00."
+    "posting_window": "05:30 AM - 07:00 AM",
+    "reason": "Aligns with the top-performing publishing slot and leverages the proven 'self-respect through digital pruning' winning pattern."
   },
-  "experiment": "Testing if a slightly longer duration (15s vs 10s) allows for a more impactful 'realization' moment at the end.",
-  "updated_at": "2026-09-18T23:37:44.019018+00:00",
-  "model_used": "gemini-3.1-flash-lite",
-  "generated_at": "2026-09-18T23:37:46.600460+00:00"
+  "experiment": "Testing a non-chat digital artifact (music playlist/shared folders) to see if self-respect themes extend beyond WhatsApp/calls.",
+  "updated_at": "2026-09-19T00:42:31.926054+00:00",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-09-19T00:42:35.020256+00:00"
 }
