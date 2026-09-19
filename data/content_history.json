@@ -1916,6 +1916,80 @@
         "reason": "Building on the success of phone-habit hooks ('self respect' category), targeting photo sharing brings a fresh yet familiar angle of modern digital detachment."
       },
       "model_used": "gemini-3.5-flash-lite"
+    },
+    {
+      "hook": "कीबोर्ड पर पहला अक्षर टाइप करते ही,",
+      "lines": [
+        "उसका नाम सजेशन में सबसे ऊपर आ गया।",
+        "हर बार की तरह हाथ वहीं ठहर गया।",
+        "याद आया अब हक नहीं रहा कोई।",
+        "धीमी उंगलियों से उसे डिलीट कर दिया।",
+        "नाम हटते ही स्क्रीन खाली हो गई।",
+        "आज पहली बार उसे भूलने में,",
+        "दिल नहीं सुकून काँपा।"
+      ],
+      "youtube_title": "कीबोर्ड से उसका नाम हटाते वक्त मिला सुकून | Self Respect Story",
+      "youtube_description": "जब फोन के कीबोर्ड सजेशन से उसका नाम हमेशा के लिए हटाना पड़ा, तब समझ आया कि अब अपना हक खोने का दर्द नहीं बल्कि खुद को वापस पाने का सुकून है। दिल की डायरी की यह कहानी आत्मसम्मान और खामोश अलगाव पर आधारित है। क्या आपने कभी अपने फोन से किसी खास की आखिरी निशानी हटाई है?",
+      "youtube_keywords": [
+        "self respect story",
+        "hindi emotional micro story",
+        "dil ki diary hindi",
+        "khamosh dard",
+        "emotional hindi kahani",
+        "self respect status",
+        "keyboard prediction memory",
+        "quiet detachment story",
+        "dil ko chu jane wali kahani",
+        "sad hindi micro story",
+        "आत्मसम्मान की कहानी",
+        "दर्द भरी दास्तान"
+      ],
+      "youtube_hashtags": [
+        "DilKiDiary",
+        "SelfRespect",
+        "EmotionalStory",
+        "HindiKahani",
+        "SadReels",
+        "DeepThoughts",
+        "Relatable"
+      ],
+      "caption": "कुछ नाम फोन के कीबोर्ड से हट जाएं तो जिंदगी आसान हो जाती है। खामोश अलगाव और अपने आत्मसम्मान की एक छोटी सी दास्तान। 📖✨",
+      "keywords": [
+        "self respect",
+        "emotional story",
+        "hindi micro story",
+        "dil ki diary",
+        "quiet detachment",
+        "keyboard history",
+        "relatable hindi",
+        "heartfelt",
+        "mental peace",
+        "letting go"
+      ],
+      "hashtags": [
+        "DilKiDiary",
+        "SelfRespect",
+        "EmotionalStory",
+        "HindiMicroStory",
+        "QuietDetachment",
+        "HealingJourney",
+        "Relatable",
+        "DeepWords"
+      ],
+      "topic": "self respect",
+      "strategy_used": {
+        "topic": "self respect",
+        "emotion": "Empowerment and quiet detachment",
+        "hook_style": "Specific routine smartphone action",
+        "story_structure": "simple -> relatable -> twist",
+        "concept": "A short narrative about clearing out the phone's keyboard prediction history where their name used to pop up first.",
+        "opening_direction": "कीबोर्ड पर पहला अक्षर टाइप करते ही, उसका नाम सजेशन में सबसे ऊपर आ गया।",
+        "twist_direction": "आज पहली बार उस सजेशन को 'फॉरगेट' करने में दिल नहीं, सुकून काँपा।",
+        "duration_seconds": 12,
+        "posting_window": "13:00 to 14:00 IST",
+        "reason": "午A midday posting window has shown slightly better baseline views in historical data compared to early morning slots."
+      },
+      "model_used": "gemini-3.5-flash-lite"
     }
   ]
 }
