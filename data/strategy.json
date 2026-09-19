@@ -1,35 +1,35 @@
 {
-  "confidence": "35%",
+  "confidence": "25%",
   "data_points": 22,
-  "overall_summary": "The channel shows early preference for 'self respect' and modern smartphone-era relationship friction (deleting chats, removing pinned items, changing ringtones). However, overall view counts remain very low across the board (ranging from 3 to 41 views), indicating low distribution and sample size, meaning confidence is low and we need a controlled exploration strategy.",
+  "overall_summary": "The channel has a very small sample size with overall low view counts (max 41 views), making statistical confidence low. However, 'self respect' and chat/phone interaction themes (like typing, deleting chats, status lists) show higher baseline engagement compared to pure sad or late-night thoughts.",
   "winning_patterns": [
     {
-      "pattern": "Digital boundary actions",
-      "evidence": "Videos focusing on concrete phone actions like deleting chats ('चैट डिलीट करने की हिम्मत') and removing status lists received the highest views (41 views).",
-      "action": "Double down on micro-actions related to smartphone boundaries and letting go of digital tethers."
+      "pattern": "Action-oriented digital boundaries",
+      "evidence": "Videos about self-respect involving concrete phone actions (e.g., clearing chat, unpinning, removing from lists) performed relatively better (AfaLxMy6FMY with 41 views, rwOUYo_hayQ with 41 views).",
+      "action": "Focus hooks on tangible digital actions related to phone privacy or letting go rather than abstract sadness."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Vague nighttime/tea clichés",
-      "evidence": "Broad concepts like 'रात के ख्याल' or abstract wait times ('चाय ठंडी हो गई') underperformed significantly (5-12 views).",
-      "action": "Avoid generic poetic metaphors and anchor hooks to specific, tangible modern triggers."
+      "pattern": "Abstract late-night melancholy",
+      "evidence": "Videos focused purely on late-night thoughts and vague waiting without specific physical micro-actions scored very low (e.g., uIbMpCjVutQ with 5 views, WhJ-VwRa3Rg with 7 views).",
+      "action": "Avoid generic late-night or tea-drinking openers; ground every story in an immediate, recognizable everyday tech or life habit."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment through quiet detachment",
-    "hook_style": "Tangible digital habit interruption",
+    "emotion": "Empowerment through detachment",
+    "hook_style": "Tangible digital habit",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A story about removing someone from the phone's 'Favorites' widget on the home screen, realizing the space looks better empty.",
-    "opening_direction": "होम स्क्रीन पर उसकी फोटो वाला विजेट हटाने के लिए",
-    "twist_direction": "जब वो जगह खाली हुई, तो फोन का वॉलपेपर पहली बार अपना खुद का लगा हुआ दिखा।",
-    "duration_seconds": 15,
+    "concept": "A story about clearing out the cloud backup or shared drive where old photos were automatically synced, representing a final silent clean-up of the past.",
+    "opening_direction": "Google Photos ka notification aaya - 'On this day 2 years ago'...",
+    "twist_direction": "...aur maine pehli baar 'Delete from all devices' dabane se pehle ek second ke liye bhi nahi socha.",
+    "duration_seconds": 10,
     "posting_window": "05:30 PM - 07:00 PM IST",
-    "reason": "Leverages the proven high-performing 'self respect' and digital boundary theme while testing a fresh home-screen widget hook to avoid repetitive chat-deletion openings."
+    "reason": "Tests a fresh micro-action angle (cloud storage memories) within the proven self-respect and digital detachment winning pattern while avoiding repetitive chat-unpinning hooks."
   },
-  "experiment": "Testing a home-screen widget removal hook versus standard chat/pinned list hooks to see if visual smartphone UI elements drive better retention.",
-  "updated_at": "2026-09-19T12:41:42.235907+00:00",
+  "experiment": "Testing if cloud storage/photo memory triggers perform better than messaging app triggers within the self-respect category.",
+  "updated_at": "2026-09-19T13:38:04.783455+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-19T12:41:44.780315+00:00"
+  "generated_at": "2026-09-19T13:38:07.489863+00:00"
 }
