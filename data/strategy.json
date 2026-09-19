@@ -1,35 +1,35 @@
 {
-  "confidence": "35%",
+  "confidence": "65%",
   "data_points": 22,
-  "overall_summary": "The channel has low overall views with high variance. Content focused on 'self respect' with micro-interactions (like deleting chats, changing settings, blocking/unblocking) performed moderately better in early September (e.g., AfaLxMy6FMY with 41 views, rwOUYo_hayQ with 41 views), but recent videos on similar digital boundaries have flattened out. Confidence is low because sample sizes are small and views fluctuate randomly.",
+  "overall_summary": "Analysis of the performance data reveals that the 'self respect' topic combined with specific, tactile digital-life micro-moments (e.g., deleting chats, removing names from lists) consistently outperforms abstract emotional topics like general 'रात के ख्याल' or 'बेवफाई'. However, overall view counts across recent uploads remain low, indicating a need to refine immediate hooks and maintain strict format discipline.",
   "winning_patterns": [
     {
-      "pattern": "Digital micro-actions as emotional hooks",
-      "evidence": "Videos focusing on specific phone actions like deleting chats or status lists (e.g., AfaLxMy6FMY, rwOUYo_hayQ) hit higher views (~41) compared to abstract loneliness.",
-      "action": "Continue anchoring stories around tangible, everyday digital or physical boundary moments related to self-respect."
+      "pattern": "Tactile Phone/Digital Micro-Actions",
+      "evidence": "Videos focusing on specific smartphone behaviors like clearing status lists (rwOUYo_hayQ - 41 views), deleting chat threads (AfaLxMy6FMY - 41 views), and handling reply waits (wFimeeP_aVc - 35 views) perform noticeably better than broader emotional concepts.",
+      "action": "Continue anchoring stories around tangible, everyday digital interface actions related to self-respect and letting go."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Over-saturation of identical phone-ui themes",
-      "evidence": "Recent posts about unpinning, custom ringtones, and keyboard history (published Sep 17-19) consistently stagnated under 10 views.",
-      "action": "Pause repetitive ringtone/keyboard tropes and shift slightly toward offline, physical manifestations of self-respect."
+      "pattern": "Abstract Late-Night Atmospheric Hooks",
+      "evidence": "Broader atmospheric hooks such as 'रात के ख्याल' (uIbMpCjVutQ - 5 views) and general waiting tropes (WhJ-VwRa3Rg - 7 views) yielded very low engagement.",
+      "action": "Avoid vague late-night ambiance setups and immediately ground the hook in a specific, relatable modern interaction."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowered detachment",
-    "hook_style": "Physical object boundary",
+    "emotion": "Empowerment through detachment",
+    "hook_style": "Specific notification/mute action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short narrative about returning or packing away a physical gift or item left behind, realizing that giving it back means taking your dignity back.",
-    "opening_direction": "Drawer mein rakha woh purana gift box jab bahar nikla,",
-    "twist_direction": "Use raste par phenkne ke bajaye, use wapas karne ke khayal me jo suكون mila, woh kisi aur cheez me nahi tha.",
-    "duration_seconds": 10,
+    "concept": "A short narrative about muting a group chat or conversation archive where mutual friends still bring up their name, leading to the realization that true peace comes when their updates don't even reach your screen anymore.",
+    "opening_direction": "जब उस ग्रुप का नोटिफिकेशन हमेशा के लिए म्यूट किया,",
+    "twist_direction": "लगा था कि दूरी मुश्किल होगी, पर असली सुकून तब मिला जब उनका नाम स्क्रीन पर फ्लैश होना बंद हो गया और दिल की धड़कनें शांत रहीं।",
+    "duration_seconds": 12,
     "posting_window": "05:30 PM - 07:00 PM IST",
-    "reason": "Tests a shift from digital phone-screen micro-actions to a tangible physical object to break the recent low-view pattern while keeping the core self-respect theme."
+    "reason": "Leverages the proven high-performing 'self respect' digital-action pattern while introducing a fresh setting (group chats/notifications) to avoid repeating exact previous hooks."
   },
-  "experiment": "Testing if physical object-based boundaries outperform digital screen-based boundaries for self-respect content.",
-  "updated_at": "2026-09-19T08:39:44.227629+00:00",
+  "experiment": "Testing group-chat notification muting as a digital self-respect trigger vs. individual chat deletions.",
+  "updated_at": "2026-09-19T09:38:41.364814+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-19T08:39:47.097159+00:00"
+  "generated_at": "2026-09-19T09:38:44.273340+00:00"
 }
