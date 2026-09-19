@@ -1,35 +1,35 @@
 {
-  "confidence": "25%",
+  "confidence": "35%",
   "data_points": 22,
-  "overall_summary": "Data volume is very low overall, but videos focusing on 'self respect' with micro-digital interaction hooks (like chats, pinned messages, typing status) slightly outperform other topics, showing up to 41 views compared to single-digit views on abstract night/lonely thoughts.",
+  "overall_summary": "The channel shows early preference for 'self respect' and modern smartphone-era relationship friction (deleting chats, removing pinned items, changing ringtones). However, overall view counts remain very low across the board (ranging from 3 to 41 views), indicating low distribution and sample size, meaning confidence is low and we need a controlled exploration strategy.",
   "winning_patterns": [
     {
-      "pattern": "Digital micro-actions as hooks",
-      "evidence": "Videos referencing phone UI elements like deleting chats (AfaLxMy6FMY - 41 views), status lists (rwOUYo_hayQ - 41 views), and read receipts (wFimeeP_aVc - 35 views) perform better than abstract poetry.",
-      "action": "Continue focusing on specific, tactile smartphone interaction moments related to letting go."
+      "pattern": "Digital boundary actions",
+      "evidence": "Videos focusing on concrete phone actions like deleting chats ('चैट डिलीट करने की हिम्मत') and removing status lists received the highest views (41 views).",
+      "action": "Double down on micro-actions related to smartphone boundaries and letting go of digital tethers."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract night/lonely themes without a concrete anchor",
-      "evidence": "Videos like 'रात के ख्याल और अधूरा इंतजार' (uIbMpCjVutQ) got only 5 views and 'ओवरथिंकिंग और अधूरी उम्मीद' (WhJ-VwRa3Rg) got 7 views.",
-      "action": "Avoid vague or purely poetic late-night descriptions; always ground the emotion in a physical, everyday object or digital action."
+      "pattern": "Vague nighttime/tea clichés",
+      "evidence": "Broad concepts like 'रात के ख्याल' or abstract wait times ('चाय ठंडी हो गई') underperformed significantly (5-12 views).",
+      "action": "Avoid generic poetic metaphors and anchor hooks to specific, tangible modern triggers."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowered relief",
-    "hook_style": "Tactile smartphone notification habit",
+    "emotion": "Empowerment through quiet detachment",
+    "hook_style": "Tangible digital habit interruption",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Turning off read receipts for that one specific contact so their name never shows 'seen' again, reclaiming personal peace.",
-    "opening_direction": "ब्लू टिक्स हमेशा के लिए ऑफ करते वक्त...",
-    "twist_direction": "...लगा था डर छूटेगा, पर पहली बार फोन देखकर दिल को सुकून मिला कि अब किसी के इंतज़ार में पलकें नहीं बिछानी पड़ेंगी।",
-    "duration_seconds": 10,
-    "posting_window": "13:00 - 14:00 IST",
-    "reason": "Previous mid-day posts around 13:45 (like AfaLxMy6FMY and rwOUYo_hayQ) captured the highest relative views in the dataset."
+    "concept": "A story about removing someone from the phone's 'Favorites' widget on the home screen, realizing the space looks better empty.",
+    "opening_direction": "होम स्क्रीन पर उसकी फोटो वाला विजेट हटाने के लिए",
+    "twist_direction": "जब वो जगह खाली हुई, तो फोन का वॉलपेपर पहली बार अपना खुद का लगा हुआ दिखा।",
+    "duration_seconds": 15,
+    "posting_window": "05:30 PM - 07:00 PM IST",
+    "reason": "Leverages the proven high-performing 'self respect' and digital boundary theme while testing a fresh home-screen widget hook to avoid repetitive chat-deletion openings."
   },
-  "experiment": "Testing if shifting the digital hook from chat deletion/pins to read receipt settings maintains or improves the engagement floor established by top-performing self respect shorts.",
-  "updated_at": "2026-09-19T11:37:26.182750+00:00",
+  "experiment": "Testing a home-screen widget removal hook versus standard chat/pinned list hooks to see if visual smartphone UI elements drive better retention.",
+  "updated_at": "2026-09-19T12:41:42.235907+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-19T11:37:29.004904+00:00"
+  "generated_at": "2026-09-19T12:41:44.780315+00:00"
 }
