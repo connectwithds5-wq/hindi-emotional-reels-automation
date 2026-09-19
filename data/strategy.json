@@ -1,35 +1,35 @@
 {
-  "confidence": "40%",
+  "confidence": "35%",
   "data_points": 21,
-  "overall_summary": "Most videos suffer from very low view counts, indicating early-stage channel distribution struggles. However, content focused on 'self respect' with micro-behavioral hooks like deleting chats, removing pins, or changing ringtones performed marginally better than abstract emotional pieces.",
+  "overall_summary": "The channel shows mixed performance with low overall sample sizes, but 'self respect' and digital/phone interaction hooks (chats, pinned items, clearing history) consistently attract higher views (e.g., 40-41 views) compared to generic emotional topics like 'रात के ख्याल' or 'बेवफाई' (which stalled at lower view counts). Confidence remains low due to small sample sizes and zero engagement metrics, signaling a need for controlled exploration.",
   "winning_patterns": [
     {
-      "pattern": "Micro-behavioral digital actions as hooks",
-      "evidence": "Videos like 'जब रिप्लाई का इंतज़ार खत्म हो जाए' (35 views) and 'चैट डिलीट करने की हिम्मत' (40 views) outperform abstract topics.",
-      "action": "Continue focusing on hyper-specific digital interface moments (chats, lists, settings) rather than general sadness."
+      "pattern": "Digital boundary and chat action hooks",
+      "evidence": "Videos like 'चैट डिलीट करने की हिम्मत' (40 views) and 'Self Respect Status Story' (41 views) outperform traditional emotional poetry.",
+      "action": "Focus on tactical smartphone-related actions like clearing chats, muting notifications, or unpinning contacts."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract late-night or poetic melancholy",
-      "evidence": "Videos like 'रात के ख्याल और अधूरा इंतजार' (5 views) and 'नंबर ब्लॉक नहीं किया कभी' (6 views) got almost zero traction.",
-      "action": "Avoid purely poetic or slow atmospheric openings without an immediate, relatable daily action."
+      "pattern": "Abstract emotional titles and long descriptive hooks",
+      "evidence": "Videos focusing heavily on vague nighttime feelings or slow pacing like 'रात के ख्याल और अधूरा इंतजार' generated only 5 views.",
+      "action": "Avoid passive descriptions; anchor every hook in an immediate, physical, modern action."
     }
   ],
   "next_video": {
     "topic": "self respect",
     "emotion": "Empowerment through detachment",
-    "hook_style": "Digital ritual breaking",
+    "hook_style": "Tactical phone action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Removing someone from the phone's auto-suggested contact list when typing a new message.",
-    "opening_direction": "कीबोर्ड पर पहला अक्षर टाइप करते ही, स्क्रीन पर उसका नाम सबसे ऊपर आ गया।",
-    "twist_direction": "आज उसे रिकमेंडेशन से हटाने के लिए सेटिंग्स में जाना पड़ा, और इस बार दिल की धड़कन बिल्कुल नहीं बढ़ी।",
-    "duration_seconds": 12,
-    "posting_window": "13:45 IST",
-    "reason": "Tests a fresh micro-behavioral trigger (keyboard auto-suggestions) within the winning 'self respect' topic without repeating the exact 'pinned chat' or 'blocked list' tropes."
+    "concept": "Removing someone from the phone's wallpaper/lock screen to reclaim personal mental space.",
+    "opening_direction": "जब फोन का वॉलपेपर बदलते वक्त...",
+    "twist_direction": "पर्दे पर उसकी तस्वीर नहीं, बल्कि खुद की बिखरी हुई उम्मीदें साफ नजर आईं।",
+    "duration_seconds": 15,
+    "posting_window": "13:45 - 14:15 IST",
+    "reason": "Previous top-performing videos in the 'self respect' and digital interaction niche peaked around early afternoon posting slots."
   },
-  "experiment": "Testing keyboard auto-suggestion deletion as a fresh hook for self-respect to break the repetitive chat-pin/last-seen pattern.",
-  "updated_at": "2026-09-19T01:39:20.662870+00:00",
+  "experiment": "Testing a visual phone-action hook (wallpaper change) instead of chat/message interactions to see if visual digital boundaries retain high views.",
+  "updated_at": "2026-09-19T02:38:59.964456+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-19T01:39:22.971254+00:00"
+  "generated_at": "2026-09-19T02:39:02.362854+00:00"
 }
