@@ -1,35 +1,35 @@
 {
-  "confidence": "45%",
+  "confidence": "25%",
   "data_points": 23,
-  "overall_summary": "The channel shows consistent production around emotional and self-respect themes, but views remain relatively low across the board. The 'self respect' topic consistently generates slightly higher engagement compared to abstract late-night thoughts or pure sadness, especially when tied to tangible modern phone micro-interactions.",
+  "overall_summary": "The channel has low overall view counts across the board, making statistical certainty low. However, content focused on 'self respect' with micro-actions related to smartphone UI (e.g., removing pinned chats, status lists, keyboard suggestions) consistently shows slightly higher relative engagement than broad emotional topics like 'रात के ख्याल' or 'बेवफाई'.",
   "winning_patterns": [
     {
-      "pattern": "Action-oriented Self Respect hooks",
-      "evidence": "Videos like AfaLxMy6FMY (41 views), rwOUYo_hayQ (41 views), and wFimeeP_aVc (35 views) focused on active digital boundaries like checking status lists or deleting chats.",
-      "action": "Continue focusing on concrete smartphone-era micro-actions related to letting go and regaining self-respect."
+      "pattern": "Smartphone UI micro-actions combined with Self Respect",
+      "evidence": "Videos like 'rwOUYo_hayQ' (41 views), 'AfaLxMy6FMY' (41 views), and 'wFimeeP_aVc' (35 views) outperform generic relationship rants.",
+      "action": "Focus on specific everyday digital habits like typing, keyboard suggestions, or notification settings tied to moving on."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract or passive late-night poetry",
-      "evidence": "Videos like uIbMpCjVutQ (5 views) and WhJ-VwRa3Rg (8 views) featuring vague atmospheric descriptions performed lower than active boundary-setting narratives.",
-      "action": "Minimize passive observations and anchor every piece in a specific, relatable digital or physical action."
+      "pattern": "Abstract emotional statements without concrete visual touchpoints",
+      "evidence": "Videos like 'uIbMpCjVutQ' (5 views) and 'WhJ-VwRa3Rg' (8 views) featuring vague night thoughts perform significantly worse.",
+      "action": "Ground every emotional hook in a physical object or immediate digital interface action."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "empowering detachment",
-    "hook_style": "tangible phone notification action",
+    "emotion": "Empowerment through letting go",
+    "hook_style": "Visual digital action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization moment when disabling read receipts or online status for good, shifting the focus from waiting for someone else to guarding one's own peace.",
-    "opening_direction": "Start with the exact moment of tapping the privacy settings to hide 'last seen' permanently.",
-    "twist_direction": "Instead of feeling the expected emptiness, it brings an immediate wave of unbothered freedom.",
-    "duration_seconds": 30,
-    "posting_window": "05:30 PM - 07:30 PM IST",
-    "reason": "Aligns with the proven success of specific phone-based boundary actions while slightly varying the exact setting to avoid repeating identical chat-deletion hooks."
+    "concept": "A realization when clearing out smartphone storage recommendations that surface old geotagged photos.",
+    "opening_direction": "फोन की स्टोरेज फुल होने पर जब नोटिफिकेशन में 'Memories' का पॉप-अप आया,",
+    "twist_direction": "फोटो डिलीਟ करते वक्त दर्द नहीं हुआ, बल्कि फोन का स्पेस खाली होने के साथ दिल का बोझ भी उतर गया।",
+    "duration_seconds": 12,
+    "posting_window": "05:30 AM - 07:00 AM",
+    "reason": "Early morning slots historically captured steady view floors in past uploads, aligning with the overthinking and self-reflection window."
   },
-  "experiment": "Testing if shifting from chat/number deletion to privacy setting changes retains the high-view baseline of self-respect content.",
-  "updated_at": "2026-09-19T16:38:35.941592+00:00",
+  "experiment": "Testing if cloud memory/storage cleanup performs on par with chat-based self-respect hooks.",
+  "updated_at": "2026-09-19T17:36:12.577773+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-19T16:38:38.542823+00:00"
+  "generated_at": "2026-09-19T17:36:15.352512+00:00"
 }
