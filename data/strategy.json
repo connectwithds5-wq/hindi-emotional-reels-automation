@@ -1,35 +1,35 @@
 {
   "confidence": "25%",
   "data_points": 23,
-  "overall_summary": "The channel has low overall view counts across the board, making statistical certainty low. However, content focused on 'self respect' with micro-actions related to smartphone UI (e.g., removing pinned chats, status lists, keyboard suggestions) consistently shows slightly higher relative engagement than broad emotional topics like 'रात के ख्याल' or 'बेवफाई'.",
+  "overall_summary": "The channel has low overall view counts across all uploads with zero engagement (likes/comments), indicating a very early stage with low sample size and low reach. However, 'self respect' topic videos (like rwOUYo_hayQ and AfaLxMy6FMY with 41 views) perform slightly better than abstract emotional topics, suggesting audiences respond marginally better to concrete empowerment and digital boundary-setting themes.",
   "winning_patterns": [
     {
-      "pattern": "Smartphone UI micro-actions combined with Self Respect",
-      "evidence": "Videos like 'rwOUYo_hayQ' (41 views), 'AfaLxMy6FMY' (41 views), and 'wFimeeP_aVc' (35 views) outperform generic relationship rants.",
-      "action": "Focus on specific everyday digital habits like typing, keyboard suggestions, or notification settings tied to moving on."
+      "pattern": "Concrete digital boundary actions for Self Respect",
+      "evidence": "Videos focusing on chat lists, status lists, and blocking/deleting interactions (e.g., rwOUYo_hayQ, AfaLxMy6FMY) garnered up to 41 views compared to single-digit views on abstract concepts.",
+      "action": "Continue focusing on micro-interactions with digital interfaces (chats, keyboards, call logs) tied to self-respect."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract emotional statements without concrete visual touchpoints",
-      "evidence": "Videos like 'uIbMpCjVutQ' (5 views) and 'WhJ-VwRa3Rg' (8 views) featuring vague night thoughts perform significantly worse.",
-      "action": "Ground every emotional hook in a physical object or immediate digital interface action."
+      "pattern": "Abstract or passive late-night loneliness themes",
+      "evidence": "Videos like uIbMpCjVutQ ('मेज पर रखी चाय ठंडी हो गई') received only 5 views.",
+      "action": "Avoid passive descriptions of weather or food; ground emotional moments in specific modern digital habits."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment through letting go",
-    "hook_style": "Visual digital action",
+    "emotion": "Empowerment through detachment",
+    "hook_style": "Action-oriented micro-habit",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization when clearing out smartphone storage recommendations that surface old geotagged photos.",
-    "opening_direction": "फोन की स्टोरेज फुल होने पर जब नोटिफिकेशन में 'Memories' का पॉप-अप आया,",
-    "twist_direction": "फोटो डिलीਟ करते वक्त दर्द नहीं हुआ, बल्कि फोन का स्पेस खाली होने के साथ दिल का बोझ भी उतर गया।",
-    "duration_seconds": 12,
-    "posting_window": "05:30 AM - 07:00 AM",
-    "reason": "Early morning slots historically captured steady view floors in past uploads, aligning with the overthinking and self-reflection window."
+    "concept": "Removing someone from the phone's quick-dial widget, realizing that the empty space feels lighter than carrying an unreciprocated priority.",
+    "opening_direction": "स्क्रीन पर विज़ेट की उस खाली जगह को देखना...",
+    "twist_direction": "...जहाँ कभी उनकी तस्वीर हुआ करती थी, और आज वहाँ सिर्फ 'Add Contact' का सूनापन है—जो अब दर्द नहीं, आज़ादी देता है।",
+    "duration_seconds": 10,
+    "posting_window": "13:45 - 14:15 IST",
+    "reason": "Previous mid-day self-respect uploads around 13:45 (e.g., rwOUYo_hayQ, AfaLxMy6FMY) captured relatively higher views compared to early morning or late night slots."
   },
-  "experiment": "Testing if cloud memory/storage cleanup performs on par with chat-based self-respect hooks.",
-  "updated_at": "2026-09-19T17:36:12.577773+00:00",
+  "experiment": "Testing a phone widget removal hook to see if physical interface metaphors outperform chat list metaphors for self-respect content.",
+  "updated_at": "2026-09-19T18:40:34.141119+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-19T17:36:15.352512+00:00"
+  "generated_at": "2026-09-19T18:40:37.029312+00:00"
 }
