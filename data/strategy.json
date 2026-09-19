@@ -1,35 +1,35 @@
 {
-  "confidence": "65%",
+  "confidence": "35%",
   "data_points": 21,
-  "overall_summary": "The channel shows a clear preference for 'Self Respect' content, with the highest performing videos (41, 40, 35, 32 views) focusing on digital boundaries (deleting chats, removing pins, ignoring status updates). Generic emotional content performs poorly.",
+  "overall_summary": "Data volume is low across recent uploads, but 'self respect' and immediate digital life actions (removing from emergency contacts, unpinning chats, status lists) show slightly better traction compared to vague emotional topics like late-night thoughts or general longing.",
   "winning_patterns": [
     {
-      "pattern": "Digital Minimalism as Self-Respect",
-      "evidence": "Videos about deleting chats, unpinning, or removing numbers consistently outperformed general emotional quotes.",
-      "action": "Continue focusing on specific digital actions that symbolize moving on."
+      "pattern": "Digital action micro-moments",
+      "evidence": "Videos focusing on concrete phone interactions like removing emergency contacts (hrjJ-QS9M8w - 12 views) or pinning/unpinning chats (0H4VygZ3DIU - 21 views, rwOUYo_hayQ - 41 views) outperform abstract emotional poetry.",
+      "action": "Continue focusing on specific, relatable smartphone interaction triggers."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract/Vague Emotional Hooks",
-      "evidence": "Videos like 'Raat ke khayal' or generic 'Bewafai' hooks received <10 views.",
-      "action": "Avoid vague poetic openings; start with a specific, tangible action or object."
+      "pattern": "Abstract late-night concepts",
+      "evidence": "Topics like 'रात के ख्याल' and open-ended tea/cold night metaphors (uIbMpCjVutQ) received minimal traction (5 views).",
+      "action": "Avoid purely atmospheric or abstract hooks without a grounding real-world action."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment through detachment",
-    "hook_style": "Action-oriented, specific digital trigger",
+    "emotion": "Empowerment and quiet detachment",
+    "hook_style": "Specific routine smartphone action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "The act of removing a shared 'Spotify' or 'Music' playlist that was once a connection point.",
-    "opening_direction": "Start with the specific action of clicking 'Delete Playlist' on a shared music folder.",
-    "twist_direction": "Instead of feeling sad, the realization that the music now sounds better when you are the only one listening to it.",
-    "duration_seconds": 15,
-    "posting_window": "13:00 - 14:00 UTC",
-    "reason": "Historical data shows peak engagement for 'Self Respect' content occurs during afternoon windows, and specific digital actions drive the highest retention."
+    "concept": "A short narrative about clearing out the phone's keyboard prediction history where their name used to pop up first.",
+    "opening_direction": "कीबोर्ड पर पहला अक्षर टाइप करते ही, उसका नाम सजेशन में सबसे ऊपर आ गया।",
+    "twist_direction": "आज पहली बार उस सजेशन को 'फॉरगेट' करने में दिल नहीं, सुकून काँपा।",
+    "duration_seconds": 12,
+    "posting_window": "13:00 to 14:00 IST",
+    "reason": "午A midday posting window has shown slightly better baseline views in historical data compared to early morning slots."
   },
-  "experiment": "Testing a 'positive outcome' twist (finding peace) versus the previous 'painful ending' twist to see if it increases shareability.",
-  "updated_at": "2026-09-19T03:39:27.266665+00:00",
-  "model_used": "gemini-3.1-flash-lite",
-  "generated_at": "2026-09-19T03:39:30.730269+00:00"
+  "experiment": "Testing an unchartered digital habit (keyboard prediction memory) instead of direct chat/number actions to see if psychological triggers expand beyond messaging apps.",
+  "updated_at": "2026-09-19T04:39:12.751195+00:00",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-09-19T04:39:15.689753+00:00"
 }
