@@ -1,45 +1,35 @@
 {
-  "confidence": "65%",
+  "confidence": "25%",
   "data_points": 22,
-  "overall_summary": "Data shows clear audience interest in 'self respect' and digital breakup micro-moments (like chat pinning, removing numbers, blocking/unmuting), which consistently pulled higher relative views (up to 41 views) compared to abstract topics like 'रात के ख्याल' or 'बेवफाई' (which stalled at under 20 views). However, since absolute view counts are low across the board, confidence is moderate, necessitating a refined focus on proven digital micro-behavior hooks paired with a small exploration into emotional detachment.",
+  "overall_summary": "Data volume is very low overall, but videos focusing on 'self respect' with micro-digital interaction hooks (like chats, pinned messages, typing status) slightly outperform other topics, showing up to 41 views compared to single-digit views on abstract night/lonely thoughts.",
   "winning_patterns": [
     {
       "pattern": "Digital micro-actions as hooks",
-      "evidence": "Videos focusing on specific phone actions (pinning chats, blocking, typing indicators, blue ticks) like AfaLxMy6FMY (41 views) and rwOUYo_hayQ (41 views) outperformed abstract concepts.",
-      "action": "Continue using highly specific, relatable smartphone UI/UX detachment moments as the primary hook style."
-    },
-    {
-      "pattern": "Self-respect narrative framing",
-      "evidence": "Topics categorized under 'self respect' received noticeably higher initial traction than generic sadness or 'रात के ख्याल'.",
-      "action": "Anchor future storytelling around reclaiming personal dignity and quiet victories over emotional dependence."
+      "evidence": "Videos referencing phone UI elements like deleting chats (AfaLxMy6FMY - 41 views), status lists (rwOUYo_hayQ - 41 views), and read receipts (wFimeeP_aVc - 35 views) perform better than abstract poetry.",
+      "action": "Continue focusing on specific, tactile smartphone interaction moments related to letting go."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract nighttime poetry/caffeine tropes",
-      "evidence": "Videos like 'मेज पर रखी चाय ठंडी हो गई' (uIbMpCjVutQ) stagnated at 5 views.",
-      "action": "Avoid overly poetic, slow-burn clichés about tea, cold rooms, or abstract dark nights without a grounding real-world action."
-    },
-    {
-      "pattern": "Repetitive phrasing in hooks",
-      "evidence": "Multiple recent videos used variations of removing numbers and pinning chats repeatedly without introducing a fresh physical cue.",
-      "action": "Vary the physical trigger; move beyond phone settings to tangible real-life objects or alternative digital habits (e.g., Spotify shared playlists, social media tags)."
+      "pattern": "Abstract night/lonely themes without a concrete anchor",
+      "evidence": "Videos like 'रात के ख्याल और अधूरा इंतजार' (uIbMpCjVutQ) got only 5 views and 'ओवरथिंकिंग और अधूरी उम्मीद' (WhJ-VwRa3Rg) got 7 views.",
+      "action": "Avoid vague or purely poetic late-night descriptions; always ground the emotion in a physical, everyday object or digital action."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Quiet empowerment and detachment",
-    "hook_style": "Tangible digital asset deletion",
+    "emotion": "Empowered relief",
+    "hook_style": "Tactile smartphone notification habit",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Removing someone from a shared streaming or music playlist where your accounts were once linked, symbolizing the final severing of background emotional ties.",
-    "opening_direction": "जब उस म्यूजिक ऐप की फैमिली प्लेलिस्ट से नाम हटाया,",
-    "twist_direction": "गाने तो वही बज रहे थे, पर इस बार बैकग्राउंड में किसी और की पसंद का कोई शोर नहीं था—सिर्फ अपना सुकून था।",
-    "duration_seconds": 12,
-    "posting_window": "05:35 UTC - 05:40 UTC",
-    "reason": "Previous successful uploads (like Y4finYMxnIU and wFimeeP_aVc) performed well during the early morning publishing window, capturing audiences during their morning routine or early check-ins."
+    "concept": "Turning off read receipts for that one specific contact so their name never shows 'seen' again, reclaiming personal peace.",
+    "opening_direction": "ब्लू टिक्स हमेशा के लिए ऑफ करते वक्त...",
+    "twist_direction": "...लगा था डर छूटेगा, पर पहली बार फोन देखकर दिल को सुकून मिला कि अब किसी के इंतज़ार में पलकें नहीं बिछानी पड़ेंगी।",
+    "duration_seconds": 10,
+    "posting_window": "13:00 - 14:00 IST",
+    "reason": "Previous mid-day posts around 13:45 (like AfaLxMy6FMY and rwOUYo_hayQ) captured the highest relative views in the dataset."
   },
-  "experiment": "Testing a shift from direct messaging actions (chats/numbers) to peripheral digital footprints (shared music/streaming playlists) to see if self-respect themes scale beyond WhatsApp metaphors.",
-  "updated_at": "2026-09-19T10:38:32.082341+00:00",
+  "experiment": "Testing if shifting the digital hook from chat deletion/pins to read receipt settings maintains or improves the engagement floor established by top-performing self respect shorts.",
+  "updated_at": "2026-09-19T11:37:26.182750+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-19T10:38:35.746736+00:00"
+  "generated_at": "2026-09-19T11:37:29.004904+00:00"
 }
