@@ -1,40 +1,35 @@
 {
-  "confidence": "35%",
+  "confidence": "65%",
   "data_points": 25,
-  "overall_summary": "The channel shows low overall view counts (mostly under 50 views), indicating low sample size and early-stage distribution. However, content focused on 'self respect' with actionable micro-digital actions (like deleting chats, changing ringtones, or managing lists) consistently edges out abstract emotional storytelling in view counts.",
+  "overall_summary": "Analysis of historical performance indicates that content centered around 'self respect' and digital/phone boundaries (chat deletion, pinning, status, keyboards) consistently outperforms broader emotional themes like 'अधूरी मोहब्बत' or general 'रात के ख्याल' in terms of view counts. However, overall view numbers remain in the low double digits, signaling a need to refine hook potency and emotional tension while doubling down on the proven sub-niche of phone-related self-respect moments.",
   "winning_patterns": [
     {
-      "pattern": "Digital-physical micro-actions in hooks",
-      "evidence": "Videos like 'Self Respect Status | Jab Aapko Fark Padhna Band Hu Jaaye' (32 views) and 'चैट डिलीट करने की हिम्मत' (41 views) perform relatively better.",
-      "action": "Use specific smartphone actions (notifications, keyboard history, mute buttons) as hooks."
-    },
-    {
-      "pattern": "Self-respect narrative framing",
-      "evidence": "Almost all top-performing videos in the recent batch fall under the 'self respect' topic category.",
-      "action": "Anchor the emotional payoff on personal dignity rather than pure heartbreak or helplessness."
+      "pattern": "Digital boundary/phone action hooks for self-respect",
+      "evidence": "Videos like 'Self Respect Status | Jab Aapko Fark Padhna Band Hoge Jaaye' (32 views), 'Self Respect Story... चैट डिलीट करने की हिम्मत' (41 views), and 'Self Respect Status Story... स्टेटस लिस्ट में सबसे ऊपर' (41 views) perform better than abstract poetry.",
+      "action": "Focus future scripts on micro-interactions with mobile interfaces (e.g., call logs, mute buttons, notification settings) representing emotional detachment."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract or passive late-night loneliness hooks",
-      "evidence": "Videos like 'रात के ख्याल और अधूरा इंतजार' (6 views) and 'Jab Uska Special Ringtone Default Kiya' (3 views) got very low traction.",
-      "action": "Avoid generic late-night sadness statements; tie hooks to immediate, tangible behavioral shifts."
+      "pattern": "Abstract atmospheric late-night poetry without a tangible anchor",
+      "evidence": "Videos like 'रात के ख्याल और अधूरा इंतजार' (6 views) and 'ओवरथिंकिंग और अधूरी उम्मीद की एक शांत कहानी' (8 views) received significantly lower traction.",
+      "action": "Avoid purely conceptual poetry openings; ground every emotional thought in a specific, physical daily action."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment through detachment",
-    "hook_style": "Tangible digital habit",
+    "emotion": "detachment and liberation",
+    "hook_style": "tangible phone notification action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization moment while turning off read receipts or typing indicators, choosing peace over constant availability.",
-    "opening_direction": "ब्लू टिक्स हमेशा के लिए ऑफ करने से पहले, उंगली सेटिंग बटन पर एक पल के लिए रुकी।",
-    "twist_direction": "पता चला कि किसी को अपनी हर पल की खबर देना प्यार नहीं, खुद की आज़ादी का सौदा था।",
-    "duration_seconds": 12,
-    "posting_window": "05:30 PM - 07:30 PM",
-    "reason": "Leverages the proven 'self respect' digital-action pattern while tweaking the specific setting (read receipts) to avoid direct repetition of chat-deletion hooks."
+    "concept": "A realization moment when disabling read receipts (blue ticks) or turning off notification pop-ups for a specific contact brings ultimate peace rather than anxiety.",
+    "opening_direction": "जब सेटिंग्स में जाकर 'Read Receipts' का टॉगल हमेशा के लिए ऑफ कर दिया,",
+    "twist_direction": "डर था कि शायद अब कोई मैसेज नहीं आएगा, पर सुकून ये था कि अब किसी के ऑनलाइन होने का इंतज़ार भी खत्म हो गया।",
+    "duration_seconds": 15,
+    "posting_window": "13:45 - 14:00 UTC",
+    "reason": "Aligns directly with the top-performing 'self respect' and 'chat/notification setting' patterns that generated peak views in past batches."
   },
-  "experiment": "Testing if shifting from 'chat deletion' to 'privacy settings/read receipts' maintains the self-respect engagement spike.",
-  "updated_at": "2026-09-20T14:38:18.016074+00:00",
+  "experiment": "Testing a slightly longer duration (15s vs 10s) paired with a settings-adjustment hook to see if increased retention translates to higher view velocity.",
+  "updated_at": "2026-09-20T15:38:34.779888+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-20T14:38:20.777959+00:00"
+  "generated_at": "2026-09-20T15:38:37.592294+00:00"
 }
