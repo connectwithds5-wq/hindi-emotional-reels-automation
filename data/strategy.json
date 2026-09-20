@@ -1,40 +1,40 @@
 {
   "confidence": "65%",
   "data_points": 24,
-  "overall_summary": "Data clearly shows that 'self respect' and digital/phone boundary-setting hooks (like deleting chats, changing names, or removing numbers) significantly outperform other topics like late-night thoughts or pure sadness. However, overall views remain low across the board, indicating a need to refine narrative pacing and hook delivery.",
+  "overall_summary": "Analysis of 25 short-form videos reveals that content focused on 'self respect' combined with modern, tactile smartphone metaphors (deleting chats, blue ticks, keyboard memory) consistently achieves higher view counts (30-41 views) compared to abstract emotional topics like 'rat ke khayal' or general 'bewafai' which underperform (<20 views). However, overall channel engagement (likes/comments) is currently near zero, indicating a need for stronger emotional punch and a clear call-to-action in future iterations.",
   "winning_patterns": [
     {
-      "pattern": "Digital Boundary-Setting Hooks",
-      "evidence": "Videos focusing on self-respect actions regarding phone usage (e.g., 'लिस्ट से उसका नाम हटाने से पहले', 'ब्लू टिक्स आज छिपा दिए', 'अंगूठा पिन बटन पर आकर ठहर गया') pulled higher view counts (35-41 views) compared to general sadness.",
-      "action": "Double down on smartphone-centric relational boundary actions as core concepts."
+      "pattern": "Smartphone-centric tangible actions",
+      "evidence": "Videos focusing on specific UI/UX actions like 'ब्लू टिक्स', 'चैट डिलीट', or 'स्टेटस लिस्ट' (e.g., wFimeeP_aVc with 35 views, AfaLxMy6FMY with 41 views, rwOUYo_hayQ with 41 views) outperform abstract concepts.",
+      "action": "Continue anchoring emotional heartbreak into tangible everyday digital micro-actions."
     },
     {
-      "pattern": "Actionable Self-Respect Theme",
-      "evidence": "Topics centered around 'self respect' consistently generated better traction than 'ओवरथिंकिंग' or 'रात के ख्याल'.",
-      "action": "Keep self-respect as the primary content pillar while cycling through minor relational sub-topics."
+      "pattern": "High-contrast self-respect framing",
+      "evidence": "Framing pain as a choice of self-preservation rather than victimization drives better baseline viewership.",
+      "action": "Ensure captions and hooks emphasize personal boundaries over helpless weeping."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Late-Night Melancholy",
-      "evidence": "Videos like 'रात के ख्याल' and 'ओवरथिंकिंग' with ambient hooks (e.g., 'मेज पर रखी चाय ठंडी हो गई') performed poorly (6-13 views).",
-      "action": "Avoid purely atmospheric poetry; ground every piece of content in a concrete, physical, everyday micro-action."
+      "pattern": "Abstract or passive late-night poetry",
+      "evidence": "Topics like 'रात के ख्याल' (uIbMpCjVutQ) and generic waiting scenarios received very low views (6-8 views).",
+      "action": "Avoid passive descriptions of time passing without a concrete triggering object or action."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "empowering detachment",
-    "hook_style": "tangible phone notification action",
+    "emotion": "Empowering detachment",
+    "hook_style": "Sensory digital micro-action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Turning off read receipts for that specific person to reclaim mental peace.",
-    "opening_direction": "जब सेटिंग्स में जाकर 'Read Receipts' बंद किया,",
-    "twist_direction": "लगा था डर कि उनका जवाब आना बंद हो जाएगा, पर असली सुकून तब मिला जब उनका इंतज़ार करना बंद हो गया।",
-    "duration_seconds": 10,
-    "posting_window": "13:45 IST",
-    "reason": "Aligns with the proven high-performing phone-action sub-niche of self-respect while testing a fresh setting-based micro-moment."
+    "concept": "Removing someone from the phone's auto-fill suggestions, realizing that even the algorithms have stopped expecting them back.",
+    "opening_direction": "कीबोर्ड पर कुछ भी टाइप करते ही, उनका नाम सबसे पहले सजेशन में आ जाता था।",
+    "twist_direction": "आज जब सजेशन से वो नाम हमेशा के लिए गायब हुआ, तो बुरा नहीं लगा... बल्कि लगा कि फोन अब सच में मेरा हो गया है।",
+    "duration_seconds": 12,
+    "posting_window": "13:00 - 14:00 IST",
+    "reason": "Aligns with the proven high-performing 'self-respect smartphone action' pattern while testing a fresh UI element (auto-fill/predictive text) to prevent repeating exact previous hooks."
   },
-  "experiment": "Testing if switching from chat deletion hooks to app setting/privacy toggle hooks retains the high view count of the self-respect category.",
-  "updated_at": "2026-09-20T11:37:51.943686+00:00",
+  "experiment": "Testing predictive text/auto-fill memory as a hook instead of chat deletion or block lists to see if novel UI triggers maintain the self-respect view bump.",
+  "updated_at": "2026-09-20T12:42:16.710229+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-20T11:37:54.734878+00:00"
+  "generated_at": "2026-09-20T12:42:20.575502+00:00"
 }
