@@ -1,35 +1,35 @@
 {
   "confidence": "35%",
   "data_points": 23,
-  "overall_summary": "The channel has low overall view counts across the board, making statistical certainty low. However, 'self respect' content (especially involving practical phone actions like status lists, blocking, and typing history) consistently attracts slightly higher views than abstract emotional topics.",
+  "overall_summary": "Data volume is low with minimal engagement metrics (mostly 0 likes/comments, low view counts ranging from 3 to 41), so confidence in deep pattern recognition is low. However, 'self respect' topics combined with tactile, highly specific micro-moments regarding phone interactions (like deleting chats, keyboard history, or pins) perform slightly better in views than abstract emotional statements.",
   "winning_patterns": [
     {
-      "pattern": "Practical phone/chat action hooks",
-      "evidence": "Videos like 'Self Respect Status | Jab Aapko Fark Padhna Band Ho Jaaye' (32 views) and 'Self Respect Status Story in Hindi' (41 views) perform better when mentioning UI elements like status lists or typing.",
-      "action": "Continue focusing on micro-interactions inside smartphones related to moving on."
+      "pattern": "Tangible digital UI micro-actions for Self Respect",
+      "evidence": "Videos like 'rwOUYo_hayQ' (41 views) and 'AfaLxMy6FMY' (41 views) focusing on chat lists, status lists, and deleting chats performed best.",
+      "action": "Continue focusing on specific smartphone user interface actions tied to emotional detachment and self-respect."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract late-night romantic longing",
-      "evidence": "Videos focusing purely on 'रात के ख्याल' or abstract wait times like 'मेज पर रखी चाय ठंडी हो गई' received very low views (e.g., 5-8 views).",
-      "action": "Deprioritize purely poetic or abstract atmospheric setups in favor of tangible digital boundary-setting."
+      "pattern": "Abstract or poetic concepts without a concrete daily object/action",
+      "evidence": "Topics like 'रात के ख्याल' and general emotional statements ('a9-G1X5jEOU') received very low views (5-18 views).",
+      "action": "Avoid purely abstract poetry hooks; ground every story in a physical or digital daily object."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "detachment and liberation",
-    "hook_style": "tangible smartphone habit break",
+    "emotion": "Empowering detachment",
+    "hook_style": "Tactile digital habit interruption",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A protagonist notices a custom wallpaper they set years ago for a specific person, realizing it's time to revert to the default.",
-    "opening_direction": "فون کی گیلरी खोलकर उस पुराने वॉलपेपर को देखना,",
-    "twist_direction": "और स्क्रीन पर डिफॉल्ट वॉलपेपर सेट करते ही पहली बार खुद की तस्वीर पर नजर पड़ना।",
-    "duration_seconds": 15,
-    "posting_window": "13:00 - 14:00 IST",
-    "reason": "Mid-day posting slots showed decent traction in past self-respect uploads, and visual phone customization hooks align with the proven winning patterns."
+    "concept": "A realization moment when clearing out phone storage or app cache and noticing an old automated folder or hidden app data related to them.",
+    "opening_direction": "जब फोन की स्टोरेज साफ़ करते हुए 'Hidden Cache' में उसकी तस्वीरें दिखीं,",
+    "twist_direction": "उन्हें डिलीट करने पर फोन का स्पेस तो नहीं बढ़ा, पर दिल का बोझ जरूर कम हो गया।",
+    "duration_seconds": 10,
+    "posting_window": "13:30 - 14:00 IST",
+    "reason": "Aligns with the proven 'self-respect through digital housekeeping' pattern that brought the channel's relative peak views."
   },
-  "experiment": "Testing a visual customization hook (wallpapers) instead of chat/call logs to expand the self-respect niche while keeping the core theme intact.",
-  "updated_at": "2026-09-20T03:40:30.616588+00:00",
+  "experiment": "Testing if shifting the digital housekeeping theme from chat interfaces to backend phone storage (cache/hidden folders) retains viewer interest.",
+  "updated_at": "2026-09-20T04:39:48.816191+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-20T03:40:33.060525+00:00"
+  "generated_at": "2026-09-20T04:39:51.759949+00:00"
 }
