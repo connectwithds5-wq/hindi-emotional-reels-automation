@@ -1,35 +1,35 @@
 {
   "confidence": "35%",
   "data_points": 25,
-  "overall_summary": "The channel has a low sample size of views across all videos, leading to low statistical confidence. However, content focused on 'self respect' (specifically involving UI interactions like deleting chats, clearing status lists, or removing pinned chats) shows slightly higher baseline views (e.g., rwOUYo_hayQ with 41 views, AfaLxMy6FMY with 41 views, Y4finYMxnIU with 32 views) compared to abstract emotional topics.",
+  "overall_summary": "Data shows very low view counts overall, but 'self respect' and 'chat/phone micro-interactions' (e.g., pinning, typing, clearing history) marginally outperform other topics like general heartbreak or late-night thoughts. Confidence remains low due to small sample sizes and minimal engagement (likes/comments).",
   "winning_patterns": [
     {
-      "pattern": "Digital boundary-setting actions",
-      "evidence": "Videos focusing on concrete smartphone/app actions related to self-respect (e.g., clearing status lists, deleting chats, unpinning) garnered the highest relative views (30-41 views).",
-      "action": "Continue utilizing micro-actions within phone interfaces (chats, settings, lists) as hooks for self-respect narratives."
+      "pattern": "Phone interface micro-moments",
+      "evidence": "Videos focusing on tactile phone actions like clearing storage, keyboard suggestions, or unpinning chats (e.g., rwOUYo_hayQ, AfaLxMy6FMY, djEm2iCAfqw) consistently pull higher baseline views (19-41 views) compared to generic late-night quotes.",
+      "action": "Continue focusing on specific, highly relatable digital UI behaviors related to letting go."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract or poetic late-night thoughts without a concrete anchor",
-      "evidence": "Videos like 'रात के ख्याल' and general poetic setups (e.g., uIbMpCjVutQ with 6 views, hT4EGP69mRw with 3 views) performed significantly lower.",
-      "action": "Avoid purely atmospheric hooks; always ground emotional reflections in a tangible, relatable everyday action or object."
+      "pattern": "Vague late-night aesthetic hooks",
+      "evidence": "Topics like 'रात के ख्याल' and open-ended loneliness without a specific tangible trigger (e.g., uIbMpCjVutQ) stagnate at very low views (6 views).",
+      "action": "Avoid abstract poetic openings; anchor every story in a grounded, physical everyday object or action."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "empowering detachment",
-    "hook_style": "tangible digital action",
+    "emotion": "Empowering detachment",
+    "hook_style": "Tactile notification settings",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Removing someone from the 'Close Friends' or hidden story list, transitioning from hiding content from them to completely ignoring their existence.",
-    "opening_direction": "जब उसकी नज़रों से अपनी स्टोरी छिपानी बंद की,",
-    "twist_direction": "तब समझ आया कि उसे ब्लॉक करना जरूरी नहीं था, अब उसकी मौजूदगी से फर्क पड़ना ही बंद हो गया है।",
-    "duration_seconds": 12,
-    "posting_window": "05:30 PM - 07:00 PM IST",
-    "reason": "Previous successful self-respect shorts (like Y4finYMxnIU and rwOUYo_hayQ) focused on list management and status boundaries posted around late afternoon/evening yielded better view counts."
+    "concept": "A short emotional narrative about turning off 'Read Receipts' (Blue Ticks) for the one person who always left messages on read, realizing that reclaiming your privacy is better than waiting for validation.",
+    "opening_direction": "जब आज सेटिंग में जाकर 'Read Receipts' हमेशा के लिए बंद किया,",
+    "twist_direction": "तो पहली बार समझ आया कि किसी के इंतज़ार में ऑनलाइन रहने से ज्यादा सुकून 'offline' चैन की नींद सोना है।",
+    "duration_seconds": 15,
+    "posting_window": "05:30 AM - 07:00 AM",
+    "reason": "Early morning posting slots historically captured slight variations in morning routine viewers based on the publication timestamps of moderately performing videos like rwOUYo_hayQ and aNR94Xxn0yM."
   },
-  "experiment": "Testing a slightly different digital boundary action (Close Friends list removal) to see if the high-performing 'self-respect list management' pattern holds up.",
-  "updated_at": "2026-09-20T20:38:33.531436+00:00",
+  "experiment": "Testing privacy settings and read-receipt toggles as a fresh micro-interaction hook to break the keyboard/chat-pin fatigue.",
+  "updated_at": "2026-09-20T21:38:00.708700+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-20T20:38:36.480352+00:00"
+  "generated_at": "2026-09-20T21:38:03.695006+00:00"
 }
