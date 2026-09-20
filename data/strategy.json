@@ -1,35 +1,35 @@
 {
-  "confidence": "25%",
+  "confidence": "35%",
   "data_points": 25,
-  "overall_summary": "The channel has low overall view counts across all recent uploads, indicating a small sample size and limited algorithmic reach so far. However, content focusing on 'self respect' with micro-hooks related to phone interactions (chats, lists, typing) shows slightly higher baseline views compared to broader topics like 'ओवरथिंकिंग' or 'रात के ख्याल'.",
+  "overall_summary": "The channel relies heavily on 'self respect' smartphone-centric hooks (chat deletion, pinning, contact management). While views hover in the low double digits (max 41), concrete digital minimalism actions perform slightly better than abstract emotional topics like 'रात के ख्याल' or 'बेवफाई'.",
   "winning_patterns": [
     {
-      "pattern": "Phone-based micro-actions for self-respect",
-      "evidence": "Videos like 'rwOUYo_hayQ' (41 views) and 'AfaLxMy6FMY' (41 views) used hooks directly tied to immediate messaging app UI choices (status lists, chat deletion).",
-      "action": "Continue focusing on micro-gestures of letting go on a smartphone screen, particularly around self-respect."
+      "pattern": "Smartphone UI/Action Hooks",
+      "evidence": "Videos like rwOUYo_hayQ ('स्टेटस लिस्ट...') and AfaLxMy6FMY ('उंगली उसी चैट पर रुकी थी') got 41 views, outperforming broader emotional themes.",
+      "action": "Continue focusing on micro-interactions with mobile interfaces (e.g., typing, deleting, muting) under the self respect umbrella."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Vague late-night or overly poetic ambient themes",
-      "evidence": "Videos like 'uIbMpCjVutQ' (6 views) on 'रात के ख्याल' with tea/night metaphors performed significantly lower.",
-      "action": "Minimize abstract late-night poetry and ground stories in tangible, everyday digital habits."
+      "pattern": "Abstract Late-Night/Overthinking Themes",
+      "evidence": "Videos like WhJ-VwRa3Rg ('घंटों से वो ऑनलाइन दिख रहा है') got only 8 views and uIbMpCjVutQ got 6 views.",
+      "action": "Deprioritize passive observation hooks in favor of active boundary-setting decisions."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowered detachment",
-    "hook_style": "Digital interface action",
+    "emotion": "empowering detachment",
+    "hook_style": "action-oriented micro-decision",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization moment when unfriending or removing someone from a shared playlist or subscription list, shifting focus back to personal boundaries.",
-    "opening_direction": "जब उस साझी प्लेलिस्ट से उसका नाम हटाया,",
-    "twist_direction": "पता चला गाने वही थे, पर अब दिल पर उनका कोई बोझ नहीं था।",
-    "duration_seconds": 15,
-    "posting_window": "13:45 - 14:15 IST",
-    "reason": "Building on the slight outperformance of tactical phone-interface self-respect hooks during early afternoon slots."
+    "concept": "Removing someone from the 'Close Friends' or hidden story list instead of blocking them completely, choosing quiet peace over public drama.",
+    "opening_direction": "जब क्लोज़ फ्रेंड्स की छोटी सी लिस्ट से उसका नाम हटाने लगे,",
+    "twist_direction": "पर्दाफाश तब हुआ जब उसने नोटिस करने के बावजूद कोई सवाल नहीं किया—और उस खामोशी में मुझे आखिरकार अपनी आज़ादी मिल गई।",
+    "duration_seconds": 12,
+    "posting_window": "05:35 UTC",
+    "reason": "Leverages the proven smartphone setting/list manipulation motif while testing a nuanced social media boundary instead of a full block or chat delete."
   },
-  "experiment": "Testing a non-messaging digital UI trigger (shared playlist/media app) to see if self-respect themes translate beyond chat apps.",
-  "updated_at": "2026-09-20T22:38:17.106886+00:00",
+  "experiment": "Testing if shifting from core chat deletion to social media visibility settings (Close Friends lists) retains audience interest while diversifying the specific UI action.",
+  "updated_at": "2026-09-20T23:36:27.638485+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-20T22:38:20.318972+00:00"
+  "generated_at": "2026-09-20T23:36:30.315698+00:00"
 }
