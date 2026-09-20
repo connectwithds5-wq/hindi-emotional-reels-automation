@@ -2063,6 +2063,78 @@
         "reason": "Tests a fresh micro-action angle (cloud storage memories) within the proven self-respect and digital detachment winning pattern while avoiding repetitive chat-unpinning hooks."
       },
       "model_used": "gemini-3.5-flash-lite"
+    },
+    {
+      "hook": "जब फोन की स्टोरेज साफ़ करते हुए",
+      "lines": [
+        "हिडन फोल्डर में तेरी तस्वीरें दिखीं।",
+        "लगा एक बार फिर से देख लूं,",
+        "शायद कोई भूली बात याद आ जाए।",
+        "फिर अंगूठा डिलीट बटन पर गया,",
+        "और रुक गया एक पल के लिए।",
+        "फाइलें उड़ने से फोन तो नहीं फैला,",
+        "मगर दिल का हर बोझ मिट गया।"
+      ],
+      "youtube_title": "फोन का स्टोरेज साफ़ करते हुए आया सेल्फ रिस्पेक्ट का ख्याल | Dil Ki Diary",
+      "youtube_description": "जब फोन के हिडन फोल्डर में पुरानी यादें और तस्वीरें मिलती हैं, तो उन्हें डिलीट करने का एक अलग ही सुकून होता है। यह छोटी सी कहानी आत्म-सम्मान और डिटैचमेंट की भावना को बयां करती है। क्या आपने कभी अपनी पुरानी यादें ऐसे मिटाई हैं?",
+      "youtube_keywords": [
+        "self respect stories in hindi",
+        "dil ki diary hindi",
+        "emotional micro story",
+        "detachment status hindi",
+        "phone storage clean emotional",
+        "hidden folder memories hindi",
+        "deep emotional hindi stories",
+        "आत्म सम्मान की कहानी",
+        "silent heartbreak stories",
+        "dil ki diary reels",
+        "relatable hindi stories"
+      ],
+      "youtube_hashtags": [
+        "SelfRespect",
+        "DilKiDiary",
+        "EmotionalStory",
+        "HindiReels",
+        "DeepThoughts",
+        "Heartbreak",
+        "Relatable",
+        "Shorts"
+      ],
+      "caption": "कुछ चीजें फोन से डिलीट करने पर ही दिल को असली सुकून मिलता है। #SelfRespect #DilKiDiary #EmotionalHindi",
+      "keywords": [
+        "self respect",
+        "detachment",
+        "hidden folder",
+        "phone storage",
+        "emotional story",
+        "dil ki diary",
+        "hindi micro story",
+        "letting go"
+      ],
+      "hashtags": [
+        "selfrespect",
+        "dilkidiary",
+        "emotional",
+        "hindistory",
+        "lettinggo",
+        "deepthoughts",
+        "relatable",
+        "hearttouching"
+      ],
+      "topic": "self respect",
+      "strategy_used": {
+        "topic": "self respect",
+        "emotion": "Empowering detachment",
+        "hook_style": "Tactile digital habit interruption",
+        "story_structure": "simple -> relatable -> twist",
+        "concept": "A realization moment when clearing out phone storage or app cache and noticing an old automated folder or hidden app data related to them.",
+        "opening_direction": "जब फोन की स्टोरेज साफ़ करते हुए 'Hidden Cache' में उसकी तस्वीरें दिखीं,",
+        "twist_direction": "उन्हें डिलीट करने पर फोन का स्पेस तो नहीं बढ़ा, पर दिल का बोझ जरूर कम हो गया।",
+        "duration_seconds": 10,
+        "posting_window": "13:30 - 14:00 IST",
+        "reason": "Aligns with the proven 'self-respect through digital housekeeping' pattern that brought the channel's relative peak views."
+      },
+      "model_used": "gemini-3.5-flash-lite"
     }
   ]
 }
