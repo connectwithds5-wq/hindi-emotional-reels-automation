@@ -1,40 +1,35 @@
 {
-  "confidence": "65%",
+  "confidence": "35%",
   "data_points": 23,
-  "overall_summary": "The channel shows clear traction toward 'self respect' and digital-age modern detachment moments (e.g., chat deletion, blocking, removing names). However, absolute view counts are low across the board (max 41 views), indicating the need for continued format refinement and aggressive hook testing.",
+  "overall_summary": "The channel has low overall view counts across the board, making statistical certainty low. However, 'self respect' content (especially involving practical phone actions like status lists, blocking, and typing history) consistently attracts slightly higher views than abstract emotional topics.",
   "winning_patterns": [
     {
-      "pattern": "Digital Boundary Actions (Self Respect)",
-      "evidence": "Videos like 'चैट डिलीट करने की हिम्मत' (41 views) and 'Self Respect Status Story' (41 views) outperformed general heartbreak or late-night whining.",
-      "action": "Double down on micro-actions related to smartphone boundaries, status lists, and digital cleanups."
-    },
-    {
-      "pattern": "Action-Oriented Hooks",
-      "evidence": "Hooks featuring concrete visual triggers like 'उंगली उसी चैट पर रुकी थी' or 'स्टेटस लिस्ट में सबसे ऊपर उन्हीं का नाम था' performed better than abstract concepts.",
-      "action": "Open every short with an instantly recognizable, highly specific phone-screen or personal action."
+      "pattern": "Practical phone/chat action hooks",
+      "evidence": "Videos like 'Self Respect Status | Jab Aapko Fark Padhna Band Ho Jaaye' (32 views) and 'Self Respect Status Story in Hindi' (41 views) perform better when mentioning UI elements like status lists or typing.",
+      "action": "Continue focusing on micro-interactions inside smartphones related to moving on."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Late-Night / Tea Tropes",
-      "evidence": "Videos like 'मेज पर रखी चाय ठंडी हो गई' (5 views) and 'रात के दो बजे' (12 views) received lower engagement.",
-      "action": "Avoid overused poetic clichés about tea, moonlight, and generalized crying; stick to sharp, relatable modern realities."
+      "pattern": "Abstract late-night romantic longing",
+      "evidence": "Videos focusing purely on 'रात के ख्याल' or abstract wait times like 'मेज पर रखी चाय ठंडी हो गई' received very low views (e.g., 5-8 views).",
+      "action": "Deprioritize purely poetic or abstract atmospheric setups in favor of tangible digital boundary-setting."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment through letting go",
-    "hook_style": "Specific visual/digital micro-action",
+    "emotion": "detachment and liberation",
+    "hook_style": "tangible smartphone habit break",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Removing someone from a shared travel or map location history.",
-    "opening_direction": "लोकेशन शेयरिंग की परमिशन हमेशा के लिए बंद करते वक्त...",
-    "twist_direction": "यह अहसास हुआ कि अब उन्हें रास्ते बताने की नहीं, खुद अपनी मंजिल तलाशने की जरूरत है।",
-    "duration_seconds": 12,
-    "posting_window": "05:30 PM - 07:00 PM",
-    "reason": "Leverages the proven 'self respect digital boundary' pattern while introducing a fresh everyday digital habit beyond chat apps."
+    "concept": "A protagonist notices a custom wallpaper they set years ago for a specific person, realizing it's time to revert to the default.",
+    "opening_direction": "فون کی گیلरी खोलकर उस पुराने वॉलपेपर को देखना,",
+    "twist_direction": "और स्क्रीन पर डिफॉल्ट वॉलपेपर सेट करते ही पहली बार खुद की तस्वीर पर नजर पड़ना।",
+    "duration_seconds": 15,
+    "posting_window": "13:00 - 14:00 IST",
+    "reason": "Mid-day posting slots showed decent traction in past self-respect uploads, and visual phone customization hooks align with the proven winning patterns."
   },
-  "experiment": "Testing a non-chat digital boundary (location sharing) to see if the self-respect theme scales outside of messaging apps.",
-  "updated_at": "2026-09-20T02:39:33.095544+00:00",
+  "experiment": "Testing a visual customization hook (wallpapers) instead of chat/call logs to expand the self-respect niche while keeping the core theme intact.",
+  "updated_at": "2026-09-20T03:40:30.616588+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-20T02:39:35.809375+00:00"
+  "generated_at": "2026-09-20T03:40:33.060525+00:00"
 }
