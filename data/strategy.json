@@ -1,35 +1,35 @@
 {
-  "confidence": "30%",
+  "confidence": "65%",
   "data_points": 25,
-  "overall_summary": "Performance across all published shorts is low (mostly under 50 views). However, content centered around tangible, micro-actions related to 'self respect' (such as clearing chat lists, removing numbers, or handling replies) has slightly higher baseline views compared to abstract emotional topics like 'ओवरथिंकिंग' or 'रात के ख्याल'. Sample size is too small to declare a definitive viral format, requiring controlled continued focus on core winners while testing minor variables.",
+  "overall_summary": "The channel shows consistent interest in 'self respect' and digital-age heartbreak themes (chats, notifications, typing indicators). Videos focusing on actionable boundary-setting moments (like deleting chats or muting pinned chats) perform relatively better than abstract late-night rambling.",
   "winning_patterns": [
     {
-      "pattern": "Micro-actions involving phone interfaces and self respect",
-      "evidence": "Videos like 'Jab Aapko Fark Padhna Band Ho Jaaye' (32 views) and 'Self Respect Story in Hindi' (41 views) outperform generic late-night posts.",
-      "action": "Continue focusing on specific digital boundaries (e.g., blocking, unpinning, deleting) tied to self-respect."
+      "pattern": "Digital Boundary Actions",
+      "evidence": "Videos like AfaLxMy6FMY ('चैट डिलीट करने की हिम्मत...') and rwOUYo_hayQ ('स्टेटस लिस्ट में सबसे ऊपर उन्हीं का नाम था') gained higher views (41 views) compared to general late-night thoughts.",
+      "action": "Focus hooks on micro-actions related to smartphones and UI interactions (chats, status, call logs)."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract late-night or overthinking tropes without specific objects/actions",
-      "evidence": "Videos like WhJ-VwRa3Rg ('घंटों से वो ऑनलाइन दिख रहा है', 8 views) and uIbMpCjVutQ ('मेज पर रखी चाय ठंडी हो गई', 6 views) performed significantly worse.",
-      "action": "Avoid vague ambient descriptions and anchor the story to a concrete daily object or setting."
+      "pattern": "Abstract Late-Night Rambling",
+      "evidence": "Videos like uIbMpCjVutQ ('मेज पर रखी चाय ठंडी हो गई') and hT4EGP69mRw ('जब उसका स्पेशल रिंगटोन बदल कर') had lower engagement (3-6 views).",
+      "action": "Avoid abstract poetic metaphors early in the hook; ground the opening in an immediate, recognizable digital habit."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "detachment and quiet strength",
-    "hook_style": "phone interaction action",
+    "emotion": "Empowerment through detachment",
+    "hook_style": "UI-interaction visual/thought",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short about removing someone from the phone's wallpaper or lock screen after realizing their presence no longer matters.",
-    "opening_direction": "जब वॉलपेपर बदलते वक्त उसकी तस्वीर पर उंगली ठिठकी,",
-    "twist_direction": "तस्वीर हटाने का डर नहीं था, डर इस बात का था कि अब वो चेहरा फोन की स्क्रीन पर बेगाना लगने लगा था।",
+    "concept": "Removing someone from the phone's wallpaper/lock screen and realizing the screen finally looks brighter without them.",
+    "opening_direction": "जब फोन का वॉलपेपर बदलते वक्त उसकी तस्वीर हटाई,",
+    "twist_direction": "लगा था स्क्रीन खाली लगेगी, पर हकीकत में चेहरा अब बेदाग और सुकून भरा लग रहा था।",
     "duration_seconds": 15,
-    "posting_window": "05:35 PM - 05:40 PM IST",
-    "reason": "Previous slightly better performing slots clustered around early evening publishing times, focusing on tangible smartphone interface actions."
+    "posting_window": "05:35 UTC to 07:00 UTC",
+    "reason": "Aligns with the top-performing 'self-respect action' theme using a fresh, highly relatable visual metaphor (wallpaper change) rather than recycled chat-deleting hooks."
   },
-  "experiment": "Testing lock-screen/wallpaper removal as a physical metaphor for self-respect instead of chat/number deletions.",
-  "updated_at": "2026-09-20T17:37:47.218037+00:00",
+  "experiment": "Testing a visual screen/wallpaper metaphor instead of chat-list actions to see if it broadens self-respect engagement.",
+  "updated_at": "2026-09-20T18:40:06.505239+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-20T17:37:50.139255+00:00"
+  "generated_at": "2026-09-20T18:40:09.079505+00:00"
 }
