@@ -1,35 +1,40 @@
 {
-  "confidence": "65%",
+  "confidence": "40%",
   "data_points": 25,
-  "overall_summary": "Analysis of historical performance indicates that content centered around 'self respect' and digital/phone boundaries (chat deletion, pinning, status, keyboards) consistently outperforms broader emotional themes like 'अधूरी मोहब्बत' or general 'रात के ख्याल' in terms of view counts. However, overall view numbers remain in the low double digits, signaling a need to refine hook potency and emotional tension while doubling down on the proven sub-niche of phone-related self-respect moments.",
+  "overall_summary": "The channel shows early traction specifically around 'Self Respect' topics, particularly when hooks are tied to micro-actions on a smartphone (e.g., deleting chats, removing names from lists, status lists). However, absolute view counts are low across the board, so confidence in absolute scaling is moderate, requiring a blend of proven tactical framing and a controlled experimental angle.",
   "winning_patterns": [
     {
-      "pattern": "Digital boundary/phone action hooks for self-respect",
-      "evidence": "Videos like 'Self Respect Status | Jab Aapko Fark Padhna Band Hoge Jaaye' (32 views), 'Self Respect Story... चैट डिलीट करने की हिम्मत' (41 views), and 'Self Respect Status Story... स्टेटस लिस्ट में सबसे ऊपर' (41 views) perform better than abstract poetry.",
-      "action": "Focus future scripts on micro-interactions with mobile interfaces (e.g., call logs, mute buttons, notification settings) representing emotional detachment."
+      "pattern": "Smartphone UI/Micro-action hooks",
+      "evidence": "Videos like 'rwOUYo_hayQ' (41 views), 'AfaLxMy6FMY' (41 views), and 'Y4finYMxnIU' (32 views) used precise phone interaction hooks like status lists and chat deletion.",
+      "action": "Continue utilizing micro-actions related to phone usage and digital detachment as the primary entry point."
+    },
+    {
+      "pattern": "Focus on Self Respect over pure heartbreak",
+      "evidence": "Self-respect categorized content consistently outperformed general late-night thoughts or unrequited love items in this dataset.",
+      "action": "Anchor the core emotional payoff around reclaiming personal dignity instead of lingering sadness."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract atmospheric late-night poetry without a tangible anchor",
-      "evidence": "Videos like 'रात के ख्याल और अधूरा इंतजार' (6 views) and 'ओवरथिंकिंग और अधूरी उम्मीद की एक शांत कहानी' (8 views) received significantly lower traction.",
-      "action": "Avoid purely conceptual poetry openings; ground every emotional thought in a specific, physical daily action."
+      "pattern": "Abstract poetic hooks without physical anchors",
+      "evidence": "Videos like 'uIbMpCjVutQ' (6 views) and 'WhJ-VwRa3Rg' (8 views) using abstract imagery underperformed compared to tangible digital actions.",
+      "action": "Avoid purely abstract statements in the opening 2 seconds; ground every hook in a concrete everyday object or action."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "detachment and liberation",
-    "hook_style": "tangible phone notification action",
+    "emotion": "Empowering detachment",
+    "hook_style": "Digital micro-action transition",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization moment when disabling read receipts (blue ticks) or turning off notification pop-ups for a specific contact brings ultimate peace rather than anxiety.",
-    "opening_direction": "जब सेटिंग्स में जाकर 'Read Receipts' का टॉगल हमेशा के लिए ऑफ कर दिया,",
-    "twist_direction": "डर था कि शायद अब कोई मैसेज नहीं आएगा, पर सुकून ये था कि अब किसी के ऑनलाइन होने का इंतज़ार भी खत्म हो गया।",
-    "duration_seconds": 15,
-    "posting_window": "13:45 - 14:00 UTC",
-    "reason": "Aligns directly with the top-performing 'self respect' and 'chat/notification setting' patterns that generated peak views in past batches."
+    "concept": "A story about removing someone from a shared pinned location or map sharing, shifting the perspective from waiting to freeing oneself.",
+    "opening_direction": "लाइव लोकेशन शेयरिंग बंद करते वक्त,",
+    "twist_direction": "पता चला कि अब किसी को मेरी मंज़िल की फिक्र नहीं, और यही सबसे बड़ी आज़ादी थी।",
+    "duration_seconds": 10,
+    "posting_window": "05:30 PM - 06:00 PM IST",
+    "reason": "Leverages the proven winning pattern of phone/digital status interactions while slightly varying the specific UI element to prevent viewer fatigue."
   },
-  "experiment": "Testing a slightly longer duration (15s vs 10s) paired with a settings-adjustment hook to see if increased retention translates to higher view velocity.",
-  "updated_at": "2026-09-20T15:38:34.779888+00:00",
+  "experiment": "Testing if switching from chat-based phone actions to location/mapping-based digital boundaries maintains viewer retention.",
+  "updated_at": "2026-09-20T16:39:23.083347+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-20T15:38:37.592294+00:00"
+  "generated_at": "2026-09-20T16:39:26.005548+00:00"
 }
