@@ -1,35 +1,40 @@
 {
-  "confidence": "45%",
+  "confidence": "65%",
   "data_points": 23,
-  "overall_summary": "The channel shows consistent production in the 'self respect' topic, with slightly better view counts on specific phone-related micro-habits (e.g., deleting chats, status lists, blue ticks) compared to broad emotional topics. However, overall engagement (likes and comments) is virtually non-existent, indicating that while the hooks capture initial impressions, the narrative depth or call-to-action needs to provoke stronger emotional reactions.",
+  "overall_summary": "The channel shows clear traction toward 'self respect' and digital-age modern detachment moments (e.g., chat deletion, blocking, removing names). However, absolute view counts are low across the board (max 41 views), indicating the need for continued format refinement and aggressive hook testing.",
   "winning_patterns": [
     {
-      "pattern": "Specific digital micro-habits related to self-respect",
-      "evidence": "Videos focusing on concrete phone actions like deleting status lists (rwOUYo_hayQ - 41 views), hiding blue ticks (wFimeeP_aVc - 35 views), and muting chats (AfaLxMy6FMY - 41 views) perform better than abstract thoughts.",
-      "action": "Double down on highly specific, relatable smartphone boundary-setting moments."
+      "pattern": "Digital Boundary Actions (Self Respect)",
+      "evidence": "Videos like 'चैट डिलीट करने की हिम्मत' (41 views) and 'Self Respect Status Story' (41 views) outperformed general heartbreak or late-night whining.",
+      "action": "Double down on micro-actions related to smartphone boundaries, status lists, and digital cleanups."
+    },
+    {
+      "pattern": "Action-Oriented Hooks",
+      "evidence": "Hooks featuring concrete visual triggers like 'उंगली उसी चैट पर रुकी थी' or 'स्टेटस लिस्ट में सबसे ऊपर उन्हीं का नाम था' performed better than abstract concepts.",
+      "action": "Open every short with an instantly recognizable, highly specific phone-screen or personal action."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract late-night or tea-time melancholy",
-      "evidence": "Topics like 'रात के ख्याल' with abstract hooks like 'मेज पर रखी चाय ठंडी हो गई' received only 5 views.",
-      "action": "Avoid purely atmospheric hooks without a grounded, actionable real-life object or boundary."
+      "pattern": "Generic Late-Night / Tea Tropes",
+      "evidence": "Videos like 'मेज पर रखी चाय ठंडी हो गई' (5 views) and 'रात के दो बजे' (12 views) received lower engagement.",
+      "action": "Avoid overused poetic clichés about tea, moonlight, and generalized crying; stick to sharp, relatable modern realities."
     }
   ],
   "next_video": {
     "topic": "self respect",
     "emotion": "Empowerment through letting go",
-    "hook_style": "Visual and tactile smartphone action",
+    "hook_style": "Specific visual/digital micro-action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Removing someone from the phone's auto-suggestions/frequent contacts list and realizing you no longer need them to populate your screen.",
-    "opening_direction": "कीबोर्ड खोलते ही जब उसका नाम अपने आप सजेशन में सबसे ऊपर आया...",
-    "twist_direction": "इस बार उसे टाइप करने के बजाय सजेशन से हमेशा के लिए रिमूव कर दिया, और पहली बार खाली स्क्रीन से डर नहीं, सुकून हुआ।",
-    "duration_seconds": 10,
-    "posting_window": "05:30 PM - 07:00 PM IST",
-    "reason": "Aligns with the proven smartphone-action pattern that historically yielded the highest views on the channel while subtly shifting the focus from sadness to self-worth."
+    "concept": "Removing someone from a shared travel or map location history.",
+    "opening_direction": "लोकेशन शेयरिंग की परमिशन हमेशा के लिए बंद करते वक्त...",
+    "twist_direction": "यह अहसास हुआ कि अब उन्हें रास्ते बताने की नहीं, खुद अपनी मंजिल तलाशने की जरूरत है।",
+    "duration_seconds": 12,
+    "posting_window": "05:30 PM - 07:00 PM",
+    "reason": "Leverages the proven 'self respect digital boundary' pattern while introducing a fresh everyday digital habit beyond chat apps."
   },
-  "experiment": "Testing an empowering self-respect micro-action (auto-suggestion removal) instead of a deletion action to see if it improves audience retention and engagement.",
-  "updated_at": "2026-09-20T01:38:33.072698+00:00",
+  "experiment": "Testing a non-chat digital boundary (location sharing) to see if the self-respect theme scales outside of messaging apps.",
+  "updated_at": "2026-09-20T02:39:33.095544+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-20T01:38:35.933284+00:00"
+  "generated_at": "2026-09-20T02:39:35.809375+00:00"
 }
