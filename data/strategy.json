@@ -1,35 +1,35 @@
 {
-  "confidence": "35%",
+  "confidence": "25%",
   "data_points": 25,
-  "overall_summary": "Data shows very low view counts overall, but 'self respect' and 'chat/phone micro-interactions' (e.g., pinning, typing, clearing history) marginally outperform other topics like general heartbreak or late-night thoughts. Confidence remains low due to small sample sizes and minimal engagement (likes/comments).",
+  "overall_summary": "The channel has low overall view counts across all recent uploads, indicating a small sample size and limited algorithmic reach so far. However, content focusing on 'self respect' with micro-hooks related to phone interactions (chats, lists, typing) shows slightly higher baseline views compared to broader topics like 'ओवरथिंकिंग' or 'रात के ख्याल'.",
   "winning_patterns": [
     {
-      "pattern": "Phone interface micro-moments",
-      "evidence": "Videos focusing on tactile phone actions like clearing storage, keyboard suggestions, or unpinning chats (e.g., rwOUYo_hayQ, AfaLxMy6FMY, djEm2iCAfqw) consistently pull higher baseline views (19-41 views) compared to generic late-night quotes.",
-      "action": "Continue focusing on specific, highly relatable digital UI behaviors related to letting go."
+      "pattern": "Phone-based micro-actions for self-respect",
+      "evidence": "Videos like 'rwOUYo_hayQ' (41 views) and 'AfaLxMy6FMY' (41 views) used hooks directly tied to immediate messaging app UI choices (status lists, chat deletion).",
+      "action": "Continue focusing on micro-gestures of letting go on a smartphone screen, particularly around self-respect."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Vague late-night aesthetic hooks",
-      "evidence": "Topics like 'रात के ख्याल' and open-ended loneliness without a specific tangible trigger (e.g., uIbMpCjVutQ) stagnate at very low views (6 views).",
-      "action": "Avoid abstract poetic openings; anchor every story in a grounded, physical everyday object or action."
+      "pattern": "Vague late-night or overly poetic ambient themes",
+      "evidence": "Videos like 'uIbMpCjVutQ' (6 views) on 'रात के ख्याल' with tea/night metaphors performed significantly lower.",
+      "action": "Minimize abstract late-night poetry and ground stories in tangible, everyday digital habits."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowering detachment",
-    "hook_style": "Tactile notification settings",
+    "emotion": "Empowered detachment",
+    "hook_style": "Digital interface action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short emotional narrative about turning off 'Read Receipts' (Blue Ticks) for the one person who always left messages on read, realizing that reclaiming your privacy is better than waiting for validation.",
-    "opening_direction": "जब आज सेटिंग में जाकर 'Read Receipts' हमेशा के लिए बंद किया,",
-    "twist_direction": "तो पहली बार समझ आया कि किसी के इंतज़ार में ऑनलाइन रहने से ज्यादा सुकून 'offline' चैन की नींद सोना है।",
+    "concept": "A realization moment when unfriending or removing someone from a shared playlist or subscription list, shifting focus back to personal boundaries.",
+    "opening_direction": "जब उस साझी प्लेलिस्ट से उसका नाम हटाया,",
+    "twist_direction": "पता चला गाने वही थे, पर अब दिल पर उनका कोई बोझ नहीं था।",
     "duration_seconds": 15,
-    "posting_window": "05:30 AM - 07:00 AM",
-    "reason": "Early morning posting slots historically captured slight variations in morning routine viewers based on the publication timestamps of moderately performing videos like rwOUYo_hayQ and aNR94Xxn0yM."
+    "posting_window": "13:45 - 14:15 IST",
+    "reason": "Building on the slight outperformance of tactical phone-interface self-respect hooks during early afternoon slots."
   },
-  "experiment": "Testing privacy settings and read-receipt toggles as a fresh micro-interaction hook to break the keyboard/chat-pin fatigue.",
-  "updated_at": "2026-09-20T21:38:00.708700+00:00",
+  "experiment": "Testing a non-messaging digital UI trigger (shared playlist/media app) to see if self-respect themes translate beyond chat apps.",
+  "updated_at": "2026-09-20T22:38:17.106886+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-20T21:38:03.695006+00:00"
+  "generated_at": "2026-09-20T22:38:20.318972+00:00"
 }
