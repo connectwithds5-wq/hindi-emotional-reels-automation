@@ -1,35 +1,45 @@
 {
-  "confidence": "35%",
+  "confidence": "65%",
   "data_points": 23,
-  "overall_summary": "Data volume is relatively low with most videos gathering minimal views, though specific themes around 'self respect' (specifically deleting chats, unpinning names, and removing from lists) performed noticeably better (e.g., 41 views on AfaLxMy6FMY and rwOUYo_hayQ). Confidence is low, requiring a mix of repeatable action-oriented self-respect themes paired with controlled exploration.",
+  "overall_summary": "Analysis of historical performance indicates that content centered around 'self respect' and smartphone-related micro-interactions (like deleting chats, removing names from lists, or muting pins) consistently yields higher baseline views (30-41 views) compared to generalized emotional topics like 'ओवरथिंकिंग' or 'रात के ख्याल' (5-17 views). However, overall sample size and engagement (likes/comments) remain low, signaling a need to maintain a repeatable core format while introducing a fresh narrative angle.",
   "winning_patterns": [
     {
-      "pattern": "Action-based Self-Respect Hooks",
-      "evidence": "Videos like 'स्टेटस लिस्ट में सबसे ऊपर उन्हीं का नाम था' (rwOUYo_hayQ) and 'उंगली उसी चैट पर रुकी थी' (AfaLxMy6FMY) achieved the highest views (41).",
-      "action": "Focus hooks on micro-actions related to letting go on smartphones (typing, deleting, unpinning)."
+      "pattern": "Smartphone micro-action hooks",
+      "evidence": "Videos focusing on concrete phone actions (e.g., status lists, unpinning chats, removing emergency contacts) like 'rwOUYo_hayQ' (41 views) and 'wFimeeP_aVc' (35 views) outperform abstract emotional statements.",
+      "action": "Continue using specific, tactile smartphone digital cleanup rituals as foundational hooks."
+    },
+    {
+      "pattern": "Self respect theme over general melancholy",
+      "evidence": "The 'self respect' tagged shorts average noticeably higher view counts than broader emotional categories like 'रात के ख्याल' or 'ओवरथिंकिंग'.",
+      "action": "Prioritize the self-respect empowerment arc within relationship fallout contexts."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic One-sided Love / Cliche Dialogues",
-      "evidence": "Videos focusing heavily on abstract pain like 'नंबर ब्लॉक नहीं किया कभी' (aUuNKfe7jm4) got very low views (6).",
-      "action": "Avoid abstract emotional statements and anchor the content in hyper-specific, tangible everyday moments."
+      "pattern": "Abstract or generalized nighttime melancholia",
+      "evidence": "Videos like 'uIbMpCjVutQ' ('मेज पर रखी चाय ठंडी हो गई') received only 5 views.",
+      "action": "Avoid slow, overly poetic or generic nighttime imagery without a concrete, relatable modern action hook."
+    },
+    {
+      "pattern": "Repetitive opening templates",
+      "evidence": "Multiple recent videos relied on variations of removing numbers or clearing lists ('8tBTO2WCWg4', 'Y4finYMxnIU', '-axunwJDsCA'), resulting in diminishing returns on the latest uploads.",
+      "action": "Pivot the micro-interaction away from phone contact management to another daily digital habit to prevent audience fatigue."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment & Relief",
-    "hook_style": "Tangible digital action",
+    "emotion": "Empowerment through detachment",
+    "hook_style": "Digital habit interruption",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A story about clearing out old screenshots from the hidden folder that were meant to be deleted months ago.",
-    "opening_direction": "हिडन फोल्डर का पासवर्ड डालते वक्त हाथ जरा सा काँपे,",
-    "twist_direction": "पर डिलीट का बटन दबाते ही कोई भारी बोझ हमेशा के लिए उतर गया।",
+    "concept": "A protagonist finally disables read receipts and online status visibility, realizing that the peace of mind of not being tracked or tracking someone is far superior to holding onto an illusion of connection.",
+    "opening_direction": "Last Seen और Read Receipts हमेशा के लिए ऑफ करते ही,",
+    "twist_direction": "सामने वाले को ब्लॉक करने की ज़रूरत ही नहीं पड़ी, जब उसे पता ही नहीं चला कि मैं कब आया और कब गया।",
     "duration_seconds": 12,
-    "posting_window": "05:30 PM - 07:30 PM IST",
-    "reason": "Previous top performers leaned heavily into digital clean-up actions (deleting chats, unpinning). Testing a visual/storage clean-up micro-moment maintains the proven pattern while exploring a fresh angle."
+    "posting_window": "05:30 PM - 06:30 PM IST",
+    "reason": "Tests a fresh digital interaction (privacy settings vs. contact deletion) under the winning 'self respect' topic while breaking away from repetitive number-removal openings."
   },
-  "experiment": "Testing if hidden folder/screenshot cleanup performs better than chat deletion hooks.",
-  "updated_at": "2026-09-19T23:36:33.522688+00:00",
+  "experiment": "Testing privacy settings toggling (Last Seen/Read Receipts) instead of contact deletion as a hook for the self-respect narrative.",
+  "updated_at": "2026-09-20T00:43:55.060686+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-19T23:37:23.048165+00:00"
+  "generated_at": "2026-09-20T00:43:58.410962+00:00"
 }
