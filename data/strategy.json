@@ -1,40 +1,35 @@
 {
-  "confidence": "65%",
+  "confidence": "35%",
   "data_points": 25,
-  "overall_summary": "The channel shows clear traction for 'self respect' and boundary-setting topics, particularly those involving digital interactions (chat deletion, keyboard memory, status lists). However, absolute view counts remain low across the board, indicating that while the niche resonates, distribution is still in the early phase.",
+  "overall_summary": "The channel has a low sample size of views across all videos, leading to low statistical confidence. However, content focused on 'self respect' (specifically involving UI interactions like deleting chats, clearing status lists, or removing pinned chats) shows slightly higher baseline views (e.g., rwOUYo_hayQ with 41 views, AfaLxMy6FMY with 41 views, Y4finYMxnIU with 32 views) compared to abstract emotional topics.",
   "winning_patterns": [
     {
-      "pattern": "Digital boundary actions",
-      "evidence": "Videos focusing on deleting chats, removing names from lists, or muting notifications (e.g., rwOUYo_hayQ with 41 views, AfaLxMy6FMY with 41 views) outperform general sad poetry.",
-      "action": "Double down on micro-moments involving modern smartphone interfaces and self-respect choices."
-    },
-    {
-      "pattern": "First-person physical hesitation hooks",
-      "evidence": "Hooks describing a physical action on the phone screen (e.g., 'लिस्ट से उसका नाम हटाने से पहले', 'उंगली उसी चैट पर रुकी थी') yield higher baseline views.",
-      "action": "Continue opening with tactile, everyday smartphone actions that create immediate visual curiosity."
+      "pattern": "Digital boundary-setting actions",
+      "evidence": "Videos focusing on concrete smartphone/app actions related to self-respect (e.g., clearing status lists, deleting chats, unpinning) garnered the highest relative views (30-41 views).",
+      "action": "Continue utilizing micro-actions within phone interfaces (chats, settings, lists) as hooks for self-respect narratives."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Pure abstract sadness or longing",
-      "evidence": "Topics like 'रात के ख्याल' and open-ended 'ओवरथिंकिंग' without a concrete action or self-respect resolution (e.g., uIbMpCjVutQ with 6 views, WhJ-VwRa3Rg with 8 views) underperform.",
-      "action": "Avoid passive brooding; ground every emotional realization in a tangible choice."
+      "pattern": "Abstract or poetic late-night thoughts without a concrete anchor",
+      "evidence": "Videos like 'रात के ख्याल' and general poetic setups (e.g., uIbMpCjVutQ with 6 views, hT4EGP69mRw with 3 views) performed significantly lower.",
+      "action": "Avoid purely atmospheric hooks; always ground emotional reflections in a tangible, relatable everyday action or object."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment through detachment",
-    "hook_style": "Tactile smartphone notification trigger",
+    "emotion": "empowering detachment",
+    "hook_style": "tangible digital action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization moment when an incoming notification preview pops up on a locked screen, but instead of rushing to check it, the protagonist turns the screen face down.",
-    "opening_direction": "जब फोन की लॉक स्क्रीन पर उसका नाम चमका,",
-    "twist_direction": "दिल ने एक पल के लिए कहा उठा लो, पर उंगली ने नोटिफिकेशन स्वाइप कर हमेशा के लिए साइलेंट कर दिया।",
+    "concept": "Removing someone from the 'Close Friends' or hidden story list, transitioning from hiding content from them to completely ignoring their existence.",
+    "opening_direction": "जब उसकी नज़रों से अपनी स्टोरी छिपानी बंद की,",
+    "twist_direction": "तब समझ आया कि उसे ब्लॉक करना जरूरी नहीं था, अब उसकी मौजूदगी से फर्क पड़ना ही बंद हो गया है।",
     "duration_seconds": 12,
-    "posting_window": "13:45 - 17:00 IST",
-    "reason": "Previous top-performing self-respect videos (like rwOUYo_hayQ and AfaLxMy6FMY) were published in the early afternoon block and utilized concrete notification/list interactions."
+    "posting_window": "05:30 PM - 07:00 PM IST",
+    "reason": "Previous successful self-respect shorts (like Y4finYMxnIU and rwOUYo_hayQ) focused on list management and status boundaries posted around late afternoon/evening yielded better view counts."
   },
-  "experiment": "Testing active lock-screen indifference over past-tense chat deletion hooks to see if real-time boundary setting drives higher retention.",
-  "updated_at": "2026-09-20T19:36:18.500771+00:00",
+  "experiment": "Testing a slightly different digital boundary action (Close Friends list removal) to see if the high-performing 'self-respect list management' pattern holds up.",
+  "updated_at": "2026-09-20T20:38:33.531436+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-20T19:36:21.329405+00:00"
+  "generated_at": "2026-09-20T20:38:36.480352+00:00"
 }
