@@ -2135,6 +2135,78 @@
         "reason": "Aligns with the proven 'self-respect through digital housekeeping' pattern that brought the channel's relative peak views."
       },
       "model_used": "gemini-3.5-flash-lite"
+    },
+    {
+      "hook": "जब आर्काइव फोल्डर पर नजर पड़ी,",
+      "lines": [
+        "लगा कुछ पुराना मिल जाएगा।",
+        "दबी हुई सी चैट टटोली,",
+        "जहाँ कभी बातें रुकती नहीं थीं।",
+        "पर अंदर सब कुछ सूना था,",
+        "एक भी नया संदेश नहीं।",
+        "खुद पर अचानक हंसी आ गई,",
+        "कि हम किसे संभाल कर बैठे थे।"
+      ],
+      "youtube_title": "जब आर्काइव फोल्डर पर नजर पड़ी | Self Respect Story | Dil Ki Diary",
+      "youtube_description": "पुराने छुपे हुए आर्काइव फोल्डर और पुरानी चैट्स को देखते हुए अचानक खुद के आत्मसम्मान का अहसास होना। एक छोटी सी कहानी जो दिल को छू ले। क्या आपने कभी अपना आर्काइव साफ किया है?",
+      "youtube_keywords": [
+        "self respect status",
+        "dil ki diary hindi",
+        "emotional hindi stories",
+        "archive chat status",
+        "self respect shayari",
+        "sad hindi reel story",
+        "deep emotional status",
+        "hidden chat story",
+        "आत्मसम्मान की कहानी",
+        "dil ki baat",
+        "relatable hindi stories",
+        "silent heartbreak story"
+      ],
+      "youtube_hashtags": [
+        "SelfRespect",
+        "DilKiDiary",
+        "EmotionalStory",
+        "HindiReels",
+        "DeepThoughts",
+        "Relatable",
+        "Heartbroken"
+      ],
+      "caption": "कुछ पन्नों को पलटने से बेहतर है, उन्हें हमेशा के लिए बंद कर देना। खुद का सम्मान किसी भी रिश्ते से बड़ा होता है।",
+      "keywords": [
+        "self respect",
+        "dil ki diary",
+        "emotional story",
+        "archive chats",
+        "hidden messages",
+        "hindi reel",
+        "heartbreak",
+        "self worth"
+      ],
+      "hashtags": [
+        "selfrespect",
+        "dilkidiary",
+        "emotionalstory",
+        "hindireels",
+        "deepthoughts",
+        "relatable",
+        "heartbroken",
+        "mentalpeace"
+      ],
+      "topic": "self respect",
+      "strategy_used": {
+        "topic": "self respect",
+        "emotion": "Empowerment through detachment",
+        "hook_style": "Visual and tactile action trigger on the phone",
+        "story_structure": "simple -> relatable -> twist",
+        "concept": "A realization hitting while scrolling through hidden archived chats, choosing to permanently clear out the archive instead of checking it.",
+        "opening_direction": "जब आर्काइव फोल्डर पर नजर पड़ी...",
+        "twist_direction": "...लगा था कि वहां कुछ कीमती मिलेगा, पर खाली फोल्डर देख कर पहली बार खुद पर हंसी आ गई कि हम किसे संभाल कर बैठे थे।",
+        "duration_seconds": 10,
+        "posting_window": "13:00 - 14:00 IST",
+        "reason": "Midday posting slots around 1:40 PM historically captured peak views in top-performing iterations like aNR94Xxn0yM and AfaLxMy6FMY."
+      },
+      "model_used": "gemini-3.5-flash-lite"
     }
   ]
 }
