@@ -1,35 +1,35 @@
 {
-  "confidence": "45%",
+  "confidence": "25%",
   "data_points": 27,
-  "overall_summary": "The channel heavily indexes on 'self respect' with micro-interactions on mobile devices (deleting chats, changing settings, clearing storage). While views are modest, topics centered around decisive personal boundaries (like chat deletion and status/last seen changes) outperform vague emotional states. Confidence remains moderate due to low sample sizes and uniform engagement metrics across uploads.",
+  "overall_summary": "The channel heavily relies on 'self respect' and phone-related micro-interactions (chats, pinning, status lists). Sample sizes are small and views fluctuate between 3 and 41, indicating low statistical confidence. Controlled exploration across other core emotional themes is needed.",
   "winning_patterns": [
     {
-      "pattern": "Digital UI Micro-Actions",
-      "evidence": "Videos like 'rwOUYo_hayQ' (41 views), 'AfaLxMy6FMY' (41 views), and 'wFimeeP_aVc' (34 views) focus on specific digital UI actions like status lists, unpinning, and chat clearing.",
-      "action": "Continue utilizing micro-moments within smartphone apps (e.g., settings, storage, blocked lists) as core narrative triggers."
+      "pattern": "Digital boundary micro-actions",
+      "evidence": "Videos focusing on concrete phone UI actions like hiding last seen, removing status visibility, or clearing chat pins (e.g., rwOUYo_hayQ, AfaLxMy6FMY) achieved the highest views in the dataset (~41 views).",
+      "action": "Continue focusing on specific, modern digital life micro-moments of detachment."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Vague Late-Night Melodrama",
-      "evidence": "Videos focusing purely on abstract night thoughts or generic waiting (e.g., 'uIbMpCjVutQ' with 6 views, 'hT4EGP69mRw' with 3 views) underperform compared to active boundary-setting.",
-      "action": "Reduce abstract late-night rambling and anchor every emotional concept to a tangible, everyday action."
+      "pattern": "Abstract or generalized relationship grief",
+      "evidence": "Broader emotional themes like 'ओवरथिंकिंग' or 'रात के ख्याल' with abstract hooks (e.g., WhJ-VwRa3Rg, uIbMpCjVutQ) received significantly lower views (6-8 views).",
+      "action": "Avoid generic late-night melancholy without a sharp, grounded physical anchor or action."
     }
   ],
   "next_video": {
-    "topic": "self respect",
-    "emotion": "Empowerment through detachment",
-    "hook_style": "Tangible phone interaction",
+    "topic": "अधूरी मोहब्बत",
+    "emotion": "हल्का सा दर्द और खुद की वापसी",
+    "hook_style": "Physical object realization",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Removing someone from the phone's auto-suggested contact list during typing, transitioning from a reflex of habit to a conscious act of moving on.",
-    "opening_direction": "कीबोर्ड पर नाम का पहला अक्षर टाइप करते ही फोन के सुझाव (suggestions) में उसका नाम सबसे ऊपर आ गया।",
-    "twist_direction": "इस बार उसे सेलेक्ट करने की बजाय, हमेशा के लिए डिक्शनरी और सजेशन से उस शब्द को ब्लॉक कर दिया।",
-    "duration_seconds": 30,
-    "posting_window": "13:45 - 17:45 IST",
-    "reason": "Mid-day posting windows around 1:45 PM have historically shown stable initial impressions in this dataset."
+    "concept": "Finding an old handwritten bookmark or a physical ticket stub inside a book, and choosing to finally use it as trash rather than a memory keepsake.",
+    "opening_direction": "किताब के पुराने पन्नों के बीच से जब वो पुराना मूवी टिकट निकला,",
+    "twist_direction": "सोचा था संभाल कर रख लूं, पर फिर उसे डस्टबिन में डालते ही समझ आया—किरदार खत्म हो चुका है, अब कहानी लंबी खींचने का कोई फायदा नहीं।",
+    "duration_seconds": 12,
+    "posting_window": "13:45 IST",
+    "reason": "Testing a shift from digital phone actions (saturation in data) to physical real-world emotional anchors while retaining the core 'self respect' release pattern."
   },
-  "experiment": "Testing an unrepresented UI element (keyboard auto-suggestions/dictionary memory) within the proven 'self respect' digital micro-action framework.",
-  "updated_at": "2026-09-21T17:38:27.087475+00:00",
+  "experiment": "Testing if physical object-based heartbreak performs better or worse than digital screen/phone UI-based heartbreak.",
+  "updated_at": "2026-09-21T18:44:05.137011+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-21T17:38:30.122505+00:00"
+  "generated_at": "2026-09-21T18:44:08.395423+00:00"
 }
