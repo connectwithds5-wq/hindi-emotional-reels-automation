@@ -1,35 +1,35 @@
 {
   "confidence": "65%",
   "data_points": 27,
-  "overall_summary": "The channel shows consistent traction with 'self respect' and digital-age boundary-setting themes, particularly when leveraging relatable micro-moments tied to phone interfaces (chats, lists, blocks). However, overall view counts remain modest (mostly under 50 views), indicating low sample size and early-stage distribution.",
+  "overall_summary": "Historical data shows a clear preference among viewers for 'self respect' topics featuring tangible, everyday phone-related actions (deleting chats, muting status, status lists) over purely abstract sadness or 'ओवरथिंकिंग' or 'रात के ख्याल' content. Videos focusing on digital boundary-setting consistently perform better in view counts.",
   "winning_patterns": [
     {
-      "pattern": "Digital Boundary Micro-Moments",
-      "evidence": "Videos like AfaLxMy6FMY ('self respect' - 41 views) and rwOUYo_hayQ ('self respect' - 41 views) outperform general relationship topics by tying emotional detachment to concrete phone actions.",
-      "action": "Focus storytelling on everyday smartphone interactions that signify emotional detachment or self-preservation."
+      "pattern": "Digital Boundary Actions (Self Respect)",
+      "evidence": "Videos like 'rwOUYo_hayQ' (41 views), 'AfaLxMy6FMY' (41 views), and 'wFimeeP_aVc' (34 views) outperform other topics by focusing on concrete mobile interactions like status lists, blue ticks, and deleting chats.",
+      "action": "Continue utilizing micro-actions related to smartphones and messaging apps as central emotional hooks."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Late-Night Atmospheric Tropes",
-      "evidence": "Broad concepts like 'रात के ख्याल' (uIbMpCjVutQ with 6 views) and generic waiting scenarios without specific interactive hooks perform significantly worse.",
-      "action": "Avoid vague ambient descriptions and root every story in a distinct, tactile digital or physical action."
+      "pattern": "Abstract Late-Night Thoughts",
+      "evidence": "Videos like 'uIbMpCjVutQ' (6 views) focusing purely on 'रात के ख्याल' and abstract waiting without a sharp digital or physical action underperform.",
+      "action": "Reduce broad atmospheric prompts and ground every story in a specific, relatable modern interaction."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowered detachment",
-    "hook_style": "Tactile notification settings",
+    "emotion": "Empowerment through letting go",
+    "hook_style": "Visual and tactile mobile habit",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization that hits when turning off lock-screen preview notifications so incoming messages don't flash on the screen anymore.",
-    "opening_direction": "जब फोन की स्क्रीन पर उसका नाम चमकना बंद हो गया,",
-    "twist_direction": "पार्टी या मीटिंग के बीच स्क्रीन रोशन होती है, कोई और नाम देखकर अब दिल नहीं धड़कता—सुकून मिलता है कि अब उम्मीदें खत्म हो चुकी हैं।",
-    "duration_seconds": 12,
+    "concept": "Removing someone from the phone's quick-dial or widget shortcuts to reclaim personal space.",
+    "opening_direction": "जब स्क्रीन पर उस कॉन्टैक्ट का विजिट हटाना पड़ा जो हमेशा होमपेज पर रहता था,",
+    "twist_direction": "लगा था खालीपन खटकेगा, पर उस खाली जगह पर खुद की तस्वीर देखकर सुकून मिल गया।",
+    "duration_seconds": 15,
     "posting_window": "13:00 - 14:00 IST",
-    "reason": "Previous successful self-respect shorts (like rwOUYo_hayQ and aNR94Xxn0yM) performed well when posted during the early afternoon window and focused on proactive notification boundaries."
+    "reason": "Midday posting slots around 1:45 PM have historically captured decent traction in previous self-respect uploads."
   },
-  "experiment": "Testing lock-screen notification preview settings as a hook for self-respect instead of chat logs or contact lists.",
-  "updated_at": "2026-09-21T20:38:29.959606+00:00",
+  "experiment": "Testing a home-screen widget removal hook to see if visual UI elements outperform messaging app hooks.",
+  "updated_at": "2026-09-21T21:38:33.382194+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-21T20:38:32.566772+00:00"
+  "generated_at": "2026-09-21T21:38:36.179910+00:00"
 }
