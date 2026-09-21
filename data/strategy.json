@@ -1,35 +1,35 @@
 {
-  "confidence": "35%",
-  "data_points": 25,
-  "overall_summary": "The channel shows consistent early interest in 'self respect' topics, specifically micro-moments involving phone UI actions (chats, blocking, lists, typing), outperforming broader emotional topics. However, overall view counts remain low across all videos, indicating low sample sizes and weak algorithmic distribution so far.",
+  "confidence": "45%",
+  "data_points": 26,
+  "overall_summary": "The channel shows early traction specifically around 'self respect' topics combined with modern, highly relatable smartphone/digital interaction hooks (like unpinning chats, checking block lists, typing and deleting). Content outside this micro-niche (like late-night thoughts or general relationships) performs weaker. However, overall view counts are generally low, indicating we are still in a testing phase with low sample size.",
   "winning_patterns": [
     {
-      "pattern": "Digital boundary micro-actions",
-      "evidence": "Videos focusing on phone UI actions like unpinning chats, checking block lists, or deleting keywords (e.g., 'rwOUYo_hayQ', 'AfaLxMy6FMY', 'Y4finYMxnIU') achieved the highest views in the dataset (32-41 views).",
-      "action": "Double down on hyper-specific, tactile digital habits related to moving on and self-respect."
+      "pattern": "Digital boundary-setting hooks",
+      "evidence": "Videos referencing specific phone/chat actions (e.g., pinning chats, status lists, blue ticks) generated relatively higher views (30-41 views) compared to generic emotional topics.",
+      "action": "Continue focusing on micro-interactions inside messaging apps or smartphone settings as the anchor for self-respect narratives."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Vague late-night or open-ended romantic longing",
-      "evidence": "Topics like 'रात के ख्याल' and general 'ओवरथिंकिंग' without a concrete physical or digital anchor underperformed heavily (e.g., WhJ-VwRa3Rg with 8 views, uIbMpCjVutQ with 6 views).",
-      "action": "Avoid abstract poetic statements; ground every emotional concept in a tangible, everyday object or device action."
+      "pattern": "Vague or abstract emotional hooks",
+      "evidence": "Broad emotional themes like 'रात के ख्याल' or generic relationship musings yielded lower views (under 15 views).",
+      "action": "Avoid generic late-night melancholy without a specific, tangible trigger or object."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowered detachment",
-    "hook_style": "Tactile notification or app setting moment",
+    "emotion": "Empowering detachment",
+    "hook_style": "tangible smartphone notification action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Turning off read receipts permanently to stop the anxiety of waiting for a blue tick.",
-    "opening_direction": "जब सेटिंग्स में जाकर 'Read Receipts' हमेशा के लिए बंद कर दिया,",
-    "twist_direction": "पता चला कि सुकून किसी के देखने न देखने में नहीं, बल्कि अब फर्क न पड़ने की आज़ादी में है।",
+    "concept": "A story about turning off notification previews for a specific contact so their name stops flashing on the locked screen.",
+    "opening_direction": "जब लॉक स्क्रीन पर उसका नाम चमकना बंद हुआ,",
+    "twist_direction": "पता चला कि फोन की स्क्रीन पर अंधेरा नहीं, बल्कि मन में उजाला हो गया है।",
     "duration_seconds": 15,
-    "posting_window": "13:00 - 14:00 IST",
-    "reason": "Leverages the proven high-performing 'digital boundary' pattern while testing a slightly different phone setting (read receipts) to prevent hook fatigue from repeated chat-list openings."
+    "posting_window": "13:45 UTC (based on historical peaks for mid-day uploads)",
+    "reason": "Leverages the proven winning pattern of smartphone notification/settings micro-actions while experimenting with lock-screen visuals instead of chat interfaces."
   },
-  "experiment": "Testing app privacy settings (Read Receipts) instead of direct chat list interactions within the proven Self-Respect theme.",
-  "updated_at": "2026-09-21T04:42:12.588912+00:00",
+  "experiment": "Testing lock-screen notification settings as a hook catalyst instead of in-chat actions to broaden the self-respect visual vocabulary.",
+  "updated_at": "2026-09-21T05:40:21.072060+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-21T04:42:15.187735+00:00"
+  "generated_at": "2026-09-21T05:40:23.778483+00:00"
 }
