@@ -1,35 +1,35 @@
 {
-  "confidence": "35%",
+  "confidence": "25%",
   "data_points": 27,
-  "overall_summary": "The channel shows early traction in 'self respect' topics with actionable phone UI-related hooks (e.g., chat lists, status lists, blue ticks) outperforming abstract romantic pain. However, overall view counts are generally low, indicating that repeatable patterns are emerging but need refinement in hook emotional resonance and pacing.",
+  "overall_summary": "The channel shows low overall view counts across the board with limited engagement (likes/comments), meaning confidence is low. However, 'self respect' and digital life micro-moments (like chat deletions, clearing storage, unpinning names) perform slightly better than abstract emotional topics, showing a repeatable micro-interaction pattern.",
   "winning_patterns": [
     {
-      "pattern": "Phone interface action hooks for self-respect",
-      "evidence": "Videos like 'Self Respect Status Story in Hindi' (rwOUYo_hayQ, 41 views) and 'AfaLxMy6FMY' (41 views) perform better than abstract poetry when tied to specific digital actions like checking status lists or chat lists.",
-      "action": "Focus future hooks on everyday digital UI micro-actions associated with moving on or setting boundaries."
+      "pattern": "Digital micro-actions related to self-respect",
+      "evidence": "Videos like 'rwOUYo_hayQ' (41 views), 'AfaLxMy6FMY' (41 views), and 'wFimeeP_aVc' (34 views) focus on specific actions like deleting chats, status lists, and turning off read receipts.",
+      "action": "Continue focusing on hyper-specific smartphone actions tied to boundaries and self-respect."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract late-night romantic longing",
-      "evidence": "Videos like 'uIbMpCjVutQ' (6 views) and 'WhJ-VwRa3Rg' (8 views) featuring vague concepts like cold tea or online status have lower views compared to active self-respect decisions.",
-      "action": "Avoid passive waiting tropes and ground the stories in active, empowering micro-decisions."
+      "pattern": "Abstract emotional statements or late-night thoughts without a concrete action",
+      "evidence": "Videos like 'hT4EGP69mRw' (3 views) and 'uIbMpCjVutQ' (6 views) rely on vague setups like cold tea or generic ringtones.",
+      "action": "Avoid generic atmospheric setups and ground every hook in an immediate, recognizable phone or lifestyle habit."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "empowering detachment",
-    "hook_style": "Digital interface action",
+    "emotion": "Empowering detachment",
+    "hook_style": "Concrete phone action observation",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization moment when clearing out downloaded media shared in a chat, turning a memory into a clean slate for personal peace.",
-    "opening_direction": "जब उस शेयर्ड मीडिया फोल्डर को ऑटो-डाउनलोड से हटाया,",
-    "twist_direction": "और समझ आया कि फोन का स्टोरेज नहीं, दिल का बोझ हल्का हुआ है।",
+    "concept": "A realization when finally removing someone from the phone's emergency or favorite contact widget.",
+    "opening_direction": "जब होम स्क्रीन से उसकी शॉर्टकट फोटो हटाई,",
+    "twist_direction": "और समझ आया कि उसे हटाने के बाद स्क्रीन अब ज्यादा खाली नहीं, बल्कि सुकून से भरी लगती है।",
     "duration_seconds": 15,
-    "posting_window": "05:35 PM - 05:40 PM UTC",
-    "reason": "Previous successful uploads (like djEm2iCAfqw and rwOUYo_hayQ) performed well in the evening slot with tech-action hooks centered around self-respect."
+    "posting_window": "13:00 - 14:00 IST",
+    "reason": "Mid-day posting windows historically aligned with peak viewing clusters for the channel's top-performing self-respect stories."
   },
-  "experiment": "Testing an automated cleanup digital action (shared media folder) combined with a quick emotional realization about storage vs emotional weight.",
-  "updated_at": "2026-09-21T15:39:16.367397+00:00",
+  "experiment": "Testing a slightly softer, more visually focused empowerment twist rather than aggressive blocking/deleting to see if it improves audience retention or comments.",
+  "updated_at": "2026-09-21T16:40:40.325958+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-21T15:39:28.445090+00:00"
+  "generated_at": "2026-09-21T16:40:42.922078+00:00"
 }
