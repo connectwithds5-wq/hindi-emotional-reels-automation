@@ -1,35 +1,35 @@
 {
-  "confidence": "45%",
+  "confidence": "25%",
   "data_points": 27,
-  "overall_summary": "The channel shows early traction for 'self respect' topics combined with micro-actions related to smartphones (deleting chats, clearing storage, unpinning names). While views are modest, topics centered around active self-worth boundaries consistently outperform passive sadness or abstract heartbreak.",
+  "overall_summary": "Overall view counts are very low (mostly under 50 views), indicating low historical sample size and early-stage channel distribution. However, 'self respect' stories centered around modern smartphone habits (chats, read receipts, archiving) show slightly higher relative engagement and views (e.g., rwOUYo_hayQ, AfaLxMy6FMY, wFimeeP_aVc).",
   "winning_patterns": [
     {
-      "pattern": "Smartphone UI Micro-Actions",
-      "evidence": "Videos like `rwOUYo_hayQ` (41 views), `AfaLxMy6FMY` (41 views), and `wFimeeP_aVc` (34 views) focus on specific phone interactions like status lists, read receipts, and typing indicators.",
-      "action": "Continue utilizing specific, highly relatable mobile interface triggers related to self-respect."
+      "pattern": "Smartphone-centric self-respect choices",
+      "evidence": "Videos like rwOUYo_hayQ (41 views) and AfaLxMy6FMY (41 views) focus on deleting chats or status lists.",
+      "action": "Continue focusing on micro-actions involving phone interfaces (blocking, muting, deleting) tied to self-respect."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Late-Night Melodrama",
-      "evidence": "Videos like `hT4EGP69mRw` (3 views) and `uIbMpCjVutQ` (6 views) relying purely on vague tea-drinking or ringing phone tropes performed poorly.",
-      "action": "Avoid generic atmospheric setups without a concrete, grounding everyday action."
+      "pattern": "Vague nighttime or abstract emotional hooks",
+      "evidence": "Videos like hT4EGP69mRw (3 views) and uIbMpCjVutQ (6 views) rely on vague poetic setups without a concrete real-life triggers.",
+      "action": "Avoid purely abstract poetry hooks; ground every story in a specific, highly relatable physical action or digital setting."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowering relief",
-    "hook_style": "Visual notification action",
+    "emotion": "Empowerment through detachment",
+    "hook_style": "Digital micro-action trigger",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization hitting while scrolling through mutual friends' stories and deciding to mute the common connection to finally break the loop of checking up.",
-    "opening_direction": "जब उसकी स्टोरी देखने के लिए उंगली आगे बढ़ी,",
-    "twist_direction": "पर इस बार टैप करने के बजाय, मैंने हमेशा के लिए 'Hide Story' पर क्लिक कर दिया।",
-    "duration_seconds": 15,
-    "posting_window": "13:00 - 14:00 IST",
-    "reason": "Mid-day posting slots aligned with previous moderate performers like `rwOUYo_hayQ` and `AfaLxMy6FMY` while testing a story-viewing boundary instead of direct chat deletion."
+    "concept": "A realization moment when clearing out old contact suggestions or autofill search history on a phone app.",
+    "opening_direction": "When typing a random letter into the search bar and their name stops showing up first in autofill.",
+    "twist_direction": "Instead of feeling a pang of loss, you realize your phone has finally started forgetting them before your heart did.",
+    "duration_seconds": 10,
+    "posting_window": "05:30 AM - 07:00 AM IST",
+    "reason": "Early morning slots have historically captured reflection-heavy browsing sessions based on previous high-performing upload timings."
   },
-  "experiment": "Testing if expanding self-respect themes from direct chat actions to social media viewership boundaries ('story muting') maintains viewer retention.",
-  "updated_at": "2026-09-21T22:39:35.489840+00:00",
+  "experiment": "Testing an autofill/search history micro-action instead of direct chat deletion to see if it broadens the 'self respect' topic appeal.",
+  "updated_at": "2026-09-21T23:38:53.295450+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-21T22:39:38.241061+00:00"
+  "generated_at": "2026-09-21T23:38:56.276892+00:00"
 }
