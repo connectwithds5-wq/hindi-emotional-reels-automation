@@ -1,40 +1,35 @@
 {
-  "confidence": "65%",
+  "confidence": "Low",
   "data_points": 25,
-  "overall_summary": "Data shows that 'self respect' and specific micro-interactions with phones (like deleting chats, changing names, or checking lists) consistently outperform generic relationship or late-night thoughts content. However, overall view counts are generally low, indicating that confidence is moderate and we are still testing the exact hook sweet spot.",
+  "overall_summary": "View counts across all videos remain low (mostly under 50 views), indicating an early-stage channel. However, content focused on 'self respect' combined with everyday smartphone interaction metaphors (deleting chats, status lists, unpinning) consistently yields slightly better traction than purely passive sadness topics.",
   "winning_patterns": [
     {
-      "pattern": "Actionable Phone/Chat Micro-Interactions",
-      "evidence": "Videos focusing on concrete phone actions like deleting chats (AfaLxMy6FMY - 41 views), removing names from lists (rwOUYo_hayQ - 41 views), and stopping replies (wFimeeP_aVc - 34 views) perform better than abstract thoughts.",
-      "action": "Focus hooks around specific, tactile smartphone actions (e.g., pinning, muting, clearing history) rather than general sadness."
-    },
-    {
-      "pattern": "Self-Respect Empowerment Twist",
-      "evidence": "Topics centered around self-respect and emotional detachment generate higher baseline views compared to helpless heartbreak or waiting.",
-      "action": "Always tilt the ending of the story toward personal dignity and inner peace instead of lingering pain."
+      "pattern": "Digital boundary actions",
+      "evidence": "Videos like 'rwOUYo_hayQ' (41 views), 'AfaLxMy6FMY' (41 views), and 'wFimeeP_aVc' (34 views) leverage active self-respect choices tied to phone usage.",
+      "action": "Continue focusing hooks on everyday digital cleanup actions tied to letting go."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Late-Night/Tea Themes",
-      "evidence": "Videos like 'मेज पर रखी चाय ठंडी हो गई' (uIbMpCjVutQ - 6 views) or generic waiting hooks get lower engagement.",
-      "action": "Avoid passive atmospheric descriptions without a concrete physical action anchoring the scene."
+      "pattern": "Passive late-night brooding",
+      "evidence": "Topics like 'रात के ख्याल' and open-ended 'ओवरथिंकिंग' without a concrete action or object saw very low engagement (e.g., uIbMpCjVutQ with 6 views, WhJ-VwRa3Rg with 8 views).",
+      "action": "Reduce abstract late-night melancholy without a grounded physical or digital trigger."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "empowering detachment",
-    "hook_style": "tactile notification settings",
+    "emotion": "Empowerment through detachment",
+    "hook_style": "Phone interaction trigger",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization moment while turning off read receipts and notification pop-ups for someone who used to be a priority.",
-    "opening_direction": "जब स्क्रीन पर उसका मैसेज फ्लैश हुआ, और मैंने नोटिफिकेशन बंद कर दिए,",
-    "twist_direction": "पहले डर लगा कि अब शायद कभी बात नहीं होगी, फिर अहसास हुआ कि खामोशी में जो सुकून है, वो उसके जवाब में कभी नहीं था।",
-    "duration_seconds": 12,
-    "posting_window": "13:00 - 14:00 IST",
-    "reason": "Aligns with the proven high-performing 'self respect' and phone-setting interaction pattern (similar to read receipts and muted chats) which previously yielded strong view counts."
+    "concept": "A realization of self-worth when scrolling through a music playlist and skipping the song that used to be 'ours' without feeling a thing.",
+    "opening_direction": "जब उस गाने पर उंगली खुद-ब-खुद 'Skip' पर चली गई,",
+    "twist_direction": "कल तक जो धड़कनें बढ़ा देता था, आज वो सिर्फ एक मामूली गाना बनकर रह गया। सुकून तब नहीं मिलता जब वो लौट आए, सुकून तब मिलता है जब उसका असर खत्म हो जाए।",
+    "duration_seconds": 10,
+    "posting_window": "13:45 - 14:15 IST",
+    "reason": "Tests a fresh tactile object (music playlist instead of chat logs) while maintaining the proven self-respect and emotional detachment theme."
   },
-  "experiment": "Testing if shifting the focus from 'deleting' to 'silencing/turning off notifications' retains the high engagement of previous self-respect winning patterns.",
-  "updated_at": "2026-09-21T00:44:10.372474+00:00",
+  "experiment": "Testing music player interface/playlist cleanup as a substitute for chat/contact list cleanup to evaluate if the self-respect theme scales beyond messaging apps.",
+  "updated_at": "2026-09-21T01:39:48.454577+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-21T00:44:12.914019+00:00"
+  "generated_at": "2026-09-21T01:39:55.172383+00:00"
 }
