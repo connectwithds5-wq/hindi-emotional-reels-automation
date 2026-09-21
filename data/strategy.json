@@ -1,35 +1,35 @@
 {
   "confidence": "25%",
   "data_points": 26,
-  "overall_summary": "The channel shows low overall view counts across all 26 videos with minimal engagement, indicating a low-sample testing phase. Content heavily heavily leans into 'self respect' with phone/digital habit hooks (chat pinning, block lists, status updates). Patterns show that specific smartphone-interaction hooks slightly outperform abstract emotional statements.",
+  "overall_summary": "The channel heavily relies on 'self respect' and digital/phone micro-interactions (chats, names, lists, notifications). While overall view counts are very low (mostly under 50 views), the top performing videos (like rwOUYo_hayQ, AfaLxMy6FMY, Y4finYMxnIU, wFimeeP_aVc) cluster around 30-41 views, specifically centering on decisive boundary-setting or chat actions. Confidence remains low due to small sample sizes and zero engagement (likes/comments), indicating reach is restricted and retention/engagement patterns are unproven.",
   "winning_patterns": [
     {
-      "pattern": "Specific digital/smartphone interaction hooks",
-      "evidence": "Videos like 'Status list mein sabse upar' (41 views) and 'Chat delete karne ki himmat' (41 views) performed relatively better than abstract ones.",
-      "action": "Continue focusing on micro-actions involving modern smartphone life (chats, settings, lists) rather than broad emotional statements."
+      "pattern": "Digital Boundary Action Hooks",
+      "evidence": "Videos like rwOUYo_hayQ ('स्टेटस लिस्ट में...') with 41 views and AfaLxMy6FMY ('उंगली उसी चैट पर...') with 41 views perform relatively better within the dataset.",
+      "action": "Continue focusing on micro-actions related to phone screens (status lists, pinned chats, typing indicators) but vary the specific UI trigger to avoid repetition."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract or overly poetic openings",
-      "evidence": "Videos focusing purely on ambient thoughts or generic late-night settings (e.g., 'chaay thandi ho gayi') resulted in lower views.",
-      "action": "Avoid generic atmospheric intros; ground every hook in an immediate, recognizable digital or physical action."
+      "pattern": "Repetitive Pin/Keyboard Openings",
+      "evidence": "Multiple recent videos using variations of 'pin button', 'keyboard', or 'storage' (e.g., LBGCloAitok, hT4EGP69mRw, 0H4VygZ3DIU, djEm2iCAfqw, aqzDPbQVnb0) yielded diminishing views (4, 3, 21, 20, 9).",
+      "action": "Step away from chat-pinning and keyboard typing hooks for a brief period to prevent audience fatigue."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment through detachment",
-    "hook_style": "Digital micro-action",
+    "emotion": "Empowering Detachment",
+    "hook_style": "Notification preview action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Removing someone from the 'Close Friends' list on Instagram and realizing the silence is peaceful rather than painful.",
-    "opening_direction": "जब उसे 'क्लोज़ फ्रेंड्स' की लिस्ट से बाहर किया,",
-    "twist_direction": "डर था कि वो पूछेगा, पर जब कोई रिएक्शन नहीं आया तो समझ आया कि हमारी अहमियत सिर्फ हमारे ही दिल में थी।",
+    "concept": "A realization moment when previewing a lock screen notification banner from someone who used to control your mood, and choosing to turn off lock screen previews entirely instead of opening it.",
+    "opening_direction": "जब लॉक स्क्रीन पर उसका नाम चमकता है और अंगूठा बिना सोचे-समझे स्वाइप करने लगता है...",
+    "twist_direction": "...पर इस बार स्वाइप करने के बजाय, मैंने सेटिंग्स में जाकर हमेशा के लिए लॉक स्क्रीन नोटिफ़िकेशन ही बंद कर दिए।",
     "duration_seconds": 15,
-    "posting_window": "13:45 IST",
-    "reason": "Tests a slightly different digital boundary (social media lists vs. chat apps) while maintaining the winning micro-action pattern."
+    "posting_window": "05:30 AM - 07:00 AM IST",
+    "reason": "Early morning posting windows align with historical high-performing publication slots (e.g., Y4finYMxnIU, Ct4R0He3BV4), testing a fresh notification-based trigger (lock screen previews) while staying within the proven self-respect digital boundary theme."
   },
-  "experiment": "Testing a transition from chat/messaging micro-actions to social media feature boundaries ('Close Friends' list) to see if platform diversification impacts reach.",
-  "updated_at": "2026-09-21T10:39:36.552067+00:00",
+  "experiment": "Testing a lock screen notification toggle hook instead of chat-pinning or keyboard triggers to combat format fatigue.",
+  "updated_at": "2026-09-21T11:41:23.760496+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-21T10:39:39.124819+00:00"
+  "generated_at": "2026-09-21T11:41:27.604584+00:00"
 }
