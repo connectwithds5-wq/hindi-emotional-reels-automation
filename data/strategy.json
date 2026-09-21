@@ -1,35 +1,35 @@
 {
-  "confidence": "25%",
+  "confidence": "45%",
   "data_points": 27,
-  "overall_summary": "The channel shows low overall view counts across the board with limited engagement (likes/comments), meaning confidence is low. However, 'self respect' and digital life micro-moments (like chat deletions, clearing storage, unpinning names) perform slightly better than abstract emotional topics, showing a repeatable micro-interaction pattern.",
+  "overall_summary": "The channel heavily indexes on 'self respect' with micro-interactions on mobile devices (deleting chats, changing settings, clearing storage). While views are modest, topics centered around decisive personal boundaries (like chat deletion and status/last seen changes) outperform vague emotional states. Confidence remains moderate due to low sample sizes and uniform engagement metrics across uploads.",
   "winning_patterns": [
     {
-      "pattern": "Digital micro-actions related to self-respect",
-      "evidence": "Videos like 'rwOUYo_hayQ' (41 views), 'AfaLxMy6FMY' (41 views), and 'wFimeeP_aVc' (34 views) focus on specific actions like deleting chats, status lists, and turning off read receipts.",
-      "action": "Continue focusing on hyper-specific smartphone actions tied to boundaries and self-respect."
+      "pattern": "Digital UI Micro-Actions",
+      "evidence": "Videos like 'rwOUYo_hayQ' (41 views), 'AfaLxMy6FMY' (41 views), and 'wFimeeP_aVc' (34 views) focus on specific digital UI actions like status lists, unpinning, and chat clearing.",
+      "action": "Continue utilizing micro-moments within smartphone apps (e.g., settings, storage, blocked lists) as core narrative triggers."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract emotional statements or late-night thoughts without a concrete action",
-      "evidence": "Videos like 'hT4EGP69mRw' (3 views) and 'uIbMpCjVutQ' (6 views) rely on vague setups like cold tea or generic ringtones.",
-      "action": "Avoid generic atmospheric setups and ground every hook in an immediate, recognizable phone or lifestyle habit."
+      "pattern": "Vague Late-Night Melodrama",
+      "evidence": "Videos focusing purely on abstract night thoughts or generic waiting (e.g., 'uIbMpCjVutQ' with 6 views, 'hT4EGP69mRw' with 3 views) underperform compared to active boundary-setting.",
+      "action": "Reduce abstract late-night rambling and anchor every emotional concept to a tangible, everyday action."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowering detachment",
-    "hook_style": "Concrete phone action observation",
+    "emotion": "Empowerment through detachment",
+    "hook_style": "Tangible phone interaction",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization when finally removing someone from the phone's emergency or favorite contact widget.",
-    "opening_direction": "जब होम स्क्रीन से उसकी शॉर्टकट फोटो हटाई,",
-    "twist_direction": "और समझ आया कि उसे हटाने के बाद स्क्रीन अब ज्यादा खाली नहीं, बल्कि सुकून से भरी लगती है।",
-    "duration_seconds": 15,
-    "posting_window": "13:00 - 14:00 IST",
-    "reason": "Mid-day posting windows historically aligned with peak viewing clusters for the channel's top-performing self-respect stories."
+    "concept": "Removing someone from the phone's auto-suggested contact list during typing, transitioning from a reflex of habit to a conscious act of moving on.",
+    "opening_direction": "कीबोर्ड पर नाम का पहला अक्षर टाइप करते ही फोन के सुझाव (suggestions) में उसका नाम सबसे ऊपर आ गया।",
+    "twist_direction": "इस बार उसे सेलेक्ट करने की बजाय, हमेशा के लिए डिक्शनरी और सजेशन से उस शब्द को ब्लॉक कर दिया।",
+    "duration_seconds": 30,
+    "posting_window": "13:45 - 17:45 IST",
+    "reason": "Mid-day posting windows around 1:45 PM have historically shown stable initial impressions in this dataset."
   },
-  "experiment": "Testing a slightly softer, more visually focused empowerment twist rather than aggressive blocking/deleting to see if it improves audience retention or comments.",
-  "updated_at": "2026-09-21T16:40:40.325958+00:00",
+  "experiment": "Testing an unrepresented UI element (keyboard auto-suggestions/dictionary memory) within the proven 'self respect' digital micro-action framework.",
+  "updated_at": "2026-09-21T17:38:27.087475+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-21T16:40:42.922078+00:00"
+  "generated_at": "2026-09-21T17:38:30.122505+00:00"
 }
