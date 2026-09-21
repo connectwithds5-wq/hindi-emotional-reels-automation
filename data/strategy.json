@@ -1,35 +1,35 @@
 {
-  "confidence": "25%",
+  "confidence": "35%",
   "data_points": 26,
-  "overall_summary": "The channel heavily relies on 'self respect' and digital/phone micro-interactions (chats, names, lists, notifications). While overall view counts are very low (mostly under 50 views), the top performing videos (like rwOUYo_hayQ, AfaLxMy6FMY, Y4finYMxnIU, wFimeeP_aVc) cluster around 30-41 views, specifically centering on decisive boundary-setting or chat actions. Confidence remains low due to small sample sizes and zero engagement (likes/comments), indicating reach is restricted and retention/engagement patterns are unproven.",
+  "overall_summary": "Overall view counts remain low across the board (mostly under 50 views), making statistical certainty limited. However, content focusing heavily on 'self respect' with micro-actions related to digital life (deleting chats, hiding last seen, removing pinned notes) tends to slightly outperform broader romantic pain topics.",
   "winning_patterns": [
     {
-      "pattern": "Digital Boundary Action Hooks",
-      "evidence": "Videos like rwOUYo_hayQ ('स्टेटस लिस्ट में...') with 41 views and AfaLxMy6FMY ('उंगली उसी चैट पर...') with 41 views perform relatively better within the dataset.",
-      "action": "Continue focusing on micro-actions related to phone screens (status lists, pinned chats, typing indicators) but vary the specific UI trigger to avoid repetition."
+      "pattern": "Digital micro-boundaries",
+      "evidence": "Videos referencing concrete smartphone actions like changing status lists, unpinning chats, or hiding last seen (e.g., rwOUYo_hayQ, AfaLxMy6FMY) garnered relative highs of 41 views.",
+      "action": "Continue focusing on micro-interactions within smartphone apps (keyboard history, call logs, settings toggles) that symbolize emotional detachment."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Repetitive Pin/Keyboard Openings",
-      "evidence": "Multiple recent videos using variations of 'pin button', 'keyboard', or 'storage' (e.g., LBGCloAitok, hT4EGP69mRw, 0H4VygZ3DIU, djEm2iCAfqw, aqzDPbQVnb0) yielded diminishing views (4, 3, 21, 20, 9).",
-      "action": "Step away from chat-pinning and keyboard typing hooks for a brief period to prevent audience fatigue."
+      "pattern": "Vague late-night rumination hooks",
+      "evidence": "Broad hooks like 'रात के दो बजे' (G0gKV1p3ZHc) or 'मेज पर रखी चाय ठंडी हो गई' (uIbMpCjVutQ) received significantly fewer views (6-13 views).",
+      "action": "Avoid generic atmospheric intros and anchor the opening into an immediate, tangible object or digital action."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowering Detachment",
-    "hook_style": "Notification preview action",
+    "emotion": "Empowered detachment",
+    "hook_style": "Tangible digital action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization moment when previewing a lock screen notification banner from someone who used to control your mood, and choosing to turn off lock screen previews entirely instead of opening it.",
-    "opening_direction": "जब लॉक स्क्रीन पर उसका नाम चमकता है और अंगूठा बिना सोचे-समझे स्वाइप करने लगता है...",
-    "twist_direction": "...पर इस बार स्वाइप करने के बजाय, मैंने सेटिंग्स में जाकर हमेशा के लिए लॉक स्क्रीन नोटिफ़िकेशन ही बंद कर दिए।",
+    "concept": "A short piece about removing someone from the phone's blocked list because they no longer matter enough to be blocked.",
+    "opening_direction": "ब्लॉक लिस्ट खोलकर उसे अनब्लॉक करने की उंगली रुकी...",
+    "twist_direction": "उसे अनब्लॉक करके नंबर डिलीट कर दिया, क्योंकि अब वो ब्लॉक होने के भी लायक नहीं बचा था।",
     "duration_seconds": 15,
-    "posting_window": "05:30 AM - 07:00 AM IST",
-    "reason": "Early morning posting windows align with historical high-performing publication slots (e.g., Y4finYMxnIU, Ct4R0He3BV4), testing a fresh notification-based trigger (lock screen previews) while staying within the proven self-respect digital boundary theme."
+    "posting_window": "05:30 PM - 07:00 PM IST",
+    "reason": "Building on the winning digital-action pattern while introducing a fresh emotional twist regarding blocked contacts to test audience retention."
   },
-  "experiment": "Testing a lock screen notification toggle hook instead of chat-pinning or keyboard triggers to combat format fatigue.",
-  "updated_at": "2026-09-21T11:41:23.760496+00:00",
+  "experiment": "Testing an inverse digital boundary action (unblocking to delete entirely) instead of standard blocking or chat deletion.",
+  "updated_at": "2026-09-21T12:41:54.390257+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-21T11:41:27.604584+00:00"
+  "generated_at": "2026-09-21T12:41:57.208113+00:00"
 }
