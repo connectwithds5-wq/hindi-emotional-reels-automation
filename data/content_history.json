@@ -2279,6 +2279,77 @@
         "reason": "Leverages the proven high-performing 'digital boundary' pattern while testing a slightly different phone setting (read receipts) to prevent hook fatigue from repeated chat-list openings."
       },
       "model_used": "gemini-3.5-flash-lite"
+    },
+    {
+      "hook": "जब फोन के होम स्क्रीन से उस विजेट को हटाया,",
+      "lines": [
+        "खाली जगह पर उंगली देर तक रुकी रही।",
+        "रोज सुबह सबसे पहले वही चेहरा दिखता था।",
+        "आज वहां बस एक सूनापन सा लगा।",
+        "लगा कि थोड़ी सी जान और निकल गई।",
+        "पर हाथ खुद ही अपनी फोटो पर गए।",
+        "बिना डरे खुद को फ्रेम में सजा लिया।",
+        "अब स्क्रीन पर किसी और की जरूरत नहीं।"
+      ],
+      "youtube_title": "Self Respect Status | Phone Screen Widget Emotional Story",
+      "youtube_description": "Ek choti si kahani self respect aur detachment ke baare mein. Jab phone ki home screen se kisi ki yaad hata kar khud ko jagah di jati hai. Aapko ye choti si koshish kaisi lagi?",
+      "youtube_keywords": [
+        "self respect status",
+        "emotional hindi stories",
+        "dil ki diary",
+        "detachment status",
+        "mental peace shorts",
+        "self love poetry",
+        "deep emotional status",
+        "hindi micro story",
+        "phone screen widget story",
+        "sad reality status",
+        "self respect reels"
+      ],
+      "youtube_hashtags": [
+        "SelfRespect",
+        "DilKiDiary",
+        "EmotionalStory",
+        "HindiReels",
+        "SelfLove",
+        "DeepThoughts",
+        "MentalPeace"
+      ],
+      "caption": "खुद को चुनना हमेशा आसान नहीं होता, पर जरूरी होता है।",
+      "keywords": [
+        "self respect",
+        "detachment",
+        "emotional story",
+        "hindi reels",
+        "mental peace",
+        "self love",
+        "deep thoughts",
+        "dil ki diary"
+      ],
+      "hashtags": [
+        "selfrespect",
+        "dilkidiary",
+        "emotionalstory",
+        "hindireels",
+        "selflove",
+        "mentalpeace",
+        "deepthoughts",
+        "realitycheck"
+      ],
+      "topic": "self respect",
+      "strategy_used": {
+        "topic": "self respect",
+        "emotion": "Empowerment through detachment",
+        "hook_style": "Action-oriented digital cleanup",
+        "story_structure": "simple -> relatable -> twist",
+        "concept": "Removing someone from the phone's lock screen widget or daily photo memories feed.",
+        "opening_direction": "जब फोन के होम स्क्रीन से उस विजेट को हटाया,",
+        "twist_direction": "रोने के बजाय स्क्रीन पर अपनी खुद की एक नई तस्वीर सेट कर दी।",
+        "duration_seconds": 12,
+        "posting_window": "05:35 PM - 05:40 PM IST",
+        "reason": "Tests a fresh digital action hook (home screen widget) combined with the proven 'self respect' topic while shifting away from the overused chat/blue-tick tropes."
+      },
+      "model_used": "gemini-3.5-flash-lite"
     }
   ]
 }
