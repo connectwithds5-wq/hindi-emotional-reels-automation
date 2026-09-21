@@ -1,35 +1,35 @@
 {
   "confidence": "25%",
   "data_points": 27,
-  "overall_summary": "The channel heavily relies on 'self respect' and phone-related micro-interactions (chats, pinning, status lists). Sample sizes are small and views fluctuate between 3 and 41, indicating low statistical confidence. Controlled exploration across other core emotional themes is needed.",
+  "overall_summary": "The channel heavily focuses on 'self respect' and digital/phone micro-interactions (chats, read receipts, numbers). While view counts are generally low (single digits to low 40s), a low-sample pattern shows that highly specific physical actions on a phone combined with sharp, assertive hooks perform slightly better (e.g., 'जब रिप्लाई का इंतज़ार खत्म हो जाए' at 34 views, 'स्टेटस लिस्ट में सबसे ऊपर' at 41 views, and 'चैट डिलीट करने की हिम्मत' at 41 views). Confidence is low due to universally low engagement (near-zero likes/comments).",
   "winning_patterns": [
     {
-      "pattern": "Digital boundary micro-actions",
-      "evidence": "Videos focusing on concrete phone UI actions like hiding last seen, removing status visibility, or clearing chat pins (e.g., rwOUYo_hayQ, AfaLxMy6FMY) achieved the highest views in the dataset (~41 views).",
-      "action": "Continue focusing on specific, modern digital life micro-moments of detachment."
+      "pattern": "Specific digital interface friction",
+      "evidence": "Hooks mentioning chat lists, status views, or read receipts (e.g., 'स्टेटस लिस्ट में सबसे ऊपर उन्हीं का नाम था') gained relative highs of 41 views.",
+      "action": "Continue focusing on micro-actions involving modern smartphone habits (chats, widgets, notifications) rather than abstract poetry."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract or generalized relationship grief",
-      "evidence": "Broader emotional themes like 'ओवरथिंकिंग' or 'रात के ख्याल' with abstract hooks (e.g., WhJ-VwRa3Rg, uIbMpCjVutQ) received significantly lower views (6-8 views).",
-      "action": "Avoid generic late-night melancholy without a sharp, grounded physical anchor or action."
+      "pattern": "Vague late-night melancholic tropes",
+      "evidence": "Abstract hooks like 'रात के दो बजे' or 'मेज पर रखी चाय ठंडी हो गई' received very low views (6 to 13 views).",
+      "action": "Avoid generic late-night atmospheric tropes without a concrete, relatable object or digital trigger."
     }
   ],
   "next_video": {
-    "topic": "अधूरी मोहब्बत",
-    "emotion": "हल्का सा दर्द और खुद की वापसी",
-    "hook_style": "Physical object realization",
+    "topic": "self respect",
+    "emotion": "Empowerment / Detachment",
+    "hook_style": "Tactile phone action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Finding an old handwritten bookmark or a physical ticket stub inside a book, and choosing to finally use it as trash rather than a memory keepsake.",
-    "opening_direction": "किताब के पुराने पन्नों के बीच से जब वो पुराना मूवी टिकट निकला,",
-    "twist_direction": "सोचा था संभाल कर रख लूं, पर फिर उसे डस्टबिन में डालते ही समझ आया—किरदार खत्म हो चुका है, अब कहानी लंबी खींचने का कोई फायदा नहीं।",
-    "duration_seconds": 12,
-    "posting_window": "13:45 IST",
-    "reason": "Testing a shift from digital phone actions (saturation in data) to physical real-world emotional anchors while retaining the core 'self respect' release pattern."
+    "concept": "Removing a shared contact shortcut from the phone dialer widget and realizing the silence doesn't hurt anymore.",
+    "opening_direction": "जब होम स्क्रीन के स्पीड डायल से उसकी तस्वीर हटाई...",
+    "twist_direction": "उम्मीद थी कि हाथ कांपेंगे, पर उंगली बिना रुके आगे बढ़ गई—अब कोई कसक नहीं, सिर्फ अपना सुकून है।",
+    "duration_seconds": 35,
+    "posting_window": "05:30 PM - 07:00 PM IST",
+    "reason": "Tests a fresh tactile phone interface trigger (speed dial widget) while adhering to the winning 'self respect and moving on' thematic core without repeating exact chat-deletion tropes."
   },
-  "experiment": "Testing if physical object-based heartbreak performs better or worse than digital screen/phone UI-based heartbreak.",
-  "updated_at": "2026-09-21T18:44:05.137011+00:00",
+  "experiment": "Testing a phone speed-dial widget removal hook to see if physical UI elements beyond chat lists can spark higher engagement.",
+  "updated_at": "2026-09-21T19:39:46.804801+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-21T18:44:08.395423+00:00"
+  "generated_at": "2026-09-21T19:39:50.046962+00:00"
 }
