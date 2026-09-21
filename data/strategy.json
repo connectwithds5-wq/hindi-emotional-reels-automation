@@ -1,35 +1,35 @@
 {
   "confidence": "35%",
   "data_points": 25,
-  "overall_summary": "The channel shows low overall view counts across the board with limited engagement, indicating a low-sample exploratory phase. However, content focusing on 'self respect' with micro-actions related to phone usage (such as chats, clearing storage, and muting) shows slightly higher baseline views (up to 41 views) compared to generic emotional topics.",
+  "overall_summary": "The channel shows consistent early interest in 'self respect' topics, specifically micro-moments involving phone UI actions (chats, blocking, lists, typing), outperforming broader emotional topics. However, overall view counts remain low across all videos, indicating low sample sizes and weak algorithmic distribution so far.",
   "winning_patterns": [
     {
-      "pattern": "Phone-based micro-actions for Self Respect",
-      "evidence": "Videos like 'rwOUYo_hayQ' (41 views) and 'AfaLxMy6FMY' (41 views) used specific digital actions related to self-respect.",
-      "action": "Continue focusing on concrete, modern digital boundary actions (e.g., clearing blocked histories, unpinning, or archiving)."
+      "pattern": "Digital boundary micro-actions",
+      "evidence": "Videos focusing on phone UI actions like unpinning chats, checking block lists, or deleting keywords (e.g., 'rwOUYo_hayQ', 'AfaLxMy6FMY', 'Y4finYMxnIU') achieved the highest views in the dataset (32-41 views).",
+      "action": "Double down on hyper-specific, tactile digital habits related to moving on and self-respect."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic late-night or abstract emotional topics",
-      "evidence": "Topics like 'रात के ख्याल' and 'ओवरथिंकिंग' with abstract hooks (e.g., 'मेज पर रखी चाय ठंडी हो गई') underperformed (6-8 views).",
-      "action": "Avoid vague poetic setups and stick to grounded, everyday scenarios with tangible objects or digital actions."
+      "pattern": "Vague late-night or open-ended romantic longing",
+      "evidence": "Topics like 'रात के ख्याल' and general 'ओवरथिंकिंग' without a concrete physical or digital anchor underperformed heavily (e.g., WhJ-VwRa3Rg with 8 views, uIbMpCjVutQ with 6 views).",
+      "action": "Avoid abstract poetic statements; ground every emotional concept in a tangible, everyday object or device action."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment and detachment",
-    "hook_style": "Tangible digital moment",
+    "emotion": "Empowered detachment",
+    "hook_style": "Tactile notification or app setting moment",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization moment while clearing out cached app data or hidden folders where an old shared memory automatically deletes, leading to a feeling of complete indifference instead of pain.",
-    "opening_direction": "जब फोन का स्टोरेज फुल होने पर ऑटो-क्लीनर चलाया,",
-    "twist_direction": "लगा था कि वो फोल्डर डिलीट होने पर दिल दुखेगा, पर इस बार सिर्फ एक गहरी सांस और खालीपन सा सुकून महसूस हुआ।",
+    "concept": "Turning off read receipts permanently to stop the anxiety of waiting for a blue tick.",
+    "opening_direction": "जब सेटिंग्स में जाकर 'Read Receipts' हमेशा के लिए बंद कर दिया,",
+    "twist_direction": "पता चला कि सुकून किसी के देखने न देखने में नहीं, बल्कि अब फर्क न पड़ने की आज़ादी में है।",
     "duration_seconds": 15,
-    "posting_window": "05:30 PM - 07:00 PM",
-    "reason": "Leverages the proven digital self-respect theme while slightly varying the specific phone action to prevent repetitive openings."
+    "posting_window": "13:00 - 14:00 IST",
+    "reason": "Leverages the proven high-performing 'digital boundary' pattern while testing a slightly different phone setting (read receipts) to prevent hook fatigue from repeated chat-list openings."
   },
-  "experiment": "Testing if shifting from direct chat interactions to automated phone storage/cache cleanups maintains the self-respect audience retention.",
-  "updated_at": "2026-09-21T03:42:13.848394+00:00",
+  "experiment": "Testing app privacy settings (Read Receipts) instead of direct chat list interactions within the proven Self-Respect theme.",
+  "updated_at": "2026-09-21T04:42:12.588912+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-21T03:42:16.275821+00:00"
+  "generated_at": "2026-09-21T04:42:15.187735+00:00"
 }
