@@ -1,35 +1,35 @@
 {
   "confidence": "25%",
   "data_points": 26,
-  "overall_summary": "The channel shows consistent creation around 'self respect' with physical phone interaction micro-moments (chat pins, typing dots, status views). However, overall viewership remains very low (mostly under 30 views) with zero engagement (likes/comments), indicating that the content format or distribution hasn't broken through yet, warranting a mix of a reliable pattern with a distinct experiential narrative hook.",
+  "overall_summary": "Data volume is very low overall, with views ranging between 0 and 41. Videos focusing on digital micro-interactions under the 'self respect' topic (like deleting chats, blocking, status updates) show slightly better baseline views than older or broader topics, though confidence remains low due to small sample sizes.",
   "winning_patterns": [
     {
-      "pattern": "Micro-actions on smartphones involving self-worth",
-      "evidence": "Videos like 'चैट डिलीट करने की हिम्मत' (41 views) and 'जब रिप्लाई का इंतज़ार खत्म हो जाए' (34 views) perform slightly better than abstract emotional pieces.",
-      "action": "Continue utilizing tactile, everyday smartphone interface moments (settings, notifications, lists) tied to emotional detachment."
+      "pattern": "Digital micro-habit hooks",
+      "evidence": "Videos referencing phone actions like clearing chat history, status lists, or hiding read receipts (e.g., AfaLxMy6FMY with 41 views, rwOUYo_hayQ with 41 views, wFimeeP_aVc with 34 views) perform better relative to the channel average.",
+      "action": "Continue framing hooks around everyday smartphone UI habits related to letting go or establishing boundaries."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "High reliance on identical 'number/contact/keyboard' deleting tropes",
-      "evidence": "Multiple recent shorts use identical opening mechanics (deleting numbers, keyboards, typing), leading to audience fatigue and near-zero metrics like on 'Read receipts off' (0 views).",
-      "action": "Shift away from contact deletion and explore a different physical micro-moment like daily routine artifacts or physical items left behind."
+      "pattern": "Generic abstract emotional statements",
+      "evidence": "Broader philosophical topics like 'रात के ख्याल' or abstract emotional statements without a concrete physical action object (e.g., uIbMpCjVutQ with 6 views) show lower traction.",
+      "action": "Avoid vague emotional poetry and ground every story in a specific physical object or digital notification."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Quiet closure",
-    "hook_style": "Physical object-based realization",
+    "emotion": "Empowerment through detachment",
+    "hook_style": "Digital notification action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Finding an old, unread physical letter or a forgotten handwritten grocery/to-do list that still has their handwriting on it, only to realize you no longer need to check if they completed it.",
-    "opening_direction": "किचन के ड्रॉर को साफ करते वक्त अचानक वो पुरानी पर्ची हाथ लग गई,",
-    "twist_direction": "पहले दिल धड़का कि शायद उसका लिखा कुछ खास होगा, पर फिर समझ आया—अब उसके लिखे किसी भी निर्देश से मुझे फर्क नहीं पड़ता।",
-    "duration_seconds": 12,
-    "posting_window": "05:30 PM - 07:00 PM IST",
-    "reason": "Tests a transition away from digital smartphone screens to a physical object while maintaining the core self-respect and emotional detachment theme."
+    "concept": "A short piece about removing someone from the phone's lock screen widget, shifting the focus from missing them to reclaiming personal space.",
+    "opening_direction": "Lock screen par roz subah sabse pehle dikhne wala uska widget...",
+    "twist_direction": "Jab use hata kar apni pasand ka wallpaper lagaya, tab samajh aaya ki jagah khali nahi hui thi, balki humne khud ko jagah de di thi.",
+    "duration_seconds": 15,
+    "posting_window": "13:45 - 14:00 IST",
+    "reason": "Previous mid-day slots (around 13:42 to 13:47 UTC/IST matching historical uploads like rwOUYo_hayQ and AfaLxMy6FMY) showed relative comparative success."
   },
-  "experiment": "Testing a physical object/handwritten artifact hook instead of digital phone interface actions to see if it improves retention and engagement.",
-  "updated_at": "2026-09-21T06:46:30.406414+00:00",
+  "experiment": "Testing a lock-screen widget removal angle to see if visual smartphone UI elements outperform chat/keyboard interactions.",
+  "updated_at": "2026-09-21T07:41:53.205110+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-21T06:46:33.617567+00:00"
+  "generated_at": "2026-09-21T07:41:55.870047+00:00"
 }
