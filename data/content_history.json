@@ -2207,6 +2207,78 @@
         "reason": "Midday posting slots around 1:40 PM historically captured peak views in top-performing iterations like aNR94Xxn0yM and AfaLxMy6FMY."
       },
       "model_used": "gemini-3.5-flash-lite"
+    },
+    {
+      "hook": "जब सेटिंग्स में ब्लू टिक्स बंद किए,",
+      "lines": [
+        "उम्मीद थी दिल को थोड़ा सुकून मिलेगा।",
+        "सोचा था अब इंतजार कम सताएगा।",
+        "पर घंटों तक उसका नाम नहीं चमका,",
+        "पता चला वो कभी देखने आया ही नहीं।",
+        "फोन की नीली रोशनी अब शांत थी,",
+        "सुकून किसी के देखने न देखने में नहीं,",
+        "बल्कि अब फर्क न पड़ने की आज़ादी में है।"
+      ],
+      "youtube_title": "Read receipts off | Self respect emotional story | Dil Ki Diary",
+      "youtube_description": "Turning off read receipts can feel heavy until you realize true peace comes from detachment. This emotional short story explores self respect and quiet digital boundaries. Have you ever turned off your last seen for peace?",
+      "youtube_keywords": [
+        "self respect status",
+        "emotional hindi stories",
+        "read receipts off",
+        "dil ki diary shorts",
+        "digital boundaries",
+        "sad status hindi",
+        "empowered detachment",
+        "deep meaning lines",
+        "relatable hindi reels",
+        "mental peace quotes",
+        "self respect shayari",
+        "phone settings emotional"
+      ],
+      "youtube_hashtags": [
+        "SelfRespect",
+        "DilKiDiary",
+        "EmotionalStory",
+        "MentalPeace",
+        "DeepThoughts",
+        "HindiReels",
+        "SadStatus"
+      ],
+      "caption": "जब इंतजार खत्म होता है, तब खुद की अहमियत शुरू होती है।",
+      "keywords": [
+        "self respect",
+        "read receipts",
+        "emotional story",
+        "dil ki diary",
+        "mental peace",
+        "digital detox",
+        "hindi status",
+        "detachment"
+      ],
+      "hashtags": [
+        "selfrespect",
+        "dilkidiary",
+        "emotional",
+        "peace",
+        "hindiquotes",
+        "relatable",
+        "solitude",
+        "mindset"
+      ],
+      "topic": "self respect",
+      "strategy_used": {
+        "topic": "self respect",
+        "emotion": "Empowered detachment",
+        "hook_style": "Tactile notification or app setting moment",
+        "story_structure": "simple -> relatable -> twist",
+        "concept": "Turning off read receipts permanently to stop the anxiety of waiting for a blue tick.",
+        "opening_direction": "जब सेटिंग्स में जाकर 'Read Receipts' हमेशा के लिए बंद कर दिया,",
+        "twist_direction": "पता चला कि सुकून किसी के देखने न देखने में नहीं, बल्कि अब फर्क न पड़ने की आज़ादी में है।",
+        "duration_seconds": 15,
+        "posting_window": "13:00 - 14:00 IST",
+        "reason": "Leverages the proven high-performing 'digital boundary' pattern while testing a slightly different phone setting (read receipts) to prevent hook fatigue from repeated chat-list openings."
+      },
+      "model_used": "gemini-3.5-flash-lite"
     }
   ]
 }
