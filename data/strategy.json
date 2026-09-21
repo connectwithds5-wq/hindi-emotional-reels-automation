@@ -1,35 +1,35 @@
 {
   "confidence": "25%",
   "data_points": 26,
-  "overall_summary": "The channel heavily focuses on 'self respect' and digital/phone-related micro-moments (chats, blocks, typing indicators, read receipts). While view counts are universally low across the dataset (mostly under 50 views, many under 20), themes centered around actionable self-respect choices (deleting chats, archive folders, typing and deleting) slightly outperform abstract emotional statements.",
+  "overall_summary": "The channel shows low overall view counts across all 26 videos with minimal engagement, indicating a low-sample testing phase. Content heavily heavily leans into 'self respect' with phone/digital habit hooks (chat pinning, block lists, status updates). Patterns show that specific smartphone-interaction hooks slightly outperform abstract emotional statements.",
   "winning_patterns": [
     {
-      "pattern": "Digital boundary micro-actions",
-      "evidence": "Videos like 'Self Respect Status | Jab Aapko Fark Padhna Band Ho Jaaye' (32 views) and 'चैट डिलीट करने की हिम्मत और खुद की इज्जत' (41 views) perform relatively better than abstract poetry.",
-      "action": "Continue framing emotional closure around specific smartphone actions (archive, unpin, status privacy)."
+      "pattern": "Specific digital/smartphone interaction hooks",
+      "evidence": "Videos like 'Status list mein sabse upar' (41 views) and 'Chat delete karne ki himmat' (41 views) performed relatively better than abstract ones.",
+      "action": "Continue focusing on micro-actions involving modern smartphone life (chats, settings, lists) rather than broad emotional statements."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract late-night musings without immediate anchors",
-      "evidence": "Videos like 'रात के ख्याल और अधूरा इंतजार' (6 views) and 'जब उसका स्पेशल रिंगटोन बदल कर' (3 views) got significantly lower traction.",
-      "action": "Avoid generic late-night atmospheric setups unless tied to a concrete physical or digital trigger."
+      "pattern": "Abstract or overly poetic openings",
+      "evidence": "Videos focusing purely on ambient thoughts or generic late-night settings (e.g., 'chaay thandi ho gayi') resulted in lower views.",
+      "action": "Avoid generic atmospheric intros; ground every hook in an immediate, recognizable digital or physical action."
     }
   ],
   "next_video": {
     "topic": "self respect",
     "emotion": "Empowerment through detachment",
-    "hook_style": "Physical hesitation over a minor phone setting",
+    "hook_style": "Digital micro-action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short piece about removing someone from the 'Close Friends' or custom story privacy list after realizing they haven't viewed your story in weeks.",
-    "opening_direction": "स्टोरी पर व्यूअर्स की लिस्ट स्क्रॉल करते हुए जब...",
-    "twist_direction": "...पता चला कि जिसे छिपाना चाहते थे, वो तो वैसे भी देखना छोड़ चुका है।",
-    "duration_seconds": 12,
-    "posting_window": "05:30 PM - 07:30 PM IST",
-    "reason": "Tests a fresh digital interaction ('Close Friends' / Story privacy) which hasn't been overly saturated in the dataset yet, keeping the proven smartphone-action theme alive."
+    "concept": "Removing someone from the 'Close Friends' list on Instagram and realizing the silence is peaceful rather than painful.",
+    "opening_direction": "जब उसे 'क्लोज़ फ्रेंड्स' की लिस्ट से बाहर किया,",
+    "twist_direction": "डर था कि वो पूछेगा, पर जब कोई रिएक्शन नहीं आया तो समझ आया कि हमारी अहमियत सिर्फ हमारे ही दिल में थी।",
+    "duration_seconds": 15,
+    "posting_window": "13:45 IST",
+    "reason": "Tests a slightly different digital boundary (social media lists vs. chat apps) while maintaining the winning micro-action pattern."
   },
-  "experiment": "Testing a slightly different digital touchpoint (Story privacy list) instead of standard chat deletion to see if it sparks better engagement.",
-  "updated_at": "2026-09-21T09:40:09.709575+00:00",
+  "experiment": "Testing a transition from chat/messaging micro-actions to social media feature boundaries ('Close Friends' list) to see if platform diversification impacts reach.",
+  "updated_at": "2026-09-21T10:39:36.552067+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-21T09:40:12.457261+00:00"
+  "generated_at": "2026-09-21T10:39:39.124819+00:00"
 }
