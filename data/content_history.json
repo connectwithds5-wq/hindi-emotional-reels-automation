@@ -2350,6 +2350,83 @@
         "reason": "Tests a fresh digital action hook (home screen widget) combined with the proven 'self respect' topic while shifting away from the overused chat/blue-tick tropes."
       },
       "model_used": "gemini-3.5-flash-lite"
+    },
+    {
+      "hook": "जब फोन के वॉलपेपर से उसकी पसंद की वो तस्वीर हटाई,",
+      "lines": [
+        "स्क्रीन पर खाली जगह सी लग रही थी।",
+        "बहुत साल से वही चेहरा सजा था वहाँ।",
+        "लगा था कभी हटाई तो सूनापन घेर लेगा।",
+        "पर आज जब डिफॉल्ट सीन लगाया,",
+        "तो पहली बार स्क्रीन अपनी सी लगी।",
+        "तब समझ आया कि स्क्रीन पर उसकी पसंद नहीं,",
+        "मेरा फोन अब मेरा लग रहा है।"
+      ],
+      "youtube_title": "जब फोन के वॉलपेपर से उसकी पसंद की तस्वीर हटाई | Self Respect Story",
+      "youtube_description": "Changing custom wallpapers and phone settings can bring a sudden wave of empowered relief and quiet self-respect. This emotional micro-story explores the moment a personal screen finally starts feeling like your own again. Did changing your digital habits ever make you feel free?",
+      "youtube_keywords": [
+        "self respect story",
+        "dil ki diary",
+        "emotional hindi stories",
+        "self respect quotes hindi",
+        "phone wallpaper breakup",
+        "empowered relief",
+        "silent heartbreak hindi",
+        "relatable hindi reels",
+        "self love status",
+        "mental peace shorts",
+        "deep emotional stories",
+        "hindi micro stories"
+      ],
+      "youtube_hashtags": [
+        "SelfRespect",
+        "DilKiDiary",
+        "EmotionalStory",
+        "MentalPeace",
+        "HindiReels",
+        "Relatable",
+        "DeepThoughts",
+        "Shorts"
+      ],
+      "caption": "खुद को वापस पाना किसी जंग जीतने से कम नहीं होता। जब स्क्रीन पर अपनी पसंद लौटती है, तब दिल का सुकून भी वापस आ जाता है।",
+      "keywords": [
+        "self respect",
+        "dil ki diary",
+        "emotional relief",
+        "phone wallpaper",
+        "hindi stories",
+        "relatable",
+        "mental peace",
+        "moving on",
+        "self love",
+        "deep feelings"
+      ],
+      "hashtags": [
+        "SelfRespect",
+        "DilKiDiary",
+        "EmotionalStory",
+        "MentalPeace",
+        "HindiReels",
+        "Relatable",
+        "DeepThoughts",
+        "MovingOn",
+        "SelfLove",
+        "Shorts"
+      ],
+      "topic": "self respect",
+      "strategy_used": {
+        "topic": "self respect",
+        "emotion": "Empowered relief",
+        "hook_style": "Tangible digital habit",
+        "story_structure": "simple -> relatable -> twist",
+        "concept": "A realization moment when clearing out old notification settings or custom wallpapers previously set for someone special, realizing the screen looks better normal.",
+        "opening_direction": "जब फोन के वॉलपेपर से उसकी पसंद की वो तस्वीर हटाई,",
+        "twist_direction": "तब समझ आया कि स्क्रीन पर उसकी पसंद नहीं, मेरा फोन अब मेरा लग रहा है।",
+        "duration_seconds": 12,
+        "posting_window": "13:45 - 14:15 IST",
+        "reason": "Mid-day posting windows previously captured slight engagement bumps in historical items like AfaLxMy6FMY and rwOUYo_hayQ."
+      },
+      "model_used": "gemini-3.5-flash-lite"
     }
   ]
 }
