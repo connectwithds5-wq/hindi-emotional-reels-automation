@@ -2427,6 +2427,78 @@
         "reason": "Mid-day posting windows previously captured slight engagement bumps in historical items like AfaLxMy6FMY and rwOUYo_hayQ."
       },
       "model_used": "gemini-3.5-flash-lite"
+    },
+    {
+      "hook": "जब फॉलोअर्स की लंबी लिस्ट से उसका अकाउंट अनफॉलो किया,",
+      "lines": [
+        "लगा था आज दिल बहुत दुखेगा।",
+        "फोन की स्क्रीन खाली खाली लगने लगी।",
+        "सोचा था यादें फिर से परेशान करेंगी।",
+        "मगर उंगली हटते ही एक अजीब सा सुकून आया।",
+        "होम फीड को रिफ्रेश करके देखा,",
+        "वहां सिर्फ मेरी अपनी दुनिया थी।",
+        "खुद को खोने से बेहतर था, उसे जाने देना।"
+      ],
+      "youtube_title": "जब उसे अनफॉलो किया | Self Respect Status | Dil Ki Diary",
+      "youtube_description": "किसी को सोशल मीडिया से अनफॉलो करना हमेशा गुस्से में नहीं होता, कभी-कभी यह खुद की शांति और सेल्फ रिस्पेक्ट के लिए होता है। दिल की डायरी की इस कहानी में महसूस करें डिटैचमेंट की वो शांत ताकत। क्या आपने कभी खुद की खातिर किसी को जाने दिया है?",
+      "youtube_keywords": [
+        "self respect status",
+        "dil ki diary hindi story",
+        "emotional hindi micro story",
+        "unfollow someone for peace",
+        "self respect shorts",
+        "emotional reels hindi",
+        "detachment status",
+        "mental peace quotes hindi",
+        "dil ki diary reels",
+        "relatable hindi stories",
+        "self love status",
+        "boundaries in relationships hindi"
+      ],
+      "youtube_hashtags": [
+        "DilKiDiary",
+        "SelfRespect",
+        "EmotionalStory",
+        "MentalPeace",
+        "HindiReels",
+        "Relatable",
+        "DeepThoughts"
+      ],
+      "caption": "खुद को चुनना कोई बगावत नहीं, सुकून की तरफ पहला कदम है। 🤍",
+      "keywords": [
+        "self respect",
+        "dil ki diary",
+        "emotional story",
+        "hindi micro story",
+        "mental peace",
+        "detachment",
+        "relatable hindi",
+        "self worth"
+      ],
+      "hashtags": [
+        "DilKiDiary",
+        "SelfRespect",
+        "EmotionalStory",
+        "MentalPeace",
+        "HindiReels",
+        "Relatable",
+        "DeepThoughts",
+        "SelfLove"
+      ],
+      "topic": "self respect",
+      "strategy_used": {
+        "topic": "self respect",
+        "emotion": "Empowerment through detachment",
+        "hook_style": "Tactile digital micro-action",
+        "story_structure": "simple -> relatable -> twist",
+        "concept": "A realization that unfollowing someone on social media isn't an act of anger, but an act of reclaiming mental peace.",
+        "opening_direction": "जब फॉलोअर्स की लंबी लिस्ट से उसका अकाउंट अनफॉलो किया,",
+        "twist_direction": "लगा था दिल दुखेगा, पर सच तो यह है कि उस दिन होम फीड पर पहली बार सिर्फ अपनी जिंदगी नजर आई.",
+        "duration_seconds": 15,
+        "posting_window": "13:45 IST",
+        "reason": "Previous successful uploads (likerwOUYo_hayQ and AfaLxMy6FMY) around early afternoon (13:42 to 13:47 UTC/local adjustments) showed comparatively higher views."
+      },
+      "model_used": "gemini-3.5-flash-lite"
     }
   ]
 }
