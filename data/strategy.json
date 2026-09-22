@@ -1,35 +1,35 @@
 {
-  "confidence": "20%",
+  "confidence": "35%",
   "data_points": 28,
-  "overall_summary": "The channel heavily focuses on 'self respect' with low absolute view counts across all videos (ranging from 1 to 41 views). Because sample sizes are extremely small and engagement (likes/comments) is near zero, confidence in statistical patterns is low. However, mildly better performing hooks tend to leverage micro-interactions with mobile UI/notifications.",
+  "overall_summary": "The channel heavily focuses on 'self respect' and 'ओवरथिंकिंग' niches with real-life smartphone micro-moments (chats, pinned items, names). While view counts are generally low across the board (ranging from 3 to 41 views), content touching upon smartphone actions and digital boundary-setting (deleting chats, changing status, clearing storage) slightly outperforms ambiguous romantic longing. However, sample sizes and engagement (likes/comments) are too low to declare a definitive viral formula, requiring continued controlled experimentation.",
   "winning_patterns": [
     {
-      "pattern": "Digital UI Micro-Action Hooks",
-      "evidence": "Videos referencing specific digital actions like deleting chats, checking status lists, or removing pinned chats (e.g., AfaLxMy6FMY with 41 views, rwOUYo_hayQ with 41 views) perform marginally better than abstract statements.",
-      "action": "Continue focusing on micro-actions related to phone usage and digital boundaries, but vary the specific triggers to avoid repetition."
+      "pattern": "Smartphone-based micro-conflict hooks",
+      "evidence": "Videos like 'चैट डिलीट करने की हिम्मत' (41 views), 'Self Respect Status | Jab Aapko Fark Padhna Band Ho Jaaye' (32 views), and 'Self Respect Status Story' (41 views) perform better than abstract relationship musings.",
+      "action": "Continue focusing hooks on tangible phone actions like notification settings, clearing widgets, or gallery cleanups."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Repetitive Phone Book & Number Tropes",
-      "evidence": "Multiple videos about clearing contacts, emergency numbers, or typing names (e.g., hrjJ-QS9M8w, aNR94Xxn0yM, aUuNKfe7jm4) resulted in single-digit or low double-digit views.",
-      "action": "Shift away from contact lists and phone numbers for a while to explore other relatable digital and daily emotional spaces."
+      "pattern": "Abstract emotional or poetic concepts",
+      "evidence": "Videos like 'Jab Uska Special Ringtone Default Kiya' (3 views) and 'Read receipts off' (5 views) showed lower immediate traction compared to direct digital boundary actions.",
+      "action": "Avoid overly abstract or niche specific settings unless paired with a strong universal realization."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowering relief / Detachment",
-    "hook_style": "Sensory physical realization",
+    "emotion": "Empowerment through detachment",
+    "hook_style": "Tactile digital micro-action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Realizing that headphones don't carry their voice anymore because the playlist has finally been updated to exclude songs that remind you of them.",
-    "opening_direction": "जब शफल पर अचानक उसका पसंदीदा गाना बजा,",
-    "twist_direction": "उसे स्किप करने के बजाय, मैंने इस बार वो गाना हमेशा के लिए डिलीट कर दिया। अब दर्द नहीं, प्लेलिस्ट अपनी मर्जी से चलती है।",
-    "duration_seconds": 10,
-    "posting_window": "05:30 PM - 07:30 PM",
-    "reason": "Testing a shift away from contact/chat deletion hooks into media/playlist habits while staying firmly within the successful self-respect and digital detachment theme."
+    "concept": "A realization that unfollowing someone on social media isn't an act of anger, but an act of reclaiming mental peace.",
+    "opening_direction": "जब फॉलोअर्स की लंबी लिस्ट से उसका अकाउंट अनफॉलो किया,",
+    "twist_direction": "लगा था दिल दुखेगा, पर सच तो यह है कि उस दिन होम फीड पर पहली बार सिर्फ अपनी जिंदगी नजर आई.",
+    "duration_seconds": 15,
+    "posting_window": "13:45 IST",
+    "reason": "Previous successful uploads (likerwOUYo_hayQ and AfaLxMy6FMY) around early afternoon (13:42 to 13:47 UTC/local adjustments) showed comparatively higher views."
   },
-  "experiment": "Testing a non-chat digital habit hook (music playlist/shuffle) to see if it breaks the fatigue of contact/chat deletion videos.",
-  "updated_at": "2026-09-22T12:43:50.583321+00:00",
+  "experiment": "Testing an 'unfollowing/social media feed' hook instead of direct chat/messaging actions to see if the boundary-setting theme broadens engagement.",
+  "updated_at": "2026-09-22T13:40:44.129401+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-22T12:43:54.044960+00:00"
+  "generated_at": "2026-09-22T13:40:55.246682+00:00"
 }
