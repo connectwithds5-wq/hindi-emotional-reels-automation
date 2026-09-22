@@ -1,35 +1,35 @@
 {
-  "confidence": "40%",
+  "confidence": "30%",
   "data_points": 29,
-  "overall_summary": "The channel shows a strong preference for 'Self Respect' content linked to digital minimalism (deleting chats, removing numbers, muting). Performance is currently volatile; high-performing videos (41 views) focused on decisive actions, while recent content (1-2 views) suggests audience fatigue with the 'deleting digital traces' theme.",
+  "overall_summary": "The historical performance data shows very low view counts overall (mostly under 50 views, many in single digits). While 'self respect' is the dominant topic tested, view distribution is erratic with low engagement across the board. Because sample sizes and performance are universally low, confidence in absolute winning formulas is low, pointing to a need for controlled exploration of alternative emotional angles while refining hook crispness.",
   "winning_patterns": [
     {
-      "pattern": "Digital Decisiveness",
-      "evidence": "Videos like 'चैट डिलीट करने की हिम्मत' (41 views) and 'स्टेटस लिस्ट में सबसे ऊपर उन्हीं का नाम था' (41 views) performed best.",
-      "action": "Focus on the internal emotional shift rather than just the technical action of deleting."
+      "pattern": "Digital boundary actions for Self Respect",
+      "evidence": "Videos focusing on tangible phone actions like chat deletion, status list trimming, or unpinning chats (e.g., AfaLxMy6FMY with 41 views, rwOUYo_hayQ with 41 views) perform slightly better than abstract emotional concepts.",
+      "action": "Continue focusing on micro-actions related to digital clutter and modern dating boundaries."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Repetitive Digital Cleanup",
-      "evidence": "Recent videos focusing on 'wallpaper', 'unfollowing', and 'widgets' have dropped to 1-2 views, indicating the 'phone cleanup' trope is oversaturated.",
-      "action": "Pivot away from phone-based actions to real-world emotional realizations."
+      "pattern": "Abstract or passive late-night rumination hooks",
+      "evidence": "Videos with vague hooks like 'रात के दो बजे' (G0gKV1p3ZHc - 13 views) or 'मेज पर रखी चाय ठंडी हो गई' (uIbMpCjVutQ - 6 views) underperform significantly compared to concrete digital actions.",
+      "action": "Avoid purely atmospheric or passive openings; anchor every hook in a specific, relatable physical or digital micro-action."
     }
   ],
   "next_video": {
-    "topic": "अधूरी मोहब्बत",
-    "emotion": "Melancholy acceptance",
-    "hook_style": "Sensory observation",
+    "topic": "रिश्ते",
+    "emotion": "निर्णय और मुक्ति",
+    "hook_style": "डिजिटल आदत और दैनिक वस्तु से जुड़ा हुआ",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "The realization that a favorite song no longer hurts to hear.",
-    "opening_direction": "Start with the sound of a song playing in a cafe or public space that used to be 'ours'.",
-    "twist_direction": "Instead of skipping it or feeling pain, you realize you are humming along—not because you miss them, but because you've finally moved on.",
+    "concept": "जब हम किसी की पुरानी चैट या ईमेल के प्रिंट/स्क्रीनशॉट संभाल कर रखते हैं, और अचानक उन्हें हमेशा के लिए डिलीट करने का फैसला करते हैं।",
+    "opening_direction": "जब फोन की गैलरी में उसका फोल्डर 'Hidden' से बाहर निकाला,",
+    "twist_direction": "और इस बार उसे डिलीट करने से पहले आंखें नम नहीं हुईं, बल्कि एक अजीब सा सुकून मिला कि अब ये यादें सिर्फ डेटा हैं, जज़्बात नहीं।",
     "duration_seconds": 15,
-    "posting_window": "13:00 - 14:00 IST",
-    "reason": "After the saturation of 'phone-deleting' content, shifting to sensory/music-based triggers provides a fresh, relatable emotional arc that aligns with the 'Dil Ki Diary' brand."
+    "posting_window": "13:45 - 14:15",
+    "reason": "Testing a transition from pure self-respect chat deletions to a broader 'रिश्ते' (relationships) topic using the proven digital-cleanup hook style to see if the topic diversification lifts the view ceiling."
   },
-  "experiment": "Testing a shift from 'Digital Deletion' (Phone-based) to 'Emotional Acceptance' (Sensory-based) to combat content fatigue.",
-  "updated_at": "2026-09-22T17:38:25.029425+00:00",
-  "model_used": "gemini-3.1-flash-lite",
-  "generated_at": "2026-09-22T17:38:31.103348+00:00"
+  "experiment": "Testing if shifting the core topic from 'self respect' back to 'रिश्ते' while retaining the high-performing digital cleanup micro-action hook format improves overall reach.",
+  "updated_at": "2026-09-22T18:42:00.274135+00:00",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-09-22T18:42:13.061280+00:00"
 }
