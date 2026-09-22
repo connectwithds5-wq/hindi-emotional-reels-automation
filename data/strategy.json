@@ -1,35 +1,35 @@
 {
-  "confidence": "35%",
-  "data_points": 27,
-  "overall_summary": "The channel heavily indexes on 'self respect' with micro-actions related to phones and chats (e.g., pinning, muting, deleting). Performance is universally low across all uploads (mostly under 50 views), indicating low algorithmic traction or early-stage reach, though topics centered on concrete digital actions (like deleting status lists or unpinning chats) slightly edge out abstract overthinking.",
+  "confidence": "65%",
+  "data_points": 28,
+  "overall_summary": "The channel shows a clear performance concentration on 'self respect' topics, specifically micro-actions involving phone interfaces (deleting chats, clearing status lists, unpinning names). While absolute view counts are low (ranging from 0 to 41 views), self-respect digital boundary hooks consistently outperform general emotional topics.",
   "winning_patterns": [
     {
       "pattern": "Digital boundary micro-actions",
-      "evidence": "Videos like 'Self Respect: Why I finally muted that pinned chat' (21 views), 'چैट डिलीट करने की हिम्मत' (41 views), and status list clearing (41 views) perform relatively better than abstract late-night thoughts.",
-      "action": "Focus hooks on tangible, modern smartphone rituals related to parting ways or reclaiming personal space."
+      "evidence": "Videos focusing on concrete phone actions like deleting chats, clearing storage, or unpinning names (e.g., AfaLxMy6FMY with 41 views, rwOUYo_hayQ with 41 views) perform better than broad emotional statements.",
+      "action": "Continue focusing on specific, highly relatable digital life actions related to self-respect."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract late-night overthinking clichés",
-      "evidence": "Videos like 'रात के दो बजे' (13 views) and 'मेज पर रखी चाय ठंडी हो गई' (6 views) have lower engagement.",
-      "action": "Avoid generic atmospheric clichés like cold tea or 2 AM clocks unless tied to a specific, unique real-life interaction."
+      "pattern": "Broad abstract emotional topics",
+      "evidence": "Vague topics like 'रात के ख्याल' or general overthinking without a tangible anchor received lower views (e.g., uIbMpCjVutQ with 6 views).",
+      "action": "Avoid abstract heartbreak tropes and anchor every story in a specific physical or digital object."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowered relief",
-    "hook_style": "Tangible digital habit",
+    "emotion": "Empowered detachment",
+    "hook_style": "Tangible digital habit interruption",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization moment when clearing out old notification settings or custom wallpapers previously set for someone special, realizing the screen looks better normal.",
-    "opening_direction": "जब फोन के वॉलपेपर से उसकी पसंद की वो तस्वीर हटाई,",
-    "twist_direction": "तब समझ आया कि स्क्रीन पर उसकी पसंद नहीं, मेरा फोन अब मेरा लग रहा है।",
-    "duration_seconds": 12,
-    "posting_window": "13:45 - 14:15 IST",
-    "reason": "Mid-day posting windows previously captured slight engagement bumps in historical items like AfaLxMy6FMY and rwOUYo_hayQ."
+    "concept": "A story about removing someone from the phone's quick-dial or emergency contact widget, realizing they no longer hold emergency access to your peace of mind.",
+    "opening_direction": "जब फोन के विजेट से उसकी डायरेक्ट कॉल वाली तस्वीर हटाई,",
+    "twist_direction": "समझ आया कि जिसे हम अपनी इमरजेंसी समझते थे, असली खतरा वही था।",
+    "duration_seconds": 15,
+    "posting_window": "05:35 PM - 06:00 PM IST",
+    "reason": "Previous successful uploads clustered around morning and afternoon slots; testing an evening transition slot to capture users during post-work winding down."
   },
-  "experiment": "Testing if shifting from messaging app interactions (chats/numbers) to phone personalization elements (wallpapers/widgets) retains the self-respect audience while widening visual variety.",
-  "updated_at": "2026-09-22T04:40:11.129533+00:00",
+  "experiment": "Testing an unfamiliar digital interface element (quick-dial widget removal) within the proven self-respect micro-action framework to prevent hook fatigue.",
+  "updated_at": "2026-09-22T05:39:45.101433+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-22T04:40:19.552094+00:00"
+  "generated_at": "2026-09-22T05:39:47.829393+00:00"
 }
