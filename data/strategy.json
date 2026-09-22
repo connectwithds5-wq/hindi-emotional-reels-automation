@@ -1,29 +1,35 @@
 {
-  "confidence": "45%",
+  "confidence": "40%",
   "data_points": 29,
-  "overall_summary": "Current leader: Self Respect Status Story in Hindi | Dil Ki Diary with 41 views; sample size is still small, so this is directional.",
+  "overall_summary": "The channel shows a strong preference for 'Self Respect' content linked to digital minimalism (deleting chats, removing numbers, muting). Performance is currently volatile; high-performing videos (41 views) focused on decisive actions, while recent content (1-2 views) suggests audience fatigue with the 'deleting digital traces' theme.",
   "winning_patterns": [
     {
-      "pattern": "Highest observed views",
-      "evidence": "41 views on current leader",
-      "action": "Test a related emotional situation without copying the wording."
+      "pattern": "Digital Decisiveness",
+      "evidence": "Videos like 'चैट डिलीट करने की हिम्मत' (41 views) and 'स्टेटस लिस्ट में सबसे ऊपर उन्हीं का नाम था' (41 views) performed best.",
+      "action": "Focus on the internal emotional shift rather than just the technical action of deleting."
     }
   ],
-  "weak_patterns": [],
+  "weak_patterns": [
+    {
+      "pattern": "Repetitive Digital Cleanup",
+      "evidence": "Recent videos focusing on 'wallpaper', 'unfollowing', and 'widgets' have dropped to 1-2 views, indicating the 'phone cleanup' trope is oversaturated.",
+      "action": "Pivot away from phone-based actions to real-world emotional realizations."
+    }
+  ],
   "next_video": {
-    "topic": "self respect",
-    "emotion": "regret",
-    "hook_style": "curiosity",
+    "topic": "अधूरी मोहब्बत",
+    "emotion": "Melancholy acceptance",
+    "hook_style": "Sensory observation",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A familiar chat or notification reveals that the relationship has quietly changed.",
-    "opening_direction": "Start with one concrete digital-life detail.",
-    "twist_direction": "Reveal the emotional meaning in the final line.",
-    "duration_seconds": 10,
-    "posting_window": "7:00 PM IST test",
-    "reason": "Controlled baseline while more performance data accumulates."
+    "concept": "The realization that a favorite song no longer hurts to hear.",
+    "opening_direction": "Start with the sound of a song playing in a cafe or public space that used to be 'ours'.",
+    "twist_direction": "Instead of skipping it or feeling pain, you realize you are humming along—not because you miss them, but because you've finally moved on.",
+    "duration_seconds": 15,
+    "posting_window": "13:00 - 14:00 IST",
+    "reason": "After the saturation of 'phone-deleting' content, shifting to sensory/music-based triggers provides a fresh, relatable emotional arc that aligns with the 'Dil Ki Diary' brand."
   },
-  "experiment": "Test a fresh hook around a concrete digital-life moment.",
-  "updated_at": "2026-09-22T16:40:57.176524+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-22T16:40:57.176537+00:00"
+  "experiment": "Testing a shift from 'Digital Deletion' (Phone-based) to 'Emotional Acceptance' (Sensory-based) to combat content fatigue.",
+  "updated_at": "2026-09-22T17:38:25.029425+00:00",
+  "model_used": "gemini-3.1-flash-lite",
+  "generated_at": "2026-09-22T17:38:31.103348+00:00"
 }
