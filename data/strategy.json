@@ -1,35 +1,35 @@
 {
   "confidence": "20%",
   "data_points": 28,
-  "overall_summary": "Most videos have very low view counts (under 50 views), indicating low overall channel distribution or a cold start phase. However, 'self respect' topics with highly specific smartphone UI/UX removal hooks (like status lists, pinned chats, blue ticks) show slightly better comparative traction than generic emotional poetry.",
+  "overall_summary": "The channel heavily focuses on 'self respect' with low absolute view counts across all videos (ranging from 1 to 41 views). Because sample sizes are extremely small and engagement (likes/comments) is near zero, confidence in statistical patterns is low. However, mildly better performing hooks tend to leverage micro-interactions with mobile UI/notifications.",
   "winning_patterns": [
     {
-      "pattern": "Specific Smartphone UI/UX Relatable Triggers",
-      "evidence": "Videos like 'Jab Aapko Fark Padhna Band Ho Jaaye' (32 views) and 'Self Respect Status Story' (41 views) perform relatively better when focusing on micro-actions like status lists or chat lists.",
-      "action": "Continue focusing on micro-interactions on the phone screen related to boundaries and letting go."
+      "pattern": "Digital UI Micro-Action Hooks",
+      "evidence": "Videos referencing specific digital actions like deleting chats, checking status lists, or removing pinned chats (e.g., AfaLxMy6FMY with 41 views, rwOUYo_hayQ with 41 views) perform marginally better than abstract statements.",
+      "action": "Continue focusing on micro-actions related to phone usage and digital boundaries, but vary the specific triggers to avoid repetition."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Emotional Poetry without Tangible Objects",
-      "evidence": "Broad night thoughts or late-night abstract tea/room descriptions (e.g., 'रात के ख्याल', 'उप्म') have yielded single-digit or very low views (6-8 views).",
-      "action": "Avoid purely abstract concepts; anchor every emotional moment to a concrete physical or digital object."
+      "pattern": "Repetitive Phone Book & Number Tropes",
+      "evidence": "Multiple videos about clearing contacts, emergency numbers, or typing names (e.g., hrjJ-QS9M8w, aNR94Xxn0yM, aUuNKfe7jm4) resulted in single-digit or low double-digit views.",
+      "action": "Shift away from contact lists and phone numbers for a while to explore other relatable digital and daily emotional spaces."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment through detachment",
-    "hook_style": "Digital boundary action",
+    "emotion": "Empowering relief / Detachment",
+    "hook_style": "Sensory physical realization",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization moment when clearing out music playlists shared with an ex, replacing their curated songs with personal favorites.",
-    "opening_direction": "म्यूजिक ऐप की उस शेयर्ड प्लेलिस्ट को डिलीट करने की बारी आई...",
-    "twist_direction": "...और गानों के बदलते ही समझ आ गया, उसकी पसंद मेरी पसंद कभी थी ही नहीं।",
-    "duration_seconds": 12,
-    "posting_window": "05:35 PM - 05:45 PM",
-    "reason": "Testing a new digital artifact (Music Playlist/Shared Songs) outside of chat/call logs while maintaining the proven 'self respect' and smartphone interaction theme."
+    "concept": "Realizing that headphones don't carry their voice anymore because the playlist has finally been updated to exclude songs that remind you of them.",
+    "opening_direction": "जब शफल पर अचानक उसका पसंदीदा गाना बजा,",
+    "twist_direction": "उसे स्किप करने के बजाय, मैंने इस बार वो गाना हमेशा के लिए डिलीट कर दिया। अब दर्द नहीं, प्लेलिस्ट अपनी मर्जी से चलती है।",
+    "duration_seconds": 10,
+    "posting_window": "05:30 PM - 07:30 PM",
+    "reason": "Testing a shift away from contact/chat deletion hooks into media/playlist habits while staying firmly within the successful self-respect and digital detachment theme."
   },
-  "experiment": "Testing music playlist deletion as a fresh relatable trigger instead of messaging app features.",
-  "updated_at": "2026-09-22T11:39:58.910035+00:00",
+  "experiment": "Testing a non-chat digital habit hook (music playlist/shuffle) to see if it breaks the fatigue of contact/chat deletion videos.",
+  "updated_at": "2026-09-22T12:43:50.583321+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-22T11:40:01.999736+00:00"
+  "generated_at": "2026-09-22T12:43:54.044960+00:00"
 }
