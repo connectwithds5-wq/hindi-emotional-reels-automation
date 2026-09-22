@@ -1,35 +1,35 @@
 {
   "confidence": "20%",
   "data_points": 28,
-  "overall_summary": "The channel heavily relies on 'self respect' tech/phone-related interaction stories (chat unpinning, clearing storage, blocking, status updates). Views are generally low (single digits to low double digits), indicating early-stage traction and low sample size. Confidence is low as no single video has achieved breakout viral status, but micro-actions on phones consistently show slightly higher engagement compared to abstract emotional topics.",
+  "overall_summary": "Most videos have very low view counts (under 50 views), indicating low overall channel distribution or a cold start phase. However, 'self respect' topics with highly specific smartphone UI/UX removal hooks (like status lists, pinned chats, blue ticks) show slightly better comparative traction than generic emotional poetry.",
   "winning_patterns": [
     {
-      "pattern": "Digital boundary actions (Self Respect)",
-      "evidence": "Videos like 'Status list mein sabse upar' (41 views) and 'Chat delete karne ki himmat' (41 views) outperform abstract topics.",
-      "action": "Continue focusing on specific, tangible smartphone actions related to breaking ties or self-respect."
+      "pattern": "Specific Smartphone UI/UX Relatable Triggers",
+      "evidence": "Videos like 'Jab Aapko Fark Padhna Band Ho Jaaye' (32 views) and 'Self Respect Status Story' (41 views) perform relatively better when focusing on micro-actions like status lists or chat lists.",
+      "action": "Continue focusing on micro-interactions on the phone screen related to boundaries and letting go."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Late night abstract overthinking/tea tropes",
-      "evidence": "Videos like 'Table par rakhi chai thandi ho gayi' (6 views) and 'Ghanto se wo online dikh raha hai' (8 views) performed poorly.",
-      "action": "Reduce abstract atmospheric poetry and anchor stories in concrete daily rituals or phone interactions."
+      "pattern": "Abstract Emotional Poetry without Tangible Objects",
+      "evidence": "Broad night thoughts or late-night abstract tea/room descriptions (e.g., 'रात के ख्याल', 'उप्म') have yielded single-digit or very low views (6-8 views).",
+      "action": "Avoid purely abstract concepts; anchor every emotional moment to a concrete physical or digital object."
     }
   ],
   "next_video": {
     "topic": "self respect",
     "emotion": "Empowerment through detachment",
-    "hook_style": "Action-oriented micro-habit confession",
+    "hook_style": "Digital boundary action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A story about removing a custom notification sound assigned to a specific person back to the generic default tone, realizing peace is better than anticipation.",
-    "opening_direction": "जब उस एक इंसान के लिए कस्टमाइज़ किया हुआ साइलेंट वाइब्रेशन पैटर्न हमेशा के लिए बंद किया,",
-    "twist_direction": "तो पता चला कि फोन की खामोशियां अब डर नहीं, सुकून देती हैं।",
+    "concept": "A realization moment when clearing out music playlists shared with an ex, replacing their curated songs with personal favorites.",
+    "opening_direction": "म्यूजिक ऐप की उस शेयर्ड प्लेलिस्ट को डिलीट करने की बारी आई...",
+    "twist_direction": "...और गानों के बदलते ही समझ आ गया, उसकी पसंद मेरी पसंद कभी थी ही नहीं।",
     "duration_seconds": 12,
-    "posting_window": "05:35 PM - 07:45 PM IST",
-    "reason": "Aligns with successful phone-interaction self-respect hooks while testing a notification/audio angle instead of visual chats."
+    "posting_window": "05:35 PM - 05:45 PM",
+    "reason": "Testing a new digital artifact (Music Playlist/Shared Songs) outside of chat/call logs while maintaining the proven 'self respect' and smartphone interaction theme."
   },
-  "experiment": "Testing if shifting the phone interaction angle from visual elements (chats/blocks) to audio/sensory elements (notification tones/vibrations) improves retention.",
-  "updated_at": "2026-09-22T10:40:23.009782+00:00",
+  "experiment": "Testing music playlist deletion as a fresh relatable trigger instead of messaging app features.",
+  "updated_at": "2026-09-22T11:39:58.910035+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-22T10:40:25.774237+00:00"
+  "generated_at": "2026-09-22T11:40:01.999736+00:00"
 }
