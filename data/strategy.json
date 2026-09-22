@@ -1,35 +1,35 @@
 {
-  "confidence": "35%",
+  "confidence": "25%",
   "data_points": 28,
-  "overall_summary": "The channel heavily focuses on 'self respect' and smartphone-related micro-interactions (chats, names, blocks). While view counts are generally low (single digits to low 40s), themes around decisive self-respect actions (deleting chats, ending wait times) slightly outperform generic overthinking or deep night thoughts. However, due to low overall sample size and zero engagement (likes/comments), confidence remains low and controlled experimentation is required.",
+  "overall_summary": "The channel heavily relies on 'self respect' themes related to digital phone habits (blocking, deleting chats, hiding last seen). Overall views are low across the board (ranging from 0 to 41), indicating that while the repeatable pattern of tech-based boundaries generates slight traction, overall reach remains in a low-sample exploratory phase.",
   "winning_patterns": [
     {
-      "pattern": "Phone interface micro-actions for self-respect",
-      "evidence": "Videos like 'rwOUYo_hayQ' (41 views) and 'AfaLxMy6FMY' (41 views) perform better than average when tied to specific digital cleanup moments like status lists or chat deletions.",
-      "action": "Continue focusing short-form narratives around tactile smartphone UI actions representing emotional detachment."
+      "pattern": "Digital phone boundary hooks",
+      "evidence": "Videos focusing on concrete phone actions like status lists (rwOUYo_hayQ - 41 views) and chat deletion (AfaLxMy6FMY - 41 views) perform relatively better than abstract emotional concepts.",
+      "action": "Continue focusing on specific, highly relatable modern tech interactions related to self-respect."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Vague or abstract emotional hooks without a concrete anchor",
-      "evidence": "Videos like 'hT4EGP69mRw' (3 views) and 'c7epDdpUJis' (5 views) featuring softer or more generalized setups underperformed significantly.",
-      "action": "Avoid abstract emotional statements and anchor every hook in an immediate, recognizable physical action."
+      "pattern": "Abstract emotional or wallpaper changes",
+      "evidence": "Videos like 6KVEZc22kS8 (wallpaper change) got 0 views, and broader emotional topics like 'अधूरी मोहब्बत' or 'रात के ख्याल' show lower engagement in this dataset.",
+      "action": "Avoid abstract aesthetic changes and stick to tangible, high-tension digital cutoff points."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowered detachment",
-    "hook_style": "Tactile digital removal moment",
+    "emotion": "Empowerment through detachment",
+    "hook_style": "Concrete physical phone action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Removing someone from the phone's emergency or shortcut share sheet, realizing they no longer occupy the immediate circle of life.",
-    "opening_direction": "जब शेयर शीट खोलते ही सबसे ऊपर उसका नाम दिखा,",
-    "twist_direction": "इस बार उसे भेजने की बजाय, उस शॉर्टकट को हमेशा के लिए डिसेबल कर दिया—क्योंकि अब कुछ भी शेयर करने की वजह नहीं बची थी।",
-    "duration_seconds": 10,
-    "posting_window": "13:00 - 14:00 IST",
-    "reason": "Previous mid-day and early afternoon uploads (e.g., around 13:40 UTC/IST slots) captured some of the higher view counts in the dataset. Testing a fresh UI element (Share Sheet) keeps the winning digital cleanup theme alive without repeating exact phrases."
+    "concept": "Removing someone from the phone's auto-fill dictionary so their name stops popping up while typing.",
+    "opening_direction": "कीबोर्ड पर उसका नाम टाइप करते ही जब फोन ने खुद-ब-खुद पूरा नाम सजेशन में दिखा दिया,",
+    "twist_direction": "आज पहली बार सजेशन से उस शब्द को हमेशा के लिए डिलीट कर दिया; अब फोन भी उसका नाम नहीं जानता, और मुझे भी फर्क नहीं पड़ता।",
+    "duration_seconds": 15,
+    "posting_window": "13:45 IST",
+    "reason": "Tests a fresh digital interaction ('keyboard auto-fill dictionary') that builds directly on the successful phone-action pattern without repeating exact chat/status deletions."
   },
-  "experiment": "Testing a new digital touchpoint (Share Sheet shortcut) to see if smartphone UI-based self-respect hooks continue to hold relative attention over standard chat deletions.",
-  "updated_at": "2026-09-22T08:41:18.201836+00:00",
+  "experiment": "Testing whether a fresh digital boundary action (keyboard predictive text dictionary removal) outperforms chat/status deletion hooks.",
+  "updated_at": "2026-09-22T09:39:42.440303+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-22T08:41:21.516455+00:00"
+  "generated_at": "2026-09-22T09:39:45.533665+00:00"
 }
