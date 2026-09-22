@@ -1,35 +1,35 @@
 {
-  "confidence": "30%",
+  "confidence": "20%",
   "data_points": 29,
-  "overall_summary": "The historical performance data shows very low view counts overall (mostly under 50 views, many in single digits). While 'self respect' is the dominant topic tested, view distribution is erratic with low engagement across the board. Because sample sizes and performance are universally low, confidence in absolute winning formulas is low, pointing to a need for controlled exploration of alternative emotional angles while refining hook crispness.",
+  "overall_summary": "The channel heavily focuses on 'self respect' with short emotional narratives around digital interactions (chats, status lists, blocking, pinning). Overall views remain low across the board (mostly under 50), indicating low algorithmic distribution so far. Topics relating to specific tactile phone actions (status lists, unpinning, read receipts) combined with sharp, slightly higher view counts (e.g., 41 views on AfaLxMy6FMY and rwOUYo_hayQ) show slight relative traction in self-respect digital boundaries, though sample sizes are too small to declare definitive winners.",
   "winning_patterns": [
     {
-      "pattern": "Digital boundary actions for Self Respect",
-      "evidence": "Videos focusing on tangible phone actions like chat deletion, status list trimming, or unpinning chats (e.g., AfaLxMy6FMY with 41 views, rwOUYo_hayQ with 41 views) perform slightly better than abstract emotional concepts.",
-      "action": "Continue focusing on micro-actions related to digital clutter and modern dating boundaries."
+      "pattern": "Digital Boundary Actions",
+      "evidence": "Videos focusing on concrete phone interface choices like status viewers (rwOUYo_hayQ) and chat deletions (AfaLxMy6FMY) achieved the highest relative views (41 views).",
+      "action": "Continue utilizing highly specific everyday digital micro-actions as narrative anchors."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract or passive late-night rumination hooks",
-      "evidence": "Videos with vague hooks like 'रात के दो बजे' (G0gKV1p3ZHc - 13 views) or 'मेज पर रखी चाय ठंडी हो गई' (uIbMpCjVutQ - 6 views) underperform significantly compared to concrete digital actions.",
-      "action": "Avoid purely atmospheric or passive openings; anchor every hook in a specific, relatable physical or digital micro-action."
+      "pattern": "Generic Wallpaper/Widget Removals",
+      "evidence": "Very low views (1-2 views) on recent deep aesthetic removals like wallpapers (6KVEZc22kS8) and unfollowing (HMyw6blmGOc).",
+      "action": "Move away from abstract visual aesthetic changes and stick to immediate notification/chat-based interface moments."
     }
   ],
   "next_video": {
-    "topic": "रिश्ते",
-    "emotion": "निर्णय और मुक्ति",
-    "hook_style": "डिजिटल आदत और दैनिक वस्तु से जुड़ा हुआ",
+    "topic": "self respect",
+    "emotion": "Empowerment through detachment",
+    "hook_style": "Tactile notification action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "जब हम किसी की पुरानी चैट या ईमेल के प्रिंट/स्क्रीनशॉट संभाल कर रखते हैं, और अचानक उन्हें हमेशा के लिए डिलीट करने का फैसला करते हैं।",
-    "opening_direction": "जब फोन की गैलरी में उसका फोल्डर 'Hidden' से बाहर निकाला,",
-    "twist_direction": "और इस बार उसे डिलीट करने से पहले आंखें नम नहीं हुईं, बल्कि एक अजीब सा सुकून मिला कि अब ये यादें सिर्फ डेटा हैं, जज़्बात नहीं।",
+    "concept": "A short narrative about turning off pop-up notifications for a specific person, realizing the silence is no longer heavy, but liberating.",
+    "opening_direction": "जब स्क्रीन पर उसका नाम तैरते हुए पॉप-अप नोटिफिकेशन में आया,",
+    "twist_direction": "उसे म्यूट करने की बजाय, जब मैंने हमेशा के लिए उसके नोटिफिकेशन्स बंद किए, तो फोन नहीं, मेरा दिल शांत हो गया।",
     "duration_seconds": 15,
-    "posting_window": "13:45 - 14:15",
-    "reason": "Testing a transition from pure self-respect chat deletions to a broader 'रिश्ते' (relationships) topic using the proven digital-cleanup hook style to see if the topic diversification lifts the view ceiling."
+    "posting_window": "13:45 - 14:00 UTC",
+    "reason": "Leverages the proven micro-digital boundary pattern while slightly shifting the narrative angle away from just chats and status lists to push notifications."
   },
-  "experiment": "Testing if shifting the core topic from 'self respect' back to 'रिश्ते' while retaining the high-performing digital cleanup micro-action hook format improves overall reach.",
-  "updated_at": "2026-09-22T18:42:00.274135+00:00",
+  "experiment": "Testing pop-up notification settings as a hook instead of chat lists or blue ticks to diversify the digital boundary sub-niche.",
+  "updated_at": "2026-09-22T19:38:01.881265+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-22T18:42:13.061280+00:00"
+  "generated_at": "2026-09-22T19:38:05.159999+00:00"
 }
