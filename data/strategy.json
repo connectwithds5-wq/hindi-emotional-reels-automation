@@ -1,35 +1,35 @@
 {
-  "confidence": "25%",
+  "confidence": "45%",
   "data_points": 27,
-  "overall_summary": "Overall view counts are very low (mostly under 50 views), indicating low historical sample size and early-stage channel distribution. However, 'self respect' stories centered around modern smartphone habits (chats, read receipts, archiving) show slightly higher relative engagement and views (e.g., rwOUYo_hayQ, AfaLxMy6FMY, wFimeeP_aVc).",
+  "overall_summary": "View counts across all shorts are currently low (mostly under 50 views), indicating low historical baseline data and suggesting confidence is low. However, 'self respect' topics with highly tangible, specific digital actions (such as muting chats, removing pinned items, or dealing with block lists) marginally outperform abstract emotional concepts, though overall audience engagement is still in an exploratory phase.",
   "winning_patterns": [
     {
-      "pattern": "Smartphone-centric self-respect choices",
-      "evidence": "Videos like rwOUYo_hayQ (41 views) and AfaLxMy6FMY (41 views) focus on deleting chats or status lists.",
-      "action": "Continue focusing on micro-actions involving phone interfaces (blocking, muting, deleting) tied to self-respect."
+      "pattern": "Tangible digital boundary-setting hooks",
+      "evidence": "Videos focusing on specific UI actions like removing names from keyboards, status lists, or pinned chats (e.g., rwOUYo_hayQ with 41 views, AfaLxMy6FMY with 41 views, Y4finYMxnIU with 32 views) generate slightly higher baseline traction than abstract thoughts.",
+      "action": "Continue framing the 'self respect' narrative around physical or digital interface interactions that smartphone users perform daily."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Vague nighttime or abstract emotional hooks",
-      "evidence": "Videos like hT4EGP69mRw (3 views) and uIbMpCjVutQ (6 views) rely on vague poetic setups without a concrete real-life triggers.",
-      "action": "Avoid purely abstract poetry hooks; ground every story in a specific, highly relatable physical action or digital setting."
+      "pattern": "Abstract late-night or open-ended existential musings",
+      "evidence": "Topics like 'रात के ख्याल' and general 'ओवरथिंकिंग' without specific visual anchors (e.g., uIbMpCjVutQ with 6 views, WhJ-VwRa3Rg with 8 views) yield lower views.",
+      "action": "Avoid purely atmospheric or vague conceptual hooks; always anchor the emotion to a concrete everyday object or setting."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment through detachment",
-    "hook_style": "Digital micro-action trigger",
+    "emotion": "Empowering detachment",
+    "hook_style": "Tangible digital cleanup action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization moment when clearing out old contact suggestions or autofill search history on a phone app.",
-    "opening_direction": "When typing a random letter into the search bar and their name stops showing up first in autofill.",
-    "twist_direction": "Instead of feeling a pang of loss, you realize your phone has finally started forgetting them before your heart did.",
-    "duration_seconds": 10,
-    "posting_window": "05:30 AM - 07:00 AM IST",
-    "reason": "Early morning slots have historically captured reflection-heavy browsing sessions based on previous high-performing upload timings."
+    "concept": "Clearing out the shared cloud storage or trash folder where old photos of an ex were automatically backed up, realizing they no longer occupy space in your digital or mental life.",
+    "opening_direction": "जब फोन का स्टोरेज फुल होने पर ऑटो-बैपअप फोल्डर खुला,",
+    "twist_direction": "तो समझ आया कि जगह फोन की गैलरी में कम नहीं थी, दिल में उनकी यादों के लिए जो कचरा भर रखा था, उसे साफ करने की जरूरत थी।",
+    "duration_seconds": 15,
+    "posting_window": "05:30 PM - 07:00 PM",
+    "reason": "Leverages the proven high-performing 'digital housekeeping / self-respect' pattern while introducing a fresh physical metaphor (storage cleanup) to test outside of standard chat/block list hooks."
   },
-  "experiment": "Testing an autofill/search history micro-action instead of direct chat deletion to see if it broadens the 'self respect' topic appeal.",
-  "updated_at": "2026-09-21T23:38:53.295450+00:00",
+  "experiment": "Testing whether expanding from chat interfaces to broader phone storage/cloud maintenance maintains the high view baseline seen in self-respect digital cleanup videos.",
+  "updated_at": "2026-09-22T00:43:19.482002+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-21T23:38:56.276892+00:00"
+  "generated_at": "2026-09-22T00:43:22.376726+00:00"
 }
