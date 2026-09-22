@@ -1,35 +1,45 @@
 {
-  "confidence": "20%",
+  "confidence": "45%",
   "data_points": 29,
-  "overall_summary": "The channel heavily focuses on 'self respect' with short emotional narratives around digital interactions (chats, status lists, blocking, pinning). Overall views remain low across the board (mostly under 50), indicating low algorithmic distribution so far. Topics relating to specific tactile phone actions (status lists, unpinning, read receipts) combined with sharp, slightly higher view counts (e.g., 41 views on AfaLxMy6FMY and rwOUYo_hayQ) show slight relative traction in self-respect digital boundaries, though sample sizes are too small to declare definitive winners.",
+  "overall_summary": "Most videos show low sample sizes (under 50 views). However, the 'self respect' topic combined with specific smartphone interface actions (deleting chats, clearing storage, removing pinned messages) consistently achieves higher relative views compared to vague philosophical topics.",
   "winning_patterns": [
     {
-      "pattern": "Digital Boundary Actions",
-      "evidence": "Videos focusing on concrete phone interface choices like status viewers (rwOUYo_hayQ) and chat deletions (AfaLxMy6FMY) achieved the highest relative views (41 views).",
-      "action": "Continue utilizing highly specific everyday digital micro-actions as narrative anchors."
+      "pattern": "Actionable smartphone interface hooks",
+      "evidence": "Videos focusing on concrete phone actions like deleting chats (AfaLxMy6FMY), checking archive folders (W0ozRrwvigQ), or status lists (rwOUYo_hayQ) performed better (23-41 views).",
+      "action": "Continue focusing on micro-interactions with phone screens and messaging apps."
+    },
+    {
+      "pattern": "Self-respect narrative framing",
+      "evidence": "Viewers engage slightly more when emotional pain is reframed as choosing self-worth over waiting for a reply.",
+      "action": "Anchor stories on quiet personal boundaries rather than direct confrontation or anger."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Wallpaper/Widget Removals",
-      "evidence": "Very low views (1-2 views) on recent deep aesthetic removals like wallpapers (6KVEZc22kS8) and unfollowing (HMyw6blmGOc).",
-      "action": "Move away from abstract visual aesthetic changes and stick to immediate notification/chat-based interface moments."
+      "pattern": "Abstract late-night existential hooks",
+      "evidence": "Broad hooks like 'रात के दो बजे' (G0gKV1p3ZHc) or cold tea metaphors (uIbMpCjVutQ) received single-digit or very low views.",
+      "action": "Avoid generic atmospheric intros; always ground the opening in an immediate, recognizable digital trigger."
+    },
+    {
+      "pattern": "Overused phone number tropes",
+      "evidence": "Multiple variations involving changing ringtones or basic number saving have hit saturation with diminishing returns.",
+      "action": "Pivot away from ringtones and standard contact saving toward less-explored digital habits."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment through detachment",
-    "hook_style": "Tactile notification action",
+    "emotion": "quiet liberation",
+    "hook_style": "tangible digital habit",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short narrative about turning off pop-up notifications for a specific person, realizing the silence is no longer heavy, but liberating.",
-    "opening_direction": "जब स्क्रीन पर उसका नाम तैरते हुए पॉप-अप नोटिफिकेशन में आया,",
-    "twist_direction": "उसे म्यूट करने की बजाय, जब मैंने हमेशा के लिए उसके नोटिफिकेशन्स बंद किए, तो फोन नहीं, मेरा दिल शांत हो गया।",
+    "concept": "A realization that hits while clearing out the phone's gallery cache and stumbling upon hidden auto-downloaded media folders from an ex.",
+    "opening_direction": "Gallery app showing thousands of automatically synced, unwanted low-res photos.",
+    "twist_direction": "Instead of scrolling down to delete the good memories, clicking 'Select All' on the hidden dump folder because keeping clutter is no longer worth the mental space.",
     "duration_seconds": 15,
     "posting_window": "13:45 - 14:00 UTC",
-    "reason": "Leverages the proven micro-digital boundary pattern while slightly shifting the narrative angle away from just chats and status lists to push notifications."
+    "reason": "Previous successful uploads clustered around the early afternoon publishing window and utilized concrete phone cleanup metaphors."
   },
-  "experiment": "Testing pop-up notification settings as a hook instead of chat lists or blue ticks to diversify the digital boundary sub-niche.",
-  "updated_at": "2026-09-22T19:38:01.881265+00:00",
+  "experiment": "Testing an unexplored digital cleanup trigger (Gallery auto-download cache) instead of messaging app interfaces.",
+  "updated_at": "2026-09-22T20:40:07.410665+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-22T19:38:05.159999+00:00"
+  "generated_at": "2026-09-22T20:40:10.335294+00:00"
 }
