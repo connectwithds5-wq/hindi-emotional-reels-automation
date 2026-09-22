@@ -1,40 +1,35 @@
 {
-  "confidence": "65%",
+  "confidence": "20%",
   "data_points": 29,
-  "overall_summary": "Data shows that 'self respect' topics combined with tactile, highly relatable digital/phone interaction hooks (like clearing status lists, deleting chats, or unpinning names) generate the highest repeatable views (averaging 25-41 views per short). Purely abstract emotional or late-night thoughts underperform compared to concrete actions of self-worth.",
+  "overall_summary": "View counts across all 29 Shorts remain extremely low (peak 41 views), indicating the channel is in early algorithmic testing. While 'self respect' themes slightly outperform other topics in peak views (30-40 views range), overall sample size and engagement are too small for statistically high confidence. Strategic focus should be on refining strong real-life digital micro-moments while introducing controlled experiments in unexplored core channel topics.",
   "winning_patterns": [
     {
-      "pattern": "Tactile Phone/Digital Action Hooks",
-      "evidence": "Videos like 'स्टेटस लिस्ट में सबसे ऊपर उन्हीं का नाम था' (41 views), 'ब्लू टिक्स आज छिपा दिए' (34 views), and 'उंगली उसी चैट पर रुकी थी' (41 views) outperform abstract statements.",
-      "action": "Use specific, physical smartphone actions as hooks (e.g., muting notifications, clearing history, removing widgets) to instantly anchor viewer imagination."
-    },
-    {
-      "pattern": "Self-Respect Empowerment Twist",
-      "evidence": "Viewers heavily engage with content shifting from victimhood of unrequited love to active self-preservation and peace ('खुद को चुनना भी एक कला है').",
-      "action": "Ensure the narrative moves from an initial moment of temptation or longing to a definitive, empowering boundary set by the protagonist."
+      "pattern": "Digital boundary-setting hooks around active phone actions",
+      "evidence": "Titles featuring deleting chats, status updates, or unpinning numbers ('AfaLxMy6FMY', 'rwOUYo_hayQ', 'wFimeeP_aVc') reached the higher end of channel distribution (34-41 views).",
+      "action": "Double down on recognizable, everyday smartphone interactions as visual/narrative catalysts."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Vague Late-Night Philosophical Openings",
-      "evidence": "Hooks like 'रात के दो बजे' (13 views) or 'मेज पर रखी चाय ठंडी हो गई' (6 views) show lower traction on this channel compared to sharp digital UI actions.",
-      "action": "Avoid generic atmospheric intros; ground every story in an immediate, recognizable everyday artifact or setting."
+      "pattern": "Over-saturation of repetitive self-respect micro-actions without fresh stakes",
+      "evidence": "Recent self-respect videos ('6KVEZc22kS8', 'HMyw6blmGOc', 'LBGCloAitok') experienced steep drop-offs (1-4 views), showing diminishing return on identical framing.",
+      "action": "Pivot topic to untested high-emotion themes like 'अधूरी मोहब्बत' or 'जो कहना रह गया' to refresh audience interest."
     }
   ],
   "next_video": {
-    "topic": "self respect",
-    "emotion": "empowering relief",
-    "hook_style": "phone notification action",
+    "topic": "जो कहना रह गया",
+    "emotion": "Bittersweet nostalgia",
+    "hook_style": "Relatable modern digital behavior",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short about disabling lock-screen preview notifications so their name stops flashing unexpectedly on a busy day, leading to instant mental freedom.",
-    "opening_direction": "जब लॉक स्क्रीन पर अचानक उसका नाम चमकना बंद हुआ,",
-    "twist_direction": "पर्दे पर जलने वाली वो लाइट अब मुझे बेचैन नहीं करती, फोन खामोश जरूर है पर दिल पहली बार शोर से आज़ाद है।",
-    "duration_seconds": 15,
-    "posting_window": "13:00 - 14:00 IST",
-    "reason": "午A1-slot midday posting historically captured higher viewership peaks (similar to W0ozRrwvigQ and AfaLxMy6FMY published around 13:45)."
+    "concept": "Finding an unsent voice note in a draft chat from months ago.",
+    "opening_direction": "Show a recorded 42-second voice note sitting in an unsent chat draft.",
+    "twist_direction": "Instead of sending it, the speaker hits delete, realizing the person who needed to hear it no longer exists in their present life.",
+    "duration_seconds": 35,
+    "posting_window": "13:30 - 14:00 UTC",
+    "reason": "13:30-14:00 UTC consistently captured the channel's top views (30-41 views). Testing 'जो कहना रह गया' expands topic diversity beyond repetitive self-respect angles."
   },
-  "experiment": "Testing if shifting from in-app chat actions (deleting/unpinning) to OS-level notification controls (lock screen previews) maintains high engagement for self-respect content.",
-  "updated_at": "2026-09-22T22:38:40.836533+00:00",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-22T22:38:44.527217+00:00"
+  "experiment": "Testing topic diversification into 'जो कहना रह गया' using unsent audio drafts as the visual micro-moment.",
+  "updated_at": "2026-09-22T23:37:42.334953+00:00",
+  "model_used": "gemini-3.6-flash",
+  "generated_at": "2026-09-22T23:39:08.386154+00:00"
 }
