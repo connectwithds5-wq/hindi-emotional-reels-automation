@@ -1,40 +1,35 @@
 {
-  "confidence": "20%",
+  "confidence": "30%",
   "data_points": 31,
-  "overall_summary": "Data volume is very low across most standard emotional shorts, with a massive outlier on a family/mother-centric topic ('Maa Shayari' video id OfHrAp3r1G8 with 181 views) compared to the core 'self respect' and 'overthinking' niches which underperformed (0-41 views). Confidence is low due to limited sample size and skewed performance toward a non-core experimental outlier.",
+  "overall_summary": "Most self-respect and digital detachment Shorts generated low views (0-41 range), except for an outlier outlier about a mother ('माँ जब पूछती है') which hit 193 views. However, sticking to the core channel topic of digital boundaries ('self respect') shows repeatable baseline engagement compared to experimental topics.",
   "winning_patterns": [
     {
-      "pattern": "Universal Family / Mother Emotional Connection",
-      "evidence": "Video 'OfHrAp3r1G8' about a mother asking 'Khana khaya?' achieved 181 views and 17 likes, vastly outperforming all romantic/self-respect content.",
-      "action": "Reserve a small experiment budget to test parent-child emotional bonds alongside core romantic self-respect themes."
-    },
-    {
-      "pattern": "Tangible Digital Micro-Habits (Self Respect)",
-      "evidence": "Videos focusing on specific phone actions like clearing chat lists or removing pinned items (e.g., video rwOUYo_hayQ, AfaLxMy6FMY) garnered 41 views, outperforming abstract hooks.",
-      "action": "Continue utilizing highly specific, relatable digital actions for self-respect content when staying in the core niche."
+      "pattern": "Digital micro-actions as a metaphor for self-worth",
+      "evidence": "Videos like 'rwOUYo_hayQ' (41 views) and 'AfaLxMy6FMY' (41 views) focused on removing names from status lists or deleting chats.",
+      "action": "Continue utilizing micro-digital habits (like clearing app histories, blocking, or changing settings) as hooks for emotional self-respect."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract or Niche Digital Actions",
-      "evidence": "Videos about removing shared streaming profiles or unfollowing long lists (e.g., cuKSS0gHyt0, HMyw6blmGOc) dropped to 0-2 views.",
-      "action": "Avoid overly niche or complicated digital boundary actions that fail to resonate broadly."
+      "pattern": "Generic abstract emotional statements without a physical action hook",
+      "evidence": "Videos with vague hooks like '6KVEZc22kS8' (1 view) or 'cuKSS0gHyt0' (0 views) underperformed severely.",
+      "action": "Avoid abstract philosophical intros; ground every story in an immediate, tactile digital or physical object."
     }
   ],
   "next_video": {
-    "topic": "रिश्ते",
-    "emotion": "Nostalgia and unconditional love",
-    "hook_style": "Simple real-life parent-child interaction detail",
+    "topic": "self respect",
+    "emotion": "empowering detachment",
+    "hook_style": "tactile digital action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short emotional story about finding an old tiffin box or a forgotten note packed by a mother during hostel or school days, contrasting temporary romantic heartbreak with permanent parental love.",
-    "opening_direction": "जब स्कूल बैग के सबसे नीचे से वो पुराना टिफिन पेपर निकला,",
-    "twist_direction": "जिस पर मां की हाथ से लिखी 'जल्दी खा लेना' पर्ची थी, तब समझ आया कि दुनिया बदल गई पर फिक्र आज भी वही है।",
-    "duration_seconds": 30,
-    "posting_window": "08:00 AM - 10:00 AM IST",
-    "reason": "Leverages the high-performing mother/family emotional outlier pattern (OfHrAp3r1G8) while maintaining the channel's diary-like emotional storytelling format."
+    "concept": "A short story about removing someone from a shared travel or food delivery app family plan, realizing that saving money and peace of mind matters more than keeping shared subscriptions alive.",
+    "opening_direction": "जब फूड ऐप के फैमिली प्लान से उसका नाम अलग किया,",
+    "twist_direction": "पैसे बचाने की फिक्र नहीं थी, बस उस कॉमन ऑर्डर हिस्ट्री को और नहीं देखना था।",
+    "duration_seconds": 12,
+    "posting_window": "05:35 PM - 08:00 PM",
+    "reason": "Tests a fresh digital boundary concept (subscription/app sharing) that hasn't been overdone, maintaining the winning 'self respect' digital footprint pattern while expanding beyond chat apps."
   },
-  "experiment": "Testing if expanding slightly from core romantic self-respect into broader relational/family emotional triggers (like motherly care) can replicate the high-view outlier performance.",
-  "updated_at": "2026-09-23T20:39:23.326422+00:00",
+  "experiment": "Testing a non-chat digital ecosystem micro-action (shared subscription/app plan removal) for self-respect.",
+  "updated_at": "2026-09-23T21:39:14.441705+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-23T20:39:26.774729+00:00"
+  "generated_at": "2026-09-23T21:39:19.196226+00:00"
 }
