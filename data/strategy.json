@@ -1,35 +1,35 @@
 {
   "confidence": "25%",
   "data_points": 29,
-  "overall_summary": "The channel heavily relies on 'self respect' smartphone and digital-detox micro-moments (chat pins, storage clear, status lists). While volume is consistent, absolute views remain low (mostly under 50 views), indicating low statistical significance and a need for broader audience reach or sharper hooks. Topics like 'रिश्ते' and 'ओवरथिंकिंग' show comparable baseline engagement when they focus on digital micro-habits, but data is too sparse to definitively crown a single winner.",
+  "overall_summary": "Channel overall views are extremely low across the board (under 50 views per video), indicating low initial algorithmic pickup. However, 'self respect' and digital-age interface actions (chats, status lists, pinned messages) consistently pull slightly better numbers than abstract emotional topics.",
   "winning_patterns": [
     {
-      "pattern": "Digital artifact triggers",
-      "evidence": "Videos focusing on concrete phone actions like deleting chat lists (e.g., rwOUYo_hayQ with 41 views, AfaLxMy6FMY with 41 views) perform relatively better than abstract emotional concepts.",
-      "action": "Continue anchoring emotional self-respect moments to tangible modern smartphone interactions."
+      "pattern": "Digital interface detachment",
+      "evidence": "Videos focusing on specific phone interactions like 'list se uska naam hatane se pehle' or 'blue ticks' get relative highs (~32-41 views).",
+      "action": "Continue focusing on micro-actions related to smartphone UI and modern detachment."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Vague or overly poetic hooks",
-      "evidence": "Videos starting with general statements or poetic setups without a concrete physical trigger (e.g., 6KVEZc22kS8 with 1 view, hT4EGP69mRw with 3 views) suffer from drop-offs.",
-      "action": "Avoid abstract phrasing; ground every hook in an immediate, recognizable physical action within the first 2 seconds."
+      "pattern": "Abstract emotional monologues",
+      "evidence": "Vague topics like 'ओवरथिंकिंग' or 'रात के ख्याल' with slow openings get low traction (e.g., WhJ-VwRa3Rg with 8 views).",
+      "action": "Avoid generic late-night atmospheric openings; tie every emotion immediately to a physical tangible action."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowered detachment",
-    "hook_style": "Tangible tech action hook",
+    "emotion": "Empowerment through letting go",
+    "hook_style": "Tangible digital action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short narrative about turning off read receipts or clearing a specific contact's custom notification sound, moving from the anxiety of waiting for a reply to the profound quiet of no longer caring.",
-    "opening_direction": "जब फोन की सेटिंग्स में जाकर उसका 'लास्ट सीन' हमेशा के लिए हाइड किया...",
-    "twist_direction": "...तो पता चला कि बेचैनी उसका स्टेटस देखने में नहीं, उसे छुपाने में खत्म होती है।",
-    "duration_seconds": 12,
-    "posting_window": "05:30 PM - 07:00 PM IST",
-    "reason": "Tests a slight variation of the successful digital-detox self-respect pattern during early evening high-engagement hours while maintaining a grounded, relatable narrative arc."
+    "concept": "Removing someone from the Wi-Fi connected devices list or shared smart home/streaming profile.",
+    "opening_direction": "जब उस एक पुरानी सीरीज़ के अकाउंट से उसका प्रोफाइल रिमूव किया,",
+    "twist_direction": "पासवर्ड बदलने की जरूरत तब पड़ी जब समझ आया कि अब उसका देखना और मेरा देखना अलग हो चुका है।",
+    "duration_seconds": 15,
+    "posting_window": "13:45 PM IST",
+    "reason": "Mid-day publishing slots around 1:45 PM historically aligned with slight metric bumps in earlier uploads."
   },
-  "experiment": "Testing if shifting the digital artifact focus from clearing history to privacy settings (Read Receipts/Last Seen toggle) yields higher retention and view counts compared to standard chat deletion.",
-  "updated_at": "2026-09-23T03:40:45.927810+00:00",
+  "experiment": "Testing a fresh digital-detachment artifact (Streaming/Subscription profile sharing) instead of chat apps to fight repetitive opening fatigue.",
+  "updated_at": "2026-09-23T04:40:43.019473+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-23T03:40:48.844378+00:00"
+  "generated_at": "2026-09-23T04:40:49.725384+00:00"
 }
