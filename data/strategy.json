@@ -1,40 +1,35 @@
 {
   "confidence": "20%",
   "data_points": 31,
-  "overall_summary": "Most core romantic/self-respect and chat-deletion themes received low views (under 50), except for an un-targeted outlier about a mother ('Maa Shayari') that hit 130 views. Since sample sizes are universally small and viewership is low, confidence is low, and we should balance repeating our most stable niche (digital self-respect) while budgeting a small experiment.",
+  "overall_summary": "Most videos show low single-digit to double-digit views, indicating the channel is in early testing stages with limited distribution. However, a slight outlier outside the main niche (Maa Shayari at 156 views) outperformed the core self-respect digital-cleanup niche, though sample sizes are too small to declare a definitive niche shift. Core content heavily relies on repetitive digital cleanup hooks (chats, archives, block lists) which may be fatiguing the current audience.",
   "winning_patterns": [
     {
-      "pattern": "Digital self-respect and clearing phone data",
-      "evidence": "Videos like 'rwOUYo_hayQ' (41 views) and 'AfaLxMy6FMY' (41 views) perform relatively better within the core niche than generic relationship quotes.",
-      "action": "Continue focusing on micro-actions of digital letting-go (e.g., clearing playlists, blocking, removing digital access)."
-    },
-    {
-      "pattern": "Universal emotional triggers outside romantic heartbreak",
-      "evidence": "The Maa-focused short ('OfHrAp3r1G8') outperformed the entire romantic/self-respect catalog organically with 130 views.",
-      "action": "Reserve a small experiment budget to test family/universal emotional bonds."
+      "pattern": "Universal emotional triggers beyond romantic heartbreak",
+      "evidence": "The Maa-related video (OfHrAp3r1G8) achieved 156 views and 16 likes, significantly higher than the average 10-20 views of technical digital-cleanup posts.",
+      "action": "Reserve a small experiment budget to test broader emotional pillars (like family or unconditional bonds) alongside the core self-respect content."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Over-saturated micro-gestures without a strong visual hook",
-      "evidence": "Many variations regarding chat pinning, ringtones, and keyboard names yielded single-digit or low double-digit views (e.g., hT4EGP69mRw with 3 views).",
-      "action": "Avoid redundant chat-deletion metaphors for a bit; pivot to physical items or unread physical spaces."
+      "pattern": "Repetitive digital cleanup hooks",
+      "evidence": "Multiple consecutive videos about deleting chats, archive folders, and keyboards (e.g., W0ozRrwvigQ, aqzDPbQVnb0, djEm2iCAfqw) yielded low engagement and flat view counts (under 30 views).",
+      "action": "Avoid recycling the exact same smartphone/app cleanup metaphors back-to-back; diversify physical and mental markers of self-respect."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowering relief / Bittersweet closure",
-    "hook_style": "Physical object disposal instead of phone screen actions",
+    "emotion": "quiet strength and moving on",
+    "hook_style": "Real-life tactile moment",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Throwing away a physical gift or a shared ticket stub that was kept in a drawer for years, realizing the memories no longer hold power.",
-    "opening_direction": "दराज के सबसे कोने से जब वो पुरानी पर्ची बाहर निकाली,",
-    "twist_direction": "तब समझ आया कि जिसे संभाल कर रखा था, वो यादें नहीं सिर्फ एक पुराना भ्रम था।",
-    "duration_seconds": 15,
-    "posting_window": "08:00 AM - 10:00 AM IST",
-    "reason": "Tests a physical-world metaphor instead of digital phone screens, matching the slight outperformance of tangible emotional touchpoints."
+    "concept": "A short emotional piece about changing the physical arrangement of a room or desk to remove reminders of someone, leading to an unexpected sense of personal freedom.",
+    "opening_direction": "जब कमरे की इस खाली दीवार से उसकी लगाई हुई वो घड़ी हटाई,",
+    "twist_direction": "तब समझ आया कि दीवार खाली नहीं हुई, बल्कि जीने की जगह वापस मिल गई।",
+    "duration_seconds": 10,
+    "posting_window": "08:00 AM - 09:00 AM",
+    "reason": "Testing a physical space metaphor instead of a digital screen/phone metaphor to break the repetitive digital cleanup fatigue while staying within the core self-respect niche."
   },
-  "experiment": "Testing a physical-world emotional trigger (drawer/gifts) instead of digital phone interactions to break repetition fatigue.",
-  "updated_at": "2026-09-23T14:41:47.731535+00:00",
+  "experiment": "Testing a physical room/decor metaphor for self-respect instead of smartphone/digital cleanup hooks to see if it improves retention and engagement.",
+  "updated_at": "2026-09-23T15:41:13.879552+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-23T14:42:05.691595+00:00"
+  "generated_at": "2026-09-23T15:42:42.046860+00:00"
 }
