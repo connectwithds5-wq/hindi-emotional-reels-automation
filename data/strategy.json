@@ -1,45 +1,40 @@
 {
-  "confidence": "30%",
+  "confidence": "20%",
   "data_points": 31,
-  "overall_summary": "Most core self-respect and chat-deletion shorts are getting low single-digit to low double-digit views, but an outlier experiment about a mother ('माँ जब पूछती है') significantly outperformed everything else (136 views). However, since the primary niche is heartbreak/self-respect, we need to balance repeatable core topics with controlled exploration of universal emotional bonds.",
+  "overall_summary": "Most core romantic/self-respect and chat-deletion themes received low views (under 50), except for an un-targeted outlier about a mother ('Maa Shayari') that hit 130 views. Since sample sizes are universally small and viewership is low, confidence is low, and we should balance repeating our most stable niche (digital self-respect) while budgeting a small experiment.",
   "winning_patterns": [
     {
-      "pattern": "Universal Relatable Emotional Trigger",
-      "evidence": "The Mother-focused video ('माँ जब पूछती है') hit 136 views, which is nearly 4x the highest self-respect video.",
-      "action": "Reserve a small experiment budget for emotional bonds outside romance, like family or unspoken parental care."
+      "pattern": "Digital self-respect and clearing phone data",
+      "evidence": "Videos like 'rwOUYo_hayQ' (41 views) and 'AfaLxMy6FMY' (41 views) perform relatively better within the core niche than generic relationship quotes.",
+      "action": "Continue focusing on micro-actions of digital letting-go (e.g., clearing playlists, blocking, removing digital access)."
     },
     {
-      "pattern": "Digital/Phone-based Micro-Habit Hooks",
-      "evidence": "Videos focusing on chat deletion, status lists, and blocking (e.g., rwOUYo_hayQ with 41 views, AfaLxMy6FMY with 41 views) perform better than abstract relationship rants.",
-      "action": "Continue anchoring the core heartbreak/self-respect stories to specific, hyper-relatable smartphone actions."
+      "pattern": "Universal emotional triggers outside romantic heartbreak",
+      "evidence": "The Maa-focused short ('OfHrAp3r1G8') outperformed the entire romantic/self-respect catalog organically with 130 views.",
+      "action": "Reserve a small experiment budget to test family/universal emotional bonds."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Overused digital UI hooks",
-      "evidence": "Recent shorts using very similar UI actions like changing wallpapers, unfollowing, or streaming account profile removal dropped to 0-2 views due to fatigue or timing.",
-      "action": "Avoid repeating exact digital triggers like 'unfollowing' or 'changing wallpaper' back-to-back; shift to offline physical micro-moments."
-    },
-    {
-      "pattern": "Vague nighttime/loneliness tropes without a concrete action",
-      "evidence": "Abstract hooks like 'रात के दो बजे' or 'मेज पर रखी चाय' yielded lower views (6 to 13 views).",
-      "action": "Always pair nocturnal feelings with a physical, tangible object or action."
+      "pattern": "Over-saturated micro-gestures without a strong visual hook",
+      "evidence": "Many variations regarding chat pinning, ringtones, and keyboard names yielded single-digit or low double-digit views (e.g., hT4EGP69mRw with 3 views).",
+      "action": "Avoid redundant chat-deletion metaphors for a bit; pivot to physical items or unread physical spaces."
     }
   ],
   "next_video": {
-    "topic": "अकेलापन",
-    "emotion": "Nostalgia and quiet heartbreak",
-    "hook_style": "Physical object trigger",
+    "topic": "self respect",
+    "emotion": "Empowering relief / Bittersweet closure",
+    "hook_style": "Physical object disposal instead of phone screen actions",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Finding an old train ticket or boarding pass in the pocket of an old jacket and realizing the person you traveled with is now just a stranger.",
-    "opening_direction": "पुरानी जैकेट की जेब से जब वो पुराना ट्रेन टिकट निकला,",
-    "twist_direction": "तब समझ आया कि सफर वही खत्म हो चुका था, बस हम ही ट्रेन से उतरना भूल गए थे।",
+    "concept": "Throwing away a physical gift or a shared ticket stub that was kept in a drawer for years, realizing the memories no longer hold power.",
+    "opening_direction": "दराज के सबसे कोने से जब वो पुरानी पर्ची बाहर निकाली,",
+    "twist_direction": "तब समझ आया कि जिसे संभाल कर रखा था, वो यादें नहीं सिर्फ एक पुराना भ्रम था।",
     "duration_seconds": 15,
-    "posting_window": "05:30 PM - 08:00 PM",
-    "reason": "Testing a shift from digital/phone screen tropes to a physical, tactile real-life object ('old train ticket') to break pattern fatigue while staying strictly within the emotional loneliness and lost connection niche."
+    "posting_window": "08:00 AM - 10:00 AM IST",
+    "reason": "Tests a physical-world metaphor instead of digital phone screens, matching the slight outperformance of tangible emotional touchpoints."
   },
-  "experiment": "Testing physical nostalgic objects (train ticket/pocket items) instead of digital smartphone UI actions to combat hook fatigue.",
-  "updated_at": "2026-09-23T13:40:57.804817+00:00",
+  "experiment": "Testing a physical-world emotional trigger (drawer/gifts) instead of digital phone interactions to break repetition fatigue.",
+  "updated_at": "2026-09-23T14:41:47.731535+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-23T13:41:26.203470+00:00"
+  "generated_at": "2026-09-23T14:42:05.691595+00:00"
 }
