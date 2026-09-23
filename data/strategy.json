@@ -1,35 +1,35 @@
 {
-  "confidence": "25%",
+  "confidence": "45%",
   "data_points": 30,
-  "overall_summary": "The channel heavily focuses on 'self respect' with repetitive digital micro-moments (chats, blocks, lists). While absolute view counts are low (ranging from 0 to 41 views), slightly higher performers (30-41 views) like 'rwOUYo_hayQ', 'wFimeeP_aVc', and 'AfaLxMy6FMY' lean into decisive, boundary-setting moments. Confidence remains low due to sparse engagement (likes/comments), requiring a controlled expansion into adjacent emotional triggers while keeping the winning micro-moment structure.",
+  "overall_summary": "The channel heavily focuses on 'self respect' and digital/phone interactions (chat deletion, muting, removing numbers). While views are generally low across the board, content involving explicit digital actions related to self-respect (like chat list placement and blocking/deleting) shows slightly better relative traction compared to abstract emotional topics.",
   "winning_patterns": [
     {
-      "pattern": "Decisive digital boundary setting",
-      "evidence": "Videos focusing on concrete action like clearing status lists (rwOUYo_hayQ - 41 views), removing read receipts (wFimeeP_aVc - 34 views), or status restrictions (8tBTO2WCWg4 - 29 views) perform better relative to the channel average.",
-      "action": "Continue focusing on micro-interactions with phones, but vary the specific application or UI element beyond just chats and numbers."
+      "pattern": "Digital Boundary Actions",
+      "evidence": "Videos like 'चैट डिलीट करने की हिम्मत' (41 views) and 'स्टेटस लिस्ट में सबसे ऊपर उन्हीं का नाम था' (41 views) perform better than abstract relationship posts.",
+      "action": "Focus hooks on tangible smartphone boundary actions (pinning, clearing, muting, archiving)."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Hyper-repetitive digital framing",
-      "evidence": "Recent consecutive uploads focusing on obscure digital items (like streaming profiles or widgets in cuKSS0gHyt0, 6KVEZc22kS8) yielded near-zero views (0-2 views), showing audience fatigue with overly complex or niche app features.",
-      "action": "Step back from hyper-niche app features and return to universally understood physical or emotional habits tied to relationships."
+      "pattern": "Overly Abstract Late-Night Monologues",
+      "evidence": "Videos like 'जब रात गहरी होती है, तो चाय ठंडी हो जाती है' (6 views) and phone wallpaper removal with generic phrasing (1 view) underperform significantly.",
+      "action": "Avoid generic poetic metaphors about tea or weather; stick to modern micro-habits of smartphone users."
     }
   ],
   "next_video": {
-    "topic": "रिश्ते",
-    "emotion": "नस्टैल्जिया और खुद की अहमियत",
-    "hook_style": "PHYSICAL_ACTION",
+    "topic": "self respect",
+    "emotion": "Empowered detachment",
+    "hook_style": "Tangible notification setting change",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "जब अलमारी साफ करते वक्त उसका दिया हुआ पुराना गिफ्ट या खत मिला, और बिना पढ़े सीधे कबाड़ के डिब्बे में डाल दिया।",
-    "opening_direction": "अलमारी के कोने से वो पुराना गिफ्ट बॉक्स हाथ में आया...",
-    "twist_direction": "...सोचा था खोलकर आखिरी बार पुरानी खुशबू देखूंगा, पर ढक्कन खोले बिना ही उसे कबाड़ के डिब्बे में रख दिया। कुछ यादों को संभालना नहीं, भूल जाना ही असली तोहफा है।",
+    "concept": "Turning off notification pop-ups for a specific contact and realizing the silence is peaceful rather than painful.",
+    "opening_direction": "जब उस एक इंसान के लिए 'Notification Banner' हमेशा के लिए बंद किया,",
+    "twist_direction": "डर था कि शायद फोन खामोश हो जाएगा, पर असल में दिमाग का शोर हमेशा के लिए शांत हो गया।",
     "duration_seconds": 15,
-    "posting_window": "13:45 - 14:00",
-    "reason": "Shifting slightly from digital phone screens (which are showing fatigue) to a tangible physical item (gift/letter) while keeping the core 'self-respect' boundary-setting twist intact."
+    "posting_window": "13:45 IST",
+    "reason": "Leverages the proven digital boundary pattern (similar to read receipts and muted chats) while exploring a slightly different notification setting to keep the self-respect theme fresh."
   },
-  "experiment": "Testing a physical tangible object (gift box/letter) instead of a digital phone screen interaction for self-respect topics to break repetitive format fatigue.",
-  "updated_at": "2026-09-23T05:39:41.093121+00:00",
+  "experiment": "Testing if shifting the focus from chat lists/numbers to notification banner settings maintains viewer engagement.",
+  "updated_at": "2026-09-23T06:43:55.737719+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-23T05:39:44.377306+00:00"
+  "generated_at": "2026-09-23T06:43:58.297322+00:00"
 }
