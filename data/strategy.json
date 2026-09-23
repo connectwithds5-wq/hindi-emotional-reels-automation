@@ -1,40 +1,40 @@
 {
-  "confidence": "25%",
+  "confidence": "20%",
   "data_points": 31,
-  "overall_summary": "The channel heavily focuses on 'self respect' with micro-digital triggers (deleting chats, blocking, muting). While a family/mother-centric outlier ('माँ जब पूछती है') grabbed high views (196), most short-form relationship texts hover under 50 views. Confidence is low due to sparse engagement across the board, signaling a need for a controlled exploration strategy combining the proven digital-micro-moment structure with broader relatable emotional triggers.",
+  "overall_summary": "Most core 'self respect' and digital breakup Shorts are generating low view counts (under 50 views), except for one clear outlier on the topic of Maa ('OfHrAp3r1G8') which hit 196 views. However, to avoid chasing a single lucky low-sample result, we will stick to the core channel pillars ('self respect' / 'रिश्ते') while introducing a grounded, highly relatable digital micro-habit as a controlled test.",
   "winning_patterns": [
     {
-      "pattern": "Universal family/mother emotional triggers",
-      "evidence": "Video 'OfHrAp3r1G8' about a mother asking 'Khana khaya?' reached 196 views, vastly outperforming the digital self-respect series.",
-      "action": "Introduce a small experimental budget exploring universal emotional care outside of romantic heartbreak."
+      "pattern": "Maa / Family Emotional Resonance",
+      "evidence": "Video 'OfHrAp3r1G8' about Mother scored 196 views and 17 likes, significantly outperforming relationship/self-respect digital status posts.",
+      "action": "Reserve a small experiment budget to explore universal emotional themes outside of romantic heartbreak."
     },
     {
-      "pattern": "Tactile, highly specific digital micro-actions",
-      "evidence": "Videos referencing phone UI elements like lists, pinned chats, and unread metrics (e.g., rwOUYo_hayQ, AfaLxMy6FMY) consistently hit baseline views around 30-41.",
-      "action": "Keep using concrete, everyday smartphone actions as narrative anchors for relatability."
+      "pattern": "Tangible Digital Micro-Habits",
+      "evidence": "Videos focusing on specific UI actions like hiding last seen, unpinning chats, or clearing storage (e.g., rwOUYo_hayQ, AfaLxMy6FMY) perform relatively better within the niche (41 views).",
+      "action": "Continue anchoring romantic self-respect hooks to hyper-specific, relatable smartphone interface actions."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Over-saturation of repetitive self-respect digital deletions",
-      "evidence": "Recent consecutive uploads about profile removals, custom ringtones, and wallpapers (e.g., cuKSS0gHyt0, 6KVEZc22kS8) received 0 to 2 views, indicating audience fatigue with the exact same niche trope.",
-      "action": "Pause ultra-niche digital cleanup tropes temporarily and pivot to silent emotional observations."
+      "pattern": "Abstract or Vague Hooks",
+      "evidence": "Hooks lacking a concrete physical or digital trigger (e.g., late night thoughts without an action) resulted in single-digit or low double-digit views (e.g., WhJ-VwRa3Rg, uIbMpCjVutQ).",
+      "action": "Avoid passive opening lines; always ground the hook in an immediate, recognizable action."
     }
   ],
   "next_video": {
-    "topic": "रात के ख्याल",
-    "emotion": "नस्टेल्जिया और अकेलापन",
-    "hook_style": "Sensory everyday object trigger",
+    "topic": "self respect",
+    "emotion": "Empowered closure",
+    "hook_style": "Concrete UI action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Finding an old train ticket or a forgotten boarding pass folded inside a diary, bringing back memories of someone who promised to travel together.",
-    "opening_direction": "किताब के पन्नों के बीच से वो पुराना ट्रेन का टिकट मिला...",
-    "twist_direction": "...सफर आज भी वही है, बस खिड़की वाली सीट पर बैठने वाला शख्स बदल गया है।",
-    "duration_seconds": 15,
-    "posting_window": "05:30 PM - 08:00 PM",
-    "reason": "Tests a shift from digital phone screens to tangible physical nostalgia while retaining the micro-moment emotional storytelling style."
+    "concept": "A short about removing someone from the phone's emergency or speed-dial widget, realizing that the person you used to call first is now just a stranger.",
+    "opening_direction": "जब स्पीड डायल के पहले खाने से नंबर हटाया,",
+    "twist_direction": "लगा था हाथ कांपेंगे, पर उंगली सुकूं से दूसरे काम में लग गई।",
+    "duration_seconds": 10,
+    "posting_window": "13:00 - 14:00 IST",
+    "reason": "Tests the proven digital-cleanup hook structure while focusing on a fresh UI element (speed dial) that hasn't been overused in recent low-performing uploads."
   },
-  "experiment": "Testing a physical nostalgia trigger (old ticket/diary memory) instead of a digital smartphone UI trigger to combat content fatigue.",
-  "updated_at": "2026-09-23T22:38:55.462248+00:00",
+  "experiment": "Testing if shifting the UI cleanup hook from chat apps to phone system features (speed dial/widgets) improves retention over standard chat unpinning.",
+  "updated_at": "2026-09-23T23:37:18.404676+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-23T22:38:58.700007+00:00"
+  "generated_at": "2026-09-23T23:37:26.825126+00:00"
 }
