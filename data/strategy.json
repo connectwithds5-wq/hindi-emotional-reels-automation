@@ -1,40 +1,40 @@
 {
   "confidence": "20%",
   "data_points": 31,
-  "overall_summary": "Most self-respect and romantic heartbreak shorts received very low traction (0-41 views), except for one outlier about a mother ('Maa') which scored significantly higher (181 views) due to broader universal emotional appeal. However, since the core brand is 'Dil Ki Diary', we must stick to our relationship/self-respect niche while leaning into higher-engagement universal pain points.",
+  "overall_summary": "Data volume is very low across most standard emotional shorts, with a massive outlier on a family/mother-centric topic ('Maa Shayari' video id OfHrAp3r1G8 with 181 views) compared to the core 'self respect' and 'overthinking' niches which underperformed (0-41 views). Confidence is low due to limited sample size and skewed performance toward a non-core experimental outlier.",
   "winning_patterns": [
     {
-      "pattern": "Universal Family/Care Emotion Outlier",
-      "evidence": "Video 'OfHrAp3r1G8' about a mother asking 'Khana khaya?' got 181 views, far outperforming niche digital heartbreak hooks.",
-      "action": "Incorporate foundational, unconditional emotional relationships (like parents or deep home nostalgia) alongside digital self-respect."
+      "pattern": "Universal Family / Mother Emotional Connection",
+      "evidence": "Video 'OfHrAp3r1G8' about a mother asking 'Khana khaya?' achieved 181 views and 17 likes, vastly outperforming all romantic/self-respect content.",
+      "action": "Reserve a small experiment budget to test parent-child emotional bonds alongside core romantic self-respect themes."
     },
     {
-      "pattern": "Tangible Phone/Digital Action Hooks",
-      "evidence": "Videos focusing on specific actions like clearing shared albums, unpinning chats, or hiding last seen (e.g., rwOUYo_hayQ, AfaLxMy6FMY) consistently hit baseline views around 30-41.",
-      "action": "Continue using concrete, everyday smartphone micro-actions for hooks."
+      "pattern": "Tangible Digital Micro-Habits (Self Respect)",
+      "evidence": "Videos focusing on specific phone actions like clearing chat lists or removing pinned items (e.g., video rwOUYo_hayQ, AfaLxMy6FMY) garnered 41 views, outperforming abstract hooks.",
+      "action": "Continue utilizing highly specific, relatable digital actions for self-respect content when staying in the core niche."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Hyper-Niche Digital Micro-Actions with Low Search Intent",
-      "evidence": "Very specific actions like removing profiles from streaming accounts or changing ringtones (e.g., cuKSS0gHyt0, 6KVEZc22kS8) resulted in 0-2 views.",
-      "action": "Broaden the physical/emotional stakes beyond hyper-specific niche app settings."
+      "pattern": "Abstract or Niche Digital Actions",
+      "evidence": "Videos about removing shared streaming profiles or unfollowing long lists (e.g., cuKSS0gHyt0, HMyw6blmGOc) dropped to 0-2 views.",
+      "action": "Avoid overly niche or complicated digital boundary actions that fail to resonate broadly."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "नस्टैल्जिया और अकेलापन",
-    "hook_style": "tangible everyday object",
+    "emotion": "Nostalgia and unconditional love",
+    "hook_style": "Simple real-life parent-child interaction detail",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Finding an old handwritten letter or school project tucked inside an old book, realizing how much innocence has been lost to adult heartbreak.",
-    "opening_direction": "किताब के पन्नों के बीच से वो पुराना सूखा हुआ गुलाब मिला,",
-    "twist_direction": "गुलाब तो महक रहा था, पर पन्नों पर लिखा वो इंसान अब पूरी तरह बदल चुका है।",
-    "duration_seconds": 15,
-    "posting_window": "08:00 AM - 10:00 AM",
-    "reason": "Testing a shift from purely digital phone-screen actions to tactile physical memories, tapping into the successful high-view emotional resonance seen in the mother/family outlier."
+    "concept": "A short emotional story about finding an old tiffin box or a forgotten note packed by a mother during hostel or school days, contrasting temporary romantic heartbreak with permanent parental love.",
+    "opening_direction": "जब स्कूल बैग के सबसे नीचे से वो पुराना टिफिन पेपर निकला,",
+    "twist_direction": "जिस पर मां की हाथ से लिखी 'जल्दी खा लेना' पर्ची थी, तब समझ आया कि दुनिया बदल गई पर फिक्र आज भी वही है।",
+    "duration_seconds": 30,
+    "posting_window": "08:00 AM - 10:00 AM IST",
+    "reason": "Leverages the high-performing mother/family emotional outlier pattern (OfHrAp3r1G8) while maintaining the channel's diary-like emotional storytelling format."
   },
-  "experiment": "Testing physical nostalgia objects (books/letters) against digital phone-screen hooks to see if broader sentimental items outperform phone settings.",
-  "updated_at": "2026-09-23T19:39:22.669914+00:00",
+  "experiment": "Testing if expanding slightly from core romantic self-respect into broader relational/family emotional triggers (like motherly care) can replicate the high-view outlier performance.",
+  "updated_at": "2026-09-23T20:39:23.326422+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-23T19:39:25.988925+00:00"
+  "generated_at": "2026-09-23T20:39:26.774729+00:00"
 }
