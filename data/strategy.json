@@ -1,29 +1,35 @@
 {
-  "confidence": "45%",
+  "confidence": "30%",
   "data_points": 31,
-  "overall_summary": "Current leader: माँ जब पूछती है “खाना खाया?” ❤️ | Maa Shayari | Emotional Hindi Shorts with 156 views; sample size is still small, so this is directional.",
+  "overall_summary": "Most videos suffer from very low views due to a limited sample size and early-stage channel traction, except for an outlier about mothers (OfHrAp3r1G8 with 179 views) which diverges from core topics. Within core topics, 'self respect' digital boundary-setting hooks (like deleting chats, changing statuses) show slightly better baseline consistency compared to vague romantic melancholy, though overall sample metrics remain weak and volatile.",
   "winning_patterns": [
     {
-      "pattern": "Highest observed views",
-      "evidence": "156 views on current leader",
-      "action": "Test a related emotional situation without copying the wording."
+      "pattern": "Digital Boundary Actions",
+      "evidence": "Videos focusing on specific phone actions like clearing chats, unpinning, or changing status (e.g., rwOUYo_hayQ, AfaLxMy6FMY) generated 41 views, outperforming abstract emotional concepts.",
+      "action": "Continue anchoring stories around tangible, relatable digital micro-actions related to self-respect."
     }
   ],
-  "weak_patterns": [],
+  "weak_patterns": [
+    {
+      "pattern": "Abstract Melancholy without Action",
+      "evidence": "Vague night thoughts or passive waiting (e.g., uIbMpCjVutQ, aUuNKfe7jm4) consistently underperformed with single-digit views.",
+      "action": "Avoid passive descriptions of sadness; ground every piece in a specific physical or digital trigger."
+    }
+  ],
   "next_video": {
-    "topic": "अधूरी मोहब्बत",
-    "emotion": "regret",
-    "hook_style": "curiosity",
+    "topic": "self respect",
+    "emotion": "Empowered relief / detachment",
+    "hook_style": "Tangible digital habit",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A familiar chat or notification reveals that the relationship has quietly changed.",
-    "opening_direction": "Start with one concrete digital-life detail.",
-    "twist_direction": "Reveal the emotional meaning in the final line.",
-    "duration_seconds": 10,
-    "posting_window": "7:00 PM IST test",
-    "reason": "Controlled baseline while more performance data accumulates."
+    "concept": "A short story about turning off read receipts or removing a widget, realizing that the absence of a response no longer carries any weight.",
+    "opening_direction": "जब से सेटिंग्स में जाकर 'लास्ट सीन' सबके लिए छिपाया,",
+    "twist_direction": "पता चला कि सुकून दूसरों के ऑनलाइन होने से नहीं, खुद के फिक्र न करने से मिलता है।",
+    "duration_seconds": 15,
+    "posting_window": "13:30 - 14:00 IST",
+    "reason": "Previous mid-day uploads in this slot showed relatively better baseline discovery compared to early morning slots."
   },
-  "experiment": "Test a fresh hook around a concrete digital-life moment.",
-  "updated_at": "2026-09-23T16:41:34.207415+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-23T16:41:34.207430+00:00"
+  "experiment": "Testing a slightly more reflective self-respect narrative combined with the mid-day posting window to check for improved baseline retention over hyper-niche digital clutter.",
+  "updated_at": "2026-09-23T17:38:49.323226+00:00",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-09-23T17:39:08.034232+00:00"
 }
