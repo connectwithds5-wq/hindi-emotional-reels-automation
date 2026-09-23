@@ -2499,6 +2499,80 @@
         "reason": "Previous successful uploads (likerwOUYo_hayQ and AfaLxMy6FMY) around early afternoon (13:42 to 13:47 UTC/local adjustments) showed comparatively higher views."
       },
       "model_used": "gemini-3.5-flash-lite"
+    },
+    {
+      "hook": "जब उस एक पुरानी सीरीज़ के अकाउंट से उसका प्रोफाइल रिमूव किया,",
+      "lines": [
+        "स्क्रीन पर सिर्फ मेरा नाम रह गया।",
+        "कभी एक साथ बैठकर देखते थे वो किस्से।",
+        "अब दोनों के स्क्रीन अलग हो चुके थे।",
+        "पासवर्ड बदलने की जरूरत तब पड़ी,",
+        "जब समझ आया कि अब उसका देखना,",
+        "और मेरा देखना पूरी तरह अलग हो चुका है।",
+        "अपनी ही स्क्रीन पर अब सुकून सा था।"
+      ],
+      "youtube_title": "Self Respect Status | Dil Ki Diary Emotional Story",
+      "youtube_description": "जब रिश्तों में दूरियां आ जाएं और खुद का सम्मान बचाने के लिए आखिरी डिजिटल रिश्ता भी तोड़ना पड़े। दिल की डायरी की यह कहानी आपको आत्मसम्मान और लेट गो करने की सीख देगी। क्या आपने कभी खुद को बचाने के लिए ऐसा कोई कठिन फैसला लिया है?",
+      "youtube_keywords": [
+        "self respect emotional story",
+        "dil ki diary hindi",
+        "letting go emotional status",
+        "self respect status hindi",
+        "emotional hindi short story",
+        "sad love story hindi",
+        "self respect quotes hindi",
+        "relatable hindi reel",
+        "dil ki diary",
+        "mental peace in breakup",
+        "self worth hindi status"
+      ],
+      "youtube_hashtags": [
+        "SelfRespect",
+        "DilKiDiary",
+        "EmotionalStory",
+        "HindiShorts",
+        "LettingGo",
+        "Relatable",
+        "LifeLessons",
+        "Peace"
+      ],
+      "caption": "जब अपनों से जुड़ा आखिरी डिजिटल ताना-बाना भी खुद को बचाने के लिए काटना पड़े, तब समझ आता है कि आत्मसम्मान किसी भी रिश्ते से बड़ा होता है। 🖤✨",
+      "keywords": [
+        "self respect",
+        "dil ki diary",
+        "emotional story",
+        "letting go",
+        "hindi status",
+        "breakup healing",
+        "self worth",
+        "mental peace",
+        "relatable reels"
+      ],
+      "hashtags": [
+        "SelfRespect",
+        "DilKiDiary",
+        "EmotionalStory",
+        "HindiReels",
+        "LettingGo",
+        "Healing",
+        "MentalPeace",
+        "SelfWorth",
+        "Relatable"
+      ],
+      "topic": "self respect",
+      "strategy_used": {
+        "topic": "self respect",
+        "emotion": "Empowerment through letting go",
+        "hook_style": "Tangible digital action",
+        "story_structure": "simple -> relatable -> twist",
+        "concept": "Removing someone from the Wi-Fi connected devices list or shared smart home/streaming profile.",
+        "opening_direction": "जब उस एक पुरानी सीरीज़ के अकाउंट से उसका प्रोफाइल रिमूव किया,",
+        "twist_direction": "पासवर्ड बदलने की जरूरत तब पड़ी जब समझ आया कि अब उसका देखना और मेरा देखना अलग हो चुका है।",
+        "duration_seconds": 15,
+        "posting_window": "13:45 PM IST",
+        "reason": "Mid-day publishing slots around 1:45 PM historically aligned with slight metric bumps in earlier uploads."
+      },
+      "model_used": "gemini-3.5-flash-lite"
     }
   ]
 }
