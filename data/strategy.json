@@ -1,35 +1,35 @@
 {
   "confidence": "25%",
   "data_points": 29,
-  "overall_summary": "The channel heavily relies on the 'self respect' topic using smartphone interface metaphors (keyboards, galleries, chat pins, status lists). While volume is consistent, overall viewership is low across the board (mostly under 50 views), indicating low statistical significance and low audience reach. However, slightly better performing baseline videos focus on high-friction digital actions like clearing status lists or unfollowing.",
+  "overall_summary": "The channel shows low overall views and zero engagement (likes/comments) across most videos, indicating a very early stage with low reach. The 'self respect' topic combined with specific, hyper-relatable modern smartphone/messaging UI micro-moments (like pinning, status lists, last seen) yields relatively higher view counts (e.g., 41, 32, 29 views) compared to generic emotional topics. Confidence remains low due to small sample sizes and lack of audience interaction.",
   "winning_patterns": [
     {
-      "pattern": "Digital Boundary Metaphors",
-      "evidence": "Videos focusing on concrete phone actions like status lists (rwOUYo_hayQ, 41 views), chat lists (AfaLxMy6FMY, 41 views), and reply wait times (wFimeeP_aVc, 34 views) perform relatively better than abstract emotional concepts.",
-      "action": "Continue utilizing micro-actions within phone interfaces (e.g., clearing apps, changing settings) as the tangible trigger for emotional storytelling."
+      "pattern": "Specific smartphone UI micro-actions for self-respect",
+      "evidence": "Videos focusing on concrete phone interface habits like chat pinning, status lists, or blocking lists (e.g., rwOUYo_hayQ with 41 views, AfaLxMy6FMY with 41 views, Y4finYMxnIU with 32 views) outperform abstract emotional statements.",
+      "action": "Continue focusing on hyper-specific, everyday digital habits related to letting go and reclaiming self-respect."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Over-saturated Micro-Actions",
-      "evidence": "Recent experiments with niche actions like wallpapers (6KVEZc22kS8, 1 view) and unfollowing (HMyw6blmGOc, 2 views) performed extremely poorly due to potential format fatigue or weaker hook phrasing.",
-      "action": "Pause ultra-specific or repetitive UI actions for a few cycles and introduce a fresh angle while keeping the core smartphone-interaction premise."
+      "pattern": "Generic late-night brooding or abstract tea/night themes",
+      "evidence": "Videos like 'रात के ख्याल और अधूरा इंतजार' (uIbMpCjVutQ) focusing on abstract elements like cold tea only received 6 views.",
+      "action": "Avoid abstract poetic metaphors without a grounding, modern, tangible everyday trigger."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment and silent detachment",
-    "hook_style": "Sensory digital trigger",
+    "emotion": "Empowering relief",
+    "hook_style": "Tangible digital boundary action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization moment when clearing out phone storage or cached data, finding hidden app caches or old drafts that reveal how much mental space was wasted on someone who didn't value it.",
-    "opening_direction": "जब फोन की सेटिंग्स में 'अदर स्टोरेज' साफ़ करते हुए...",
-    "twist_direction": "...पता चला कि जीबी के हिसाब से फाइल्स नहीं, सिर्फ उसकी यादें फोन का दिल घेरकर बैठी थीं—और आज मैंने वो बटन दबा दिया जो हमेशा के लिए सब खाली कर देता है।",
-    "duration_seconds": 15,
-    "posting_window": "05:30 PM - 07:00 PM IST",
-    "reason": "Testing a slightly broader digital cleanup metaphor (storage/cache) to escape the repetitive chat/keyboard loop while staying within the proven self-respect digital interface genre."
+    "concept": "Removing someone from the phone's custom shortcut widget on the home screen to reclaim personal space.",
+    "opening_direction": "जब होम स्क्रीन पर लंबे वक्त से रखे उस शॉर्टकट विजेट को हटाने के लिए उंगली उठाई,",
+    "twist_direction": "लगा था खालीपन खटकेगा, पर उस जगह अपनी पसंदीदा तस्वीर आते ही सांस पहली बार पूरी आई।",
+    "duration_seconds": 10,
+    "posting_window": "05:30 PM - 07:30 PM IST",
+    "reason": "Building on the winning pattern of phone-interface actions while slightly varying the specific UI element (widget vs. chat/keyboard) to test audience retention without breaking the core niche."
   },
-  "experiment": "Testing phone storage cleanup/cache metaphor instead of direct chat/keyboard deletion to combat micro-niche fatigue.",
-  "updated_at": "2026-09-23T01:38:50.036749+00:00",
+  "experiment": "Testing a home-screen widget removal hook against previous messaging-app interface hooks to see if physical phone customization triggers higher engagement than chat logs.",
+  "updated_at": "2026-09-23T02:40:16.731077+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-23T01:38:53.205160+00:00"
+  "generated_at": "2026-09-23T02:40:19.567344+00:00"
 }
