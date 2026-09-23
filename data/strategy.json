@@ -1,35 +1,35 @@
 {
-  "confidence": "20%",
+  "confidence": "25%",
   "data_points": 29,
-  "overall_summary": "View counts across all 29 Shorts remain extremely low (peak 41 views), indicating the channel is in early algorithmic testing. While 'self respect' themes slightly outperform other topics in peak views (30-40 views range), overall sample size and engagement are too small for statistically high confidence. Strategic focus should be on refining strong real-life digital micro-moments while introducing controlled experiments in unexplored core channel topics.",
+  "overall_summary": "The channel relies heavily on 'self respect' smartphone/digital detachment tropes (deleting chats, clearing storage, blocking). Overall view counts are very low (mostly single digits to low 40s), indicating that while the digital self-respect theme has some baseline engagement, repetitive execution and low sample sizes call for a controlled exploration strategy.",
   "winning_patterns": [
     {
-      "pattern": "Digital boundary-setting hooks around active phone actions",
-      "evidence": "Titles featuring deleting chats, status updates, or unpinning numbers ('AfaLxMy6FMY', 'rwOUYo_hayQ', 'wFimeeP_aVc') reached the higher end of channel distribution (34-41 views).",
-      "action": "Double down on recognizable, everyday smartphone interactions as visual/narrative catalysts."
+      "pattern": "Digital action hooks",
+      "evidence": "Videos like 'Self Respect Status | Jab Aapko Fark Padhna Band Hu Jaaye' (32 views) and 'Self Respect Status Story in Hindi' (41 views) perform relatively better within the small sample.",
+      "action": "Continue using tech/phone-related emotional micro-actions as hooks, but vary the specific UI trigger to avoid fatigue."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Over-saturation of repetitive self-respect micro-actions without fresh stakes",
-      "evidence": "Recent self-respect videos ('6KVEZc22kS8', 'HMyw6blmGOc', 'LBGCloAitok') experienced steep drop-offs (1-4 views), showing diminishing return on identical framing.",
-      "action": "Pivot topic to untested high-emotion themes like 'अधूरी मोहब्बत' or 'जो कहना रह गया' to refresh audience interest."
+      "pattern": "Repetitive smartphone framing",
+      "evidence": "Multiple recent videos about deleting albums, changing wallpapers, and clearing storage have yielded extremely low views (1 to 14 views).",
+      "action": "Move away from hyper-specific storage/wallpaper actions for a moment and test a fresh physical or observational setting related to 'रात के ख्याल' or 'रिश्ते' as a controlled experiment."
     }
   ],
   "next_video": {
-    "topic": "जो कहना रह गया",
-    "emotion": "Bittersweet nostalgia",
-    "hook_style": "Relatable modern digital behavior",
+    "topic": "रात के ख्याल",
+    "emotion": "Melancholy and quiet acceptance",
+    "hook_style": "Observational everyday moment",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Finding an unsent voice note in a draft chat from months ago.",
-    "opening_direction": "Show a recorded 42-second voice note sitting in an unsent chat draft.",
-    "twist_direction": "Instead of sending it, the speaker hits delete, realizing the person who needed to hear it no longer exists in their present life.",
-    "duration_seconds": 35,
-    "posting_window": "13:30 - 14:00 UTC",
-    "reason": "13:30-14:00 UTC consistently captured the channel's top views (30-41 views). Testing 'जो कहना रह गया' expands topic diversity beyond repetitive self-respect angles."
+    "concept": "A person keeps an extra coffee mug on the table out of old habit, then quietly puts it away.",
+    "opening_direction": "मेज पर रखा वो दूसरा कप, आज भी अपनी जगह पर खाली रखा था।",
+    "twist_direction": "उसे उठाकर अंदर रखने में एक आंसू नहीं आया, बस एक लंबा सुकून मिला कि अब इंतज़ार खत्म हो चुका है।",
+    "duration_seconds": 12,
+    "posting_window": "18:00 - 20:00 IST",
+    "reason": "Testing a shift from digital-only smartphone deletions to a physical household habit ('रात के ख्याल' / 'रिश्ते') to combat audience fatigue on phone-based self-respect hooks."
   },
-  "experiment": "Testing topic diversification into 'जो कहना रह गया' using unsent audio drafts as the visual micro-moment.",
-  "updated_at": "2026-09-22T23:37:42.334953+00:00",
-  "model_used": "gemini-3.6-flash",
-  "generated_at": "2026-09-22T23:39:08.386154+00:00"
+  "experiment": "Testing a non-phone physical object (coffee mug/habit) combined with the 'रात के ख्याल' topic to break away from underperforming smartphone UI hooks.",
+  "updated_at": "2026-09-23T00:42:45.841051+00:00",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-09-23T00:42:48.650695+00:00"
 }
