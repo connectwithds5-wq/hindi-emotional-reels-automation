@@ -1,35 +1,35 @@
 {
-  "confidence": "45%",
-  "data_points": 30,
-  "overall_summary": "The channel shows clear engagement clustering around 'self respect' topics combined with modern digital life mechanics (chat archives, read receipts, storage clearing, list sorting). Raw views are generally low (single to double digits), pointing to an early-stage channel where specific tactile digital boundary actions outperform abstract emotional quotes.",
+  "confidence": "35%",
+  "data_points": 31,
+  "overall_summary": "The channel shows early traction specifically around 'self respect' topics combined with relatable smartphone micro-actions (deleting chats, clearing lists, unpinning). However, overall view counts are generally low, indicating that confidence is low and optimization is still in the exploration phase.",
   "winning_patterns": [
     {
-      "pattern": "Tactile Digital Boundaries",
-      "evidence": "Videos like 'जब आर्काइव फोल्डर पर नजर पड़ी' (23 views), 'चैट डिलीट करने की हिम्मत और खुद की इज्जत' (41 views), and 'Self Respect Status Story in Hindi' (41 views) perform better than abstract heartbreak.",
-      "action": "Focus storytelling around everyday smartphone actions and micro-decisions related to letting go."
+      "pattern": "Smartphone micro-actions focusing on Self Respect",
+      "evidence": "Videos like 'rwOUYo_hayQ' (41 views), 'wFimeeP_aVc' (34 views), and 'AfaLxMy6FMY' (41 views) perform better than abstract emotional topics.",
+      "action": "Double down on specific, everyday phone-related boundary-setting moments linked to self-respect."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Melodrama & Niche Digital UI",
-      "evidence": "Videos with very hyper-specific UI elements like series account profile removal (0 views) or wallpaper changes (1 view) heavily underperformed.",
-      "action": "Avoid extremely niche platform settings; stick to universally understood messaging app interactions like chats, pins, and blocklists."
+      "pattern": "Abstract emotional topics or unknown categories",
+      "evidence": "General topics like 'G0gKV1p3ZHc' (13 views) or random experimental shifts like 'OfHrAp3r1G8' yield lower engagement compared to niche phone-action self-respect hooks.",
+      "action": "Avoid straying into generic family shayaris or overly broad late-night overthinking without a tangible action hook."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowered relief",
-    "hook_style": "Tactile digital action",
+    "emotion": "Empowerment & Silent Closure",
+    "hook_style": "Tangible digital boundary action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Clearing out shared cloud drive or photo folders where old memories are automatically backed up, leading to an unexpected realization of moving on.",
-    "opening_direction": "जब गूगल फोटोज ने आज 'Memories from 2 years ago' का नोटिफिकेशन भेजा,",
-    "twist_direction": "स्क्रॉल करते-करते जब उस चेहरे पर नजर पड़ी, तो पहली बार दिल की धड़कन नहीं रुकी... बल्कि उंगली खुद-ब-खुद डिलीट के बटन पर जाकर ठहर गई।",
-    "duration_seconds": 10,
-    "posting_window": "05:30 PM - 06:30 PM IST",
-    "reason": "Aligns with the proven high-performing 'digital deletion / self respect' pattern while testing an automated cloud memory notification angle instead of manual chat scrolling."
+    "concept": "A short narrative about removing someone from the emergency Wi-Fi hotspot list or Bluetooth paired devices, symbolizing a final severance of invisible ties.",
+    "opening_direction": "जब फोन की ब्लूटूथ सेटिंग्स में उस पुराने ईयरफोन का नाम दिखा,",
+    "twist_direction": "डिलीट का बटन दबाते ही समझ आया कि आवाज़ उसकी नहीं, मेरा अपना सुकून गूंज रहा है।",
+    "duration_seconds": 12,
+    "posting_window": "13:00 - 14:00 IST",
+    "reason": "Previous mid-day self-respect uploads like 'rwOUYo_hayQ' (published at 13:47) achieved the highest view count on the channel."
   },
-  "experiment": "Testing an automated digital memory notification hook versus a manual chat action hook to see if algorithmic reminders generate higher initial curiosity.",
-  "updated_at": "2026-09-23T07:40:37.913178+00:00",
+  "experiment": "Testing a less-used digital ecosystem hook (Bluetooth/Connected devices) within the proven self-respect smartphone micro-action format.",
+  "updated_at": "2026-09-23T08:41:46.512382+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-23T07:40:41.543129+00:00"
+  "generated_at": "2026-09-23T08:41:49.320004+00:00"
 }
