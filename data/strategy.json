@@ -1,40 +1,40 @@
 {
-  "confidence": "30%",
+  "confidence": "20%",
   "data_points": 31,
-  "overall_summary": "Most videos have very low views (under 50), except for a massive outlier about a mother ('माँ जब पूछती है...hai') which hit 181 views, breaking the standard romantic heartbreak/self-respect niche. Core self-respect digital-cleanup hooks show repeatable baseline interest, but overall sample size and engagement are low.",
+  "overall_summary": "Most self-respect and romantic heartbreak shorts received very low traction (0-41 views), except for one outlier about a mother ('Maa') which scored significantly higher (181 views) due to broader universal emotional appeal. However, since the core brand is 'Dil Ki Diary', we must stick to our relationship/self-respect niche while leaning into higher-engagement universal pain points.",
   "winning_patterns": [
     {
-      "pattern": "Broad Universal Emotional Relatability",
-      "evidence": "The video about a mother asking 'खाना खाया?' got 181 views and 17 likes, drastically outperforming the niche romantic self-respect content.",
-      "action": "Reserve a small experiment budget to test universally relatable familial/emotional bonds alongside the core romantic content."
+      "pattern": "Universal Family/Care Emotion Outlier",
+      "evidence": "Video 'OfHrAp3r1G8' about a mother asking 'Khana khaya?' got 181 views, far outperforming niche digital heartbreak hooks.",
+      "action": "Incorporate foundational, unconditional emotional relationships (like parents or deep home nostalgia) alongside digital self-respect."
     },
     {
-      "pattern": "Digital Artifact Removal (Self-Respect)",
-      "evidence": "Shorts focusing on removing names from keyboards, chat lists, or status views (e.g., rwOUYo_hayQ, AfaLxMy6FMY) consistently maintain baseline views between 30-41.",
-      "action": "Continue utilizing micro-actions of digital distancing as reliable baseline hooks."
+      "pattern": "Tangible Phone/Digital Action Hooks",
+      "evidence": "Videos focusing on specific actions like clearing shared albums, unpinning chats, or hiding last seen (e.g., rwOUYo_hayQ, AfaLxMy6FMY) consistently hit baseline views around 30-41.",
+      "action": "Continue using concrete, everyday smartphone micro-actions for hooks."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Over-saturated Digital Deletion Hooks",
-      "evidence": "Recent repetitive uploads about unfollowing or removing accounts on niche streaming platforms (e.g., cuKSS0gHyt0) resulted in 0 views due to fatigue and overly niche scenarios.",
-      "action": "Avoid hyper-specific or repetitive digital cleanup actions; move to broader emotional realization moments."
+      "pattern": "Hyper-Niche Digital Micro-Actions with Low Search Intent",
+      "evidence": "Very specific actions like removing profiles from streaming accounts or changing ringtones (e.g., cuKSS0gHyt0, 6KVEZc22kS8) resulted in 0-2 views.",
+      "action": "Broaden the physical/emotional stakes beyond hyper-specific niche app settings."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Nostalgia and bittersweet realization",
-    "hook_style": "Simple real-life moment involving everyday objects",
+    "emotion": "नस्टैल्जिया और अकेलापन",
+    "hook_style": "tangible everyday object",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Finding an old handwritten grocery list or school note in a book written in someone's familiar handwriting who is no longer close.",
-    "opening_direction": "किताब के पुराने पन्ने पलटते वक्त अचानक एक पर्ची हाथ लगी,",
-    "twist_direction": "लिखावट उसी की थी, पर अब वो शब्द किसी और की जिंदगी का हिस्सा बन चुके थे।",
+    "concept": "Finding an old handwritten letter or school project tucked inside an old book, realizing how much innocence has been lost to adult heartbreak.",
+    "opening_direction": "किताब के पन्नों के बीच से वो पुराना सूखा हुआ गुलाब मिला,",
+    "twist_direction": "गुलाब तो महक रहा था, पर पन्नों पर लिखा वो इंसान अब पूरी तरह बदल चुका है।",
     "duration_seconds": 15,
-    "posting_window": "18:00 - 20:00 IST",
-    "reason": "Testing a shift from purely digital smartphone actions to physical nostalgic objects to see if tactile memories drive higher emotional engagement than chat/screen deletions."
+    "posting_window": "08:00 AM - 10:00 AM",
+    "reason": "Testing a shift from purely digital phone-screen actions to tactile physical memories, tapping into the successful high-view emotional resonance seen in the mother/family outlier."
   },
-  "experiment": "Testing physical nostalgia and handwriting instead of digital phone/chat deletion tropes.",
-  "updated_at": "2026-09-23T18:41:29.221419+00:00",
+  "experiment": "Testing physical nostalgia objects (books/letters) against digital phone-screen hooks to see if broader sentimental items outperform phone settings.",
+  "updated_at": "2026-09-23T19:39:22.669914+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-23T18:41:34.148763+00:00"
+  "generated_at": "2026-09-23T19:39:25.988925+00:00"
 }
