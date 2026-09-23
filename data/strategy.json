@@ -1,40 +1,40 @@
 {
-  "confidence": "65%",
+  "confidence": "25%",
   "data_points": 31,
-  "overall_summary": "The channel shows clear engagement potential when focusing on 'self respect' and digital breakup/detachment micro-moments (e.g., deleting chats, removing names, status list actions), with occasional experimentation outside romantic tracks (like the Mother's care video performing well at 54 views). Highly specific, relatable tech/phone actions combined with self-worth resonate best.",
+  "overall_summary": "Most videos suffer from very low views, except for a massive outlier on a non-core topic (Maa Shayari at 130 views) and a few moderately performing self-respect status videos (41 views). Romance/breakup angst has low baseline performance right now, while everyday digital minimalism/self-respect and unexpected universal emotional triggers (like mothers) drive better initial curiosity.",
   "winning_patterns": [
     {
-      "pattern": "Digital/Phone-based Self-Respect Actions",
-      "evidence": "Videos like 'चैट डिलीट करने की हिम्मत' (41 views) and 'Self Respect Status | Jab Aapko Fark Padhna Band Ho Jaaye' (32 views) outperform generic relationship rants.",
-      "action": "Continue focusing on micro-actions involving modern smartphone habits (chats, blocks, pins, settings)."
+      "pattern": "Digital minimalism & self-respect micro-actions",
+      "evidence": "Videos like 'चैट डिलीट करने की हिम्मत' (41 views) and 'Self Respect Status Story' (41 views) perform better than abstract heartbreak.",
+      "action": "Focus hooks on concrete digital interface actions related to letting go or choosing oneself."
     },
     {
-      "pattern": "Emotional Expansion Experiment",
-      "evidence": "'माँ जब पूछती है “खाना खाया?”' hit 54 views with 6 likes, the highest view count in the dataset, proving that non-romantic emotional anchors perform strongly.",
-      "action": "Reserve a small experiment budget for universal emotional bonds outside romantic heartbreaks."
+      "pattern": "Universal emotional safety triggers (Outlier test)",
+      "evidence": "‘माँ जब पूछती है खाना खाया’ hit 130 views without a standard heartbreak hook.",
+      "action": "Reserve a small experiment budget to test universally relatable family/care emotions alongside core breakup content."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Vague or Generic Relationship Melodrama",
-      "evidence": "Broad relationship videos or empty hooks without concrete daily triggers (e.g., 'Jab Uska Special Ringtone Default Kiya' with 3 views or very recent low-sample posts like 'जब उस एक पुरानी सीरीज़ के अकाउंट से...') suffer from low traction.",
-      "action": "Avoid abstract heartbreak whining; ground every story in a sharp, specific physical or digital action."
+      "pattern": "Abstract or heavy emotional statements without a tangible object",
+      "evidence": "Videos focusing purely on general pain like 'Bewafai Ka Dard' (19 views) or generic overthinking without a specific trigger underperform relative to action-oriented titles.",
+      "action": "Ground every emotional script in a physical object or micro-habit (phone settings, notifications, shared items)."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment & Relieved Detachment",
-    "hook_style": "Specific digital interface interaction",
+    "emotion": "Empowered relief and detachment",
+    "hook_style": "Tangible digital habit",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Removing someone from the phone's emergency or shared utility apps (like a shared cab/food delivery app address or family plan sharing) symbolizing total final detachment.",
-    "opening_direction": "जब फूड डिलीवरी ऐप पर उसका सेव किया हुआ पुराना घर का पता हमेशा के लिए डिलीट किया,",
-    "twist_direction": "पता भले ही बदल गया हो, पर अब उस एड्रेस पर किसी और के लिए ऑर्डर देने का डर हमेशा के लिए खत्म हो गया।",
-    "duration_seconds": 10,
-    "posting_window": "05:30 PM - 08:00 PM IST",
-    "reason": "Capitalizes on the proven high-performing 'digital deletion of ex' motif while shifting the physical object from chats/calls to a daily-life utility app, keeping the self-respect theme fresh."
+    "concept": "A person unlinking a shared location or delivery app family account, realizing they are finally tracking their own life instead of someone else's.",
+    "opening_direction": "जब फूड डिलीवरी ऐप पर सेव्ड एड्रेस से उसका घर हटाया,",
+    "twist_direction": "पते बदलते ही समझ आया, अब ऑर्डर दो लोगों का नहीं, सिर्फ अपने सुकून का आता है।",
+    "duration_seconds": 12,
+    "posting_window": "05:30 PM - 07:30 PM IST",
+    "reason": "Leverages the proven winning pattern of digital interface clean-up combined with self-respect, avoiding repetitive chat-deletion tropes while staying true to the channel niche."
   },
-  "experiment": "Testing whether shifting digital self-respect moments from direct communication apps (WhatsApp/Instagram) to everyday utility/service apps (Food delivery/Cab sharing) maintains audience retention.",
-  "updated_at": "2026-09-23T10:40:34.467317+00:00",
+  "experiment": "Testing a less saturated digital interface action (delivery app address cleanup) instead of standard chat/wallpaper removals to see if specific novelty retains the self-respect audience.",
+  "updated_at": "2026-09-23T11:40:08.290098+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-23T10:40:37.954909+00:00"
+  "generated_at": "2026-09-23T11:40:11.885286+00:00"
 }
