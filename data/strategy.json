@@ -1,40 +1,40 @@
 {
   "confidence": "65%",
   "data_points": 31,
-  "overall_summary": "Data indicates that 'self respect' and familial emotional concepts (like the mother caring for late meals) outperform purely passive sad quotes or late-night clichés. Content focusing on actionable, everyday digital boundaries (deleting chats, clearing storage, removing pins) combined with self-worth performs consistently better than generic heartbreak.",
+  "overall_summary": "The channel shows clear engagement potential when focusing on 'self respect' and digital breakup/detachment micro-moments (e.g., deleting chats, removing names, status list actions), with occasional experimentation outside romantic tracks (like the Mother's care video performing well at 54 views). Highly specific, relatable tech/phone actions combined with self-worth resonate best.",
   "winning_patterns": [
     {
-      "pattern": "Digital boundary actions tied to Self Respect",
-      "evidence": "Videos like 'rwOUYo_hayQ' (41 views) and 'AfaLxMy6FMY' (41 views) outperform generic late-night sadness by focusing on active digital choices.",
-      "action": "Focus on everyday smartphone interface actions that signify emotional moving on."
+      "pattern": "Digital/Phone-based Self-Respect Actions",
+      "evidence": "Videos like 'चैट डिलीट करने की हिम्मत' (41 views) and 'Self Respect Status | Jab Aapko Fark Padhna Band Ho Jaaye' (32 views) outperform generic relationship rants.",
+      "action": "Continue focusing on micro-actions involving modern smartphone habits (chats, blocks, pins, settings)."
     },
     {
-      "pattern": "Broad relatable emotional anchors outside toxic romance",
-      "evidence": "'OfHrAp3r1G8' featuring a mother asking 'Khana khaya?' achieved 37 views and 3 likes quickly despite being outside the core toxic romance theme.",
-      "action": "Reserve a small percentage of content for pure wholesome or maternal emotional anchors."
+      "pattern": "Emotional Expansion Experiment",
+      "evidence": "'माँ जब पूछती है “खाना खाया?”' hit 54 views with 6 likes, the highest view count in the dataset, proving that non-romantic emotional anchors perform strongly.",
+      "action": "Reserve a small experiment budget for universal emotional bonds outside romantic heartbreaks."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Passive late-night brooding without action",
-      "evidence": "Videos like 'uIbMpCjVutQ' (6 views) and 'hT4EGP69mRw' (3 views) got very low traction.",
-      "action": "Avoid purely atmospheric hooks about time ('रात के दो बजे') unless immediately paired with a concrete action."
+      "pattern": "Vague or Generic Relationship Melodrama",
+      "evidence": "Broad relationship videos or empty hooks without concrete daily triggers (e.g., 'Jab Uska Special Ringtone Default Kiya' with 3 views or very recent low-sample posts like 'जब उस एक पुरानी सीरीज़ के अकाउंट से...') suffer from low traction.",
+      "action": "Avoid abstract heartbreak whining; ground every story in a sharp, specific physical or digital action."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowering relief",
-    "hook_style": "Visual phone habit interruption",
+    "emotion": "Empowerment & Relieved Detachment",
+    "hook_style": "Specific digital interface interaction",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization while clearing out old cloud photo backups where an unwanted memory pops up, and instead of crying, you smile and hit delete.",
-    "opening_direction": "जब फोन के ऑटो-बैकअप का नोटिफिकेशन आया और स्क्रीन पर पांच साल पुरानी वो ट्रिप की तस्वीर उभरी...",
-    "twist_direction": "...दिल में दर्द नहीं हुआ, बस एक सुकून था कि उस तस्वीर में चेहरा तो वही था, पर इंसान पूरी तरह बदल चुका है।",
-    "duration_seconds": 15,
-    "posting_window": "13:00 - 14:00 IST",
-    "reason": "Mid-day posting aligns well with peak viewing times observed in higher performing self-respect shorts, combining digital cleanup motifs with personal growth."
+    "concept": "Removing someone from the phone's emergency or shared utility apps (like a shared cab/food delivery app address or family plan sharing) symbolizing total final detachment.",
+    "opening_direction": "जब फूड डिलीवरी ऐप पर उसका सेव किया हुआ पुराना घर का पता हमेशा के लिए डिलीट किया,",
+    "twist_direction": "पता भले ही बदल गया हो, पर अब उस एड्रेस पर किसी और के लिए ऑर्डर देने का डर हमेशा के लिए खत्म हो गया।",
+    "duration_seconds": 10,
+    "posting_window": "05:30 PM - 08:00 PM IST",
+    "reason": "Capitalizes on the proven high-performing 'digital deletion of ex' motif while shifting the physical object from chats/calls to a daily-life utility app, keeping the self-respect theme fresh."
   },
-  "experiment": "Testing a transition from deleting active chats to cleaning up cloud photo archives to see if long-term memory deletion triggers higher engagement than immediate chat removal.",
-  "updated_at": "2026-09-23T09:41:15.105594+00:00",
+  "experiment": "Testing whether shifting digital self-respect moments from direct communication apps (WhatsApp/Instagram) to everyday utility/service apps (Food delivery/Cab sharing) maintains audience retention.",
+  "updated_at": "2026-09-23T10:40:34.467317+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-23T09:41:18.151564+00:00"
+  "generated_at": "2026-09-23T10:40:37.954909+00:00"
 }
