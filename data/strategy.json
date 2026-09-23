@@ -1,35 +1,45 @@
 {
-  "confidence": "35%",
+  "confidence": "30%",
   "data_points": 31,
-  "overall_summary": "Overall view counts across the channel are very low (mostly single digits to low double digits), except for a massive outlier on a non-core topic ('Maa Shayari' at 134 views). Among core self-respect and emotional topics, specific digital actions like deleting chats or clearing lists perform slightly better (e.g., 41 views), but statistical sample sizes are too small to declare definitive winners. Controlled exploration is required.",
+  "overall_summary": "Most core self-respect and chat-deletion shorts are getting low single-digit to low double-digit views, but an outlier experiment about a mother ('माँ जब पूछती है') significantly outperformed everything else (136 views). However, since the primary niche is heartbreak/self-respect, we need to balance repeatable core topics with controlled exploration of universal emotional bonds.",
   "winning_patterns": [
     {
-      "pattern": "Specific digital/phone boundary-setting actions",
-      "evidence": "Videos like 'चैट डिलीट करने की हिम्मत' (41 views) and 'स्टेटस लिस्ट में सबसे ऊपर उन्हीं का नाम था' (41 views) outperformed abstract emotional statements.",
-      "action": "Continue focusing on micro-moments related to phone habits and digital letting-go, but refine the pacing."
+      "pattern": "Universal Relatable Emotional Trigger",
+      "evidence": "The Mother-focused video ('माँ जब पूछती है') hit 136 views, which is nearly 4x the highest self-respect video.",
+      "action": "Reserve a small experiment budget for emotional bonds outside romance, like family or unspoken parental care."
+    },
+    {
+      "pattern": "Digital/Phone-based Micro-Habit Hooks",
+      "evidence": "Videos focusing on chat deletion, status lists, and blocking (e.g., rwOUYo_hayQ with 41 views, AfaLxMy6FMY with 41 views) perform better than abstract relationship rants.",
+      "action": "Continue anchoring the core heartbreak/self-respect stories to specific, hyper-relatable smartphone actions."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract emotional statements or overly specific niche digital unlinking",
-      "evidence": "Very niche actions like removing a profile from an OTT shared account ('जब उस एक पुरानी सीरीज़ के अकाउंट से...') got 0 views, and general ringtone changes got 3 views.",
-      "action": "Avoid extremely niche or obscure digital actions that lack universal relatability."
+      "pattern": "Overused digital UI hooks",
+      "evidence": "Recent shorts using very similar UI actions like changing wallpapers, unfollowing, or streaming account profile removal dropped to 0-2 views due to fatigue or timing.",
+      "action": "Avoid repeating exact digital triggers like 'unfollowing' or 'changing wallpaper' back-to-back; shift to offline physical micro-moments."
+    },
+    {
+      "pattern": "Vague nighttime/loneliness tropes without a concrete action",
+      "evidence": "Abstract hooks like 'रात के दो बजे' or 'मेज पर रखी चाय' yielded lower views (6 to 13 views).",
+      "action": "Always pair nocturnal feelings with a physical, tangible object or action."
     }
   ],
   "next_video": {
-    "topic": "self respect",
-    "emotion": "empowering detachment",
-    "hook_style": "visual text notification habit",
+    "topic": "अकेलापन",
+    "emotion": "Nostalgia and quiet heartbreak",
+    "hook_style": "Physical object trigger",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short piece about staring at a blank typing indicator, deciding not to send the text, and turning off the internet instead to reclaim inner peace.",
-    "opening_direction": "जब स्क्रीन पर 'typing...' देखकर उंगली खुद-ब-खुद रुक गई,",
-    "twist_direction": "भेजने के बजाय, इस बार वाई-फाई बंद करने का सुकून कुछ अलग ही था।",
-    "duration_seconds": 10,
-    "posting_window": "18:00 - 20:00 IST",
-    "reason": "Evening hours capture the peak time for overthinking and reflective scrolling among the core emotional audience."
+    "concept": "Finding an old train ticket or boarding pass in the pocket of an old jacket and realizing the person you traveled with is now just a stranger.",
+    "opening_direction": "पुरानी जैकेट की जेब से जब वो पुराना ट्रेन टिकट निकला,",
+    "twist_direction": "तब समझ आया कि सफर वही खत्म हो चुका था, बस हम ही ट्रेन से उतरना भूल गए थे।",
+    "duration_seconds": 15,
+    "posting_window": "05:30 PM - 08:00 PM",
+    "reason": "Testing a shift from digital/phone screen tropes to a physical, tactile real-life object ('old train ticket') to break pattern fatigue while staying strictly within the emotional loneliness and lost connection niche."
   },
-  "experiment": "Testing a universally relatable 'typing indicator restraint' hook to see if it outperforms previous digital deletion micro-moments.",
-  "updated_at": "2026-09-23T12:44:06.221570+00:00",
+  "experiment": "Testing physical nostalgic objects (train ticket/pocket items) instead of digital smartphone UI actions to combat hook fatigue.",
+  "updated_at": "2026-09-23T13:40:57.804817+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-23T12:44:09.130910+00:00"
+  "generated_at": "2026-09-23T13:41:26.203470+00:00"
 }
