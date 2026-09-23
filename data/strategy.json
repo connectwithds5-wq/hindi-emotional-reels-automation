@@ -1,35 +1,40 @@
 {
-  "confidence": "35%",
+  "confidence": "65%",
   "data_points": 31,
-  "overall_summary": "The channel shows early traction specifically around 'self respect' topics combined with relatable smartphone micro-actions (deleting chats, clearing lists, unpinning). However, overall view counts are generally low, indicating that confidence is low and optimization is still in the exploration phase.",
+  "overall_summary": "Data indicates that 'self respect' and familial emotional concepts (like the mother caring for late meals) outperform purely passive sad quotes or late-night clichés. Content focusing on actionable, everyday digital boundaries (deleting chats, clearing storage, removing pins) combined with self-worth performs consistently better than generic heartbreak.",
   "winning_patterns": [
     {
-      "pattern": "Smartphone micro-actions focusing on Self Respect",
-      "evidence": "Videos like 'rwOUYo_hayQ' (41 views), 'wFimeeP_aVc' (34 views), and 'AfaLxMy6FMY' (41 views) perform better than abstract emotional topics.",
-      "action": "Double down on specific, everyday phone-related boundary-setting moments linked to self-respect."
+      "pattern": "Digital boundary actions tied to Self Respect",
+      "evidence": "Videos like 'rwOUYo_hayQ' (41 views) and 'AfaLxMy6FMY' (41 views) outperform generic late-night sadness by focusing on active digital choices.",
+      "action": "Focus on everyday smartphone interface actions that signify emotional moving on."
+    },
+    {
+      "pattern": "Broad relatable emotional anchors outside toxic romance",
+      "evidence": "'OfHrAp3r1G8' featuring a mother asking 'Khana khaya?' achieved 37 views and 3 likes quickly despite being outside the core toxic romance theme.",
+      "action": "Reserve a small percentage of content for pure wholesome or maternal emotional anchors."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract emotional topics or unknown categories",
-      "evidence": "General topics like 'G0gKV1p3ZHc' (13 views) or random experimental shifts like 'OfHrAp3r1G8' yield lower engagement compared to niche phone-action self-respect hooks.",
-      "action": "Avoid straying into generic family shayaris or overly broad late-night overthinking without a tangible action hook."
+      "pattern": "Passive late-night brooding without action",
+      "evidence": "Videos like 'uIbMpCjVutQ' (6 views) and 'hT4EGP69mRw' (3 views) got very low traction.",
+      "action": "Avoid purely atmospheric hooks about time ('रात के दो बजे') unless immediately paired with a concrete action."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment & Silent Closure",
-    "hook_style": "Tangible digital boundary action",
+    "emotion": "Empowering relief",
+    "hook_style": "Visual phone habit interruption",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short narrative about removing someone from the emergency Wi-Fi hotspot list or Bluetooth paired devices, symbolizing a final severance of invisible ties.",
-    "opening_direction": "जब फोन की ब्लूटूथ सेटिंग्स में उस पुराने ईयरफोन का नाम दिखा,",
-    "twist_direction": "डिलीट का बटन दबाते ही समझ आया कि आवाज़ उसकी नहीं, मेरा अपना सुकून गूंज रहा है।",
-    "duration_seconds": 12,
+    "concept": "A realization while clearing out old cloud photo backups where an unwanted memory pops up, and instead of crying, you smile and hit delete.",
+    "opening_direction": "जब फोन के ऑटो-बैकअप का नोटिफिकेशन आया और स्क्रीन पर पांच साल पुरानी वो ट्रिप की तस्वीर उभरी...",
+    "twist_direction": "...दिल में दर्द नहीं हुआ, बस एक सुकून था कि उस तस्वीर में चेहरा तो वही था, पर इंसान पूरी तरह बदल चुका है।",
+    "duration_seconds": 15,
     "posting_window": "13:00 - 14:00 IST",
-    "reason": "Previous mid-day self-respect uploads like 'rwOUYo_hayQ' (published at 13:47) achieved the highest view count on the channel."
+    "reason": "Mid-day posting aligns well with peak viewing times observed in higher performing self-respect shorts, combining digital cleanup motifs with personal growth."
   },
-  "experiment": "Testing a less-used digital ecosystem hook (Bluetooth/Connected devices) within the proven self-respect smartphone micro-action format.",
-  "updated_at": "2026-09-23T08:41:46.512382+00:00",
+  "experiment": "Testing a transition from deleting active chats to cleaning up cloud photo archives to see if long-term memory deletion triggers higher engagement than immediate chat removal.",
+  "updated_at": "2026-09-23T09:41:15.105594+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-23T08:41:49.320004+00:00"
+  "generated_at": "2026-09-23T09:41:18.151564+00:00"
 }
