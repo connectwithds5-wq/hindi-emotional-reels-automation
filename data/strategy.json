@@ -1,35 +1,29 @@
 {
-  "confidence": "20%",
+  "confidence": "45%",
   "data_points": 31,
-  "overall_summary": "Most videos show low single-digit to double-digit views, indicating the channel is in early testing stages with limited distribution. However, a slight outlier outside the main niche (Maa Shayari at 156 views) outperformed the core self-respect digital-cleanup niche, though sample sizes are too small to declare a definitive niche shift. Core content heavily relies on repetitive digital cleanup hooks (chats, archives, block lists) which may be fatiguing the current audience.",
+  "overall_summary": "Current leader: माँ जब पूछती है “खाना खाया?” ❤️ | Maa Shayari | Emotional Hindi Shorts with 156 views; sample size is still small, so this is directional.",
   "winning_patterns": [
     {
-      "pattern": "Universal emotional triggers beyond romantic heartbreak",
-      "evidence": "The Maa-related video (OfHrAp3r1G8) achieved 156 views and 16 likes, significantly higher than the average 10-20 views of technical digital-cleanup posts.",
-      "action": "Reserve a small experiment budget to test broader emotional pillars (like family or unconditional bonds) alongside the core self-respect content."
+      "pattern": "Highest observed views",
+      "evidence": "156 views on current leader",
+      "action": "Test a related emotional situation without copying the wording."
     }
   ],
-  "weak_patterns": [
-    {
-      "pattern": "Repetitive digital cleanup hooks",
-      "evidence": "Multiple consecutive videos about deleting chats, archive folders, and keyboards (e.g., W0ozRrwvigQ, aqzDPbQVnb0, djEm2iCAfqw) yielded low engagement and flat view counts (under 30 views).",
-      "action": "Avoid recycling the exact same smartphone/app cleanup metaphors back-to-back; diversify physical and mental markers of self-respect."
-    }
-  ],
+  "weak_patterns": [],
   "next_video": {
-    "topic": "self respect",
-    "emotion": "quiet strength and moving on",
-    "hook_style": "Real-life tactile moment",
+    "topic": "अधूरी मोहब्बत",
+    "emotion": "regret",
+    "hook_style": "curiosity",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short emotional piece about changing the physical arrangement of a room or desk to remove reminders of someone, leading to an unexpected sense of personal freedom.",
-    "opening_direction": "जब कमरे की इस खाली दीवार से उसकी लगाई हुई वो घड़ी हटाई,",
-    "twist_direction": "तब समझ आया कि दीवार खाली नहीं हुई, बल्कि जीने की जगह वापस मिल गई।",
+    "concept": "A familiar chat or notification reveals that the relationship has quietly changed.",
+    "opening_direction": "Start with one concrete digital-life detail.",
+    "twist_direction": "Reveal the emotional meaning in the final line.",
     "duration_seconds": 10,
-    "posting_window": "08:00 AM - 09:00 AM",
-    "reason": "Testing a physical space metaphor instead of a digital screen/phone metaphor to break the repetitive digital cleanup fatigue while staying within the core self-respect niche."
+    "posting_window": "7:00 PM IST test",
+    "reason": "Controlled baseline while more performance data accumulates."
   },
-  "experiment": "Testing a physical room/decor metaphor for self-respect instead of smartphone/digital cleanup hooks to see if it improves retention and engagement.",
-  "updated_at": "2026-09-23T15:41:13.879552+00:00",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-23T15:42:42.046860+00:00"
+  "experiment": "Test a fresh hook around a concrete digital-life moment.",
+  "updated_at": "2026-09-23T16:41:34.207415+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-23T16:41:34.207430+00:00"
 }
