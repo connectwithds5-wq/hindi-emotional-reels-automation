@@ -1,35 +1,40 @@
 {
   "confidence": "30%",
   "data_points": 31,
-  "overall_summary": "Most videos suffer from very low views due to a limited sample size and early-stage channel traction, except for an outlier about mothers (OfHrAp3r1G8 with 179 views) which diverges from core topics. Within core topics, 'self respect' digital boundary-setting hooks (like deleting chats, changing statuses) show slightly better baseline consistency compared to vague romantic melancholy, though overall sample metrics remain weak and volatile.",
+  "overall_summary": "Most videos have very low views (under 50), except for a massive outlier about a mother ('माँ जब पूछती है...hai') which hit 181 views, breaking the standard romantic heartbreak/self-respect niche. Core self-respect digital-cleanup hooks show repeatable baseline interest, but overall sample size and engagement are low.",
   "winning_patterns": [
     {
-      "pattern": "Digital Boundary Actions",
-      "evidence": "Videos focusing on specific phone actions like clearing chats, unpinning, or changing status (e.g., rwOUYo_hayQ, AfaLxMy6FMY) generated 41 views, outperforming abstract emotional concepts.",
-      "action": "Continue anchoring stories around tangible, relatable digital micro-actions related to self-respect."
+      "pattern": "Broad Universal Emotional Relatability",
+      "evidence": "The video about a mother asking 'खाना खाया?' got 181 views and 17 likes, drastically outperforming the niche romantic self-respect content.",
+      "action": "Reserve a small experiment budget to test universally relatable familial/emotional bonds alongside the core romantic content."
+    },
+    {
+      "pattern": "Digital Artifact Removal (Self-Respect)",
+      "evidence": "Shorts focusing on removing names from keyboards, chat lists, or status views (e.g., rwOUYo_hayQ, AfaLxMy6FMY) consistently maintain baseline views between 30-41.",
+      "action": "Continue utilizing micro-actions of digital distancing as reliable baseline hooks."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Melancholy without Action",
-      "evidence": "Vague night thoughts or passive waiting (e.g., uIbMpCjVutQ, aUuNKfe7jm4) consistently underperformed with single-digit views.",
-      "action": "Avoid passive descriptions of sadness; ground every piece in a specific physical or digital trigger."
+      "pattern": "Over-saturated Digital Deletion Hooks",
+      "evidence": "Recent repetitive uploads about unfollowing or removing accounts on niche streaming platforms (e.g., cuKSS0gHyt0) resulted in 0 views due to fatigue and overly niche scenarios.",
+      "action": "Avoid hyper-specific or repetitive digital cleanup actions; move to broader emotional realization moments."
     }
   ],
   "next_video": {
-    "topic": "self respect",
-    "emotion": "Empowered relief / detachment",
-    "hook_style": "Tangible digital habit",
+    "topic": "रिश्ते",
+    "emotion": "Nostalgia and bittersweet realization",
+    "hook_style": "Simple real-life moment involving everyday objects",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short story about turning off read receipts or removing a widget, realizing that the absence of a response no longer carries any weight.",
-    "opening_direction": "जब से सेटिंग्स में जाकर 'लास्ट सीन' सबके लिए छिपाया,",
-    "twist_direction": "पता चला कि सुकून दूसरों के ऑनलाइन होने से नहीं, खुद के फिक्र न करने से मिलता है।",
+    "concept": "Finding an old handwritten grocery list or school note in a book written in someone's familiar handwriting who is no longer close.",
+    "opening_direction": "किताब के पुराने पन्ने पलटते वक्त अचानक एक पर्ची हाथ लगी,",
+    "twist_direction": "लिखावट उसी की थी, पर अब वो शब्द किसी और की जिंदगी का हिस्सा बन चुके थे।",
     "duration_seconds": 15,
-    "posting_window": "13:30 - 14:00 IST",
-    "reason": "Previous mid-day uploads in this slot showed relatively better baseline discovery compared to early morning slots."
+    "posting_window": "18:00 - 20:00 IST",
+    "reason": "Testing a shift from purely digital smartphone actions to physical nostalgic objects to see if tactile memories drive higher emotional engagement than chat/screen deletions."
   },
-  "experiment": "Testing a slightly more reflective self-respect narrative combined with the mid-day posting window to check for improved baseline retention over hyper-niche digital clutter.",
-  "updated_at": "2026-09-23T17:38:49.323226+00:00",
+  "experiment": "Testing physical nostalgia and handwriting instead of digital phone/chat deletion tropes.",
+  "updated_at": "2026-09-23T18:41:29.221419+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-23T17:39:08.034232+00:00"
+  "generated_at": "2026-09-23T18:41:34.148763+00:00"
 }
