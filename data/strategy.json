@@ -1,45 +1,45 @@
 {
   "confidence": "65%",
   "data_points": 33,
-  "overall_summary": "The channel 'Dil Ki Diary' heavily experiments with 'self respect' and digital micro-actions (deleting chats, removing widgets, clearing history). However, out-of-niche family emotional shorts (Maa, Bhai, Papa) unexpectedly outperformed standard relationship/self-respect content massively (e.g., Mother video hit 211 views vs single-digit or low double-digit views on recent self-respect shorts), proving that broader universal family emotion scales significantly better than hyper-niche phone-screen isolation tropes which have started fatiguing.",
+  "overall_summary": "Family emotional shorts (Maa, Bhai, Papa) vastly outperformed the core self-respect breakup relationship niche in views and likes, proving high cross-demographic appeal. Within the core niche, micro-actions involving digital boundaries (like blue ticks, pinned chats, and status lists) perform better than abstract relationship rants.",
   "winning_patterns": [
     {
-      "pattern": "Universal Family Relationships",
-      "evidence": "Videos about Mother (OfHrAp3r1G8), Father (v8krtdmxbPs), and Brother (m4cgM90y9JU) secured 211, 104, and 74 views respectively, drastically outperforming digital self-respect loops.",
-      "action": "Incorporate high-universal-resonance family or domestic emotional friction alongside core self-respect themes."
+      "pattern": "Universal Family Emotions",
+      "evidence": "Videos about parents and siblings (OfHrAp3r1G8, m4cgM90y9JU, v8krtdmxbPs) got 76 to 211 views and multiple likes, whereas most self-respect relationship shorts struggled below 40 views.",
+      "action": "Integrate universal emotional bonds and familial care into the content matrix as a high-performing content cluster."
     },
     {
-      "pattern": "Tangible Everyday Relatable Objects",
-      "evidence": "RWOUYo_hayQ ('स्टेटस लिस्ट में...') and AfaLxMy6FMY achieved relative stability in the self-respect category by anchoring on concrete UI choices.",
-      "action": "Continue anchoring abstract feelings to hyper-specific, everyday physical or digital objects."
+      "pattern": "Tangible Digital Boundary Hooks",
+      "evidence": "Specific modern digital actions like checking read receipts, status lists, or unpinning chats (rwOUYo_hayQ, wFimeeP_aVc) yielded higher engagement than generic sadness.",
+      "action": "Use ultra-specific smartphone interface habits as narrative entry points."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Repetitive Phone-Deletion Micro-Tropes",
-      "evidence": "Recent self-respect shorts focusing strictly on archiving, keyboards, and un-following (e.g., 6KVEZc22kS8, HMyw6blmGOc, cuKSS0gHyt0) plummeted to 0-2 views due to formula fatigue.",
-      "action": "Temporarily pause hyper-repetitive digital deletion hooks and pivot toward emotional maturity within relationships or family bonds."
+      "pattern": "Abstract Sadness & General Overthinking",
+      "evidence": "Vague night thoughts or broad longing (e.g., WhJ-VwRa3Rg, uIbMpCjVutQ) had the lowest view counts (6 to 8 views).",
+      "action": "Avoid broad conceptual melancholy; anchor every story in a concrete physical or digital setting."
     },
     {
-      "pattern": "Late Night / Overthinking Clichés",
-      "evidence": "Abstract hooks like 'रात के दो बजे' or 'चाय ठंडी हो गई' yielded very low traction (<15 views).",
-      "action": "Avoid generic late-night atmospheric openings unless paired with a stark, unexpected real-life action."
+      "pattern": "Overdone Digital Deletions",
+      "evidence": "Repeatedly using variations of blocking, deleting chats, or clearing storage in too quick succession resulted in diminishing returns (e.g., 6, 4, 1 views).",
+      "action": "Shift focus slightly from destructive digital actions (deleting/blocking) to subtle emotional realizations."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Bittersweet realization / Emotional maturity",
-    "hook_style": "Domestic observation",
+    "emotion": "nostalgia / unexpressed care",
+    "hook_style": "relatable daily habit with a subtle emotional undertone",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short about noticing how parents quietly start asking for help with small phone things, realizing they are aging while we were busy chasing unrequited love or modern heartbreak.",
-    "opening_direction": "जब माँ ने चश्मे के ऊपर से फोन देखते हुए कहा— 'बेटा, ये मैसेज ज़रा पढ़ना क्या लिखा है...'",
-    "twist_direction": "तब समझ आया कि जिन लोगों के ऑनलाइन स्टेटस पर हम रातें बिता देते थे, असली दुनिया में हमारे अपने हमसे बस दो मिनट की बातचीत मांग रहे थे।",
-    "duration_seconds": 12,
-    "posting_window": "13:00 IST to 16:00 IST",
-    "reason": "Leverages the proven high-performing family/parental emotional trigger while maintaining the channel's reflective, diary-like core tone to break the current low-view slump."
+    "concept": "A story about saving a family member's or old friend's leftover food or small habits, bridging the high-performing family emotional appeal with the channel's diary style.",
+    "opening_direction": "जब माँ के लिए चाय बनाई और कप में थोड़ा सा हिस्सा हमेशा की तरह ज्यादा छोड़ दिया,",
+    "twist_direction": "ख्याल आया कि अब वो शहर में नहीं हैं, पर आदतें आज भी वैसे ही घर संभालती हैं।",
+    "duration_seconds": 15,
+    "posting_window": "13:00 - 15:00 IST",
+    "reason": "Capitalizes on the proven high-performing family/care emotional pattern while keeping the signature 'Dil Ki Diary' personal narrative format."
   },
-  "experiment": "Testing if combining the proven high-engagement family emotion format with a reflective self-awareness twist can permanently lift baseline views out of the digital-detox fatigue loop.",
-  "updated_at": "2026-09-24T22:38:43.187038+00:00",
+  "experiment": "Testing if blending the high-performing family emotional appeal with the core 'Dil Ki Diary' personal observation format yields higher baseline views than breakup content alone.",
+  "updated_at": "2026-09-24T23:38:34.378584+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-24T22:38:47.192637+00:00"
+  "generated_at": "2026-09-24T23:38:38.142383+00:00"
 }
