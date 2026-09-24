@@ -1,45 +1,45 @@
 {
-  "confidence": "20%",
+  "confidence": "45%",
   "data_points": 31,
-  "overall_summary": "Most self-respect and emotional shorts have extremely low views (0-41 range), except for an outlier about mothers ('Maa Shayari') which hit 196 views. Since sample size and engagement are overall very low and volatile, confidence is low, indicating a need for a controlled exploration strategy combining the core emotional niche with a fresh angle.",
+  "overall_summary": "Most content centers heavily around 'self respect' with low absolute view counts, ranging mostly between 3 to 41 views. A notable outlier is the mother-themed video ('माँ जब पूछती है') hitting 196 views, suggesting a wider emotional resonance outside strict romantic/self-respect micro-moments. However, to respect the channel's core identity while capitalizing on higher-performing relatable real-life emotional touchpoints, we should blend self-respect with universal relational bonds.",
   "winning_patterns": [
     {
-      "pattern": "Parental/Family Emotional Connection",
-      "evidence": "The video about Mother ('माँ जब पूछती है...') achieved 196 views and 17 likes, vastly outperforming romantic/self-respect chat deletion tropes.",
-      "action": "Test more family or foundational emotional bonds instead of solely focusing on digital breakup/self-respect tropes."
+      "pattern": "Highly specific, tactile digital/phone interactions",
+      "evidence": "Videos focusing on concrete phone actions like status lists (41 views), pinned chats (41 views), and archived folders (23 views) consistently outperform abstract emotional whining.",
+      "action": "Continue anchoring scripts in hyper-specific, modern smartphone or daily micro-habits."
     },
     {
-      "pattern": "Tangible Everyday Digital Micro-Actions",
-      "evidence": "Self-respect hooks involving specific phone actions like removing names from lists or changing settings scored slightly higher (30-41 views) compared to generic overthinking.",
-      "action": "Keep grounded in hyper-specific physical or digital habits if sticking to the romance/self-respect genre."
+      "pattern": "Broad family or unconditional emotional bonds",
+      "evidence": "The stray 'Maa' video hit 196 views, vastly outperforming all romantic self-respect shorts.",
+      "action": "Reserve a small experiment budget to test universal emotional expressions beyond romantic heartbreak."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Late-Night Overthinking Tropes",
-      "evidence": "Videos like 'रात के दो बजे' and 'रात के ख्याल' got very low views (6-13 views).",
-      "action": "Avoid abstract late-night rambling; anchor text in concrete daily scenarios."
+      "pattern": "Generic late-night solitude or vague overthinking hooks",
+      "evidence": "Videos like 'रात के दो बजे' (13 views) and 'मेज पर रखी चाय' (6 views) show lower engagement compared to specific boundary-setting actions.",
+      "action": "Avoid vague ambient night/tea tropes without an active choice or tangible item attached."
     },
     {
-      "pattern": "Overused Chat/Pin Deletion Hooks",
-      "evidence": "Too many consecutive variations of blocking, unpinning chats, and deleting archives have resulted in audience fatigue and near-zero views on recent uploads.",
-      "action": "Pause the repetitive WhatsApp/chat-deletion template and introduce fresh emotional contexts."
+      "pattern": "Overused digital clichés without fresh framing",
+      "evidence": "Reps of simple 'blocking' or 'deleting number' have plateaued in lower view ranges (3-10 views).",
+      "action": "Pivot from standard blocking to more nuanced boundaries, like shared subscription profiles or digital spaces."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Nostalgia and silent sacrifice",
-    "hook_style": "Simple real-life family observation",
+    "emotion": "Bittersweet realization & self-worth",
+    "hook_style": "Specific everyday household or digital touchpoint",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A small emotional moment about finding an old folded sweater or item kept by a father, reminding the protagonist of unspoken love.",
-    "opening_direction": "पिता के पुराने बक्से से जब वो स्वेटर निकला...",
-    "twist_direction": "पता चला वो खुद पुरानी ठंड काटते रहे, पर हमारे लिए नया लाने से कभी मना नहीं किया।",
+    "concept": "A person spots a shared utility bill or family streaming account profile that still bears an ex's name, realizing it is finally time to delete that last remaining digital tether.",
+    "opening_direction": "जब उस ओटीटी ऐप की स्क्रीन पर आज भी उसका प्रोफाइल होमपेज पर दिखा,",
+    "twist_direction": "इस बार पासवर्ड बदलने का दुख नहीं, बल्कि अपनी स्क्रीन पर सिर्फ खुद का नाम देखकर जो सुकून मिला, वो अनमोल था।",
     "duration_seconds": 15,
-    "posting_window": "08:00 AM - 09:00 AM",
-    "reason": "Leverages the winning topic pattern (family/parental emotional bonds seen in the 'Maa' outlier) while avoiding the saturated digital breakup/chat deletion trope."
+    "posting_window": "13:45 IST",
+    "reason": "Combines the proven high-performing tactical phone/app UI hook style with the relationship topic, avoiding burnt-out chat-deletion clichés while staying true to the Dil Ki Diary format."
   },
-  "experiment": "Testing if expanding from romantic self-respect to parent-child emotional sacrifices (building on the high-performing 'Maa' video) rescues view counts from the current plateau.",
-  "updated_at": "2026-09-24T01:39:40.463507+00:00",
+  "experiment": "Testing a shift from direct chat-deletion to broader shared digital/household account spaces under the 'रिश्ते' topic.",
+  "updated_at": "2026-09-24T02:40:30.336557+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-24T01:39:43.572366+00:00"
+  "generated_at": "2026-09-24T02:40:34.139696+00:00"
 }
