@@ -1,40 +1,35 @@
 {
-  "confidence": "45%",
+  "confidence": "35%",
   "data_points": 32,
-  "overall_summary": "Most core romantic/overthinking shorts generated low views (under 50), except for the massive outlier 'Maa' video (196 views), showing strong audience pull toward familial emotional ties over typical romantic heartbreak angles.",
+  "overall_summary": "The channel heavily relies on modern digital-age heartbreak and self-respect themes (deleting chats, removing widgets, muting statuses). While the single highest view count came from an outlier family topic (Maa/Bhai), the core repeatable theme is digital micro-interactions tied to self-respect. However, overall sample sizes and engagement (likes/comments) are very low across the board.",
   "winning_patterns": [
     {
-      "pattern": "Familial and unconditional emotional touchpoints",
-      "evidence": "Video 'OfHrAp3r1G8' about mother hit 196 views, far outperforming romantic heartbreak shorts which average 10-40 views.",
-      "action": "Pivot a small percentage of content toward universal family relationships (mother/father/siblings) to test if broader emotional reach can be unlocked."
-    },
-    {
-      "pattern": "Digital micro-habits for Self Respect",
-      "evidence": "Shorts highlighting specific actions like clearing storage, status lists, or deleting chats (e.g., AfaLxMy6FMY, rwOUYo_hayQ, W0ozRrwvigQ) consistently pull 25-41 views, the highest in the core romantic/self-respect bucket.",
-      "action": "Continue utilizing highly visual, modern phone-habit hooks for self-respect narratives."
+      "pattern": "Digital micro-detachment hooks",
+      "evidence": "Videos like 'चैट डिलीट करने की हिम्मत' (41 views) and 'स्टेटस लिस्ट में सबसे ऊपर' (41 views) perform better than abstract poetry.",
+      "action": "Continue focusing on specific, everyday phone actions related to letting go."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Vague late-night or generic melancholy",
-      "evidence": "Videos focusing purely on 'रात के ख्याल' or abstract waiting (e.g., uIbMpCjVutQ with 6 views, WhJ-VwRa3Rg with 8 views) severely underperform.",
-      "action": "Avoid abstract poetic hooks; ground every emotional thought in a physical object or tangible action."
+      "pattern": "Abstract emotional statements",
+      "evidence": "Vague hooks like 'रात के दो बजे' or 'मेज पर रखी चाय' show lower traction compared to tangible actions.",
+      "action": "Avoid generic late-night tropes without a specific, grounded physical action."
     }
   ],
   "next_video": {
-    "topic": "रिश्ते",
-    "emotion": "Nostalgia and silent sacrifice",
-    "hook_style": "Tangible real-life moment involving a parent",
+    "topic": "self respect",
+    "emotion": "Empowerment through letting go",
+    "hook_style": "Tangible digital action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Finding an old, worn-out wallet or purse belonging to a father, discovering an old faded photo or receipt he preserved for years.",
-    "opening_direction": "पिता का पुराना पर्स मेज पर रखा था...",
-    "twist_direction": "पैसे तो एक भी नहीं थे उसमें, पर संभाल कर रखी गई मेरी बचपन की एक पर्ची जरूर मिली.",
+    "concept": "Removing someone from the shared location tracking or map app widget.",
+    "opening_direction": "जब गूगल मैप्स की शेयर्ड लोकेशन से उसका नाम हटाया,",
+    "twist_direction": "लगा था रास्ता भटक जाएंगे, पर सच तो यह था कि अब मंजिल सिर्फ अपनी थी।",
     "duration_seconds": 12,
-    "posting_window": "08:00 AM - 10:00 AM",
-    "reason": "Testing the high-performing familial emotional pattern discovered in the data while retaining the core 'Dil Ki Diary' narrative style."
+    "posting_window": "05:30 PM - 07:30 PM",
+    "reason": "Tests a fresh digital interaction (location sharing) that hasn't been overused yet, aligning with the proven self-respect and modern heartbreak niche."
   },
-  "experiment": "Testing if shifting the emotional anchor from romantic heartbreak to parental sacrifice can replicate or exceed the high view count of the previous 'Maa' outlier.",
-  "updated_at": "2026-09-24T04:40:48.755505+00:00",
+  "experiment": "Testing a new digital micro-interaction (location sharing/maps) within the core self-respect framework to see if it outperforms chat/storage deletion tropes.",
+  "updated_at": "2026-09-24T05:39:56.572597+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-24T04:40:52.031326+00:00"
+  "generated_at": "2026-09-24T05:39:59.394634+00:00"
 }
