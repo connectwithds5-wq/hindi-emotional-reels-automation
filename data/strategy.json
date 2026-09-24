@@ -1,40 +1,40 @@
 {
-  "confidence": "35%",
+  "confidence": "65%",
   "data_points": 33,
-  "overall_summary": "Most core romantic/self-respect shorts have very low sample views (under 50), while a brief departure into family emotional content ('Maa', 'Papa', 'Bhai') showed significantly higher views and engagement (up to 203 views). Confidence is low for purely romantic shorts due to low velocity, but family-focused micro-stories or fresh phone-habit angles warrant controlled testing.",
+  "overall_summary": "Data reveals clear divergence: high-sample 'self respect' and digital-detachment digital micro-stories perform decently (averaging 15-40 views), while a sudden experiment into universal family emotional tropes (Maa, Papa, Bhai) generated higher outlier views (50-200 views). However, the core channel identity 'Dil Ki Diary' relies on romantic/overthinking/self-respect niches. We must balance the proven core topic repeatable patterns with the audience's apparent appetite for raw family emotional hooks.",
   "winning_patterns": [
     {
-      "pattern": "Family emotional anchors",
-      "evidence": "Videos about Mother (OfHrAp3r1G8 - 203 views), Father (v8krtdmxbPs - 46 views), and Brother (m4cgM90y9JU - 52 views) outperformed almost all relationship/self-respect shorts.",
-      "action": "Incorporate occasional family-centric emotional shorts to broaden appeal beyond just heartbreak."
+      "pattern": "Digital footprint deletion micro-hooks",
+      "evidence": "Videos like 'चैट डिलीट करने की हिम्मत' (41 views) and 'जब आर्काइव फोल्डर पर नजर पड़ी' (23 views) performed well relative to channel baseline.",
+      "action": "Continue focusing on micro-actions related to phone/digital habits and self-respect boundaries."
     },
     {
-      "pattern": "Tangible digital boundary-setting hooks",
-      "evidence": "AfaLxMy6FMY ('उंगली उसी चैट पर रुकी थी' - 41 views) and W0ozRrwvigQ ('जब आर्काइव फोल्डर पर नजर पड़ी' - 23 views) performed better than abstract emotional concepts.",
-      "action": "Use specific, tactile smartphone interface actions for hooks."
+      "pattern": "Universal family emotional resonance",
+      "evidence": "Outlier videos about parents like 'माँ जब पूछती है खाना खाया' scored 203 views with 18 likes.",
+      "action": "Use a small experiment budget to test family-centric emotional bonds framed around personal sacrifice."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Overused or abstract digital tropes",
-      "evidence": "Videos focusing heavily on generic late-night texting anxiety or repetitive unpin/block lines without a strong micro-action got very low traction (e.g., hT4EGP69mRw, cuKSS0gHyt0 with 0-3 views).",
-      "action": "Move away from abstract notification anxiety and focus on unique physical items or unexpected moments."
+      "pattern": "Generic abstract emotional statements",
+      "evidence": "Abstract thoughts like 'रात के ख्याल और अधूरा इंतजार' (6 views) or changing ringtones ('जब उसका स्पेशल रिंगटोन बदल कर' - 3 views) lacked strong physical triggers.",
+      "action": "Avoid abstract heartbreak; anchor every story in a specific tangible, physical item or everyday notification."
     }
   ],
   "next_video": {
-    "topic": "रिश्ते",
-    "emotion": "nostalgia / bitter-sweet realization",
-    "hook_style": "tangible real-life moment",
+    "topic": "self respect",
+    "emotion": "Bittersweet realization and letting go",
+    "hook_style": "Visual action on a phone screen involving contact lists or shared media",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Finding an old handwritten grocery list or school note inside an old book gifted by someone who left, realizing their handwriting used to be your entire world.",
-    "opening_direction": "पुरानी किताब के पन्ने पलटते हुए जब एक पर्ची हाथ लगी,",
-    "twist_direction": "तब याद आया कि कभी जिस लिखावट से डर लगता था, आज उसी को देखने के लिए आंखें तरसती हैं।",
+    "concept": "A short, grounded moment of finding an old school notebook or diary where a long-forgotten childhood dream was written, contrasted with current phone habits.",
+    "opening_direction": "पुरानी डायरी के पन्ने पलटते वक्त जब बचपन का वो पन्ना दिखा...",
+    "twist_direction": "...जहाँ लिखा था 'मैं कभी खुद से प्यार करना नहीं भूलूँगा', और आज फोन में उसी शख्स की चैट डिलीट करनी पड़ रही है।",
     "duration_seconds": 12,
-    "posting_window": "13:00 - 14:00",
-    "reason": "Tests a pivot away from pure phone-screen digital habits to a physical, tactile emotional trigger while leveraging the high-performing emotional resonance format."
+    "posting_window": "05:30 PM - 08:00 PM IST",
+    "reason": "Combines the proven digital-detachment self-respect theme with the classic 'Dil Ki Diary' nostalgia format, capitalizing on evening high-intent viewing times."
   },
-  "experiment": "Testing physical nostalgia objects (books/handwriting) instead of digital smartphone screens to see if it breaks the low-view plateau.",
-  "updated_at": "2026-09-24T15:40:59.103502+00:00",
+  "experiment": "Testing if bridging nostalgic personal items (old diaries) with digital self-respect actions can capture both family/nostalgia interest and core relationship audience.",
+  "updated_at": "2026-09-24T16:40:53.986362+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-24T15:41:40.076000+00:00"
+  "generated_at": "2026-09-24T16:41:20.490770+00:00"
 }
