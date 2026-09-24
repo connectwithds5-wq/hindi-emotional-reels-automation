@@ -1,45 +1,40 @@
 {
-  "confidence": "20%",
-  "data_points": 31,
-  "overall_summary": "The channel heavily focuses on 'self respect' and digital/phone-related micro-interactions (chats, blocks, lists), but overall viewership remains extremely low across most uploads (under 50 views), with one major outlier ('माँ' video at 196 views) hitting an unmapped topic. Confidence in core patterns is low due to small sample size and sparse engagement.",
+  "confidence": "45%",
+  "data_points": 32,
+  "overall_summary": "Most core romantic/overthinking shorts generated low views (under 50), except for the massive outlier 'Maa' video (196 views), showing strong audience pull toward familial emotional ties over typical romantic heartbreak angles.",
   "winning_patterns": [
     {
-      "pattern": "Universal Relatable Family/Care Hook",
-      "evidence": "Video 'OfHrAp3r1G8' about Mother asking 'Khana khaya?' achieved 196 views, significantly outperforming the romantic/self-respect digital breakup niche.",
-      "action": "Reserve a small experiment budget to test universal emotional bonds (like family or unconditional care) alongside the core self-respect content."
+      "pattern": "Familial and unconditional emotional touchpoints",
+      "evidence": "Video 'OfHrAp3r1G8' about mother hit 196 views, far outperforming romantic heartbreak shorts which average 10-40 views.",
+      "action": "Pivot a small percentage of content toward universal family relationships (mother/father/siblings) to test if broader emotional reach can be unlocked."
     },
     {
-      "pattern": "Tangible Digital Action Hooks",
-      "evidence": "Videos like 'जब रिप्लाई का इंतज़ार खत्म हो जाए' (34 views) and 'चैट डिलीट करने की हिम्मत' (41 views) perform slightly better than abstract emotional concepts within the target niche.",
-      "action": "Keep hooks grounded in specific, highly familiar smartphone actions."
+      "pattern": "Digital micro-habits for Self Respect",
+      "evidence": "Shorts highlighting specific actions like clearing storage, status lists, or deleting chats (e.g., AfaLxMy6FMY, rwOUYo_hayQ, W0ozRrwvigQ) consistently pull 25-41 views, the highest in the core romantic/self-respect bucket.",
+      "action": "Continue utilizing highly visual, modern phone-habit hooks for self-respect narratives."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Overused Digital Clichés",
-      "evidence": "Variations of unpinning chats, removing ringtones, and clearing storage have saturated recent uploads (e.g., LBGCloAitok, hT4EGP69mRw, cuKSS0gHyt0) resulting in near-zero views (0-4 views).",
-      "action": "Avoid repetitive smartphone settings/widget tropes for a while to prevent audience fatigue."
-    },
-    {
-      "pattern": "Abstract or Blank Hooks",
-      "evidence": "Videos missing strong contextual setups or relying purely on generic captions fail to pick up initial algorithmic traction.",
-      "action": "Ensure every hook immediately sets a vivid, high-friction everyday scene."
+      "pattern": "Vague late-night or generic melancholy",
+      "evidence": "Videos focusing purely on 'रात के ख्याल' or abstract waiting (e.g., uIbMpCjVutQ with 6 views, WhJ-VwRa3Rg with 8 views) severely underperform.",
+      "action": "Avoid abstract poetic hooks; ground every emotional thought in a physical object or tangible action."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Nostalgia and silent realization",
-    "hook_style": "Simple real-life moment",
+    "emotion": "Nostalgia and silent sacrifice",
+    "hook_style": "Tangible real-life moment involving a parent",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Finding an old school notebook with a forgotten letter or dried flower kept as a bookmark, realizing how much innocence we left behind.",
-    "opening_direction": "पुरानी किताबें टटोलते वक्त जब बचपन की किताब का पन्ना पलटा,",
-    "twist_direction": "सूखे हुए गुलाब के फूल के नीचे वो चिट्ठी मिली, जिसे कभी किसी को देने की हिम्मत ही नहीं हुई थी।",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 20:00 IST",
-    "reason": "Stepping away from overdone smartphone chat deletions to test tangible physical nostalgia (book/letter), capitalizing on a broader emotional resonance similar to the unexpected success of the mother-care video."
+    "concept": "Finding an old, worn-out wallet or purse belonging to a father, discovering an old faded photo or receipt he preserved for years.",
+    "opening_direction": "पिता का पुराना पर्स मेज पर रखा था...",
+    "twist_direction": "पैसे तो एक भी नहीं थे उसमें, पर संभाल कर रखी गई मेरी बचपन की एक पर्ची जरूर मिली.",
+    "duration_seconds": 12,
+    "posting_window": "08:00 AM - 10:00 AM",
+    "reason": "Testing the high-performing familial emotional pattern discovered in the data while retaining the core 'Dil Ki Diary' narrative style."
   },
-  "experiment": "Testing physical nostalgia and non-digital objects (books/letters) against the saturated digital smartphone-deletion niche.",
-  "updated_at": "2026-09-24T03:41:11.766305+00:00",
+  "experiment": "Testing if shifting the emotional anchor from romantic heartbreak to parental sacrifice can replicate or exceed the high view count of the previous 'Maa' outlier.",
+  "updated_at": "2026-09-24T04:40:48.755505+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-24T03:41:16.450403+00:00"
+  "generated_at": "2026-09-24T04:40:52.031326+00:00"
 }
