@@ -1,40 +1,40 @@
 {
-  "confidence": "25%",
+  "confidence": "40%",
   "data_points": 32,
-  "overall_summary": "Most core romantic/self-respect shorts have very low sample views (0-41), while a family-focused emotional outlier ('Maa') achieved 202 views, though it sits outside the core niche topics. We must balance our repeatable core niche with a low-risk controlled exploration.",
+  "overall_summary": "Most core self-respect and modern digital detachment videos have low view counts (under 50), except for a couple of outlier family-centric emotional shorts (Maa and Bhai) which significantly outperformed the channel average. However, since the core brand is 'Dil Ki Diary' focusing on heartbreak/self-respect, we should leverage a high-performing emotional family/relatable experiment while keeping within the core niche parameters or blending them slightly.",
   "winning_patterns": [
     {
-      "pattern": "Digital/Phone-based Self-Respect Micro-Moments",
-      "evidence": "Videos like 'rwOUYo_hayQ' (41 views) and 'AfaLxMy6FMY' (41 views) dealing with chat deletion and status lists perform relatively better among core romantic/self-respect content.",
-      "action": "Continue focusing on specific, highly relatable modern breakup actions on smartphones (chats, blocks, pins)."
+      "pattern": "Deep family-tied emotional triggers",
+      "evidence": "The video about Mother ('माँ जब पूछती है...') received 202 views and 18 likes, far outperforming digital-detachment self-respect shorts.",
+      "action": "Allocate a small experimental budget to broader domestic or relatable emotional touchpoints instead of strictly phone/chat-based self-respect tropes."
     },
     {
-      "pattern": "Universal Family Emotional Outliers",
-      "evidence": "OfHrAp3r1G8 ('Maa' topic) hit 202 views, significantly outperforming core relationship shorts.",
-      "action": "Allocate a small experimental budget to universal familial emotional bonds without abandoning the core channel identity."
+      "pattern": "Tangible, physical item triggers",
+      "evidence": "Videos referencing physical or digital items like chat pins, shared albums, or lists (e.g., 'स्टेटस लिस्ट में सबसे ऊपर...', 'चैट डिलीट करने की हिम्मत...') get steady baseline engagement relative to abstract ones.",
+      "action": "Continue using concrete micro-moments as hooks, but evolve beyond just phone apps."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Late-Night Thoughts without Actionable Hooks",
-      "evidence": "Videos focusing purely on abstract vibes or late-night weather like 'uIbMpCjVutQ' (6 views) or 'WhJ-VwRa3Rg' (8 views) underperformed.",
-      "action": "Avoid purely atmospheric hooks; anchor every emotional thought to a concrete everyday object or digital habit."
+      "pattern": "Overused digital detachment cliché openings",
+      "evidence": "Recent videos like 'जब फोन के वॉलपेपर से...' (1 view) and 'जब उस एक पुरानी सीरीज़...' (0 views) show audience fatigue with repetitive phone-ui based hooks.",
+      "action": "Pivot away from hyper-specific UI actions (widgets, streaming profiles, wallpapers) to physical, real-world emotional triggers."
     }
   ],
   "next_video": {
-    "topic": "self respect",
-    "emotion": "Empowerment through letting go",
-    "hook_style": "Concrete physical/digital action trigger",
+    "topic": "रिश्ते",
+    "emotion": "Nostalgia and silent heartbreak",
+    "hook_style": "Real-life domestic observation",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Clearing out shared cloud photo albums or hidden folders where old memories automatically resurface as 'On This Day' reminders.",
-    "opening_direction": "जब फोन के नोटिफिकेशन में फ्लैश हुआ '2 Years Ago Today', और स्क्रीन पर उसका चेहरा आ गया।",
-    "twist_direction": "पहले दिल चाहा कि तुरंत सेव कर लूं, फिर खुद से कहा—बीते हुए कल को आज की खुशियां मत चुराने दो, और उंगली ने हमेशा के लिए 'Delete All' पर क्लिक कर दिया।",
+    "concept": "Finding an old handwritten letter or greeting card tucked inside an old textbook, and realizing how loud silence has become.",
+    "opening_direction": "पुरानी किताबों के पन्ने पलटते वक्त जब वो पुराना ग्रीटिंग कार्ड हाथ लगा,",
+    "twist_direction": "तब समझ आया कि स्याही तो आज भी वैसी ही है, बस अब भेजने वाले के हाथ बदल गए हैं।",
     "duration_seconds": 12,
-    "posting_window": "05:30 PM - 07:30 PM IST",
-    "reason": "Leverages the proven high-performing digital smartphone cleanup pattern for self-respect while offering a fresh, visceral emotional trigger."
+    "posting_window": "18:00 - 20:00 IST",
+    "reason": "Testing a shift from digital phone screens (which are showing fatigue) to tangible, nostalgic physical objects while keeping the emotional depth high."
   },
-  "experiment": "Testing if shifting the phone-cleanup trope from simple chat deletion to automated cloud photo memory reminders ('On This Day') increases viewer retention and engagement.",
-  "updated_at": "2026-09-24T11:40:15.938805+00:00",
+  "experiment": "Testing physical nostalgia items (books/letters) over digital phone-ui hooks to combat format saturation.",
+  "updated_at": "2026-09-24T12:45:07.346016+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-24T11:40:19.311154+00:00"
+  "generated_at": "2026-09-24T12:45:11.001081+00:00"
 }
