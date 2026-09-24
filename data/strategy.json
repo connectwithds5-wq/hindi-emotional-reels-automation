@@ -1,40 +1,40 @@
 {
-  "confidence": "25%",
+  "confidence": "45%",
   "data_points": 32,
-  "overall_summary": "Data volume is low with minimal engagement overall, though 'self respect' and family-oriented emotional hooks (like the outlier about mothers) show brief sparks of interest. Confidence is low, so we will combine a repeatable digital-detachment pattern with a small experiment budget toward universal familial bonds.",
+  "overall_summary": "The channel relies heavily on 'self respect' digital boundary-setting hooks (like deleting chats, changing ringtones), which generally yield steady low-to-mid views (20-40 views). However, the massive outlier is the 'Maa' emotional family topic (197 views), indicating a potential hunger for universal family emotional bonds outside purely romantic heartbreak.",
   "winning_patterns": [
     {
-      "pattern": "Digital boundary/self-respect micro-actions",
-      "evidence": "Videos like 'rwOUYo_hayQ' (Self Respect status, 41 views) and 'wFimeeP_aVc' (34 views) outperform standard heartbreak posts.",
-      "action": "Continue focusing on specific, relatable smartphone actions related to moving on and self-respect."
+      "pattern": "Digital Boundary-Setting Hooks",
+      "evidence": "Videos like 'rwOUYo_hayQ' (41 views), 'AfaLxMy6FMY' (41 views), and 'wFimeeP_aVc' (34 views) performing better than average when dealing with chat deletions and read receipts.",
+      "action": "Continue focusing on micro-digital moments of letting go as a core repeatable pillar."
     },
     {
-      "pattern": "Universal family emotional resonance",
-      "evidence": "Outlier 'OfHrAp3r1G8' regarding a mother asking 'Khana khaya?' achieved 196 views, significantly higher than romantic heartbreak shorts.",
-      "action": "Test occasional expansion into broader familial emotional touchpoints as a controlled experiment."
+      "pattern": "Universal Relatable Emotional Expansion",
+      "evidence": "The Maa-centric video 'OfHrAp3r1G8' massively outperformed everything else with 197 views.",
+      "action": "Reserve a small experiment budget to test family/unconditional emotional bonds alongside core romantic self-respect content."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic late-night overthinking clichés",
-      "evidence": "Videos like 'uIbMpCjVutQ' (6 views) and 'G0gKV1p3ZHc' (13 views) with broad hooks like 'रात के दो बजे' underperformed.",
-      "action": "Avoid vague late-night ambiance hooks and ground them in concrete, physical actions."
+      "pattern": "Overly Abstract Late-Night Monologues",
+      "evidence": "Videos like 'uIbMpCjVutQ' (6 views) and 'WhJ-VwRa3Rg' (8 views) with vague concepts like 'tea getting cold' or 'online hours' underperform compared to tactile phone actions.",
+      "action": "Avoid passive observation hooks; always ground hooks in physical actions or tangible micro-decisions."
     }
   ],
   "next_video": {
-    "topic": "self respect",
-    "emotion": "Empowerment & Relief",
-    "hook_style": "Concrete physical micro-action on a phone",
+    "topic": "रिश्ते",
+    "emotion": "नस्टैल्जिया और अकेलापन",
+    "hook_style": "Tactile real-life object memory",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Clearing out old shared photo albums of a past relationship where the other person's face is automatically recognized by the phone's face-grouping feature.",
-    "opening_direction": "जब फोन ने गैलरी के 'Memories' में उस पुराने चेहरे को फिर से सामने लाकर रखा,",
-    "twist_direction": "पहले दिल धड़का था, पर इस बार बिना सोचे सीधे 'Hide this person' का बटन दबा दिया।",
+    "concept": "Finding an old handwritten school greeting card or letter tucked inside an old textbook, and realizing how much simpler life used to be compared to modern complicated silent treatments.",
+    "opening_direction": "पुरानी किताब के पन्नों से वो सूखा हुआ गुलाब का फूल और ग्रीटिंग कार्ड मिला,",
+    "twist_direction": "तब समझ आया कि तब कागज के पन्नों पर जज्बात साफ होते थे, आज स्क्रीन पर सिर्फ सीन सीन लिखा होता है।",
     "duration_seconds": 12,
-    "posting_window": "13:00 - 14:00 IST",
-    "reason": "Leverages the winning self-respect digital boundary framework with a fresh, highly relatable smartphone feature (gallery face clustering) that hasn't been overused yet."
+    "posting_window": "13:00 - 15:00 IST",
+    "reason": "Testing a shift from digital-only smartphone mechanics to a physical nostalgia object to see if it captures broader emotional resonance like the successful family-oriented video."
   },
-  "experiment": "Testing whether specific AI gallery feature triggers ('Memories' auto-tagging) drive higher retention than manual deletion actions.",
-  "updated_at": "2026-09-24T06:44:07.136243+00:00",
+  "experiment": "Testing physical nostalgia objects (books/letters) against the routine smartphone deletion hooks to see if broader sentimental triggers outperform niche digital self-respect hooks.",
+  "updated_at": "2026-09-24T07:40:24.018726+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-24T06:44:10.344368+00:00"
+  "generated_at": "2026-09-24T07:40:27.358897+00:00"
 }
