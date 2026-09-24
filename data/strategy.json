@@ -1,40 +1,45 @@
 {
-  "confidence": "45%",
+  "confidence": "35%",
   "data_points": 33,
-  "overall_summary": "The channel heavily relies on 'self respect' and phone/digital-cleanup motifs (blocking, deleting chats, unpinning). While these form a clear core niche, recent family-centric emotional shorts (Maa, Papa, Bhai) significantly outperformed the low-view self-respect posts, though overall sample data is small.",
+  "overall_summary": "Most core 'self respect' and digital breakup Shorts have low, single-digit or baseline double-digit views (0-41 views). However, the absolute highest outlier views and engagement come from unexpected family emotional content (Maa, Bhai, Papa stories getting 59 to 210 views). Since the sample size is small and the core romantic niche is underperforming, confidence is low. We should reserve a small budget for exploring family-relatable emotional beats while maintaining our core theme.",
   "winning_patterns": [
     {
-      "pattern": "Universal Family Emotional Hooks",
-      "evidence": "Videos about parents and siblings (OfHrAp3r1G8, v8krtdmxbPs, m4cgM90y9JU) generated vastly higher views (59-203) compared to niche digital self-respect posts.",
-      "action": "Selectively test broader universal relationships while retaining the emotional narrative style."
+      "pattern": "Family Emotional Connect",
+      "evidence": "Videos focusing on parents and siblings (e.g., Maa video with 210 views, Papa with 86, Bhai with 59) massively outperform the core self-respect digital-detachment niche.",
+      "action": "Incorporate family emotional dynamics into the content rotation as a controlled experiment."
     },
     {
-      "pattern": "Specific Tangible Digital Action Hooks",
-      "evidence": "Mid-performing self-respect shorts (rwOUYo_hayQ, AfaLxMy6FMY) used specific micro-actions like status lists and pinned chats.",
-      "action": "When doing self-respect content, avoid generic statements and anchor on ultra-specific digital micro-habits."
+      "pattern": "Concrete Digital Action Hooks",
+      "evidence": "Core content using specific, highly relatable digital/phone actions (unpinning chats, deleting cloud storage) performed slightly better than abstract hooks.",
+      "action": "Keep hyper-specific digital touchpoints when tackling relationship/self-respect topics."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Repetitive Digital Deletion Openings",
-      "evidence": "Multiple recent shorts starting with variants of deleting names, folders, or clearing storage (e.g., cuKSS0gHyt0, HMyw6blmGOc) received near-zero views.",
-      "action": "Pause repetitive phone-cleanup hooks to prevent audience fatigue."
+      "pattern": "Abstract Relationship Monologues",
+      "evidence": "General overthinking and unpinned romantic texts (like 'घंटों से वो ऑनलाइन दिख रहा है') resulted in very low views (under 10).",
+      "action": "Avoid vague romantic whining and stick to grounded, physical actions or universally relatable human bonds."
+    },
+    {
+      "pattern": "Late Evening Posting Times",
+      "evidence": "Several recent core videos posted late afternoon/night had near-zero views (0-2 views).",
+      "action": "Test morning and midday posting slots based on the higher-performing family shorts timestamps."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Nostalgia and silent sacrifice",
-    "hook_style": "Visual and situational micro-moment",
+    "emotion": "Nostalgia and gratitude",
+    "hook_style": "Simple real-life moment",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Finding an old, forgotten school notebook with a parent's handwriting used as a bookmark, realizing how much they sacrificed silently.",
-    "opening_direction": "पुरानी किताबें समेटते वक्त अलमारी के कोने से स्कूल की एक पुरानी डायरी हाथ लगी...",
-    "twist_direction": "पन्ने पलटे तो बीच में पापा के हाथों की वो पर्ची मिली, जिसमें फीस के पैसों का हिसाब लिखा था—और नीचे लिखा था 'बेटा पढ़ लिखकर बड़ा आदमी बनेगा'। तब समझ आया, उनके पुराने जूते और हमारी नई किताबों में फर्क कितना बड़ा था।",
-    "duration_seconds": 35,
-    "posting_window": "13:00 - 14:00 IST",
-    "reason": "Leverages the proven high-engagement pull of family/parental emotional themes observed in top-performing historical data while avoiding fatigued phone-deletion tropes."
+    "concept": "A short about finding an old handwritten letter or school notebook from a parent instead of a digital phone chat, blending family emotion with self-reflection.",
+    "opening_direction": "पुरानी किताबों के पन्नों के बीच, मां की लिखी हुई एक पुरानी पर्ची मिली।",
+    "twist_direction": "जिसे हम दुनिया भर में प्यार ढूंढते फिरते हैं, वो हमेशा से हमारे बचपन की उन बेपरवाह दुआओं में छुपा था।",
+    "duration_seconds": 12,
+    "posting_window": "08:00 AM - 10:00 AM",
+    "reason": "Exploiting the high-performing family emotional pattern while keeping the narrative style aligned with Dil Ki Diary."
   },
-  "experiment": "Testing if shifting the core emotional anchor from digital heartbreak/self-respect to parental silent sacrifice retains the subscriber base while lifting baseline reach.",
-  "updated_at": "2026-09-24T19:38:08.582053+00:00",
+  "experiment": "Testing if shifting the emotional anchor from romantic heartbreak/self-respect to universal familial bonds permanently lifts baseline views.",
+  "updated_at": "2026-09-24T20:41:00.879711+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-24T19:38:12.265473+00:00"
+  "generated_at": "2026-09-24T20:41:04.337920+00:00"
 }
