@@ -1,29 +1,40 @@
 {
-  "confidence": "45%",
+  "confidence": "35%",
   "data_points": 33,
-  "overall_summary": "Current leader: माँ जब पूछती है “खाना खाया?” ❤️ | Maa Shayari | Emotional Hindi Shorts with 203 views; sample size is still small, so this is directional.",
+  "overall_summary": "Most core romantic/self-respect shorts have very low sample views (under 50), while a brief departure into family emotional content ('Maa', 'Papa', 'Bhai') showed significantly higher views and engagement (up to 203 views). Confidence is low for purely romantic shorts due to low velocity, but family-focused micro-stories or fresh phone-habit angles warrant controlled testing.",
   "winning_patterns": [
     {
-      "pattern": "Highest observed views",
-      "evidence": "203 views on current leader",
-      "action": "Test a related emotional situation without copying the wording."
+      "pattern": "Family emotional anchors",
+      "evidence": "Videos about Mother (OfHrAp3r1G8 - 203 views), Father (v8krtdmxbPs - 46 views), and Brother (m4cgM90y9JU - 52 views) outperformed almost all relationship/self-respect shorts.",
+      "action": "Incorporate occasional family-centric emotional shorts to broaden appeal beyond just heartbreak."
+    },
+    {
+      "pattern": "Tangible digital boundary-setting hooks",
+      "evidence": "AfaLxMy6FMY ('उंगली उसी चैट पर रुकी थी' - 41 views) and W0ozRrwvigQ ('जब आर्काइव फोल्डर पर नजर पड़ी' - 23 views) performed better than abstract emotional concepts.",
+      "action": "Use specific, tactile smartphone interface actions for hooks."
     }
   ],
-  "weak_patterns": [],
+  "weak_patterns": [
+    {
+      "pattern": "Overused or abstract digital tropes",
+      "evidence": "Videos focusing heavily on generic late-night texting anxiety or repetitive unpin/block lines without a strong micro-action got very low traction (e.g., hT4EGP69mRw, cuKSS0gHyt0 with 0-3 views).",
+      "action": "Move away from abstract notification anxiety and focus on unique physical items or unexpected moments."
+    }
+  ],
   "next_video": {
-    "topic": "अधूरी मोहब्बत",
-    "emotion": "regret",
-    "hook_style": "curiosity",
+    "topic": "रिश्ते",
+    "emotion": "nostalgia / bitter-sweet realization",
+    "hook_style": "tangible real-life moment",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A familiar chat or notification reveals that the relationship has quietly changed.",
-    "opening_direction": "Start with one concrete digital-life detail.",
-    "twist_direction": "Reveal the emotional meaning in the final line.",
-    "duration_seconds": 10,
-    "posting_window": "7:00 PM IST test",
-    "reason": "Controlled baseline while more performance data accumulates."
+    "concept": "Finding an old handwritten grocery list or school note inside an old book gifted by someone who left, realizing their handwriting used to be your entire world.",
+    "opening_direction": "पुरानी किताब के पन्ने पलटते हुए जब एक पर्ची हाथ लगी,",
+    "twist_direction": "तब याद आया कि कभी जिस लिखावट से डर लगता था, आज उसी को देखने के लिए आंखें तरसती हैं।",
+    "duration_seconds": 12,
+    "posting_window": "13:00 - 14:00",
+    "reason": "Tests a pivot away from pure phone-screen digital habits to a physical, tactile emotional trigger while leveraging the high-performing emotional resonance format."
   },
-  "experiment": "Test a fresh hook around a concrete digital-life moment.",
-  "updated_at": "2026-09-24T14:43:11.102134+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-24T14:43:11.102149+00:00"
+  "experiment": "Testing physical nostalgia objects (books/handwriting) instead of digital smartphone screens to see if it breaks the low-view plateau.",
+  "updated_at": "2026-09-24T15:40:59.103502+00:00",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-09-24T15:41:40.076000+00:00"
 }
