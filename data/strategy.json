@@ -1,35 +1,40 @@
 {
-  "confidence": "35%",
+  "confidence": "25%",
   "data_points": 32,
-  "overall_summary": "The channel heavily relies on modern digital-age heartbreak and self-respect themes (deleting chats, removing widgets, muting statuses). While the single highest view count came from an outlier family topic (Maa/Bhai), the core repeatable theme is digital micro-interactions tied to self-respect. However, overall sample sizes and engagement (likes/comments) are very low across the board.",
+  "overall_summary": "Data volume is low with minimal engagement overall, though 'self respect' and family-oriented emotional hooks (like the outlier about mothers) show brief sparks of interest. Confidence is low, so we will combine a repeatable digital-detachment pattern with a small experiment budget toward universal familial bonds.",
   "winning_patterns": [
     {
-      "pattern": "Digital micro-detachment hooks",
-      "evidence": "Videos like 'चैट डिलीट करने की हिम्मत' (41 views) and 'स्टेटस लिस्ट में सबसे ऊपर' (41 views) perform better than abstract poetry.",
-      "action": "Continue focusing on specific, everyday phone actions related to letting go."
+      "pattern": "Digital boundary/self-respect micro-actions",
+      "evidence": "Videos like 'rwOUYo_hayQ' (Self Respect status, 41 views) and 'wFimeeP_aVc' (34 views) outperform standard heartbreak posts.",
+      "action": "Continue focusing on specific, relatable smartphone actions related to moving on and self-respect."
+    },
+    {
+      "pattern": "Universal family emotional resonance",
+      "evidence": "Outlier 'OfHrAp3r1G8' regarding a mother asking 'Khana khaya?' achieved 196 views, significantly higher than romantic heartbreak shorts.",
+      "action": "Test occasional expansion into broader familial emotional touchpoints as a controlled experiment."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract emotional statements",
-      "evidence": "Vague hooks like 'रात के दो बजे' or 'मेज पर रखी चाय' show lower traction compared to tangible actions.",
-      "action": "Avoid generic late-night tropes without a specific, grounded physical action."
+      "pattern": "Generic late-night overthinking clichés",
+      "evidence": "Videos like 'uIbMpCjVutQ' (6 views) and 'G0gKV1p3ZHc' (13 views) with broad hooks like 'रात के दो बजे' underperformed.",
+      "action": "Avoid vague late-night ambiance hooks and ground them in concrete, physical actions."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment through letting go",
-    "hook_style": "Tangible digital action",
+    "emotion": "Empowerment & Relief",
+    "hook_style": "Concrete physical micro-action on a phone",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Removing someone from the shared location tracking or map app widget.",
-    "opening_direction": "जब गूगल मैप्स की शेयर्ड लोकेशन से उसका नाम हटाया,",
-    "twist_direction": "लगा था रास्ता भटक जाएंगे, पर सच तो यह था कि अब मंजिल सिर्फ अपनी थी।",
+    "concept": "Clearing out old shared photo albums of a past relationship where the other person's face is automatically recognized by the phone's face-grouping feature.",
+    "opening_direction": "जब फोन ने गैलरी के 'Memories' में उस पुराने चेहरे को फिर से सामने लाकर रखा,",
+    "twist_direction": "पहले दिल धड़का था, पर इस बार बिना सोचे सीधे 'Hide this person' का बटन दबा दिया।",
     "duration_seconds": 12,
-    "posting_window": "05:30 PM - 07:30 PM",
-    "reason": "Tests a fresh digital interaction (location sharing) that hasn't been overused yet, aligning with the proven self-respect and modern heartbreak niche."
+    "posting_window": "13:00 - 14:00 IST",
+    "reason": "Leverages the winning self-respect digital boundary framework with a fresh, highly relatable smartphone feature (gallery face clustering) that hasn't been overused yet."
   },
-  "experiment": "Testing a new digital micro-interaction (location sharing/maps) within the core self-respect framework to see if it outperforms chat/storage deletion tropes.",
-  "updated_at": "2026-09-24T05:39:56.572597+00:00",
+  "experiment": "Testing whether specific AI gallery feature triggers ('Memories' auto-tagging) drive higher retention than manual deletion actions.",
+  "updated_at": "2026-09-24T06:44:07.136243+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-24T05:39:59.394634+00:00"
+  "generated_at": "2026-09-24T06:44:10.344368+00:00"
 }
