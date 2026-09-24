@@ -1,45 +1,45 @@
 {
   "confidence": "20%",
   "data_points": 31,
-  "overall_summary": "Data volume is extremely low across the channel, with views generally stagnating in the single or double digits, except for a clear out-of-niche outlier about Mothers ('Maa') achieving 193 views. Since the core niche (self respect / emotional relationship snippets) shows uniform low performance without clear breakout winners, confidence is low, and we must stick to structured repetition while keeping a small exploration budget for parental/universal emotional bonds.",
+  "overall_summary": "Most self-respect and emotional shorts have extremely low views (0-41 range), except for an outlier about mothers ('Maa Shayari') which hit 196 views. Since sample size and engagement are overall very low and volatile, confidence is low, indicating a need for a controlled exploration strategy combining the core emotional niche with a fresh angle.",
   "winning_patterns": [
     {
-      "pattern": "Universal Relatable Family/Care Emotion Outlier",
-      "evidence": "Video ID OfHrAp3r1G8 about 'Maa जब पूछती है खाना खाया' achieved 193 views compared to the average 10-40 views for relationship/self-respect content.",
-      "action": "Reserve a small experiment budget to test universal caregiver or parental emotional hooks alongside core self-respect content."
+      "pattern": "Parental/Family Emotional Connection",
+      "evidence": "The video about Mother ('माँ जब पूछती है...') achieved 196 views and 17 likes, vastly outperforming romantic/self-respect chat deletion tropes.",
+      "action": "Test more family or foundational emotional bonds instead of solely focusing on digital breakup/self-respect tropes."
     },
     {
-      "pattern": "Actionable Digital Micro-Boundaries (Self-Respect)",
-      "evidence": "Earlier self-respect videos dealing with immediate tangible actions like removing pinned chats or deleting contact lists (e.g., rwOUYo_hayQ, AfaLxMy6FMY) secured relative highs of 41 views.",
-      "action": "Continue focusing hooks on specific smartphone/digital interaction micro-habits rather than abstract emotional statements."
+      "pattern": "Tangible Everyday Digital Micro-Actions",
+      "evidence": "Self-respect hooks involving specific phone actions like removing names from lists or changing settings scored slightly higher (30-41 views) compared to generic overthinking.",
+      "action": "Keep grounded in hyper-specific physical or digital habits if sticking to the romance/self-respect genre."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Overthinking and Late-Night Generalizations",
-      "evidence": "Videos focusing purely on late-night thoughts and vague waiting (e.g., WhJ-VwRa3Rg, uIbMpCjVutQ) received minimal views (6 to 8 views).",
-      "action": "Avoid vague nocturnal time-stamps as hooks; ground every story in a concrete physical or digital action."
+      "pattern": "Generic Late-Night Overthinking Tropes",
+      "evidence": "Videos like 'रात के दो बजे' and 'रात के ख्याल' got very low views (6-13 views).",
+      "action": "Avoid abstract late-night rambling; anchor text in concrete daily scenarios."
     },
     {
-      "pattern": "Repetitive Chat-Deletion Formats",
-      "evidence": "Recent repetitive variations of clearing archives, changing ringtones, and removing widgets (published between Sep 17-23) severely underperformed (0 to 4 views), indicating audience fatigue with this specific sub-trope.",
-      "action": "Pivot away from repetitive digital-cleanup hooks and introduce fresh real-life boundary moments."
+      "pattern": "Overused Chat/Pin Deletion Hooks",
+      "evidence": "Too many consecutive variations of blocking, unpinning chats, and deleting archives have resulted in audience fatigue and near-zero views on recent uploads.",
+      "action": "Pause the repetitive WhatsApp/chat-deletion template and introduce fresh emotional contexts."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Bittersweet realization",
-    "hook_style": "Tangible physical object separation",
+    "emotion": "Nostalgia and silent sacrifice",
+    "hook_style": "Simple real-life family observation",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A story about packing away old gifts or items given by someone who left, finding a hidden note, and realizing that letting go of the physical token is easier than keeping the memory alive.",
-    "opening_direction": "जब अलमारी के पुराने बक्से से उसकी दी हुई डायरी हाथ लगी,",
-    "twist_direction": "पन्ने पलटे तो पाया कि जिन बातों को मैं शिकायत समझता था, असल में वो उसकी आखिरी कोशिशें थीं—जिन्हें अब संभालना मेरी भूल होती।",
-    "duration_seconds": 12,
-    "posting_window": "05:30 PM - 07:00 PM IST",
-    "reason": "Shifts away from overused digital chat-deletion tropes into a physical, tangible item format ('purani yaadein / rishte') while retaining the emotional micro-moment structure required for Shorts."
+    "concept": "A small emotional moment about finding an old folded sweater or item kept by a father, reminding the protagonist of unspoken love.",
+    "opening_direction": "पिता के पुराने बक्से से जब वो स्वेटर निकला...",
+    "twist_direction": "पता चला वो खुद पुरानी ठंड काटते रहे, पर हमारे लिए नया लाने से कभी मना नहीं किया।",
+    "duration_seconds": 15,
+    "posting_window": "08:00 AM - 09:00 AM",
+    "reason": "Leverages the winning topic pattern (family/parental emotional bonds seen in the 'Maa' outlier) while avoiding the saturated digital breakup/chat deletion trope."
   },
-  "experiment": "Testing a physical object-based memory release ('purani yaadein' topic via old box/diary) instead of digital smartphone cleanup to counter recent format fatigue.",
-  "updated_at": "2026-09-24T00:44:04.199599+00:00",
+  "experiment": "Testing if expanding from romantic self-respect to parent-child emotional sacrifices (building on the high-performing 'Maa' video) rescues view counts from the current plateau.",
+  "updated_at": "2026-09-24T01:39:40.463507+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-24T00:44:08.121397+00:00"
+  "generated_at": "2026-09-24T01:39:43.572366+00:00"
 }
