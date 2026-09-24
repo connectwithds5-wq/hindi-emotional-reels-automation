@@ -1,40 +1,40 @@
 {
-  "confidence": "25%",
+  "confidence": "35%",
   "data_points": 32,
-  "overall_summary": "The channel heavily relies on 'self respect' and smartphone-related micro-interactions (chats, pins, blocks). While the outlier 'Maa' video (197 views) outperformed typical romantic/self-respect shorts, the core niche is 'Dil Ki Diary' (romantic/emotional/self-respect). Data samples are mostly low-view test pieces, indicating a need for a controlled exploration between core smartphone self-respect themes and broader familial emotional hooks.",
+  "overall_summary": "The channel heavily focuses on 'self respect' digital boundaries (chats, blocks, lists) which show decent engagement (20-41 views). However, the massive outlier is a family/mother-focused emotional short (OfHrAp3r1G8 with 199 views), proving that broadening from niche heartbreak tech-habits to universal family bonds or deeper emotional vulnerability generates higher organic traction. Sample size is still small and volatile.",
   "winning_patterns": [
     {
-      "pattern": "Smartphone micro-action hooks",
-      "evidence": "Videos focusing on specific phone interface moments like archiving chats, deleting notes, or muting pins (e.g., rwOUYo_hayQ, AfaLxMy6FMY) garnered higher baseline views (41 views) compared to generic romantic quotes.",
-      "action": "Continue using highly specific, visual smartphone actions as the entry hook for emotional storytelling."
+      "pattern": "Digital Boundary Actions (Self Respect)",
+      "evidence": "Videos like 'चैट डिलीट करने की हिम्मत' (41 views) and 'Self Respect Status Story' (41 views) perform better than obscure settings.",
+      "action": "Continue focusing on relatable digital detachment moments but keep them high-impact."
     },
     {
-      "pattern": "Broad familial emotional expansion",
-      "evidence": "The experimental video about 'Maa' (OfHrAp3r1G8) achieved 197 views, significantly outperforming romance-centric shorts.",
-      "action": "Allocate a small experimental budget toward universal family/parental emotional bonds."
+      "pattern": "Universal Emotional Relationships",
+      "evidence": "Mother-focused short 'माँ जब पूछती है' scored 199 views organically compared to avg ~15 for romantic self-respect.",
+      "action": "Reserve a small experiment budget to explore broader familial emotional bonds."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Vague romantic heartbreak without a tangible anchor",
-      "evidence": "Videos with broad captions or abstract hooks like 'नंबर पर अभी भी तेरी तस्वीर है' (a9-G1X5jEOU) or general ringtone changes (hT4EGP69mRw) had very low views (3-19 views).",
-      "action": "Avoid abstract statements; ground every emotional hook in a precise, physical, everyday object or digital action."
+      "pattern": "Over-niche obscure digital settings",
+      "evidence": "Videos about changing ringtones (3 views) or specific streaming account removals (0 views) tank due to low relatability.",
+      "action": "Avoid hyperspecific tech features; stick to universal human actions on phones."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
     "emotion": "अधूरी मोहब्बत और पुरानी यादें",
-    "hook_style": "tangible object/action based",
+    "hook_style": "simple real-life moment",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Finding an old handwritten letter or greeting card inside a textbook years later, realizing how much feelings have changed.",
-    "opening_direction": "जब पुरानी किताब के पन्नों के बीच से वो पुराना सूखा हुआ गुलाब और खत मिला,",
-    "twist_direction": "तब समझ आया कि स्याही तो आज भी वैसी ही है, बस पढ़ने वाले के दिल में अब वो जज्बात नहीं रहे।",
-    "duration_seconds": 12,
-    "posting_window": "13:00 - 14:00 IST",
-    "reason": "Tests a shift from digital/smartphone UI tropes to a physical, nostalgia-driven emotional trigger while maintaining the core 'Dil Ki Diary' bittersweet tone."
+    "concept": "Finding an old handwritten letter inside an old textbook while cleaning the shelf, leading to an unexpected realization about letting go.",
+    "opening_direction": "जब पुरानी किताबों के पन्ने पलटे तो...",
+    "twist_direction": "...और उस सूखे हुए गुलाब के साथ वो चिट्ठी मिली, जिसे कभी भेजने की हिम्मत नहीं हुई थी, पर आज उसे देखकर चेहरे पर मुस्कान आ गई, आंसू नहीं।",
+    "duration_seconds": 15,
+    "posting_window": "05:30 PM - 08:00 PM IST",
+    "reason": "Testing a shift from digital phone-screen tropes to tactile, physical nostalgia (books/letters) to check if tangible memories outperform digital boundaries."
   },
-  "experiment": "Testing physical nostalgia (paper/letters) versus the established digital/smartphone UI storytelling format.",
-  "updated_at": "2026-09-24T08:41:43.223289+00:00",
+  "experiment": "Testing physical nostalgia (books/letters) vs digital phone boundaries to expand emotional range beyond smartphones.",
+  "updated_at": "2026-09-24T09:40:42.496634+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-24T08:41:46.713096+00:00"
+  "generated_at": "2026-09-24T09:40:45.350818+00:00"
 }
