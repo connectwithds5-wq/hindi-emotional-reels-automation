@@ -1,40 +1,40 @@
 {
-  "confidence": "35%",
+  "confidence": "25%",
   "data_points": 32,
-  "overall_summary": "The channel heavily focuses on 'self respect' digital boundaries (chats, blocks, lists) which show decent engagement (20-41 views). However, the massive outlier is a family/mother-focused emotional short (OfHrAp3r1G8 with 199 views), proving that broadening from niche heartbreak tech-habits to universal family bonds or deeper emotional vulnerability generates higher organic traction. Sample size is still small and volatile.",
+  "overall_summary": "The channel relies heavily on 'self respect' digital-detox micro-moments (chats, archives, blocks). However, low sample sizes across most videos indicate low confidence. A notable outlier involves family emotional dynamics (Maa), which pulled significantly higher views, suggesting a potential high-performing alternative pattern despite low engagement overall.",
   "winning_patterns": [
     {
-      "pattern": "Digital Boundary Actions (Self Respect)",
-      "evidence": "Videos like 'चैट डिलीट करने की हिम्मत' (41 views) and 'Self Respect Status Story' (41 views) perform better than obscure settings.",
-      "action": "Continue focusing on relatable digital detachment moments but keep them high-impact."
+      "pattern": "Family Emotional Anchor",
+      "evidence": "The Maa/family-oriented emotional short (OfHrAp3r1G8) garnered 202 views and 17 likes, drastically outperforming standard romantic/self-respect shorts.",
+      "action": "Incorporate occasional relatable family emotional bonds alongside the core self-respect and relationship themes."
     },
     {
-      "pattern": "Universal Emotional Relationships",
-      "evidence": "Mother-focused short 'माँ जब पूछती है' scored 199 views organically compared to avg ~15 for romantic self-respect.",
-      "action": "Reserve a small experiment budget to explore broader familial emotional bonds."
+      "pattern": "Tactile Digital Breakup Hooks",
+      "evidence": "Videos referencing concrete smartphone actions like deleting chats or removing status visibility (rwOUYo_hayQ, AfaLxMy6FMY) consistently edge out abstract philosophical thoughts.",
+      "action": "Keep hooks grounded in specific, everyday digital micro-actions."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Over-niche obscure digital settings",
-      "evidence": "Videos about changing ringtones (3 views) or specific streaming account removals (0 views) tank due to low relatability.",
-      "action": "Avoid hyperspecific tech features; stick to universal human actions on phones."
+      "pattern": "Over-saturated Digital Action repetition",
+      "evidence": "Consecutive daily shorts about unfollowing, removing archives, and changing ringtones resulted in near-zero traction (e.g., views dropping to 0-2 for recent uploads like cuKSS0gHyt0).",
+      "action": "Pause repetitive 'archive/unfollow' concepts to prevent audience fatigue; diversify the emotional context."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "अधूरी मोहब्बत और पुरानी यादें",
-    "hook_style": "simple real-life moment",
+    "emotion": "Nostalgia and silent sacrifice",
+    "hook_style": "Simple real-life moment involving a parent or household object",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Finding an old handwritten letter inside an old textbook while cleaning the shelf, leading to an unexpected realization about letting go.",
-    "opening_direction": "जब पुरानी किताबों के पन्ने पलटे तो...",
-    "twist_direction": "...और उस सूखे हुए गुलाब के साथ वो चिट्ठी मिली, जिसे कभी भेजने की हिम्मत नहीं हुई थी, पर आज उसे देखकर चेहरे पर मुस्कान आ गई, आंसू नहीं।",
-    "duration_seconds": 15,
-    "posting_window": "05:30 PM - 08:00 PM IST",
-    "reason": "Testing a shift from digital phone-screen tropes to tactile, physical nostalgia (books/letters) to check if tangible memories outperform digital boundaries."
+    "concept": "A quiet observation about a father's old, worn-out wallet holding an old family photo, contrasting with modern disposable relationships.",
+    "opening_direction": "पापा का पुराना लेदर का वॉलेट, जो कई सालों से सिला हुआ है।",
+    "twist_direction": "अंदर जब एक पुरानी तस्वीर टटोली, तो समझ आया—रिश्ते सिर्फ चलाए नहीं जाते, संभाले जाते हैं।",
+    "duration_seconds": 10,
+    "posting_window": "08:00 AM - 09:00 AM",
+    "reason": "Testing the high-performing family/relations emotional niche (similar to the successful Maa video) while stepping away from the exhausted digital-detox self-respect pattern."
   },
-  "experiment": "Testing physical nostalgia (books/letters) vs digital phone boundaries to expand emotional range beyond smartphones.",
-  "updated_at": "2026-09-24T09:40:42.496634+00:00",
+  "experiment": "Testing if shifting the emotional anchor from romantic self-respect to universal family/parental sacrifice captures the broader audience appeal seen in previous outlier data.",
+  "updated_at": "2026-09-24T10:40:26.439195+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-24T09:40:45.350818+00:00"
+  "generated_at": "2026-09-24T10:40:29.949782+00:00"
 }
