@@ -1,29 +1,40 @@
 {
-  "confidence": "45%",
+  "confidence": "25%",
   "data_points": 33,
-  "overall_summary": "Current leader: माँ जब पूछती है “खाना खाया?” ❤️ | Maa Shayari | Emotional Hindi Shorts with 203 views; sample size is still small, so this is directional.",
+  "overall_summary": "Data volume is very low across romantic/self-respect themes (under 50 views usually), but a clear outlier pattern emerges when family/parental emotional content is introduced ('Maa', 'Papa', 'Bhai' ranging from 52 to 205 views). Core romantic self-respect hooks involving digital cleanups work moderately well within niche, but family emotions massively outperform the baseline.",
   "winning_patterns": [
     {
-      "pattern": "Highest observed views",
-      "evidence": "203 views on current leader",
-      "action": "Test a related emotional situation without copying the wording."
+      "pattern": "Universal Family Sacrifice",
+      "evidence": "Videos about Mother (OfHrAp3r1G8) and Father (v8krtdmxbPs) hit 205 and 86 views respectively with zero comments/high relative engagement.",
+      "action": "Pivot a small portion of the channel's emotional focus toward silent parental sacrifice and unsaid family gratitude."
+    },
+    {
+      "pattern": "Specific Digital UI Micro-Moments",
+      "evidence": "Videos like rwOUYo_hayQ ('स्टेटस लिस्ट में सबसे ऊपर...') and AfaLxMy6FMY ('उंगली उसी चैट पर रुकी थी') gained 41 views, outperforming vague relationship advice.",
+      "action": "Continue anchoring romantic self-respect stories to exact, tactile phone interface actions (pins, lists, settings)."
     }
   ],
-  "weak_patterns": [],
+  "weak_patterns": [
+    {
+      "pattern": "Generic Romantic Monologues",
+      "evidence": "Videos lacking a specific physical object or action hook (e.g., hT4EGP69mRw, cuKSS0gHyt0) received 0-3 views.",
+      "action": "Eliminate abstract poetry openers; every video must start with a concrete, physical touchpoint or routine object."
+    }
+  ],
   "next_video": {
-    "topic": "अधूरी मोहब्बत",
-    "emotion": "regret",
-    "hook_style": "curiosity",
+    "topic": "रिश्ते",
+    "emotion": "गुमसुम प्यार और अनकहा अहसास",
+    "hook_style": "Tactile real-life object observation",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A familiar chat or notification reveals that the relationship has quietly changed.",
-    "opening_direction": "Start with one concrete digital-life detail.",
-    "twist_direction": "Reveal the emotional meaning in the final line.",
-    "duration_seconds": 10,
-    "posting_window": "7:00 PM IST test",
-    "reason": "Controlled baseline while more performance data accumulates."
+    "concept": "A story about finding an old, forgotten handwritten grocery list or school note inside an old book belonging to a parent, realizing how much they quietly sacrifice without ever complaining.",
+    "opening_direction": "पुरानी किताब के पन्नों के बीच जब माँ की हाथ से लिखी वो पुरानी पर्ची मिली,",
+    "twist_direction": "दवाइयों के उस पुराने हिसाब के नीचे माँ ने एक छोटा सा कोट लिखा था— 'सबकी खुशियों का हिसाब रखते-रखते, खुद को भूल जाना मेरी आदत बन गई है।'",
+    "duration_seconds": 15,
+    "posting_window": "12:00 PM - 02:00 PM",
+    "reason": "Capitalizes on the high-performing family/parental emotional sub-niche discovered in recent data while retaining the signature micro-detail narrative style."
   },
-  "experiment": "Test a fresh hook around a concrete digital-life moment.",
-  "updated_at": "2026-09-24T17:38:36.623638+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-24T17:38:36.623653+00:00"
+  "experiment": "Testing if the high-performing family emotion pattern can cross-pollinate with the channel's core aesthetic to sustainably lift overall channel impressions.",
+  "updated_at": "2026-09-24T18:42:21.823666+00:00",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-09-24T18:42:32.360336+00:00"
 }
