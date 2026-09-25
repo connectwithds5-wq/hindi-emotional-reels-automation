@@ -1,40 +1,35 @@
 {
-  "confidence": "65%",
-  "data_points": 34,
-  "overall_summary": "Analysis reveals that romantic relationship and self-respect smartphone micro-habits underperform compared to genuine familial emotional shorts (Maa, Papa, Bhai), which drove significantly higher views (up to 214) and engagement. However, since the core channel niche is emotional romance/self-respect, we must balance audience pull with channel identity.",
+  "confidence": "25%",
+  "data_points": 35,
+  "overall_summary": "The channel heavily focuses on 'self respect' and 'overthinking' digital breakup tropes, but these niche relationship shorts are currently generating very low views (0-41 views). Conversely, a minor out-of-niche experiment focusing on family emotions (Maa, Papa, Bhai) achieved significantly higher views (88-214 views), though it represents an outlier. Confidence is low due to small sample sizes across core topics.",
   "winning_patterns": [
     {
-      "pattern": "Core Family Emotional Tropes",
-      "evidence": "Videos about parents and siblings (e.g., Maa, Papa, Bhai) achieved 88 to 214 views, massively outperforming the single-digit views on niche smartphone-deletion self-respect shorts.",
-      "action": "Incorporate relatable family/universal emotional anchors while keeping the core 'Dil Ki Diary' sentimental tone."
-    },
-    {
-      "pattern": "Tangible Everyday Objects as Hooks",
-      "evidence": "Using everyday digital artifacts like 'pinned chats', 'archive folders', or 'keyboard suggestions' performed moderately better within the self-respect niche (20-41 views).",
-      "action": "Continue using concrete physical or digital items to ground emotional storytelling."
+      "pattern": "Universal Family Emotional Hooks",
+      "evidence": "Videos about parents/family (e.g., Maa video 'माँ जब पूछती है' got 214 views, Papa video got 117 views) heavily outperformed core relationship content.",
+      "action": "Reserve a small experiment budget to test family-centric emotional bonds combined with the channel's diary style."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Over-saturated Digital Deletion Tropes",
-      "evidence": "Repeatedly posting micro-actions like removing widgets, changing read receipts, or clearing cache led to severe audience fatigue, resulting in views dropping to single digits (0-6 views).",
-      "action": "Stop repetitive digital decluttering hooks and shift toward broader psychological and familial emotional moments."
+      "pattern": "Repetitive Digital Breakup Tropes",
+      "evidence": "Numerous shorts about phone settings, deleting chats, blocking, and removing ringtones (e.g., 'Read receipts off', 'Special ringtone') are averaging single-digit to low double-digit views (0-29 views).",
+      "action": "Move away from hyper-specific smartphone settings tropes as they are failing to pull organic reach; pivot toward broader emotional loneliness and self-respect."
     }
   ],
   "next_video": {
-    "topic": "रिश्ते",
-    "emotion": "Nostalgia and silent sacrifice",
-    "hook_style": "Real-life observational object hook",
+    "topic": "self respect",
+    "emotion": "Quiet dignity and emotional release",
+    "hook_style": "Real-life observational moment",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A story about finding an old, unused school tiffin or sweater kept away by a mother, realizing the silent ways loved ones care for us.",
-    "opening_direction": "अलमारी के सबसे नीचे वाले खाने में जब वो पुराना स्वेटर मिला,",
-    "twist_direction": "खुशबू आज भी वही थी, बस उस पर टंगे मां के हाथों के स्वेटर का वो धागा अब कमज़ोर पड़ चुका था—जैसे वक्त के साथ सब बदल जाता है।",
-    "duration_seconds": 12,
-    "posting_window": "08:00 AM - 09:00 AM",
-    "reason": "Family-centric emotional hooks perform best on this channel (based on the 'Maa' and 'Papa' spikes), blending the channel's emotional diary format with high-performing family themes."
+    "concept": "A story about packing away old gifts in a dusty cardboard box kept in the corner of the room, symbolizing the final closure of a one-sided chapter.",
+    "opening_direction": "जब बक्से के नीचे दबी उस पुरानी डायरी को बाहर निकाला,",
+    "twist_direction": "पन्ने पलटने पर एहसास हुआ कि दर्द अब याद नहीं, सिर्फ एक बीता हुआ सबक बन चुका है।",
+    "duration_seconds": 15,
+    "posting_window": "05:30 PM - 08:00 PM IST",
+    "reason": "Testing a physical, tangible real-life action (dusty box/diary) instead of a digital phone setting trope to see if it resonates better with the audience."
   },
-  "experiment": "Testing if blending the core 'Dil Ki Diary' sentimental diary tone with high-performing family/nostalgia topics recovers the view counts seen in the 200+ view outliers.",
-  "updated_at": "2026-09-25T13:40:50.241894+00:00",
+  "experiment": "Testing physical nostalgia and room objects (diary/box) instead of digital screen interactions (chats/settings) to improve retention and view count.",
+  "updated_at": "2026-09-25T14:42:15.725766+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-25T13:41:01.810626+00:00"
+  "generated_at": "2026-09-25T14:42:18.472531+00:00"
 }
