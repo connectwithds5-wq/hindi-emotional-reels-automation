@@ -1,45 +1,40 @@
 {
-  "confidence": "65%",
+  "confidence": "40%",
   "data_points": 33,
-  "overall_summary": "The channel 'Dil Ki Diary' heavily leans into 'self respect' and digital/phone-based emotional separation micro-stories. While the core romantic/self-respect digital cleanup shorts consistently pull moderate baseline views (20-40 views), the accidental high-sample outliers are family-centric emotional shorts (Maa, Papa, Bhai), which dramatically outperformed romance hooks. However, since the core brand is heartbreak and self-respect, we must balance repeatable patterns with a controlled family-emotional experiment.",
+  "overall_summary": "The data shows clear outperformance in family-centric emotional content (Maa, Papa, Bhai) getting 77-211 views compared to saturated 'self respect' digital-detox posts which are currently tapering off in viewership (some dropping to single digits). However, the core channel identity is 'Dil Ki Diary' focused on relationships and heartbreak.",
   "winning_patterns": [
     {
-      "pattern": "Digital boundary setting & Phone cleanup hooks",
-      "evidence": "Shorts like 'चैट डिलीट करने की हिम्मत' (41 views), 'जब आर्काइव फोल्डर पर नजर पड़ी' (23 views), and 'Self Respect Status Story' (41 views) perform best within the core romance niche.",
-      "action": "Continue focusing on micro-actions involving phone interfaces, chat lists, and hidden settings to establish relatable self-respect hooks."
+      "pattern": "Family Emotional Anchor",
+      "evidence": "Videos about Mother, Father, and Brother (OfHrAp3r1G8, v8krtdmxbPs, m4cgM90y9JU) achieved 77 to 211 views, vastly outperforming romance-based posts.",
+      "action": "Allocate a small experiment budget to family/universal emotional bonds while retaining relationship pain core."
     },
     {
-      "pattern": "Universal Family Emotional Hooks",
-      "evidence": "Videos about parents and siblings (e.g., 'माँ जब पूछती है खाना खाया' with 211 views, 'पापा कभी कहते नहीं' with 104 views) organically received massive spikes compared to romantic ones.",
-      "action": "Reserve a small experiment budget to test family-centric emotional storytelling under the broader emotional umbrella."
+      "pattern": "Tangible Digital Micro-Moments",
+      "evidence": "Self-respect posts tied to concrete phone interactions (e.g., keyboard names, archive folders, status lists) performed decently early on (rwOUYo_hayQ - 41 views, wFimeeP_aVc - 34 views).",
+      "action": "Keep hooks grounded in specific, highly relatable physical or digital artifacts."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract or vague emotional hooks without a physical anchor",
-      "evidence": "Videos like 'जब उस एक पुरानी सीरीज़ के अकाउंट से...' (0 views) and 'Jab Uska Special Ringtone Default Kiya' (3 views) had extremely low engagement due to overly specific or weak digital anchors.",
-      "action": "Avoid niche digital actions that lack universal relatability; stick to immediate, everyday UI actions like clearing call logs or blocking."
-    },
-    {
-      "pattern": "Late-stage drop in views for generic captions",
-      "evidence": "Very recent uploads with repetitive phrasing saw zero traction.",
-      "action": "Vary the opening phrase structure and avoid reusing exact digital trigger words consecutively."
+      "pattern": "Overused Digital Detox Tropes",
+      "evidence": "Very recent posts about wallpapers, unfollowing, and profile removals (6KVEZc22kS8, HMyw6blmGOc, cuKSS0gHyt0) received 0-2 views, indicating audience fatigue with repetitive phone-setting hooks.",
+      "action": "Pause extremely niche or repetitive phone-deletion hooks and pivot to real-world memory triggers."
     }
   ],
   "next_video": {
-    "topic": "self respect",
-    "emotion": "Empowerment through quiet detachment",
-    "hook_style": "Physical phone interaction combined with emotional realization",
+    "topic": "पुरानी यादें",
+    "emotion": "अधूरी कसक",
+    "hook_style": "Real-life tangible object trigger",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short about removing someone from the phone's speed dial or emergency contact list, realizing that the person you used to call first in panic is now just a stranger whose voice you wouldn't recognize.",
-    "opening_direction": "जब फोन के स्पीड डायल से उसका नंबर हमेशा के लिए डिलीट किया,",
-    "twist_direction": "लगा था कि हाथ कांपेंगे, पर सुकून यह था कि अब किसी अपने को खोने का डर नहीं बचा था।",
+    "concept": "Finding an old handwritten letter or a bill tucked inside an old book, remembering the unsaid words.",
+    "opening_direction": "किताब के पुराने पन्नों के बीच से जब वो सूखा हुआ गुलाब गिरा,",
+    "twist_direction": "फूल तो महफूज रह गया, पर जिसके लिए रखा था वो बदल गया।",
     "duration_seconds": 12,
-    "posting_window": "13:00 - 14:00 IST",
-    "reason": "Leverages the proven high-performing 'self-respect phone cleanup' format while introducing a higher-stakes emotional anchor (speed dial/emergency contact) to improve retention."
+    "posting_window": "18:00 - 20:00 IST",
+    "reason": "Testing a shift away from digital phone-screen tropes to tactile real-world nostalgia, leveraging the proven story structure with a fresh physical trigger."
   },
-  "experiment": "Testing whether high-stakes emergency contact deletion drives higher engagement than standard chat deletion hooks.",
-  "updated_at": "2026-09-25T01:38:17.889255+00:00",
+  "experiment": "Testing physical nostalgia objects (books/letters) over digital phone interface actions to combat format fatigue.",
+  "updated_at": "2026-09-25T02:39:37.064919+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-25T01:38:21.585960+00:00"
+  "generated_at": "2026-09-25T02:39:40.468984+00:00"
 }
