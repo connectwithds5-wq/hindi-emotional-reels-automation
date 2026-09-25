@@ -1,40 +1,45 @@
 {
-  "confidence": "35%",
+  "confidence": "65%",
   "data_points": 33,
-  "overall_summary": "Most core romantic/self-respect digital separation shorts are currently underperforming in views (single digits to ~40 views), whereas out-of-niche family emotional content (Maa, Bhai, Papa) unexpectedly spiked significantly higher (76 to 211 views) with strong likes. However, since the channel's core identity is Dil Ki Diary (emotional relationships and self-respect), we must balance repeatable patterns with a controlled exploration budget.",
+  "overall_summary": "The channel 'Dil Ki Diary' heavily leans into 'self respect' and digital/phone-based emotional separation micro-stories. While the core romantic/self-respect digital cleanup shorts consistently pull moderate baseline views (20-40 views), the accidental high-sample outliers are family-centric emotional shorts (Maa, Papa, Bhai), which dramatically outperformed romance hooks. However, since the core brand is heartbreak and self-respect, we must balance repeatable patterns with a controlled family-emotional experiment.",
   "winning_patterns": [
     {
-      "pattern": "Family Emotional Anchor",
-      "evidence": "Videos about parents and siblings (e.g., Maa, Papa, Bhai) achieved 76 to 211 views and multiple likes compared to single-digit romance/self-respect shorts.",
-      "action": "Reserve a small exploration budget for family/universal emotional bonds to capture broader reach."
+      "pattern": "Digital boundary setting & Phone cleanup hooks",
+      "evidence": "Shorts like 'चैट डिलीट करने की हिम्मत' (41 views), 'जब आर्काइव फोल्डर पर नजर पड़ी' (23 views), and 'Self Respect Status Story' (41 views) perform best within the core romance niche.",
+      "action": "Continue focusing on micro-actions involving phone interfaces, chat lists, and hidden settings to establish relatable self-respect hooks."
     },
     {
-      "pattern": "Tangible Digital Micro-Action Hooks",
-      "evidence": "Self-respect shorts that mentioned specific physical UI actions like unpinning chats or archive folders (e.g., AfaLxMy6FMY with 41 views, W0ozRrwvigQ with 23 views) performed better than abstract emotional rambling.",
-      "action": "Use concrete, highly relatable smartphone/digital interface actions as hooks."
+      "pattern": "Universal Family Emotional Hooks",
+      "evidence": "Videos about parents and siblings (e.g., 'माँ जब पूछती है खाना खाया' with 211 views, 'पापा कभी कहते नहीं' with 104 views) organically received massive spikes compared to romantic ones.",
+      "action": "Reserve a small experiment budget to test family-centric emotional storytelling under the broader emotional umbrella."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Late-Night Ranting without Action",
-      "evidence": "Vague hooks like 'रात के दो बजे' or 'मेज पर रखी चाय' resulted in very low engagement (6-13 views).",
-      "action": "Avoid generic late-night atmospheric openings; tie every emotion to a specific object or action."
+      "pattern": "Abstract or vague emotional hooks without a physical anchor",
+      "evidence": "Videos like 'जब उस एक पुरानी सीरीज़ के अकाउंट से...' (0 views) and 'Jab Uska Special Ringtone Default Kiya' (3 views) had extremely low engagement due to overly specific or weak digital anchors.",
+      "action": "Avoid niche digital actions that lack universal relatability; stick to immediate, everyday UI actions like clearing call logs or blocking."
+    },
+    {
+      "pattern": "Late-stage drop in views for generic captions",
+      "evidence": "Very recent uploads with repetitive phrasing saw zero traction.",
+      "action": "Vary the opening phrase structure and avoid reusing exact digital trigger words consecutively."
     }
   ],
   "next_video": {
-    "topic": "रिश्ते",
-    "emotion": "Nostalgia and bittersweet acceptance",
-    "hook_style": "Real-life tangible moment with a digital trace",
+    "topic": "self respect",
+    "emotion": "Empowerment through quiet detachment",
+    "hook_style": "Physical phone interaction combined with emotional realization",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Finding an old handwritten school/college greeting card or a forgotten offline diary note while cleaning out a dusty desk drawer, remembering the unrealized promises.",
-    "opening_direction": "जब अलमारी साफ करते वक्त वो पुराना ग्रीटिंग कार्ड हाथ लगा,",
-    "twist_direction": "लिखावट तो आज भी वैसी ही थी, बस उस पर लिखे वादों के मायने पूरी तरह बदल चुके थे।",
-    "duration_seconds": 35,
-    "posting_window": "05:30 PM - 08:30 PM",
-    "reason": "Testing a transition from pure smartphone-digital breakup tropes to physical, nostalgic life items to see if tangible offline memories outperform digital UI actions."
+    "concept": "A short about removing someone from the phone's speed dial or emergency contact list, realizing that the person you used to call first in panic is now just a stranger whose voice you wouldn't recognize.",
+    "opening_direction": "जब फोन के स्पीड डायल से उसका नंबर हमेशा के लिए डिलीट किया,",
+    "twist_direction": "लगा था कि हाथ कांपेंगे, पर सुकून यह था कि अब किसी अपने को खोने का डर नहीं बचा था।",
+    "duration_seconds": 12,
+    "posting_window": "13:00 - 14:00 IST",
+    "reason": "Leverages the proven high-performing 'self-respect phone cleanup' format while introducing a higher-stakes emotional anchor (speed dial/emergency contact) to improve retention."
   },
-  "experiment": "Testing an offline, physical nostalgia object (old greeting card) instead of smartphone digital interface actions to evaluate broader relatability.",
-  "updated_at": "2026-09-25T00:43:47.228133+00:00",
+  "experiment": "Testing whether high-stakes emergency contact deletion drives higher engagement than standard chat deletion hooks.",
+  "updated_at": "2026-09-25T01:38:17.889255+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-25T00:43:50.154774+00:00"
+  "generated_at": "2026-09-25T01:38:21.585960+00:00"
 }
