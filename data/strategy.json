@@ -1,40 +1,40 @@
 {
   "confidence": "65%",
   "data_points": 35,
-  "overall_summary": "The channel heavily focuses on 'self respect' and digital/phone-based micro-heartbreaks (deleting chats, clearing storage, unfollowing). While romantic self-respect shorts generally perform in the low double digits (20-41 views), family-centric emotional shorts (Maa, Papa, Bhai) experimented recently and significantly outperformed the core niche (90-215 views), though sample size for family content is still low. A controlled exploration between core relationship boundaries and high-engagement family emotional beats is required.",
+  "overall_summary": "Core niche content ('self respect' digital detachment) yielded low double-digit views, but family-centric emotional shorts (Maa, Papa) dramatically outperformed them organically (up to 215 views). The audience responds strongly to raw emotional relational ties rather than purely micro-digital breakup tropes, though digital self-respect has a loyal baseline. We should lean into the higher-performing emotional relational space while retaining the core brand identity.",
   "winning_patterns": [
     {
-      "pattern": "Family emotional triggers",
-      "evidence": "Videos about parents and siblings (e.g., Maa, Papa) generated 121 to 215 views, vastly outperforming routine digital self-respect posts.",
-      "action": "Allocate a small experimental budget to test emotional family dynamics alongside core self-respect content."
+      "pattern": "Family emotional resonance",
+      "evidence": "Videos about Mother (OfHrAp3r1G8) and Father (v8krtdmxbPs) got 215 and 122 views respectively, significantly outperforming digital breakup clips.",
+      "action": "Incorporate broader emotional family/relationship bonds into the content mix to scale reach."
     },
     {
-      "pattern": "High-friction digital removal hooks",
-      "evidence": "Posts featuring action-oriented digital boundaries (e.g., deleting chat, removing name from list like 'AfaLxMy6FMY' and 'rwOUYo_hayQ') consistently hit 40+ views in the core topic.",
-      "action": "Keep core hooks grounded in tactile, everyday digital actions rather than abstract feelings."
+      "pattern": "Tangible digital self-respect triggers",
+      "evidence": "Videos dealing with direct actions like clearing chat lists or removing pins (e.g., Y4finYMxnIU, rwOUYo_hayQ) performed relatively stable around 32-41 views.",
+      "action": "Keep digital detachment hooks ultra-specific and grounded in everyday phone habits."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Over-saturated micro-actions",
-      "evidence": "Very granular phone actions like changing ringtones or clearing cloud storage ('hT4EGP69mRw', 'ULSnkTFIIc8') received near-zero views (3-14 views).",
-      "action": "Avoid hyper-specific or repetitive phone settings tropes; pivot to broader, universally relatable human interactions."
+      "pattern": "Overly abstract or niche digital micro-actions",
+      "evidence": "Recent niche experiments like unlinking streaming profiles or removing widgets (e.g., cuKSS0gHyt0, 6KVEZc22kS8) dropped to 0-1 views.",
+      "action": "Avoid hyper-niche app features that lack universal emotional relatability."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "नस्टैल्जिया और अकेलापन",
-    "hook_style": "tactile real-life moment",
+    "emotion": "नस्टेलजिया और अपनापन",
+    "hook_style": "Real-life observational moment",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Finding an old handwritten letter or school notebook while cleaning the almirah, discovering a dried flower or a forgotten note from someone who is no longer in your life.",
-    "opening_direction": "अलमारी के कोने से जब वो पुरानी स्कूल की डायरी हाथ लगी,",
-    "twist_direction": "पन्ने पलटे तो सूखा हुआ गुलाब मिला, और साथ में वो वादा जो उसने कभी उम्रभर साथ निभाने का किया था।",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 20:00 IST",
-    "reason": "Testing a transition from repetitive digital phone-screen tropes to tactile physical nostalgia to check if physical objects resonate better than chat-app deletions."
+    "concept": "पुरानी अलमारी में बचपन की स्कूल डायरी मिलना और माँ के हाथों से उस पर चढ़ाया हुआ पुराना गत्ते का कवर देखना।",
+    "opening_direction": "जब सफाई करते वक्त माँ के हाथ से चढ़ाए हुए पुराने गत्ते वाली वो स्कूल डायरी हाथ लगी,",
+    "twist_direction": "पन्ने पलटे तो दिखा कि माँ ने हर रिपोर्ट कार्ड के पीछे छुपकर हमेशा हमारा हौसला ही लिखा था।",
+    "duration_seconds": 12,
+    "posting_window": "शाम 05:00 PM से 08:00 PM",
+    "reason": "Family and parental emotional themes showed significantly higher organic traction than romantic heartbreak or digital-only separation tropes in recent uploads."
   },
-  "experiment": "Testing physical nostalgia (notebook/letters) vs. digital deletion hooks to expand beyond phone-screen fatigue.",
-  "updated_at": "2026-09-25T22:39:48.482148+00:00",
+  "experiment": "Testing if blending the core 'Dil Ki Diary' notebook aesthetic with parental emotional nostalgia scales better than pure digital breakup content.",
+  "updated_at": "2026-09-25T23:38:28.709788+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-25T22:39:51.928850+00:00"
+  "generated_at": "2026-09-25T23:38:32.053638+00:00"
 }
