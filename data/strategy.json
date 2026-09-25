@@ -1,45 +1,45 @@
 {
-  "confidence": "65%",
+  "confidence": "60%",
   "data_points": 34,
-  "overall_summary": "The channel heavily focuses on 'self respect' and phone-based digital micro-interactions (chats, blocks, pins, storage). While niche romantic self-respect content gets modest views (up to 41 views), family-oriented emotional content (Mother, Father, Brother) significantly outperformed the romance content with up to 214 views (OfHrAp3r1G8), indicating broader organic reach for family emotions.",
+  "overall_summary": "The channel 'Dil Ki Diary' heavily relies on 'self respect' and digital/mobile-related micro-interactions (chats, names, blocks) for core content. However, recent out-of-format experimental uploads involving family emotions (Maa, Papa) drastically outperformed standard relationship content in raw views (e.g., Papa video got 113 views, Maa got 214 views vs 10-40 for standard core relationship shorts), signaling potential broad emotional appeal or algorithm favorability for parental bonds. Despite this, core topics lean heavily on romantic self-respect.",
   "winning_patterns": [
     {
-      "pattern": "Family Emotional Relatability",
-      "evidence": "Videos about parents and siblings like 'माँ जब पूछती है' received 214 views and 18 likes, far exceeding the romantic self-respect average.",
-      "action": "Incorporate occasional high-resonance family emotion topics alongside the core romantic self-respect pillar to capture broader algorithmic push."
+      "pattern": "Parental Emotional Bonds",
+      "evidence": "Videos about Maa, Papa, and siblings (OfHrAp3r1G8, v8krtdmxbPs) received significantly higher views (113-214) compared to the core self-respect and breakup content.",
+      "action": "Incorporate occasional family-centric emotional shorts as a small experiment bucket to capture wider audience reach."
     },
     {
       "pattern": "Tangible Digital Micro-Interactions",
-      "evidence": "Self respect videos using specific phone actions (chat deletion, muting, removing from pinned chats) like AfaLxMy6FMY (41 views) and rwOUYo_hayQ (41 views) performed best within the core romance niche.",
-      "action": "Continue utilizing highly specific, relatable digital habits as hooks for romantic closure and self-respect."
+      "evidence": "Core content using specific digital actions (deleting chats, unpinning names, blocking numbers, e.g., rwOUYo_hayQ, AfaLxMy6FMY) performs relatively better within the niche (41 views).",
+      "action": "Keep core content strictly tied to physical-digital daily habits of modern heartbreak."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Over-saturated micro-actions without novelty",
-      "evidence": "Recent self-respect videos posted on Sept 22-23 (wallpaper, unfollow, streaming profile remove) tanked with 0 to 2 views, indicating viewer fatigue with minor profile edits.",
-      "action": "Pause ultra-granular digital actions for a few days and pivot to either a fresh physical reality or expand into the winning family emotional format."
+      "pattern": "Generic Romantic Sadness without Action",
+      "evidence": "Vague themes like 'raat ke khayal' or 'adhuri mohabbat' with passive hooks (uIbMpCjVutQ got 6 views) underperform compared to active micro-decisions.",
+      "action": "Avoid passive descriptions of sadness; always ground the narrative in a specific, physical, relatable action."
     },
     {
-      "pattern": "Vague or missing hooks",
-      "evidence": "Videos with weak or non-descriptive hooks resulted in flat distribution.",
-      "action": "Ensure every hook immediately sets up a tangible, high-tension real-life scenario in the first 2 seconds."
+      "pattern": "Overused Phone Deletion Hooks",
+      "evidence": "Repeatedly using storage cleaning and chat deletion hooks (aqzDPbQVnb0, ULSnkTFIIc8) shows diminishing returns as audiences see repetitive phrasing.",
+      "action": "Rotate the micro-action context (e.g., moving from chats/storage to something unexpected like photo frames, passwords, or physical belongings)."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Nostalgia and bittersweet acceptance",
-    "hook_style": "Tangible physical object trigger",
+    "emotion": "Nostalgia and silent letting go",
+    "hook_style": "Physical object transition",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Finding an old handwritten greeting card or letter inside a book while cleaning the bookshelf, realizing the handwriting no longer brings pain, just a quiet smile.",
-    "opening_direction": "पुरानी किताबें झाड़ते वक्त जब वो पुराना ग्रीटिंग कार्ड हाथ लगा,",
-    "twist_direction": "सोचा था पढ़कर दिल फिर से भारी हो जाएगा, पर इस बार सिर्फ पन्नों पर जमी धूल साफ हुई, दिल पर जमा बोझ नहीं।",
-    "duration_seconds": 12,
-    "posting_window": "08:00 AM - 09:00 AM",
-    "reason": "Exploits the winning high-performing morning time slot and shifts slightly away from exhausted phone-screen tropes to physical nostalgia while keeping the core 'Dil Ki Diary' emotional tone."
+    "concept": "Finding an old handwritten letter or greeting card tucked inside a book, staring at the handwriting, and choosing to close the book back without reading the inside.",
+    "opening_direction": "किताब के पन्नों के बीच दबा हुआ वो पुराना ग्रीटिंग कार्ड मिला,",
+    "twist_direction": "कल तक जो शब्द पढ़ने के लिए आंखें तरसती थीं, आज उन्हें बिना पढ़े ही पन्ना पलट दिया।",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 20:00 IST",
+    "reason": "Tests a transition away from repetitive phone/digital screen hooks into physical analog nostalgia, while maintaining the core self-respect and letting-go theme."
   },
-  "experiment": "Testing a physical object trigger (old book/letter) instead of a digital screen action within the core emotional narrative to combat micro-action fatigue.",
-  "updated_at": "2026-09-25T10:40:51.858631+00:00",
+  "experiment": "Testing an analog physical object trigger (old book/card) instead of digital phone interactions to see if it broadens engagement for relationship content.",
+  "updated_at": "2026-09-25T11:41:02.905857+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-25T10:40:55.470041+00:00"
+  "generated_at": "2026-09-25T11:41:07.071679+00:00"
 }
