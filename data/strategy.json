@@ -1,40 +1,45 @@
 {
   "confidence": "65%",
   "data_points": 33,
-  "overall_summary": "The channel heavily relies on 'self respect' and digital breakup micro-moments (chats, typing, removing names). Recently, out-of-niche family emotional content (Maa, Bhai, Papa) performed exceptionally well in views (up to 211), but core channel identity is romantic/emotional loneliness. The winning repeat pattern is micro-actions on phones regarding emotional detachment, though family shorts showed high outlier appeal.",
+  "overall_summary": "Historical data shows that hyper-specific, micro-relatable smartphone actions focused on 'self respect' (e.g., deleting chats, removing names from lists) consistently outperform generic relationship topics. However, a major outlier occurred with family emotional content (Maa/Papa/Bhai), which generated significantly higher views (78-211) compared to the core self-respect niche (0-41 views). Confidence is moderate due to low overall view counts, pointing to a need for controlled exploration.",
   "winning_patterns": [
     {
-      "pattern": "Digital Detachment & Self Respect",
-      "evidence": "Videos like 'rwOUYo_hayQ' (41 views), 'AfaLxMy6FMY' (41 views), and 'wFimeeP_aVc' (34 views) performing better than average by focusing on chat actions, pinning, and blocking.",
-      "action": "Continue making phone-based micro-actions involving modern relationship boundaries."
+      "pattern": "Digital micro-detachment hooks",
+      "evidence": "Shorts mentioning specific UI actions like unpinning chats, clearing storage, or removing names from lists (e.g., rwOUYo_hayQ, AfaLxMy6FMY) received the highest views in the core niche (41 views).",
+      "action": "Continue using highly specific modern interface or digital habit hooks for self-respect content."
     },
     {
-      "pattern": "Family Emotional Outliers",
-      "evidence": "Videos like 'OfHrAp3r1G8' (211 views) and 'v8krtdmxbPs' (105 views) outperformed typical channel averages significantly.",
-      "action": "Reserve a small experiment budget for occasional emotional family dynamics without losing core brand identity."
+      "pattern": "Family emotional triggers (Outlier)",
+      "evidence": "Videos centered on family love (OfHrAp3r1G8 about Maa, v8krtdmxbPs about Papa) pulled 211 and 105 views respectively without strong historical optimization.",
+      "action": "Reserve a small experiment budget to test family-centric emotional shorts alongside the core self-respect content."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract or Vague Hooks",
-      "evidence": "Videos with very broad, abstract hooks like 'नंबर ब्लॉक नहीं किया कभी' (8 views) underperformed compared to specific micro-moments.",
-      "action": "Avoid generic romantic statements; anchor every hook to a specific physical or digital action."
+      "pattern": "Overly niche or obscure digital actions",
+      "evidence": "Videos focusing on very niche UI steps like removing profiles from TV streaming apps (cuKSS0gHyt0) or changing ringtones (hT4EGP69mRw) had near-zero views (0-3).",
+      "action": "Avoid ultra-obscure digital references; stick to universally understood everyday phone actions like WhatsApp, Gallery, or Call Logs."
+    },
+    {
+      "pattern": "Vague or missing hooks",
+      "evidence": "The oldest or poorly formatted hooks failed to grab immediate attention within the first 2 seconds.",
+      "action": "Ensure the first 3 seconds anchor on a concrete, physical or digital action."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment through letting go",
-    "hook_style": "Specific digital interface interaction",
+    "emotion": "Empowering detachment",
+    "hook_style": "Smartphone UI habit",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Removing someone from the emergency contacts list and realizing the emergency was actually over long ago.",
-    "opening_direction": "जब फोन की सेटिंग्स में जाकर 'Emergency Contacts' से उसका नाम अनसेव किया...",
-    "twist_direction": "तब समझ आया कि असली इमरजेंसी तो तब थी जब वो पास था, अब तो सिर्फ खामोशी और सुकून बचा है।",
-    "duration_seconds": 12,
-    "posting_window": "13:00 - 14:00 IST",
-    "reason": "Leverages the proven high-performing digital boundary/self-respect micro-action format while maintaining a fresh, non-repetitive opening."
+    "concept": "A short about removing someone from the phone's 'Favorites' contact list, shifting from waiting for their call to valuing one's own peace.",
+    "opening_direction": "जब फोन की 'फैवरेट्स' लिस्ट से उसका स्पीड डायल नंबर हटाया,",
+    "twist_direction": "लगा था दिल कमजोर हो जाएगा, पर उस खाली जगह ने पहली बार खुद से प्यार करना सिखा दिया।",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 20:00 IST",
+    "reason": "Evening hours align best with reflective moods and downtime scrolling for emotional content."
   },
-  "experiment": "Testing if shifting focus back to core self-respect digital actions while tightening the emotional twist recovers viewership compared to recent family outliers.",
-  "updated_at": "2026-09-25T03:40:55.903383+00:00",
+  "experiment": "Testing if expanding the successful smartphone-action self-respect formula to contact list 'Favorites' maintains engagement, while keeping family content as a secondary background test.",
+  "updated_at": "2026-09-25T04:42:11.622161+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-25T03:40:59.098333+00:00"
+  "generated_at": "2026-09-25T04:42:15.220496+00:00"
 }
