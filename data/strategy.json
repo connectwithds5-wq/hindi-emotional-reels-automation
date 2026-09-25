@@ -1,40 +1,45 @@
 {
   "confidence": "65%",
   "data_points": 34,
-  "overall_summary": "The channel 'Dil Ki Diary' primarily tests digital life emotional hooks around 'self respect' and 'overthinking' (e.g., chats, block lists, notes). While core romantic/breakup shorts underperform due to low sample engagement, a distinct out-of-format experiment involving family relationships (Maa, Papa, Bhai) generated massive view outliers (e.g., Maa video at 212 views vs single-digit romance shorts). However, to stay true to the brand's identity, the next video should combine the high-performing digital boundary/self-respect niche with a fresh, highly specific real-life trigger rather than chasing random family outliers.",
+  "overall_summary": "Data shows clear audience preference for 'self respect' and familial emotional content (Maa, Papa). While self-respect digital boundary stories (deleting numbers, muting chats) perform consistently (20-40 views), family-centric emotional shorts (Maa, Papa, Bhai) generated significantly higher outlier views (79-214 views) with better engagement (likes). However, to stay true to the core brand while leveraging higher reach, a bridge between personal boundaries and universal emotional resonance works best.",
   "winning_patterns": [
     {
-      "pattern": "Family Emotional Shorts",
-      "evidence": "Videos about Maa (212 views), Papa (112 views), and Bhai (79 views) drastically outperformed romance/self-respect digital hooks.",
-      "action": "Reserve a small experiment budget to test family-centric emotional shorts once a week."
+      "pattern": "Digital Self-Respect Boundaries",
+      "evidence": "Shorts about clearing storage, muting chats, removing pinned items (e.g., rwOUYo_hayQ, Y4finYMxnIU, wFimeeP_aVc) consistently pull 30-41 views without high drop-offs.",
+      "action": "Continue utilizing everyday digital interface metaphors for emotional closure."
     },
     {
-      "pattern": "Actionable Digital Boundaries",
-      "evidence": "Self-respect shorts dealing with tangible actions like clearing storage, deleting chat archives, or removing profile pictures (e.g., AfaLxMy6FMY at 41 views, rwOUYo_hayQ at 41 views) perform better than abstract heartbreak.",
-      "action": "Focus hooks on concrete, highly specific smartphone actions related to moving on."
+      "pattern": "Pure Family Emotional Outliers",
+      "evidence": "Videos about Mother (OfHrAp3r1G8) and Father (v8krtdmxbPs) drastically outperformed romantic/breakup content, hitting 214 and 110 views respectively.",
+      "action": "Allocate a small experimental budget to test family-centric emotional micro-stories within the channel."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract / Passive Heartbreak",
-      "evidence": "Videos like 't.me/...' or generic waiting hooks like 'घंटों से वो ऑनलाइन दिख रहा है' (8 views) or special ringtones (3 views) fail to hold attention.",
-      "action": "Avoid passive waiting tropes; ground the narrative in active, sudden realization moments."
+      "pattern": "Deep Night Overthinking / Generic Sad Quotes",
+      "evidence": "G0gKV1p3ZHc, uIbMpCjVutQ, and hT4EGP69mRw received very low views (3 to 13 views) and zero engagement.",
+      "action": "Avoid abstract, overly poetic nighttime tropes; ground hooks in tangible, specific modern actions."
+    },
+    {
+      "pattern": "Over-saturated Generic Breakup Hooks",
+      "evidence": "aUuNKfe7jm4 and A_eLARoegnw had muted performance because the framing felt too cliché.",
+      "action": "Shift from generic heartbreak to quiet, empowering self-realization moments."
     }
   ],
   "next_video": {
     "topic": "self respect",
-    "emotion": "Empowerment through letting go",
-    "hook_style": "Specific digital interface action",
+    "emotion": "Bittersweet realization and quiet strength",
+    "hook_style": "Tangible real-life object/action trigger",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short about removing someone from the phone's emergency contact list or medical ID widget, symbolizing the final severing of dependency.",
-    "opening_direction": "जब फोन की सेटिंग्स में जाकर उस इमरजेंसी कॉन्टैक्ट का नंबर हमेशा के लिए हटाया,",
-    "twist_direction": "लगा था कि अब कोई बचाने वाला नहीं रहेगा, पर असलियत में खुद का सहारा बनना ही सबसे बड़ी ताकत बन गया।",
+    "concept": "A story about packing away old gifts or old letters in a dusty cardboard box, realizing that keeping them doesn't mean keeping the pain.",
+    "opening_direction": "जब पुराने सामान के डिब्बे में वो पुरानी डायरी मिली,",
+    "twist_direction": "पन्ने पलटने पर आंसू नहीं आए, बल्कि चेहरे पर एक हल्की सी मुस्कान आ गई कि शुक्र है वो वक्त गुजर गया।",
     "duration_seconds": 12,
-    "posting_window": "13:00 - 14:00 IST",
-    "reason": "Mid-day posting windows historically show steady discovery for self-respect content, and emergency contact deletion is a fresh, untapped digital metaphor that avoids recycled chat/block list tropes."
+    "posting_window": "08:00 AM - 09:00 AM",
+    "reason": "Combines the winning self-respect thematic foundation with a physical, nostalgia-based object (diary/box) which historically outperforms purely digital phone-screen tropes while avoiding generic poetry."
   },
-  "experiment": "Testing an un-used digital boundary metaphor (Emergency Contact removal) to see if it outperforms standard chat/block-list hooks.",
-  "updated_at": "2026-09-25T08:41:52.027886+00:00",
+  "experiment": "Testing physical nostalgia objects (cardboard box / old diary) instead of digital phone screens for self-respect content to broaden visual appeal.",
+  "updated_at": "2026-09-25T09:41:15.924025+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-25T08:41:55.379445+00:00"
+  "generated_at": "2026-09-25T09:41:19.724578+00:00"
 }
