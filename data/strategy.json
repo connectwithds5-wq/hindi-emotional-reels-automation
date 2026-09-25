@@ -1,35 +1,50 @@
 {
-  "confidence": "25%",
+  "confidence": "65%",
   "data_points": 35,
-  "overall_summary": "The channel heavily focuses on 'self respect' and 'overthinking' digital breakup tropes, but these niche relationship shorts are currently generating very low views (0-41 views). Conversely, a minor out-of-niche experiment focusing on family emotions (Maa, Papa, Bhai) achieved significantly higher views (88-214 views), though it represents an outlier. Confidence is low due to small sample sizes across core topics.",
+  "overall_summary": "Family emotional shorts (Maa, Papa, Bhai) and self-respect smartphone/digital cleanup stories performed significantly better in views and engagement compared to generic heartbreak topics. However, recent hyper-niche digital interface hooks faced diminishing returns due to fatigue.",
   "winning_patterns": [
     {
-      "pattern": "Universal Family Emotional Hooks",
-      "evidence": "Videos about parents/family (e.g., Maa video 'माँ जब पूछती है' got 214 views, Papa video got 117 views) heavily outperformed core relationship content.",
-      "action": "Reserve a small experiment budget to test family-centric emotional bonds combined with the channel's diary style."
+      "pattern": "Universal Family Relationships",
+      "evidence": "Videos about Mother (OfHrAp3r1G8 - 214 views), Father (v8krtdmxbPs - 117 views), and Brother (m4cgM90y9JU - 88 views) vastly outperformed core heartbreak niches.",
+      "action": "Allocate a small content bucket to expand beyond romantic heartbreak into universal family emotional dynamics."
+    },
+    {
+      "pattern": "High-Relatability Life Lessons & Self-Motivation",
+      "evidence": "JPf_3ebfnuk ('तुम थके हो… हारे नहीं') achieved solid views (42) and likes (5) with zero comments.",
+      "action": "Incorporate short, grounding self-motivation micro-narratives alongside romantic pain."
+    },
+    {
+      "pattern": "Concrete Everyday Objects in Self-Respect",
+      "evidence": "rwOUYo_hayQ (41 views) and wFimeeP_aVc (34 views) performed well when tying self-respect to distinct digital actions like status lists or blue ticks.",
+      "action": "Continue focusing on tangible everyday digital behaviors for self-respect topics."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Repetitive Digital Breakup Tropes",
-      "evidence": "Numerous shorts about phone settings, deleting chats, blocking, and removing ringtones (e.g., 'Read receipts off', 'Special ringtone') are averaging single-digit to low double-digit views (0-29 views).",
-      "action": "Move away from hyper-specific smartphone settings tropes as they are failing to pull organic reach; pivot toward broader emotional loneliness and self-respect."
+      "pattern": "Overused Smartphone Micro-Actions",
+      "evidence": "Recent videos focusing on extreme micro-actions (e.g., changing wallpapers, removing profile pictures from series apps like cuKSS0gHyt0 and 6KVEZc22kS8) dropped to 0-1 views.",
+      "action": "Move away from hyper-niche UI setting changes and pivot toward broader relatable life moments."
+    },
+    {
+      "pattern": "Vague or Generic Breakup Hooks",
+      "evidence": "Abstract hooks about loneliness or late-night thoughts (e.g., uIbMpCjVutQ) stagnated in single-digit views.",
+      "action": "Avoid generic late-night tropes without a specific, grounded anchor object or situation."
     }
   ],
   "next_video": {
-    "topic": "self respect",
-    "emotion": "Quiet dignity and emotional release",
-    "hook_style": "Real-life observational moment",
+    "topic": "रिश्ते",
+    "emotion": "nostalgia and bittersweet realization",
+    "hook_style": "concrete physical item trigger",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A story about packing away old gifts in a dusty cardboard box kept in the corner of the room, symbolizing the final closure of a one-sided chapter.",
-    "opening_direction": "जब बक्से के नीचे दबी उस पुरानी डायरी को बाहर निकाला,",
-    "twist_direction": "पन्ने पलटने पर एहसास हुआ कि दर्द अब याद नहीं, सिर्फ एक बीता हुआ सबक बन चुका है।",
-    "duration_seconds": 15,
-    "posting_window": "05:30 PM - 08:00 PM IST",
-    "reason": "Testing a physical, tangible real-life action (dusty box/diary) instead of a digital phone setting trope to see if it resonates better with the audience."
+    "concept": "Finding an old handwritten school notebook with a forgotten friend's note, realizing how paths completely separated without a single fight.",
+    "opening_direction": "पुरानी किताबें समेटते वक्त अलमारी के कोने से वो स्कूल की डायरी हाथ लगी,",
+    "twist_direction": "जिस पन्ने पर कभी 'best friends forever' लिखा था, आज उसी इंसान का नंबर फोन में ढूंढने पर भी नहीं मिलता।",
+    "duration_seconds": 12,
+    "posting_window": "13:00 - 15:00 IST",
+    "reason": "Tests a transition from digital-only relationship tropes to tangible childhood nostalgia while capitalizing on the winning format structure."
   },
-  "experiment": "Testing physical nostalgia and room objects (diary/box) instead of digital screen interactions (chats/settings) to improve retention and view count.",
-  "updated_at": "2026-09-25T14:42:15.725766+00:00",
+  "experiment": "Testing if shifting the anchor from smartphone interfaces to physical nostalgic objects (school diaries/old belongings) broadens audience reach.",
+  "updated_at": "2026-09-25T15:39:56.893229+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-25T14:42:18.472531+00:00"
+  "generated_at": "2026-09-25T15:40:00.451589+00:00"
 }
