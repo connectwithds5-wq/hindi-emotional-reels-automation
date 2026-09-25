@@ -1,40 +1,40 @@
 {
-  "confidence": "85%",
+  "confidence": "45%",
   "data_points": 35,
-  "overall_summary": "Data reveals that 'self respect' digital boundaries (blocking, deleting chats, status updates) combined with family emotional bonds (Maa, Papa) massively outperform romantic heartbreak loops. Family bonds (Maa/Papa videos) generated the highest views (up to 215) and engagement (likes), while romantic/self-respect status updates performed moderately well (up to 41 views), and extremely granular digital actions (changing ringtones, removing profile from streaming accounts) suffered from low engagement/fatigue.",
+  "overall_summary": "The channel heavily indexes on 'self respect' and digital/phone-based micro-moments (chats, blocks, settings). While most romance/self-respect shorts received moderate views (10-40 range), out-of-niche family emotional shorts (Maa, Papa, Self Motivation) significantly outperformed them (90-215 views). However, since the core identity is 'Dil Ki Diary' focused on emotional heartbreak and self-respect, we must balance repeatable core patterns with family/universal emotional experiments.",
   "winning_patterns": [
     {
-      "pattern": "Unconditional Family Emotional Bond",
-      "evidence": "Videos about parents (Maa, Papa) secured the highest overall views (215 and 122) and likes (18 and 11) compared to romantic heartbreak or niche digital actions.",
-      "action": "Incorporate parental care and sacrifice into emotional storytelling to expand reach beyond niche relationship content."
+      "pattern": "Digital micro-actions as emotional hooks",
+      "evidence": "Videos focusing on concrete phone habits like typing and deleting ('rwOUYo_hayQ': 41 views, 'AfaLxMy6FMY': 41 views, 'wFimeeP_aVc': 34 views) perform better than abstract relationship statements.",
+      "action": "Continue using familiar digital interface triggers for self-respect narratives."
     },
     {
-      "pattern": "Relatable Digital Self-Respect Boundaries",
-      "evidence": "Mid-tier success (30-41 views) was found in clear, universally understood self-respect actions regarding status lists and read receipts (e.g., 'स्टेटस लिस्ट में सबसे ऊपर उन्हीं का नाम था').",
-      "action": "Focus self-respect narratives on universally relatable phone behaviors rather than hyper-niche app actions."
+      "pattern": "Universal family/support emotional anchors",
+      "evidence": "Family-centric emotional hooks ('OfHrAp3r1G8' Maa: 215 views, 'v8krtdmxbPs' Papa: 122 views, 'JPf_3ebfnuk' Motivation: 112 views) gained substantially higher impressions than romantic heartbreak content.",
+      "action": "Reserve a small experiment budget to merge core self-respect or loneliness themes with universal family support structures."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Hyper-Niche Digital Micro-Actions",
-      "evidence": "Videos focusing on very specific UI elements like streaming account profiles, ringtone defaults, or shared albums got almost zero traction (0-3 views).",
-      "action": "Avoid overly specific or obscure digital breakup triggers that alienate casual viewers."
+      "pattern": "Over-saturated specific UI actions with zero variation",
+      "evidence": "Very recent deep-niche digital actions like wallpaper changes ('6KVEZc22kS8': 1 view) and un-following ('HMyw6blmGOc': 2 views) suffered from fatigue or poor immediate delivery.",
+      "action": "Avoid redundant smartphone settings hooks; pivot slightly toward broader emotional realizations or family-grounded resilience."
     }
   ],
   "next_video": {
-    "topic": "self respect",
-    "emotion": "Empowerment through quiet realization",
-    "hook_style": "Simple observational real-life detail",
+    "topic": "रिश्ते",
+    "emotion": "Nostalgia and Self-Realization",
+    "hook_style": "Real-life tangible item discovery",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization about a parent's silent sacrifice compared to someone who left easily, bridging family emotional appeal with self-respect.",
-    "opening_direction": "माँ की पुरानी रफू की हुई शॉल और उस पर जमी धूल,",
-    "twist_direction": "जिस इंसान के लिए हम रातों को जागते थे, उसने तो एक मिनट में रिश्ता रफू करना भी जरूरी नहीं समझा।",
+    "concept": "Finding an old handwritten letter or greeting card tucked inside a book while cleaning the bookshelf, realizing how much emotional strength has grown since then.",
+    "opening_direction": "किताब के पन्नों के बीच से जब वो पुराना खत निकला,",
+    "twist_direction": "पढ़ा तो लगा कि जिस शख्स के बिना सांसें रुकती थीं, आज उसका नाम पढ़कर सिर्फ एक हल्की सी मुस्कान आती है।",
     "duration_seconds": 12,
-    "posting_window": "08:00 AM - 09:00 AM",
-    "reason": "Combines the high-performing family/Maa theme with core self-respect and heartbreak motifs to test cross-niche audience crossover during morning active hours."
+    "posting_window": "18:00 - 20:00 IST",
+    "reason": "Tests a transition from purely digital phone interactions (which are showing slight viewer fatigue) to physical, nostalgic elements while keeping the core 'self respect and healing' DNA intact, mirroring the high-performing family emotional storytelling tone."
   },
-  "experiment": "Testing the intersection of high-performing family emotional storytelling with core self-respect themes to see if it outperforms pure relationship content.",
-  "updated_at": "2026-09-25T20:40:51.667196+00:00",
+  "experiment": "Testing physical nostalgic objects (books/letters) instead of smartphone UI actions to see if tangible triggers drive better retention than digital status actions.",
+  "updated_at": "2026-09-25T21:40:29.140596+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-25T20:40:54.997897+00:00"
+  "generated_at": "2026-09-25T21:40:32.721966+00:00"
 }
