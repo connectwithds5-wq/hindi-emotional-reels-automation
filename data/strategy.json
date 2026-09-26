@@ -1,40 +1,35 @@
 {
-  "confidence": "65%",
+  "confidence": "45%",
   "data_points": 36,
-  "overall_summary": "The channel relies heavily on 'self respect' and digital/phone-based micro-interactions (chats, read receipts, storage, wallpaper), which show consistent baseline views (20-40 views). However, recent unscripted family and relationship relationship Shorts (Maa, Papa, Call a loved one) achieved significantly higher views (94 to 219 views), indicating broader audience appeal outside of niche breakup tropes.",
+  "overall_summary": "Initial tests with hyper-niche 'self respect' digital clutter actions yielded very low views (under 50), while out-of-niche family and universal relationship emotional shorts (Maa, Papa, Call someone you love) clearly outperformed with 100+ to 220+ views. This indicates the audience prefers broader emotional family/relationship connection over repetitive micro-actions of digital deleting.",
   "winning_patterns": [
     {
-      "pattern": "Family and Universal Relationship Emotions",
-      "evidence": "Videos about Mother (OfHrAp3r1G8 - 215 views), Father (v8krtdmxbPs - 128 views), and reaching out to loved ones (rl_ycNbXZ_g - 219 views) significantly outperformed romantic breakup and niche self-respect shorts.",
-      "action": "Blend the core emotional storytelling style of 'Dil Ki Diary' with broader universal relationships (family, unspoken bonds, missed calls) rather than restricting strictly to romantic self-respect."
-    },
-    {
-      "pattern": "Tangible, Real-life Micro-moments",
-      "evidence": "Self-respect videos performing best (e.g., rwOUYo_hayQ - 41 views, wFimeeP_aVc - 34 views) used hyper-specific digital actions as hooks.",
-      "action": "Continue using concrete, everyday physical or digital actions as hooks to immediately anchor the viewer's attention."
+      "pattern": "Universal Family & Relationship Emotional Connection",
+      "evidence": "Videos like 'माँ जब पूछती है…' (215 views) and 'आज किसी अपने को Call कर लेना…' (220 views) performed significantly better than digital deletion self-respect tropes.",
+      "action": "Pivot the core content slightly broader to include relatable interpersonal relationships and unsaid words alongside self-respect."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Niche Over-saturated Breakup Tropes without Relatable Actions",
-      "evidence": "Videos like cuKSS0gHyt0 (0 views) and HMyw6blmGOc (2 views) suffered due to repetitive wording or highly niche digital actions that lacked broader emotional resonance.",
-      "action": "Avoid redundant phone-setting variations unless paired with a strong, universally felt emotional realization."
+      "pattern": "Repetitive Digital Clutter Hooks",
+      "evidence": "Multiple variations of clearing storage, deleting archives, or removing chat pins (e.g., cuKSS0gHyt0, hT4EGP69mRw) stalled below 15-40 views.",
+      "action": "Avoid overusing tech-cleanup metaphors and focus more on real emotional conversations and unexpressed feelings."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "nostalgia and unspoken regret",
-    "hook_style": "tangible real-life moment",
+    "emotion": "अधूरी भावनाएं और अपनापन",
+    "hook_style": "Simple real-life observation about unsaid apologies",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Finding an old, unused diary or notebook with a dry ink pen and realizing how much unsaid things remain between old friends or family members.",
-    "opening_direction": "पुरानी डायरी के पन्नों के बीच सूखा हुआ गुलाब मिला,",
-    "twist_direction": "पर अ अफ़सोस इस बात का नहीं कि फूल सूख गया, बल्कि इस बात का है कि अब उसे भेजने वाला शख्स पास नहीं है।",
-    "duration_seconds": 15,
-    "posting_window": "08:00 AM - 10:00 AM",
-    "reason": "Previous top-performing videos (like rl_ycNbXZ_g and OfHrAp3r1G8) were published during morning hours (08:00 AM) and successfully tapped into reflective, universal relational bonds."
+    "concept": "A realization that we wait for the 'right time' to say sorry or miss someone, but life moves faster than our ego.",
+    "opening_direction": "जब भी फोन हाथ में आता है, मैसेज टाइप करके मिटा देते हैं।",
+    "twist_direction": "सोचते हैं कल कह देंगे, पर कल शायद वो इंसान ही न मिले जो सुनना चाहता था।",
+    "duration_seconds": 10,
+    "posting_window": "08:00 AM - 09:00 AM",
+    "reason": "Matches the posting time and high-performing window of successful relationship/family emotional shorts like 'आज किसी अपने को Call कर लेना'."
   },
-  "experiment": "Testing whether broadening the successful digital/tangible storytelling format from romantic self-respect to universal relationship nostalgia retains the higher view counts seen in recent family-centric shorts.",
-  "updated_at": "2026-09-26T12:42:48.535703+00:00",
+  "experiment": "Testing if broadening from hyper-niche digital self-respect to general unspoken relationship regrets increases baseline views.",
+  "updated_at": "2026-09-26T13:38:15.963523+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-26T12:42:52.015061+00:00"
+  "generated_at": "2026-09-26T13:38:19.318581+00:00"
 }
