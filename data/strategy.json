@@ -1,40 +1,45 @@
 {
   "confidence": "65%",
-  "data_points": 35,
-  "overall_summary": "Core romantic/breakup emotional shorts under 'self respect' and 'overthinking' yield modest views (averaging 15-40 views), but the random family emotional experiments (Maa, Papa) drastically outperformed them (90-215 views). However, since the channel's core identity is 'Dil Ki Diary' romantic/emotional life, we must stick to the repeatable romantic-loss/self-respect pattern while cautiously testing broader relatable life emotions.",
+  "data_points": 36,
+  "overall_summary": "The channel 'Dil Ki Diary' heavily leans into 'self respect' and digital/phone-based micro-moments (chats, read receipts, storage clearing) for its core Hindi emotional content. However, recent out-of-niche family emotional shorts (Maa, Papa, self-motivation) significantly outperformed standard digital self-respect content in raw views and engagement, pointing to a potential broader emotional resonance.",
   "winning_patterns": [
     {
-      "pattern": "Specific digital/phone interface triggers for self-respect",
-      "evidence": "Videos like 'rwOUYo_hayQ' (41 views) and 'wFimeeP_aVc' (34 views) using status lists and blue ticks performed best in the core niche.",
-      "action": "Continue focusing on micro-interactions with phones, chats, and apps tied to letting go."
+      "pattern": "Family emotional and life-lesson content",
+      "evidence": "Videos about Maa (OfHrAp3r1G8 - 215 views), Papa (v8krtdmxbPs - 125 views), and Self Motivation (JPf_3ebfnuk - 123 views) performed far better than niche digital self-respect videos.",
+      "action": "Selectively test broader universal relationships (family, inner peace) alongside the core self-respect niche."
     },
     {
-      "pattern": "Family emotional triggers",
-      "evidence": "'OfHrAp3r1G8' (Maa) got 215 views and 'v8krtdmxbPs' (Papa) got 125 views, massively outperforming the core romantic content.",
-      "action": "Reserve a small experiment budget to blend universal family/life observations into the emotional diary format."
+      "pattern": "Micro-actions with high relational friction",
+      "evidence": "RWOUYo_hayQ (41 views) and AfaLxMy6FMY (41 views) performed best within the core self-respect digital niche by focusing on definitive tactile actions like deleting chats or status lists.",
+      "action": "Continue utilizing highly specific tactile mobile/real-life gestures for hooks."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Deep night-time longing without an action or digital hook",
-      "evidence": "uIbMpCjVutQ ('मेज पर रखी चाय ठंडी हो गई') got only 6 views.",
-      "action": "Avoid abstract poetic imagery without a grounded, modern, relatable object or digital touchpoint."
+      "pattern": "Overly niche or obscure digital platform actions",
+      "evidence": "cuKSS0gHyt0 (0 views) focusing on streaming service profile removal scored zero, showing the metaphor failed to connect.",
+      "action": "Avoid hyper-niche app features; stick to universal everyday communication habits."
+    },
+    {
+      "pattern": "Repetitive phrasing in self-respect hooks",
+      "evidence": "Multiple variations of 'जब...' starting with settings or storage saw declining and low view counts (~3 to 20 views).",
+      "action": "Vary hook structures to prevent audience fatigue."
     }
   ],
   "next_video": {
-    "topic": "self respect",
-    "emotion": "Bittersweet realization and release",
-    "hook_style": "Digital action micro-moment",
+    "topic": "रिश्ते",
+    "emotion": "nostalgia and bittersweet realization",
+    "hook_style": "tactile everyday memory trigger",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Deleting a shared playlist or custom music queue after a breakup, realizing the songs no longer hurt.",
-    "opening_direction": "जब म्यूजिक ऐप की उस पुरानी प्लेलिस्ट को डिलीट करने की बारी आई,",
-    "twist_direction": "लगा था रोना आएगा, पर उस गाने के बजते ही चेहरे पर सिर्फ एक हल्की सी मुस्कान आ गई—क्योंकि अब उस आवाज़ से कोई फर्क नहीं पड़ता था।",
-    "duration_seconds": 12,
-    "posting_window": "13:00 - 15:00 IST",
-    "reason": "Leverages the proven high-performing phone/app micro-interaction pattern ('self respect' topic) which previously hit 40+ views, avoiding repetitive chat/status hooks."
+    "concept": "Finding an old handwritten grocery list or notebook where a sibling's or parent's handwriting suddenly appears, bringing back a wave of unspoken care.",
+    "opening_direction": "किचन के पुराने डिब्बे के नीचे दबी वो डायरी मिली...",
+    "twist_direction": "लिखावट देखकर समझ आया, वो हिसाब राशन का नहीं, उन अनकहे दुआओं का था जो रोज़ बिना मांगे मिलती थीं।",
+    "duration_seconds": 25,
+    "posting_window": "08:00 AM - 09:00 AM",
+    "reason": "Family and relationship emotional shorts have shown a stronger view ceiling than digital-only self-respect shorts in recent data. This bridges the channel's diary/writing theme with universal family bonds."
   },
-  "experiment": "Testing a music app/playlist deletion hook instead of WhatsApp/chat triggers to see if digital clutter themes expand beyond messaging.",
-  "updated_at": "2026-09-26T07:38:46.241874+00:00",
+  "experiment": "Testing if shifting the phone-centric self-respect narrative toward broader tactile family/relationship memory triggers captures the higher view counts seen in the recent Maa/Papa shorts.",
+  "updated_at": "2026-09-26T08:40:11.893716+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-26T07:38:49.331674+00:00"
+  "generated_at": "2026-09-26T08:40:15.135956+00:00"
 }
