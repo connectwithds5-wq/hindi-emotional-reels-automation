@@ -1,40 +1,40 @@
 {
   "confidence": "65%",
   "data_points": 35,
-  "overall_summary": "Core niche content ('self respect' digital detachment) yielded low double-digit views, but family-centric emotional shorts (Maa, Papa) dramatically outperformed them organically (up to 215 views). The audience responds strongly to raw emotional relational ties rather than purely micro-digital breakup tropes, though digital self-respect has a loyal baseline. We should lean into the higher-performing emotional relational space while retaining the core brand identity.",
+  "overall_summary": "Family emotional content (Maa, Papa) and broader self-motivation have significantly outperformed niche digital-detox/self-respect heartbreak shorts. The audience responds heavily to unconditional familial love and universal emotional support over hyper-specific heartbreak or digital cleanup hooks.",
   "winning_patterns": [
     {
-      "pattern": "Family emotional resonance",
-      "evidence": "Videos about Mother (OfHrAp3r1G8) and Father (v8krtdmxbPs) got 215 and 122 views respectively, significantly outperforming digital breakup clips.",
-      "action": "Incorporate broader emotional family/relationship bonds into the content mix to scale reach."
+      "pattern": "Universal Family Relationships",
+      "evidence": "Videos about Mother (OfHrAp3r1G8) and Father (v8krtdmxbPs) achieved 215 and 122 views respectively, far outperforming the average 10-20 views of heartbreak status shorts.",
+      "action": "Pivot focus toward broader, universally relatable family and emotional life lessons while retaining the 'Dil Ki Diary' sentimental tone."
     },
     {
-      "pattern": "Tangible digital self-respect triggers",
-      "evidence": "Videos dealing with direct actions like clearing chat lists or removing pins (e.g., Y4finYMxnIU, rwOUYo_hayQ) performed relatively stable around 32-41 views.",
-      "action": "Keep digital detachment hooks ultra-specific and grounded in everyday phone habits."
+      "pattern": "Direct Emotional Validation",
+      "evidence": "Self motivation video for tired individuals (JPf_3ebfnuk) scored 112 views, indicating strong pull from direct encouragement and empathy.",
+      "action": "Include themes of silent struggles and unspoken sacrifices in upcoming concepts."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Overly abstract or niche digital micro-actions",
-      "evidence": "Recent niche experiments like unlinking streaming profiles or removing widgets (e.g., cuKSS0gHyt0, 6KVEZc22kS8) dropped to 0-1 views.",
-      "action": "Avoid hyper-niche app features that lack universal emotional relatability."
+      "pattern": "Hyper-specific Digital Heartbreak & Muted Chats",
+      "evidence": "Multiple variations of muting chats, unpinning, and archiving (e.g., cuKSS0gHyt0, 6KVEZc22kS8) yielded near-zero views (0-2 views), showing audience fatigue for repetitive phone-cleanup heartbreak tropes.",
+      "action": "Avoid redundant smartphone-UI based heartbreak hooks and move toward real-world emotional moments."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "नस्टेलजिया और अपनापन",
-    "hook_style": "Real-life observational moment",
+    "emotion": "nostalgia and unspoken gratitude",
+    "hook_style": "Real-life observation of a parent's old habits",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "पुरानी अलमारी में बचपन की स्कूल डायरी मिलना और माँ के हाथों से उस पर चढ़ाया हुआ पुराना गत्ते का कवर देखना।",
-    "opening_direction": "जब सफाई करते वक्त माँ के हाथ से चढ़ाए हुए पुराने गत्ते वाली वो स्कूल डायरी हाथ लगी,",
-    "twist_direction": "पन्ने पलटे तो दिखा कि माँ ने हर रिपोर्ट कार्ड के पीछे छुपकर हमेशा हमारा हौसला ही लिखा था।",
-    "duration_seconds": 12,
-    "posting_window": "शाम 05:00 PM से 08:00 PM",
-    "reason": "Family and parental emotional themes showed significantly higher organic traction than romantic heartbreak or digital-only separation tropes in recent uploads."
+    "concept": "A short emotional look at finding an old, well-worn item belonging to a parent and realizing how much they sacrificed silently.",
+    "opening_direction": "माँ के पुराने चश्मे का नंबर बदलते वक्त...",
+    "twist_direction": "...पता चला कि उन्होंने कभी अपने धुंधले दिखते कल की परवाह नहीं की, सिर्फ हमारा भविष्य साफ देखने के चक्कर में।",
+    "duration_seconds": 15,
+    "posting_window": "08:00 AM - 09:00 AM",
+    "reason": "Aligns with the proven high-performing family emotional content slot observed in previous morning uploads."
   },
-  "experiment": "Testing if blending the core 'Dil Ki Diary' notebook aesthetic with parental emotional nostalgia scales better than pure digital breakup content.",
-  "updated_at": "2026-09-25T23:38:28.709788+00:00",
+  "experiment": "Testing if shifting the 'Dil Ki Diary' brand from niche digital heartbreak to broader family sacrifice maintains high views while preserving the emotional core.",
+  "updated_at": "2026-09-26T00:44:05.607943+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-25T23:38:32.053638+00:00"
+  "generated_at": "2026-09-26T00:44:08.669583+00:00"
 }
