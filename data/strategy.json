@@ -1,40 +1,35 @@
 {
-  "confidence": "65%",
+  "confidence": "60%",
   "data_points": 35,
-  "overall_summary": "The channel shows clear interest in 'self respect' and digital-age heartbreak scenarios (e.g., removing names from keyboards, blocking lists, storage cleaning), which outperform late-night abstract sadness hooks. Recently, a brief pivot into family emotional content (Maa, Papa, Bhai) generated significant outlier views, proving high baseline interest in universal emotional touchpoints outside romantic heartbreak.",
+  "overall_summary": "Family emotional shorts (Maa, Papa, Bhai) and universal life motivation significantly outperformed the heavily repeated digital/phone-based self-respect niche in view counts. While core channel topics focus on romance, heartbreak, and self-respect, the audience showed a strong positive response to grounded family relationships.",
   "winning_patterns": [
     {
-      "pattern": "Hyper-specific digital micro-actions for self-respect",
-      "evidence": "Videos like 'जब आर्काइव फोल्डर पर नजर पड़ी' (23 views), 'कीबोर्ड से उसका नाम हटाते वक्त मिला सुकून' (20 views), and 'स्टेटस लिस्ट में सबसे ऊपर...' (41 views) perform well compared to generic late-night abstract thoughts.",
-      "action": "Continue focusing on micro-gestures of moving on within a smartphone interface."
-    },
-    {
-      "pattern": "Universal family emotional bonds",
-      "evidence": "Outliers like Mother ('खाना खाया?' - 215 views), Father ('थक गए हैं' - 125 views), and Self-Motivation ('हारे नहीं' - 123 views) outperformed standard romantic relationship posts.",
-      "action": "Reserve a small experiment budget to test family-centric emotional shorts alongside the core romantic/self-respect content."
+      "pattern": "Family Emotional Connect",
+      "evidence": "Videos about Mother (215 views), Father (125 views), and Brother (92 views) received significantly higher views and likes compared to single-digit or low double-digit views on repetitive phone-cleanup self-respect shorts.",
+      "action": "Incorporate family-centric emotional narratives and foundational bonds into the content mix alongside romantic and self-respect themes."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Vague, late-night poetic hooks",
-      "evidence": "Videos like 'रात के दो बजे' (13 views) and 'रात के ख्याल' (6 views) show lower engagement compared to actionable self-respect scenarios.",
-      "action": "Avoid purely atmospheric or abstract poetry hooks; anchor them to a tangible, physical or digital trigger."
+      "pattern": "Repetitive Phone-Deletion Tropes",
+      "evidence": "Multiple consecutive shorts focusing on deleting photos, clearing chat pins, unpinning chats, or changing wallpapers yielded very low views (often under 20 views, and down to 0-3 views for recent ones).",
+      "action": "Avoid overusing the exact same phone-cleanup setting trope back-to-back to prevent audience fatigue."
     }
   ],
   "next_video": {
-    "topic": "self respect",
-    "emotion": "empowering relief / quiet closure",
-    "hook_style": "tangible digital action",
+    "topic": "रिश्ते",
+    "emotion": "Nostalgia and gratitude",
+    "hook_style": "Real-life observation about childhood vs adult life",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization moment while changing the phone's alarm tone away from a custom song set years ago to a standard default ringtone.",
-    "opening_direction": "जब सुबह का अलार्म बजा और सालों पुराना वो खास ट्यून गूंजा,",
-    "twist_direction": "समझ आया कि अब किसी की आवाज़ या धुन की जरूरत नहीं सुबह उठने के लिए, डर अब नहीं, सिर्फ अपनी नींद का सुकून है।",
-    "duration_seconds": 15,
-    "posting_window": "13:00 - 15:00 IST",
-    "reason": "Leverages the proven high-performing 'digital/phone setting change' self-respect pattern that consistently drives better views than abstract poetry."
+    "concept": "A short emotional narrative about childhood photo albums or old school tiffin boxes, highlighting how priorities change as we grow up, but parents' love remains constant.",
+    "opening_direction": "जब पुराने बक्से से बचपन की वो स्कूल डायरी हाथ लगी,",
+    "twist_direction": "पन्ने पलटे तो याद आया, तब नंबर कम आने पर रोते थे, आज अपनों से दूर होने पर खामोश हो जाते हैं।",
+    "duration_seconds": 12,
+    "posting_window": "08:00 AM - 10:00 AM",
+    "reason": "Leverages the successful family/nostalgia emotional pull seen in high-performing past videos while pivoting away from exhausted phone-deletion hooks."
   },
-  "experiment": "Testing if expanding self-respect themes to phone audio settings (alarm ringtones) matches the performance of chat/storage deletion hooks.",
-  "updated_at": "2026-09-26T02:39:41.546784+00:00",
+  "experiment": "Testing whether broadening from phone-screen self-respect tropes to nostalgic family-growth themes sustains the higher view counts observed in family-focused shorts.",
+  "updated_at": "2026-09-26T03:40:17.352188+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-26T02:39:44.588082+00:00"
+  "generated_at": "2026-09-26T03:40:20.239404+00:00"
 }
