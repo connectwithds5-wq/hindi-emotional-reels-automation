@@ -1,35 +1,40 @@
 {
-  "confidence": "30%",
+  "confidence": "65%",
   "data_points": 36,
-  "overall_summary": "The channel shows a clear distinction between relationship/self-respect digital micro-dramas (averaging 10-25 views, heavily reliant on niche phone/digital actions like chat deletions) and family/universal emotional shorts (Maa, Papa, general life check-ins like 'Call a loved one') which significantly outperformed the baseline with 90 to 270 views. However, sample sizes are small, so confidence remains low.",
+  "overall_summary": "Family emotional bonds, universal relationships, and gentle motivation (e.g., Maa, Papa, calling loved ones) dramatically outperform niche romantic heartbreak and overly specific smartphone-settings self-respect tropes, pulling 90 to 275+ views compared to 1-40 views.",
   "winning_patterns": [
     {
-      "pattern": "Universal family and relationship check-ins",
-      "evidence": "Videos about Mother ('Maa'), Father ('Papa'), and calling a loved one ('आज किसी अपने को Call कर लेना') achieved 132 to 270 views, vastly outperforming hyper-specific digital clean-up shorts.",
-      "action": "Broaden the emotional scope slightly beyond niche phone-deleting mechanics to include universally relatable life moments."
+      "pattern": "Universal Family Relationships",
+      "evidence": "Videos about Mother (OfHrAp3r1G8 - 215 views), Father (v8krtdmxbPs - 132 views), and checking in on loved ones (rl_ycNbXZ_g - 275 views) vastly outperformed romantic niche topics.",
+      "action": "Pivot focus from micro-romantic heartbreak to broad, universally relatable emotional bonds and family connections."
+    },
+    {
+      "pattern": "Direct Relatable Actions / Life Reminders",
+      "evidence": "Video rl_ycNbXZ_g ('आज किसी अपने को Call कर लेना') achieved 275 views by prompting a direct, positive emotional action.",
+      "action": "Include gentle life advice or calls-to-action that resonate deeply with anyone who misses someone."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Over-saturated hyper-specific digital mechanics",
-      "evidence": "Repeatedly using micro-actions like un-pinning chats, clearing keyboard names, and removing shared albums (e.g., videos like HMyw6blmGOc and cuKSS0gHyt0) hit a ceiling of 0-2 views due to repetitiveness.",
-      "action": "Avoid repeating identical phone-screen delete formats back-to-back; introduce fresh real-life objects or scenarios."
+      "pattern": "Hyper-niche smartphone UI actions for self-respect",
+      "evidence": "Videos focusing on specific UI actions like clearing cloud storage, unpinning chats, or changing default ringtones (e.g., LBGCloAitok - 4 views, hT4EGP69mRw - 3 views) had extremely low engagement.",
+      "action": "Avoid granular, repetitive digital settings tropes and focus on broader emotional states."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Nostalgia and regret",
-    "hook_style": "Real-life object interaction",
+    "emotion": "Nostalgia and warmth",
+    "hook_style": "Real-life moment observation",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Finding an old train ticket or boarding pass from a trip taken with someone who is no longer in your life.",
-    "opening_direction": "Purane saman ke beech se woh purana train ticket mila...",
-    "twist_direction": "Destination toh aa gayi, par safar karne wala woh shaks peeche hi chhoot gaya.",
+    "concept": "A short emotional narrative about finding an old childhood photograph in a book, remembering a sibling or friend you haven't spoken to in months, and realizing time slips away silently.",
+    "opening_direction": "किताब के पन्नों के बीच से जब वो पुराना स्कूल का पर्चा या तस्वीर गिरती है,",
+    "twist_direction": "तब याद आता है कि जिस पक्के यार से रोज बातें होती थीं, आज उसका हाल पूछे भी अरसा हो गया है।",
     "duration_seconds": 12,
     "posting_window": "08:00 AM - 09:00 AM",
-    "reason": "Family and universal memory videos (like morning check-ins) performed best in the morning slots, capturing viewers during their early reflective routine."
+    "reason": "Capitalizes on the high-performing relationship and family reminder patterns (similar to the 275-view call reminder video) which connect instantly with viewers."
   },
-  "experiment": "Testing if shifting from hyper-niche phone UI deletions to physical nostalgia objects (like old tickets/letters) broadens audience reach while maintaining the core emotional tone.",
-  "updated_at": "2026-09-26T15:40:27.396902+00:00",
+  "experiment": "Testing if childhood nostalgia combined with a gentle reminder to reconnect yields higher engagement than romantic self-respect shorts.",
+  "updated_at": "2026-09-26T16:40:13.494083+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-26T15:40:30.449919+00:00"
+  "generated_at": "2026-09-26T16:40:16.827224+00:00"
 }
