@@ -1,40 +1,35 @@
 {
-  "confidence": "70%",
+  "confidence": "65%",
   "data_points": 36,
-  "overall_summary": "The channel 'Dil Ki Diary' saw a massive surge in views and engagement when pivoting from romantic/self-respect heartbreak loops to universal family and life-bonding emotions (Maa, Papa, Bhai, and calling loved ones, reaching 130-278 views compared to single-digit/low double-digit views on repetitive phone-deletion self-respect shorts). However, to respect core branding, a balanced approach combining relationship/family bonds with micro-realities is best.",
+  "overall_summary": "Data reveals clear outperformance in family-centric emotional bonds (Maa, Papa, Bhai, Daily Life Reminders) compared to niche digital breakup/self-respect tropes which are currently saturated and lower-performing.",
   "winning_patterns": [
     {
-      "pattern": "Universal Family & Relationship Bonds",
-      "evidence": "Videos about parents, siblings, and calling a loved one (e.g., 'आज किसी अपने को Call कर लेना', 'पापा कभी कहते नहीं', 'माँ जब पूछती है') garnered 130 to 278 views and multiple likes, outperforming toxic breakup loops.",
-      "action": "Incorporate warm, grounding relationship reflections alongside the core self-respect and longing themes."
-    },
-    {
-      "pattern": "Grounded Real-Life Objects/Triggers",
-      "evidence": "Early self-respect shorts performed relatively better (30-40 views) when tied to tangible modern triggers like notification lists or pinned chats rather than abstract sadness.",
-      "action": "Use specific, tactile everyday objects as hooks to anchor the emotional narrative."
+      "pattern": "Universal family bonds & life reminder shorts",
+      "evidence": "Videos about Mother, Father, and calling loved ones (e.g., rl_ycNbXZ_g, OfHrAp3r1G8, v8krtdmxbPs) received significantly higher views (130-278 views) and likes compared to digital heartbreak tropes.",
+      "action": "Pivot slightly towards universally relatable emotional family or life reminders while keeping the core 'Dil Ki Diary' touch."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Repetitive Phone Deletion & Chat Clearing Loops",
-      "evidence": "Over-indexing heavily on variations of deleting numbers, clearing keyboards, and removing widgets led to viewer fatigue, with recent videos dropping to 0-6 views.",
-      "action": "Acknowledge the digital detox sub-niche is saturated for this channel; diversify the emotional palette."
+      "pattern": "Overly specific digital breakup minutiae",
+      "evidence": "Shorts centered strictly on micro-interactions like settings, widgets, or keyboard name removals (e.g., c7epDdpUJis, hT4EGP69mRw, cuKSS0gHyt0) averaged very low views (0-10 views).",
+      "action": "Avoid hyper-niche UI/UX breakup details; broaden the emotional stakes to tangible real-world behaviors."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Nostalgia and regret turning into warmth",
-    "hook_style": "Tactile real-life moment",
+    "emotion": "Nostalgia and regret",
+    "hook_style": "Relatable physical action from childhood or daily life",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Finding an old childhood photograph in a book, remembering a forgotten friend or sibling rivalry, and realizing how fast time flies.",
-    "opening_direction": "पुरानी किताब के पन्नों के बीच, वो बचपन का टिकट या फोटो मिला जिसे सालों से नहीं देखा था।",
-    "twist_direction": "सोचा था फोन करके पुराने दिन याद दिलाऊंगा, पर नंबर लगाया तो पता चला वो लाइन अब किसी और की हो चुकी है—वक्त बदल गया, पर यादें वहीं रह गईं।",
-    "duration_seconds": 15,
-    "posting_window": "08:00 AM - 09:00 AM",
-    "reason": "Family and relationship reminder formats (like the successful 'आज किसी अपने को Call कर लेना' short) performed best in the morning window when users seek emotional grounding."
+    "concept": "Finding an old handwritten letter or school notebook from a childhood best friend whom you haven't spoken to in years.",
+    "opening_direction": "अलमारी साफ करते वक्त अचानक वो पुरानी ऑटोग्राफ बुक हाथ लग गई,",
+    "twist_direction": "पन्ने पलटे तो उस दोस्त की लिखावट दिखी जो आज शहर में ही रहकर भी अजनबी बन चुका है।",
+    "duration_seconds": 35,
+    "posting_window": "08:00 AM - 10:00 AM",
+    "reason": "Tests the high-performing family/relationship reminder angle (seen in rl_ycNbXZ_g) using a tangible, non-digital real-life object to evoke deep nostalgia."
   },
-  "experiment": "Testing a nostalgic relationship/friendship bond narrative instead of phone/digital-screen heartbreak to see if family-level engagement metrics carry over to interpersonal relationships.",
-  "updated_at": "2026-09-27T00:45:50.506679+00:00",
+  "experiment": "Testing if physical nostalgia objects (books/letters) outperform digital phone-screen breakup tropes.",
+  "updated_at": "2026-09-27T01:39:51.972722+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-27T00:45:54.047003+00:00"
+  "generated_at": "2026-09-27T01:39:54.819436+00:00"
 }
