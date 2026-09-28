@@ -1,35 +1,45 @@
 {
-  "confidence": "25%",
+  "confidence": "65%",
   "data_points": 37,
-  "overall_summary": "Data reveals a massive performance spike when shifting away from niche, low-sample romance/self-respect micro-actions toward broader familial and universal relationship content (e.g., Mom, Dad, calling loved ones), which achieved 100-280+ views compared to 0-41 views for standard romantic self-respect clips. However, since the core brand is 'Dil Ki Diary', a hybrid approach leaning slightly into family/universal relationship bonds is optimal.",
+  "overall_summary": "Core relationship and self-respect content (like unpinning chats or deleting memories) perform moderately, but family-focused and universal emotional life lessons (Maa, Papa, calling loved ones) have significantly outperformed romantic heartache in views and engagement, signaling a massive pivot opportunity toward broader emotional storytelling.",
   "winning_patterns": [
     {
-      "pattern": "Universal Family & Relationship Bonds",
-      "evidence": "Videos about parents, siblings, and calling a loved one (e.g., rl_ycNbXZ_g, OfHrAp3r1G8, v8krtdmxbPs) pulled 136 to 285 views, outperforming niche heartbreak bits.",
-      "action": "Incorporate broader relationship bonds and emotional check-ins alongside core romantic self-respect themes."
+      "pattern": "Universal Family and Relationship Nostalgia",
+      "evidence": "Videos about parents, siblings, and calling loved ones (e.g., 'आज किसी अपने को Call कर लेना' with 286 views, and 'माँ जब पूछती है' with 216 views) heavily outperformed niche romantic heartache shorts.",
+      "action": "Incorporate broader emotional relationship dynamics and family bonds alongside core romantic self-respect themes."
+    },
+    {
+      "pattern": "Tactile Digital Breakup/Self-Respect Micro-Moments",
+      "evidence": "Early self-respect posts focused on specific digital actions like archive folders (23 views) and keyboards (20 views) drove steady baseline traffic.",
+      "action": "Maintain high-specificity micro-actions when returning to digital breakup/self-respect themes."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Over-niche digital micro-actions (deleting widgets, typing history)",
-      "evidence": "Videos focused strictly on niche app features like settings, keyboards, or widgets (e.g., c7epDdpUJis, cuKSS0gHyt0) stalled at 0-10 views.",
-      "action": "Broaden the physical or emotional anchors beyond just phone settings to real-life conversational moments."
+      "pattern": "Generic Romantic Sadness without Actionable Hooks",
+      "evidence": "Abstract late-night or one-sided love concepts like 'रात के ख्याल और अधूरा इंतजार' dropped to single-digit views (6 views).",
+      "action": "Avoid vague, abstract heartbreak tropes; ground every emotional concept in a concrete, relatable daily object or interaction."
+    },
+    {
+      "pattern": "Over-saturated Self-Respect Formats",
+      "evidence": "Recent repetitive daily iterations of removing profile tags and status list checks (e.g., 0-4 views) suffered from diminishing returns.",
+      "action": "Avoid repeating identical digital boundary-setting tropes back-to-back."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Nostalgia and regret",
-    "hook_style": "Real-life object/moment trigger",
+    "emotion": "Nostalgia and Regret",
+    "hook_style": "Real-life physical object trigger",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Finding an old childhood photo or school notebook where a forgotten best friend wrote a promise to stay together forever, contrasting with today's silence.",
-    "opening_direction": "अलमारी साफ करते वक्त बचपन की वो पुरानी डायरी हाथ लग गई...",
-    "twist_direction": "पन्ने पलटे तो उस दोस्त की लिखावट मिली जिस से अब सालों से बात तक नहीं हुई.",
-    "duration_seconds": 15,
+    "concept": "Finding an old handwritten school letter or greeting card tucked away inside an old book, realizing how much simpler connections used to be compared to today's read receipts.",
+    "opening_direction": "जब अलमारी साफ करते हुए वो पुरानी डायरी हाथ लगी,",
+    "twist_direction": "पन्ने पलटे तो याद आया, तब जवाब पाने के लिए हफ्तों इंतजार होता था, पर आज सब कुछ सामने होकर भी बीच में एक खामोश पर्दा है।",
+    "duration_seconds": 12,
     "posting_window": "08:00 AM - 09:00 AM",
-    "reason": "Aligns with the proven high-performing morning slot for universal relationship and emotional connection content."
+    "reason": "Tests a bridge between the high-performing universal relationship nostalgia pattern and the brand's core diary aesthetic."
   },
-  "experiment": "Testing if expanding 'Dil Ki Diary' from romantic self-respect to childhood/platonic relationships retains the high view counts of recent family shorts while keeping the brand's emotional diary tone.",
-  "updated_at": "2026-09-28T17:41:11.901237+00:00",
+  "experiment": "Testing if shifting from digital-only breakup micro-moments to physical item nostalgia retains the higher view velocity seen in family/universal emotional shorts.",
+  "updated_at": "2026-09-28T18:45:22.156715+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-28T17:41:32.051949+00:00"
+  "generated_at": "2026-09-28T18:45:25.485816+00:00"
 }
