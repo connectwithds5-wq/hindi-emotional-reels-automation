@@ -1,29 +1,35 @@
 {
-  "confidence": "45%",
+  "confidence": "25%",
   "data_points": 37,
-  "overall_summary": "Current leader: आज किसी अपने को Call कर लेना ❤️ | रिश्ते खत्म नहीं होते, बात बंद हो जाती है | Hindi Shorts with 285 views; sample size is still small, so this is directional.",
+  "overall_summary": "Data reveals a massive performance spike when shifting away from niche, low-sample romance/self-respect micro-actions toward broader familial and universal relationship content (e.g., Mom, Dad, calling loved ones), which achieved 100-280+ views compared to 0-41 views for standard romantic self-respect clips. However, since the core brand is 'Dil Ki Diary', a hybrid approach leaning slightly into family/universal relationship bonds is optimal.",
   "winning_patterns": [
     {
-      "pattern": "Highest observed views",
-      "evidence": "285 views on current leader",
-      "action": "Test a related emotional situation without copying the wording."
+      "pattern": "Universal Family & Relationship Bonds",
+      "evidence": "Videos about parents, siblings, and calling a loved one (e.g., rl_ycNbXZ_g, OfHrAp3r1G8, v8krtdmxbPs) pulled 136 to 285 views, outperforming niche heartbreak bits.",
+      "action": "Incorporate broader relationship bonds and emotional check-ins alongside core romantic self-respect themes."
     }
   ],
-  "weak_patterns": [],
+  "weak_patterns": [
+    {
+      "pattern": "Over-niche digital micro-actions (deleting widgets, typing history)",
+      "evidence": "Videos focused strictly on niche app features like settings, keyboards, or widgets (e.g., c7epDdpUJis, cuKSS0gHyt0) stalled at 0-10 views.",
+      "action": "Broaden the physical or emotional anchors beyond just phone settings to real-life conversational moments."
+    }
+  ],
   "next_video": {
-    "topic": "अधूरी मोहब्बत",
-    "emotion": "regret",
-    "hook_style": "curiosity",
+    "topic": "रिश्ते",
+    "emotion": "Nostalgia and regret",
+    "hook_style": "Real-life object/moment trigger",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A familiar chat or notification reveals that the relationship has quietly changed.",
-    "opening_direction": "Start with one concrete digital-life detail.",
-    "twist_direction": "Reveal the emotional meaning in the final line.",
-    "duration_seconds": 10,
-    "posting_window": "7:00 PM IST test",
-    "reason": "Controlled baseline while more performance data accumulates."
+    "concept": "Finding an old childhood photo or school notebook where a forgotten best friend wrote a promise to stay together forever, contrasting with today's silence.",
+    "opening_direction": "अलमारी साफ करते वक्त बचपन की वो पुरानी डायरी हाथ लग गई...",
+    "twist_direction": "पन्ने पलटे तो उस दोस्त की लिखावट मिली जिस से अब सालों से बात तक नहीं हुई.",
+    "duration_seconds": 15,
+    "posting_window": "08:00 AM - 09:00 AM",
+    "reason": "Aligns with the proven high-performing morning slot for universal relationship and emotional connection content."
   },
-  "experiment": "Test a fresh hook around a concrete digital-life moment.",
-  "updated_at": "2026-09-28T16:41:48.141578+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-28T16:41:48.141594+00:00"
+  "experiment": "Testing if expanding 'Dil Ki Diary' from romantic self-respect to childhood/platonic relationships retains the high view counts of recent family shorts while keeping the brand's emotional diary tone.",
+  "updated_at": "2026-09-28T17:41:11.901237+00:00",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-09-28T17:41:32.051949+00:00"
 }
