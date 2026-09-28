@@ -1,40 +1,40 @@
 {
-  "confidence": "65%",
+  "confidence": "55%",
   "data_points": 36,
-  "overall_summary": "The channel successfully explores digital detachment and self-respect (deleting chats, clearing storage, removing tags), yielding steady views. However, a small family/relationships experiment (Maa, Papa, general life motivation) drastically outperformed romantic self-respect niches, with family and universal life videos getting 100-280+ views compared to 10-40 views for niche phone-action self-respect shorts.",
+  "overall_summary": "The channel recently pivoted from hyper-specific digital self-respect stories (which capped at 0-41 views) to broader emotional themes like family bonds and relationship reconciliation. This pivot led to a noticeable spike in views (up to 284 views) and likes. However, because sample sizes remain small across all categories, confidence is moderate and requires disciplined testing.",
   "winning_patterns": [
     {
-      "pattern": "Universal Family & Life Bond Emotional Triggers",
-      "evidence": "Videos about parents, siblings, and calling loved ones (e.g., 'आज किसी अपने को Call कर लेना' with 284 views, 'माँ जब पूछती है' with 216 views) heavily outperformed niche breakup/self-respect content.",
-      "action": "Pivot part of the strategy toward broader universal emotional and relational bonds while keeping the core soulful, diary-like tone."
+      "pattern": "Broad emotional themes centered on family and active relationship connection ('रिश्ते')",
+      "evidence": "Videos about Call/Rishte (284 views, 9 likes), Maa (216 views, 18 likes), Motivation (169 views, 7 likes), and Papa (135 views, 11 likes) significantly outperformed phone-UI self-respect stories.",
+      "action": "Leaning into family and core human relationships over repetitive digital interface breakup tropes."
     },
     {
-      "pattern": "Tangible Real-Life Relatable Moments",
-      "evidence": "Using everyday tangible items or habits as hooks (e.g., phone storage, blocked lists, unpinning chats) generated stable initial traction within the self-respect category.",
-      "action": "Maintain the use of specific, tactile, everyday observations as hooks for emotional storytelling."
+      "pattern": "Morning/Midday upload windows (04:00 - 08:00 UTC)",
+      "evidence": "Top performing shorts (284 views, 216 views, 169 views) were published between 04:00 UTC and 08:00 UTC.",
+      "action": "Schedule uploads within the 04:00 to 08:00 UTC window for better initial traction."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Over-saturated Digital Breakup Tropes",
-      "evidence": "Micro-niche phone settings (like changing wallpapers, cloud storage deletion, read receipts) have plateaued in view counts (often under 20 views), indicating audience fatigue for repetitive digital-detachment scenarios.",
-      "action": "Reduce reliance on ultra-specific smartphone UI removal tropes and expand into deeper real-world emotional spaces."
+      "pattern": "Over-indexed phone-UI digital cleanup tropes ('self respect' via gallery, keyboard, unpinning chat)",
+      "evidence": "15+ videos with hooks focused on deleting chats, gallery photos, and keyboard names consistently stalled under 40 views.",
+      "action": "Pause the digital UI micro-cleanup trope and test physical, real-world emotional moments instead."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Nostalgia and regret of growing up",
-    "hook_style": "Tactile real-life object observation",
+    "emotion": "nostalgia and warmth",
+    "hook_style": "relatable daily habit observation",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Finding an old childhood school notebook or drawing where your parents' handwriting is scribbled on the margins, realizing how much they sacrificed silently.",
-    "opening_direction": "पुरानी किताबें समेटते वक्त जब बचपन की वो कॉपी हाथ आई,",
-    "twist_direction": "पन्नों के बीच मां के हाथ की लिखी वो सूची नहीं, बल्कि पापा का वो साइन दिखा जो उन्होंने चुपचाप हर रिपोर्ट कार्ड पर किया था — बिना थके, बिना शिकायत।",
-    "duration_seconds": 12,
-    "posting_window": "08:00 AM - 09:00 AM",
-    "reason": "Tests the proven high-performing family/relationships emotional theme while utilizing our successful tactile real-life object hook style, aiming to replicate the high view counts of the recent family content."
+    "concept": "A middle-class home morning ritual revealing a quiet sacrifice between siblings or family members.",
+    "opening_direction": "Show two teacups on a porch table with one left untouched beside an unread newspaper.",
+    "twist_direction": "Reveal that the person kept making the second cup out of habit, but today they finally dialed the number.",
+    "duration_seconds": 15,
+    "posting_window": "08:00 UTC",
+    "reason": "Leverages the strong signal from the top-performing 'रिश्ते' video (284 views) while retaining a quiet, emotionally resonant tone that fits Dil Ki Diary."
   },
-  "experiment": "Testing if combining a tactile everyday object hook (school notebook) with a high-performing family emotional theme yields higher engagement than phone-ui self-respect shorts.",
-  "updated_at": "2026-09-28T02:42:01.493011+00:00",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-28T02:42:05.040533+00:00"
+  "experiment": "Testing if real-world sensory details (tea, physical spaces) perform better than phone/digital UI tropes within the high-performing 'रिश्ते' category.",
+  "updated_at": "2026-09-28T03:43:23.333911+00:00",
+  "model_used": "gemini-3.6-flash",
+  "generated_at": "2026-09-28T03:43:31.852946+00:00"
 }
