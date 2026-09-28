@@ -1,45 +1,29 @@
 {
-  "confidence": "65%",
+  "confidence": "45%",
   "data_points": 37,
-  "overall_summary": "Core relationship and self-respect content (like unpinning chats or deleting memories) perform moderately, but family-focused and universal emotional life lessons (Maa, Papa, calling loved ones) have significantly outperformed romantic heartache in views and engagement, signaling a massive pivot opportunity toward broader emotional storytelling.",
+  "overall_summary": "Current leader: आज किसी अपने को Call कर लेना ❤️ | रिश्ते खत्म नहीं होते, बात बंद हो जाती है | Hindi Shorts with 285 views; sample size is still small, so this is directional.",
   "winning_patterns": [
     {
-      "pattern": "Universal Family and Relationship Nostalgia",
-      "evidence": "Videos about parents, siblings, and calling loved ones (e.g., 'आज किसी अपने को Call कर लेना' with 286 views, and 'माँ जब पूछती है' with 216 views) heavily outperformed niche romantic heartache shorts.",
-      "action": "Incorporate broader emotional relationship dynamics and family bonds alongside core romantic self-respect themes."
-    },
-    {
-      "pattern": "Tactile Digital Breakup/Self-Respect Micro-Moments",
-      "evidence": "Early self-respect posts focused on specific digital actions like archive folders (23 views) and keyboards (20 views) drove steady baseline traffic.",
-      "action": "Maintain high-specificity micro-actions when returning to digital breakup/self-respect themes."
+      "pattern": "Highest observed views",
+      "evidence": "285 views on current leader",
+      "action": "Test a related emotional situation without copying the wording."
     }
   ],
-  "weak_patterns": [
-    {
-      "pattern": "Generic Romantic Sadness without Actionable Hooks",
-      "evidence": "Abstract late-night or one-sided love concepts like 'रात के ख्याल और अधूरा इंतजार' dropped to single-digit views (6 views).",
-      "action": "Avoid vague, abstract heartbreak tropes; ground every emotional concept in a concrete, relatable daily object or interaction."
-    },
-    {
-      "pattern": "Over-saturated Self-Respect Formats",
-      "evidence": "Recent repetitive daily iterations of removing profile tags and status list checks (e.g., 0-4 views) suffered from diminishing returns.",
-      "action": "Avoid repeating identical digital boundary-setting tropes back-to-back."
-    }
-  ],
+  "weak_patterns": [],
   "next_video": {
-    "topic": "रिश्ते",
-    "emotion": "Nostalgia and Regret",
-    "hook_style": "Real-life physical object trigger",
+    "topic": "अधूरी मोहब्बत",
+    "emotion": "regret",
+    "hook_style": "curiosity",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Finding an old handwritten school letter or greeting card tucked away inside an old book, realizing how much simpler connections used to be compared to today's read receipts.",
-    "opening_direction": "जब अलमारी साफ करते हुए वो पुरानी डायरी हाथ लगी,",
-    "twist_direction": "पन्ने पलटे तो याद आया, तब जवाब पाने के लिए हफ्तों इंतजार होता था, पर आज सब कुछ सामने होकर भी बीच में एक खामोश पर्दा है।",
-    "duration_seconds": 12,
-    "posting_window": "08:00 AM - 09:00 AM",
-    "reason": "Tests a bridge between the high-performing universal relationship nostalgia pattern and the brand's core diary aesthetic."
+    "concept": "A familiar chat or notification reveals that the relationship has quietly changed.",
+    "opening_direction": "Start with one concrete digital-life detail.",
+    "twist_direction": "Reveal the emotional meaning in the final line.",
+    "duration_seconds": 10,
+    "posting_window": "7:00 PM IST test",
+    "reason": "Controlled baseline while more performance data accumulates."
   },
-  "experiment": "Testing if shifting from digital-only breakup micro-moments to physical item nostalgia retains the higher view velocity seen in family/universal emotional shorts.",
-  "updated_at": "2026-09-28T18:45:22.156715+00:00",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-28T18:45:25.485816+00:00"
+  "experiment": "Test a fresh hook around a concrete digital-life moment.",
+  "updated_at": "2026-09-28T19:42:23.665719+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-28T19:42:23.665735+00:00"
 }
