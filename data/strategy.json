@@ -1,40 +1,35 @@
 {
-  "confidence": "65%",
+  "confidence": "85%",
   "data_points": 37,
-  "overall_summary": "The channel primarily experiments with niche romantic 'self respect' tech-action hooks (deleting chats, clearing storage) which pull modest views (10-40 views). However, unexpected outlier experiments featuring pure family/universal emotional bonds (Maa, Papa, calling family, self-motivation) outperformed standard relationship content by 3x to 7x in views and engagement, notably 'आज किसी अपने को Call कर लेना' hitting 284 views and 'माँ जब पूछती है' hitting 216 views.",
+  "overall_summary": "The channel shows a clear pivot: 'Self Respect' niche content (the original focus) is currently underperforming with low engagement, while 'Family/Relatable Life Lessons' content (the recent pivot) is significantly outperforming, reaching 200+ views. The audience prefers warm, universal emotional connections over the repetitive 'digital breakup' trope.",
   "winning_patterns": [
     {
-      "pattern": "Universal Family & Support System Bonding",
-      "evidence": "Videos focusing on parents, siblings, and family check-ins (e.g., 'आज किसी अपने को Call कर लेना' with 284 views, 'माँ जब पूछती है' with 216 views) drastically outperform niche romantic heartbreaks.",
-      "action": "Incorporate broader familial emotional security and unsaid gratitude into the core content mix alongside romantic self-respect."
-    },
-    {
-      "pattern": "Direct, Action-Oriented Advice",
-      "evidence": "Actionable emotional takeaways like 'तुम थके हो… हारे नहीं' (169 views) perform better than abstract heartbreak lamentations.",
-      "action": "Frame emotional narratives around actionable psychological relief rather than passive suffering."
+      "pattern": "Family-centric emotional storytelling",
+      "evidence": "Videos about Mom, Dad, and general life lessons (e.g., 'Maa', 'Papa', 'Call your loved ones') consistently hit 100-280 views.",
+      "action": "Shift focus from 'digital breakup' themes to 'universal human connection' themes."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Over-saturated Digital Breakup Tropes",
-      "evidence": "Repeating micro-scenarios like clearing archive folders, deleting cloud storage, or unpinning chats ('Jab Purani Yaadein Delete Ki', 'Jab Usska Special Ringtone Default Kiya') yields low, stagnant views (3-20 views) and zero likes/comments.",
-      "action": "Reduce hyper-specific digital interface heartbreak stories; pivot towards broader emotional realizations."
+      "pattern": "Digital breakup/Self-respect technical tropes",
+      "evidence": "Videos focusing on 'deleting chats', 'blocking numbers', or 'hiding status' have dropped to single-digit views.",
+      "action": "Stop producing content centered on specific smartphone UI actions."
     }
   ],
   "next_video": {
-    "topic": "रिश्ते",
-    "emotion": "nostalgia and realization",
-    "hook_style": "Real-life observational moment about old belongings",
+    "topic": "रिश्ते (Relationships)",
+    "emotion": "Nostalgia and Gratitude",
+    "hook_style": "Direct address to a universal feeling",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A story about finding an old childhood school notebook or drawing gifted by a sibling or parent, realizing how much they sacrificed silently while we were busy growing up.",
-    "opening_direction": "अलमारी साफ करते वक्त बचपन की वो पुरानी ड्राइंग मिल गई जो भाई ने अपनी जेब खर्च बचाकर दिलाई थी।",
-    "twist_direction": "तब वो कागज का टुकड़ा बेमतलब लगता था, आज समझ आया कि दुनिया की सबसे महंगी दौलत वही बेपरवाह प्यार था।",
+    "concept": "The unspoken effort of a friend who stays even when you are silent.",
+    "opening_direction": "Start with the feeling of being ignored by the world, but one person still checking in.",
+    "twist_direction": "Reveal that the most valuable relationship isn't the one you lost, but the one you forgot to nurture.",
     "duration_seconds": 35,
-    "posting_window": "08:00 AM - 09:00 AM",
-    "reason": "Tests the high-performing family/relationships emotional cluster discovered in recent experiments while maintaining the channel's signature reflective tone."
+    "posting_window": "08:00 AM - 09:00 AM IST",
+    "reason": "Matches the high-performing window of the 'Maa' and 'Call your loved ones' videos which gained the most traction."
   },
-  "experiment": "Testing if blending the proven high-engagement family/sibling emotional theme with a tactile, physical object realization (old notebook/drawing) beats digital breakup tropes.",
-  "updated_at": "2026-09-28T11:43:34.604797+00:00",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-28T11:44:26.058595+00:00"
+  "experiment": "Testing if the 'Family/Life Lesson' success is due to the 'Heart-warming' tone or the 'Call to Action' (e.g., 'Call your loved ones').",
+  "updated_at": "2026-09-28T12:48:59.338242+00:00",
+  "model_used": "gemini-3.1-flash-lite",
+  "generated_at": "2026-09-28T12:49:11.574146+00:00"
 }
