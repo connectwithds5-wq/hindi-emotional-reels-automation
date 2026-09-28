@@ -1,29 +1,35 @@
 {
-  "confidence": "45%",
+  "confidence": "85%",
   "data_points": 37,
-  "overall_summary": "Current leader: आज किसी अपने को Call कर लेना ❤️ | रिश्ते खत्म नहीं होते, बात बंद हो जाती है | Hindi Shorts with 284 views; sample size is still small, so this is directional.",
+  "overall_summary": "The channel shows a clear shift in performance: niche 'Self Respect' digital-minimalism content (deleting chats, blocking) has low engagement (avg 10-20 views), while 'Family/Relational Emotional' content (parents, siblings, life lessons) is significantly outperforming, reaching up to 284 views.",
   "winning_patterns": [
     {
-      "pattern": "Highest observed views",
-      "evidence": "284 views on current leader",
-      "action": "Test a related emotional situation without copying the wording."
+      "pattern": "Family-centric emotional storytelling",
+      "evidence": "Videos about Maa, Papa, and Bhai consistently hit 100-284 views compared to the <40 views for digital-self-respect content.",
+      "action": "Pivot the channel focus toward universal emotional bonds and life lessons while maintaining the 'Dil Ki Diary' intimate tone."
     }
   ],
-  "weak_patterns": [],
+  "weak_patterns": [
+    {
+      "pattern": "Digital-minimalism/Self-respect technical tropes",
+      "evidence": "Videos focusing on 'deleting chats', 'hiding last seen', or 'clearing storage' have reached a saturation point and show declining interest.",
+      "action": "Stop producing content centered solely on phone settings/digital cleanup."
+    }
+  ],
   "next_video": {
-    "topic": "अधूरी मोहब्बत",
-    "emotion": "regret",
-    "hook_style": "curiosity",
+    "topic": "रिश्ते",
+    "emotion": "Nostalgia and Gratitude",
+    "hook_style": "Direct address to a universal feeling",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A familiar chat or notification reveals that the relationship has quietly changed.",
-    "opening_direction": "Start with one concrete digital-life detail.",
-    "twist_direction": "Reveal the emotional meaning in the final line.",
-    "duration_seconds": 10,
-    "posting_window": "7:00 PM IST test",
-    "reason": "Controlled baseline while more performance data accumulates."
+    "concept": "The realization that we stop sharing small details of our day with our parents as we grow up.",
+    "opening_direction": "Start with the habit of calling someone else first instead of home.",
+    "twist_direction": "The realization that the person waiting for that call is just sitting in the living room, waiting for a 'how was your day' that never comes.",
+    "duration_seconds": 15,
+    "posting_window": "08:00 AM IST",
+    "reason": "Matches the high-performing window of the 'Call someone' video (284 views) and taps into the proven family-emotional niche."
   },
-  "experiment": "Test a fresh hook around a concrete digital-life moment.",
-  "updated_at": "2026-09-28T14:44:05.022977+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-28T14:44:05.022994+00:00"
+  "experiment": "Testing if the 'Family/Relational' success is due to the topic (Family) or the tone (Direct/Conversational).",
+  "updated_at": "2026-09-28T15:43:08.535347+00:00",
+  "model_used": "gemini-3.1-flash-lite",
+  "generated_at": "2026-09-28T15:43:25.061038+00:00"
 }
