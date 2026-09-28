@@ -1,45 +1,40 @@
 {
-  "confidence": "65%",
+  "confidence": "85%",
   "data_points": 36,
-  "overall_summary": "The channel 'Dil Ki Diary' explores heartbreak, self-respect, and family emotions through short, narrative-driven videos. While niche heartbreak and digital self-respect content gets modest views (10-40 views), recent family emotional shorts (Maa, Papa, Bhai, and general life motivation) vastly outperformed standard romantic content, peaking with 284 views on family/relationship check-ins. However, since the core identity of the channel is emotional diary entries, we must blend relatable relationship/self-respect struggles with universal family or human validation.",
+  "overall_summary": "Data shows clear audience preference for family-centric emotional bonds (Maa, Papa, Bhai) and universal relationship realities over niche self-respect phone settings, while core self-respect hooks still hold moderate repeatable traffic.",
   "winning_patterns": [
     {
-      "pattern": "Universal Family & Emotional Check-ins",
-      "evidence": "Videos about Maa (216 views), Papa (135 views), and calling someone you lost touch with (284 views) heavily outperformed niche digital heartbreak shorts.",
-      "action": "Incorporate broader emotional themes about unspoken words to family or old friends instead of overly narrow phone-screen settings."
+      "pattern": "Family emotional bonds & universal relationships",
+      "evidence": "Videos about Mother (216 views), Father (135 views), and stopping a silence between loved ones (284 views) vastly outperformed niche self-respect clips.",
+      "action": "Incorporate broader family and life relationship dynamics into the core content mix."
     },
     {
-      "pattern": "Tactile, Real-Life Digital Triggers",
-      "evidence": "Videos like 'चैट डिलीट करने की हिम्मत' (41 views) and pinning chats performed better when tied to visceral digital habits.",
-      "action": "Continue using concrete, everyday smartphone actions as a grounding mechanism for emotional storytelling."
+      "pattern": "Actionable daily life regret hooks",
+      "evidence": "Videos focusing on real-life moments like calling a loved one (rl_ycNbXZ_g, 284 views) or internal fatigue motivation (JPf_3ebfnuk, 169 views) drive higher engagement.",
+      "action": "Use prompts that reflect everyday emotional missed opportunities or silent regret."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Overly Niche Digital Settings",
-      "evidence": "Extremely specific digital actions like changing ringtones (3 views) or removing profile pictures from obscure streaming apps (0 views) had near-zero engagement.",
-      "action": "Avoid hyper-niche UI/app references; stick to universally understood moments like WhatsApp chats, phone logs, or daily life habits."
-    },
-    {
-      "pattern": "Repetitive Opening Hooks",
-      "evidence": "Multiple videos starting with 'जब फोन के...' or 'जब...' suffered from fatigue and low initial retention.",
-      "action": "Vary sentence structures in the opening hook; avoid starting every single video with the word 'जब'."
+      "pattern": "Over-niche digital/phone settings self-respect hooks",
+      "evidence": "Videos like changing ringtones (3 views) or removing profile from streaming accounts (0 views) suffered from extreme niche fatigue and low viewer retention.",
+      "action": "Steer away from micro-digital UI actions and shift to broader interpersonal emotional situations."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Nostalgia and unspoken regret",
-    "hook_style": "Observation of everyday objects that hold memories",
+    "emotion": "अधूरी यादें और खामोशी",
+    "hook_style": "Real-life moment with silent realization",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A story about finding an old diary or notebook where a half-written letter to someone who left years ago was forgotten, realizing that some feelings stay on paper forever.",
-    "opening_direction": "डায়েরरी के उस पुराने पन्ने पर धूल जम गई थी,",
-    "twist_direction": "जिसे कभी किसी को भेजना था, आज वो सिर्फ खुद के लिए एक खूबसूरत सबक बन गया।",
-    "duration_seconds": 15,
+    "concept": "A realization while looking at an old family album or childhood photo where someone who was always close drifted away silently over time.",
+    "opening_direction": "जब बचपन की एल्बम में उस शख्स की तस्वीर मिली जो कभी हर बात जानता था,",
+    "twist_direction": "अब हाल यह है कि उसका नंबर तो फोन में है, पर हाल जानने का हक नहीं बचा।",
+    "duration_seconds": 12,
     "posting_window": "08:00 AM - 09:00 AM",
-    "reason": "Morning and early day posting windows in past data (like the successful Maa and family shorts) performed exceptionally well, capturing viewers during their reflective morning routines."
+    "reason": "Matches the proven high-performing morning window for relationship/family emotional content (e.g., rl_ycNbXZ_g published at 08:01 AM)."
   },
-  "experiment": "Testing a shift from hyper-niche phone UI actions to a broader, tactile real-life object (an old notebook/diary) while maintaining the core emotional diary format.",
-  "updated_at": "2026-09-28T00:46:37.895729+00:00",
+  "experiment": "Testing if expanding from niche digital self-respect hooks to broader interpersonal relationship nostalgia retains the high view counts of family-centric shorts.",
+  "updated_at": "2026-09-28T01:40:39.418699+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-28T00:46:42.220819+00:00"
+  "generated_at": "2026-09-28T01:40:46.846227+00:00"
 }
