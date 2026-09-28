@@ -1,35 +1,35 @@
 {
-  "confidence": "45%",
+  "confidence": "65%",
   "data_points": 37,
-  "overall_summary": "Core emotional relationship and self-respect content averages lower views (typically under 45 views), while family-oriented emotional hooks (Maa, Papa, Bhai) and universal life reassurance (Self Motivation, 'Call your loved ones') significantly outperform them, hitting 100 to 286 views.",
+  "overall_summary": "Family emotional connections and universal relationship reminders (e.g., calling loved ones, parental sacrifices) significantly outperform niche heartbreak or deep self-respect status videos in absolute views and engagement. However, core self-respect digital boundary themes have a steady baseline.",
   "winning_patterns": [
     {
-      "pattern": "Family and universal emotional bonds",
-      "evidence": "Videos about Maa (216 views), Papa (136 views), and calling a loved one (286 views) drastically outperform niche heartbreak/self-respect content.",
-      "action": "Pivot the core narrative slightly toward broader emotional life lessons and family relationships while retaining the diary/journal tone."
+      "pattern": "Universal Family & Relationship Bonds",
+      "evidence": "Videos about parents, siblings, and calling loved ones (e.g., 'आज किसी अपने को Call कर लेना' with 286 views, and 'माँ जब पूछती है' with 216 views) heavily outperform romantic heartbreak clips.",
+      "action": "Pivot a portion of the content strategy toward universal relationship and family emotional dynamics while retaining the core emotional tone."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Overly specific micro-digital actions for self-respect",
-      "evidence": "Videos like un-pinning chats, removing emergency contacts, or deleting widgets got very low views (0 to 20 views).",
-      "action": "Avoid hyper-niche digital cleanup hooks as they suffer from diminishing returns and lower search/browse interest."
+      "pattern": "Niche Digital Self-Respect Micro-Actions",
+      "evidence": "Extremely specific digital actions like removing profiles from streaming apps or changing specific widgets (e.g., cuKSS0gHyt0 with 0 views) suffer from low reach.",
+      "action": "Broaden the hooks away from hyper-specific tech actions to wider emotional realizations about distance and communication."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
     "emotion": "Nostalgia and regret",
-    "hook_style": "Real-life observation",
+    "hook_style": "Observation about unspoken distances between close friends or family",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization about childhood friends who slowly became strangers over time, discovered through an old group photo.",
-    "opening_direction": "जब फोन की गैलरी स्क्रॉल करते हुए स्कूल के दिनों का वो ग्रुप फोटो दिखा,",
-    "twist_direction": "तब समझ आया कि शहर बदलने से लोग नहीं बदलते, रास्ते अलग हो जाते हैं।",
-    "duration_seconds": 15,
-    "posting_window": "08:00 AM - 09:00 AM",
-    "reason": "Matches the proven morning performance window of high-performing emotional relationship shorts like the 'Call your loved ones' video (286 views)."
+    "concept": "A story about finding an old group chat where everyone was active, realizing how silence grew naturally without any fights.",
+    "opening_direction": "जब उस पुराने स्कूल ग्रुप पर अचानक एक नोटिफिकेशन बजा,",
+    "twist_direction": "लड़ाई एक से भी नहीं हुई, बस सब अपनी जिंदगी में इतने व्यस्त हो गए कि कोई पास होकर भी पास नहीं रहा।",
+    "duration_seconds": 12,
+    "posting_window": "08:00 AM - 09:00 AM IST",
+    "reason": "Matches the highest performing upload timing pattern and leverages the proven 'रिश्ते' and emotional distance theme."
   },
-  "experiment": "Testing if broadening 'self-respect/breakup' content to wider 'lost relationship/friendship' themes bridges the gap between low-performing niche digital hooks and high-performing emotional life reminders.",
-  "updated_at": "2026-09-28T21:40:35.662694+00:00",
+  "experiment": "Testing whether broadening relationship themes from romantic heartbreak to broader social/friendship distance yields higher view velocity.",
+  "updated_at": "2026-09-28T22:39:34.276606+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-28T21:40:57.808857+00:00"
+  "generated_at": "2026-09-28T22:39:45.476942+00:00"
 }
