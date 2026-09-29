@@ -1,40 +1,35 @@
 {
-  "confidence": "65%",
+  "confidence": "70%",
   "data_points": 37,
-  "overall_summary": "Data shows that while the core niche ('self respect' and digital/phone-based heartbreaks like deleting chats) forms a baseline, recent experiments outside the core niche (family emotional shorts like Maa, Papa, and general relationships like rl_ycNbXZ_g with 286 views) significantly outperformed standard romance content. However, the channel identity is 'Dil Ki Diary'. We must balance the repeatable family/relationship emotional resonance with the core self-respect/digital-detachment theme.",
+  "overall_summary": "Core romantic/self-respect heartbreak content (e.g., chats, keyboards, blocking) underperformed consistently with low double-digit views, whereas recent exploratory family and universal relational videos (Maa, Papa, calling loved ones) dramatically outperformed them, reaching 100-286 views.",
   "winning_patterns": [
     {
-      "pattern": "Broad Relatable Emotional Bond / Family & Relationships",
-      "evidence": "Shorts like 'आज किसी अपने को Call कर लेना' (286 views) and 'माँ जब पूछती है खाना खाया' (216 views) heavily outperformed niche breakup hooks.",
-      "action": "Blend broader relationship dynamics (familial or close bonds) with the signature emotional storytelling style of the channel."
-    },
-    {
-      "pattern": "Tangible Digital/Real-Life Artifacts as Hooks",
-      "evidence": "Hooks mentioning concrete actions like checking last seen, unpinning chats, or removing photos (e.g., AfaLxMy6FMY, rwOUYo_hayQ) performed decently within the self-respect category.",
-      "action": "Use specific, tactile everyday objects or digital actions to anchor the emotional narrative."
+      "pattern": "Universal Relational & Family Emotional Content",
+      "evidence": "Videos about parents, siblings, and calling close ones (e.g., Maa, Papa, rl_ycNbXZ_g) pulled 136 to 286 views, compared to romantic self-respect shorts which capped around 40 views.",
+      "action": "Blend the signature modern emotional tone of 'Dil Ki Diary' with broader family/relational dynamics rather than strictly romantic heartbreak."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Overly Niche / Repetitive Breakup Mechanics",
-      "evidence": "Recent self-respect posts like HMyw6blmGOc and cuKSS0gHyt0 got near-zero views as the specific micro-actions (unfollowing, removing from a streaming profile) became too repetitive.",
-      "action": "Move away from hyper-specific social media settings (like unfollowing or removing list items) for a while and focus on broader emotional real-life realizations."
+      "pattern": "Repetitive Digital Heartbreak & Phone Deletion Tropes",
+      "evidence": "Multiple consecutive shorts focused on deleting chats, clearing storage, removing pinned chats, or typing/deleting texts generated minimal engagement (views mostly under 25, many zero likes).",
+      "action": "Pause the over-reliance on digital/chat-deletion hooks as the audience is fatigued by this specific sub-niche."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Nostalgia and realization",
-    "hook_style": "Real-life physical item trigger",
+    "emotion": "Nostalgia and regret",
+    "hook_style": "Real-life observation about fading childhood friendships",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Finding an old handwritten letter or a forgotten greeting card inside an old book, remembering how much effort relationships used to take compared to modern instant messages.",
-    "opening_direction": "किताब के पन्नों के बीच दबा हुआ पुराना सूखा गुलाब मिला।",
-    "twist_direction": "मैसेज तो एक सेकंड में डिलीट हो जाते हैं, पर कागज़ पर उकेरी गई भावनाएं उम्र भर पीछा नहीं छोड़तीं।",
-    "duration_seconds": 12,
-    "posting_window": "08:00 AM - 10:00 AM",
-    "reason": "Tests if combining the high-performing broader 'रिश्ते' (relationships) theme with a tangible, non-digital artifact (like an old book/letter) can capture the high engagement seen in the family/relationship category while staying true to the emotional core."
+    "concept": "A realization about finding an old school tiffin box or childhood item and remembering a best friend who is now just a contact name on a screen.",
+    "opening_direction": "बचपन के बक्से में आज वो पुरानी पानी की बोतल मिल गई,",
+    "twist_direction": "जिस दोस्त के साथ रोज़ शेयर करते थे, आज उसका नंबर तक सिर्फ स्टेटस देखने के लिए बचा है।",
+    "duration_seconds": 15,
+    "posting_window": "08:00 AM - 09:00 AM",
+    "reason": "Tests the winning broader relational pattern (similar to the high-performing family/connection videos) while retaining the channel's signature emotional depth."
   },
-  "experiment": "Testing a non-digital, physical nostalgia artifact ('old book and letter') under the 'रिश्ते' topic to see if it outperforms digital-detachment hooks.",
-  "updated_at": "2026-09-29T00:46:20.679961+00:00",
+  "experiment": "Testing if shifting the emotional focus from romantic breakup/digital-deletion to broader lost friendships (relational topic) captures the higher viewership seen on the family/connection shorts.",
+  "updated_at": "2026-09-29T01:40:44.646903+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-29T00:46:24.208097+00:00"
+  "generated_at": "2026-09-29T01:40:47.911044+00:00"
 }
