@@ -1,29 +1,40 @@
 {
-  "confidence": "45%",
+  "confidence": "85%",
   "data_points": 38,
-  "overall_summary": "Current leader: पत्नी की ये बात हर पति को समझनी चाहिए ❤️ | Wife Emotional Video | Husband Wife | Hindi Shorts with 1401 views; sample size is still small, so this is directional.",
+  "overall_summary": "Family emotional dynamics and deep relational bonding content (such as wife/husband understanding, parents, and self-motivation) vastly outperform niche digital breakup tropes like blocking or clearing phone storage. The audience engages deeply with grounded, real-life emotional realizations over repetitive smartphone UI metaphors.",
   "winning_patterns": [
     {
-      "pattern": "Highest observed views",
-      "evidence": "1401 views on current leader",
-      "action": "Test a related emotional situation without copying the wording."
+      "pattern": "Family and Relational Bonding Dynamics",
+      "evidence": "Videos focusing on family relationships (e.g., Wife emotional video: 1402 views, Call someone you love: 287 views, Father love: 137 views) achieve exponentially higher views and likes compared to digital breakup states.",
+      "action": "Pivot focus toward broader interpersonal relationships, family emotional touchpoints, and universal life lessons while retaining the empathetic tone of 'Dil Ki Diary'."
+    },
+    {
+      "pattern": "Direct Relatable Life Advice / Soft Motivation",
+      "evidence": "Self motivation life lesson short ('तुम थके हो… हारे नहीं') received 170 views, proving that uplifting emotional clarity performs better than purely depressive or defeatist loops.",
+      "action": "Incorporate a subtle transition from sorrow to quiet inner strength or emotional maturity in the narrative arc."
     }
   ],
-  "weak_patterns": [],
+  "weak_patterns": [
+    {
+      "pattern": "Overused Smartphone/Digital UI Breakup Tropes",
+      "evidence": "Repeated use of hooks involving blocking numbers, deleting chats, turning off read receipts, or changing wallpapers resulted in consistently low view counts (ranging from 0 to 32 views).",
+      "action": "Abandon repetitive digital UI metaphors (deleting chats, changing ringtones, checking last seen) as the primary hook mechanism."
+    }
+  ],
   "next_video": {
-    "topic": "अधूरी मोहब्बत",
-    "emotion": "regret",
-    "hook_style": "curiosity",
+    "topic": "रिश्ते",
+    "emotion": "nostalgia and realization",
+    "hook_style": "observational daily life moment",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A familiar chat or notification reveals that the relationship has quietly changed.",
-    "opening_direction": "Start with one concrete digital-life detail.",
-    "twist_direction": "Reveal the emotional meaning in the final line.",
-    "duration_seconds": 10,
-    "posting_window": "7:00 PM IST test",
-    "reason": "Controlled baseline while more performance data accumulates."
+    "concept": "A realization about how childhood friends slowly become strangers who only like each other's social media updates, and the silent weight of unsaid words.",
+    "opening_direction": "School uniform hanging on an old hook, or an old group photo gathering dust on a shelf.",
+    "twist_direction": "Realizing that while everyone is busy chasing success in different cities, the group chat hasn't pinged in months—not because of fights, but because life simply happened.",
+    "duration_seconds": 12,
+    "posting_window": "07:00 AM - 09:00 AM",
+    "reason": "Aligns with the proven high-performing morning/early day upload slots for emotional relationship content (similar to top-performing family and life lesson shorts)."
   },
-  "experiment": "Test a fresh hook around a concrete digital-life moment.",
-  "updated_at": "2026-09-29T16:44:10.868397+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-29T16:44:10.868411+00:00"
+  "experiment": "Testing if expanding from niche breakup tropes to broader relatable life/friendship drifting captures the high-view velocity seen in family/relationship emotional shorts.",
+  "updated_at": "2026-09-29T17:42:10.463560+00:00",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-09-29T17:42:14.232864+00:00"
 }
