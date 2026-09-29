@@ -1,35 +1,45 @@
 {
   "confidence": "65%",
   "data_points": 37,
-  "overall_summary": "Initial tests across standard channel topics like self-respect and overthinking yielded very low viewership (under 50 views). However, a pivot toward universal family/relationship bonds (Maa, Papa, Bhai, and 'call someone you love') produced a significant spike, reaching up to 286 views. This indicates that while the brand identity is 'Dil Ki Diary' (emotional/sad), broadening the scope to universal human relationships vastly outperforms micro-niche digital heartbreak tropes.",
+  "overall_summary": "The channel 'Dil Ki Diary' shows clear audience preference spikes toward relatable family dynamics (Mother, Father, Self-Motivation) and specific digital-age heartbreak scenarios like 'Self Respect' (deleting chats, archiving folders). Pure romantic heartbreak and overthinking videos underperformed compared to family emotional hooks and universal life lessons.",
   "winning_patterns": [
     {
-      "pattern": "Universal Family & Close Relationship Bonds",
-      "evidence": "Videos about Mother, Father, Brother, and calling loved ones (e.g., rl_ycNbXZ_g, OfHrAp3r1G8, v8krtdmxbPs) achieved 100-286 views, heavily outperforming digital-detox self-respect shorts.",
-      "action": "Incorporate broader relationship dynamics (family ties, unspoken apologies to friends/siblings) rather than solely focusing on phone/chat deletions."
+      "pattern": "Universal Family & Life Relationship Themes",
+      "evidence": "Videos about parents and simple life advice (e.g., 'Aaj kisi apne ko call kar लेना' with 286 views, 'Maa' with 216 views, 'Papa' with 136 views) significantly outperformed niche heartbreak posts.",
+      "action": "Incorporate broader relationship bonds (friendships, sibling advice, or everyday human connections) alongside the core self-respect and diary themes."
+    },
+    {
+      "pattern": "Tangible Digital Micro-Moments for Self-Respect",
+      "evidence": "Specific phone interaction hooks like 'चैट डिलीट करने की हिम्मत' (41 views) and 'आर्काइव फोल्डर पर नजर पड़ी' (23 views) performed better than abstract emotional poetry.",
+      "action": "Continue anchoring self-respect concepts to concrete, everyday smartphone actions."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Overly Niche Digital-Detox Self-Respect Tropes",
-      "evidence": "Shorts centered around blocking numbers, removing widgets, or clearing cloud storage (e.g., cuKSS0gHyt0, 6KVEZc22kS8) stalled at 0-2 views.",
-      "action": "Avoid hyper-specific, repetitive phone-cleaning hooks. Shift toward psychological and emotional realities of human connection."
+      "pattern": "Abstract Overthinking & Late Night Tropes without Specifics",
+      "evidence": "Videos like 'रात के ख्याल और अधूरा इंतजार' (6 views) and generic overthinking posts scored very low.",
+      "action": "Avoid generic late-night or tea-drinking tropes unless tied to an immediate, specific physical action or realization."
+    },
+    {
+      "pattern": "Overly Dramatic Bewafai/Sadness Poetry",
+      "evidence": "Generic titles and captions focusing purely on pain without an empowered self-respect or relational realization failed to gain traction.",
+      "action": "Shift tone from passive suffering to empowering closure and quiet emotional strength."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Nostalgia and Regret",
-    "hook_style": "Relatable everyday realization about childhood or old friendships",
+    "emotion": "Nostalgia and regret turned into warm reconnection",
+    "hook_style": "Real-life mundane object trigger",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization about how childhood best friends slowly turn into strangers who only wish each other 'Happy Birthday' on WhatsApp once a year.",
-    "opening_direction": "स्कूल के वो दो पक्के यार, जिनके बिना एक पीरियड भी नहीं कटता था...",
-    "twist_direction": "आज उनकी चैट लिस्ट में नीचे स्क्रॉल करते हुए सिर्फ साल में एक बार आने वाला 'Happy Birthday' मैसेज दिखता है।",
-    "duration_seconds": 15,
-    "posting_window": "08:00 AM - 09:00 AM IST",
-    "reason": "Leverages the winning high-performing pattern of universal relationship dynamics ('रिश्ते') discovered in recent high-view data, avoiding fatigued digital-detox tropes while staying true to the emotional core of Dil Ki Diary."
+    "concept": "Finding an old school tiffin box or a forgotten childhood diary page tucked inside a book, realizing how fast time flies and how we stopped talking to childhood best friends over silly ego.",
+    "opening_direction": "पुरानी स्कूल की किताब खोलते समय, पन्नों के बीच से वो सूखा हुआ गुलाब या पुराना टिकट गिर जाना।",
+    "twist_direction": "याद आया कि जिस दोस्त के साथ ये सपना देखा था, उससे अब सालभर से बात नहीं हुई... वक्त निकल जाता है, रिश्ते नहीं.",
+    "duration_seconds": 35,
+    "posting_window": "07:00 PM - 09:00 PM",
+    "reason": "Tests the high-performing family/relationship emotional zone (seen in top performers like 'Aaj kisi apne ko call kar lena') combined with a physical nostalgia trigger."
   },
-  "experiment": "Testing if broadening 'रिश्ते' from romantic heartbreak to childhood friendships can sustain the higher view counts seen in family-centric content.",
-  "updated_at": "2026-09-29T05:41:53.949309+00:00",
+  "experiment": "Testing if expanding from romantic self-respect to childhood friendship/regret nostalgia retains the high view counts seen on the family/relations emotional shorts.",
+  "updated_at": "2026-09-29T06:46:53.734974+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-29T05:41:57.164350+00:00"
+  "generated_at": "2026-09-29T06:46:57.609008+00:00"
 }
