@@ -1,35 +1,35 @@
 {
-  "confidence": "45%",
+  "confidence": "85%",
   "data_points": 38,
-  "overall_summary": "Initial tests focused on niche 'self respect' digital boundaries had low views, while a sudden pivot to broader family and relationship emotional bonds (e.g., wife, father, calling loved ones) yielded significantly higher views (up to 1.4K). However, we must not completely abandon the core romantic/self-respect identity of 'Dil Ki Diary', but rather bridge universal relationship empathy with micro-moments.",
+  "overall_summary": "Channel performance strongly indicates that broader familial and relationship dynamics (such as parent-child bonds and husband-wife emotional realities) vastly outperform hyper-niche 'self-respect smartphone deletion' loops. While core content centered on 'self respect' and 'overthinking' yielded low views (mostly under 30), family and universal relationship emotional shorts like 'wife emotional video' skyrocketed to 1,437 views. However, to stay true to the brand 'Dil Ki Diary', we should pivot toward relatable everyday relationship realities rather than narrow tech-deletion tropes.",
   "winning_patterns": [
     {
-      "pattern": "Broad Universal Relationship Bonds",
-      "evidence": "Videos about wives, fathers, and calling family members (e.g., 'or5gtaBpRVY', 'rl_ycNbXZ_g') received 287 to 1,437 views, vastly outperforming niche digital self-respect hooks.",
-      "action": "Integrate broader, highly relatable relationship dynamics into the emotional storytelling framework."
+      "pattern": "Universal Relatable Family & Partner Relationships",
+      "evidence": "Videos about wives, fathers, and reminding someone to call loved ones achieved 137 to 1,437 views compared to single-digit/double-digit views for tech-based self-respect hooks.",
+      "action": "Shift focus from niche digital break-up micro-actions to broader emotional relationship dynamics."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Overly Niche Digital Micro-Boundaries",
-      "evidence": "Recent self-respect videos focusing on obscure digital actions (like removing profile from a TV series account or specific wallpapers) garnered 0-2 views.",
-      "action": "Step back from hyper-niche app/digital settings and focus on emotional real-life domestic or interpersonal friction."
+      "pattern": "Repetitive Phone/Chat Deletion Tropes",
+      "evidence": "Consecutive videos focusing on blocking numbers, clearing storage, or muting pinned chats (e.g., video IDs cuKSS0gHyt0, 6KVEZc22kS8) stalled out at 0 to 10 views.",
+      "action": "Avoid opening hooks related to smartphone settings, widgets, or blocked numbers."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "निःशब्द प्यार और दूरियां",
-    "hook_style": "Real-life domestic observation",
+    "emotion": "नस्टैल्जिया और अकेलापन",
+    "hook_style": "Simple everyday observation",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A silent moment between an aging couple where neither says 'I love you', but small gestures speak volumes, twisting into the realization that true love isn't about grand words but staying quietly through the storm.",
-    "opening_direction": "चाय का कप बढ़ाते वक्त उसने कप पर जमी मलाई चम्मच से हटा दी...",
-    "twist_direction": "और सालों बाद भी बिना एक भी खूबसूरत बात कहे, उसने जता दिया कि परवाह कागजी वादों से बड़ी होती है।",
+    "concept": "A realization about how childhood friends become strangers over time despite living in the same city.",
+    "opening_direction": "अचानक शहर के पुराने चौराहे पर वो मिला,",
+    "twist_direction": "बातें तो बहुत लंबी हुईं, पर जाते वक्त नंबर एक्सचेंज करने की बजाय सिर्फ 'अपना ख्याल रखना' कहकर राहें जुदा हो गईं।",
     "duration_seconds": 15,
     "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Leverages the high-performing relationship/family emotional topic cluster while retaining the poetic, quiet narrative style of Dil Ki Diary."
+    "reason": "Aligns with the proven high-performing relationship/family emotional format while staying faithful to the channel's core theme of unexpressed feelings and distance."
   },
-  "experiment": "Testing if combining the winning broad relationship topic format with the signature quiet emotional tone of 'Dil Ki Diary' can retain high view counts without losing core brand identity.",
-  "updated_at": "2026-09-29T19:41:33.746764+00:00",
+  "experiment": "Testing whether broadening from digital break-ups to physical life separation and missed connections (childhood friendships) retains the high viewership seen in family/relationship shorts.",
+  "updated_at": "2026-09-29T20:42:15.029067+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-29T19:41:37.683515+00:00"
+  "generated_at": "2026-09-29T20:42:18.365947+00:00"
 }
