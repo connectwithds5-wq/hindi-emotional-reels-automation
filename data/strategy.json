@@ -1,40 +1,40 @@
 {
-  "confidence": "70%",
+  "confidence": "65%",
   "data_points": 38,
-  "overall_summary": "Core romantic/self-respect heartbreak content yielded moderate-to-low traction, whereas broad family bonds, universal relationships, and appreciation content (e.g., Mom, Dad, Wife) dramatically outperformed romance niches, hitting up to 1,000+ views. A small experiment budget should be kept for high-performing family/relationship dynamics.",
+  "overall_summary": "Family emotional dynamics (especially relationships like wife/husband and parents) dramatically outperformed niche romantic/self-respect digital heartbreak micro-stories. While the channel's core niche focuses on digital heartbreak and self-respect (like deleting chats), universal family and relationship gratitude content yielded significantly higher views and engagement.",
   "winning_patterns": [
     {
-      "pattern": "Universal family and relationship emotional bonds",
-      "evidence": "Videos about Mother (OfHrAp3r1G8 - 219 views), Father (v8krtdmxbPs - 137 views), and Wife (or5gtaBpRVY - 1062 views) massively outperformed niche self-respect/heartbreak loops.",
-      "action": "Pivot core production toward universal relationships and everyday emotional appreciation while retaining the Diary aesthetic."
+      "pattern": "Universal Family & Close Relationship Emotional Triggers",
+      "evidence": "Video 'or5gtaBpRVY' about a wife and husband hit 1080 views with 38 likes; 'OfHrAp3r1G8' about mother hit 219 views; 'rl_ycNbXZ_g' about calling a loved one hit 287 views.",
+      "action": "Pivot the core focus slightly away from overly specific digital breakup micro-tropes toward broad relational and familial emotional insights."
     },
     {
-      "pattern": "Action-oriented human truths over abstract poetic statements",
-      "evidence": "Videos addressing practical relationship realities ('रिश्ते खत्म नहीं होते, बात बंद हो जाती है' - rl_ycNbXZ_g) secured 287 views compared to single-digit views on overly abstract digital heartbreak posts.",
-      "action": "Ground hooks in tangible real-life scenarios rather than just digital UI tropes."
+      "pattern": "Concrete, Relatable Daily Life Realities",
+      "evidence": "High-performing videos leverage widely experienced universal truths rather than hyper-niche phone-screen interactions.",
+      "action": "Use recognizable everyday scenarios that evoke immediate empathy or guilt regarding neglected relationships."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Over-saturated digital/UI-centric heartbreak hooks",
-      "evidence": "Recent self-respect content focused on removing contacts, read receipts, and streaming profiles (e.g., cuKSS0gHyt0, c7epDdpUJis) yielded 0 to 6 views due to repetitive framing.",
-      "action": "Step away from hyper-specific phone setting updates and focus on broader human interactions."
+      "pattern": "Hyper-Niche Digital Heartbreak / Phone UI Tropes",
+      "evidence": "Videos centered strictly on minor phone actions like unfollowing, changing ringtones, or clearing cache (e.g., hT4EGP69mRw, LBGCloAitok, cuKSS0gHyt0) averaged under 5-10 views with zero engagement.",
+      "action": "Avoid repetitive micro-tropes about blocked numbers and app settings; broaden the emotional canvas."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Nostalgia and Regret",
-    "hook_style": "Relatable family dynamic observation",
+    "emotion": "Afsos aur Ehsaas (Regret and Realization)",
+    "hook_style": "Real-life observational statement about unspoken communication in relationships",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short emotional reflection on how childhood friends slowly become strangers who only like each other's Instagram stories, addressing the silent distance in long-term bonds.",
-    "opening_direction": "जब बचपन का वो पक्का यार सिर्फ एक 'Story View' बनकर रह जाए,",
-    "twist_direction": "मिलना तो दूर, अब तो हाल पूछने से पहले भी सोचना पड़ता है कि कहीं हम अजनबी तो नहीं बन गए।",
+    "concept": "A short emotional realization about how we spend hours typing long paragraphs to strangers or colleagues, but reply in single-word dry texts to the people who actually wait all day to hear from us.",
+    "opening_direction": "Start with the contrast of typing a long professional email or text with absolute care, compared to the reply sent home.",
+    "twist_direction": "Reveal that the person waiting for a complete sentence from you is the one whose calls you usually cut short saying 'I am busy'.",
     "duration_seconds": 15,
-    "posting_window": "07:00 PM - 08:30 PM",
-    "reason": "Capitalizes on the high-performing 'रिश्ते' and emotional bond patterns seen in family and relationship hits, bridging the gap between young audiences and universal relational drift."
+    "posting_window": "07:00 AM - 09:00 AM",
+    "reason": "Family and relationship introspection videos perform best during morning or early evening windows when viewers reflect on personal connections."
   },
-  "experiment": "Testing a transition from niche smartphone UI heartbreak to broader friendship/relationship drift to verify if the high views on family videos translate to social bonds.",
-  "updated_at": "2026-09-29T12:47:28.448780+00:00",
+  "experiment": "Testing if shifting the phone-interaction trope from romantic heartbreak to a broader family/relationship neglect angle retains the core audience while capturing the massive viewership seen in family-centric shorts.",
+  "updated_at": "2026-09-29T13:44:25.781180+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-29T12:47:31.766784+00:00"
+  "generated_at": "2026-09-29T13:44:37.699792+00:00"
 }
