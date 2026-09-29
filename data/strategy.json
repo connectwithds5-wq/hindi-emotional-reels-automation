@@ -1,40 +1,45 @@
 {
-  "confidence": "85%",
+  "confidence": "65%",
   "data_points": 37,
-  "overall_summary": "Analysis of historical performance reveals that family emotional shorts (Maa, Papa, Bhai, relationships) and self-motivation clips outperform niche 'digital self-respect' mobile-action hooks (which consistently stall at 0-40 views). The audience strongly resonates with universally relatable family dynamics and direct emotional calls-to-action.",
+  "overall_summary": "The channel 'Dil Ki Diary' primarily focuses on romantic heartbreak, self-respect, and digital distancing. While core self-respect and romantic themes yielded moderate views (20-41 views), out-of-format family and universal emotional relationship videos (like Mom, Dad, and staying connected with loved ones) performed significantly better (100-286 views). However, to stay true to the channel's core niche while testing broader emotional appeal, we must blend high-performing familial/relational empathy triggers with digital self-respect habits.",
   "winning_patterns": [
     {
-      "pattern": "Universal Family & Relational Emotion",
-      "evidence": "Videos about parents, siblings, and calling loved ones (e.g., 'Aaj kisi apne ko Call kar लेना', Maa, Papa videos) achieved the highest views on the channel (100 to 286 views), significantly outperforming niche phone settings stories.",
-      "action": "Pivot the core content focus towards family bonds, unspoken relational grief, and heartfelt life lessons while keeping the emotional diary tone."
+      "pattern": "Universal Relational Empathy / Family & Bonds",
+      "evidence": "Videos like 'आज किसी अपने को Call कर लेना' (286 views), Maa (216 views), and Papa (136 views) outperformed niche heartbreak content significantly.",
+      "action": "Integrate broader human relationship values and communication gaps into upcoming scripts."
     },
     {
-      "pattern": "Direct Emotional Call-to-Action / Life Lesson",
-      "evidence": "Videos emphasizing simple life truths or actions ('Tum thake ho... haare nahi', 'Aaj kisi apne ko call kar लेना') garnered higher engagement and viewership.",
-      "action": "Frame future video concepts around tangible, warm interpersonal actions rather than purely bitter digital break-up tropes."
+      "pattern": "Digital Boundary Setting Hooks",
+      "evidence": "Self-respect videos focusing on specific phone actions (blocking, deleting chats, muting notifications like 'ब्लू टिक्स आज छिपा दिए' - 34 views) performed best within the core heartbreak niche.",
+      "action": "Continue using hyper-specific digital micro-actions as hooks for romantic and relationship stories."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Over-niche Digital Self-Respect Tropes",
-      "evidence": "Shorts centered around specific phone UI actions (unfollowing, changing wallpapers, turning off read receipts, clearing cloud storage) consistently received very low views (0 to 41 views) and zero likes/comments.",
-      "action": "Discontinue hyper-specific digital breakup micro-actions; broaden the narrative to universal emotional spaces."
+      "pattern": "Abstract Night/Overthinking Monologues",
+      "evidence": "Videos focusing purely on abstract thoughts like 'रात के ख्याल' or generic waiting ('रात के दो बजे' - 13 views, 'मेज पर रखी चाय' - 6 views) had very low engagement.",
+      "action": "Ground every overthinking concept in a concrete physical object or digital action instead of abstract prose."
+    },
+    {
+      "pattern": "Overly Complex Platform Accounts",
+      "evidence": "The video about removing a profile from an old streaming series account (cuKSS0gHyt0) received 0 views, likely due to a clunky or overly specific hook setup.",
+      "action": "Keep hooks universally understood within 2 seconds; avoid niche app references."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Nostalgia and unspoken regret",
-    "hook_style": "Simple real-life object observation leading to an emotional realization",
+    "emotion": "Nostalgia and Regret",
+    "hook_style": "Simple real-life moment involving everyday tech and unsaid words",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Finding an old childhood diary or a forgotten handmade gift in a dusty drawer, remembering the school/college friend you drifted apart from due to ego, and realizing that holding onto silence costs more than saying sorry.",
-    "opening_direction": "Drawer kholte hi ek purana handmade greeting card haath laga...",
-    "twist_direction": "...socha message karu, par number ab inactive tha. Kuch log zindagi se nahi, sirf waqt se haar jaate hain.",
-    "duration_seconds": 35,
-    "posting_window": "18:00 - 20:00 IST",
-    "reason": "Leverages the proven high-performing 'रिश्ते' and emotional life lesson pattern while testing a physical nostalgia trigger instead of digital UI tropes during peak evening engagement hours."
+    "concept": "Finding an old voice note from a childhood friend or estranged sibling where they sounded happier, realizing how quickly we grow apart.",
+    "opening_direction": "WhatsApp voice note ki speed 2x karke sun raha tha...",
+    "twist_direction": "...par achanak aawaz 1x kardi, kyunki unki hasti hui aawaz ab sirf purane audio mein hi bachi hai.",
+    "duration_seconds": 15,
+    "posting_window": "08:00 AM - 10:00 AM",
+    "reason": "Leverages the high-performing universal relationship/communication theme (similar to the 286-view family call video) while keeping the signature digital diary style."
   },
-  "experiment": "Testing physical nostalgia and childhood friendship/relationship regret as a bridge between high-performing family content and emotional story formats.",
-  "updated_at": "2026-09-29T03:43:10.705723+00:00",
+  "experiment": "Testing if expanding from romantic heartbreak to broader relational/friendship communication triggers ('voice notes/calls') can capture the higher view velocity seen on family content.",
+  "updated_at": "2026-09-29T04:42:29.438219+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-29T03:43:14.187343+00:00"
+  "generated_at": "2026-09-29T04:42:33.202474+00:00"
 }
