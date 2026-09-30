@@ -1,40 +1,40 @@
 {
-  "confidence": "85%",
+  "confidence": "65%",
   "data_points": 39,
-  "overall_summary": "The channel 'Dil Ki Diary' saw explosive views when pivoting away from purely abstract romantic heartache into universally relatable family and relationship bonds (e.g., Mother, Father, Wife, General Relationships), with the top-performing video reaching 1,462 views on the topic of understanding a wife's perspective. In contrast, highly niche digital self-respect micro-moments (like removing widgets or chat archives) resulted in much lower traction.",
+  "overall_summary": "Core channel content focused on romantic heartbreak and self-respect gets low initial traction (0-30 views), whereas out-of-niche family and universal relationship emotional shorts (Maa, Papa, Wife, calling loved ones) dramatically outperform them, scaling up to 1400+ views. The audience responds heavily to warm familial emotional bonds and universal reconciliation themes over niche digital heartbreak loops.",
   "winning_patterns": [
     {
-      "pattern": "Broad Family & Relatable Relationship Dynamics",
-      "evidence": "Videos focusing on family members or universal relationship insights (e.g., Wife Emotional Video, Mom, Dad, Call a Loved One) massively outperformed abstract self-respect or niche chat-deleting content, peaking at 1,462 views.",
-      "action": "Pivot the core focus toward universal human bonds and emotional family/relationship realizations rather than overly specific smartphone-ui micro-habits."
+      "pattern": "Universal Family & Relationship Bonds",
+      "evidence": "Videos about parents, spouses, and calling loved ones (e.g., 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1467 views, and 'आज किसी अपने को Call कर लेना' with 288 views) vastly outperform romantic heartbreak shorts.",
+      "action": "Pivot the core content strategy to blend emotional relationship storytelling with universal family dynamics and communication gaps."
     },
     {
-      "pattern": "Direct, Real-life Emotional Hooks",
-      "evidence": "Titles addressing common unspoken family truths or daily emotional realizations instantly capture higher click-through and view velocity.",
-      "action": "Use conversational, direct hooks that touch upon everyday household or emotional realities."
+      "pattern": "Direct Relatable Life Advice / Action Call Hooks",
+      "evidence": "Titles encouraging immediate interpersonal actions ('आज किसी अपने को Call कर लेना') drive higher engagement and initial velocity.",
+      "action": "Incorporate gentle, constructive emotional calls-to-action in the titles and hooks."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Hyper-niche Digital UI Self-Respect Habits",
-      "evidence": "Shorts revolving around turning off read receipts, removing chat widgets, or clearing archive folders yielded very low views (0 to 41 views max).",
-      "action": "Discontinue or minimize hyper-specific digital-cleanup tropes unless adapted into a broader psychological context."
+      "pattern": "Over-Niche Digital Heartbreak/Blocking Loops",
+      "evidence": "Repetitive themes around deleting phone numbers, blocking lists, and chat wallpapers ('Self Respect' series) consistently underperform (0-29 views).",
+      "action": "Reduce the frequency of hyper-specific digital breakup tropes and focus on broader emotional resonance."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
     "emotion": "nostalgia and realization",
-    "hook_style": "Real-life observational statement about childhood versus adult homes",
+    "hook_style": "real-life observational detail",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short reflection on how the noise in a family home slowly turns into silence as siblings grow up and move away, making every festival or phone call bittersweet.",
-    "opening_direction": "माँ के फोन पर अब शिकायतों से ज्यादा सिर्फ एक ही सवाल होता है — 'बेटे, घर कब आ रहे हो?'",
-    "twist_direction": "तब समझ आता है कि कमरे की सजावट चाहे जितनी बदल लो, माँ के बनाए उस एक फोन कॉल की गर्माहट कभी पुरानी नहीं होती।",
+    "concept": "A short about finding an old childhood photograph in a book, remembering a childhood friend who drifted away, and realizing how distance doesn't end bonds, time just took over.",
+    "opening_direction": "किताब के पुराने पन्नों के बीच जब वो बचपन की तस्वीर मिली...",
+    "twist_direction": "...नंबर आज भी वही था, बस अब फोन मिलाने की हिम्मत नहीं होती कि शायद उधर से कोई और जवाब दे।",
     "duration_seconds": 15,
-    "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Capitalizes on the proven high-performing family/relationship emotional format that drove over 1,400 views on the channel, tapping into universal themes of home and longing."
+    "posting_window": "07:00 AM - 09:00 AM",
+    "reason": "Tests the bridge between the historical 'रिश्ते' (relationships) topic and the high-performing universal emotional storytelling style seen in recent family/bond videos."
   },
-  "experiment": "Testing whether broadening the relationship theme from romantic self-respect to core parental/family nostalgia consistently sustains the 1,000+ view threshold.",
-  "updated_at": "2026-09-30T13:42:15.845349+00:00",
+  "experiment": "Testing if applying the high-performing family/relationship storytelling format to childhood friendships can revive core channel topics like 'रिश्ते' and 'पुरानी यादें'.",
+  "updated_at": "2026-09-30T14:45:16.378443+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-30T13:42:19.925455+00:00"
+  "generated_at": "2026-09-30T14:45:29.127873+00:00"
 }
