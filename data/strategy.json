@@ -1,40 +1,35 @@
 {
   "confidence": "65%",
   "data_points": 38,
-  "overall_summary": "Initial tests with romantic heartbreak and self-respect smartphone micro-habits saw modest views (under 50), but a recent experimental shift toward broader family and relationship emotional bonding (parents, spouses) dramatically outperformed baseline, hitting up to 1.4K views. Viewers resonate much more with warm, universal relationship bonds and soft family realism than niche heartbreak tropes.",
+  "overall_summary": "The channel spans romantic heartbreak and family/relational bonds. While deep romantic heartbreak and self-respect smartphone/digital micro-habits underperformed (low double-digit views), family-centric emotional themes (especially parental and partner bonds like wife/husband dynamics) broke out significantly higher (up to 1,452 views). However, since the core brand is 'Dil Ki Diary' focused on emotional and relationship nuances, abandoning core topics entirely would shift the niche. The strategy is to blend the high-performing broader relationship/family emotional angle with the core brand narrative.",
   "winning_patterns": [
     {
-      "pattern": "Universal Family & Close Relationship Bonding",
-      "evidence": "Videos focusing on parents, spouses, and family care (e.g., 'पत्नी की यह बात हर पति को समझनी चाहिए' with 1451 views, 'आज किसी अपने को Call कर लेना' with 288 views) vastly outperformed romantic self-respect shorts.",
-      "action": "Pivot the core narrative focus toward universal relationship truths, subtle marital understanding, and family emotional bonds while keeping the 'Dil Ki Diary' intimate diary tone."
-    },
-    {
-      "pattern": "Relatable Daily Observation Hook",
-      "evidence": "Openings based on grounded everyday observations ('आज किसी अपने को Call कर लेना', wife/husband dynamics) drove higher engagement than overly dramatic digital/smartphone isolation hooks.",
-      "action": "Use subtle, grounded real-life everyday moments instead of digital device isolation as the starting point."
+      "pattern": "Broad family and marital emotional bonds",
+      "evidence": "Videos like 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,452 views) and 'आज किसी अपने को Call कर लेना' (288 views) vastly outperformed niche romantic self-respect digital habits.",
+      "action": "Incorporate relational empathy and broader human bonds (family, marriage, unspoken everyday sacrifices) into the content mix."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Niche Smartphone Heartbreak Micro-habits",
-      "evidence": "Repeatedly focusing on blocking numbers, deleting widgets, or clearing chat histories ('जब फोन के वॉलपेपर से उसकी पसंद की तस्वीर हटाई', 'Self Respect' status) consistently hovered between 0 to 41 views.",
-      "action": "Reduce hyper-niche digital breakup tropes; if discussing self-respect, tie it to broad life boundaries rather than just chat/phone deletions."
+      "pattern": "Over-niche digital micro-actions for self-respect",
+      "evidence": "Videos about removing wallpaper, read receipts, or cloud storage deletion (e.g., 'जब फोन के वॉलपेपर से...' got 1 view, cuKSS0gHyt0 got 0 views) resulted in near-zero traction.",
+      "action": "Broaden from hyper-specific phone setting tropes to universally recognizable emotional friction points in relationships."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Warmth and realization",
-    "hook_style": "Observation of daily routine sacrifice",
+    "emotion": "नर्म एहसास और अनकहा अपनापन",
+    "hook_style": "Real-life observation",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short emotional look at how mothers quietly keep the best part of the meal for everyone else, and the child's realization of that silent love.",
-    "opening_direction": "मम्मी हमेशा कहती हैं 'मुझे भूख नहीं है'...",
-    "twist_direction": "लेकिन जब किचन में जाकर देखा कि कढ़ाई में सिर्फ वही बचा था जो किसी को पसंद नहीं, तब समझ आया कि उनका त्याग कितना खामोश होता है।",
-    "duration_seconds": 15,
-    "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Capitalizes on the high-performing family emotional bond pattern proven by recent top-performing videos, driving higher natural engagement and shareability."
+    "concept": "A story about a silent argument between a couple where a small everyday gesture (like keeping a glass of water on the nightstand) speaks louder than an apology.",
+    "opening_direction": "जब गुस्से में दोनों ने बात करना बंद कर दिया,",
+    "twist_direction": "पर रात को पानी का गिलास चुपचाप बेडसाइड पर रख जाना नहीं भूले। रिश्ते टूटने से नहीं, अकड़ से कमजोर होते हैं।",
+    "duration_seconds": 10,
+    "posting_window": "07:00 AM - 09:00 AM",
+    "reason": "Leverages the high-performing relationship and marital dynamics (similar to the wife/husband breakout hit) while retaining the core 'Dil Ki Diary' emotional poetry tone."
   },
-  "experiment": "Testing whether pairing family warmth storytelling with evening prime-time slots can replicate or exceed the 1K+ view benchmark set by recent family-centric shorts.",
-  "updated_at": "2026-09-30T03:43:43.488173+00:00",
+  "experiment": "Testing if shifting from niche digital breakup actions to universal everyday relationship micro-gestures recovers view velocity.",
+  "updated_at": "2026-09-30T04:42:53.783099+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-30T03:43:47.091204+00:00"
+  "generated_at": "2026-09-30T04:43:26.407304+00:00"
 }
