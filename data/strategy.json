@@ -1,40 +1,35 @@
 {
-  "confidence": "85%",
-  "data_points": 12,
-  "overall_summary": "The channel initially tried classic heartbreak and shayari tropes (अधूरी मोहब्बत, बेवफाई) which received very low views (6-19). However, a pivot toward real-life relational bonds, family dynamics, and emotional life lessons (पति-पत्नी, माँ, पापा, रिश्ते) triggered a massive surge in performance, peaking with the husband-wife video at 1494 views. Pure romantic pain underperforms compared to grounded, highly relatable family and relationship realities.",
+  "confidence": "35%",
+  "data_points": 9,
+  "overall_summary": "Data volume is very low, but clear viewer preference leans towards intimate family relationship dynamics and mature emotional realities, highlighted by an outlier success in the husband-wife relationship category.",
   "winning_patterns": [
     {
-      "pattern": "Grounded Family & Relationship Dynamics",
-      "evidence": "Videos focusing on husband-wife (1494 views), relationships/communication (288 views), and mothers (224 views) significantly outperform niche shayari.",
-      "action": "Shift focus away from abstract poetic heartbreak and center content around everyday relationship observations, marital understanding, and family bonds."
-    },
-    {
-      "pattern": "Direct, Empathetic Hook Language",
-      "evidence": "Titles addressing the audience directly with universal domestic situations ('पत्नी की ये बात हर पति को समझनी चाहिए', 'आज किसी अपने को Call कर लेना') drive high engagement.",
-      "action": "Use specific, everyday domestic moments as hooks rather than dramatic Urdu/Hindi shayari phrases."
+      "pattern": "Core family and relationship dynamics",
+      "evidence": "Videos about mothers (224 views) and husbands/wives (1502 views) significantly outperformed general or motivational content.",
+      "action": "Focus upcoming concepts on close familial and marital bonds."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Romantic Shayari & Heartbreak",
-      "evidence": "Videos centered around 'रात के ख्याल', 'बेवफाई', and 'एकतरफा प्यार' generated single-digit to low double-digit views (6 to 19 views).",
-      "action": "Avoid generic poetry or abstract heartbreak lines as primary concepts; if used, ground them in concrete modern relationship actions."
+      "pattern": "Sibling content underperformance",
+      "evidence": "Sister/brother emotional videos received low views (16 to 109 views).",
+      "action": "Temporarily pause sibling-focused topics and allocate budget to spousal and parental themes."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "guilt and realization",
-    "hook_style": "simple real-life moment",
+    "emotion": "guilt and unspoken love",
+    "hook_style": "situational real-life observation",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization about how parents or partners quietly stop complaining when they've truly given up expecting attention, shifting from nagging to complete silence.",
-    "opening_direction": "जब घर का कोई इंसान अचानक टोकना बंद कर दे, तो समझ जाना कि उसने समझाना छोड़ दिया है।",
-    "twist_direction": "शोर से ज्यादा खतरनाक वो खामोशी होती है, जो अपनों के बीच धीरे-धीरे घर कर जाती है।",
-    "duration_seconds": 25,
+    "concept": "A husband realizes his wife stopped complaining about small things, not because she is happy, but because she has given up expecting him to notice.",
+    "opening_direction": "Start with a quiet kitchen scene late at night, showing a wife silently finishing chores while the husband scrolls on his phone.",
+    "twist_direction": "The realization hits that silence from a partner isn't peace—it's emotional detachment.",
+    "duration_seconds": 35,
     "posting_window": "07:00 AM - 09:00 AM",
-    "reason": "Building directly on the high-performing relationship and communication themes (like 'रिश्ते खत्म नहीं होते' and the wife-husband dynamic) which resonate deeply with the active audience base."
+    "reason": "Capitalizes on the highest performing topic cluster (husband-wife relationship dynamics) observed in the recent data."
   },
-  "experiment": "Testing if shifting the winning relationship/family dynamic tone toward emotional behavioral silence ('khamoshi') retains the high viewership seen in the husband-wife and calling-family shorts.",
-  "updated_at": "2026-09-30T22:42:13.065991+00:00",
+  "experiment": "Testing if the husband-wife emotional dynamic can repeat the high views of the previous outlier video or if it was a one-off anomaly.",
+  "updated_at": "2026-09-30T23:40:02.995457+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-30T22:42:16.767867+00:00"
+  "generated_at": "2026-09-30T23:40:05.157211+00:00"
 }
