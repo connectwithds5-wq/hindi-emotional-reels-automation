@@ -1,40 +1,40 @@
 {
-  "confidence": "75%",
+  "confidence": "85%",
   "data_points": 38,
-  "overall_summary": "The channel experiments with two main directions: niche romance/self-respect digital micro-moments (which received low, steady views like 10-40) and broader universal family/relationship emotional Shorts (which saw significantly higher organic spikes, notably family and partner dynamics like the wife/husband video with 1,447 views). Core repeatable success lies in relatable real-life emotional observations.",
+  "overall_summary": "Family emotional dynamics (especially relationships like wife, father, mother, and general interpersonal bonds like 'rishte') vastly outperform niche digital-detox self-respect clips in view counts and engagement, though a core audience remains loyal to micro-relationship storytelling.",
   "winning_patterns": [
     {
-      "pattern": "Universal Family & Close Relationship Dynamics",
-      "evidence": "Videos focusing on family members (Maa, Papa, Wife/Husband) achieved vastly higher views (100 to 1,400+ views) compared to niche digital-detox self-respect clips.",
-      "action": "Integrate broader, highly universal emotional family/close bond observations into the content calendar while retaining the diary storytelling tone."
+      "pattern": "Universal Family Relationships",
+      "evidence": "Videos about wives, fathers, and calling loved ones (e.g., 'or5gtaBpRVY' with 1447 views, 'rl_ycNbXZ_g' with 287 views) significantly outperform niche phone/digital self-respect clips.",
+      "action": "Pivot the primary focus of future content toward universal emotional relationship bonds while maintaining the 'Dil Ki Diary' poetic tone."
     },
     {
-      "pattern": "Specific Tangible Real-Life Triggers",
-      "evidence": "Using everyday micro-moments (like checking a chat or a phone setting) drives high initial relatability.",
-      "action": "Maintain grounded, hyper-specific real-life framing in the hook."
+      "pattern": "Relatable Everyday Realizations",
+      "evidence": "Clips highlighting common emotional truths about human connections get higher likes and shares.",
+      "action": "Ground high-concept emotional hooks into concrete, everyday domestic or interpersonal actions."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Niche Over-The-Top Digital Detox Tropes",
-      "evidence": "Repetitive variations of blocking, deleting chats, or clearing storage under 'Self Respect' yielded flat, low double-digit views (0-41 views).",
-      "action": "Reduce hyper-niche digital isolation loops and pivot toward emotional maturity in physical, everyday interactions."
+      "pattern": "Over-digitized Self-Respect Hooks",
+      "evidence": "Videos focused strictly on phone settings, unfollowing, and blocking (e.g., 'HMyw6blmGOc', '6KVEZc22kS8') stalled at single-digit views.",
+      "action": "Reduce reliance on hyper-specific digital interface metaphors; broaden themes to emotional boundaries in general relationships."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "निराशा और अपनापन",
-    "hook_style": "Real-life observation",
+    "emotion": "गुस्सा और प्यार (Guilt & Unspoken Bond)",
+    "hook_style": "Domestic silent observation",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short emotional realization about how childhood friends slowly stop calling each other, replaced by formal festival text messages.",
-    "opening_direction": "जब बचपन के पक्के यार का फोन साल में सिर्फ दो बार आने लगे—दिवाली और नया साल।",
-    "twist_direction": "रिश्ते खत्म नहीं होते, बस उनकी जगह औपचारिकता ले लेती है।",
-    "duration_seconds": 12,
-    "posting_window": "06:00 PM - 08:00 PM",
-    "reason": "Leverages the proven high performance of universal relationship dynamics (evident from family/friend relationship spikes) while keeping the signature emotional diary tone."
+    "concept": "जब घर में दो लोगों के बीच झगड़े के बाद बातचीत बंद हो जाती है, और बिना कुछ कहे सिर्फ चाय का कप रखकर दूरियां मिटाई जाती हैं।",
+    "opening_direction": "बिना एक शब्द बोले चुपचाप किचन में दो कप चाय बनते देखना...",
+    "twist_direction": "और फिर आगे बढ़कर वो कप उसकी तरफ बढ़ा देना, जहां जिद से बड़ी मोहब्बत जीत जाती है।",
+    "duration_seconds": 35,
+    "posting_window": "Evening 07:00 PM - 09:00 PM",
+    "reason": "Family and relationship emotional content posted during late evening prime time shows the highest peak performance in the historical data."
   },
-  "experiment": "Testing if broadening the focus from digital breakups to universal social relationship shifts ('रिश्ते') captures the higher organic reach seen in family/partner videos.",
-  "updated_at": "2026-09-30T00:47:57.017985+00:00",
+  "experiment": "Testing if combining the proven high-performing family/relationship topic with a relatable physical action (making tea during a silent argument) outperforms purely digital self-respect clips.",
+  "updated_at": "2026-09-30T01:42:02.852986+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-30T00:48:00.066344+00:00"
+  "generated_at": "2026-09-30T01:42:05.984348+00:00"
 }
