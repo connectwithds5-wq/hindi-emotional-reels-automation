@@ -1,40 +1,45 @@
 {
-  "confidence": "85%",
+  "confidence": "65%",
   "data_points": 38,
-  "overall_summary": "Initial deep focus on niche romantic heartbreak and self-respect smartphone/digital micro-habits generated moderate views (up to 41). However, expansion into broader, universal family and relationship emotional bonds (e.g., parents, spouse, calling a loved one) massively outperformed the channel baseline, peaking at 1451 views.",
+  "overall_summary": "The channel 'Dil Ki Diary' explores core emotional topics, but recent experiments with broader family and relationship life lessons (e.g., spouse dynamics, calling loved ones) drastically outperformed niche, highly-repetitive digital self-respect micro-actions (like deleting chats or unfollowing). The audience resonates strongly with tangible, everyday relational sacrifices and emotional realizations rather than just phone-screen metaphors.",
   "winning_patterns": [
     {
-      "pattern": "Universal Family & Relationship Bonds",
-      "evidence": "Videos about spouses, parents, and making a call to a loved one (e.g., 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1451 views, 'आज किसी अपने को Call कर लेना' with 288 views) vastly outperformed niche heartbreak skits.",
-      "action": "Pivot the core narrative focus from isolated breakup pain toward broader, highly relatable familial and emotional relationship bonds."
+      "pattern": "Broad Relational & Family Realities",
+      "evidence": "Videos about spouses, parents, and reaching out to loved ones (e.g., 'or5gtaBpRVY' with 1452 views, 'rl_ycNbXZ_g' with 288 views) vastly outperform digital-detox self-respect shorts.",
+      "action": "Pivot the core focus slightly from purely digital phone-screen breakup tropes to wider emotional realities of modern relationships while retaining the sentimental tone."
     },
     {
-      "pattern": "Direct, Empathetic Life Lessons",
-      "evidence": "Videos tackling grounded human truths like 'तुम थके हो… हारे नहीं' received 171 views and solid engagement compared to toxic or hyper-specific phone-checking habits.",
-      "action": "Incorporate supportive, reassuring philosophical life lessons into the emotional arcs."
+      "pattern": "Actionable Emotional Call-to-Action",
+      "evidence": "Titles encouraging direct empathetic action ('आज किसी अपने को Call कर लेना') drive high engagement and views.",
+      "action": "Frame the emotional message around a tangible micro-action that the viewer wishes they had done or could do right now."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Over-Niche Smartphone Deletion Tropes",
-      "evidence": "Videos hyper-focused on specific digital deletions (widget removals, blocking, removing special ringtones) posted recently had very low views (0 to 10 views), indicating fatigue or over-saturation in this specific sub-format.",
-      "action": "Reduce reliance on ultra-specific digital breakup tropes and focus on broader emotional dynamics."
+      "pattern": "Repetitive Phone-Screen Metaphors",
+      "evidence": "Multiple consecutive shorts about deleting numbers, clearing storage, or unfollowing (e.g., '6KVEZc22kS8', 'LBGCloAitok', 'cuKSS0gHyt0') stalled under 10-20 views due to fatigue.",
+      "action": "Avoid overusing the 'deleting digital traces' trope for a while; explore physical and emotional distance instead of digital actions."
+    },
+    {
+      "pattern": "Low-sample niche micro-hooks",
+      "evidence": "Extremely hyper-specific UI moments like settings or streaming service profile removals resulted in 0-6 views.",
+      "action": "Keep the relatable detail grounded in universal physical spaces (like a room, a shared object, or an everyday habit) rather than obscure app features."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "नस्टैल्जिया और अपनापन (Nostalgia and Warmth)",
-    "hook_style": "Simple real-life observation about childhood or family routines",
+    "emotion": "nostalgia and silent regret",
+    "hook_style": "Physical object left behind",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short story about finding an old photo album or a childhood item in the house, realizing how fast time flies and how parents quietly sacrifice their own joys for us.",
-    "opening_direction": "घर की सफाई करते वक्त अलमारी के सबसे नीचे एक धूल जमा पुराना एल्बम मिलना।",
-    "twist_direction": "तस्वीरें पलटते वक्त पापा की वो जवानी की थकी हुई मुस्कान देखना, जो आज भी परिवार के लिए सब कुछ सह रही है।",
+    "concept": "Finding an old, forgotten item left in a jacket pocket that belonged to someone who is no longer in your life, highlighting how time moves on while memories stay tucked away.",
+    "opening_direction": "अलमारी साफ करते वक्त पुराने विंटर जैकेट की जेब में हाथ गया...",
+    "twist_direction": "...और उंगलियों के बीच एक पुरानी पर्ची पर लिखा नंबर मिला, जिसे कभी बिना सेव किए जुबानी याद रखा था।",
     "duration_seconds": 15,
-    "posting_window": "07:00 AM - 09:00 AM",
-    "reason": "Leverages the proven high-performing family/relationship emotional niche while testing a nostalgic, high-retention visual hook."
+    "posting_window": "07:30 PM - 09:00 PM",
+    "reason": "Tests the high-performing 'रिश्ते' (relationships) theme using a physical, tactile object instead of a digital phone screen to capture broader sentimental appeal."
   },
-  "experiment": "Testing whether nostalgic family object discoveries perform as strongly as direct relationship advice videos.",
-  "updated_at": "2026-09-30T06:46:53.114703+00:00",
+  "experiment": "Testing physical nostalgia objects (jackets/pockets) against overused digital screen/chat deletion hooks to gauge view recovery.",
+  "updated_at": "2026-09-30T07:43:13.188203+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-30T06:46:56.411049+00:00"
+  "generated_at": "2026-09-30T07:43:17.106097+00:00"
 }
