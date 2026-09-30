@@ -1,40 +1,40 @@
 {
-  "confidence": "85%",
+  "confidence": "65%",
   "data_points": 39,
-  "overall_summary": "Data shows clear divergence between hyper-specific relationship/family dynamics (e.g., husband-wife, parents, closing gaps) and overly abstract romantic brooding. Content focusing on familial bonds and universal relationship realities significantly outperforms generic sad quotes.",
+  "overall_summary": "Initial romantic/self-respect content built low-to-moderate sample views (4 to 41 views), but recent family and relationship emotional shorts (specifically about mothers, fathers, and husbands/wives) drastically outperformed them, peaking with over 1,400 views on a marital relationship topic. This indicates the audience heavily favors grounded, universal relationship and family emotional dynamics over niche phone-deletion self-respect tropes.",
   "winning_patterns": [
     {
-      "pattern": "Universal Family Dynamics & Relatable Bond Truths",
-      "evidence": "Videos like 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,462 views) and 'आज किसी अपने को Call कर लेना' (288 views) vastly outperform niche romantic heartbreak shorts.",
-      "action": "Shift focus slightly toward broader relational and family emotional truths while maintaining the core emotional depth of the channel."
+      "pattern": "Universal Family & Domestic Emotional Bonds",
+      "evidence": "Videos focusing on family members and partners (e.g., Mother, Father, Wife) generated hundreds to over 1,400 views (e.g., 'पत्नी की ये बात हर पति को समझनी चाहिए' got 1466 views), completely eclipsing text-deletion niches.",
+      "action": "Pivot the core focus toward broader domestic, relationship, and family emotional bonds while keeping the 'Dil Ki Diary' touch."
     },
     {
-      "pattern": "Grounded Real-Life Interaction Hooks",
-      "evidence": "Moments capturing day-to-day relational friction or unsaid words ('माँ जब पूछती है', 'पापा कभी कहते नहीं') perform well above 100-200 views.",
-      "action": "Use specific, highly relatable domestic or social interactions as starting hooks."
+      "pattern": "Conversational, Direct Relationship Truths",
+      "evidence": "Titles addressing common domestic or interpersonal friction ('आज किसी अपने को Call कर लेना' - 288 views) outperformed abstract poetry or phone-cleaning metaphors.",
+      "action": "Use conversational hooks that call out everyday relationship oversights."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Digital Heartbreak Tropes",
-      "evidence": "Shorts centered around blocking numbers, removing display pictures, or deleting specific app widgets ('जब उस एक पुरानी सीरीज़...', 'जब फोन के वॉलपेपर से...') generated near-zero engagement (0-10 views).",
-      "action": "Avoid repetitive digital-cleanup heartbreak tropes; they have saturated the feed and show clear audience fatigue."
+      "pattern": "Overly Niche Smartphone Deletion Tropes",
+      "evidence": "Repeatedly making shorts about clearing phone storage, unpinning chats, and deleting keyboard names yielded low single-digit to low double-digit views (4 to 41 views).",
+      "action": "Deprioritize repetitive tech-based heartbreak metaphors and explore broader real-life emotional friction points."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Nostalgia and Regret",
-    "hook_style": "Simple real-life observation about fading childhood friendships",
+    "emotion": "नस्टैल्जिया और गिल्ट (Nostalgia and Guilt)",
+    "hook_style": "Real-life observation of unspoken distance between old friends or family members.",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization about how childhood best friends slowly turn into people who only wish 'Happy Birthday' via text.",
-    "opening_direction": "बचपन के वो पक्के यार, जिनके घर का रास्ता ज़ुबानी याद था,",
-    "twist_direction": "आज उनका नंबर सिर्फ साल में एक बार, ठीक रात के बारह बजे स्क्रीन पर चमकता है।",
+    "concept": "A short about how childhood best friends slowly turn into strangers who only wish each other on birthdays out of formal obligation.",
+    "opening_direction": "जब साल में सिर्फ एक दिन फोन की घंटी बजती है और साल के बाकी 364 दिन अजनबी बन जाते हैं।",
+    "twist_direction": "खुशियां देने वाले रिश्ते जब सिर्फ 'हैप्पी बर्थडे' के मैसेज तक सिमट कर रह जाएं, तो समझो वक्त बदल गया, लोग नहीं।",
     "duration_seconds": 15,
-    "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Capitalizes on the high-performing relationship/nostalgia theme (seen in 'आज किसी अपने को Call कर लेना') while abandoning exhausted digital break-up tropes."
+    "posting_window": "07:00 AM - 09:00 AM IST",
+    "reason": "Tests if the high-performing family/relationship storytelling format scales to friendship and broader social bonds, bridging our high-view relationship category with the channel's core emotional DNA."
   },
-  "experiment": "Testing audience retention on time-passage nostalgia (childhood friendships) versus digital-era heartbreak stories.",
-  "updated_at": "2026-09-30T11:42:08.571134+00:00",
+  "experiment": "Testing if expanding from immediate family (wife/parents) to broader social relationships (childhood friendships) retains the high view counts of the recent winning family content.",
+  "updated_at": "2026-09-30T12:50:03.870112+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-30T11:42:11.474131+00:00"
+  "generated_at": "2026-09-30T12:50:07.577373+00:00"
 }
