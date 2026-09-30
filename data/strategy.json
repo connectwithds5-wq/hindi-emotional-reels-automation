@@ -1,40 +1,40 @@
 {
-  "confidence": "65%",
+  "confidence": "85%",
   "data_points": 39,
-  "overall_summary": "Core channel content focused on romantic heartbreak and self-respect gets low initial traction (0-30 views), whereas out-of-niche family and universal relationship emotional shorts (Maa, Papa, Wife, calling loved ones) dramatically outperform them, scaling up to 1400+ views. The audience responds heavily to warm familial emotional bonds and universal reconciliation themes over niche digital heartbreak loops.",
+  "overall_summary": "Family emotional bonds and relationship connection topics (e.g., spouse, parents) significantly outperform niche digital self-respect tech metaphors. The outlier 'or5gtaBpRVY' about husband-wife understanding achieved 1,468 views, while repetitive digital cleanup hooks plateaued around 10-40 views.",
   "winning_patterns": [
     {
-      "pattern": "Universal Family & Relationship Bonds",
-      "evidence": "Videos about parents, spouses, and calling loved ones (e.g., 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1467 views, and 'आज किसी अपने को Call कर लेना' with 288 views) vastly outperform romantic heartbreak shorts.",
-      "action": "Pivot the core content strategy to blend emotional relationship storytelling with universal family dynamics and communication gaps."
+      "pattern": "Family and Domestic Relationship Dynamics",
+      "evidence": "Videos like 'or5gtaBpRVY' (Wife emotional video) got 1,468 views, and 'rl_ycNbXZ_g' (Calling loved ones/rishte) got 288 views compared to low-performing digital self-respect posts.",
+      "action": "Pivot core focus from niche digital interface hooks (phone storage, read receipts) toward broader family and interpersonal emotional relationships."
     },
     {
-      "pattern": "Direct Relatable Life Advice / Action Call Hooks",
-      "evidence": "Titles encouraging immediate interpersonal actions ('आज किसी अपने को Call कर लेना') drive higher engagement and initial velocity.",
-      "action": "Incorporate gentle, constructive emotional calls-to-action in the titles and hooks."
+      "pattern": "Direct, Empathetic Emotional Appeal",
+      "evidence": "Parental and sibling appreciation videos (Maa, Papa, Bhai) consistently pulled over 100 views organically.",
+      "action": "Center narratives around everyday household micro-moments that evoke instant guilt or warmth."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Over-Niche Digital Heartbreak/Blocking Loops",
-      "evidence": "Repetitive themes around deleting phone numbers, blocking lists, and chat wallpapers ('Self Respect' series) consistently underperform (0-29 views).",
-      "action": "Reduce the frequency of hyper-specific digital breakup tropes and focus on broader emotional resonance."
+      "pattern": "Overused Smartphone/Tech UI Cleanup Hooks",
+      "evidence": "Multiple videos using variations of deleting chats, clearing storage, blocking, or changing ringtones ('c7epDdpUJis', 'aqzDPbQVnb0', 'hT4EGP69mRw') averaged under 15 views.",
+      "action": "Stop relying on repetitive tech-feature metaphors for self-respect; audience fatigue is high."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "nostalgia and realization",
-    "hook_style": "real-life observational detail",
+    "emotion": "पछतावा और अपनापन (Regret and Warmth)",
+    "hook_style": "Real-life domestic observation without tech cliches",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short about finding an old childhood photograph in a book, remembering a childhood friend who drifted away, and realizing how distance doesn't end bonds, time just took over.",
-    "opening_direction": "किताब के पुराने पन्नों के बीच जब वो बचपन की तस्वीर मिली...",
-    "twist_direction": "...नंबर आज भी वही था, बस अब फोन मिलाने की हिम्मत नहीं होती कि शायद उधर से कोई और जवाब दे।",
+    "concept": "A short emotional look at how we check everyone else's status or well-being online, but forget to ask the person sitting right across the dinner table how their day actually went.",
+    "opening_direction": "शाम के वक्त चाय के कप के साथ फोन पर सबकी खबर लेते रहना...",
+    "twist_direction": "...और सामने बैठे अपने ही हमसफर की खामोश थकान पर नजर न पड़ना।",
     "duration_seconds": 15,
-    "posting_window": "07:00 AM - 09:00 AM",
-    "reason": "Tests the bridge between the historical 'रिश्ते' (relationships) topic and the high-performing universal emotional storytelling style seen in recent family/bond videos."
+    "posting_window": "07:00 PM - 08:30 PM",
+    "reason": "Capitalizes on the winning family/relationship dynamic seen in top-performing content ('or5gtaBpRVY' and 'rl_ycNbXZ_g') while targeting evening peak engagement time."
   },
-  "experiment": "Testing if applying the high-performing family/relationship storytelling format to childhood friendships can revive core channel topics like 'रिश्ते' and 'पुरानी यादें'.",
-  "updated_at": "2026-09-30T14:45:16.378443+00:00",
+  "experiment": "Testing a shift from digital-age isolation tropes back to physical household micro-neglect to verify if high views on domestic content ('or5gtaBpRVY') can be systematically repeated.",
+  "updated_at": "2026-09-30T15:44:43.286383+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-30T14:45:29.127873+00:00"
+  "generated_at": "2026-09-30T15:44:49.798471+00:00"
 }
