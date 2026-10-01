@@ -1,35 +1,35 @@
 {
   "confidence": "35%",
   "data_points": 9,
-  "overall_summary": "Data volume is very low, yielding low statistical confidence. However, a clear outlier emerged with family/relationship dynamics—specifically the husband-wife emotional video ('or5gtaBpRVY') outperforming others significantly at 1.5K views. Content focusing on domestic relationships and emotional relationship dynamics resonates much better than generic brotherly/sisterly or motivational clips in this initial sample.",
+  "overall_summary": "Data sample is very small, leading to low confidence. However, a clear outlier exists around domestic/relationship dynamics ('Wife Emotional Video' with 1525 views, compared to averages around 100-200 views for other family content). General family and relationship topics outperform niche solo emotional monologues.",
   "winning_patterns": [
     {
-      "pattern": "Relationship & Domestic Dynamic Focus",
-      "evidence": "Wife/Husband emotional video (or5gtaBpRVY) gained 1,523 views, which is nearly 7x higher than the channel average.",
-      "action": "Double down on husband-wife and complex relationship themes rather than broad sibling or generic motivational topics."
+      "pattern": "Core Family & Relationship Dynamics",
+      "evidence": "Video 'or5gtaBpRVY' about husband-wife understanding hit 1525 views, significantly outperforming parental or sibling videos.",
+      "action": "Focus more content on interpersonal relationship tensions and unspoken understandings between couples."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Low-performing Sibling or Generic Family Shorts",
-      "evidence": "Sister emotional videos (jfmMztnam_A, fAAoIQCRMXU) scored extremely low views (16 and 111 views respectively).",
-      "action": "Deprioritize standalone sibling emotional tropes for the immediate future to conserve effort."
+      "pattern": "Sibling Specific Tropes",
+      "evidence": "Sister/Brother focused videos (e.g., jfmMztnam_A, fAAoIQCRMXU) had very low views (16 and 111).",
+      "action": "Deprioritize standalone sibling emotional shorts for now unless framed around a broader family emotional event."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "गुमसुम प्यार और अनदेखा दर्द",
-    "hook_style": "situational real-life observation",
+    "emotion": "अधूरी मोहब्बत / ओवरथिंकिंग",
+    "hook_style": "Simple real-life moment observation",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "जब शादी के कुछ साल बाद बातें कम और सिर्फ शिकायतें बच जाती हैं, तब रात के अंधेरे में एक-दूसरे का हाल पूछना।",
-    "opening_direction": "रात के 2 बजे हैं, चाय ठंडी हो चुकी है और दोनों फोन में देख रहे हैं बिना एक शब्द बोले।",
-    "twist_direction": "मोहब्बत खत्म नहीं होती, बस कोई पहले 'सब ठीक है ना?' पूछने की हिम्मत नहीं जुटा पाता।",
-    "duration_seconds": 35,
+    "concept": "A short about how people text each other late at night, typing long paragraphs and then deleting them because 'woh samajh nahi payega'.",
+    "opening_direction": "Raat ke 2 baje screen par kuch likh kar mita dena aam baat hai...",
+    "twist_direction": "Asli dard woh message nahi jo bheja gaya, dard woh hai jo bina bheje hi delete kar diya gaya.",
+    "duration_seconds": 12,
     "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Capitalizes on the winning husband-wife/relationship pattern that showed high engagement previously, while leaning into core channel themes like 'रात के ख्याल' and 'रिश्ते'."
+    "reason": "Leverages the core channel theme of 'रात के ख्याल' and 'ओवरथिंकिंग' which connects well with nighttime viewing habits while testing a relational communication theme that historically performed well in the family category."
   },
-  "experiment": "Testing if the high performance of the previous husband-wife video was a repeatable pattern for domestic relationship content or an anomaly.",
-  "updated_at": "2026-10-01T05:42:34.322674+00:00",
+  "experiment": "Testing night-time overthinking vs. family relationship dynamics to see if romance/overthinking outperforms family bonds.",
+  "updated_at": "2026-10-01T06:48:39.428042+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-01T05:42:37.000006+00:00"
+  "generated_at": "2026-10-01T06:48:42.073626+00:00"
 }
