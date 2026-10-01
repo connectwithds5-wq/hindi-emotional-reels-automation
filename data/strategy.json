@@ -1,40 +1,40 @@
 {
-  "confidence": "45%",
+  "confidence": "65%",
   "data_points": 9,
-  "overall_summary": "Initial tests show family relationships and marital bonds perform significantly better than standard shayari or motivation. Specifically, the 'wife/husband emotional video' outperformed all other content by a wide margin, reaching over 1,500 views, while sibling and general shayari content remained under 250 views. Overall sample size is still too small for high statistical confidence, requiring continued testing around high-performing interpersonal dynamics.",
+  "overall_summary": "Analysis of the initial 9 shorts shows a standout outlier in the husband-wife relationship category (1,550 views), while parent-related emotional shorts (Maa and Papa) perform moderately well (139-224 views). Pure sibling content underperformed compared to family dynamics involving deeper emotional labor or partner relationships.",
   "winning_patterns": [
     {
-      "pattern": "Marital/Partner Dynamic Focus",
-      "evidence": "Video 'or5gtaBpRVY' about husband-wife understanding generated 1,538 views, which is nearly 7x higher than the channel average.",
-      "action": "Produce more relatable relationship and spouse-oriented micro-stories highlighting unsaid emotional needs."
+      "pattern": "Core Family & Partner Dynamics",
+      "evidence": "Wife emotional video reached 1,550 views, and Maa video reached 224 views.",
+      "action": "Double down on domestic relationships, partnerships, and parental sacrifices that evoke heavy emotional guilt or gratitude."
     },
     {
-      "pattern": "Universal Parental/Family Guilt or Appreciation",
-      "evidence": "Video 'OfHrAp3r1G8' about mother asking 'Khaana khaya?' achieved 224 views, outperforming sibling and general motivational formats.",
-      "action": "Double down on guilt-free or realization-based family conversations that evoke instant nostalgia."
+      "pattern": "Direct, Empathetic Addressing",
+      "evidence": "Titles using direct second-person address ('आज किसी अपने को Call कर लेना') gained stable traction (288 views).",
+      "action": "Keep using titles that talk directly to the viewer about personal actions and unexpressed feelings."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "General Sister/Brother Generic Shayari",
-      "evidence": "Videos focusing on siblings (jfmMztnam_A, fAAoIQCRMXU) performed poorly, averaging under 70 views.",
-      "action": "Avoid broad, generalized statements about siblings unless tied to a specific, highly relatable conflict or emotional turning point."
+      "pattern": "Repetitive Sister-focused Content",
+      "evidence": "Both sister-focused shorts generated very low views (16 and 114 views respectively).",
+      "action": "Pause repetitive sister appreciation shorts and pivot toward broader relationship friction or nocturnal overthinking."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "guilt and unspoken care",
-    "hook_style": "situational dialogue",
+    "emotion": "Guilt and realization",
+    "hook_style": "Direct real-life observation about modern life distance",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A husband notices his wife has been silent all evening, assuming she's angry, only to realize later she was just exhausted from managing everything alone without complaining.",
-    "opening_direction": "Start with a common household observation: 'Biwi agar gusse mein chup ho, toh darr lagta hai... par agar thak kar chup ho, toh dil dukhta hai.'",
-    "twist_direction": "Reveal that she wasn't ignoring him; she was quietly fixing his side of the room before falling asleep first.",
+    "concept": "A short about how busy we get with our phones, ignoring the person sitting right next to us until they stop complaining.",
+    "opening_direction": "Start with the sound of notification rings and a person scrolling endlessly while their partner/parent waits to speak.",
+    "twist_direction": "The moment they finally put the phone down to talk, the room is already empty of that attention.",
     "duration_seconds": 35,
-    "posting_window": "07:00 AM - 09:00 AM IST",
-    "reason": "Leverages the proven high-performing 'Husband-Wife / Partner' emotional theme while testing a subtle perspective shift about daily unnoticed exhaustion."
+    "posting_window": "07:00 PM - 09:00 PM",
+    "reason": "Aligns with the top-performing relationship/partner theme and captures the evening overthinking and family time window."
   },
-  "experiment": "Testing whether marital emotional storytelling consistently beats parent-child dynamics on this channel.",
-  "updated_at": "2026-10-01T09:43:47.481964+00:00",
+  "experiment": "Testing if shifting from broad family tributes to direct partner/relationship regret (similar to the top-performing wife video) sustains higher baseline views.",
+  "updated_at": "2026-10-01T10:43:00.545680+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-01T09:43:50.539008+00:00"
+  "generated_at": "2026-10-01T10:43:03.459880+00:00"
 }
