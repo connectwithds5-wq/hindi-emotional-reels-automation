@@ -1,35 +1,40 @@
 {
-  "confidence": "35%",
+  "confidence": "45%",
   "data_points": 9,
-  "overall_summary": "The channel shows a massive outlier with the video about husband-wife dynamics ('पत्नी की ये बात हर पति को समझनी चाहिए', 1,568 views) compared to familial relationship shorts which hover around 100-200 views, while pure sister-focused content underperformed significantly.",
+  "overall_summary": "Data sample is small, but familial relationships and close bond dynamics (especially husband-wife relationships, e.g., 'or5gtaBpRVY' with 1587 views) significantly outperform general self-motivation or abstract topics. Relatable household or relationship observations generate much higher engagement.",
   "winning_patterns": [
     {
-      "pattern": "Core relationship and marital emotional dynamics",
-      "evidence": "Wife/husband video (or5gtaBpRVY) achieved 1,568 views, significantly outperforming all other topics.",
-      "action": "Focus more core content on complex emotional ties, husband-wife, and romantic/relational bonds rather than just generic family roles."
+      "pattern": "Relationship dynamics and close family bonds",
+      "evidence": "Video 'or5gtaBpRVY' about husband-wife understanding hit 1587 views, vastly outperforming other abstract or general emotional videos.",
+      "action": "Focus heavily on domestic and interpersonal emotional nuances between partners and close family members."
+    },
+    {
+      "pattern": "Grounded everyday observations",
+      "evidence": "Videos focusing on specific daily life moments (Mother, Father, Wife) consistently pulled higher baseline views than abstract motivational lines.",
+      "action": "Use specific, highly recognizable micro-moments from everyday life as the anchor for the story."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Repetitive sibling emotional tropes",
-      "evidence": "Sister emotional videos (jfmMztnam_A with 16 views and fAAoIQCRMXU with 115 views) showed lower engagement and weaker algorithmic pickup.",
-      "action": "Pause direct sister-focused shorts for now and pivot towards broader relationship and loneliness themes."
+      "pattern": "Broad self-motivation or generic life lessons",
+      "evidence": "Video 'JPf_3ebfnuk' ('तुम थके हो… हारे नहीं') received low views (171) despite a strong emotional appeal.",
+      "action": "Avoid generic motivational statements; anchor everything in a specific relationship or human interaction."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "अधूरी मोहब्बत / पुराना अहसास",
-    "hook_style": "Real-life observational question about unspoken words in a relationship",
+    "emotion": "अधूरी बात और पछतावा",
+    "hook_style": "दैनिक जीवन की अनदेखी आदत",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short about how people who used to talk for hours now act like strangers on social media, checking each other's status without saying a word.",
-    "opening_direction": "Start with the simple act of checking someone's last seen or story silently late at night.",
-    "twist_direction": "Conclude that the scariest part isn't a breakup, it's becoming invisible to the person who knew you inside out.",
+    "concept": "रात को सोने से पहले फोन पर लंबी चैट्स के बाद अचानक बात बंद हो जाना और सुबह खालीपन महसूस होना।",
+    "opening_direction": "रोज रात को 'गुड नाइट' कहने के बाद भी ऑनलाइन देखते रहना...",
+    "twist_direction": "...और जब सामने से मैसेज आना बंद हो जाए, तब पता चलता है कि आदत छूटी है या इंसान।",
     "duration_seconds": 35,
-    "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Leverages the winning pattern of high-engagement relational/emotional topics while aligning with 'रात के ख्याल' and 'रिश्ते' channel pillars for evening engagement."
+    "posting_window": "07:00 AM - 09:00 AM",
+    "reason": "Leverages the successful relationship and nighttime-thoughts niche with a grounded, highly relatable digital-age habit."
   },
-  "experiment": "Testing if romantic/relational unspoken distance (अधूरी मोहब्बत) can consistently replicate the high views seen on the husband-wife relationship short.",
-  "updated_at": "2026-10-01T17:42:36.831084+00:00",
+  "experiment": "Testing if shifting from family bonds to modern relationship communication habits maintains the high view velocity seen in the husband-wife top performer.",
+  "updated_at": "2026-10-01T18:45:50.690095+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-01T17:42:39.681635+00:00"
+  "generated_at": "2026-10-01T18:45:53.589492+00:00"
 }
