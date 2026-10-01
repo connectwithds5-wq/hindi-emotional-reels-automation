@@ -1,35 +1,40 @@
 {
-  "confidence": "35%",
+  "confidence": "45%",
   "data_points": 9,
-  "overall_summary": "Initial tests show that family dynamics, specifically husband-wife relationships ('पत्नी की ये बात...'), massively outperformed other topics like siblings or general motivation, hitting 1,538 views while others averaged around 100-280 views. However, the sample size is very small and overall engagement (likes and comments) requires further validation.",
+  "overall_summary": "Initial tests show family relationships and marital bonds perform significantly better than standard shayari or motivation. Specifically, the 'wife/husband emotional video' outperformed all other content by a wide margin, reaching over 1,500 views, while sibling and general shayari content remained under 250 views. Overall sample size is still too small for high statistical confidence, requiring continued testing around high-performing interpersonal dynamics.",
   "winning_patterns": [
     {
-      "pattern": "Core Family Relationships (Partner/Spouse Focus)",
-      "evidence": "The video about wives/husbands ('or5gtaBpRVY') achieved 1,538 views, which is nearly 6x higher than the channel average.",
-      "action": "Double down on complex family and marital relationship dynamics as primary high-view drivers."
+      "pattern": "Marital/Partner Dynamic Focus",
+      "evidence": "Video 'or5gtaBpRVY' about husband-wife understanding generated 1,538 views, which is nearly 7x higher than the channel average.",
+      "action": "Produce more relatable relationship and spouse-oriented micro-stories highlighting unsaid emotional needs."
+    },
+    {
+      "pattern": "Universal Parental/Family Guilt or Appreciation",
+      "evidence": "Video 'OfHrAp3r1G8' about mother asking 'Khaana khaya?' achieved 224 views, outperforming sibling and general motivational formats.",
+      "action": "Double down on guilt-free or realization-based family conversations that evoke instant nostalgia."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Over-saturated Sibling Tropes",
-      "evidence": "Videos about sisters ('jfmMztnam_A', 'fAAoIQCRMXU') and brothers ('m4cgM90y9JU') performed relatively lower, between 16 and 112 views.",
-      "action": "Pause direct broad sibling love content for now and shift towards more nuanced relationship dynamics."
+      "pattern": "General Sister/Brother Generic Shayari",
+      "evidence": "Videos focusing on siblings (jfmMztnam_A, fAAoIQCRMXU) performed poorly, averaging under 70 views.",
+      "action": "Avoid broad, generalized statements about siblings unless tied to a specific, highly relatable conflict or emotional turning point."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "निराशा और अपनापन",
-    "hook_style": "Real-life observation about unspoken tensions in a marriage",
+    "emotion": "guilt and unspoken care",
+    "hook_style": "situational dialogue",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple sitting in complete silence in the living room, neither looking at their phones, realizing that the silence between them has become louder than words.",
-    "opening_direction": "Start with a relatable visual: two cups of cold tea on the table and partners scrolling phones in opposite corners.",
-    "twist_direction": "Instead of fighting, one of them quietly places a hand over the other's phone, whispering: 'हम दोनों एक ही घर में हैं, फिर भी इतने दूर क्यों हैं?'",
+    "concept": "A husband notices his wife has been silent all evening, assuming she's angry, only to realize later she was just exhausted from managing everything alone without complaining.",
+    "opening_direction": "Start with a common household observation: 'Biwi agar gusse mein chup ho, toh darr lagta hai... par agar thak kar chup ho, toh dil dukhta hai.'",
+    "twist_direction": "Reveal that she wasn't ignoring him; she was quietly fixing his side of the room before falling asleep first.",
     "duration_seconds": 35,
-    "posting_window": "07:00 AM - 08:30 AM",
-    "reason": "Leverages the proven high-performing 'Husband-Wife / Relationship' winning pattern from previous data while maintaining the emotional tone of Dil Ki Diary."
+    "posting_window": "07:00 AM - 09:00 AM IST",
+    "reason": "Leverages the proven high-performing 'Husband-Wife / Partner' emotional theme while testing a subtle perspective shift about daily unnoticed exhaustion."
   },
-  "experiment": "Testing if intimate marital emotional tension outperforms general romantic heartbreak or parental love categories.",
-  "updated_at": "2026-10-01T08:44:26.098609+00:00",
+  "experiment": "Testing whether marital emotional storytelling consistently beats parent-child dynamics on this channel.",
+  "updated_at": "2026-10-01T09:43:47.481964+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-01T08:44:28.792859+00:00"
+  "generated_at": "2026-10-01T09:43:50.539008+00:00"
 }
