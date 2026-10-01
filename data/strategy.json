@@ -1,45 +1,35 @@
 {
   "confidence": "35%",
   "data_points": 9,
-  "overall_summary": "The channel shows early traction on relatable domestic relationships, particularly husband-wife dynamics which performed significantly higher than other family and motivational shorts. However, overall data is sparse with low view counts, pointing to the need for continued experimentation on hooks and storytelling.",
+  "overall_summary": "Initial tests show that family dynamics, specifically husband-wife relationships ('पत्नी की ये बात...'), massively outperformed other topics like siblings or general motivation, hitting 1,538 views while others averaged around 100-280 views. However, the sample size is very small and overall engagement (likes and comments) requires further validation.",
   "winning_patterns": [
     {
-      "pattern": "Domestic relationship dynamics",
-      "evidence": "The video about wives and husbands ('or5gtaBpRVY') garnered 1,528 views, outperforming all other topics by a wide margin.",
-      "action": "Produce more narrative shorts focusing on everyday married life and emotional understandings between partners."
-    },
-    {
-      "pattern": "Parental emotional triggers",
-      "evidence": "Mother ('OfHrAp3r1G8') and father ('v8krtdmxbPs') videos performed steadily compared to generic motivational pieces.",
-      "action": "Maintain parent-child dynamics in the rotation as secondary core content."
+      "pattern": "Core Family Relationships (Partner/Spouse Focus)",
+      "evidence": "The video about wives/husbands ('or5gtaBpRVY') achieved 1,538 views, which is nearly 6x higher than the channel average.",
+      "action": "Double down on complex family and marital relationship dynamics as primary high-view drivers."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Overly preachy or moralistic framing",
-      "evidence": "Videos focusing on direct lessons or parenting values like 'बच्चों को ये संस्कार जरूर सिखाइए' received lower engagement.",
-      "action": "Avoid lecturing the audience; instead, frame the content as a silent personal realization or observation."
-    },
-    {
-      "pattern": "Low view velocity on sibling duplicates",
-      "evidence": "Repeating the sister topic ('fAAoIQCRMXU') right after a low-performing initial attempt resulted in poor views (108).",
-      "action": "Do not repeat exact thematic angles back-to-back without a fresh narrative hook."
+      "pattern": "Over-saturated Sibling Tropes",
+      "evidence": "Videos about sisters ('jfmMztnam_A', 'fAAoIQCRMXU') and brothers ('m4cgM90y9JU') performed relatively lower, between 16 and 112 views.",
+      "action": "Pause direct broad sibling love content for now and shift towards more nuanced relationship dynamics."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "अधूरी मोहब्बत / उदासी",
-    "hook_style": "Visual action followed by a silent realization",
+    "emotion": "निराशा और अपनापन",
+    "hook_style": "Real-life observation about unspoken tensions in a marriage",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A husband staring at his phone, about to type a long message of apology to his estranged wife, then deleting it all because some things are better left unsaid.",
-    "opening_direction": "Show hands typing a long emotional text late at night in a dark room.",
-    "twist_direction": "Instead of pressing send, the finger hits delete, and he locks the phone with a quiet sigh.",
-    "duration_seconds": 10,
-    "posting_window": "07:00 AM - 09:00 AM",
-    "reason": "Capitalizes on the winning husband-wife emotional pattern while testing the 'unsaid words' topic from the channel's core list."
+    "concept": "A couple sitting in complete silence in the living room, neither looking at their phones, realizing that the silence between them has become louder than words.",
+    "opening_direction": "Start with a relatable visual: two cups of cold tea on the table and partners scrolling phones in opposite corners.",
+    "twist_direction": "Instead of fighting, one of them quietly places a hand over the other's phone, whispering: 'हम दोनों एक ही घर में हैं, फिर भी इतने दूर क्यों हैं?'",
+    "duration_seconds": 35,
+    "posting_window": "07:00 AM - 08:30 AM",
+    "reason": "Leverages the proven high-performing 'Husband-Wife / Relationship' winning pattern from previous data while maintaining the emotional tone of Dil Ki Diary."
   },
-  "experiment": "Testing if late-night relationship regrets outperform general domestic appreciation shorts.",
-  "updated_at": "2026-10-01T07:43:24.297990+00:00",
+  "experiment": "Testing if intimate marital emotional tension outperforms general romantic heartbreak or parental love categories.",
+  "updated_at": "2026-10-01T08:44:26.098609+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-01T07:43:27.395623+00:00"
+  "generated_at": "2026-10-01T08:44:28.792859+00:00"
 }
