@@ -1,40 +1,35 @@
 {
-  "confidence": "45%",
+  "confidence": "35%",
   "data_points": 9,
-  "overall_summary": "Data sample is small, but familial relationships and close bond dynamics (especially husband-wife relationships, e.g., 'or5gtaBpRVY' with 1587 views) significantly outperform general self-motivation or abstract topics. Relatable household or relationship observations generate much higher engagement.",
+  "overall_summary": "The channel shows early traction in family and relationship dynamics, notably with 'Wife Emotional Video' performing as an outlier (1.6k views), while broad mother/father/self-motivation themes consistently average 150-220 views. Overall data volume is low, so confidence is limited.",
   "winning_patterns": [
     {
-      "pattern": "Relationship dynamics and close family bonds",
-      "evidence": "Video 'or5gtaBpRVY' about husband-wife understanding hit 1587 views, vastly outperforming other abstract or general emotional videos.",
-      "action": "Focus heavily on domestic and interpersonal emotional nuances between partners and close family members."
-    },
-    {
-      "pattern": "Grounded everyday observations",
-      "evidence": "Videos focusing on specific daily life moments (Mother, Father, Wife) consistently pulled higher baseline views than abstract motivational lines.",
-      "action": "Use specific, highly recognizable micro-moments from everyday life as the anchor for the story."
+      "pattern": "Core family and relationship dynamics",
+      "evidence": "Video ID or5gtaBpRVY about husbands and wives heavily outperformed others with 1600 views.",
+      "action": "Focus more narratives on closely observed domestic and spousal dynamics rather than broad motivational quotes."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Broad self-motivation or generic life lessons",
-      "evidence": "Video 'JPf_3ebfnuk' ('तुम थके हो… हारे नहीं') received low views (171) despite a strong emotional appeal.",
-      "action": "Avoid generic motivational statements; anchor everything in a specific relationship or human interaction."
+      "pattern": "Generic sibling re-uploads",
+      "evidence": "Sister emotional videos dropped significantly in later iterations (e.g., fAAoIQCRMXU got only 121 views compared to earlier attempts).",
+      "action": "Avoid repeating very similar sister/brother tropes without a fresh angle or stronger emotional hook."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "अधूरी बात और पछतावा",
-    "hook_style": "दैनिक जीवन की अनदेखी आदत",
+    "emotion": "guilt and unspoken love",
+    "hook_style": "situational real-life observation",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "रात को सोने से पहले फोन पर लंबी चैट्स के बाद अचानक बात बंद हो जाना और सुबह खालीपन महसूस होना।",
-    "opening_direction": "रोज रात को 'गुड नाइट' कहने के बाद भी ऑनलाइन देखते रहना...",
-    "twist_direction": "...और जब सामने से मैसेज आना बंद हो जाए, तब पता चलता है कि आदत छूटी है या इंसान।",
-    "duration_seconds": 35,
+    "concept": "A husband noticing his wife's worn-out footwear in the hallway and remembering she never buys anything for herself.",
+    "opening_direction": "Start by zooming in on a pair of old, worn-out chappals kept neatly outside the shoe rack.",
+    "twist_direction": "Realizing she spends all her savings on family needs while wearing the same broken pair for years, leading to a silent emotional realization by the husband.",
+    "duration_seconds": 30,
     "posting_window": "07:00 AM - 09:00 AM",
-    "reason": "Leverages the successful relationship and nighttime-thoughts niche with a grounded, highly relatable digital-age habit."
+    "reason": "Leverages the proven high-performing spousal relationship theme while incorporating a concrete, highly visual everyday object as a hook."
   },
-  "experiment": "Testing if shifting from family bonds to modern relationship communication habits maintains the high view velocity seen in the husband-wife top performer.",
-  "updated_at": "2026-10-01T18:45:50.690095+00:00",
+  "experiment": "Testing if a visual object-based hook (worn shoes) drives higher retention than dialogue-based hooks in relationship videos.",
+  "updated_at": "2026-10-01T19:41:30.859954+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-01T18:45:53.589492+00:00"
+  "generated_at": "2026-10-01T19:41:33.629116+00:00"
 }
