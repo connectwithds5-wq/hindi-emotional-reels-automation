@@ -1,40 +1,45 @@
 {
-  "confidence": "35%",
+  "confidence": "30%",
   "data_points": 9,
-  "overall_summary": "The channel shows early traction with family and relationship-centric emotional dynamics. While overall view counts are generally low, the video focusing on a husband-wife dynamic ('or5gtaBpRVY') heavily outperformed others with 1,538 views, suggesting strong audience resonance for intimate relationship topics compared to generalized family member dedications.",
+  "overall_summary": "The channel shows early testing across family and relationship dynamics. Content focusing on core domestic relationships (spouse, parents, siblings) outperforms abstract motivational or sister-focused content. One outlier (wife emotional video) drove significantly higher views, but overall sample size remains small, requiring controlled exploration combined with our strongest pattern.",
   "winning_patterns": [
     {
-      "pattern": "Intimate relationship and marriage dynamics",
-      "evidence": "Video 'or5gtaBpRVY' about husband-wife understanding achieved 1,538 views, far exceeding sibling or parental dedications which averaged 100-200 views.",
-      "action": "Focus more core content on complex emotional moments within relationships, marriage, and unsaid feelings between partners."
+      "pattern": "Spouse & Close Family Dynamics",
+      "evidence": "Video 'or5gtaBpRVY' about husband-wife dynamics garnered 1,558 views, outperforming all other videos.",
+      "action": "Produce more relationship and marriage-focused emotional narratives."
     },
     {
-      "pattern": "Relatable everyday interpersonal connections",
-      "evidence": "Video 'rl_ycNbXZ_g' about checking in on loved ones got 288 views, higher than standard sibling tributes.",
-      "action": "Leverage relatable social behaviors and silent distancing in relationships as hooks."
+      "pattern": "Relatable Daily Domestic Realities",
+      "evidence": "Videos about mothers (224 views) and family communication (288 views) performed better than broader conceptual pieces.",
+      "action": "Anchor hooks in specific, everyday household micro-interactions."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Repetitive sibling and generic family titles",
-      "evidence": "Videos addressing sisters ('jfmMztnam_A', 'fAAoIQCRMXU') generated very low views (16 and 112).",
-      "action": "Avoid generic sister/brother tribute loops unless introducing a unique emotional conflict or specific untold realization."
+      "pattern": "Sibling Content Discrepancy",
+      "evidence": "Sister-focused videos received very low engagement (16 views, 115 views), while brother and parent videos performed moderately better.",
+      "action": "Temporarily deprioritize sister-centric hooks in favor of parental or marital themes."
+    },
+    {
+      "pattern": "Abstract Self-Motivation",
+      "evidence": "General motivational shorts ('तुम थके हो… हारे नहीं') received average traction compared to specific emotional relationship triggers.",
+      "action": "Ground motivational messages strictly inside interpersonal relationship conflicts rather than generic self-help."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "अधूरी मोहब्बत / अकेलापन",
-    "hook_style": "Real-life observation about people who stay online just waiting for one specific text.",
+    "emotion": "guilt and unspoken love",
+    "hook_style": "direct observation about unspoken distance between couples",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A person keeps checking their phone late at night, deleting and rewriting a message they never send, realizing the distance isn't of miles, but of unspoken ego.",
-    "opening_direction": "रात के 2 बजे सिर्फ वही लोग जागते हैं, जिनके पास सोने के लिए सुकून नहीं, और बात करने के लिए वो इंसान नहीं होता।",
-    "twist_direction": "और जब सुबह नोटिफिकेशन बजती है, तो दिल धड़कता है कि शायद उसका मैसेज होगा—पर स्क्रीन पर सिर्फ कंपनी का मैसेज होता है।",
+    "concept": "A husband notices his wife's silence at the dinner table and realizes how busy life has made them strangers living in the same house.",
+    "opening_direction": "Start with the sound of utensils and a wife keeping quiet while serving food, something every married viewer recognizes.",
+    "twist_direction": "Instead of an argument, he checks her phone to see she was reading an old chat from when they used to talk for hours.",
     "duration_seconds": 35,
-    "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Building on the winning pattern of relationship-based emotional friction while testing late-night relatable solitude ('रात के ख्याल') to engage active evening scrollers."
+    "posting_window": "07:00 AM - 09:00 AM",
+    "reason": "Capitalizes on the winning husband-wife emotional dynamic pattern identified in the top-performing video while testing a subtle, bittersweet nostalgia angle."
   },
-  "experiment": "Testing if late-night isolation and unsaid text anxiety hooks perform better than broad family relationship reminders.",
-  "updated_at": "2026-10-01T11:42:32.109185+00:00",
+  "experiment": "Testing if shifting the husband-wife theme from direct advice to subtle bittersweet nostalgia retains the high view counts of previous outliers.",
+  "updated_at": "2026-10-01T12:49:06.404466+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-01T11:42:35.485114+00:00"
+  "generated_at": "2026-10-01T12:49:10.040716+00:00"
 }
