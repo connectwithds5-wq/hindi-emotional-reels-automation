@@ -1,35 +1,40 @@
 {
-  "confidence": "40%",
+  "confidence": "35%",
   "data_points": 9,
-  "overall_summary": "Data is limited, but husband-wife relational content significantly outperformed other family dynamics (1568 views vs ~200 average), showing strong audience resonance for intimate relationship topics.",
+  "overall_summary": "Initial tests show that family dynamics, particularly relationship bonds and spousal understanding, significantly outperform generic motivational or sibling quotes. The video about the wife's perspective (or5gtaBpRVY) heavily outperformed others with 1,568 views, indicating that deeply relatable domestic and romantic relationship friction resonates best with the audience.",
   "winning_patterns": [
     {
-      "pattern": "Relationship dynamics (Husband-Wife)",
-      "evidence": "Video 'or5gtaBpRVY' about wives and husbands got 1568 views, roughly 5x-10x more than other topics.",
-      "action": "Focus more heavily on core relationship topics like misunderstandings, unexpressed feelings, and partner bonds."
+      "pattern": "Spousal / Close Relationship Dynamics",
+      "evidence": "Video or5gtaBpRVY about wives/husbands reached 1,568 views compared to averages of 100-200 views for other topics.",
+      "action": "Focus more heavily on relationship nuances, unspoken expectations between partners, and everyday emotional compromises."
+    },
+    {
+      "pattern": "Direct, Question-Based Hooks",
+      "evidence": "Videos addressing the viewer directly with a personal scenario (e.g., Maa asking 'Khana khaya?', or calling a loved one) performed steadily in the 200-300 view range.",
+      "action": "Open scripts with an intimate, familiar habit or domestic question rather than broad philosophical statements."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Broad motivational or generic sibling content",
-      "evidence": "Videos focusing on self-motivation or sister/brother bonds underperformed, pulling between 16 to 171 views.",
-      "action": "Avoid generic life coaching quotes and pivot towards specific emotional moments in intimate bonds."
+      "pattern": "Generic Sibling & Broad Motivation Tropes",
+      "evidence": "Sister/brother emotional videos like jfmMztnam_A and fAAoIQCRMXU received very low traction (16 and 115 views respectively).",
+      "action": "Pivot away from overly sweet, generic sibling clichés unless tied to a specific, high-tension real-life conflict."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "अधूरी मोहब्बत",
+    "emotion": "अधूरी मोहब्बत / अकेलापन",
     "hook_style": "Real-life observation",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A husband finding an old forgotten letter or gift from his wife years into a silent, routine marriage, realizing how much unsaid love still exists.",
-    "opening_direction": "सालों बाद आज अचानक अलमारी साफ करते वक्त उसकी पुरानी डायरी हाथ लग गई...",
-    "twist_direction": "पन्ने पलटे तो आखिरी लाइन पर नजर ठहर गई, लिखा था: 'तुम आज भी मुझे वैसे ही मनाते, तो शायद बात इतनी न बढ़ती।'",
-    "duration_seconds": 10,
+    "concept": "Online status vs real distance: When two people who used to talk all night now only look at each other's 'Last Seen'.",
+    "opening_direction": "Start with the small, habitual action of opening chat before sleeping, just to check the timestamp.",
+    "twist_direction": "Realize that block/silence hurts less than being reduced to mere strangers who occasionally view stories.",
+    "duration_seconds": 35,
     "posting_window": "07:00 AM - 09:00 AM",
-    "reason": "Leverages the proven high-performing husband-wife relationship angle while tapping into unspoken romantic nostalgia."
+    "reason": "Leverages the proven high-performing relationship/connection theme (seen in rl_ycNbXZ_g and or5gtaBpRVY) while exploring the core channel topic of 'अधूरी मोहब्बत' and 'रात के ख्याल'."
   },
-  "experiment": "Testing if deep emotional relationship nostalgia matches the massive success of the earlier husband-wife video format.",
-  "updated_at": "2026-10-01T14:44:44.827305+00:00",
+  "experiment": "Testing if mature romantic/unspoken distance ('अधूरी मोहब्बत') captures a larger share of audience attention compared to domestic family bonds.",
+  "updated_at": "2026-10-01T15:43:57.565696+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-01T14:44:47.752093+00:00"
+  "generated_at": "2026-10-01T15:44:00.866157+00:00"
 }
