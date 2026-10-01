@@ -1,35 +1,35 @@
 {
-  "confidence": "30%",
+  "confidence": "35%",
   "data_points": 9,
-  "overall_summary": "The channel has low overall view counts, but familial relationships and close bond themes (specifically husband-wife and motherly care) significantly outperformed generic or sibling-focused content. The wife/husband emotional video ('or5gtaBpRVY') heavily outperformed everything else with 1,510 views, suggesting high interest in relationship dynamics.",
+  "overall_summary": "Data volume is very low, yielding low statistical confidence. However, a clear outlier emerged with family/relationship dynamics—specifically the husband-wife emotional video ('or5gtaBpRVY') outperforming others significantly at 1.5K views. Content focusing on domestic relationships and emotional relationship dynamics resonates much better than generic brotherly/sisterly or motivational clips in this initial sample.",
   "winning_patterns": [
     {
-      "pattern": "Close interpersonal relationship dynamics (Husband-Wife / Mother)",
-      "evidence": "Wife emotional video reached 1,510 views (highest by far), and Maa Shayari reached 224 views.",
-      "action": "Focus more core content around subtle marital, partner, and maternal everyday relationship nuances."
+      "pattern": "Relationship & Domestic Dynamic Focus",
+      "evidence": "Wife/Husband emotional video (or5gtaBpRVY) gained 1,523 views, which is nearly 7x higher than the channel average.",
+      "action": "Double down on husband-wife and complex relationship themes rather than broad sibling or generic motivational topics."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic sibling emotional tropes (Sister/Bhai)",
-      "evidence": "Sister emotional videos stagnated between 16 and 108 views despite multiple attempts.",
-      "action": "Deprioritize sibling themes for now unless framed around a fresh, highly specific conflict or modern context."
+      "pattern": "Low-performing Sibling or Generic Family Shorts",
+      "evidence": "Sister emotional videos (jfmMztnam_A, fAAoIQCRMXU) scored extremely low views (16 and 111 views respectively).",
+      "action": "Deprioritize standalone sibling emotional tropes for the immediate future to conserve effort."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "अधूरी मोहब्बत",
-    "hook_style": "Simple real-life observation about unsaid words between partners",
+    "emotion": "गुमसुम प्यार और अनदेखा दर्द",
+    "hook_style": "situational real-life observation",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short piece on how late-night online chats turn into silence over time, focusing on the distance created even while living under the same roof.",
-    "opening_direction": "रात के 2 बजे ऑनलाइन होना, पर मैसेज किसी और को नहीं, पुरानी चैट को पढ़ना...",
-    "twist_direction": "...\nऔर फिर समझ आया कि फासले शहर बदलने से नहीं, बात बंद होने से आते हैं।",
-    "duration_seconds": 12,
+    "concept": "जब शादी के कुछ साल बाद बातें कम और सिर्फ शिकायतें बच जाती हैं, तब रात के अंधेरे में एक-दूसरे का हाल पूछना।",
+    "opening_direction": "रात के 2 बजे हैं, चाय ठंडी हो चुकी है और दोनों फोन में देख रहे हैं बिना एक शब्द बोले।",
+    "twist_direction": "मोहब्बत खत्म नहीं होती, बस कोई पहले 'सब ठीक है ना?' पूछने की हिम्मत नहीं जुटा पाता।",
+    "duration_seconds": 35,
     "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Aligns with the top-performing relationship category ('रिश्ते') and targets late-night emotional scrolling behavior ('रात के ख्याल')."
+    "reason": "Capitalizes on the winning husband-wife/relationship pattern that showed high engagement previously, while leaning into core channel themes like 'रात के ख्याल' and 'रिश्ते'."
   },
-  "experiment": "Testing whether shifting from broad family relationship tropes to modern partner/relationship distance ('रिश्ते' / 'रात के ख्याल') can replicate or exceed the high view count of the husband-wife video.",
-  "updated_at": "2026-10-01T04:44:27.658390+00:00",
+  "experiment": "Testing if the high performance of the previous husband-wife video was a repeatable pattern for domestic relationship content or an anomaly.",
+  "updated_at": "2026-10-01T05:42:34.322674+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-01T04:44:30.317273+00:00"
+  "generated_at": "2026-10-01T05:42:37.000006+00:00"
 }
