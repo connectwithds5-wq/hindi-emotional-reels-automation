@@ -1,40 +1,35 @@
 {
-  "confidence": "35%",
+  "confidence": "25%",
   "data_points": 9,
-  "overall_summary": "Initial tests show that family dynamics, particularly relationship bonds and spousal understanding, significantly outperform generic motivational or sibling quotes. The video about the wife's perspective (or5gtaBpRVY) heavily outperformed others with 1,568 views, indicating that deeply relatable domestic and romantic relationship friction resonates best with the audience.",
+  "overall_summary": "Data volume is very low, making statistical confidence low. However, romantic and marital relationship content ('पत्नी की ये बात...') significantly outperformed family and motivational shorts, indicating a strong audience pull toward relational dynamics.",
   "winning_patterns": [
     {
-      "pattern": "Spousal / Close Relationship Dynamics",
-      "evidence": "Video or5gtaBpRVY about wives/husbands reached 1,568 views compared to averages of 100-200 views for other topics.",
-      "action": "Focus more heavily on relationship nuances, unspoken expectations between partners, and everyday emotional compromises."
-    },
-    {
-      "pattern": "Direct, Question-Based Hooks",
-      "evidence": "Videos addressing the viewer directly with a personal scenario (e.g., Maa asking 'Khana khaya?', or calling a loved one) performed steadily in the 200-300 view range.",
-      "action": "Open scripts with an intimate, familiar habit or domestic question rather than broad philosophical statements."
+      "pattern": "Marital/Romantic Relationship Dynamics",
+      "evidence": "Video 'or5gtaBpRVY' about husband-wife achieved 1,568 views, far outperforming all other topics.",
+      "action": "Double down on relationship, partner, and unexpressed love themes while keeping a small budget for family topics."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sibling & Broad Motivation Tropes",
-      "evidence": "Sister/brother emotional videos like jfmMztnam_A and fAAoIQCRMXU received very low traction (16 and 115 views respectively).",
-      "action": "Pivot away from overly sweet, generic sibling clichés unless tied to a specific, high-tension real-life conflict."
+      "pattern": "Broad Family/Sibling Topics",
+      "evidence": "Sister emotional videos and general brother/sister quotes hovered between 16 and 115 views.",
+      "action": "Shift focus away from broad sibling platitudes unless framed around modern emotional conflict."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "अधूरी मोहब्बत / अकेलापन",
-    "hook_style": "Real-life observation",
+    "emotion": "अधूरी मोहब्बत",
+    "hook_style": "Real-life observational dialogue",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Online status vs real distance: When two people who used to talk all night now only look at each other's 'Last Seen'.",
-    "opening_direction": "Start with the small, habitual action of opening chat before sleeping, just to check the timestamp.",
-    "twist_direction": "Realize that block/silence hurts less than being reduced to mere strangers who occasionally view stories.",
-    "duration_seconds": 35,
+    "concept": "A couple sitting silently in a room, scrolling phones, but one is looking at an old photo.",
+    "opening_direction": "ऑनलाइन होने पर भी बात न होना अब झगड़ा नहीं, दूरी बन गया है...",
+    "twist_direction": "अकसर लोग बिजी होने का बहाना देते हैं, पर असली सच ये है कि अब इंतज़ार करने वाला भी थक जाता है।",
+    "duration_seconds": 15,
     "posting_window": "07:00 AM - 09:00 AM",
-    "reason": "Leverages the proven high-performing relationship/connection theme (seen in rl_ycNbXZ_g and or5gtaBpRVY) while exploring the core channel topic of 'अधूरी मोहब्बत' and 'रात के ख्याल'."
+    "reason": "Capitalizes on the winning relationship/distance theme seen in top-performing content."
   },
-  "experiment": "Testing if mature romantic/unspoken distance ('अधूरी मोहब्बत') captures a larger share of audience attention compared to domestic family bonds.",
-  "updated_at": "2026-10-01T15:43:57.565696+00:00",
+  "experiment": "Testing if modern relationship emotional distance performs consistently higher than classic family emotional tropes.",
+  "updated_at": "2026-10-01T16:41:46.622269+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-01T15:44:00.866157+00:00"
+  "generated_at": "2026-10-01T16:41:49.225875+00:00"
 }
