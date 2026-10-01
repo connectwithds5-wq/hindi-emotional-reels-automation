@@ -1,45 +1,35 @@
 {
-  "confidence": "40%",
+  "confidence": "35%",
   "data_points": 9,
-  "overall_summary": "The channel shows a massive outlier with family/relationship content, specifically focusing on husband-wife dynamics (1505 views), while other family member videos (Maa, Papa, Bhai) performed moderately well (100-220 views). General emotional and motivational clips performed decently, but low view counts across the board suggest we are still in an early testing phase with low sample size.",
+  "overall_summary": "Most videos received modest views between 100-300, but one clear outlier 'Wife Emotional Video' (or5gtaBpRVY) achieved 1,505 views, indicating strong audience interest in domestic and marital relationships compared to general family members or broad shayari.",
   "winning_patterns": [
     {
-      "pattern": "Core relationship & family dynamics",
-      "evidence": "Video 'or5gtaBpRVY' about husband-wife achieved 1505 views, significantly outperforming all other topics.",
-      "action": "Double down on close interpersonal relationships, particularly partner and marital dynamics."
-    },
-    {
-      "pattern": "Relatable everyday domestic observations",
-      "evidence": "Videos about Maa ('कुश पूछती है खाना खाया') and Papa ('कहा नहीं कि थक गए हैं') performed steadily above 130-220 views.",
-      "action": "Continue framing hooks around familiar, unexpressed everyday moments within relationships."
+      "pattern": "Marital/Domestic Relationships",
+      "evidence": "Wife/Husband dynamic video (or5gtaBpRVY) got 1,505 views, significantly outperforming all other family and motivational shorts.",
+      "action": "Focus more heavily on relationship and marriage dynamics in upcoming uploads."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Overly preachy or instructional phrasing",
-      "evidence": "Video 'pzlf0YXKgLA' about children's values had lower relative engagement despite broad appeal.",
-      "action": "Avoid sounding like advice columns; keep the tone rooted in emotional reflection rather than teaching lessons."
-    },
-    {
-      "pattern": "Repeated sister topic saturation",
-      "evidence": "Both sister-themed videos failed to break out (16 and 107 views), indicating lower audience interest in this specific family subset right now.",
-      "action": "Temporarily pause sister-focused tropes and shift focus to romantic ties and core family bonds."
+      "pattern": "Generic Sister/Sibling Content",
+      "evidence": "Sister emotional videos (jfmMztnam_A, fAAoIQCRMXU) performed poorly, getting as low as 16 views.",
+      "action": "Deprioritize standalone sister/brother tropes unless paired with a deeply unique relationship angle."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "अधूरी मोहब्बत / ठहराव",
-    "hook_style": "Real-life observation about unsaid words between partners",
+    "emotion": "guilt and unspoken love",
+    "hook_style": "observational daily life habit",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short reflection on how online chats become empty folders while real feelings stay unsaid.",
-    "opening_direction": "रात के 2 बजे उसका लास्ट सीन देखने की आदत अब छूट गई है...",
-    "twist_direction": "...क्योंकि अब फर्क नहीं पड़ता वो ऑनलाइन है या नहीं, अब तो डर इस बात का है कि वो हमारी यादों से ऑफलाइन कब होगी।",
-    "duration_seconds": 12,
-    "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Capitalizes on the winning relationship-emotional vertical while testing night-time relational reflection (रात के ख्याल) which aligns with channel topics."
+    "concept": "A husband noticing his wife's silence after an argument, realizing she stopped complaining because she stopped caring.",
+    "opening_direction": "जब पत्नी अचानक चुप हो जाए, तो समझ लेना...",
+    "twist_direction": "शोर से नहीं, उसकी ख़ामोशी से डरना चाहिए",
+    "duration_seconds": 30,
+    "posting_window": "07:00 AM - 09:00 AM",
+    "reason": "Leverages the winning domestic/marital relationship pattern from the highest performing historical video."
   },
-  "experiment": "Testing a transition from general family relationships to nighttime romantic longing (रात के ख्याल) to see if it captures the high engagement seen in the husband-wife outlier.",
-  "updated_at": "2026-10-01T01:42:07.402898+00:00",
+  "experiment": "Testing if shifting focus entirely from general family members to marital/relationship dynamics sustains the higher view count seen in the outlier video.",
+  "updated_at": "2026-10-01T02:43:16.512101+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-01T01:42:10.617793+00:00"
+  "generated_at": "2026-10-01T02:43:18.583403+00:00"
 }
