@@ -1,35 +1,35 @@
 {
-  "confidence": "25%",
+  "confidence": "30%",
   "data_points": 9,
-  "overall_summary": "The channel shows early traction with domestic and relationship-oriented emotional content. A video focusing on husband-wife dynamics ('or5gtaBpRVY') heavily outperformed all others with 1,510 views, while family relationship videos like Maa and Papa performed moderately well compared to siblings or pure abstract quotes.",
+  "overall_summary": "The channel has low overall view counts, but familial relationships and close bond themes (specifically husband-wife and motherly care) significantly outperformed generic or sibling-focused content. The wife/husband emotional video ('or5gtaBpRVY') heavily outperformed everything else with 1,510 views, suggesting high interest in relationship dynamics.",
   "winning_patterns": [
     {
-      "pattern": "Close interpersonal relationship dynamics (Husband-Wife / Parents)",
-      "evidence": "Wife emotional video achieved 1,510 views (highest by far), Maa achieved 224 views, and Papa achieved 139 views.",
-      "action": "Lean further into domestic relationships and emotional intelligence between partners or parents and children."
+      "pattern": "Close interpersonal relationship dynamics (Husband-Wife / Mother)",
+      "evidence": "Wife emotional video reached 1,510 views (highest by far), and Maa Shayari reached 224 views.",
+      "action": "Focus more core content around subtle marital, partner, and maternal everyday relationship nuances."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Sibling relationship videos with low differentiation",
-      "evidence": "Sister emotional videos ('jfmMztnam_A', 'fAAoIQCRMXU') severely underperformed with 16 and 108 views.",
-      "action": "Pause generic sister/brother tropes and test more nuanced family guilt or unspoken partner dynamics."
+      "pattern": "Generic sibling emotional tropes (Sister/Bhai)",
+      "evidence": "Sister emotional videos stagnated between 16 and 108 views despite multiple attempts.",
+      "action": "Deprioritize sibling themes for now unless framed around a fresh, highly specific conflict or modern context."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "guilt and unspoken care",
-    "hook_style": "situational reality check",
+    "emotion": "अधूरी मोहब्बत",
+    "hook_style": "Simple real-life observation about unsaid words between partners",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A working husband realizes his wife hasn't bought anything for herself in months while managing everything at home.",
-    "opening_direction": "जब पत्नी अपनी पुरानी सूती साड़ी को संभालते हुए मुस्कुरा दे...",
-    "twist_direction": "खुशियों की इस चादर के नीचे उसकी अपनी हर एक ख्वाहिश दबी रह जाती है.",
-    "duration_seconds": 35,
-    "posting_window": "07:00 AM - 09:00 AM",
-    "reason": "Capitalizes on the proven high-engagement pattern of domestic relationship dynamics seen in the top-performing video while addressing an emotional pain point of sacrifice."
+    "concept": "A short piece on how late-night online chats turn into silence over time, focusing on the distance created even while living under the same roof.",
+    "opening_direction": "रात के 2 बजे ऑनलाइन होना, पर मैसेज किसी और को नहीं, पुरानी चैट को पढ़ना...",
+    "twist_direction": "...\nऔर फिर समझ आया कि फासले शहर बदलने से नहीं, बात बंद होने से आते हैं।",
+    "duration_seconds": 12,
+    "posting_window": "07:00 PM - 09:00 PM",
+    "reason": "Aligns with the top-performing relationship category ('रिश्ते') and targets late-night emotional scrolling behavior ('रात के ख्याल')."
   },
-  "experiment": "Testing if intimate domestic sacrifice performs consistently better than broader family or philosophical shayari.",
-  "updated_at": "2026-10-01T03:43:47.106874+00:00",
+  "experiment": "Testing whether shifting from broad family relationship tropes to modern partner/relationship distance ('रिश्ते' / 'रात के ख्याल') can replicate or exceed the high view count of the husband-wife video.",
+  "updated_at": "2026-10-01T04:44:27.658390+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-01T03:43:49.698222+00:00"
+  "generated_at": "2026-10-01T04:44:30.317273+00:00"
 }
