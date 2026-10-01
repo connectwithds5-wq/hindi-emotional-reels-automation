@@ -1,45 +1,40 @@
 {
-  "confidence": "45%",
+  "confidence": "35%",
   "data_points": 9,
-  "overall_summary": "The channel shows early breakout potential in relationship and family dynamics, particularly with spouse-centric emotional content (e.g., 'पत्नी की ये बात...'), while sibling and general motivational content had lower initial velocity. Sample size is small, so confidence is moderate.",
+  "overall_summary": "The data sample is extremely small (9 videos), leading to low statistical confidence. However, clear audience preference is visible toward domestic relationship dynamics and deep-rooted family emotional bonds, specifically husband-wife and mother relationships, compared to generic motivational content.",
   "winning_patterns": [
     {
-      "pattern": "Spouse & Relationship Relatability",
-      "evidence": "Video 'or5gtaBpRVY' about understanding a wife's perspective achieved 1,604 views, significantly outperforming all other content.",
-      "action": "Double down on husband-wife dynamics and unspoken relationship burdens."
+      "pattern": "Domestic Relationship Dynamics",
+      "evidence": "Video 'or5gtaBpRVY' focusing on husband-wife dynamics heavily outperformed others with 1,604 views.",
+      "action": "Produce more narrative-driven shorts focused on close familial and marital relationship nuances."
     },
     {
-      "pattern": "Parental Bonds",
-      "evidence": "Maa video ('OfHrAp3r1G8') got 224 views, higher than sister or brother standalone videos.",
-      "action": "Prioritize core family roles (Maa, Papa, Spouse) over extended family."
+      "pattern": "Mother-Centric Emotional Triggers",
+      "evidence": "Video 'OfHrAp3r1G8' about a mother asking 'khana khaya?' secured the second-highest views at 224.",
+      "action": "Use relatable, everyday domestic dialogues as foundational hooks."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Repeated Sibling Content Without Variation",
-      "evidence": "Sister videos published closely together ('jfmMztnam_A' with 17 views, 'fAAoIQCRMXU' with 121 views) showed fatigue and weak initial pull.",
-      "action": "Avoid repetitive topics within short timeframes; space out family-centric themes."
-    },
-    {
-      "pattern": "Generic Motivation",
-      "evidence": "Self-motivation video ('JPf_3ebfnuk') secured only 171 views compared to deep emotional relationship pieces.",
-      "action": "Shift focus away from generic motivation toward situational emotional storytelling."
+      "pattern": "Repetitive Content Redundancy",
+      "evidence": "Uploading two variations of the sister emotional video ('jfmMztnam_A' with 17 views and 'fAAoIQCRMXU' with 121 views) led to audience fatigue and lower engagement on the second attempt.",
+      "action": "Avoid rapid repetition of the exact same sub-topic within a short timeframe; space out core themes."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "अधूरी बात और गिल्ट",
-    "hook_style": "Real-life moment observation",
+    "emotion": "अधूरी मोहब्बत / अकेलापन",
+    "hook_style": "Real-life everyday quiet moment",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "रात को सोते वक्त फोन चेक करना जब दोनों नाराज होकर सोए हों",
-    "opening_direction": "गुस्से में पीठ फेरकर सोना आसान होता है, पर रात के 2 बजे वो खाली जगह चुभती है।",
-    "twist_direction": "सुबह सॉरी बोलने के लिए शब्द ढूंढ रहे थे, पर तब तक वो चाय का कप सामने रख चुकी थी।",
+    "concept": "A late-night chat box that remains open but unused, reflecting two people who grew apart silently.",
+    "opening_direction": "Start with the visual of typing a long message at 2 AM and then deleting it completely.",
+    "twist_direction": "Realizing that the heaviest goodbyes are the ones never spoken out loud.",
     "duration_seconds": 30,
-    "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Capitalizes on the high-performing relationship/spouse dynamic proven by the top video, focusing on raw daily life observations."
+    "posting_window": "07:00 AM - 09:00 AM",
+    "reason": "Building on the winning high-performing family/relationship domestic emotional narrative structure while tapping into the core late-night 'रात के ख्याल' audience segment."
   },
-  "experiment": "Testing if late-night husband-wife reconciliation micro-moments can replicate the outlier success of the previous wife-focused short.",
-  "updated_at": "2026-10-01T20:43:26.363813+00:00",
+  "experiment": "Testing if shifting the highest-performing domestic relationship narrative style back into late-night emotional/loneliness topics yields stable mid-tier views above 500.",
+  "updated_at": "2026-10-01T21:43:23.024699+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-01T20:43:29.191087+00:00"
+  "generated_at": "2026-10-01T21:43:25.873918+00:00"
 }
