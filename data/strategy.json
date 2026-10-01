@@ -1,45 +1,35 @@
 {
-  "confidence": "30%",
+  "confidence": "35%",
   "data_points": 9,
-  "overall_summary": "The channel shows early testing across family and relationship dynamics. Content focusing on core domestic relationships (spouse, parents, siblings) outperforms abstract motivational or sister-focused content. One outlier (wife emotional video) drove significantly higher views, but overall sample size remains small, requiring controlled exploration combined with our strongest pattern.",
+  "overall_summary": "The performance data is limited, but a clear outlier exists around family and relationship dynamics. The video 'पत्नी की ये बात हर पति को समझनी चाहिए' significantly outperformed all others with 1,558 views, indicating that husband-wife dynamics and relational empathy strike a much stronger chord than generalized motivational or parent-child content in the current sample size.",
   "winning_patterns": [
     {
-      "pattern": "Spouse & Close Family Dynamics",
-      "evidence": "Video 'or5gtaBpRVY' about husband-wife dynamics garnered 1,558 views, outperforming all other videos.",
-      "action": "Produce more relationship and marriage-focused emotional narratives."
-    },
-    {
-      "pattern": "Relatable Daily Domestic Realities",
-      "evidence": "Videos about mothers (224 views) and family communication (288 views) performed better than broader conceptual pieces.",
-      "action": "Anchor hooks in specific, everyday household micro-interactions."
+      "pattern": "Husband-Wife / Relationship Dynamics",
+      "evidence": "Video ID or5gtaBpRVY about wives/husbands garnered 1,558 views, which is nearly 6x higher than the channel average.",
+      "action": "Produce more content focusing on marital understanding, unspoken expectations between partners, and relationship nuances."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Sibling Content Discrepancy",
-      "evidence": "Sister-focused videos received very low engagement (16 views, 115 views), while brother and parent videos performed moderately better.",
-      "action": "Temporarily deprioritize sister-centric hooks in favor of parental or marital themes."
-    },
-    {
-      "pattern": "Abstract Self-Motivation",
-      "evidence": "General motivational shorts ('तुम थके हो… हारे नहीं') received average traction compared to specific emotional relationship triggers.",
-      "action": "Ground motivational messages strictly inside interpersonal relationship conflicts rather than generic self-help."
+      "pattern": "Generic Sister/Sibling Content",
+      "evidence": "Videos focusing on sisters (jfmMztnam_A and fAAoIQCRMXU) performed poorly, averaging around 65 views.",
+      "action": "Deprioritize standalone sister emotional tropes for now unless tied to a unique situational conflict."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "guilt and unspoken love",
-    "hook_style": "direct observation about unspoken distance between couples",
+    "emotion": "guilt and realization",
+    "hook_style": "situational observation",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A husband notices his wife's silence at the dinner table and realizes how busy life has made them strangers living in the same house.",
-    "opening_direction": "Start with the sound of utensils and a wife keeping quiet while serving food, something every married viewer recognizes.",
-    "twist_direction": "Instead of an argument, he checks her phone to see she was reading an old chat from when they used to talk for hours.",
+    "concept": "A husband notices his wife has stopped complaining about things that used to bother her, realizing too late that silence in a marriage isn't peace, it's detachment.",
+    "opening_direction": "Start with a quiet domestic scene: a wife quietly organizing things while the husband scrolls on his phone.",
+    "twist_direction": "The husband thinks she has finally matured and stopped nagging, only to realize she has stopped caring altogether.",
     "duration_seconds": 35,
     "posting_window": "07:00 AM - 09:00 AM",
-    "reason": "Capitalizes on the winning husband-wife emotional dynamic pattern identified in the top-performing video while testing a subtle, bittersweet nostalgia angle."
+    "reason": "Leverages the proven high-performing husband-wife relationship niche while introducing a sharper psychological twist to improve audience retention and drive comments."
   },
-  "experiment": "Testing if shifting the husband-wife theme from direct advice to subtle bittersweet nostalgia retains the high view counts of previous outliers.",
-  "updated_at": "2026-10-01T12:49:06.404466+00:00",
+  "experiment": "Testing if emotional detachment in marriage drives higher comment engagement compared to standard sentimental relationship advice.",
+  "updated_at": "2026-10-01T13:44:14.799214+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-01T12:49:10.040716+00:00"
+  "generated_at": "2026-10-01T13:44:18.484291+00:00"
 }
