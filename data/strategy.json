@@ -1,35 +1,35 @@
 {
-  "confidence": "25%",
+  "confidence": "35%",
   "data_points": 9,
-  "overall_summary": "Data volume is very low, making statistical confidence low. However, romantic and marital relationship content ('पत्नी की ये बात...') significantly outperformed family and motivational shorts, indicating a strong audience pull toward relational dynamics.",
+  "overall_summary": "The channel shows a massive outlier with the video about husband-wife dynamics ('पत्नी की ये बात हर पति को समझनी चाहिए', 1,568 views) compared to familial relationship shorts which hover around 100-200 views, while pure sister-focused content underperformed significantly.",
   "winning_patterns": [
     {
-      "pattern": "Marital/Romantic Relationship Dynamics",
-      "evidence": "Video 'or5gtaBpRVY' about husband-wife achieved 1,568 views, far outperforming all other topics.",
-      "action": "Double down on relationship, partner, and unexpressed love themes while keeping a small budget for family topics."
+      "pattern": "Core relationship and marital emotional dynamics",
+      "evidence": "Wife/husband video (or5gtaBpRVY) achieved 1,568 views, significantly outperforming all other topics.",
+      "action": "Focus more core content on complex emotional ties, husband-wife, and romantic/relational bonds rather than just generic family roles."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Broad Family/Sibling Topics",
-      "evidence": "Sister emotional videos and general brother/sister quotes hovered between 16 and 115 views.",
-      "action": "Shift focus away from broad sibling platitudes unless framed around modern emotional conflict."
+      "pattern": "Repetitive sibling emotional tropes",
+      "evidence": "Sister emotional videos (jfmMztnam_A with 16 views and fAAoIQCRMXU with 115 views) showed lower engagement and weaker algorithmic pickup.",
+      "action": "Pause direct sister-focused shorts for now and pivot towards broader relationship and loneliness themes."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "अधूरी मोहब्बत",
-    "hook_style": "Real-life observational dialogue",
+    "emotion": "अधूरी मोहब्बत / पुराना अहसास",
+    "hook_style": "Real-life observational question about unspoken words in a relationship",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple sitting silently in a room, scrolling phones, but one is looking at an old photo.",
-    "opening_direction": "ऑनलाइन होने पर भी बात न होना अब झगड़ा नहीं, दूरी बन गया है...",
-    "twist_direction": "अकसर लोग बिजी होने का बहाना देते हैं, पर असली सच ये है कि अब इंतज़ार करने वाला भी थक जाता है।",
-    "duration_seconds": 15,
-    "posting_window": "07:00 AM - 09:00 AM",
-    "reason": "Capitalizes on the winning relationship/distance theme seen in top-performing content."
+    "concept": "A short about how people who used to talk for hours now act like strangers on social media, checking each other's status without saying a word.",
+    "opening_direction": "Start with the simple act of checking someone's last seen or story silently late at night.",
+    "twist_direction": "Conclude that the scariest part isn't a breakup, it's becoming invisible to the person who knew you inside out.",
+    "duration_seconds": 35,
+    "posting_window": "07:00 PM - 09:00 PM",
+    "reason": "Leverages the winning pattern of high-engagement relational/emotional topics while aligning with 'रात के ख्याल' and 'रिश्ते' channel pillars for evening engagement."
   },
-  "experiment": "Testing if modern relationship emotional distance performs consistently higher than classic family emotional tropes.",
-  "updated_at": "2026-10-01T16:41:46.622269+00:00",
+  "experiment": "Testing if romantic/relational unspoken distance (अधूरी मोहब्बत) can consistently replicate the high views seen on the husband-wife relationship short.",
+  "updated_at": "2026-10-01T17:42:36.831084+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-01T16:41:49.225875+00:00"
+  "generated_at": "2026-10-01T17:42:39.681635+00:00"
 }
