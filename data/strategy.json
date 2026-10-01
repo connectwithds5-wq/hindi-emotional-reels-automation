@@ -1,35 +1,35 @@
 {
-  "confidence": "35%",
+  "confidence": "25%",
   "data_points": 9,
-  "overall_summary": "Most videos received modest views between 100-300, but one clear outlier 'Wife Emotional Video' (or5gtaBpRVY) achieved 1,505 views, indicating strong audience interest in domestic and marital relationships compared to general family members or broad shayari.",
+  "overall_summary": "The channel shows early traction with domestic and relationship-oriented emotional content. A video focusing on husband-wife dynamics ('or5gtaBpRVY') heavily outperformed all others with 1,510 views, while family relationship videos like Maa and Papa performed moderately well compared to siblings or pure abstract quotes.",
   "winning_patterns": [
     {
-      "pattern": "Marital/Domestic Relationships",
-      "evidence": "Wife/Husband dynamic video (or5gtaBpRVY) got 1,505 views, significantly outperforming all other family and motivational shorts.",
-      "action": "Focus more heavily on relationship and marriage dynamics in upcoming uploads."
+      "pattern": "Close interpersonal relationship dynamics (Husband-Wife / Parents)",
+      "evidence": "Wife emotional video achieved 1,510 views (highest by far), Maa achieved 224 views, and Papa achieved 139 views.",
+      "action": "Lean further into domestic relationships and emotional intelligence between partners or parents and children."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sister/Sibling Content",
-      "evidence": "Sister emotional videos (jfmMztnam_A, fAAoIQCRMXU) performed poorly, getting as low as 16 views.",
-      "action": "Deprioritize standalone sister/brother tropes unless paired with a deeply unique relationship angle."
+      "pattern": "Sibling relationship videos with low differentiation",
+      "evidence": "Sister emotional videos ('jfmMztnam_A', 'fAAoIQCRMXU') severely underperformed with 16 and 108 views.",
+      "action": "Pause generic sister/brother tropes and test more nuanced family guilt or unspoken partner dynamics."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "guilt and unspoken love",
-    "hook_style": "observational daily life habit",
+    "emotion": "guilt and unspoken care",
+    "hook_style": "situational reality check",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A husband noticing his wife's silence after an argument, realizing she stopped complaining because she stopped caring.",
-    "opening_direction": "जब पत्नी अचानक चुप हो जाए, तो समझ लेना...",
-    "twist_direction": "शोर से नहीं, उसकी ख़ामोशी से डरना चाहिए",
-    "duration_seconds": 30,
+    "concept": "A working husband realizes his wife hasn't bought anything for herself in months while managing everything at home.",
+    "opening_direction": "जब पत्नी अपनी पुरानी सूती साड़ी को संभालते हुए मुस्कुरा दे...",
+    "twist_direction": "खुशियों की इस चादर के नीचे उसकी अपनी हर एक ख्वाहिश दबी रह जाती है.",
+    "duration_seconds": 35,
     "posting_window": "07:00 AM - 09:00 AM",
-    "reason": "Leverages the winning domestic/marital relationship pattern from the highest performing historical video."
+    "reason": "Capitalizes on the proven high-engagement pattern of domestic relationship dynamics seen in the top-performing video while addressing an emotional pain point of sacrifice."
   },
-  "experiment": "Testing if shifting focus entirely from general family members to marital/relationship dynamics sustains the higher view count seen in the outlier video.",
-  "updated_at": "2026-10-01T02:43:16.512101+00:00",
+  "experiment": "Testing if intimate domestic sacrifice performs consistently better than broader family or philosophical shayari.",
+  "updated_at": "2026-10-01T03:43:47.106874+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-01T02:43:18.583403+00:00"
+  "generated_at": "2026-10-01T03:43:49.698222+00:00"
 }
