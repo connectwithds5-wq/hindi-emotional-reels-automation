@@ -1,35 +1,45 @@
 {
-  "confidence": "35%",
+  "confidence": "45%",
   "data_points": 9,
-  "overall_summary": "The channel shows early traction in family and relationship dynamics, notably with 'Wife Emotional Video' performing as an outlier (1.6k views), while broad mother/father/self-motivation themes consistently average 150-220 views. Overall data volume is low, so confidence is limited.",
+  "overall_summary": "The channel shows early breakout potential in relationship and family dynamics, particularly with spouse-centric emotional content (e.g., 'पत्नी की ये बात...'), while sibling and general motivational content had lower initial velocity. Sample size is small, so confidence is moderate.",
   "winning_patterns": [
     {
-      "pattern": "Core family and relationship dynamics",
-      "evidence": "Video ID or5gtaBpRVY about husbands and wives heavily outperformed others with 1600 views.",
-      "action": "Focus more narratives on closely observed domestic and spousal dynamics rather than broad motivational quotes."
+      "pattern": "Spouse & Relationship Relatability",
+      "evidence": "Video 'or5gtaBpRVY' about understanding a wife's perspective achieved 1,604 views, significantly outperforming all other content.",
+      "action": "Double down on husband-wife dynamics and unspoken relationship burdens."
+    },
+    {
+      "pattern": "Parental Bonds",
+      "evidence": "Maa video ('OfHrAp3r1G8') got 224 views, higher than sister or brother standalone videos.",
+      "action": "Prioritize core family roles (Maa, Papa, Spouse) over extended family."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic sibling re-uploads",
-      "evidence": "Sister emotional videos dropped significantly in later iterations (e.g., fAAoIQCRMXU got only 121 views compared to earlier attempts).",
-      "action": "Avoid repeating very similar sister/brother tropes without a fresh angle or stronger emotional hook."
+      "pattern": "Repeated Sibling Content Without Variation",
+      "evidence": "Sister videos published closely together ('jfmMztnam_A' with 17 views, 'fAAoIQCRMXU' with 121 views) showed fatigue and weak initial pull.",
+      "action": "Avoid repetitive topics within short timeframes; space out family-centric themes."
+    },
+    {
+      "pattern": "Generic Motivation",
+      "evidence": "Self-motivation video ('JPf_3ebfnuk') secured only 171 views compared to deep emotional relationship pieces.",
+      "action": "Shift focus away from generic motivation toward situational emotional storytelling."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "guilt and unspoken love",
-    "hook_style": "situational real-life observation",
+    "emotion": "अधूरी बात और गिल्ट",
+    "hook_style": "Real-life moment observation",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A husband noticing his wife's worn-out footwear in the hallway and remembering she never buys anything for herself.",
-    "opening_direction": "Start by zooming in on a pair of old, worn-out chappals kept neatly outside the shoe rack.",
-    "twist_direction": "Realizing she spends all her savings on family needs while wearing the same broken pair for years, leading to a silent emotional realization by the husband.",
+    "concept": "रात को सोते वक्त फोन चेक करना जब दोनों नाराज होकर सोए हों",
+    "opening_direction": "गुस्से में पीठ फेरकर सोना आसान होता है, पर रात के 2 बजे वो खाली जगह चुभती है।",
+    "twist_direction": "सुबह सॉरी बोलने के लिए शब्द ढूंढ रहे थे, पर तब तक वो चाय का कप सामने रख चुकी थी।",
     "duration_seconds": 30,
-    "posting_window": "07:00 AM - 09:00 AM",
-    "reason": "Leverages the proven high-performing spousal relationship theme while incorporating a concrete, highly visual everyday object as a hook."
+    "posting_window": "07:00 PM - 09:00 PM",
+    "reason": "Capitalizes on the high-performing relationship/spouse dynamic proven by the top video, focusing on raw daily life observations."
   },
-  "experiment": "Testing if a visual object-based hook (worn shoes) drives higher retention than dialogue-based hooks in relationship videos.",
-  "updated_at": "2026-10-01T19:41:30.859954+00:00",
+  "experiment": "Testing if late-night husband-wife reconciliation micro-moments can replicate the outlier success of the previous wife-focused short.",
+  "updated_at": "2026-10-01T20:43:26.363813+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-01T19:41:33.629116+00:00"
+  "generated_at": "2026-10-01T20:43:29.191087+00:00"
 }
