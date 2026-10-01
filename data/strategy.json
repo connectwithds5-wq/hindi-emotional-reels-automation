@@ -1,35 +1,35 @@
 {
   "confidence": "35%",
   "data_points": 9,
-  "overall_summary": "Data volume is very low, but clear viewer preference leans towards intimate family relationship dynamics and mature emotional realities, highlighted by an outlier success in the husband-wife relationship category.",
+  "overall_summary": "Data volume is low (9 videos). A single standout video on husband-wife relationship dynamic generated 1,504 views compared to the channel average (~300 views), while sibling-focused content consistently underperformed. Confidence is low due to sample size, requiring controlled exploration around relational themes.",
   "winning_patterns": [
     {
-      "pattern": "Core family and relationship dynamics",
-      "evidence": "Videos about mothers (224 views) and husbands/wives (1502 views) significantly outperformed general or motivational content.",
-      "action": "Focus upcoming concepts on close familial and marital bonds."
+      "pattern": "Husband-Wife and Interpersonal Relationship Dynamics",
+      "evidence": "Video on wife emotional video (or5gtaBpRVY) achieved 1,504 views and 45 likes; video on calling an estranged loved one (rl_ycNbXZ_g) got 288 views.",
+      "action": "Double down on adult relationship empathy, quiet sacrifices, and unsaid words between partners or family."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Sibling content underperformance",
-      "evidence": "Sister/brother emotional videos received low views (16 to 109 views).",
-      "action": "Temporarily pause sibling-focused topics and allocate budget to spousal and parental themes."
+      "pattern": "Generic Sibling & Sister Emotional Content",
+      "evidence": "Sister-focused videos (jfmMztnam_A and fAAoIQCRMXU) generated only 16 views and 107 views respectively with lowest engagement rates.",
+      "action": "Pause generic sibling emotional tropes until core audience authority is established."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "guilt and unspoken love",
-    "hook_style": "situational real-life observation",
+    "emotion": "Bittersweet Empathy",
+    "hook_style": "Observational micro-moment in everyday marriage/relationship",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A husband realizes his wife stopped complaining about small things, not because she is happy, but because she has given up expecting him to notice.",
-    "opening_direction": "Start with a quiet kitchen scene late at night, showing a wife silently finishing chores while the husband scrolls on his phone.",
-    "twist_direction": "The realization hits that silence from a partner isn't peace—it's emotional detachment.",
-    "duration_seconds": 35,
-    "posting_window": "07:00 AM - 09:00 AM",
-    "reason": "Capitalizes on the highest performing topic cluster (husband-wife relationship dynamics) observed in the recent data."
+    "concept": "A husband notices his wife quietly eating cold food after serving everyone else, realizing how love turns into unseen routine.",
+    "opening_direction": "Show a dinner table scene where the last chapati is served, focusing on her quiet smile as she sits down alone.",
+    "twist_direction": "She isn't upset about the cold food—she's holding back tears because he pulled up a chair and stayed to eat with her.",
+    "duration_seconds": 15,
+    "posting_window": "07:00 AM - 08:30 AM IST",
+    "reason": "The top-performing video (1.5k views) posted at 07:28 AM IST and focused on husband-wife dynamic. Testing early morning window with relational micro-moments."
   },
-  "experiment": "Testing if the husband-wife emotional dynamic can repeat the high views of the previous outlier video or if it was a one-off anomaly.",
-  "updated_at": "2026-09-30T23:40:02.995457+00:00",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-30T23:40:05.157211+00:00"
+  "experiment": "Testing if narrative twist around partner appreciation in daily routine replicates the higher retention and reach seen in the top husband-wife video.",
+  "updated_at": "2026-10-01T00:49:11.802999+00:00",
+  "model_used": "gemini-3.6-flash",
+  "generated_at": "2026-10-01T00:49:19.190860+00:00"
 }
