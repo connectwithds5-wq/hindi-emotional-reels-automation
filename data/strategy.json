@@ -1,35 +1,35 @@
 {
-  "confidence": "35%",
+  "confidence": "30%",
   "data_points": 9,
-  "overall_summary": "The channel shows early traction on domestic relationship dynamics, particularly husband-wife and mother-related themes. However, overall sample size is low and engagement rates are volatile. One outlier video heavily outperformed the rest, requiring controlled exploration rather than over-reliance on a single lucky hit.",
+  "overall_summary": "The channel shows early promising outliers in family and relationship dynamics (specifically husband-wife and general close bonds like calls/family checks), but overall view counts remain modest and sample size is small. Confidence is low, so we lean towards a repeatable relationship pattern while reserving a small experimental format.",
   "winning_patterns": [
     {
-      "pattern": "Core family/domestic relationship dynamics",
-      "evidence": "Wife/Husband video (or5gtaBpRVY) got 1,609 views, and Maa Shayari (OfHrAp3r1G8) got 224 views, outperforming other broader topics.",
-      "action": "Focus on specific domestic relationships and everyday household emotional truths."
+      "pattern": "Core Family & Relationship Dynamics",
+      "evidence": "Wife/Husband emotional video (or5gtaBpRVY) gained 1,609 views, significantly outperforming others. General relationship check-ins (rl_ycNbXZ_g) also did relatively well at 288 views.",
+      "action": "Double down on intimate relationship reflections, specifically focusing on unspoken husband-wife or close partner dynamics."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic motivational or preachy content",
-      "evidence": "Self motivation video (JPf_3ebfnuk) underperformed relative to specific relational storytelling.",
-      "action": "Avoid broad self-help or lecture-style hooks; stick to character-driven emotional observations."
+      "pattern": "Niche family sub-roles with low initial push",
+      "evidence": "Sister emotional videos (jfmMztnam_A, fAAoIQCRMXU) performed poorly (17 and 123 views respectively).",
+      "action": "Pause deep-dive sibling specific emotional shorts temporarily and pivot toward broader relationship/loneliness themes."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Nostalgia and regret",
-    "hook_style": "Observation about unspoken daily habits",
+    "emotion": "अधूरी मोहब्बत / ओवरथिंकिंग",
+    "hook_style": "Simple real-life observation about online status versus actual emotional distance",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short piece on how old WhatsApp chats of people who left us are never deleted, just hidden below new notifications.",
-    "opening_direction": "Start with the simple habit of scrolling down the chat list when feeling lonely at night.",
-    "twist_direction": "Realizing that the chats we never open are the ones we remember word-for-word.",
-    "duration_seconds": 35,
-    "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Aligns with the 'रात के ख्याल' and 'पुरानी यादें' channel topics which target evening/night scrolling behavior when emotional reflection peaks."
+    "concept": "रात को जागने वाले दो लोग जब एक-दूसरे को मैसेज करने से हिचकिचाते हैं",
+    "opening_direction": "रात के 2 बजे ऑनलाइन होने का मतलब ये नहीं कि वो किसी और से बात कर रहा है...",
+    "twist_direction": "वो बस तुम्हारी पुरानी चैट स्क्रॉल कर रहा होता है, ये देखने के लिए कि दरार कहाँ से आई थी।",
+    "duration_seconds": 30,
+    "posting_window": "07:00 AM - 09:00 AM",
+    "reason": "Aligns with the top-performing morning posting windows from past successful uploads while leaning into the proven relationship/overthinking track."
   },
-  "experiment": "Testing a digital-age emotional artifact (old chat scrolls) against traditional family relationship tropes to see if modern loneliness resonates better.",
-  "updated_at": "2026-10-02T00:47:17.548213+00:00",
+  "experiment": "Testing an overthinking/night-thought relationship theme against the proven husband-wife dynamic to see if general romantic loneliness matches specific partner dynamics.",
+  "updated_at": "2026-10-02T01:42:21.398108+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-02T00:47:19.990459+00:00"
+  "generated_at": "2026-10-02T01:42:24.162575+00:00"
 }
