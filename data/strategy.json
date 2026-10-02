@@ -1,40 +1,35 @@
 {
-  "confidence": "45%",
+  "confidence": "35%",
   "data_points": 10,
-  "overall_summary": "Data volume is low, so confidence is limited, but family and relationship dynamics clearly outperform general concepts. The video about understanding a wife's perspective (or5gtaBpRVY) heavily outperformed others with 1,648 views, showing high resonance for marital or close partner relationship realities.",
+  "overall_summary": "Data shows high variance. One outlier video about husband-wife dynamics heavily outperformed others (1.6k views), while core emotional relationship topics like parents, siblings, and friendships hover around 100-250 views. Overall confidence is low due to limited sample size, requiring a balanced approach of repeating relationship-focused formats while testing a fresh angle.",
   "winning_patterns": [
     {
-      "pattern": "Marital / Partner Dynamics",
-      "evidence": "Video or5gtaBpRVY about wives/husbands garnered 1,648 views, significantly higher than any other video.",
-      "action": "Focus more heavily on relationship and marriage-related emotional nuances."
-    },
-    {
-      "pattern": "Core Family Bonds",
-      "evidence": "Videos focusing on mothers (OfHrAp3r1G8 - 225 views) and fathers (v8krtdmxbPs - 142 views) perform solidly above baseline.",
-      "action": "Continue producing slice-of-life family emotional moments."
+      "pattern": "Close interpersonal relationship dynamics",
+      "evidence": "Videos focusing on specific relational roles like spouses (or5gtaBpRVY with 1653 views) and mothers (OfHrAp3r1G8 with 225 views) drew stronger baseline interest than broad self-help or generic advice.",
+      "action": "Focus storytelling on specific interpersonal relationship tensions and unspoken feelings between close bonds."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "General or Peripheral Family Members without a strong hook",
-      "evidence": "Sister emotional videos (jfmMztnam_A with 17 views and fAAoIQCRMXU with 126 views) underperformed when not backed by a strong situational hook.",
-      "action": "Avoid generic sibling titles; ensure a specific situational conflict or emotional realization is highlighted."
+      "pattern": "Generic motivational or one-off topics",
+      "evidence": "Broad motivation like 'तुम थके हो… हारे नहीं' (JPf_3ebfnuk) and low-engagement re-uploads like the sister video (jfmMztnam_A) yielded minimal traction.",
+      "action": "Avoid generic life-advice; ground every narrative in a concrete domestic or emotional situation."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "समझौता और अनदेखा दर्द",
-    "hook_style": "Real-life observational statement",
+    "emotion": "अधूरी मोहब्बत",
+    "hook_style": "situational observation",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short piece on how long-term partners stop arguing not because they are happy, but because they have given up trying to explain themselves.",
-    "opening_direction": "शायद अब झगड़े होना बंद हो गए हैं उनके बीच...",
-    "twist_direction": "झगड़ा बंद होने का मतलब प्यार नहीं, बल्कि उम्मीद का खत्म होना होता है।",
-    "duration_seconds": 35,
+    "concept": "A realization about checking someone's old last-seen status on WhatsApp late at night, reflecting how distance creeps into long-term bonds without a single fight.",
+    "opening_direction": "रात के 2 बजे ऑनलाइन होना और किसी का मैसेज ना आना...",
+    "twist_direction": "बातें खत्म नहीं हुई थीं, बस उम्मीदें खत्म हो गई थीं।",
+    "duration_seconds": 15,
     "posting_window": "07:30 PM - 09:00 PM",
-    "reason": "Capitalizes on the winning pattern of relationship/marriage emotional content while introducing a deeper, relatable psychological reality."
+    "reason": "Aligns with the channel's top relationship themes and targets the high-engagement evening viewing window when users reflect on personal bonds."
   },
-  "experiment": "Testing if deep psychological relationship nuances can match the high view count of direct marital advice videos like or5gtaBpRVY.",
-  "updated_at": "2026-10-02T14:45:03.557130+00:00",
+  "experiment": "Testing if late-night emotional relationship introspection captures similar high engagement as the successful husband-wife dynamic video.",
+  "updated_at": "2026-10-02T15:44:18.041736+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-02T14:45:06.544556+00:00"
+  "generated_at": "2026-10-02T15:44:20.553514+00:00"
 }
