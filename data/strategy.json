@@ -1,35 +1,45 @@
 {
   "confidence": "35%",
   "data_points": 10,
-  "overall_summary": "Data volume is low, but clear preference emerges for domestic/marital relationship dynamics over broader family topics. One outlier (wife/husband topic with 1,632 views) outperforms others significantly, though it represents a high-sample anomaly that requires cautious replication.",
+  "overall_summary": "Limited sample size with one major outlier in husband-wife dynamics (1,641 views) and moderate baseline views on family relationships (Maa, Papa, Call/Rishtey). Confidence is low, requiring a blend of proven relationship themes and controlled family exploration.",
   "winning_patterns": [
     {
-      "pattern": "Marital/Partner Dynamics",
-      "evidence": "Video 'or5gtaBpRVY' about husband-wife understanding hit 1,632 views, significantly outperforming parental and sibling content.",
-      "action": "Focus upcoming primary videos on subtle marital or close romantic relationship realities."
+      "pattern": "Husband-Wife / Partner Dynamics",
+      "evidence": "Video 'or5gtaBpRVY' reached 1,641 views, outperforming all other topics significantly.",
+      "action": "Produce more relationship-centric content focusing on subtle partner misunderstandings and unsaid words."
+    },
+    {
+      "pattern": "Family Bonds & Direct Emotional Triggers",
+      "evidence": "Videos about Mother (225 views) and calling a loved one (288 views) show steady, repeatable lower-tier performance.",
+      "action": "Continue utilizing everyday family realizations as reliable baseline content."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sibling Content",
-      "evidence": "Sister/Brother emotional shorts (jfmMztnam_A, fAAoIQCRMXU) stayed under 130 views.",
-      "action": "Deprioritize standalone sibling emotional tropes unless tied to a strong relationship conflict hook."
+      "pattern": "Repetitive Sister-focused Content",
+      "evidence": "First sister video got 17 views, and the follow-up got 125 views, indicating audience fatigue or weak initial hook for this specific angle.",
+      "action": "Avoid redundant sibling tropes in the immediate term and pivot to broader relationship pain points."
+    },
+    {
+      "pattern": "Generic Motivational/Gyan Style",
+      "evidence": "Self-motivation/life lesson videos ('JPf_3ebfnuk') hovered around 171 views without strong engagement.",
+      "action": "Avoid preachiness; anchor every message in a concrete, narrative everyday moment."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "अधूरी मोहब्बत",
+    "emotion": "अधूरी मोहब्बत / ओवरथिंकिंग",
     "hook_style": "Real-life observation",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple sitting silently in a room, scrolling phones, when an old song plays and reminds them of unsaid words.",
-    "opening_direction": "Start with the sound of a tea cup placing on the table and heavy silence between two people who used to talk for hours.",
-    "twist_direction": "The realization that physical presence doesn't mean emotional connection, and missing someone while sitting right next to them hurts the most.",
-    "duration_seconds": 35,
-    "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Evening hours align with 'रात के ख्याल' and relationship reflection moods."
+    "concept": "Online status checking late at night instead of texting, leading to the realization that blocking hurts less than silence.",
+    "opening_direction": "रात के 2 बजे उसका आखिरी बार 'Last Seen' देखना... ❤️",
+    "twist_direction": "बात ब्लॉक करने की नहीं थी, डर इस बात का था कि अब कभी कोई शिकायत करने वाला भी नहीं बचेगा।",
+    "duration_seconds": 10,
+    "posting_window": "07:30 PM - 09:00 PM",
+    "reason": "Leverages the winning husband-wife/relationship engagement pattern while tapping into late-night overthinking ('रात के ख्याल'), which aligns with core channel pillars."
   },
-  "experiment": "Testing if domestic relationship friction combined with unspoken emotional distance replicates the high engagement of the top-performing marital video.",
-  "updated_at": "2026-10-02T11:42:53.464969+00:00",
+  "experiment": "Testing if late-night overthinking/relationship pain can replicate or approach the high viewership of the husband-wife outlier video.",
+  "updated_at": "2026-10-02T12:47:44.691216+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-02T11:42:55.923475+00:00"
+  "generated_at": "2026-10-02T12:47:47.823304+00:00"
 }
