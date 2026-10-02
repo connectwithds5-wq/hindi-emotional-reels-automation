@@ -1,45 +1,40 @@
 {
-  "confidence": "35%",
+  "confidence": "45%",
   "data_points": 10,
-  "overall_summary": "Data sample is small, but family and relationship dynamics clearly outperform general philosophical or motivational shorts. The video about wives/husbands achieved a major outlier view count (1655 views), while family-centric content consistently pulls moderate engagement.",
+  "overall_summary": "Data shows a massive outlier in husband-wife emotional dynamics (1,658 views), while family relationships (Maa, Papa, Rishtey) perform steadily in the 140-300 views range. Pure sibling content (Sister) underperformed, and pure general motivational content lags behind interpersonal relationship insights.",
   "winning_patterns": [
     {
-      "pattern": "Core family and marital relationship dynamics",
-      "evidence": "Wife/husband emotional video (or5gtaBpRVY) gained 1655 views; mother and father shorts (OfHrAp3r1G8, v8krtdmxbPs) performed steadily better than generic sister/brother variants.",
-      "action": "Focus heavily on husband-wife and parent-child emotional friction and unspoken sacrifices."
+      "pattern": "Spousal / Relationship Dynamics",
+      "evidence": "Video 'or5gtaBpRVY' about husband-wife got 1,658 views, significantly outperforming all other topics.",
+      "action": "Double down on complex, relatable husband-wife or close relationship compromises."
     },
     {
-      "pattern": "Direct question or conversational hooks addressing a specific person",
-      "evidence": "Titles like 'माँ जब पूछती है...' and 'पत्नी की ये बात...' generated the highest views and like counts.",
-      "action": "Use specific second-person or situational relational hooks in the titles."
+      "pattern": "Guilt and Unsaid Apologies",
+      "evidence": "Video 'NO5fdHLxFL4' ('Har Baar Sorry Bolne Wala Galat Nahi Hota') and 'rl_ycNbXZ_g' ('बात बंद हो जाती है') performed above average (369 and 288 views).",
+      "action": "Focus on maturity, ego, and compromises in relationships."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Over-repeated sister-focused themes",
-      "evidence": "First sister video got 18 views (jfmMztnam_A), and re-uploading or repeating the exact theme yielded low returns (130 views on fAAoIQCRMXU).",
-      "action": "Avoid immediate duplicate themes within the same week; diversify across relationship types."
-    },
-    {
-      "pattern": "Generic motivational quotes",
-      "evidence": "Self-motivation/life lessons like 'तुम थके हो… हारे नहीं' underperformed compared to specific relationship observations.",
-      "action": "Avoid pure motivation; anchor every script in interpersonal relationships and emotional reality."
+      "pattern": "Generic Sibling Content Redundancy",
+      "evidence": "Multiple sister videos (jfmMztnam_A with 18 views, fAAoIQCRMXU with 134 views) showed diminishing returns and low engagement.",
+      "action": "Move away from broad sister/brother tropes unless tied to a specific poignant life moment."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "अधूरी मोहब्बत / अकेलापन",
-    "hook_style": "Conversational observation about long-term relationships",
+    "emotion": "अधूरी मोहब्बत / बेबसी",
+    "hook_style": "Real-life silent observation",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A husband notices his wife's silence at the dinner table after a fight, realizing that quiet arguments are much more dangerous than loud ones.",
-    "opening_direction": "जब वो गुस्सा होना छोड़ दे, तो समझ लेना रिश्ता टूटने के कगार पर है।",
-    "twist_direction": "शोर सिर्फ नाराज़गी का होता है, ख़ामोशी तो रिश्ते के ख़त्म होने का सुबूत होती है।",
-    "duration_seconds": 10,
-    "posting_window": "07:00 AM - 09:00 AM IST",
-    "reason": "Capitalizes on the winning husband-wife emotional dynamic pattern seen in the top-performing video while addressing deep-rooted relationship realities."
+    "concept": "A couple sitting in absolute silence in a car, neither wanting to start the argument, realizing that peace has replaced love.",
+    "opening_direction": "शाम के वक्त गाड़ी की खामोशी में सफर, जहाँ गाने बज रहे हैं पर कोई बात नहीं कर रहा।",
+    "twist_direction": "जब घर पहुँचकर पार्टनर मुस्कुराकर दरवाजा खोलता है, तब समझ आता है कि अब गुस्सा नहीं, अंदर से रिश्ता खत्म हो चुका है।",
+    "duration_seconds": 35,
+    "posting_window": "07:00 PM - 09:00 PM",
+    "reason": "Capitalizes on the winning relationship-conflict pattern demonstrated by the husband-wife and 'बात बंद हो जाती है' hits."
   },
-  "experiment": "Testing if husband-wife relationship nuance can repeat the outlier success of the previous top-performing video or if it was a one-off anomaly.",
-  "updated_at": "2026-10-02T22:41:35.509785+00:00",
+  "experiment": "Testing whether a nuanced emotional breakdown of silent couple disconnect can replicate or exceed the high view count of the previous wife-husband video.",
+  "updated_at": "2026-10-02T23:39:48.716678+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-02T22:41:38.823007+00:00"
+  "generated_at": "2026-10-02T23:40:00.396319+00:00"
 }
