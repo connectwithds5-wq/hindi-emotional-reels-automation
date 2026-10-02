@@ -1,45 +1,35 @@
 {
   "confidence": "35%",
   "data_points": 10,
-  "overall_summary": "Limited sample size with one major outlier in husband-wife dynamics (1,641 views) and moderate baseline views on family relationships (Maa, Papa, Call/Rishtey). Confidence is low, requiring a blend of proven relationship themes and controlled family exploration.",
+  "overall_summary": "Data sample is small, but family and relationship dynamics show clear outperformance compared to generic or heavy philosophical topics. Specifically, husband-wife dynamics captured significant outlier views (1645 views), while parent-child bonds consistently pull baseline engagement.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife / Partner Dynamics",
-      "evidence": "Video 'or5gtaBpRVY' reached 1,641 views, outperforming all other topics significantly.",
-      "action": "Produce more relationship-centric content focusing on subtle partner misunderstandings and unsaid words."
-    },
-    {
-      "pattern": "Family Bonds & Direct Emotional Triggers",
-      "evidence": "Videos about Mother (225 views) and calling a loved one (288 views) show steady, repeatable lower-tier performance.",
-      "action": "Continue utilizing everyday family realizations as reliable baseline content."
+      "pattern": "Family and Relatable Relationship Dynamics",
+      "evidence": "Wife emotional video (or5gtaBpRVY) gained 1645 views, and Maa Shayari (OfHrAp3r1G8) gained 225 views, outperforming broader emotional pieces.",
+      "action": "Focus heavily on domestic relationships and unsaid emotional burdens between partners and close family."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Repetitive Sister-focused Content",
-      "evidence": "First sister video got 17 views, and the follow-up got 125 views, indicating audience fatigue or weak initial hook for this specific angle.",
-      "action": "Avoid redundant sibling tropes in the immediate term and pivot to broader relationship pain points."
-    },
-    {
-      "pattern": "Generic Motivational/Gyan Style",
-      "evidence": "Self-motivation/life lesson videos ('JPf_3ebfnuk') hovered around 171 views without strong engagement.",
-      "action": "Avoid preachiness; anchor every message in a concrete, narrative everyday moment."
+      "pattern": "Generic or Niche Family Members without Broad Conflict",
+      "evidence": "Sister emotional video (jfmMztnam_A) achieved only 17 views under similar publishing conditions.",
+      "action": "Avoid purely praise-based or overly niche topics unless anchored to a relatable daily conflict."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "अधूरी मोहब्बत / ओवरथिंकिंग",
+    "emotion": "गुमसुम प्यार और अनकहा दर्द",
     "hook_style": "Real-life observation",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Online status checking late at night instead of texting, leading to the realization that blocking hurts less than silence.",
-    "opening_direction": "रात के 2 बजे उसका आखिरी बार 'Last Seen' देखना... ❤️",
-    "twist_direction": "बात ब्लॉक करने की नहीं थी, डर इस बात का था कि अब कभी कोई शिकायत करने वाला भी नहीं बचेगा।",
+    "concept": "A husband noticing his wife's silence late at night and realizing she carries unshared worries.",
+    "opening_direction": "रात के 2 बजे चाय का कप थामे, वो बस खिड़की के बाहर देख रही थी।",
+    "twist_direction": "पूछा तो बोली 'कुछ नहीं', पर उसकी थकी हुई आँखें सब कह गईं—हम अपनों के बीच भी कितने अकेले हो जाते हैं।",
     "duration_seconds": 10,
-    "posting_window": "07:30 PM - 09:00 PM",
-    "reason": "Leverages the winning husband-wife/relationship engagement pattern while tapping into late-night overthinking ('रात के ख्याल'), which aligns with core channel pillars."
+    "posting_window": "07:00 AM - 09:00 AM",
+    "reason": "Leverages the highest-performing winning pattern (partner relationships and late-night emotional weight) observed in the top video (or5gtaBpRVY)."
   },
-  "experiment": "Testing if late-night overthinking/relationship pain can replicate or approach the high viewership of the husband-wife outlier video.",
-  "updated_at": "2026-10-02T12:47:44.691216+00:00",
+  "experiment": "Testing if replicating the high-performing husband-wife emotional dynamic yields a similar spike compared to parental or general relationship themes.",
+  "updated_at": "2026-10-02T13:44:34.931365+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-02T12:47:47.823304+00:00"
+  "generated_at": "2026-10-02T13:44:38.459714+00:00"
 }
