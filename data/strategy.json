@@ -1,35 +1,35 @@
 {
-  "confidence": "35%",
+  "confidence": "30%",
   "data_points": 10,
-  "overall_summary": "Data shows high variance. One outlier video about husband-wife dynamics heavily outperformed others (1.6k views), while core emotional relationship topics like parents, siblings, and friendships hover around 100-250 views. Overall confidence is low due to limited sample size, requiring a balanced approach of repeating relationship-focused formats while testing a fresh angle.",
+  "overall_summary": "The channel is exploring family and relationship emotional niches. One clear outlier (Wife/Husband dynamic video with 1655 views) vastly outperforms the rest, while other family and relationship relationship dynamics show moderate low-sample traction.",
   "winning_patterns": [
     {
-      "pattern": "Close interpersonal relationship dynamics",
-      "evidence": "Videos focusing on specific relational roles like spouses (or5gtaBpRVY with 1653 views) and mothers (OfHrAp3r1G8 with 225 views) drew stronger baseline interest than broad self-help or generic advice.",
-      "action": "Focus storytelling on specific interpersonal relationship tensions and unspoken feelings between close bonds."
+      "pattern": "Core Family & Couple Dynamics",
+      "evidence": "Wife emotional video (or5gtaBpRVY) achieved 1,655 views, while general relationship and parent/family shorts sit between 140-320 views.",
+      "action": "Double down on domestic relationship realities, husband-wife unspoken understandings, and everyday emotional compromises."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic motivational or one-off topics",
-      "evidence": "Broad motivation like 'तुम थके हो… हारे नहीं' (JPf_3ebfnuk) and low-engagement re-uploads like the sister video (jfmMztnam_A) yielded minimal traction.",
-      "action": "Avoid generic life-advice; ground every narrative in a concrete domestic or emotional situation."
+      "pattern": "Generic motivational or one-off sibling variations without strong hooks",
+      "evidence": "Sister emotional re-upload (fAAoIQCRMXU) and generic sister video (jfmMztnam_A) scored very low (128 and 18 views respectively).",
+      "action": "Avoid repeating identical concepts with minor title tweaks; focus on deeper emotional conflict points in relationships."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "अधूरी मोहब्बत",
-    "hook_style": "situational observation",
+    "emotion": "अधूरी सी ख़ामोशी",
+    "hook_style": "Real-life observation",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization about checking someone's old last-seen status on WhatsApp late at night, reflecting how distance creeps into long-term bonds without a single fight.",
-    "opening_direction": "रात के 2 बजे ऑनलाइन होना और किसी का मैसेज ना आना...",
-    "twist_direction": "बातें खत्म नहीं हुई थीं, बस उम्मीदें खत्म हो गई थीं।",
-    "duration_seconds": 15,
-    "posting_window": "07:30 PM - 09:00 PM",
-    "reason": "Aligns with the channel's top relationship themes and targets the high-engagement evening viewing window when users reflect on personal bonds."
+    "concept": "A husband noticing his wife's silence after a minor argument, realizing that quiet wives are more dangerous than angry ones.",
+    "opening_direction": "जब घर की सबसे बातूनी बीवी अचानक चुप हो जाए...",
+    "twist_direction": "तब समझ जाना चाहिए कि अब वो गुस्सा नहीं, उम्मीद छोड़ चुकी है।",
+    "duration_seconds": 35,
+    "posting_window": "07:00 AM - 09:00 AM",
+    "reason": "Capitalizes on the highest performing topic category (husband-wife emotional realities) observed in the dataset."
   },
-  "experiment": "Testing if late-night emotional relationship introspection captures similar high engagement as the successful husband-wife dynamic video.",
-  "updated_at": "2026-10-02T15:44:18.041736+00:00",
+  "experiment": "Testing if narrative depth on husband-wife dynamics can replicate or approach the high view count of the previous outlier video.",
+  "updated_at": "2026-10-02T16:44:36.707080+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-02T15:44:20.553514+00:00"
+  "generated_at": "2026-10-02T16:44:39.107044+00:00"
 }
