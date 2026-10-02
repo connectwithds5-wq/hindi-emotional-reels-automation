@@ -1,35 +1,35 @@
 {
   "confidence": "35%",
   "data_points": 10,
-  "overall_summary": "Data is relatively small with one massive outlier on a husband-wife dynamic topic (or5gtaBpRVY, 1631 views), while family/relationship dynamics generally outperform abstract ones. Confidence is low due to small sample size, requiring a balanced mix of proven relational patterns and controlled experimentation.",
+  "overall_summary": "Data volume is low, but clear preference emerges for domestic/marital relationship dynamics over broader family topics. One outlier (wife/husband topic with 1,632 views) outperforms others significantly, though it represents a high-sample anomaly that requires cautious replication.",
   "winning_patterns": [
     {
-      "pattern": "Close Family/Partner Relationship Dynamics",
-      "evidence": "Wife emotional video (or5gtaBpRVY) hit 1631 views, and Maa Shayari (OfHrAp3r1G8) hit 225 views.",
-      "action": "Double down on intimate relational nuances between spouses or parents and children."
+      "pattern": "Marital/Partner Dynamics",
+      "evidence": "Video 'or5gtaBpRVY' about husband-wife understanding hit 1,632 views, significantly outperforming parental and sibling content.",
+      "action": "Focus upcoming primary videos on subtle marital or close romantic relationship realities."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract or Broad Emotional Gyaan",
-      "evidence": "Sister emotional video repost (fAAoIQCRMXU) and generic self-motivation (JPf_3ebfnuk) underperformed significantly compared to specific relationship insights.",
-      "action": "Avoid overly broad or repeated topics without a unique specific angle or high-tension narrative."
+      "pattern": "Generic Sibling Content",
+      "evidence": "Sister/Brother emotional shorts (jfmMztnam_A, fAAoIQCRMXU) stayed under 130 views.",
+      "action": "Deprioritize standalone sibling emotional tropes unless tied to a strong relationship conflict hook."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "अहसास और अनदेखा दर्द",
+    "emotion": "अधूरी मोहब्बत",
     "hook_style": "Real-life observation",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "घर में सबसे चुप रहने वाला इंसान ही सबसे ज्यादा संभालता है",
-    "opening_direction": "शाम के वक्त घर में सब अपने फोन में व्यस्त हैं और एक इंसान बिना किसी शिकायत के सबके लिए चाय बना रहा है।",
-    "twist_direction": "जब उस इंसान की तबीयत खराब होती है और घर के बाकी लोग असहाय हो जाते हैं, तब पता चलता है कि असली पिलर वही था।",
+    "concept": "A couple sitting silently in a room, scrolling phones, when an old song plays and reminds them of unsaid words.",
+    "opening_direction": "Start with the sound of a tea cup placing on the table and heavy silence between two people who used to talk for hours.",
+    "twist_direction": "The realization that physical presence doesn't mean emotional connection, and missing someone while sitting right next to them hurts the most.",
     "duration_seconds": 35,
     "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Evening hours match high-engagement windows for emotional and family-centric content when users reflect on daily life."
+    "reason": "Evening hours align with 'रात के ख्याल' and relationship reflection moods."
   },
-  "experiment": "Testing if specific household psychological observation outperforms direct romantic/marital relationship tropes.",
-  "updated_at": "2026-10-02T10:42:50.621660+00:00",
+  "experiment": "Testing if domestic relationship friction combined with unspoken emotional distance replicates the high engagement of the top-performing marital video.",
+  "updated_at": "2026-10-02T11:42:53.464969+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-02T10:42:53.088466+00:00"
+  "generated_at": "2026-10-02T11:42:55.923475+00:00"
 }
