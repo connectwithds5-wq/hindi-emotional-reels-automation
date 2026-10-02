@@ -1,40 +1,40 @@
 {
-  "confidence": "45%",
-  "data_points": 9,
-  "overall_summary": "The channel shows early traction with family and relationship dynamics. One clear outlier ('or5gtaBpRVY' with 1619 views) focused on husband-wife dynamics, while mother and relationship checking-in videos ('OfHrAp3r1G8', 'rl_ycNbXZ_g') performed moderately better than sibling-specific or generic motivational content. Sample size is small, so confidence is moderate with a need for continued testing around close relationships.",
+  "confidence": "30%",
+  "data_points": 10,
+  "overall_summary": "The channel shows mixed performance across family and relationship content. A clear outlier is the husband-wife emotional video (1623 views), outperforming typical family relationship shorts which average around 100-250 views. Generic family member dedications underperform unless tied to a strong relational conflict or universal realization.",
   "winning_patterns": [
     {
-      "pattern": "Spouse & Relationship Dynamics",
-      "evidence": "Wife emotional video reached 1,619 views, significantly outperforming other topics.",
-      "action": "Produce more relatable domestic and romantic relationship scenarios."
+      "pattern": "Husband-Wife / Core Relationship Dynamics",
+      "evidence": "Video 'or5gtaBpRVY' about understanding a wife's perspective achieved 1,623 views, significantly higher than other uploads.",
+      "action": "Focus more heavily on complex, relatable husband-wife or close partnership dynamics that highlight unspoken feelings."
     },
     {
-      "pattern": "Daily Care & Check-in Hooks",
-      "evidence": "Mother asking 'khana khaya?' (224 views) and calling a loved one (288 views) performed well above the channel average.",
-      "action": "Use conversational, routine inquiries as hook foundations."
+      "pattern": "Universal Relational Realizations",
+      "evidence": "Videos focusing on everyday realizations (e.g., 'Aaj kisi apne ko call kar lena' with 288 views) outperform generic relationship filler.",
+      "action": "Anchor scripts around daily unnoticed behaviors that trigger sudden emotional guilt or warmth."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Niche Sibling Content",
-      "evidence": "Sister emotional videos received very low views (17 and 125 views respectively).",
-      "action": "Deprioritize sibling-focused content for now in favor of broader relationship themes."
+      "pattern": "Niche Family Member Dedications (Sister/Brother without conflict)",
+      "evidence": "Sister videos (jfmMztnam_A, fAAoIQCRMXU) and brother videos (m4cgM90y9JU) yielded very low views (17 to 125).",
+      "action": "Reduce standalone dedications to specific family members unless centered around a universally relatable emotional conflict."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Melancholy & Realization",
-    "hook_style": "Unspoken daily habit",
+    "emotion": "अधूरी मोहब्बत / ठहराव",
+    "hook_style": "Real-life observation about modern distance in long-term relationships",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple who stopped fighting and started staying silent, realizing that silence in a relationship is louder than arguments.",
-    "opening_direction": "अब झगड़े नहीं होते हमारे बीच…",
-    "twist_direction": "खुशी इस बात की नहीं कि सुकून है, डर इस बात का है कि अब एक दूसरे से कोई उम्मीद ही नहीं बची।",
-    "duration_seconds": 10,
+    "concept": "A couple sitting in the same room, scrolling phones in complete silence, realizing how far they have drifted despite living together.",
+    "opening_direction": "Start with the sound of notification tones and the physical closeness of two people who haven't spoken a real sentence all evening.",
+    "twist_direction": "The realization that physical presence doesn't mean emotional connection, and missing someone who is sitting right next to you hurts the most.",
+    "duration_seconds": 35,
     "posting_window": "07:00 AM - 09:00 AM",
-    "reason": "Building on the high-performing husband-wife theme, focusing on emotional distance rather than just affection to trigger deep reflection."
+    "reason": "Leverages the proven high-engagement zone of intimate relationship dynamics (similar to the winning wife-husband video) rather than broad family tropes."
   },
-  "experiment": "Testing emotional distance in relationships vs. positive affection to see which drives higher retention and engagement.",
-  "updated_at": "2026-10-02T07:43:04.643679+00:00",
+  "experiment": "Testing whether shifting focus from broad family members to complex domestic relationship tensions consistently replicates the high outlier view count of the husband-wife video.",
+  "updated_at": "2026-10-02T08:42:18.357093+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-02T07:43:07.190293+00:00"
+  "generated_at": "2026-10-02T08:42:21.304890+00:00"
 }
