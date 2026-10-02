@@ -1,45 +1,35 @@
 {
-  "confidence": "45%",
+  "confidence": "35%",
   "data_points": 9,
-  "overall_summary": "The channel shows early traction with family and relationship-centric emotional shorts. A clear outlier is the video 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1613 views, indicating that domestic dynamics and marital understanding heavily outperform other topics in this dataset. However, due to overall low sample size and lack of comment engagement, confidence is moderate, necessitating a balanced strategy of doubling down on the winning relationship dynamic while testing a core heartbreak topic.",
+  "overall_summary": "The channel shows early promising signs in family and relationship dynamics, specifically outperforming with husband-wife emotional content (1,613 views). However, due to the very small overall sample size and low view counts on other videos, confidence is low, and the strategy relies on a controlled exploration of interpersonal dynamics.",
   "winning_patterns": [
     {
-      "pattern": "Domestic and Marital Relatability",
-      "evidence": "Video 'or5gtaBpRVY' focusing on husband-wife dynamics garnered 1613 views, significantly higher than any other video.",
-      "action": "Create more relationship-focused narratives dealing with unspoken expectations between partners."
-    },
-    {
-      "pattern": "Core Family Relationships",
-      "evidence": "Videos about mothers ('OfHrAp3r1G8' with 224 views) and general relationships ('rl_ycNbXZ_g' with 288 views) consistently perform better than sibling-specific or motivational content.",
-      "action": "Prioritize immediate family emotional anchors over broader motivational advice."
+      "pattern": "Relationship dynamics (Husband-Wife)",
+      "evidence": "Video 'or5gtaBpRVY' about a wife's perspective achieved 1,613 views, significantly higher than all other uploads.",
+      "action": "Double down on core relationship nuances, misunderstandings, and unspoken feelings between partners."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Niche Sibling Content",
-      "evidence": "Sister/Brother emotional shorts (e.g., 'jfmMztnam_A', 'fAAoIQCRMXU') underperformed with 17 and 125 views respectively.",
-      "action": "Reduce frequency of sibling-focused content for now."
-    },
-    {
-      "pattern": "General Self-Motivation",
-      "evidence": "Self-motivation content ('JPf_3ebfnuk') had lower engagement (171 views, 0 comments) compared to interpersonal emotional stories.",
-      "action": "Shift focus away from direct self-help advice and frame life lessons through interpersonal relationship stories."
+      "pattern": "General family relationship videos without a strong conflict hook",
+      "evidence": "Videos about siblings (sister emotional videos) and standard quotes garnered very low views (17 and 125 views).",
+      "action": "Avoid flat descriptions of family roles; focus on specific, relatable emotional tensions or turning points instead."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "अफ़सोस और अपनापन",
-    "hook_style": "Real-life observation about unsaid words between partners",
+    "emotion": "अधूरी मोहब्बत / ओवरथिंकिंग",
+    "hook_style": "conversational observation",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A husband finds an old grocery list written in his wife's handwriting years ago, reminding him of how small daily check-ins disappeared over time.",
-    "opening_direction": "Start with a close-up of an old piece of paper tucked inside a book, showing a simple list of household items.",
-    "twist_direction": "The voiceover reveals that while they now talk for hours on phones with outsiders, they haven't looked into each other's eyes and asked 'how was your day' in months.",
+    "concept": "A late-night text conversation that was typed, deleted, and never sent.",
+    "opening_direction": "Start with the sound of a notification at 2 AM and a thumb hovering over the keypad.",
+    "twist_direction": "Reveal that the person you want to text is now just a stranger who views your WhatsApp status.",
     "duration_seconds": 35,
-    "posting_window": "07:00 AM - 09:00 AM",
-    "reason": "Aligns with the top-performing husband-wife relationship format while integrating core emotional elements of unsaid feelings and lost daily connection."
+    "posting_window": "07:30 PM - 09:00 PM",
+    "reason": "Leverages the proven high engagement of personal relationship dynamics while tapping into the core late-night 'overthinking' channel topic."
   },
-  "experiment": "Testing if deep marital regret/nostalgia can replicate the massive view spike of the previous husband-wife short.",
-  "updated_at": "2026-10-02T04:43:19.512729+00:00",
+  "experiment": "Testing if late-night overthinking and unsaid words outperform general family relationship advice.",
+  "updated_at": "2026-10-02T05:42:18.729852+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-02T04:43:22.707546+00:00"
+  "generated_at": "2026-10-02T05:42:21.337167+00:00"
 }
