@@ -1,45 +1,40 @@
 {
-  "confidence": "40%",
+  "confidence": "45%",
   "data_points": 9,
-  "overall_summary": "The channel shows early traction with family and relationship-centric emotional content. A clear outlier is the video 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1613 views, significantly outperforming other topics like self-motivation or siblings, suggesting husband-wife dynamics and relational regrets have higher engagement potential.",
+  "overall_summary": "The channel shows early traction with family and relationship dynamics. One clear outlier ('or5gtaBpRVY' with 1619 views) focused on husband-wife dynamics, while mother and relationship checking-in videos ('OfHrAp3r1G8', 'rl_ycNbXZ_g') performed moderately better than sibling-specific or generic motivational content. Sample size is small, so confidence is moderate with a need for continued testing around close relationships.",
   "winning_patterns": [
     {
-      "pattern": "Spousal and Relationship Dynamics",
-      "evidence": "Video 'or5gtaBpRVY' about husband-wife achieved 1,613 views, nearly 6x to 100x higher than other topics.",
-      "action": "Focus more heavily on marital and close relationship emotional realities."
+      "pattern": "Spouse & Relationship Dynamics",
+      "evidence": "Wife emotional video reached 1,619 views, significantly outperforming other topics.",
+      "action": "Produce more relatable domestic and romantic relationship scenarios."
     },
     {
-      "pattern": "Parental Emotional Hooks",
-      "evidence": "Videos about Mother ('OfHrAp3r1G8') and Father ('v8krtdmxbPs') performed solidly with 224 and 142 views respectively.",
-      "action": "Maintain parent-child relationship topics as secondary reliable content pillars."
+      "pattern": "Daily Care & Check-in Hooks",
+      "evidence": "Mother asking 'khana khaya?' (224 views) and calling a loved one (288 views) performed well above the channel average.",
+      "action": "Use conversational, routine inquiries as hook foundations."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Self-Motivation and Moral Lessons",
-      "evidence": "Videos like 'Self Motivation' (171 views) and 'Children's values' (183 views) show lower relative traction compared to deep emotional relationship pieces.",
-      "action": "Reduce broad self-help angles and anchor motivational messages strictly inside emotional relationship stories."
-    },
-    {
-      "pattern": "Duplicate Sibling Topics without Fresh Angles",
-      "evidence": "Sister videos published closely together yielded diminishing returns (17 views vs 125 views).",
-      "action": "Avoid repeating exact same sibling templates in a short time frame; diversify the relational focus."
+      "pattern": "Niche Sibling Content",
+      "evidence": "Sister emotional videos received very low views (17 and 125 views respectively).",
+      "action": "Deprioritize sibling-focused content for now in favor of broader relationship themes."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "regret and unspoken words",
-    "hook_style": "observational reality check about distance between partners",
+    "emotion": "Melancholy & Realization",
+    "hook_style": "Unspoken daily habit",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A husband finding an old unread letter or forgotten gift from his wife after a minor argument, realizing how much quiet sacrifice she makes daily without complaining.",
-    "opening_direction": "Start with the silence in the room after an argument, focusing on a small object left behind.",
-    "twist_direction": "He opens it to find a simple note of care written months ago, proving love didn't end, it just got buried under daily exhaustion.",
-    "duration_seconds": 45,
+    "concept": "A couple who stopped fighting and started staying silent, realizing that silence in a relationship is louder than arguments.",
+    "opening_direction": "अब झगड़े नहीं होते हमारे बीच…",
+    "twist_direction": "खुशी इस बात की नहीं कि सुकून है, डर इस बात का है कि अब एक दूसरे से कोई उम्मीद ही नहीं बची।",
+    "duration_seconds": 10,
     "posting_window": "07:00 AM - 09:00 AM",
-    "reason": "Capitalizes on the winning husband-wife emotional pattern while incorporating the core channel theme of 'जो कहना रह गया' (what was left unsaid)."
+    "reason": "Building on the high-performing husband-wife theme, focusing on emotional distance rather than just affection to trigger deep reflection."
   },
-  "experiment": "Testing if deep marital empathy combined with unspoken regret can replicate the high view count of the previous husband-wife outlier.",
-  "updated_at": "2026-10-02T06:47:45.268776+00:00",
+  "experiment": "Testing emotional distance in relationships vs. positive affection to see which drives higher retention and engagement.",
+  "updated_at": "2026-10-02T07:43:04.643679+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-02T06:47:48.772738+00:00"
+  "generated_at": "2026-10-02T07:43:07.190293+00:00"
 }
