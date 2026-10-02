@@ -1,45 +1,40 @@
 {
-  "confidence": "35%",
+  "confidence": "40%",
   "data_points": 10,
-  "overall_summary": "Data indicates family relationships and close interpersonal bonds (wife, mother, relationships) significantly outperform general emotional or standalone family tropes. The video about husband-wife dynamics (\"or5gtaBpRVY\") received the highest views (1655), while relationship realities (\"NO5fdHLxFL4\") also performed decently. Confidence remains low due to small sample size and zero comments across all videos.",
+  "overall_summary": "Sample size is small (10 videos). Early signal shows strong viewer retention on intimate relationship dynamics (husband-wife/relationship conflicts) over generic motivation or sibling topics.",
   "winning_patterns": [
     {
-      "pattern": "Core family and marital relationship dynamics",
-      "evidence": "Wife emotional video (\"or5gtaBpRVY\") reached 1655 views, and Mother emotional video (\"OfHrAp3r1G8\") reached 225 views.",
-      "action": "Focus heavily on everyday marital, parental, and close relationship compromises."
+      "pattern": "Husband-Wife and Relationship Dynamics",
+      "evidence": "or5gtaBpRVY (Wife Emotional Video) scored 1,655 views (4.7x baseline average) and NO5fdHLxFL4 scored 350 views.",
+      "action": "Double down on subtle, unspoken relationship truths and partner emotional dynamics."
     },
     {
-      "pattern": "Universal emotional relationship truths",
-      "evidence": "Relationship reality short (\"NO5fdHLxFL4\") got 350 views.",
-      "action": "Use conversational hooks that highlight hidden relationship burdens."
+      "pattern": "Mid-Morning UTC Upload Timing (07:00-08:30 AM UTC)",
+      "evidence": "Top 3 performing videos (1655, 350, 288 views) were all published between 07:28 and 08:02 UTC.",
+      "action": "Schedule high-priority emotional relationship content between 07:00 AM and 08:30 AM UTC (12:30 PM - 2:00 PM IST)."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Standalone sibling tropes without a strong narrative hook",
-      "evidence": "Sister emotional video (\"jfmMztnam_A\") stagnated at 18 views.",
-      "action": "Avoid generic statements about siblings; ground them in specific situational conflicts."
-    },
-    {
-      "pattern": "Vague self-motivation and ungrounded life lessons",
-      "evidence": "Self motivation video (\"JPf_3ebfnuk\") underperformed with 171 views compared to relationship content.",
-      "action": "Tie motivational thoughts directly to specific relationship struggles rather than generic advice."
+      "pattern": "Generic Sibling Appreciation (Bhai/Behen)",
+      "evidence": "Sister videos (jfmMztnam_A, fAAoIQCRMXU) and Brother video (m4cgM90y9JU) underperformed at 18, 130, and 109 views.",
+      "action": "Avoid surface-level family quotes without a high-stakes emotional twist or concrete conflict."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "अफ़सोस और अपनापन",
-    "hook_style": "Observation-based reality check",
+    "emotion": "Bittersweet dynamic of unexpressed partner fatigue and silent care",
+    "hook_style": "Relatable quiet real-life observation",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A husband coming home late, assuming his wife is angry, only to find she kept his dinner warm despite fighting all day.",
-    "opening_direction": "रात के 12 बजे घर लौटने पर अक्सर दरवाजे पर ताला या खामोशी मिलती है...",
-    "twist_direction": "...लेकिन किचन में ठंडी होती चाय और ढकी हुई प्लेट चीख-चीख कर कहती है कि गुस्से से ज्यादा परवाह जिंदा है।",
-    "duration_seconds": 35,
-    "posting_window": "07:00 AM - 09:00 AM",
-    "reason": "Capitalizes on the proven high-performing marital/relationship dynamic observed in top-performing historical data."
+    "concept": "A partner who stops arguing isn't winning; they've simply given up trying to explain.",
+    "opening_direction": "Show a dinner table where one person goes completely quiet instead of complaining about the missing salt.",
+    "twist_direction": "The silence isn't peace—it's the exact moment a heart decides to stop expecting emotional effort.",
+    "duration_seconds": 25,
+    "posting_window": "07:30 AM - 08:00 AM UTC",
+    "reason": "Leverages proven high-performing topic ('रिश्ते' / husband-wife dynamic) and optimal historical publishing slot."
   },
-  "experiment": "Testing if high-empathy marital micro-moments can replicate or exceed the outlier view count of the previous top-performing wife-husband short.",
-  "updated_at": "2026-10-02T18:44:48.792909+00:00",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-02T18:44:51.844597+00:00"
+  "experiment": "Testing if narrative conflict around 'silence in relationships' hooks higher engagement than direct romantic appreciation.",
+  "updated_at": "2026-10-02T19:42:59.680320+00:00",
+  "model_used": "gemini-3.6-flash",
+  "generated_at": "2026-10-02T19:43:30.710783+00:00"
 }
