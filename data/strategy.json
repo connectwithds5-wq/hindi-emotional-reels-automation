@@ -1,35 +1,40 @@
 {
-  "confidence": "35%",
+  "confidence": "45%",
   "data_points": 10,
-  "overall_summary": "Data sample is small, but family and relationship dynamics show clear outperformance compared to generic or heavy philosophical topics. Specifically, husband-wife dynamics captured significant outlier views (1645 views), while parent-child bonds consistently pull baseline engagement.",
+  "overall_summary": "Data volume is low, so confidence is limited, but family and relationship dynamics clearly outperform general concepts. The video about understanding a wife's perspective (or5gtaBpRVY) heavily outperformed others with 1,648 views, showing high resonance for marital or close partner relationship realities.",
   "winning_patterns": [
     {
-      "pattern": "Family and Relatable Relationship Dynamics",
-      "evidence": "Wife emotional video (or5gtaBpRVY) gained 1645 views, and Maa Shayari (OfHrAp3r1G8) gained 225 views, outperforming broader emotional pieces.",
-      "action": "Focus heavily on domestic relationships and unsaid emotional burdens between partners and close family."
+      "pattern": "Marital / Partner Dynamics",
+      "evidence": "Video or5gtaBpRVY about wives/husbands garnered 1,648 views, significantly higher than any other video.",
+      "action": "Focus more heavily on relationship and marriage-related emotional nuances."
+    },
+    {
+      "pattern": "Core Family Bonds",
+      "evidence": "Videos focusing on mothers (OfHrAp3r1G8 - 225 views) and fathers (v8krtdmxbPs - 142 views) perform solidly above baseline.",
+      "action": "Continue producing slice-of-life family emotional moments."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic or Niche Family Members without Broad Conflict",
-      "evidence": "Sister emotional video (jfmMztnam_A) achieved only 17 views under similar publishing conditions.",
-      "action": "Avoid purely praise-based or overly niche topics unless anchored to a relatable daily conflict."
+      "pattern": "General or Peripheral Family Members without a strong hook",
+      "evidence": "Sister emotional videos (jfmMztnam_A with 17 views and fAAoIQCRMXU with 126 views) underperformed when not backed by a strong situational hook.",
+      "action": "Avoid generic sibling titles; ensure a specific situational conflict or emotional realization is highlighted."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "गुमसुम प्यार और अनकहा दर्द",
-    "hook_style": "Real-life observation",
+    "emotion": "समझौता और अनदेखा दर्द",
+    "hook_style": "Real-life observational statement",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A husband noticing his wife's silence late at night and realizing she carries unshared worries.",
-    "opening_direction": "रात के 2 बजे चाय का कप थामे, वो बस खिड़की के बाहर देख रही थी।",
-    "twist_direction": "पूछा तो बोली 'कुछ नहीं', पर उसकी थकी हुई आँखें सब कह गईं—हम अपनों के बीच भी कितने अकेले हो जाते हैं।",
-    "duration_seconds": 10,
-    "posting_window": "07:00 AM - 09:00 AM",
-    "reason": "Leverages the highest-performing winning pattern (partner relationships and late-night emotional weight) observed in the top video (or5gtaBpRVY)."
+    "concept": "A short piece on how long-term partners stop arguing not because they are happy, but because they have given up trying to explain themselves.",
+    "opening_direction": "शायद अब झगड़े होना बंद हो गए हैं उनके बीच...",
+    "twist_direction": "झगड़ा बंद होने का मतलब प्यार नहीं, बल्कि उम्मीद का खत्म होना होता है।",
+    "duration_seconds": 35,
+    "posting_window": "07:30 PM - 09:00 PM",
+    "reason": "Capitalizes on the winning pattern of relationship/marriage emotional content while introducing a deeper, relatable psychological reality."
   },
-  "experiment": "Testing if replicating the high-performing husband-wife emotional dynamic yields a similar spike compared to parental or general relationship themes.",
-  "updated_at": "2026-10-02T13:44:34.931365+00:00",
+  "experiment": "Testing if deep psychological relationship nuances can match the high view count of direct marital advice videos like or5gtaBpRVY.",
+  "updated_at": "2026-10-02T14:45:03.557130+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-02T13:44:38.459714+00:00"
+  "generated_at": "2026-10-02T14:45:06.544556+00:00"
 }
