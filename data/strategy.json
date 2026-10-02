@@ -1,40 +1,35 @@
 {
-  "confidence": "40%",
+  "confidence": "30%",
   "data_points": 10,
-  "overall_summary": "Sample size is small (10 videos). Early signal shows strong viewer retention on intimate relationship dynamics (husband-wife/relationship conflicts) over generic motivation or sibling topics.",
+  "overall_summary": "Dataset is small, with view counts generally ranging between 100-350, except for one significant outlier about husband-wife dynamics reaching 1,655 views. Family and relationship topics perform noticeably better than pure abstract shayari.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife and Relationship Dynamics",
-      "evidence": "or5gtaBpRVY (Wife Emotional Video) scored 1,655 views (4.7x baseline average) and NO5fdHLxFL4 scored 350 views.",
-      "action": "Double down on subtle, unspoken relationship truths and partner emotional dynamics."
-    },
-    {
-      "pattern": "Mid-Morning UTC Upload Timing (07:00-08:30 AM UTC)",
-      "evidence": "Top 3 performing videos (1655, 350, 288 views) were all published between 07:28 and 08:02 UTC.",
-      "action": "Schedule high-priority emotional relationship content between 07:00 AM and 08:30 AM UTC (12:30 PM - 2:00 PM IST)."
+      "pattern": "Relationship & Family Dynamics",
+      "evidence": "Wife-husband emotional video ('or5gtaBpRVY') achieved 1,655 views, while relationship reality ('NO5fdHLxFL4') and family content (Maa, Papa, Relatives) consistently pull 100-300 views.",
+      "action": "Focus more narratives on complex relationship bonds, marital understandings, and everyday family sacrifices."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sibling Appreciation (Bhai/Behen)",
-      "evidence": "Sister videos (jfmMztnam_A, fAAoIQCRMXU) and Brother video (m4cgM90y9JU) underperformed at 18, 130, and 109 views.",
-      "action": "Avoid surface-level family quotes without a high-stakes emotional twist or concrete conflict."
+      "pattern": "Generic Sister/Sibling Tropes with Low Differentiation",
+      "evidence": "First sister video ('jfmMztnam_A') got 18 views and a repeat attempt ('fAAoIQCRMXU') got 130 views, indicating low immediate pull compared to parental or spousal dynamics.",
+      "action": "Avoid repeating identical sibling hooks without a fresh narrative angle."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Bittersweet dynamic of unexpressed partner fatigue and silent care",
-    "hook_style": "Relatable quiet real-life observation",
+    "emotion": "पछतावा और अपनापन",
+    "hook_style": "situational observation",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A partner who stops arguing isn't winning; they've simply given up trying to explain.",
-    "opening_direction": "Show a dinner table where one person goes completely quiet instead of complaining about the missing salt.",
-    "twist_direction": "The silence isn't peace—it's the exact moment a heart decides to stop expecting emotional effort.",
-    "duration_seconds": 25,
-    "posting_window": "07:30 AM - 08:00 AM UTC",
-    "reason": "Leverages proven high-performing topic ('रिश्ते' / husband-wife dynamic) and optimal historical publishing slot."
+    "concept": "A short piece on how people check last seen on WhatsApp late at night instead of calling the person they actually miss.",
+    "opening_direction": "रात के दो बजे ऑनलाइन होने का मतलब हर बार जागना नहीं होता, कभी-कभी अपनों को चुपचाप देखने की आदत होती है।",
+    "twist_direction": "और जब वो सामने से मैसेज कर दे, तो हम टाइप करके डिलीट कर देते हैं कि 'सो जाओ, सुबह बात करेंगे'।",
+    "duration_seconds": 35,
+    "posting_window": "07:00 PM - 09:00 PM",
+    "reason": "Leverages night-time reflection and unspoken relationship barriers which align with core emotional themes and previous high-performing relationship hooks."
   },
-  "experiment": "Testing if narrative conflict around 'silence in relationships' hooks higher engagement than direct romantic appreciation.",
-  "updated_at": "2026-10-02T19:42:59.680320+00:00",
-  "model_used": "gemini-3.6-flash",
-  "generated_at": "2026-10-02T19:43:30.710783+00:00"
+  "experiment": "Testing an overt 'night thoughts / overthinking' micro-habit angle to see if it outperforms broad relationship quotes.",
+  "updated_at": "2026-10-02T20:42:47.178708+00:00",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-10-02T20:42:50.275511+00:00"
 }
