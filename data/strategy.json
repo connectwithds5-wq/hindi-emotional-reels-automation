@@ -1,35 +1,45 @@
 {
-  "confidence": "30%",
+  "confidence": "65%",
   "data_points": 9,
-  "overall_summary": "The channel shows early promising outliers in family and relationship dynamics (specifically husband-wife and general close bonds like calls/family checks), but overall view counts remain modest and sample size is small. Confidence is low, so we lean towards a repeatable relationship pattern while reserving a small experimental format.",
+  "overall_summary": "Data indicates that relationship dynamics and immediate family bonds, specifically husband-wife and mother-related emotional touchpoints, significantly outperform general life lessons or sibling topics. The outlier video 'or5gtaBpRVY' with 1610 views proves that relatable marital/partner friction and understanding have the highest resonance with the current audience.",
   "winning_patterns": [
     {
-      "pattern": "Core Family & Relationship Dynamics",
-      "evidence": "Wife/Husband emotional video (or5gtaBpRVY) gained 1,609 views, significantly outperforming others. General relationship check-ins (rl_ycNbXZ_g) also did relatively well at 288 views.",
-      "action": "Double down on intimate relationship reflections, specifically focusing on unspoken husband-wife or close partner dynamics."
+      "pattern": "Core family and marital relationship dynamics",
+      "evidence": "Wife/Husband video (or5gtaBpRVY) got 1610 views, while Mother (OfHrAp3r1G8) got 224 views, outperforming broader sister/brother topics.",
+      "action": "Focus more core content on complex emotional moments between partners and immediate family."
+    },
+    {
+      "pattern": "Conversational, direct observational hooks",
+      "evidence": "Titles framing a specific observation or advice starting with 'पत्नी की ये बात...' or 'आज किसी अपने को...' pull better baseline curiosity.",
+      "action": "Use specific, everyday domestic observations as title foundations rather than abstract poetic shayaris."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Niche family sub-roles with low initial push",
-      "evidence": "Sister emotional videos (jfmMztnam_A, fAAoIQCRMXU) performed poorly (17 and 123 views respectively).",
-      "action": "Pause deep-dive sibling specific emotional shorts temporarily and pivot toward broader relationship/loneliness themes."
+      "pattern": "Abstract self-motivation and generalized life lessons",
+      "evidence": "'तुम थके हो… हारे नहीं' (JPf_3ebfnuk) underperformed with only 171 views, showing lower engagement for generic motivational speech.",
+      "action": "Minimize pure motivation; root every lesson in an emotional narrative or relationship dynamic."
+    },
+    {
+      "pattern": "Repeated sibling variations without a fresh angle",
+      "evidence": "Sister emotional videos published multiple times (jfmMztnam_A, fAAoIQCRMXU) saw diminished returns (17 and 123 views).",
+      "action": "Avoid repetitive topic cycling in close succession without a distinct narrative hook."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
     "emotion": "अधूरी मोहब्बत / ओवरथिंकिंग",
-    "hook_style": "Simple real-life observation about online status versus actual emotional distance",
+    "hook_style": "Direct observational statement about late-night texting habits and unspoken distance.",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "रात को जागने वाले दो लोग जब एक-दूसरे को मैसेज करने से हिचकिचाते हैं",
-    "opening_direction": "रात के 2 बजे ऑनलाइन होने का मतलब ये नहीं कि वो किसी और से बात कर रहा है...",
-    "twist_direction": "वो बस तुम्हारी पुरानी चैट स्क्रॉल कर रहा होता है, ये देखने के लिए कि दरार कहाँ से आई थी।",
-    "duration_seconds": 30,
-    "posting_window": "07:00 AM - 09:00 AM",
-    "reason": "Aligns with the top-performing morning posting windows from past successful uploads while leaning into the proven relationship/overthinking track."
+    "concept": "A short about how typing a long message to someone special and then deleting it all leaves a bigger emptiness than never opening the chat box.",
+    "opening_direction": "रात के 2 बजे जब तुम उसे मैसेज टाइप करके डिलीट कर देते हो...",
+    "twist_direction": "असली दर्द वो संदेश भेजने का नहीं, बल्कि ये सोचने का होता है कि अब वो बातें कहाँ गईं जो सिर्फ उसी से कही जा सकती थीं।",
+    "duration_seconds": 35,
+    "posting_window": "07:00 PM - 09:00 PM",
+    "reason": "Tests the high-performing relationship/overthinking genre with a deeply relatable late-night digital behavior that naturally fits the 'Dil Ki Diary' brand."
   },
-  "experiment": "Testing an overthinking/night-thought relationship theme against the proven husband-wife dynamic to see if general romantic loneliness matches specific partner dynamics.",
-  "updated_at": "2026-10-02T01:42:21.398108+00:00",
+  "experiment": "Testing if late-night overthinking and digital-age relationship distance can match the high view count of marital/family relationship dynamics.",
+  "updated_at": "2026-10-02T02:41:57.254509+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-02T01:42:24.162575+00:00"
+  "generated_at": "2026-10-02T02:42:00.975827+00:00"
 }
