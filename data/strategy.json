@@ -1,35 +1,45 @@
 {
   "confidence": "35%",
   "data_points": 10,
-  "overall_summary": "Data indicates a massive outlier in the family/relationship space (Husband-Wife dynamic at 1.6K views), while standard emotional relationship quotes and general family member tributes range from 100-300 views. Overall confidence is low due to small sample size and lack of comment engagement.",
+  "overall_summary": "Data indicates family relationships and close interpersonal bonds (wife, mother, relationships) significantly outperform general emotional or standalone family tropes. The video about husband-wife dynamics (\"or5gtaBpRVY\") received the highest views (1655), while relationship realities (\"NO5fdHLxFL4\") also performed decently. Confidence remains low due to small sample size and zero comments across all videos.",
   "winning_patterns": [
     {
-      "pattern": "Core Relatable Relationships & Domestic Dynamics",
-      "evidence": "Video 'or5gtaBpRVY' about husband-wife understanding hit 1,648 views, significantly outperforming sibling or parental tributes.",
-      "action": "Double down on complex, everyday relationship realities between partners rather than generic family tributes."
+      "pattern": "Core family and marital relationship dynamics",
+      "evidence": "Wife emotional video (\"or5gtaBpRVY\") reached 1655 views, and Mother emotional video (\"OfHrAp3r1G8\") reached 225 views.",
+      "action": "Focus heavily on everyday marital, parental, and close relationship compromises."
+    },
+    {
+      "pattern": "Universal emotional relationship truths",
+      "evidence": "Relationship reality short (\"NO5fdHLxFL4\") got 350 views.",
+      "action": "Use conversational hooks that highlight hidden relationship burdens."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Repetitive Sister-centric Content",
-      "evidence": "Both sister-focused videos (jfmMztnam_A with 18 views and fAAoIQCRMXU with 126 views) underperformed compared to other family/relationship niches.",
-      "action": "Avoid redundant sister emotional hooks for now and pivot towards broader relationship and introspection topics."
+      "pattern": "Standalone sibling tropes without a strong narrative hook",
+      "evidence": "Sister emotional video (\"jfmMztnam_A\") stagnated at 18 views.",
+      "action": "Avoid generic statements about siblings; ground them in specific situational conflicts."
+    },
+    {
+      "pattern": "Vague self-motivation and ungrounded life lessons",
+      "evidence": "Self motivation video (\"JPf_3ebfnuk\") underperformed with 171 views compared to relationship content.",
+      "action": "Tie motivational thoughts directly to specific relationship struggles rather than generic advice."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "guilt and unspoken care",
-    "hook_style": "Real-life observation on how distance changes daily habits in a relationship",
+    "emotion": "अफ़सोस और अपनापन",
+    "hook_style": "Observation-based reality check",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short piece about how we stop sharing petty updates with the person we used to text 24/7, realizing silence has replaced fights.",
-    "opening_direction": "Start with the simple act of looking at a chat screen and noticing the last 'Good Night' was hours earlier than usual.",
-    "twist_direction": "The realization that a quiet relationship isn't peaceful; it's just two people slowly becoming strangers while living under the same roof.",
-    "duration_seconds": 30,
-    "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Tests the proven relationship/domestic tension pattern from the top-performing video while aligning with evening introspection times."
+    "concept": "A husband coming home late, assuming his wife is angry, only to find she kept his dinner warm despite fighting all day.",
+    "opening_direction": "रात के 12 बजे घर लौटने पर अक्सर दरवाजे पर ताला या खामोशी मिलती है...",
+    "twist_direction": "...लेकिन किचन में ठंडी होती चाय और ढकी हुई प्लेट चीख-चीख कर कहती है कि गुस्से से ज्यादा परवाह जिंदा है।",
+    "duration_seconds": 35,
+    "posting_window": "07:00 AM - 09:00 AM",
+    "reason": "Capitalizes on the proven high-performing marital/relationship dynamic observed in top-performing historical data."
   },
-  "experiment": "Testing if intimate relationship regret/distance drives higher engagement and comments compared to general emotional statements.",
-  "updated_at": "2026-10-02T17:41:51.131312+00:00",
+  "experiment": "Testing if high-empathy marital micro-moments can replicate or exceed the outlier view count of the previous top-performing wife-husband short.",
+  "updated_at": "2026-10-02T18:44:48.792909+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-02T17:41:53.975488+00:00"
+  "generated_at": "2026-10-02T18:44:51.844597+00:00"
 }
