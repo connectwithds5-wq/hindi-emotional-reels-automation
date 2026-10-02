@@ -1,35 +1,40 @@
 {
   "confidence": "30%",
   "data_points": 10,
-  "overall_summary": "Dataset is small, with view counts generally ranging between 100-350, except for one significant outlier about husband-wife dynamics reaching 1,655 views. Family and relationship topics perform noticeably better than pure abstract shayari.",
+  "overall_summary": "Data volume is low, but clear outliers indicate that domestic relationship dynamics and marital understanding perform significantly better than general relationship philosophy or family members like siblings. The top video focuses on 'wife and husband' dynamics (1655 views), followed by general relationship realities (364 views) and calling a loved one (288 views).",
   "winning_patterns": [
     {
-      "pattern": "Relationship & Family Dynamics",
-      "evidence": "Wife-husband emotional video ('or5gtaBpRVY') achieved 1,655 views, while relationship reality ('NO5fdHLxFL4') and family content (Maa, Papa, Relatives) consistently pull 100-300 views.",
-      "action": "Focus more narratives on complex relationship bonds, marital understandings, and everyday family sacrifices."
+      "pattern": "Marital/Couple Dynamics",
+      "evidence": "Video 'or5gtaBpRVY' about husband-wife understanding achieved 1655 views, drastically outperforming other videos.",
+      "action": "Produce more content revolving around husband-wife or close romantic relationship compromises and unsaid feelings."
+    },
+    {
+      "pattern": "Universal Relationship Reality Hooks",
+      "evidence": "Video 'NO5fdHLxFL4' about 'Har Baar Sorry Bolne Wala Galat Nahi Hota' achieved 364 views, outperforming niche family videos.",
+      "action": "Use dialogue-based hooks that challenge common relationship ego conflicts."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sister/Sibling Tropes with Low Differentiation",
-      "evidence": "First sister video ('jfmMztnam_A') got 18 views and a repeat attempt ('fAAoIQCRMXU') got 130 views, indicating low immediate pull compared to parental or spousal dynamics.",
-      "action": "Avoid repeating identical sibling hooks without a fresh narrative angle."
+      "pattern": "Extended Family/Sibling Emotional Shorts",
+      "evidence": "Sister videos (jfmMztnam_A, fAAoIQCRMXU) and brother videos (m4cgM90y9JU) generated low views (18 to 134 views).",
+      "action": "Deprioritize sibling dynamics and focus strictly on romantic relationships, loneliness, and heavy emotional realizations."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "पछतावा और अपनापन",
-    "hook_style": "situational observation",
+    "emotion": "गुस्सा और पछतावा",
+    "hook_style": "डायरेक्ट कन्फेशन",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short piece on how people check last seen on WhatsApp late at night instead of calling the person they actually miss.",
-    "opening_direction": "रात के दो बजे ऑनलाइन होने का मतलब हर बार जागना नहीं होता, कभी-कभी अपनों को चुपचाप देखने की आदत होती है।",
-    "twist_direction": "और जब वो सामने से मैसेज कर दे, तो हम टाइप करके डिलीट कर देते हैं कि 'सो जाओ, सुबह बात करेंगे'।",
+    "concept": "गुस्से में ब्लॉक करने के बाद जब ईगो टूटती है और फोन की स्क्रीन पर नजरें टिकी रहती हैं।",
+    "opening_direction": "जब वो गुस्से में तुम्हें ब्लॉक करके सो जाती है, और तुम रातभर उसका ऑनलाइन स्टेटस देखते रहते हो।",
+    "twist_direction": "सुबह नोटिफिकेशन बजती है उसका मैसेज नहीं, बल्कि किसी और के जरिए पता चलता है कि वो खुद रो रही थी।",
     "duration_seconds": 35,
-    "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Leverages night-time reflection and unspoken relationship barriers which align with core emotional themes and previous high-performing relationship hooks."
+    "posting_window": "07:30 PM - 09:00 PM",
+    "reason": "Late evening hours align well with 'रात के ख्याल' and overthinking themes, capturing audiences when relationship reflections peak."
   },
-  "experiment": "Testing an overt 'night thoughts / overthinking' micro-habit angle to see if it outperforms broad relationship quotes.",
-  "updated_at": "2026-10-02T20:42:47.178708+00:00",
+  "experiment": "Testing if shifting focus entirely from family tropes to modern relationship ego clashes sustains the high view velocity seen in the wife/husband outlier.",
+  "updated_at": "2026-10-02T21:42:34.686985+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-02T20:42:50.275511+00:00"
+  "generated_at": "2026-10-02T21:42:37.672573+00:00"
 }
