@@ -1,40 +1,45 @@
 {
-  "confidence": "30%",
+  "confidence": "35%",
   "data_points": 10,
-  "overall_summary": "Data volume is low, but clear outliers indicate that domestic relationship dynamics and marital understanding perform significantly better than general relationship philosophy or family members like siblings. The top video focuses on 'wife and husband' dynamics (1655 views), followed by general relationship realities (364 views) and calling a loved one (288 views).",
+  "overall_summary": "Data sample is small, but family and relationship dynamics clearly outperform general philosophical or motivational shorts. The video about wives/husbands achieved a major outlier view count (1655 views), while family-centric content consistently pulls moderate engagement.",
   "winning_patterns": [
     {
-      "pattern": "Marital/Couple Dynamics",
-      "evidence": "Video 'or5gtaBpRVY' about husband-wife understanding achieved 1655 views, drastically outperforming other videos.",
-      "action": "Produce more content revolving around husband-wife or close romantic relationship compromises and unsaid feelings."
+      "pattern": "Core family and marital relationship dynamics",
+      "evidence": "Wife/husband emotional video (or5gtaBpRVY) gained 1655 views; mother and father shorts (OfHrAp3r1G8, v8krtdmxbPs) performed steadily better than generic sister/brother variants.",
+      "action": "Focus heavily on husband-wife and parent-child emotional friction and unspoken sacrifices."
     },
     {
-      "pattern": "Universal Relationship Reality Hooks",
-      "evidence": "Video 'NO5fdHLxFL4' about 'Har Baar Sorry Bolne Wala Galat Nahi Hota' achieved 364 views, outperforming niche family videos.",
-      "action": "Use dialogue-based hooks that challenge common relationship ego conflicts."
+      "pattern": "Direct question or conversational hooks addressing a specific person",
+      "evidence": "Titles like 'माँ जब पूछती है...' and 'पत्नी की ये बात...' generated the highest views and like counts.",
+      "action": "Use specific second-person or situational relational hooks in the titles."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Extended Family/Sibling Emotional Shorts",
-      "evidence": "Sister videos (jfmMztnam_A, fAAoIQCRMXU) and brother videos (m4cgM90y9JU) generated low views (18 to 134 views).",
-      "action": "Deprioritize sibling dynamics and focus strictly on romantic relationships, loneliness, and heavy emotional realizations."
+      "pattern": "Over-repeated sister-focused themes",
+      "evidence": "First sister video got 18 views (jfmMztnam_A), and re-uploading or repeating the exact theme yielded low returns (130 views on fAAoIQCRMXU).",
+      "action": "Avoid immediate duplicate themes within the same week; diversify across relationship types."
+    },
+    {
+      "pattern": "Generic motivational quotes",
+      "evidence": "Self-motivation/life lessons like 'तुम थके हो… हारे नहीं' underperformed compared to specific relationship observations.",
+      "action": "Avoid pure motivation; anchor every script in interpersonal relationships and emotional reality."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "गुस्सा और पछतावा",
-    "hook_style": "डायरेक्ट कन्फेशन",
+    "emotion": "अधूरी मोहब्बत / अकेलापन",
+    "hook_style": "Conversational observation about long-term relationships",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "गुस्से में ब्लॉक करने के बाद जब ईगो टूटती है और फोन की स्क्रीन पर नजरें टिकी रहती हैं।",
-    "opening_direction": "जब वो गुस्से में तुम्हें ब्लॉक करके सो जाती है, और तुम रातभर उसका ऑनलाइन स्टेटस देखते रहते हो।",
-    "twist_direction": "सुबह नोटिफिकेशन बजती है उसका मैसेज नहीं, बल्कि किसी और के जरिए पता चलता है कि वो खुद रो रही थी।",
-    "duration_seconds": 35,
-    "posting_window": "07:30 PM - 09:00 PM",
-    "reason": "Late evening hours align well with 'रात के ख्याल' and overthinking themes, capturing audiences when relationship reflections peak."
+    "concept": "A husband notices his wife's silence at the dinner table after a fight, realizing that quiet arguments are much more dangerous than loud ones.",
+    "opening_direction": "जब वो गुस्सा होना छोड़ दे, तो समझ लेना रिश्ता टूटने के कगार पर है।",
+    "twist_direction": "शोर सिर्फ नाराज़गी का होता है, ख़ामोशी तो रिश्ते के ख़त्म होने का सुबूत होती है।",
+    "duration_seconds": 10,
+    "posting_window": "07:00 AM - 09:00 AM IST",
+    "reason": "Capitalizes on the winning husband-wife emotional dynamic pattern seen in the top-performing video while addressing deep-rooted relationship realities."
   },
-  "experiment": "Testing if shifting focus entirely from family tropes to modern relationship ego clashes sustains the high view velocity seen in the wife/husband outlier.",
-  "updated_at": "2026-10-02T21:42:34.686985+00:00",
+  "experiment": "Testing if husband-wife relationship nuance can repeat the outlier success of the previous top-performing video or if it was a one-off anomaly.",
+  "updated_at": "2026-10-02T22:41:35.509785+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-02T21:42:37.672573+00:00"
+  "generated_at": "2026-10-02T22:41:38.823007+00:00"
 }
