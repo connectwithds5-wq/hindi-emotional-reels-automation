@@ -1,40 +1,35 @@
 {
-  "confidence": "30%",
+  "confidence": "35%",
   "data_points": 10,
-  "overall_summary": "Data indicates family relationship and marital dynamics outperform abstract shayari/thoughts. The outlier video about wives (1,623 views) heavily skewed performance, suggesting high engagement with interpersonal relationship tensions rather than general emotional quotes.",
+  "overall_summary": "Data is relatively small with one massive outlier on a husband-wife dynamic topic (or5gtaBpRVY, 1631 views), while family/relationship dynamics generally outperform abstract ones. Confidence is low due to small sample size, requiring a balanced mix of proven relational patterns and controlled experimentation.",
   "winning_patterns": [
     {
-      "pattern": "Marital/Relationship Dynamism",
-      "evidence": "Video 'or5gtaBpRVY' about wives achieved 1623 views, vastly outperforming everything else.",
-      "action": "Produce more content addressing husband-wife understanding and unspoken relationship expectations."
-    },
-    {
-      "pattern": "Family Core Bonds",
-      "evidence": "Videos about mothers (OfHrAp3r1G8) and call reminders (rl_ycNbXZ_g) performed moderately well above baseline.",
-      "action": "Maintain a sub-focus on relatable family moments."
+      "pattern": "Close Family/Partner Relationship Dynamics",
+      "evidence": "Wife emotional video (or5gtaBpRVY) hit 1631 views, and Maa Shayari (OfHrAp3r1G8) hit 225 views.",
+      "action": "Double down on intimate relational nuances between spouses or parents and children."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Relationship Podcasts/Quotes",
-      "evidence": "Video 'NO5fdHLxFL4' about sorry-bolting got only 84 views.",
-      "action": "Avoid generic podcast clips or abstract philosophical quotes; anchor content in concrete everyday scenarios."
+      "pattern": "Abstract or Broad Emotional Gyaan",
+      "evidence": "Sister emotional video repost (fAAoIQCRMXU) and generic self-motivation (JPf_3ebfnuk) underperformed significantly compared to specific relationship insights.",
+      "action": "Avoid overly broad or repeated topics without a unique specific angle or high-tension narrative."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "guilt & realization",
-    "hook_style": "situational observation",
+    "emotion": "अहसास और अनदेखा दर्द",
+    "hook_style": "Real-life observation",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A husband ignores his wife's small daily text message during a busy workday, only to realize later in the evening what she actually needed was just someone to listen.",
-    "opening_direction": "Start with the phone screen lighting up with a trivial text message amid office chaos.",
-    "twist_direction": "The realization that busy schedules quietly destroy the closest bonds without any big fights happening.",
+    "concept": "घर में सबसे चुप रहने वाला इंसान ही सबसे ज्यादा संभालता है",
+    "opening_direction": "शाम के वक्त घर में सब अपने फोन में व्यस्त हैं और एक इंसान बिना किसी शिकायत के सबके लिए चाय बना रहा है।",
+    "twist_direction": "जब उस इंसान की तबीयत खराब होती है और घर के बाकी लोग असहाय हो जाते हैं, तब पता चलता है कि असली पिलर वही था।",
     "duration_seconds": 35,
-    "posting_window": "07:30 PM - 09:00 PM",
-    "reason": "Aligns with the top-performing relationship/marital theme which resonates most with the audience during evening wind-down hours."
+    "posting_window": "07:00 PM - 09:00 PM",
+    "reason": "Evening hours match high-engagement windows for emotional and family-centric content when users reflect on daily life."
   },
-  "experiment": "Testing if narrative-driven marital friction performs consistently better than abstract relationship advice.",
-  "updated_at": "2026-10-02T09:42:57.935175+00:00",
+  "experiment": "Testing if specific household psychological observation outperforms direct romantic/marital relationship tropes.",
+  "updated_at": "2026-10-02T10:42:50.621660+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-02T09:43:00.631422+00:00"
+  "generated_at": "2026-10-02T10:42:53.088466+00:00"
 }
