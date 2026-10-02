@@ -1,35 +1,45 @@
 {
-  "confidence": "40%",
+  "confidence": "45%",
   "data_points": 9,
-  "overall_summary": "The channel shows early potential in relationship and family dynamics, particularly with the 'Wife Emotional Video' (1,610 views) outperforming all other topics significantly. However, overall sample size is low, making broader pattern recognition preliminary.",
+  "overall_summary": "The channel shows early traction with family and relationship-centric emotional shorts. A clear outlier is the video 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1613 views, indicating that domestic dynamics and marital understanding heavily outperform other topics in this dataset. However, due to overall low sample size and lack of comment engagement, confidence is moderate, necessitating a balanced strategy of doubling down on the winning relationship dynamic while testing a core heartbreak topic.",
   "winning_patterns": [
     {
-      "pattern": "Core Family & Relational Dynamics",
-      "evidence": "Wife emotional video (1610 views) and Maa/Father/Family shorts consistently gain baseline views compared to niche sister or brother shorts.",
-      "action": "Focus more core content on spouse, parent-child, and deep relationship bonds."
+      "pattern": "Domestic and Marital Relatability",
+      "evidence": "Video 'or5gtaBpRVY' focusing on husband-wife dynamics garnered 1613 views, significantly higher than any other video.",
+      "action": "Create more relationship-focused narratives dealing with unspoken expectations between partners."
+    },
+    {
+      "pattern": "Core Family Relationships",
+      "evidence": "Videos about mothers ('OfHrAp3r1G8' with 224 views) and general relationships ('rl_ycNbXZ_g' with 288 views) consistently perform better than sibling-specific or motivational content.",
+      "action": "Prioritize immediate family emotional anchors over broader motivational advice."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Low-performing duplicate or overlapping sibling content",
-      "evidence": "Sister emotional video posted twice yielded low views (17 and 125).",
-      "action": "Avoid repetitive topics within short timeframes and diversify relationship angles."
+      "pattern": "Niche Sibling Content",
+      "evidence": "Sister/Brother emotional shorts (e.g., 'jfmMztnam_A', 'fAAoIQCRMXU') underperformed with 17 and 125 views respectively.",
+      "action": "Reduce frequency of sibling-focused content for now."
+    },
+    {
+      "pattern": "General Self-Motivation",
+      "evidence": "Self-motivation content ('JPf_3ebfnuk') had lower engagement (171 views, 0 comments) compared to interpersonal emotional stories.",
+      "action": "Shift focus away from direct self-help advice and frame life lessons through interpersonal relationship stories."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "निराशा और अपनापन",
-    "hook_style": "Real-life observation",
+    "emotion": "अफ़सोस और अपनापन",
+    "hook_style": "Real-life observation about unsaid words between partners",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short about how people slowly stop sharing small daily updates with each other, thinking it doesn't matter, until the silence becomes permanent.",
-    "opening_direction": "जब लोग दूर होने लगते हैं, तो लड़ना बंद कर देते हैं, बातें कम कर देते हैं...",
-    "twist_direction": "...और फिर एक दिन सिर्फ यादें रह जाती हैं, फोन पर मैसेज भेजने की आदत छूट जाती है।",
+    "concept": "A husband finds an old grocery list written in his wife's handwriting years ago, reminding him of how small daily check-ins disappeared over time.",
+    "opening_direction": "Start with a close-up of an old piece of paper tucked inside a book, showing a simple list of household items.",
+    "twist_direction": "The voiceover reveals that while they now talk for hours on phones with outsiders, they haven't looked into each other's eyes and asked 'how was your day' in months.",
     "duration_seconds": 35,
-    "posting_window": "07:00 AM - 09:00 AM IST",
-    "reason": "Leverages the proven high-performing 'रिश्ते' and emotional relationship angle from past successful formats while testing a deeper psychological hook."
+    "posting_window": "07:00 AM - 09:00 AM",
+    "reason": "Aligns with the top-performing husband-wife relationship format while integrating core emotional elements of unsaid feelings and lost daily connection."
   },
-  "experiment": "Testing if relationship/communication distance outperforms pure family appreciation formats.",
-  "updated_at": "2026-10-02T03:43:56.442962+00:00",
+  "experiment": "Testing if deep marital regret/nostalgia can replicate the massive view spike of the previous husband-wife short.",
+  "updated_at": "2026-10-02T04:43:19.512729+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-02T03:43:58.916411+00:00"
+  "generated_at": "2026-10-02T04:43:22.707546+00:00"
 }
