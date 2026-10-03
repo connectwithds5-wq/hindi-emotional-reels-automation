@@ -1,45 +1,40 @@
 {
   "confidence": "35%",
   "data_points": 10,
-  "overall_summary": "The channel shows low overall view counts across most uploads, but family and relationship-centric dynamics (specifically wife/husband and deep personal bonds) heavily outperform standard mother/father/sister tropes. The top performer by a massive margin focuses on a husband-wife dynamic (1,662 views), followed by relationship communication and interpersonal connections.",
+  "overall_summary": "Data volume is extremely low, but early signals show that husband-wife dynamics ('पत्नी की ये बात हर पति को समझनी चाहिए' with 1662 views) and relationship/ego realities ('Har Baar Sorry Bolne Wala Galat Nahi Hota' with 371 views) outperform family member love tropes (sister/brother videos). Confidence is low, requiring a controlled exploration leaning into relationship nuances.",
   "winning_patterns": [
     {
-      "pattern": "Relationship dynamics and mutual understanding",
-      "evidence": "Video 'or5gtaBpRVY' about a wife's perspective hit 1,662 views, while video 'NO5fdHLxFL4' about relationship reality and apologies hit 371 views.",
-      "action": "Focus more heavily on complex relationship dynamics, unspoken expectations between partners, and mutual empathy."
+      "pattern": "Relationship & Marital Dynamics",
+      "evidence": "Wife/Husband video (or5gtaBpRVY) hit 1662 views, significantly higher than any other upload.",
+      "action": "Focus more narratives on complex romantic relationships, ego clashes, and husband-wife understanding."
     },
     {
-      "pattern": "Call to action / Action-oriented life realization",
-      "evidence": "Video 'rl_ycNbXZ_g' about calling someone you love performed solidly at 288 views compared to generic family tropes.",
-      "action": "Incorporate real-world, actionable emotional realizations that prompt viewers to reflect on their immediate relationships."
+      "pattern": "Relatable Emotional Realities",
+      "evidence": "Podcast-style relationship reality clip (NO5fdHLxFL4) performed well at 371 views.",
+      "action": "Use conversational reality checks instead of generic poetic shayari."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic family member appreciation tropes",
-      "evidence": "Videos about sisters ('jfmMztnam_A' with 18 views, 'fAAoIQCRMXU' with 134 views) and brothers ('m4cgM90y9JU' with 109 views) underperformed significantly.",
-      "action": "Avoid generic praise for individual family members unless tied to a specific, tense, or deeply relatable psychological conflict."
-    },
-    {
-      "pattern": "Broad self-motivation statements",
-      "evidence": "Video 'JPf_3ebfnuk' about self-motivation scored low at 171 views.",
-      "action": "Ground motivational concepts into specific relational or situational contexts rather than abstract advice."
+      "pattern": "Saturated Sibling Tropes",
+      "evidence": "Sister/Brother emotional videos (jfmMztnam_A, fAAoIQCRMXU, m4cgM90y9JU) yielded very low views (18 to 134).",
+      "action": "Reduce frequency of standard sibling tribute shorts unless paired with a unique conflict."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "अधूरी उम्मीद और समझ",
-    "hook_style": "Real-life observation about silence in a relationship",
+    "emotion": "अधूरी मोहब्बत / Overthinking",
+    "hook_style": "Conversational reality check",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short piece on how two people living under the same roof stop sharing their daily trivial thoughts, not because of fights, but because they stopped expecting the other to care.",
-    "opening_direction": "Start with the small, relatable moment of looking at your phone and wondering who to share a silly joke with first.",
-    "twist_direction": "Realizing that the distance between two people doesn't grow from loud arguments, but from the quiet evenings where neither asks 'kya hua?'",
-    "duration_seconds": 35,
-    "posting_window": "07:30 AM - 09:00 AM",
-    "reason": "Leverages the winning pattern of relationship realities and emotional maturity observed in top-performing videos."
+    "concept": "A couple where one person always initiates the compromise after a fight, until one day they stop, and the silence speaks louder than words.",
+    "opening_direction": "जब हर झगड़े के बाद झुकना सिर्फ तुम्हारी आदत बन जाए...",
+    "twist_direction": "...तो समझ लेना कि तुमने रिश्ता नहीं बचाया, सामने वाले को खो दिया.",
+    "duration_seconds": 10,
+    "posting_window": "07:00 AM - 09:00 AM",
+    "reason": "Building on the success of relationship reality content (NO5fdHLxFL4) and marital dynamics (or5gtaBpRVY), targeting everyday relationship ego traps."
   },
-  "experiment": "Testing if narrowing down from broad family affection to nuanced partner/relationship emotional disconnect maintains the high view-count anomaly seen in the top-performing wife/husband video.",
-  "updated_at": "2026-10-03T03:53:47.946500+00:00",
+  "experiment": "Testing if deep relationship ego dynamics outperform family member tropes in a short 10-second format.",
+  "updated_at": "2026-10-03T04:43:39.260095+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-03T03:53:51.001837+00:00"
+  "generated_at": "2026-10-03T04:43:42.006253+00:00"
 }
