@@ -1,45 +1,40 @@
 {
   "confidence": "45%",
   "data_points": 10,
-  "overall_summary": "The channel 'Dil Ki Diary' is exploring a mix of romantic relationships, self-worth, and family dynamics. The clear outlier is the husband-wife relationship video ('पत्नी की ये बात हर पति को समझनी चाहिए'), which outperformed all other videos by a significant margin (1,666 views), pointing to strong audience engagement in marital and close interpersonal dynamics compared to broader family themes.",
+  "overall_summary": "Data indicates high viewer response to domestic relationship dynamics, especially husband-wife themes, outperforming standard family emotional shorts. General family member dedications show moderate baseline views, while sister-focused content underperformed significantly, pointing toward audience fatigue on generic sibling tropes.",
   "winning_patterns": [
     {
-      "pattern": "Marital/Close Relationship Dynamics",
-      "evidence": "Video ID or5gtaBpRVY about husband and wife reached 1,666 views, drastically higher than siblings, parents, or general motivational shorts.",
-      "action": "Allocate more content focus to complex, relatable domestic relationship struggles and mutual understanding."
+      "pattern": "Domestic relationship dynamics",
+      "evidence": "Wife/Husband emotional short (or5gtaBpRVY) gained 1,666 views, outperforming all other topics by a massive margin.",
+      "action": "Produce more content focusing on marital understanding, unspoken husband-wife tensions, and small daily compromises."
     },
     {
-      "pattern": "Relatable Real-Life Communication Breakdown",
-      "evidence": "Video ID rl_ycNbXZ_g ('रिश्ते खत्म नहीं होते, बात बंद हो जाती है') performed above average with 288 views.",
-      "action": "Use conversational prompts and everyday realizations about silence in relationships as core themes."
+      "pattern": "Universal family bonds with emotional inquiry",
+      "evidence": "Maa Shayari (OfHrAp3r1G8) and relationship closure (rl_ycNbXZ_g) reached 226 and 288 views respectively.",
+      "action": "Use conversational, direct-address hooks that ask the viewer about their relationship habits."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Repetitive Emoji and Title Suffixes",
-      "evidence": "Most titles end uniformly with '❤️ | ... | Hindi Shorts', making it hard for specific videos to stand out on the feed.",
-      "action": "Vary title structures and emotional punctuation to test if click-through rates improve."
-    },
-    {
-      "pattern": "Broad Family Members Without Conflict",
-      "evidence": "Videos focusing on sisters and brothers individually (e.g., jfmMztnam_A, m4cgM90y9JU) generated very low views (18 and 110).",
-      "action": "Move away from single-topic family shoutouts unless tied to a specific emotional conflict or unspoken regret."
+      "pattern": "Repetitive sister dedication tropes",
+      "evidence": "Both sister-focused videos (jfmMztnam_A with 18 views and fAAoIQCRMXU with 135 views) performed below channel average.",
+      "action": "Pause direct sister-dedication shorts and pivot to broader family or romantic relationship themes."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "अधूरी मोहब्बत",
-    "hook_style": "Direct observation about unsaid words in a long-term bond",
+    "emotion": "अधूरी मोहब्बत / ठहराव",
+    "hook_style": "Realization of growing apart without fights",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short piece exploring how arguments between partners often end in silence, not because they stopped caring, but because one person chose peace over winning.",
-    "opening_direction": "Start with the quietness in a room after a small argument where both are looking at their phones.",
-    "twist_direction": "Reveal that the one who stays quiet isn't giving up on the relationship; they are just tired of explaining their worth.",
-    "duration_seconds": 30,
-    "posting_window": "07:30 PM - 09:00 PM",
-    "reason": "Building on the success of the husband-wife relationship video and the theme of communication gaps, this targets high-retention emotional beats during evening leisure time."
+    "concept": "A couple sitting in silence in the same room, scrolling phones, realizing the silence used to be comfortable and is now heavy.",
+    "opening_direction": "अब झगड़े नहीं होते हमारे बीच, बस बातें खत्म हो गई हैं।",
+    "twist_direction": "शायद मोहब्बत कम नहीं हुई, बस एक-दूसरे को वक्त देना भूल गए।",
+    "duration_seconds": 15,
+    "posting_window": "07:00 PM - 09:00 PM",
+    "reason": "Capitalizes on the high-performing relationship and emotional realization niche proven by the wife/husband and relationship reality top performers."
   },
-  "experiment": "Testing if shifting the emotional focus strictly to intimate relationship compromises (silence vs argument) maintains the high viewership seen in the previous top-performing marital video.",
-  "updated_at": "2026-10-03T13:36:14.750159+00:00",
+  "experiment": "Testing if intimate everyday marital/relationship realization content can replicate the 1,600+ view outlier from the husband-wife theme.",
+  "updated_at": "2026-10-03T18:06:37.296007+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-03T13:36:17.958758+00:00"
+  "generated_at": "2026-10-03T18:06:46.916368+00:00"
 }
