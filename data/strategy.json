@@ -1,40 +1,45 @@
 {
-  "confidence": "40%",
+  "confidence": "65%",
   "data_points": 10,
-  "overall_summary": "Data sample is small (10 videos). Husband-Wife and relationship dynamic topics heavily outperform sibling/family generic poetry. We will build on relationship dynamics with controlled exploration.",
+  "overall_summary": "Data shows clear outliers in relationship and family emotional dynamics. Husband-wife dynamics and interpersonal communication friction heavily outperform abstract romantic shayaris, while family relationship themes maintain a steady baseline.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife & Relatable Relationship Dynamics",
-      "evidence": "'पत्नी की ये बात हर पति को समझनी चाहिए' received 1,662 views and 50 likes, far outperforming the channel average (~330 views).",
-      "action": "Focus on subtle marital and long-term relationship emotional misunderstandings."
+      "pattern": "Relatable marital and close relationship realities",
+      "evidence": "Wife emotional video (or5gtaBpRVY) gained 1,662 views, significantly outperforming all other topics.",
+      "action": "Focus more core videos on husband-wife and complex close relationship truths."
     },
     {
-      "pattern": "Emotional Reality & Relationship Advice",
-      "evidence": "'Har Baar Sorry Bolne Wala Galat Nahi Hota' achieved 371 views and 13 likes.",
-      "action": "Use real-life daily friction points in romantic relationships instead of broad poetic statements."
+      "pattern": "Direct, relatable emotional statements in titles",
+      "evidence": "Titles addressing universal communication gaps ('Har Baar Sorry Bolne Wala' - NO5fdHLxFL4) perform well above average (371 views).",
+      "action": "Use specific behavioral observations in hooks instead of generic heartbreak terms."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sibling / Family Praise",
-      "evidence": "Sister videos scored 18 and 134 views; Brother video scored 109 views.",
-      "action": "Pause generic sibling appreciation posts until base audience is established."
+      "pattern": "Duplicate re-uploads of underperforming concepts",
+      "evidence": "Sister emotional video (fAAoIQCRMXU) received only 134 views after a previous low-performing iteration.",
+      "action": "Avoid recycling exact content angles that have already underperformed without a major narrative pivot."
+    },
+    {
+      "pattern": "Generic motivational or isolated philosophical topics",
+      "evidence": "Self motivation (JPf_3ebfnuk) underperformed at 171 views compared to targeted interpersonal relationship pieces.",
+      "action": "Ground all motivation strictly inside relationship or family contexts rather than standalone advice."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Silent Hurt & Understanding",
-    "hook_style": "Situational Observation",
+    "emotion": "गुस्सा और अंदर का अकेलापन",
+    "hook_style": "behavioral observation",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A spouse coming home tired and staying quiet isn't losing love, but carrying unsaid mental weight.",
-    "opening_direction": "Show a partner sitting quietly in the balcony late evening after a long day without checking their phone.",
-    "twist_direction": "The silence wasn't anger toward the partner, but trying not to pass on the day's stress to the person they love most.",
-    "duration_seconds": 25,
-    "posting_window": "07:00 AM - 08:30 AM UTC (12:30 PM - 02:00 PM IST)",
-    "reason": "The top performing video centered on Husband-Wife understanding posted at 07:28 AM UTC."
+    "concept": "A husband and wife who haven't spoken a word to each other all evening, despite sitting in the same room, while the unspoken tension tells the real story.",
+    "opening_direction": "Start with the sound of a ticking clock and the silence between two people who know each other inside out.",
+    "twist_direction": "The realization that shouting fights are better than the quiet distance where indifference officially begins.",
+    "duration_seconds": 10,
+    "posting_window": "07:00 AM - 09:00 AM",
+    "reason": "Capitalizes on the high-performing relationship and marital dynamics pattern observed in previous top hits."
   },
-  "experiment": "Testing if silent sacrifice/understanding in couples drives higher save and share rates than direct advice format.",
-  "updated_at": "2026-10-03T05:46:25.843996+00:00",
-  "model_used": "gemini-3.6-flash",
-  "generated_at": "2026-10-03T05:46:35.761183+00:00"
+  "experiment": "Testing if micro-situational relationship silence performs comparably to broader marital advice pieces.",
+  "updated_at": "2026-10-03T06:56:36.977148+00:00",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-10-03T06:56:39.727057+00:00"
 }
