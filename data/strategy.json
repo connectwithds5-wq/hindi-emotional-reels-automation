@@ -1,40 +1,40 @@
 {
-  "confidence": "35%",
+  "confidence": "40%",
   "data_points": 10,
-  "overall_summary": "Data is very limited, but family and relationship dynamics (especially spouse dynamics) show early promise over general sibling/motivation topics. Confidence is low due to small sample size and a single outlier.",
+  "overall_summary": "Most videos achieve low to moderate views, but relationship dynamics and family roles (specifically husband-wife and complex emotional realities) significantly outperform standard poetic or generic family tropes. The video on husband-wife dynamics (or5gtaBpRVY) heavily outperformed everything else with 1,662 views.",
   "winning_patterns": [
     {
-      "pattern": "Spouse/Partner Relationship Dynamics",
-      "evidence": "Wife emotional video (or5gtaBpRVY) gained 1,662 views, significantly outperforming other topics.",
-      "action": "Double down on core relationship/marriage emotional conflicts and understanding."
+      "pattern": "Relationship dynamics & bitter truths",
+      "evidence": "Video ID or5gtaBpRVY about wives/husbands got 1662 views; NO5fdHLxFL4 about relationship realities got 371 views.",
+      "action": "Focus more heavily on complex interpersonal relationship realities, misunderstandings, and unspoken expectations between partners."
     },
     {
-      "pattern": "Universal Family Relatability",
-      "evidence": "Maa (OfHrAp3r1G8) and Relationship reality (NO5fdHLxFL4) performed decently with 226 and 370 views respectively.",
-      "action": "Continue targeting universal micro-moments within families and modern relationships."
+      "pattern": "Actionable emotional triggers in titles",
+      "evidence": "rl_ycNbXZ_g ('आज किसी अपने को Call कर लेना') performed well at 288 views compared to simple statics.",
+      "action": "Include a soft, empathetic call-to-action or realization prompt within the title or early hook."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Niche/Redundant Sibling Content",
-      "evidence": "Repeated sister videos (jfmMztnam_A, fAAoIQCRMXU) performed poorly, indicating audience fatigue or low initial interest for that specific angle.",
-      "action": "Avoid immediate re-attempts at sister/brother niches; pivot to broader family or core romantic relationship themes."
+      "pattern": "Generic family member praise without conflict",
+      "evidence": "Sister videos (jfmMztnam_A, fAAoIQCRMXU) stayed extremely low at 18 and 134 views respectively.",
+      "action": "Avoid flat praise of family members; instead, focus on relational tension, unspoken emotional distance, or emotional maturity."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Guilt and realization in long-term relationships",
-    "hook_style": "Observation-based direct address",
+    "emotion": "अधूरी मोहब्बत / ओवरथिंकिंग",
+    "hook_style": "Realization-based direct address",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A husband noticing his wife's silent sacrifices over years of marriage, realizing love isn't about grand gestures but endurance.",
-    "opening_direction": "Start with the small detail of a wife keeping the best piece of food for everyone else and eating the leftovers.",
-    "twist_direction": "Reveal that she never asks for anything because she stopped expecting anyone to notice her silent sacrifices.",
-    "duration_seconds": 35,
-    "posting_window": "07:00 AM - 09:00 AM",
-    "reason": "Aligns with the highest performing historical slot (wife emotional video posted at 07:28 UTC)."
+    "concept": "A short piece about how people who care the most often end up staying quiet first during an argument, leading to a silent distance.",
+    "opening_direction": "जब कोई इंसान बहस करना छोड़ दे, तो समझ लेना वो रूठा नहीं, थक चुका है।",
+    "twist_direction": "और उस खामोशी से डरना चाहिए, क्योंकि वो रिश्ता टूटने की आखिरी सीढ़ी होती है।",
+    "duration_seconds": 15,
+    "posting_window": "07:00 PM - 09:00 PM",
+    "reason": "Aligns with the successful relationship reality pattern, capturing evening overthinking hours of the audience."
   },
-  "experiment": "Testing if the high performance of the previous spouse-related short was an anomaly or a repeatable core audience interest.",
-  "updated_at": "2026-10-03T01:41:48.490962+00:00",
+  "experiment": "Testing if shifting focus entirely from flat family praise to deep psychological relationship pain retains the high-view spike seen in husband-wife/relationship content.",
+  "updated_at": "2026-10-03T02:50:57.372427+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-03T01:41:51.135514+00:00"
+  "generated_at": "2026-10-03T02:51:00.205332+00:00"
 }
