@@ -1,40 +1,45 @@
 {
-  "confidence": "45%",
+  "confidence": "35%",
   "data_points": 10,
-  "overall_summary": "Data indicates high viewer response to domestic relationship dynamics, especially husband-wife themes, outperforming standard family emotional shorts. General family member dedications show moderate baseline views, while sister-focused content underperformed significantly, pointing toward audience fatigue on generic sibling tropes.",
+  "overall_summary": "Dataset is small with a clear outlier (Husband-Wife dynamic at 1.6k views) compared to other relational and parental content averaging 100-300 views. General confidence is low, so we lean towards exploring family dynamics and relationship realities while keeping a strict narrative structure.",
   "winning_patterns": [
     {
-      "pattern": "Domestic relationship dynamics",
-      "evidence": "Wife/Husband emotional short (or5gtaBpRVY) gained 1,666 views, outperforming all other topics by a massive margin.",
-      "action": "Produce more content focusing on marital understanding, unspoken husband-wife tensions, and small daily compromises."
+      "pattern": "Core domestic relationship dynamics",
+      "evidence": "Wife emotional video (or5gtaBpRVY) achieved 1,666 views, significantly outperforming all other topics.",
+      "action": "Double down on husband-wife or close partnership unspoken tensions."
     },
     {
-      "pattern": "Universal family bonds with emotional inquiry",
-      "evidence": "Maa Shayari (OfHrAp3r1G8) and relationship closure (rl_ycNbXZ_g) reached 226 and 288 views respectively.",
-      "action": "Use conversational, direct-address hooks that ask the viewer about their relationship habits."
+      "pattern": "Relatable emotional relationship truths",
+      "evidence": "Har Baar Sorry Bolne Wala Galat Nahi Hota (NO5fdHLxFL4) secured 373 views, second best.",
+      "action": "Use conversational relationship realizations as strong hook foundations."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Repetitive sister dedication tropes",
-      "evidence": "Both sister-focused videos (jfmMztnam_A with 18 views and fAAoIQCRMXU with 135 views) performed below channel average.",
-      "action": "Pause direct sister-dedication shorts and pivot to broader family or romantic relationship themes."
+      "pattern": "Repetitive sibling tropes without high-tension hooks",
+      "evidence": "Sister emotional videos (jfmMztnam_A, fAAoIQCRMXU) performed poorly at 18 and 135 views.",
+      "action": "Avoid generic family appreciation; introduce specific conflict or guilt elements."
+    },
+    {
+      "pattern": "Generic motivational content",
+      "evidence": "Self motivation video (JPf_3ebfnuk) underperformed at 172 views.",
+      "action": "Shift focus away from direct motivation toward grounded emotional situations."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "अधूरी मोहब्बत / ठहराव",
-    "hook_style": "Realization of growing apart without fights",
+    "emotion": "अधूरी बात / guilt",
+    "hook_style": "conversational realization",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple sitting in silence in the same room, scrolling phones, realizing the silence used to be comfortable and is now heavy.",
-    "opening_direction": "अब झगड़े नहीं होते हमारे बीच, बस बातें खत्म हो गई हैं।",
-    "twist_direction": "शायद मोहब्बत कम नहीं हुई, बस एक-दूसरे को वक्त देना भूल गए।",
-    "duration_seconds": 15,
-    "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Capitalizes on the high-performing relationship and emotional realization niche proven by the wife/husband and relationship reality top performers."
+    "concept": "A husband notices his wife's silence late at night, assuming she's just tired, but realizes she stopped complaining because she finally gave up expecting a change.",
+    "opening_direction": "रात के 2 बजे, जब पूरा घर सो रहा होता है...",
+    "twist_direction": "शिकायतें बंद होने का मतलब सुकून नहीं होता, कई बार रिश्ते अंदर से टूट चुके होते हैं।",
+    "duration_seconds": 35,
+    "posting_window": "07:00 AM - 09:00 AM",
+    "reason": "Leverages the proven high-performing husband-wife relationship emotional space while testing a deeper psychological twist on silence vs peace."
   },
-  "experiment": "Testing if intimate everyday marital/relationship realization content can replicate the 1,600+ view outlier from the husband-wife theme.",
-  "updated_at": "2026-10-03T18:06:37.296007+00:00",
+  "experiment": "Testing if late-night marital silence and emotional detachment outperforms direct daily-life appreciation hooks.",
+  "updated_at": "2026-10-03T21:38:01.267078+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-03T18:06:46.916368+00:00"
+  "generated_at": "2026-10-03T21:38:04.122140+00:00"
 }
