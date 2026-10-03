@@ -1,40 +1,40 @@
 {
-  "confidence": "35%",
+  "confidence": "40%",
   "data_points": 10,
-  "overall_summary": "Data volume is extremely low, but early signals show that husband-wife dynamics ('पत्नी की ये बात हर पति को समझनी चाहिए' with 1662 views) and relationship/ego realities ('Har Baar Sorry Bolne Wala Galat Nahi Hota' with 371 views) outperform family member love tropes (sister/brother videos). Confidence is low, requiring a controlled exploration leaning into relationship nuances.",
+  "overall_summary": "Data sample is small (10 videos). Husband-Wife and relationship dynamic topics heavily outperform sibling/family generic poetry. We will build on relationship dynamics with controlled exploration.",
   "winning_patterns": [
     {
-      "pattern": "Relationship & Marital Dynamics",
-      "evidence": "Wife/Husband video (or5gtaBpRVY) hit 1662 views, significantly higher than any other upload.",
-      "action": "Focus more narratives on complex romantic relationships, ego clashes, and husband-wife understanding."
+      "pattern": "Husband-Wife & Relatable Relationship Dynamics",
+      "evidence": "'पत्नी की ये बात हर पति को समझनी चाहिए' received 1,662 views and 50 likes, far outperforming the channel average (~330 views).",
+      "action": "Focus on subtle marital and long-term relationship emotional misunderstandings."
     },
     {
-      "pattern": "Relatable Emotional Realities",
-      "evidence": "Podcast-style relationship reality clip (NO5fdHLxFL4) performed well at 371 views.",
-      "action": "Use conversational reality checks instead of generic poetic shayari."
+      "pattern": "Emotional Reality & Relationship Advice",
+      "evidence": "'Har Baar Sorry Bolne Wala Galat Nahi Hota' achieved 371 views and 13 likes.",
+      "action": "Use real-life daily friction points in romantic relationships instead of broad poetic statements."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Saturated Sibling Tropes",
-      "evidence": "Sister/Brother emotional videos (jfmMztnam_A, fAAoIQCRMXU, m4cgM90y9JU) yielded very low views (18 to 134).",
-      "action": "Reduce frequency of standard sibling tribute shorts unless paired with a unique conflict."
+      "pattern": "Generic Sibling / Family Praise",
+      "evidence": "Sister videos scored 18 and 134 views; Brother video scored 109 views.",
+      "action": "Pause generic sibling appreciation posts until base audience is established."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "अधूरी मोहब्बत / Overthinking",
-    "hook_style": "Conversational reality check",
+    "emotion": "Silent Hurt & Understanding",
+    "hook_style": "Situational Observation",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple where one person always initiates the compromise after a fight, until one day they stop, and the silence speaks louder than words.",
-    "opening_direction": "जब हर झगड़े के बाद झुकना सिर्फ तुम्हारी आदत बन जाए...",
-    "twist_direction": "...तो समझ लेना कि तुमने रिश्ता नहीं बचाया, सामने वाले को खो दिया.",
-    "duration_seconds": 10,
-    "posting_window": "07:00 AM - 09:00 AM",
-    "reason": "Building on the success of relationship reality content (NO5fdHLxFL4) and marital dynamics (or5gtaBpRVY), targeting everyday relationship ego traps."
+    "concept": "A spouse coming home tired and staying quiet isn't losing love, but carrying unsaid mental weight.",
+    "opening_direction": "Show a partner sitting quietly in the balcony late evening after a long day without checking their phone.",
+    "twist_direction": "The silence wasn't anger toward the partner, but trying not to pass on the day's stress to the person they love most.",
+    "duration_seconds": 25,
+    "posting_window": "07:00 AM - 08:30 AM UTC (12:30 PM - 02:00 PM IST)",
+    "reason": "The top performing video centered on Husband-Wife understanding posted at 07:28 AM UTC."
   },
-  "experiment": "Testing if deep relationship ego dynamics outperform family member tropes in a short 10-second format.",
-  "updated_at": "2026-10-03T04:43:39.260095+00:00",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-03T04:43:42.006253+00:00"
+  "experiment": "Testing if silent sacrifice/understanding in couples drives higher save and share rates than direct advice format.",
+  "updated_at": "2026-10-03T05:46:25.843996+00:00",
+  "model_used": "gemini-3.6-flash",
+  "generated_at": "2026-10-03T05:46:35.761183+00:00"
 }
