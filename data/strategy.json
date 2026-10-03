@@ -1,40 +1,40 @@
 {
   "confidence": "35%",
   "data_points": 10,
-  "overall_summary": "Data volume is low, leading to low confidence. However, a clear outlier exists: family and core relationship relationship dynamics (specifically husband-wife and general communication like 'रिश्ते खत्म नहीं होते') outperform niche topics. The top video reached 1,658 views ('पत्नी की ये बात हर पति को समझनी चाहिए'), indicating strong resonance with interpersonal relationship realizations.",
+  "overall_summary": "Data is very limited, but family and relationship dynamics (especially spouse dynamics) show early promise over general sibling/motivation topics. Confidence is low due to small sample size and a single outlier.",
   "winning_patterns": [
     {
-      "pattern": "Core Interpersonal Realities",
-      "evidence": "Video 'or5gtaBpRVY' about husband-wife dynamics got 1,658 views, significantly outperforming others.",
-      "action": "Focus more heavily on relatable partner and relationship misunderstandings."
+      "pattern": "Spouse/Partner Relationship Dynamics",
+      "evidence": "Wife emotional video (or5gtaBpRVY) gained 1,662 views, significantly outperforming other topics.",
+      "action": "Double down on core relationship/marriage emotional conflicts and understanding."
     },
     {
-      "pattern": "Universal Emotional Validation",
-      "evidence": "Videos addressing unspoken feelings in relationships ('रिश्ते खत्म नहीं होते, बात बंद हो जाती है') and family ('माँ जब पूछती है') perform consistently better than niche ones.",
-      "action": "Use conversational, highly empathetic hooks targeting everyday relationship truths."
+      "pattern": "Universal Family Relatability",
+      "evidence": "Maa (OfHrAp3r1G8) and Relationship reality (NO5fdHLxFL4) performed decently with 226 and 370 views respectively.",
+      "action": "Continue targeting universal micro-moments within families and modern relationships."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Niche Family Member Sub-segments",
-      "evidence": "Sister emotional video (jfmMztnam_A) dropped heavily to 18 views compared to broader family themes.",
-      "action": "Avoid hyper-specific sibling sub-niches temporarily; stick to broader relationship and romantic dynamics."
+      "pattern": "Niche/Redundant Sibling Content",
+      "evidence": "Repeated sister videos (jfmMztnam_A, fAAoIQCRMXU) performed poorly, indicating audience fatigue or low initial interest for that specific angle.",
+      "action": "Avoid immediate re-attempts at sister/brother niches; pivot to broader family or core romantic relationship themes."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Melancholy and Realization",
-    "hook_style": "Observation of distant behavior in a long-term bond",
+    "emotion": "Guilt and realization in long-term relationships",
+    "hook_style": "Observation-based direct address",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization that the people who used to fight over small things have now become completely silent and formal with each other.",
-    "opening_direction": "जब इंसान झगड़ना छोड़ दे, तो समझ लेना रिश्ता खत्म होने की कगार पर है।",
-    "twist_direction": "अब तो हाल-चाल भी ऐसे पूछे जाते हैं जैसे किसी अजनबी से औपचारिकता पूरी हो रही हो।",
-    "duration_seconds": 15,
-    "posting_window": "07:30 PM - 09:00 PM",
-    "reason": "Building on the high-performing relationship reality theme ('रिश्ते खत्म नहीं होते' and 'पत्नी की ये बात'), this hits the sweet spot of emotional overthinking and relationship distance."
+    "concept": "A husband noticing his wife's silent sacrifices over years of marriage, realizing love isn't about grand gestures but endurance.",
+    "opening_direction": "Start with the small detail of a wife keeping the best piece of food for everyone else and eating the leftovers.",
+    "twist_direction": "Reveal that she never asks for anything because she stopped expecting anyone to notice her silent sacrifices.",
+    "duration_seconds": 35,
+    "posting_window": "07:00 AM - 09:00 AM",
+    "reason": "Aligns with the highest performing historical slot (wife emotional video posted at 07:28 UTC)."
   },
-  "experiment": "Testing if deeper relationship distance tropes can match or exceed the husband-wife breakout view count.",
-  "updated_at": "2026-10-03T00:46:32.003343+00:00",
+  "experiment": "Testing if the high performance of the previous spouse-related short was an anomaly or a repeatable core audience interest.",
+  "updated_at": "2026-10-03T01:41:48.490962+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-03T00:46:42.519331+00:00"
+  "generated_at": "2026-10-03T01:41:51.135514+00:00"
 }
