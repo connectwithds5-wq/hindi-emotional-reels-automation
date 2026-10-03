@@ -1,40 +1,40 @@
 {
-  "confidence": "45%",
+  "confidence": "35%",
   "data_points": 10,
-  "overall_summary": "Data shows a massive outlier in husband-wife emotional dynamics (1,658 views), while family relationships (Maa, Papa, Rishtey) perform steadily in the 140-300 views range. Pure sibling content (Sister) underperformed, and pure general motivational content lags behind interpersonal relationship insights.",
+  "overall_summary": "Data volume is low, leading to low confidence. However, a clear outlier exists: family and core relationship relationship dynamics (specifically husband-wife and general communication like 'रिश्ते खत्म नहीं होते') outperform niche topics. The top video reached 1,658 views ('पत्नी की ये बात हर पति को समझनी चाहिए'), indicating strong resonance with interpersonal relationship realizations.",
   "winning_patterns": [
     {
-      "pattern": "Spousal / Relationship Dynamics",
-      "evidence": "Video 'or5gtaBpRVY' about husband-wife got 1,658 views, significantly outperforming all other topics.",
-      "action": "Double down on complex, relatable husband-wife or close relationship compromises."
+      "pattern": "Core Interpersonal Realities",
+      "evidence": "Video 'or5gtaBpRVY' about husband-wife dynamics got 1,658 views, significantly outperforming others.",
+      "action": "Focus more heavily on relatable partner and relationship misunderstandings."
     },
     {
-      "pattern": "Guilt and Unsaid Apologies",
-      "evidence": "Video 'NO5fdHLxFL4' ('Har Baar Sorry Bolne Wala Galat Nahi Hota') and 'rl_ycNbXZ_g' ('बात बंद हो जाती है') performed above average (369 and 288 views).",
-      "action": "Focus on maturity, ego, and compromises in relationships."
+      "pattern": "Universal Emotional Validation",
+      "evidence": "Videos addressing unspoken feelings in relationships ('रिश्ते खत्म नहीं होते, बात बंद हो जाती है') and family ('माँ जब पूछती है') perform consistently better than niche ones.",
+      "action": "Use conversational, highly empathetic hooks targeting everyday relationship truths."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sibling Content Redundancy",
-      "evidence": "Multiple sister videos (jfmMztnam_A with 18 views, fAAoIQCRMXU with 134 views) showed diminishing returns and low engagement.",
-      "action": "Move away from broad sister/brother tropes unless tied to a specific poignant life moment."
+      "pattern": "Niche Family Member Sub-segments",
+      "evidence": "Sister emotional video (jfmMztnam_A) dropped heavily to 18 views compared to broader family themes.",
+      "action": "Avoid hyper-specific sibling sub-niches temporarily; stick to broader relationship and romantic dynamics."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "अधूरी मोहब्बत / बेबसी",
-    "hook_style": "Real-life silent observation",
+    "emotion": "Melancholy and Realization",
+    "hook_style": "Observation of distant behavior in a long-term bond",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple sitting in absolute silence in a car, neither wanting to start the argument, realizing that peace has replaced love.",
-    "opening_direction": "शाम के वक्त गाड़ी की खामोशी में सफर, जहाँ गाने बज रहे हैं पर कोई बात नहीं कर रहा।",
-    "twist_direction": "जब घर पहुँचकर पार्टनर मुस्कुराकर दरवाजा खोलता है, तब समझ आता है कि अब गुस्सा नहीं, अंदर से रिश्ता खत्म हो चुका है।",
-    "duration_seconds": 35,
-    "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Capitalizes on the winning relationship-conflict pattern demonstrated by the husband-wife and 'बात बंद हो जाती है' hits."
+    "concept": "A realization that the people who used to fight over small things have now become completely silent and formal with each other.",
+    "opening_direction": "जब इंसान झगड़ना छोड़ दे, तो समझ लेना रिश्ता खत्म होने की कगार पर है।",
+    "twist_direction": "अब तो हाल-चाल भी ऐसे पूछे जाते हैं जैसे किसी अजनबी से औपचारिकता पूरी हो रही हो।",
+    "duration_seconds": 15,
+    "posting_window": "07:30 PM - 09:00 PM",
+    "reason": "Building on the high-performing relationship reality theme ('रिश्ते खत्म नहीं होते' and 'पत्नी की ये बात'), this hits the sweet spot of emotional overthinking and relationship distance."
   },
-  "experiment": "Testing whether a nuanced emotional breakdown of silent couple disconnect can replicate or exceed the high view count of the previous wife-husband video.",
-  "updated_at": "2026-10-02T23:39:48.716678+00:00",
+  "experiment": "Testing if deeper relationship distance tropes can match or exceed the husband-wife breakout view count.",
+  "updated_at": "2026-10-03T00:46:32.003343+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-02T23:40:00.396319+00:00"
+  "generated_at": "2026-10-03T00:46:42.519331+00:00"
 }
