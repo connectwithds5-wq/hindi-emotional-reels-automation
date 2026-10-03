@@ -1,40 +1,45 @@
 {
-  "confidence": "40%",
+  "confidence": "35%",
   "data_points": 10,
-  "overall_summary": "Most videos achieve low to moderate views, but relationship dynamics and family roles (specifically husband-wife and complex emotional realities) significantly outperform standard poetic or generic family tropes. The video on husband-wife dynamics (or5gtaBpRVY) heavily outperformed everything else with 1,662 views.",
+  "overall_summary": "The channel shows low overall view counts across most uploads, but family and relationship-centric dynamics (specifically wife/husband and deep personal bonds) heavily outperform standard mother/father/sister tropes. The top performer by a massive margin focuses on a husband-wife dynamic (1,662 views), followed by relationship communication and interpersonal connections.",
   "winning_patterns": [
     {
-      "pattern": "Relationship dynamics & bitter truths",
-      "evidence": "Video ID or5gtaBpRVY about wives/husbands got 1662 views; NO5fdHLxFL4 about relationship realities got 371 views.",
-      "action": "Focus more heavily on complex interpersonal relationship realities, misunderstandings, and unspoken expectations between partners."
+      "pattern": "Relationship dynamics and mutual understanding",
+      "evidence": "Video 'or5gtaBpRVY' about a wife's perspective hit 1,662 views, while video 'NO5fdHLxFL4' about relationship reality and apologies hit 371 views.",
+      "action": "Focus more heavily on complex relationship dynamics, unspoken expectations between partners, and mutual empathy."
     },
     {
-      "pattern": "Actionable emotional triggers in titles",
-      "evidence": "rl_ycNbXZ_g ('आज किसी अपने को Call कर लेना') performed well at 288 views compared to simple statics.",
-      "action": "Include a soft, empathetic call-to-action or realization prompt within the title or early hook."
+      "pattern": "Call to action / Action-oriented life realization",
+      "evidence": "Video 'rl_ycNbXZ_g' about calling someone you love performed solidly at 288 views compared to generic family tropes.",
+      "action": "Incorporate real-world, actionable emotional realizations that prompt viewers to reflect on their immediate relationships."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic family member praise without conflict",
-      "evidence": "Sister videos (jfmMztnam_A, fAAoIQCRMXU) stayed extremely low at 18 and 134 views respectively.",
-      "action": "Avoid flat praise of family members; instead, focus on relational tension, unspoken emotional distance, or emotional maturity."
+      "pattern": "Generic family member appreciation tropes",
+      "evidence": "Videos about sisters ('jfmMztnam_A' with 18 views, 'fAAoIQCRMXU' with 134 views) and brothers ('m4cgM90y9JU' with 109 views) underperformed significantly.",
+      "action": "Avoid generic praise for individual family members unless tied to a specific, tense, or deeply relatable psychological conflict."
+    },
+    {
+      "pattern": "Broad self-motivation statements",
+      "evidence": "Video 'JPf_3ebfnuk' about self-motivation scored low at 171 views.",
+      "action": "Ground motivational concepts into specific relational or situational contexts rather than abstract advice."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "अधूरी मोहब्बत / ओवरथिंकिंग",
-    "hook_style": "Realization-based direct address",
+    "emotion": "अधूरी उम्मीद और समझ",
+    "hook_style": "Real-life observation about silence in a relationship",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short piece about how people who care the most often end up staying quiet first during an argument, leading to a silent distance.",
-    "opening_direction": "जब कोई इंसान बहस करना छोड़ दे, तो समझ लेना वो रूठा नहीं, थक चुका है।",
-    "twist_direction": "और उस खामोशी से डरना चाहिए, क्योंकि वो रिश्ता टूटने की आखिरी सीढ़ी होती है।",
-    "duration_seconds": 15,
-    "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Aligns with the successful relationship reality pattern, capturing evening overthinking hours of the audience."
+    "concept": "A short piece on how two people living under the same roof stop sharing their daily trivial thoughts, not because of fights, but because they stopped expecting the other to care.",
+    "opening_direction": "Start with the small, relatable moment of looking at your phone and wondering who to share a silly joke with first.",
+    "twist_direction": "Realizing that the distance between two people doesn't grow from loud arguments, but from the quiet evenings where neither asks 'kya hua?'",
+    "duration_seconds": 35,
+    "posting_window": "07:30 AM - 09:00 AM",
+    "reason": "Leverages the winning pattern of relationship realities and emotional maturity observed in top-performing videos."
   },
-  "experiment": "Testing if shifting focus entirely from flat family praise to deep psychological relationship pain retains the high-view spike seen in husband-wife/relationship content.",
-  "updated_at": "2026-10-03T02:50:57.372427+00:00",
+  "experiment": "Testing if narrowing down from broad family affection to nuanced partner/relationship emotional disconnect maintains the high view-count anomaly seen in the top-performing wife/husband video.",
+  "updated_at": "2026-10-03T03:53:47.946500+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-03T02:51:00.205332+00:00"
+  "generated_at": "2026-10-03T03:53:51.001837+00:00"
 }
