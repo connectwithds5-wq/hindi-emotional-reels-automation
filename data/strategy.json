@@ -1,35 +1,45 @@
 {
-  "confidence": "35%",
+  "confidence": "45%",
   "data_points": 10,
-  "overall_summary": "The channel shows mixed performance with low overall sample sizes, though family and relationship dynamics generate noticeable outliers (specifically the husband-wife dynamic with 1664 views). Confidence is low due to limited data, necessitating a controlled exploration approach combining a proven relational theme with a small experimental twist.",
+  "overall_summary": "The channel 'Dil Ki Diary' is exploring a mix of romantic relationships, self-worth, and family dynamics. The clear outlier is the husband-wife relationship video ('पत्नी की ये बात हर पति को समझनी चाहिए'), which outperformed all other videos by a significant margin (1,666 views), pointing to strong audience engagement in marital and close interpersonal dynamics compared to broader family themes.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife / Core Relationship Dynamics",
-      "evidence": "Video 'or5gtaBpRVY' about wives and husbands gained 1664 views, significantly outperforming all other videos.",
-      "action": "Double down on intimate domestic and relationship friction points between partners."
+      "pattern": "Marital/Close Relationship Dynamics",
+      "evidence": "Video ID or5gtaBpRVY about husband and wife reached 1,666 views, drastically higher than siblings, parents, or general motivational shorts.",
+      "action": "Allocate more content focus to complex, relatable domestic relationship struggles and mutual understanding."
+    },
+    {
+      "pattern": "Relatable Real-Life Communication Breakdown",
+      "evidence": "Video ID rl_ycNbXZ_g ('रिश्ते खत्म नहीं होते, बात बंद हो जाती है') performed above average with 288 views.",
+      "action": "Use conversational prompts and everyday realizations about silence in relationships as core themes."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sibling & Broad Family Generalities",
-      "evidence": "Videos about sisters (e.g., 'jfmMztnam_A') performed extremely poorly with only 18 views.",
-      "action": "Avoid broad statements about siblings and shift focus toward nuanced psychological relationship realities."
+      "pattern": "Repetitive Emoji and Title Suffixes",
+      "evidence": "Most titles end uniformly with '❤️ | ... | Hindi Shorts', making it hard for specific videos to stand out on the feed.",
+      "action": "Vary title structures and emotional punctuation to test if click-through rates improve."
+    },
+    {
+      "pattern": "Broad Family Members Without Conflict",
+      "evidence": "Videos focusing on sisters and brothers individually (e.g., jfmMztnam_A, m4cgM90y9JU) generated very low views (18 and 110).",
+      "action": "Move away from single-topic family shoutouts unless tied to a specific emotional conflict or unspoken regret."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "अधूरी मोहब्बत / ओवरथिंकिंग",
-    "hook_style": "Silent realization during late night hours",
+    "emotion": "अधूरी मोहब्बत",
+    "hook_style": "Direct observation about unsaid words in a long-term bond",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization that the person you check your phone for first thing in the morning is now the one you text the least.",
-    "opening_direction": "Subtle visual of a glowing phone screen at 2 AM with an unsent text draft.",
-    "twist_direction": "Realizing that distance isn't created by fights, but by unsaid words and pretending not to care.",
+    "concept": "A short piece exploring how arguments between partners often end in silence, not because they stopped caring, but because one person chose peace over winning.",
+    "opening_direction": "Start with the quietness in a room after a small argument where both are looking at their phones.",
+    "twist_direction": "Reveal that the one who stays quiet isn't giving up on the relationship; they are just tired of explaining their worth.",
     "duration_seconds": 30,
-    "posting_window": "07:30 AM - 09:00 AM",
-    "reason": "Aligns with the highest performing morning slot from previous successful uploads and targets deep relational overthinking."
+    "posting_window": "07:30 PM - 09:00 PM",
+    "reason": "Building on the success of the husband-wife relationship video and the theme of communication gaps, this targets high-retention emotional beats during evening leisure time."
   },
-  "experiment": "Testing an overthinking-focused late-night relationship hook during the morning publishing window to see if relationship content outperforms broader life lessons.",
-  "updated_at": "2026-10-03T07:43:31.011030+00:00",
+  "experiment": "Testing if shifting the emotional focus strictly to intimate relationship compromises (silence vs argument) maintains the high viewership seen in the previous top-performing marital video.",
+  "updated_at": "2026-10-03T13:36:14.750159+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-03T07:43:33.269324+00:00"
+  "generated_at": "2026-10-03T13:36:17.958758+00:00"
 }
