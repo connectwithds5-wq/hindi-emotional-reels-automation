@@ -1,45 +1,35 @@
 {
-  "confidence": "65%",
+  "confidence": "35%",
   "data_points": 10,
-  "overall_summary": "Data shows clear outliers in relationship and family emotional dynamics. Husband-wife dynamics and interpersonal communication friction heavily outperform abstract romantic shayaris, while family relationship themes maintain a steady baseline.",
+  "overall_summary": "The channel shows mixed performance with low overall sample sizes, though family and relationship dynamics generate noticeable outliers (specifically the husband-wife dynamic with 1664 views). Confidence is low due to limited data, necessitating a controlled exploration approach combining a proven relational theme with a small experimental twist.",
   "winning_patterns": [
     {
-      "pattern": "Relatable marital and close relationship realities",
-      "evidence": "Wife emotional video (or5gtaBpRVY) gained 1,662 views, significantly outperforming all other topics.",
-      "action": "Focus more core videos on husband-wife and complex close relationship truths."
-    },
-    {
-      "pattern": "Direct, relatable emotional statements in titles",
-      "evidence": "Titles addressing universal communication gaps ('Har Baar Sorry Bolne Wala' - NO5fdHLxFL4) perform well above average (371 views).",
-      "action": "Use specific behavioral observations in hooks instead of generic heartbreak terms."
+      "pattern": "Husband-Wife / Core Relationship Dynamics",
+      "evidence": "Video 'or5gtaBpRVY' about wives and husbands gained 1664 views, significantly outperforming all other videos.",
+      "action": "Double down on intimate domestic and relationship friction points between partners."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Duplicate re-uploads of underperforming concepts",
-      "evidence": "Sister emotional video (fAAoIQCRMXU) received only 134 views after a previous low-performing iteration.",
-      "action": "Avoid recycling exact content angles that have already underperformed without a major narrative pivot."
-    },
-    {
-      "pattern": "Generic motivational or isolated philosophical topics",
-      "evidence": "Self motivation (JPf_3ebfnuk) underperformed at 171 views compared to targeted interpersonal relationship pieces.",
-      "action": "Ground all motivation strictly inside relationship or family contexts rather than standalone advice."
+      "pattern": "Generic Sibling & Broad Family Generalities",
+      "evidence": "Videos about sisters (e.g., 'jfmMztnam_A') performed extremely poorly with only 18 views.",
+      "action": "Avoid broad statements about siblings and shift focus toward nuanced psychological relationship realities."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "गुस्सा और अंदर का अकेलापन",
-    "hook_style": "behavioral observation",
+    "emotion": "अधूरी मोहब्बत / ओवरथिंकिंग",
+    "hook_style": "Silent realization during late night hours",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A husband and wife who haven't spoken a word to each other all evening, despite sitting in the same room, while the unspoken tension tells the real story.",
-    "opening_direction": "Start with the sound of a ticking clock and the silence between two people who know each other inside out.",
-    "twist_direction": "The realization that shouting fights are better than the quiet distance where indifference officially begins.",
-    "duration_seconds": 10,
-    "posting_window": "07:00 AM - 09:00 AM",
-    "reason": "Capitalizes on the high-performing relationship and marital dynamics pattern observed in previous top hits."
+    "concept": "A realization that the person you check your phone for first thing in the morning is now the one you text the least.",
+    "opening_direction": "Subtle visual of a glowing phone screen at 2 AM with an unsent text draft.",
+    "twist_direction": "Realizing that distance isn't created by fights, but by unsaid words and pretending not to care.",
+    "duration_seconds": 30,
+    "posting_window": "07:30 AM - 09:00 AM",
+    "reason": "Aligns with the highest performing morning slot from previous successful uploads and targets deep relational overthinking."
   },
-  "experiment": "Testing if micro-situational relationship silence performs comparably to broader marital advice pieces.",
-  "updated_at": "2026-10-03T06:56:36.977148+00:00",
+  "experiment": "Testing an overthinking-focused late-night relationship hook during the morning publishing window to see if relationship content outperforms broader life lessons.",
+  "updated_at": "2026-10-03T07:43:31.011030+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-03T06:56:39.727057+00:00"
+  "generated_at": "2026-10-03T07:43:33.269324+00:00"
 }
