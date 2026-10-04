@@ -1,40 +1,35 @@
 {
-  "confidence": "40%",
-  "data_points": 10,
-  "overall_summary": "The channel shows a strong outlier in family relationship dynamics (husband-wife topic reaching 1,666 views), while general family and self-motivation videos hover between 100-300 views. Data size is small, so confidence is low, and we must lean into relationship dynamics while testing a core heartbreak topic.",
+  "confidence": "35%",
+  "data_points": 11,
+  "overall_summary": "Data volume is very low, but there is a clear outlier: 'पत्नी की ये बात हर पति को समझनी चाहिए' achieved 1666 views, outperforming all other relationship and family dynamics videos. General emotional/family relationship topics perform better than niche or abstract ones.",
   "winning_patterns": [
     {
-      "pattern": "Close Family/Relationship Dynamics",
-      "evidence": "Wife emotional video (or5gtaBpRVY) achieved 1,666 views, significantly outperforming sibling and parent videos.",
-      "action": "Focus more narratives on complex everyday relationship realities and marital understanding."
-    },
-    {
-      "pattern": "Relatable Real-life Situations",
-      "evidence": "Videos addressing subtle behavioral truths like communication gaps (rl_ycNbXZ_g) and apologies (NO5fdHLxFL4) perform stably above 250-300 views.",
-      "action": "Use specific, highly recognizable micro-moments rather than broad emotional statements."
+      "pattern": "Core Relationship & Marriage Dynamics",
+      "evidence": "Video 'or5gtaBpRVY' about husband-wife dynamics got 1666 views, significantly higher than any other video.",
+      "action": "Focus more heavily on relatable marital and close relationship realities."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sibling Tropes",
-      "evidence": "Sister/Brother emotional videos (jfmMztnam_A, fAAoIQCRMXU) had low traction (18 and 135 views respectively).",
-      "action": "Reduce broad filler content on siblings unless tied to a unique situational conflict."
+      "pattern": "Abstract Nostalgia / Specific Time References",
+      "evidence": "Videos like 'Aakhri Baar Jab Tumne Usse Dekha Tha...' (KDy9RCRdVR8) only got 22 views.",
+      "action": "Avoid overly poetic or niche situational hooks that lack broad immediate relatability."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "नर्म दर्द (Gentle Heartbreak)",
-    "hook_style": "Observation-based situational hook",
+    "emotion": "समझ और पछतावा",
+    "hook_style": "Real-life observation",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Online chats versus real-life silence between two people who used to share everything.",
-    "opening_direction": "रात के 2 बजे उसका आखिरी मैसेज देखने की आदत छूट जाती है, पर फोन बार-बार देखने की नहीं।",
-    "twist_direction": "दर्द तब नहीं होता जब वो छोड़ जाती है, दर्द तब होता है जब पता चलता है कि अब उसे हमारी परवाह भी नहीं, सिर्फ यादें हैं।",
-    "duration_seconds": 10,
-    "posting_window": "07:30 PM - 09:00 PM",
-    "reason": "Matches the proven relationship/communication gap pattern while targeting night-time emotional browsing."
+    "concept": "A husband coming home tired, ignoring his wife's small attempt to talk, only to realize later what she was actually trying to share.",
+    "opening_direction": "घर लौटते ही फोन देखना और बीवी के पूछने पर सिर्फ 'थक गया हूँ' कह देना।",
+    "twist_direction": "रात को जब वो सो रही होती है, तब समझ आता है कि वो पूरा दिन सिर्फ आपका इंतज़ार कर रही थी।",
+    "duration_seconds": 35,
+    "posting_window": "07:00 AM - 09:00 AM",
+    "reason": "Capitalizes on the high-performing husband-wife relationship niche while testing a direct emotional narrative arc."
   },
-  "experiment": "Testing a core romantic heartbreak topic against the proven high-performing relationship dynamics category.",
-  "updated_at": "2026-10-04T01:49:13.283934+00:00",
+  "experiment": "Testing if narrative depth combined with the winning husband-wife dynamic theme can replicate the outlier success of video or5gtaBpRVY.",
+  "updated_at": "2026-10-04T08:39:06.624456+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-04T01:49:16.852438+00:00"
+  "generated_at": "2026-10-04T08:39:09.094671+00:00"
 }
