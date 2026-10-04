@@ -1,40 +1,40 @@
 {
-  "confidence": "45%",
+  "confidence": "30%",
   "data_points": 11,
-  "overall_summary": "Data shows a massive outlier in husband-wife emotional dynamics (1,666 views) compared to general family or personal heartbreak shorts, while direct family relationship shorts like parents and sibling dynamics perform steadily better than low-performing abstract quotes.",
+  "overall_summary": "The channel shows mixed performance with low overall sample size. A distinct outlier focuses on husband-wife relationship dynamics, while family-oriented emotional themes (Maa, Call a loved one, Relationship reality) perform secondary. General emotional topics have low views, suggesting the audience prefers relational and partnership dynamics over broad relationship quotes.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife / Relationship Reality",
-      "evidence": "Video 'or5gtaBpRVY' about understanding a wife's perspective hit 1,666 views, significantly outperforming all other topics.",
-      "action": "Produce more content focused on partner relationships, marital unspoken understandings, and everyday domestic emotional truths."
+      "pattern": "Husband-Wife Relationship Dynamics",
+      "evidence": "Video 'or5gtaBpRVY' about a wife's perspective achieved 1,666 views, significantly outperforming all other content.",
+      "action": "Double down on core relationship and marriage dynamics that resonate with daily household realities."
     },
     {
-      "pattern": "Direct Family Emotional Triggers",
-      "evidence": "Videos about mothers (226 views), fathers (142 views), and checking in on loved ones (288 views) consistently outperform abstract thoughts.",
-      "action": "Continue leveraging relatable family roles (Maa, Papa, Rishtey) to secure baseline audience retention."
+      "pattern": "Direct Actionable Advice / Call to Action in Title",
+      "evidence": "Videos addressing the viewer directly (e.g., 'आज किसी अपने को Call कर लेना' with 288 views) perform better than abstract poetry.",
+      "action": "Frame hooks around relatable everyday behaviors or direct emotional calls to action."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract or Niche Family Angles",
-      "evidence": "Sister-focused videos (jfmMztnam_A with 18 views, fAAoIQCRMXU with 135 views) and general abstract podcast clips (KDy9RCRdVR8 with 115 views) show lower traction.",
-      "action": "De-prioritize niche sibling tropes and abstract podcast formats in favor of direct, universally felt partner and parental dynamics."
+      "pattern": "Generic Emotional Shayari & Abstract Podcast Clips",
+      "evidence": "Clips like 'Aakhri Baar Jab Tumne Usse Dekha Tha…' (126 views) and sister/brother emotional tropes with repetitive wording underperformed heavily.",
+      "action": "Move away from cliché heartbreak tropes and overly poetic lines; focus on grounded, observable everyday interactions."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "गुस्सा और अंदर का अकेलापन",
-    "hook_style": "Real-life domestic silent conflict",
+    "emotion": "Guilt and realization in marriage",
+    "hook_style": "Observational real-life moment",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A husband notices his wife has stopped arguing with him over small things, realizing too late that her silence isn't peace, but emotional detachment.",
-    "opening_direction": "जब पत्नी झगड़ना बंद कर दे, तो समझ लेना...",
-    "twist_direction": "...कि वो अब तुम्हें खोने के डर से भी आज़ाद हो चुकी है।",
-    "duration_seconds": 10,
-    "posting_window": "07:00 AM - 09:00 AM",
-    "reason": "Capitalizes on the high-performing husband-wife relationship category identified in the data while tapping into core emotional regret and distance."
+    "concept": "A husband ignores his wife's text during a busy workday, only to realize later at night why she sent it.",
+    "opening_direction": "Show a busy office desk with notifications piling up and a text from the wife reading 'Ghar aate waqt...'",
+    "twist_direction": "The husband ignores it thinking it's routine grocery talk, but coming home finds out she was waiting up just to share a small victory he completely brushed off.",
+    "duration_seconds": 35,
+    "posting_window": "07:00 PM - 09:00 PM",
+    "reason": "Leverages the proven high-performing husband-wife theme during evening prime time when family dynamics are top of mind."
   },
-  "experiment": "Testing whether shifting focus from general family dynamics strictly to marital emotional detachment can replicate or exceed the high view count of previous partner-focused content.",
-  "updated_at": "2026-10-04T14:55:27.312278+00:00",
+  "experiment": "Testing if narrative-driven husband-wife micro-stories outperform direct advice clips like the previous successful iterations.",
+  "updated_at": "2026-10-04T18:43:31.115183+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-04T14:55:30.177973+00:00"
+  "generated_at": "2026-10-04T18:43:34.069882+00:00"
 }
