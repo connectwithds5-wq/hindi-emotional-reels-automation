@@ -1,35 +1,40 @@
 {
-  "confidence": "35%",
+  "confidence": "45%",
   "data_points": 11,
-  "overall_summary": "Data volume is very low, but there is a clear outlier: 'पत्नी की ये बात हर पति को समझनी चाहिए' achieved 1666 views, outperforming all other relationship and family dynamics videos. General emotional/family relationship topics perform better than niche or abstract ones.",
+  "overall_summary": "Data shows a massive outlier in husband-wife emotional dynamics (1,666 views) compared to general family or personal heartbreak shorts, while direct family relationship shorts like parents and sibling dynamics perform steadily better than low-performing abstract quotes.",
   "winning_patterns": [
     {
-      "pattern": "Core Relationship & Marriage Dynamics",
-      "evidence": "Video 'or5gtaBpRVY' about husband-wife dynamics got 1666 views, significantly higher than any other video.",
-      "action": "Focus more heavily on relatable marital and close relationship realities."
+      "pattern": "Husband-Wife / Relationship Reality",
+      "evidence": "Video 'or5gtaBpRVY' about understanding a wife's perspective hit 1,666 views, significantly outperforming all other topics.",
+      "action": "Produce more content focused on partner relationships, marital unspoken understandings, and everyday domestic emotional truths."
+    },
+    {
+      "pattern": "Direct Family Emotional Triggers",
+      "evidence": "Videos about mothers (226 views), fathers (142 views), and checking in on loved ones (288 views) consistently outperform abstract thoughts.",
+      "action": "Continue leveraging relatable family roles (Maa, Papa, Rishtey) to secure baseline audience retention."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Nostalgia / Specific Time References",
-      "evidence": "Videos like 'Aakhri Baar Jab Tumne Usse Dekha Tha...' (KDy9RCRdVR8) only got 22 views.",
-      "action": "Avoid overly poetic or niche situational hooks that lack broad immediate relatability."
+      "pattern": "Abstract or Niche Family Angles",
+      "evidence": "Sister-focused videos (jfmMztnam_A with 18 views, fAAoIQCRMXU with 135 views) and general abstract podcast clips (KDy9RCRdVR8 with 115 views) show lower traction.",
+      "action": "De-prioritize niche sibling tropes and abstract podcast formats in favor of direct, universally felt partner and parental dynamics."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "समझ और पछतावा",
-    "hook_style": "Real-life observation",
+    "emotion": "गुस्सा और अंदर का अकेलापन",
+    "hook_style": "Real-life domestic silent conflict",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A husband coming home tired, ignoring his wife's small attempt to talk, only to realize later what she was actually trying to share.",
-    "opening_direction": "घर लौटते ही फोन देखना और बीवी के पूछने पर सिर्फ 'थक गया हूँ' कह देना।",
-    "twist_direction": "रात को जब वो सो रही होती है, तब समझ आता है कि वो पूरा दिन सिर्फ आपका इंतज़ार कर रही थी।",
-    "duration_seconds": 35,
+    "concept": "A husband notices his wife has stopped arguing with him over small things, realizing too late that her silence isn't peace, but emotional detachment.",
+    "opening_direction": "जब पत्नी झगड़ना बंद कर दे, तो समझ लेना...",
+    "twist_direction": "...कि वो अब तुम्हें खोने के डर से भी आज़ाद हो चुकी है।",
+    "duration_seconds": 10,
     "posting_window": "07:00 AM - 09:00 AM",
-    "reason": "Capitalizes on the high-performing husband-wife relationship niche while testing a direct emotional narrative arc."
+    "reason": "Capitalizes on the high-performing husband-wife relationship category identified in the data while tapping into core emotional regret and distance."
   },
-  "experiment": "Testing if narrative depth combined with the winning husband-wife dynamic theme can replicate the outlier success of video or5gtaBpRVY.",
-  "updated_at": "2026-10-04T08:39:06.624456+00:00",
+  "experiment": "Testing whether shifting focus from general family dynamics strictly to marital emotional detachment can replicate or exceed the high view count of previous partner-focused content.",
+  "updated_at": "2026-10-04T14:55:27.312278+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-04T08:39:09.094671+00:00"
+  "generated_at": "2026-10-04T14:55:30.177973+00:00"
 }
