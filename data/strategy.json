@@ -1,40 +1,35 @@
 {
-  "confidence": "30%",
+  "confidence": "35%",
   "data_points": 11,
-  "overall_summary": "The channel shows mixed performance with low overall sample size. A distinct outlier focuses on husband-wife relationship dynamics, while family-oriented emotional themes (Maa, Call a loved one, Relationship reality) perform secondary. General emotional topics have low views, suggesting the audience prefers relational and partnership dynamics over broad relationship quotes.",
+  "overall_summary": "Data volume is low with one outlier outlier video (wife emotional video at 1.6k views). Most family and relationship videos cluster around 100-300 views. Confidence is low, requiring a blend of the winning family/relationship dynamic and controlled exploration.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Dynamics",
-      "evidence": "Video 'or5gtaBpRVY' about a wife's perspective achieved 1,666 views, significantly outperforming all other content.",
-      "action": "Double down on core relationship and marriage dynamics that resonate with daily household realities."
-    },
-    {
-      "pattern": "Direct Actionable Advice / Call to Action in Title",
-      "evidence": "Videos addressing the viewer directly (e.g., 'आज किसी अपने को Call कर लेना' with 288 views) perform better than abstract poetry.",
-      "action": "Frame hooks around relatable everyday behaviors or direct emotional calls to action."
+      "pattern": "Core Family & Relationship Dynamics",
+      "evidence": "Videos focusing on close relationships (wife, parents, general relationships) outperformed purely abstract shayaris. The wife-focused short hit 1,666 views, while general relationship reality hit 378 views.",
+      "action": "Double down on relatable domestic and relationship realizations."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Emotional Shayari & Abstract Podcast Clips",
-      "evidence": "Clips like 'Aakhri Baar Jab Tumne Usse Dekha Tha…' (126 views) and sister/brother emotional tropes with repetitive wording underperformed heavily.",
-      "action": "Move away from cliché heartbreak tropes and overly poetic lines; focus on grounded, observable everyday interactions."
+      "pattern": "Generic Sister/Sibling Tropes",
+      "evidence": "Sister emotional videos severely underperformed (e.g., 18 views and 135 views), indicating audience fatigue or poor hook delivery for that specific sub-topic.",
+      "action": "Pause direct sister-focused shorts temporarily and pivot to broader partner or universal life relationship themes."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Guilt and realization in marriage",
-    "hook_style": "Observational real-life moment",
+    "emotion": "guilt & realization",
+    "hook_style": "Silent observation of daily habits",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A husband ignores his wife's text during a busy workday, only to realize later at night why she sent it.",
-    "opening_direction": "Show a busy office desk with notifications piling up and a text from the wife reading 'Ghar aate waqt...'",
-    "twist_direction": "The husband ignores it thinking it's routine grocery talk, but coming home finds out she was waiting up just to share a small victory he completely brushed off.",
+    "concept": "A short about how we check our phones first thing in the morning, but ignore the person sleeping right next to us until they are gone.",
+    "opening_direction": "Subah aankh کھلते ही सबसे पहले हाथ फोन की तरफ जाता है...",
+    "twist_direction": "...पर कभी सोचा है, जिस दिन फोन नहीं, वो इंसान दूर हो गया, हाथ किसे ढूंढेंगे?",
     "duration_seconds": 35,
-    "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Leverages the proven high-performing husband-wife theme during evening prime time when family dynamics are top of mind."
+    "posting_window": "07:00 AM - 09:00 AM",
+    "reason": "Aligns with high-performing morning relationship posts and targets early morning scrollers looking for emotional reflection."
   },
-  "experiment": "Testing if narrative-driven husband-wife micro-stories outperform direct advice clips like the previous successful iterations.",
-  "updated_at": "2026-10-04T18:43:31.115183+00:00",
+  "experiment": "Testing a modern relationship neglect theme (phone vs partner) to see if it replicates or exceeds the domestic success of the top-performing wife video.",
+  "updated_at": "2026-10-04T22:25:44.894437+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-04T18:43:34.069882+00:00"
+  "generated_at": "2026-10-04T22:25:47.521555+00:00"
 }
