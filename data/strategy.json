@@ -1,35 +1,45 @@
 {
-  "confidence": "35%",
+  "confidence": "40%",
   "data_points": 11,
-  "overall_summary": "Data volume is low with one outlier outlier video (wife emotional video at 1.6k views). Most family and relationship videos cluster around 100-300 views. Confidence is low, requiring a blend of the winning family/relationship dynamic and controlled exploration.",
+  "overall_summary": "Data shows an outlier success with husband-wife relationship content (1.6k views), alongside moderate baseline views for general family emotional videos and relationship reality checks. Pure one-sided love or deep poetry shorts underperformed compared to grounded interpersonal dynamics.",
   "winning_patterns": [
     {
-      "pattern": "Core Family & Relationship Dynamics",
-      "evidence": "Videos focusing on close relationships (wife, parents, general relationships) outperformed purely abstract shayaris. The wife-focused short hit 1,666 views, while general relationship reality hit 378 views.",
-      "action": "Double down on relatable domestic and relationship realizations."
+      "pattern": "Husband-Wife / Core Family Dynamics",
+      "evidence": "Video 'or5gtaBpRVY' about wives/husbands achieved 1666 views, drastically outperforming other topics.",
+      "action": "Produce more relatable relationship and household partnership scenarios."
+    },
+    {
+      "pattern": "Relatable Relationship Realities",
+      "evidence": "Video 'NO5fdHLxFL4' ('Har Baar Sorry Bolne Wala Galat Nahi Hota') got 378 views, performing above average for heartbreak/relationship topics.",
+      "action": "Use conversational relationship truth-bombs as hooks."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sister/Sibling Tropes",
-      "evidence": "Sister emotional videos severely underperformed (e.g., 18 views and 135 views), indicating audience fatigue or poor hook delivery for that specific sub-topic.",
-      "action": "Pause direct sister-focused shorts temporarily and pivot to broader partner or universal life relationship themes."
+      "pattern": "Niche/Repetitive Sister Content",
+      "evidence": "Sister emotional videos like 'jfmMztnam_A' (18 views) and 'fAAoIQCRMXU' (135 views) show lower engagement compared to partner/parent dynamics.",
+      "action": "Pause repetitive sibling topics and shift focus to romantic and marital relationship tensions."
+    },
+    {
+      "pattern": "Vague Nostalgia/Poetry",
+      "evidence": "Abstract hooks like 'Aakhri Baar Jab Tumne Usse Dekha Tha…' underperformed at 127 views.",
+      "action": "Ground abstract emotional poetry into specific, daily real-life situations."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "guilt & realization",
-    "hook_style": "Silent observation of daily habits",
+    "emotion": "समझ और पछतावा",
+    "hook_style": "Real-life observation about daily arguments",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short about how we check our phones first thing in the morning, but ignore the person sleeping right next to us until they are gone.",
-    "opening_direction": "Subah aankh کھلते ही सबसे पहले हाथ फोन की तरफ जाता है...",
-    "twist_direction": "...पर कभी सोचा है, जिस दिन फोन नहीं, वो इंसान दूर हो गया, हाथ किसे ढूंढेंगे?",
+    "concept": "गुस्से में कही गई बातें और घर की शांति",
+    "opening_direction": "जब रात को लड़ाई के बाद दोनों बिना बात किए मुँह फेर कर सोते हैं...",
+    "twist_direction": "सुबह अलार्म बजने से पहले एक छोटी सी चाय की प्याली सारे गिले-शिकवे मिटा देती है, क्योंकि अकड़ से बड़े रिश्ते होते हैं।",
     "duration_seconds": 35,
-    "posting_window": "07:00 AM - 09:00 AM",
-    "reason": "Aligns with high-performing morning relationship posts and targets early morning scrollers looking for emotional reflection."
+    "posting_window": "07:00 PM - 09:00 PM",
+    "reason": "Capitalizes on the winning husband-wife and relationship dynamic pattern from the highest performing video while maintaining an emotional and relatable daily life context."
   },
-  "experiment": "Testing a modern relationship neglect theme (phone vs partner) to see if it replicates or exceeds the domestic success of the top-performing wife video.",
-  "updated_at": "2026-10-04T22:25:44.894437+00:00",
+  "experiment": "Testing if narrowing down from general family emotional tropes strictly to married/romantic relationship compromise improves view velocity.",
+  "updated_at": "2026-10-05T01:07:29.538558+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-04T22:25:47.521555+00:00"
+  "generated_at": "2026-10-05T01:07:32.301266+00:00"
 }
