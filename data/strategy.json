@@ -1,45 +1,35 @@
 {
-  "confidence": "40%",
+  "confidence": "45%",
   "data_points": 11,
-  "overall_summary": "Data shows an outlier success with husband-wife relationship content (1.6k views), alongside moderate baseline views for general family emotional videos and relationship reality checks. Pure one-sided love or deep poetry shorts underperformed compared to grounded interpersonal dynamics.",
+  "overall_summary": "Data shows a massive outlier with the husband-wife relationship video (1666 views), significantly outperforming parent, sibling, and general emotional relationship shorts which hover between 100-300 views.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife / Core Family Dynamics",
-      "evidence": "Video 'or5gtaBpRVY' about wives/husbands achieved 1666 views, drastically outperforming other topics.",
-      "action": "Produce more relatable relationship and household partnership scenarios."
-    },
-    {
-      "pattern": "Relatable Relationship Realities",
-      "evidence": "Video 'NO5fdHLxFL4' ('Har Baar Sorry Bolne Wala Galat Nahi Hota') got 378 views, performing above average for heartbreak/relationship topics.",
-      "action": "Use conversational relationship truth-bombs as hooks."
+      "pattern": "Relationship and marital dynamics",
+      "evidence": "Wife emotional video (or5gtaBpRVY) gained 1,666 views, drastically higher than any other family or general topic.",
+      "action": "Allocate majority of upcoming content to marital, romantic, and close relationship dynamics."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Niche/Repetitive Sister Content",
-      "evidence": "Sister emotional videos like 'jfmMztnam_A' (18 views) and 'fAAoIQCRMXU' (135 views) show lower engagement compared to partner/parent dynamics.",
-      "action": "Pause repetitive sibling topics and shift focus to romantic and marital relationship tensions."
-    },
-    {
-      "pattern": "Vague Nostalgia/Poetry",
-      "evidence": "Abstract hooks like 'Aakhri Baar Jab Tumne Usse Dekha Tha…' underperformed at 127 views.",
-      "action": "Ground abstract emotional poetry into specific, daily real-life situations."
+      "pattern": "Generic sibling love content",
+      "evidence": "Sister emotional videos (jfmMztnam_A, fAAoIQCRMXU) performed poorly, with one struggling at 18 views.",
+      "action": "Deprioritize standalone sibling content and pivot toward romantic and psychological relationship hurdles."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "समझ और पछतावा",
-    "hook_style": "Real-life observation about daily arguments",
+    "emotion": "अधूरी मोहब्बत / ग़लतफ़हमी",
+    "hook_style": "Real-life observation about unsaid words in a marriage/relationship",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "गुस्से में कही गई बातें और घर की शांति",
-    "opening_direction": "जब रात को लड़ाई के बाद दोनों बिना बात किए मुँह फेर कर सोते हैं...",
-    "twist_direction": "सुबह अलार्म बजने से पहले एक छोटी सी चाय की प्याली सारे गिले-शिकवे मिटा देती है, क्योंकि अकड़ से बड़े रिश्ते होते हैं।",
-    "duration_seconds": 35,
-    "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Capitalizes on the winning husband-wife and relationship dynamic pattern from the highest performing video while maintaining an emotional and relatable daily life context."
+    "concept": "A couple sitting in silence in the same room, where physical distance is zero but emotional distance is miles apart, highlighting how arguments are easier than quiet indifference.",
+    "opening_direction": "जब दो लोग एक ही कमरे में रहकर भी हफ़्तों बात नहीं करते...",
+    "twist_direction": "अन्त्य में पता चलता है कि अहंकार की इस जंग में दोनों हार चुके हैं, और सिर्फ एक 'सुनाओ कैसी हो' का मैसेज सब ठीक कर सकता था पर कोई पहल नहीं करता।",
+    "duration_seconds": 45,
+    "posting_window": "07:00 AM - 09:00 AM",
+    "reason": "Building on the massive success of the previous husband-wife emotional short, this taps deeper into relatable relationship friction during night or early morning scrolling habits."
   },
-  "experiment": "Testing if narrowing down from general family emotional tropes strictly to married/romantic relationship compromise improves view velocity.",
-  "updated_at": "2026-10-05T01:07:29.538558+00:00",
+  "experiment": "Testing if the high performance of marital/relationship content (or5gtaBpRVY) is a repeatable niche category or a one-off anomaly by narrowing down specifically to emotional distance between couples.",
+  "updated_at": "2026-10-05T07:26:12.560054+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-05T01:07:32.301266+00:00"
+  "generated_at": "2026-10-05T07:26:15.485101+00:00"
 }
