@@ -1,35 +1,35 @@
 {
-  "confidence": "35%",
+  "confidence": "25%",
   "data_points": 11,
-  "overall_summary": "Limited sample size with high variance; content focusing on family relationships (specifically spouse dynamics) outperformed general romantic shayari or self-motivation.",
+  "overall_summary": "Data volume is low, with one outlier video (Wife Emotional Video at 1666 views) significantly outperforming all others. Most family and relationship dynamics videos average below 300 views. Confidence is low, requiring a controlled exploration strategy focused on husband-wife and relationship realities while testing alternative relationship hooks.",
   "winning_patterns": [
     {
-      "pattern": "Relationship and marital reality focus",
-      "evidence": "Video 'or5gtaBpRVY' about husband-wife dynamics garnered 1,666 views, significantly outperforming all other topics.",
-      "action": "Double down on relatable domestic and relationship dynamics rather than abstract emotional quotes."
+      "pattern": "Husband-Wife Dynamics",
+      "evidence": "Video ID or5gtaBpRVY achieved 1666 views, drastically higher than any other family or general emotional topic.",
+      "action": "Double down on marital relationship realities and unspoken partner feelings."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic motivational or heavy philosophical hooks",
-      "evidence": "Videos like self-motivation (JPf_3ebfnuk) and sister emotional (jfmMztnam_A) received very low engagement (<200 views).",
-      "action": "Avoid generic self-help tropes; anchor emotional hooks in specific, everyday relational conflicts."
+      "pattern": "Generic Sibling & Parent Tributes",
+      "evidence": "Sister, brother, and father emotional shorts (e.g., jfmMztnam_A, m4cgM90y9JU, v8krtdmxbPs) hovered between 18 and 142 views.",
+      "action": "Reduce broad, cliché family member tributes unless tied to a specific, high-tension modern relationship conflict."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "guilt and realization",
-    "hook_style": "situational dialogue",
+    "emotion": "गुमसुम प्यार और अनकही नाराज़गी",
+    "hook_style": "Real-life observation of silent partner arguments",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short piece on how people ignore their partner's silent efforts until they stop doing them entirely.",
-    "opening_direction": "जब कोई बार-बार टोकना बंद कर दे, तो समझो उसने समझाना छोड़ दिया।",
-    "twist_direction": "वो खामोशी नाराजगी नहीं, बल्कि हार होती है।",
-    "duration_seconds": 15,
-    "posting_window": "07:30 PM - 09:00 PM",
-    "reason": "Building on the high performance of marital/relationship content, evening slots capture users reflecting on their day and personal bonds."
+    "concept": "जब रात को गुस्से में खाना कोई नहीं खाता, पर सुबह टिफिन में पसंद की चीज़ मिलती है।",
+    "opening_direction": "रात भर बिना बात किए सोना, और सुबह अचानक से वही पुराना रूटीन शुरू हो जाना।",
+    "twist_direction": "लड़ाई सिर्फ शब्दों की थी, पर फिक्र आज भी वही पुरानी है।",
+    "duration_seconds": 10,
+    "posting_window": "07:00 AM - 09:00 AM",
+    "reason": "Capitalizes on the proven high-performing husband-wife relationship angle while testing a nuanced domestic conflict hook."
   },
-  "experiment": "Testing if deep emotional relationship realizations can replicate the high outlier views achieved by the husband-wife relationship short.",
-  "updated_at": "2026-10-05T16:18:15.041656+00:00",
+  "experiment": "Testing if domestic silent-treatment reconciliation outperforms direct partner advice videos.",
+  "updated_at": "2026-10-05T22:50:24.504738+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-05T16:18:17.444428+00:00"
+  "generated_at": "2026-10-05T22:50:27.158638+00:00"
 }
