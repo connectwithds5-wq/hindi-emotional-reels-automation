@@ -1,35 +1,35 @@
 {
-  "confidence": "45%",
+  "confidence": "35%",
   "data_points": 11,
-  "overall_summary": "Data shows a massive outlier with the husband-wife relationship video (1666 views), significantly outperforming parent, sibling, and general emotional relationship shorts which hover between 100-300 views.",
+  "overall_summary": "Limited sample size with high variance; content focusing on family relationships (specifically spouse dynamics) outperformed general romantic shayari or self-motivation.",
   "winning_patterns": [
     {
-      "pattern": "Relationship and marital dynamics",
-      "evidence": "Wife emotional video (or5gtaBpRVY) gained 1,666 views, drastically higher than any other family or general topic.",
-      "action": "Allocate majority of upcoming content to marital, romantic, and close relationship dynamics."
+      "pattern": "Relationship and marital reality focus",
+      "evidence": "Video 'or5gtaBpRVY' about husband-wife dynamics garnered 1,666 views, significantly outperforming all other topics.",
+      "action": "Double down on relatable domestic and relationship dynamics rather than abstract emotional quotes."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic sibling love content",
-      "evidence": "Sister emotional videos (jfmMztnam_A, fAAoIQCRMXU) performed poorly, with one struggling at 18 views.",
-      "action": "Deprioritize standalone sibling content and pivot toward romantic and psychological relationship hurdles."
+      "pattern": "Generic motivational or heavy philosophical hooks",
+      "evidence": "Videos like self-motivation (JPf_3ebfnuk) and sister emotional (jfmMztnam_A) received very low engagement (<200 views).",
+      "action": "Avoid generic self-help tropes; anchor emotional hooks in specific, everyday relational conflicts."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "अधूरी मोहब्बत / ग़लतफ़हमी",
-    "hook_style": "Real-life observation about unsaid words in a marriage/relationship",
+    "emotion": "guilt and realization",
+    "hook_style": "situational dialogue",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple sitting in silence in the same room, where physical distance is zero but emotional distance is miles apart, highlighting how arguments are easier than quiet indifference.",
-    "opening_direction": "जब दो लोग एक ही कमरे में रहकर भी हफ़्तों बात नहीं करते...",
-    "twist_direction": "अन्त्य में पता चलता है कि अहंकार की इस जंग में दोनों हार चुके हैं, और सिर्फ एक 'सुनाओ कैसी हो' का मैसेज सब ठीक कर सकता था पर कोई पहल नहीं करता।",
-    "duration_seconds": 45,
-    "posting_window": "07:00 AM - 09:00 AM",
-    "reason": "Building on the massive success of the previous husband-wife emotional short, this taps deeper into relatable relationship friction during night or early morning scrolling habits."
+    "concept": "A short piece on how people ignore their partner's silent efforts until they stop doing them entirely.",
+    "opening_direction": "जब कोई बार-बार टोकना बंद कर दे, तो समझो उसने समझाना छोड़ दिया।",
+    "twist_direction": "वो खामोशी नाराजगी नहीं, बल्कि हार होती है।",
+    "duration_seconds": 15,
+    "posting_window": "07:30 PM - 09:00 PM",
+    "reason": "Building on the high performance of marital/relationship content, evening slots capture users reflecting on their day and personal bonds."
   },
-  "experiment": "Testing if the high performance of marital/relationship content (or5gtaBpRVY) is a repeatable niche category or a one-off anomaly by narrowing down specifically to emotional distance between couples.",
-  "updated_at": "2026-10-05T07:26:12.560054+00:00",
+  "experiment": "Testing if deep emotional relationship realizations can replicate the high outlier views achieved by the husband-wife relationship short.",
+  "updated_at": "2026-10-05T16:18:15.041656+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-05T07:26:15.485101+00:00"
+  "generated_at": "2026-10-05T16:18:17.444428+00:00"
 }
