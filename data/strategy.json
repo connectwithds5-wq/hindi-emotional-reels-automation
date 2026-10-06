@@ -1,35 +1,40 @@
 {
-  "confidence": "25%",
+  "confidence": "40%",
   "data_points": 11,
-  "overall_summary": "Data volume is low, with one outlier video (Wife Emotional Video at 1666 views) significantly outperforming all others. Most family and relationship dynamics videos average below 300 views. Confidence is low, requiring a controlled exploration strategy focused on husband-wife and relationship realities while testing alternative relationship hooks.",
+  "overall_summary": "Data indicates a massive outlier for family/relationship relationship dynamics (specifically husband-wife and personal bonds), while general romantic/sad shayari performs moderately. Due to small sample size and one viral outlier (1.6k views), confidence is low, requiring a blend of proven relationship storytelling and controlled testing.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Dynamics",
-      "evidence": "Video ID or5gtaBpRVY achieved 1666 views, drastically higher than any other family or general emotional topic.",
-      "action": "Double down on marital relationship realities and unspoken partner feelings."
+      "pattern": "Core family and relationship dynamics",
+      "evidence": "Wife emotional video (or5gtaBpRVY) gained 1,666 views, significantly outperforming all other topics.",
+      "action": "Focus more heavily on relatable partner and close relationship conflicts rather than abstract heartbreak."
+    },
+    {
+      "pattern": "Direct conversational hook addressing the viewer",
+      "evidence": "Videos addressing specific relations (Wife, Maa, Papa, Call a friend) pull better engagement than generic statements.",
+      "action": "Open with specific interpersonal observations that make the viewer instantly think of a specific person."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sibling & Parent Tributes",
-      "evidence": "Sister, brother, and father emotional shorts (e.g., jfmMztnam_A, m4cgM90y9JU, v8krtdmxbPs) hovered between 18 and 142 views.",
-      "action": "Reduce broad, cliché family member tributes unless tied to a specific, high-tension modern relationship conflict."
+      "pattern": "Generic motivational or heavy philosophical statements",
+      "evidence": "Self motivation (JPf_3ebfnuk) and sister emotional repost (jfmMztnam_A, fAAoIQCRMXU) had very low views (18-172).",
+      "action": "Avoid generic life advice; ground every emotion in a specific, everyday micro-action or conversation."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "गुमसुम प्यार और अनकही नाराज़गी",
-    "hook_style": "Real-life observation of silent partner arguments",
+    "emotion": "निभाना vs थक जाना",
+    "hook_style": "Conversational realization about unsaid expectations in long-term relationships.",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "जब रात को गुस्से में खाना कोई नहीं खाता, पर सुबह टिफिन में पसंद की चीज़ मिलती है।",
-    "opening_direction": "रात भर बिना बात किए सोना, और सुबह अचानक से वही पुराना रूटीन शुरू हो जाना।",
-    "twist_direction": "लड़ाई सिर्फ शब्दों की थी, पर फिक्र आज भी वही पुरानी है।",
-    "duration_seconds": 10,
-    "posting_window": "07:00 AM - 09:00 AM",
-    "reason": "Capitalizes on the proven high-performing husband-wife relationship angle while testing a nuanced domestic conflict hook."
+    "concept": "जब इंसान झगड़ना छोड़ दे, तो समझो रिश्ता खत्म होने लगा है।",
+    "opening_direction": "गुस्सा आए तो रिश्ता बचाया जा सकता है, पर जब इंसान चुप हो जाए...",
+    "twist_direction": "...तब वो शिकायत नहीं कर रहा होता, वो अंदर से रिश्ता छोड़ चुका होता है।",
+    "duration_seconds": 35,
+    "posting_window": "07:30 AM - 09:00 AM",
+    "reason": "Leverages the proven high-performing relationship dynamic pattern seen in the wife/partner video, targeting late morning scroll behavior."
   },
-  "experiment": "Testing if domestic silent-treatment reconciliation outperforms direct partner advice videos.",
-  "updated_at": "2026-10-05T22:50:24.504738+00:00",
+  "experiment": "Testing an emotional relationship psychology hook (silence in arguments) against the proven high-performing family/partner niche.",
+  "updated_at": "2026-10-06T03:12:11.066887+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-05T22:50:27.158638+00:00"
+  "generated_at": "2026-10-06T03:12:14.068286+00:00"
 }
