@@ -1,40 +1,35 @@
 {
-  "confidence": "45%",
+  "confidence": "25%",
   "data_points": 12,
-  "overall_summary": "The channel shows mixed performance across relationship dynamics and family emotional bonds. Outliers like the husband-wife video ('or5gtaBpRVY') and relationship reality shorts ('NO5fdHLxFL4') performed significantly better than pure sad shayari ('YdWh4cDOE64'), indicating audiences prefer relatable relational conflicts over abstract heavy heartbreak.",
+  "overall_summary": "Most videos suffer from very low views, but family and relationship-dynamic content (specifically husband-wife and relatable relationship reality) clearly outperforms isolated abstract shayari or sibling tributes.",
   "winning_patterns": [
     {
-      "pattern": "Relationship dynamics & marital truths",
-      "evidence": "Video 'or5gtaBpRVY' about husband-wife achieved 1,666 views, drastically outperforming other content.",
-      "action": "Produce more narrative-driven shorts focused on modern relationship misunderstandings and unspoken marital expectations."
-    },
-    {
-      "pattern": "Everyday empathy and relational compromise",
-      "evidence": "Video 'NO5fdHLxFL4' about apologizing ('Har Baar Sorry Bolne Wala Galat Nahi Hota') got 383 views.",
-      "action": "Focus hooks on mature relationship maturity, ego, and compromises rather than pure grief."
+      "pattern": "Relationship and marriage dynamics",
+      "evidence": "Video 'or5gtaBpRVY' (Wife emotional video) got 1,666 views, significantly higher than any other video.",
+      "action": "Produce more content touching upon complex marital or close relationship truths."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract sad shayari without a concrete situation",
-      "evidence": "Video 'YdWh4cDOE64' ('जिस दिन सच लिखूंगा…') received only 5 views.",
-      "action": "Avoid heavy, ambiguous poetic lines as openers; anchor the content in tangible real-world scenarios."
+      "pattern": "Abstract sad shayari / heavy Urdu-laced poetry",
+      "evidence": "Video 'YdWh4cDOE64' received only 5 views.",
+      "action": "Avoid abstract, overly poetic lines and focus on grounded everyday household observations."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "निःस्वार्थ प्रेम और गलतफहमी",
-    "hook_style": "situational dialogue",
+    "emotion": "अधूरी मोहब्बत",
+    "hook_style": "Real-life observation about unsaid words in a long-term relationship",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short observation about how the person who talks the least in a relationship usually cares the most, highlighting the quiet partner who absorbs everything.",
-    "opening_direction": "Start with a relatable silent moment in a kitchen or living room where one partner is silently fixing something the other broke.",
-    "twist_direction": "Reveal that the silence isn't anger; it's the exhaustion of trying to explain things to someone who only listens to reply.",
-    "duration_seconds": 35,
-    "posting_window": "07:30 AM - 08:30 AM",
-    "reason": "Matches the proven success timing of top-performing morning relationship posts like 'or5gtaBpRVY' and 'NO5fdHLxFL4'."
+    "concept": "A short piece on how people stop fighting in a long relationship, not because everything is fine, but because they have stopped caring enough to argue.",
+    "opening_direction": "जब इंसान झगड़ना छोड़ दे, तो समझ लेना रिश्ता सुधर नहीं रहा, बल्कि खत्म हो रहा है।",
+    "twist_direction": "और जिस दिन वो खामोश हो जाए, समझो उसने तुम्हें हमेशा के लिए खो दिया है।",
+    "duration_seconds": 10,
+    "posting_window": "07:00 AM - 08:00 AM IST",
+    "reason": "Capitalizes on the high-performing relationship/marriage dynamic pattern seen in previous top videos while testing a more mature emotional angle."
   },
-  "experiment": "Testing if shifting slightly from generic family bonds to nuanced daily relationship psychology maintains the high engagement seen in the wife/husband and apology shorts.",
-  "updated_at": "2026-10-06T17:20:48.239270+00:00",
+  "experiment": "Testing if a mature, non-cliché relationship reality hook can repeat the high view-count anomaly of the previous wife/husband emotional video.",
+  "updated_at": "2026-10-06T21:47:57.132321+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-06T17:20:50.966616+00:00"
+  "generated_at": "2026-10-06T21:47:59.354894+00:00"
 }
