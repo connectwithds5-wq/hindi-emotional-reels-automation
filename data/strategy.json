@@ -1,40 +1,35 @@
 {
-  "confidence": "40%",
-  "data_points": 11,
-  "overall_summary": "Data indicates a massive outlier for family/relationship relationship dynamics (specifically husband-wife and personal bonds), while general romantic/sad shayari performs moderately. Due to small sample size and one viral outlier (1.6k views), confidence is low, requiring a blend of proven relationship storytelling and controlled testing.",
+  "confidence": "35%",
+  "data_points": 12,
+  "overall_summary": "The channel shows a massive outlier with husband-wife relationship content (1,666 views on video 'or5gtaBpRVY'), while family and pure sad shayari formats are significantly underperforming or struggling to get initial traction. However, given the overall low sample size across the dataset, confidence remains low and requires a balanced approach between capitalizing on the proven relationship dynamic and controlled experimentation.",
   "winning_patterns": [
     {
-      "pattern": "Core family and relationship dynamics",
-      "evidence": "Wife emotional video (or5gtaBpRVY) gained 1,666 views, significantly outperforming all other topics.",
-      "action": "Focus more heavily on relatable partner and close relationship conflicts rather than abstract heartbreak."
-    },
-    {
-      "pattern": "Direct conversational hook addressing the viewer",
-      "evidence": "Videos addressing specific relations (Wife, Maa, Papa, Call a friend) pull better engagement than generic statements.",
-      "action": "Open with specific interpersonal observations that make the viewer instantly think of a specific person."
+      "pattern": "Relationship & Marriage Dynamics",
+      "evidence": "Video 'or5gtaBpRVY' about husband-wife understanding achieved 1,666 views, drastically outperforming family or pure sad shayari shorts.",
+      "action": "Focus more core video concepts on marital and long-term relationship realities rather than broad family tropes or cliché poetry."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic motivational or heavy philosophical statements",
-      "evidence": "Self motivation (JPf_3ebfnuk) and sister emotional repost (jfmMztnam_A, fAAoIQCRMXU) had very low views (18-172).",
-      "action": "Avoid generic life advice; ground every emotion in a specific, everyday micro-action or conversation."
+      "pattern": "Heavy Sad Shayari / Direct Quotes",
+      "evidence": "Video 'YdWh4cDOE64' using direct shayari format only gained 5 views.",
+      "action": "Avoid abstract poetic verses and replace them with grounded, narrative-driven real-life relationship situations."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "निभाना vs थक जाना",
-    "hook_style": "Conversational realization about unsaid expectations in long-term relationships.",
+    "emotion": "समझदारी और अफसोस",
+    "hook_style": "Real-life observation about unspoken fights in a relationship",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "जब इंसान झगड़ना छोड़ दे, तो समझो रिश्ता खत्म होने लगा है।",
-    "opening_direction": "गुस्सा आए तो रिश्ता बचाया जा सकता है, पर जब इंसान चुप हो जाए...",
-    "twist_direction": "...तब वो शिकायत नहीं कर रहा होता, वो अंदर से रिश्ता छोड़ चुका होता है।",
-    "duration_seconds": 35,
-    "posting_window": "07:30 AM - 09:00 AM",
-    "reason": "Leverages the proven high-performing relationship dynamic pattern seen in the wife/partner video, targeting late morning scroll behavior."
+    "concept": "A short piece on how arguments between partners usually end not with a resolution, but with one person just getting tired of fighting.",
+    "opening_direction": "गुस्सा खत्म होने के बाद भी बात न शुरू होना…",
+    "twist_direction": "असल में जीत उस झगड़े की नहीं होती, खामोशी की होती है जो बीच में दीवार बन जाती है।",
+    "duration_seconds": 15,
+    "posting_window": "07:00 AM - 08:30 AM",
+    "reason": "Building directly upon the winning pattern of husband-wife and relationship reality content while refining the emotional delivery to avoid low-performing poetry styles."
   },
-  "experiment": "Testing an emotional relationship psychology hook (silence in arguments) against the proven high-performing family/partner niche.",
-  "updated_at": "2026-10-06T03:12:11.066887+00:00",
+  "experiment": "Testing if narrative-driven relationship reality outperforms isolated poetic shayari.",
+  "updated_at": "2026-10-06T10:38:14.209418+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-06T03:12:14.068286+00:00"
+  "generated_at": "2026-10-06T10:38:16.704245+00:00"
 }
