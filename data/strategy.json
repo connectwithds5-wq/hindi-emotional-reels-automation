@@ -1,35 +1,40 @@
 {
-  "confidence": "25%",
+  "confidence": "35%",
   "data_points": 12,
-  "overall_summary": "Most videos suffer from very low views, but family and relationship-dynamic content (specifically husband-wife and relatable relationship reality) clearly outperforms isolated abstract shayari or sibling tributes.",
+  "overall_summary": "Data shows high variance, with strong outlier performance on family/relationship dynamics (e.g., husband-wife topic at 1.6k views) and moderate performance on relatable emotional communication. Pure abstract poetry performed poorly.",
   "winning_patterns": [
     {
-      "pattern": "Relationship and marriage dynamics",
-      "evidence": "Video 'or5gtaBpRVY' (Wife emotional video) got 1,666 views, significantly higher than any other video.",
-      "action": "Produce more content touching upon complex marital or close relationship truths."
+      "pattern": "Relatable family and relationship dynamics",
+      "evidence": "Wife emotional video ('or5gtaBpRVY') reached 1,666 views, significantly outperforming other topics.",
+      "action": "Focus more core content on everyday relationship realities and family bonds."
+    },
+    {
+      "pattern": "Direct, empathetic relationship observations",
+      "evidence": "Relationship reality content ('NO5fdHLxFL4') achieved 383 views, second best among regular posts.",
+      "action": "Use conversational relationship observations rather than heavy poetic abstractions."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract sad shayari / heavy Urdu-laced poetry",
-      "evidence": "Video 'YdWh4cDOE64' received only 5 views.",
-      "action": "Avoid abstract, overly poetic lines and focus on grounded everyday household observations."
+      "pattern": "Abstract or heavily dramatic sad shayari",
+      "evidence": "Poetic lines like 'जिस दिन सच लिखूंगा…' ('YdWh4cDOE64') yielded only 5 views.",
+      "action": "Avoid abstract or overly complex verse; ground the emotion in concrete daily situations."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "अधूरी मोहब्बत",
-    "hook_style": "Real-life observation about unsaid words in a long-term relationship",
+    "emotion": "नस्टैल्जिया और मलाल",
+    "hook_style": "Observation-based question",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short piece on how people stop fighting in a long relationship, not because everything is fine, but because they have stopped caring enough to argue.",
-    "opening_direction": "जब इंसान झगड़ना छोड़ दे, तो समझ लेना रिश्ता सुधर नहीं रहा, बल्कि खत्म हो रहा है।",
-    "twist_direction": "और जिस दिन वो खामोश हो जाए, समझो उसने तुम्हें हमेशा के लिए खो दिया है।",
-    "duration_seconds": 10,
-    "posting_window": "07:00 AM - 08:00 AM IST",
-    "reason": "Capitalizes on the high-performing relationship/marriage dynamic pattern seen in previous top videos while testing a more mature emotional angle."
+    "concept": "A realization about how childhood friends slowly become strangers who only like each other's status updates.",
+    "opening_direction": "वह दोस्त जिसके साथ रोज़ उठना-बैठना था, आज उसकी ज़िंदगी सिर्फ एक स्क्रीन पर दिखती है।",
+    "twist_direction": "बातें कम हो गईं, पर ब्लॉक आज भी किसी ने नहीं किया—शायद उम्मीद अब भी ज़िंदा है।",
+    "duration_seconds": 30,
+    "posting_window": "07:00 PM - 09:00 PM",
+    "reason": "Taps into the proven 'relationships and unspoken distance' theme that resonates well with the core audience."
   },
-  "experiment": "Testing if a mature, non-cliché relationship reality hook can repeat the high view-count anomaly of the previous wife/husband emotional video.",
-  "updated_at": "2026-10-06T21:47:57.132321+00:00",
+  "experiment": "Testing friendship/distance dynamic against the proven family relationship outlier to see if high engagement scales beyond spouses/parents.",
+  "updated_at": "2026-10-07T01:43:34.365774+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-06T21:47:59.354894+00:00"
+  "generated_at": "2026-10-07T01:43:37.076850+00:00"
 }
