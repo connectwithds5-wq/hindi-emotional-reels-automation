@@ -1,45 +1,35 @@
 {
-  "confidence": "40%",
+  "confidence": "45%",
   "data_points": 13,
-  "overall_summary": "The channel shows clear high-performing outliers around husband-wife dynamics and relational reality (e.g., 'or5gtaBpRVY' with 1,666 views and 'my5mP9feI7s' with 789 views). Family emotional shorts perform decently, while heavy poetry/sad shayari formats perform poorly when isolated from real-life context.",
+  "overall_summary": "Analysis of the performance data reveals a clear outlier preference for husband-wife relationship dynamics ('पत्नी की ये बात हर पति को समझनी चाहिए' with 1666 views and 'Shaadi Ke Baad Pyaar Kahan Chala Gaya' with 1246 views). Generic sad shayari or broad family emotional topics underperformed. Overall confidence is moderate due to a limited sample size.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos focusing on married life dynamics ('or5gtaBpRVY' at 1,666 views, 'my5mP9feI7s' at 789 views) significantly outperform other topics.",
-      "action": "Double down on husband-wife micro-moments, compromises, and unspoken emotional distance after marriage."
-    },
-    {
-      "pattern": "Relatable Relationship Truths",
-      "evidence": "Podcast-style short addressing relationship realities ('NO5fdHLxFL4' at 383 views) performed better than standalone sad shayari.",
-      "action": "Frame relationship advice around everyday psychological realities rather than pure sad poetic quotes."
+      "pattern": "Husband-Wife Relationship Dynamics",
+      "evidence": "Top performing videos are 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,666 views) and 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,246 views).",
+      "action": "Double down on marital emotional nuances, communication gaps, and post-marriage realities."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Standalone Heavy Sad Shayari",
-      "evidence": "'YdWh4cDOE64' received only 5 views because it lacked a grounded real-life context or visual anchor.",
-      "action": "Avoid abstract poetic statements without a concrete relational situation attached to them."
-    },
-    {
-      "pattern": "Low Engagement on Generic Family Ties",
-      "evidence": "Sibling-focused videos like 'jfmMztnam_A' (18 views) and 'fAAoIQCRMXU' (135 views) had weaker reach compared to romantic and spousal dynamics.",
-      "action": "Prioritize spousal and overthinking/loneliness themes over broad family tropes for now."
+      "pattern": "Pure Sad Shayari / Heavy Poetry",
+      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 5 views.",
+      "action": "Avoid abstract or overly dramatic shayari; ground content in everyday real-life observations."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Bittersweet realization",
-    "hook_style": "Observational statement about post-work silence between couples",
+    "emotion": "Melancholic yet relatable realization",
+    "hook_style": "Observational statement about long-term marriage silence",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A husband and wife sitting in separate rooms after a long day, scrolling through phones, realizing the biggest distance isn't physical silence, but the unsaid things they stopped sharing.",
-    "opening_direction": "Start with the sound of a tea cup being placed on the table and silence in the room.",
-    "twist_direction": "End with the realization that hiding your tiredness to protect the other person is actually what pushes them away.",
-    "duration_seconds": 35,
+    "concept": "A couple sitting in complete silence in a car or living room, not because they are angry, but because they have nothing left to argue about.",
+    "opening_direction": "Start with the quiet sound of turning off a car engine after reaching home.",
+    "twist_direction": "Realizing that shouting fights were better than this comfortable, distant silence.",
+    "duration_seconds": 10,
     "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Aligns with the proven high-performing husband-wife relationship category while targeting evening overthinking and relatable domestic realism."
+    "reason": "Matches the proven success of husband-wife relationship themes and targets evening browsing habits when adults reflect on personal life."
   },
-  "experiment": "Testing if deep emotional resonance combined with a spousal communication gap can surpass the 1,000-view mark again, verifying the husband-wife core audience appetite.",
-  "updated_at": "2026-10-07T16:46:43.100696+00:00",
+  "experiment": "Testing if silent, unspoken marital moments perform better than direct questioning hooks.",
+  "updated_at": "2026-10-07T22:10:51.606215+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-07T16:46:46.448081+00:00"
+  "generated_at": "2026-10-07T22:10:55.805138+00:00"
 }
