@@ -1,40 +1,35 @@
 {
-  "confidence": "35%",
+  "confidence": "30%",
   "data_points": 12,
-  "overall_summary": "Data shows high variance, with strong outlier performance on family/relationship dynamics (e.g., husband-wife topic at 1.6k views) and moderate performance on relatable emotional communication. Pure abstract poetry performed poorly.",
+  "overall_summary": "Data volume is very low, but clear outlier performance indicates higher viewer resonance for family relationship dynamics, particularly husband-wife realities, compared to standard poetic shayari formats which heavily underperformed.",
   "winning_patterns": [
     {
-      "pattern": "Relatable family and relationship dynamics",
-      "evidence": "Wife emotional video ('or5gtaBpRVY') reached 1,666 views, significantly outperforming other topics.",
-      "action": "Focus more core content on everyday relationship realities and family bonds."
-    },
-    {
-      "pattern": "Direct, empathetic relationship observations",
-      "evidence": "Relationship reality content ('NO5fdHLxFL4') achieved 383 views, second best among regular posts.",
-      "action": "Use conversational relationship observations rather than heavy poetic abstractions."
+      "pattern": "Relatable family relationship dynamics",
+      "evidence": "Video 'or5gtaBpRVY' about husband-wife achieved 1,666 views, significantly outperforming all other topics.",
+      "action": "Focus more core content on domestic relationship tensions, unspoken expectations, and partner realities."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract or heavily dramatic sad shayari",
-      "evidence": "Poetic lines like 'जिस दिन सच लिखूंगा…' ('YdWh4cDOE64') yielded only 5 views.",
-      "action": "Avoid abstract or overly complex verse; ground the emotion in concrete daily situations."
+      "pattern": "Generic poetic shayari or abstract heartbroken thoughts",
+      "evidence": "Video 'YdWh4cDOE64' titled 'जिस दिन सच लिखूंगा…' only generated 5 views.",
+      "action": "Avoid abstract poetic lines; anchor every piece of content in a concrete, observable everyday situation."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "नस्टैल्जिया और मलाल",
-    "hook_style": "Observation-based question",
+    "emotion": "गुस्सा और बेबसी",
+    "hook_style": "Situation-based direct address",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization about how childhood friends slowly become strangers who only like each other's status updates.",
-    "opening_direction": "वह दोस्त जिसके साथ रोज़ उठना-बैठना था, आज उसकी ज़िंदगी सिर्फ एक स्क्रीन पर दिखती है।",
-    "twist_direction": "बातें कम हो गईं, पर ब्लॉक आज भी किसी ने नहीं किया—शायद उम्मीद अब भी ज़िंदा है।",
-    "duration_seconds": 30,
-    "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Taps into the proven 'relationships and unspoken distance' theme that resonates well with the core audience."
+    "concept": "A husband coming home late, seeing his wife sleeping with an unreplied cold text, realizing silence hurts more than arguments.",
+    "opening_direction": "रात के 2 बजे जब घर लौटकर बिस्तर पर लेटते हो...",
+    "twist_direction": "लड़ाई खत्म होने के बाद की खामोशी सबसे ज्यादा डराती है",
+    "duration_seconds": 35,
+    "posting_window": "07:00 AM - 08:30 AM",
+    "reason": "Building directly on the proven high-performing theme of husband-wife dynamics while integrating late-night emotional relatability."
   },
-  "experiment": "Testing friendship/distance dynamic against the proven family relationship outlier to see if high engagement scales beyond spouses/parents.",
-  "updated_at": "2026-10-07T01:43:34.365774+00:00",
+  "experiment": "Testing if deep emotional relationship realism outpulls general family shayari consistently.",
+  "updated_at": "2026-10-07T09:03:55.626189+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-07T01:43:37.076850+00:00"
+  "generated_at": "2026-10-07T09:03:58.252813+00:00"
 }
