@@ -1,45 +1,35 @@
 {
   "confidence": "60%",
   "data_points": 13,
-  "overall_summary": "Analysis of historical data shows clear viewer preference for Husband-Wife relationship dynamics and deep-rooted domestic emotional realities, significantly outperforming generic sad poetry or motivational hooks. However, due to limited sample size across different topics, confidence is moderate and requires continued focus on top-performing themes with controlled experimentation.",
+  "overall_summary": "The channel shows a clear preference for 'Husband-Wife' relationship dynamics over generic family or motivational content. High-performing videos (1.6k and 1.3k views) focus on marital realities, whereas generic family tributes (Sister/Brother/Papa) are significantly underperforming.",
   "winning_patterns": [
     {
       "pattern": "Husband-Wife Relationship Dynamics",
-      "evidence": "Videos like 'पत्नी की ये बात हर पति को समझनी चाहिए' (1666 views) and 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1325 views) heavily outperform generic heartbreak poetry.",
-      "action": "Double down on mature relationship realities, domestic life nuances, and unspoken marital misunderstandings."
-    },
-    {
-      "pattern": "Conversational Family Hooks",
-      "evidence": "Parent/family-focused content like 'माँ जब पूछती है' (226 views) performs moderately well compared to pure abstract shayari.",
-      "action": "Use direct, relatable interpersonal situations instead of heavy, poetic language."
+      "evidence": "Videos regarding marriage (or5gtaBpRVY, my5mP9feI7s) outperformed all other content by 5x-10x.",
+      "action": "Pivot content focus toward marital complexities, unspoken expectations, and the evolution of love after marriage."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Heavy Sad Shayari",
-      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' gained only 5 views.",
-      "action": "Avoid overly dramatic, literary, or abstract shayari; keep the language grounded in daily life."
-    },
-    {
-      "pattern": "Low-sample Single-topic Drift",
-      "evidence": "Single attempts at topics like sibling dynamics yielded low engagement.",
-      "action": "Reserve sibling and general motivation topics for occasional testing rather than core focus."
+      "pattern": "Generic Family Tributes",
+      "evidence": "Videos about siblings or parents (jfmMztnam_A, m4cgM90y9JU) consistently receive low engagement.",
+      "action": "Stop producing generic 'tribute' style content; shift to 'conflict/resolution' narratives even within family themes."
     }
   ],
   "next_video": {
-    "topic": "रिश्ते",
+    "topic": "Husband-Wife",
     "emotion": "Bittersweet realization",
-    "hook_style": "Observational domestic reality",
-    "story_structure": "simple -> relatable -> twist",
-    "concept": "A short look at how couples stop fighting and start staying silent, realizing indifference is more dangerous than anger.",
-    "opening_direction": "जब गुस्से में झगड़े होना बंद हो जाएं और दोनों सिर्फ काम की बात करें...",
-    "twist_direction": "...समझ लेना प्यार खत्म नहीं हुआ, रिश्ते ने अंदर से दम तोड़ दिया है।",
-    "duration_seconds": 10,
-    "posting_window": "13:00 - 15:00",
-    "reason": "Aligns with the proven high-performing husband-wife and relationship reality niche seen in top-performing videos."
+    "hook_style": "Direct question about a common marital habit",
+    "story_structure": "Simple: A couple sitting in silence -> Relatable: The husband forgets to ask 'how was your day' -> Twist: The wife realizes she stopped waiting for the question, marking the death of intimacy.",
+    "concept": "The silence that kills a marriage",
+    "opening_direction": "Start with a visual of a phone screen or a quiet dinner table.",
+    "twist_direction": "Focus on the transition from 'arguing' to 'not caring enough to argue'.",
+    "duration_seconds": 45,
+    "posting_window": "13:00 - 14:00 IST",
+    "reason": "Matches the posting time of the highest-performing video (my5mP9feI7s) and leverages the proven marital niche."
   },
-  "experiment": "Testing if silent emotional detachment in marriage performs as well as direct verbal conflict topics.",
-  "updated_at": "2026-10-08T09:19:14.299267+00:00",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-08T09:19:17.255411+00:00"
+  "experiment": "Testing if 'emotional distance' in marriage performs better than 'misunderstanding' in marriage.",
+  "updated_at": "2026-10-08T16:47:40.605524+00:00",
+  "model_used": "gemini-3.1-flash-lite",
+  "generated_at": "2026-10-08T16:47:45.804069+00:00"
 }
