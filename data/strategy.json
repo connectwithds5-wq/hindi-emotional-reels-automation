@@ -1,35 +1,45 @@
 {
-  "confidence": "35%",
+  "confidence": "60%",
   "data_points": 13,
-  "overall_summary": "The channel shows clear outlier performance for husband-wife relationship content ('or5gtaBpRVY' with 1666 views and 'my5mP9feI7s' with 1320 views), while standard family/sibling shayari and pure sad quotes underperform significantly. Confidence is low due to small sample size, but domestic relationship dynamics are emerging as a repeatable pattern.",
+  "overall_summary": "Analysis of historical data shows clear viewer preference for Husband-Wife relationship dynamics and deep-rooted domestic emotional realities, significantly outperforming generic sad poetry or motivational hooks. However, due to limited sample size across different topics, confidence is moderate and requires continued focus on top-performing themes with controlled experimentation.",
   "winning_patterns": [
     {
       "pattern": "Husband-Wife Relationship Dynamics",
-      "evidence": "Videos focusing on spouse understanding and married life dynamics (or5gtaBpRVY, my5mP9feI7s) achieved 1.3K to 1.6K views, vastly outperforming all other topics.",
-      "action": "Double down on domestic relationship narratives focusing on unspoken marital compromises and modern partnership realities."
+      "evidence": "Videos like 'पत्नी की ये बात हर पति को समझनी चाहिए' (1666 views) and 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1325 views) heavily outperform generic heartbreak poetry.",
+      "action": "Double down on mature relationship realities, domestic life nuances, and unspoken marital misunderstandings."
+    },
+    {
+      "pattern": "Conversational Family Hooks",
+      "evidence": "Parent/family-focused content like 'माँ जब पूछती है' (226 views) performs moderately well compared to pure abstract shayari.",
+      "action": "Use direct, relatable interpersonal situations instead of heavy, poetic language."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Pure Sad Shayari / Heavy Quotes",
-      "evidence": "Videos relying heavily on poetic sadness or abstract betrayal (e.g., YdWh4cDOE64 with 5 views) fail to capture immediate audience retention.",
-      "action": "Avoid abstract poetry openings; ground every script in a concrete everyday situation before introducing emotional depth."
+      "pattern": "Abstract Heavy Sad Shayari",
+      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' gained only 5 views.",
+      "action": "Avoid overly dramatic, literary, or abstract shayari; keep the language grounded in daily life."
+    },
+    {
+      "pattern": "Low-sample Single-topic Drift",
+      "evidence": "Single attempts at topics like sibling dynamics yielded low engagement.",
+      "action": "Reserve sibling and general motivation topics for occasional testing rather than core focus."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "melancholic realization",
-    "hook_style": "situational observation about modern married life",
+    "emotion": "Bittersweet realization",
+    "hook_style": "Observational domestic reality",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple sitting in complete silence after a long day, where the husband realizes that the lack of arguments doesn't mean peace, but emotional exhaustion.",
-    "opening_direction": "Start with the sound of tea being poured in a quiet kitchen late at night.",
-    "twist_direction": "Reveal that they used to talk for hours before marriage, but now they know each other's entire day without asking a single question.",
-    "duration_seconds": 35,
-    "posting_window": "13:00 - 14:00 IST",
-    "reason": "Aligns with the proven high-performing husband-wife relationship format while testing a slightly deeper emotional twist on modern silence."
+    "concept": "A short look at how couples stop fighting and start staying silent, realizing indifference is more dangerous than anger.",
+    "opening_direction": "जब गुस्से में झगड़े होना बंद हो जाएं और दोनों सिर्फ काम की बात करें...",
+    "twist_direction": "...समझ लेना प्यार खत्म नहीं हुआ, रिश्ते ने अंदर से दम तोड़ दिया है।",
+    "duration_seconds": 10,
+    "posting_window": "13:00 - 15:00",
+    "reason": "Aligns with the proven high-performing husband-wife and relationship reality niche seen in top-performing videos."
   },
-  "experiment": "Testing if shifting husband-wife dynamics from conflict to emotional silence maintains the high view counts seen in previous relationship shorts.",
-  "updated_at": "2026-10-08T02:11:02.497446+00:00",
+  "experiment": "Testing if silent emotional detachment in marriage performs as well as direct verbal conflict topics.",
+  "updated_at": "2026-10-08T09:19:14.299267+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-08T02:11:05.268122+00:00"
+  "generated_at": "2026-10-08T09:19:17.255411+00:00"
 }
