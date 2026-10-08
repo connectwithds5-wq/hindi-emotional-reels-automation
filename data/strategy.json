@@ -1,35 +1,35 @@
 {
-  "confidence": "45%",
+  "confidence": "35%",
   "data_points": 13,
-  "overall_summary": "Analysis of the performance data reveals a clear outlier preference for husband-wife relationship dynamics ('पत्नी की ये बात हर पति को समझनी चाहिए' with 1666 views and 'Shaadi Ke Baad Pyaar Kahan Chala Gaya' with 1246 views). Generic sad shayari or broad family emotional topics underperformed. Overall confidence is moderate due to a limited sample size.",
+  "overall_summary": "The channel shows clear outlier performance for husband-wife relationship content ('or5gtaBpRVY' with 1666 views and 'my5mP9feI7s' with 1320 views), while standard family/sibling shayari and pure sad quotes underperform significantly. Confidence is low due to small sample size, but domestic relationship dynamics are emerging as a repeatable pattern.",
   "winning_patterns": [
     {
       "pattern": "Husband-Wife Relationship Dynamics",
-      "evidence": "Top performing videos are 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,666 views) and 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,246 views).",
-      "action": "Double down on marital emotional nuances, communication gaps, and post-marriage realities."
+      "evidence": "Videos focusing on spouse understanding and married life dynamics (or5gtaBpRVY, my5mP9feI7s) achieved 1.3K to 1.6K views, vastly outperforming all other topics.",
+      "action": "Double down on domestic relationship narratives focusing on unspoken marital compromises and modern partnership realities."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Pure Sad Shayari / Heavy Poetry",
-      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 5 views.",
-      "action": "Avoid abstract or overly dramatic shayari; ground content in everyday real-life observations."
+      "pattern": "Pure Sad Shayari / Heavy Quotes",
+      "evidence": "Videos relying heavily on poetic sadness or abstract betrayal (e.g., YdWh4cDOE64 with 5 views) fail to capture immediate audience retention.",
+      "action": "Avoid abstract poetry openings; ground every script in a concrete everyday situation before introducing emotional depth."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Melancholic yet relatable realization",
-    "hook_style": "Observational statement about long-term marriage silence",
+    "emotion": "melancholic realization",
+    "hook_style": "situational observation about modern married life",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple sitting in complete silence in a car or living room, not because they are angry, but because they have nothing left to argue about.",
-    "opening_direction": "Start with the quiet sound of turning off a car engine after reaching home.",
-    "twist_direction": "Realizing that shouting fights were better than this comfortable, distant silence.",
-    "duration_seconds": 10,
-    "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Matches the proven success of husband-wife relationship themes and targets evening browsing habits when adults reflect on personal life."
+    "concept": "A couple sitting in complete silence after a long day, where the husband realizes that the lack of arguments doesn't mean peace, but emotional exhaustion.",
+    "opening_direction": "Start with the sound of tea being poured in a quiet kitchen late at night.",
+    "twist_direction": "Reveal that they used to talk for hours before marriage, but now they know each other's entire day without asking a single question.",
+    "duration_seconds": 35,
+    "posting_window": "13:00 - 14:00 IST",
+    "reason": "Aligns with the proven high-performing husband-wife relationship format while testing a slightly deeper emotional twist on modern silence."
   },
-  "experiment": "Testing if silent, unspoken marital moments perform better than direct questioning hooks.",
-  "updated_at": "2026-10-07T22:10:51.606215+00:00",
+  "experiment": "Testing if shifting husband-wife dynamics from conflict to emotional silence maintains the high view counts seen in previous relationship shorts.",
+  "updated_at": "2026-10-08T02:11:02.497446+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-07T22:10:55.805138+00:00"
+  "generated_at": "2026-10-08T02:11:05.268122+00:00"
 }
