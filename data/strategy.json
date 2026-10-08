@@ -1,35 +1,35 @@
 {
-  "confidence": "60%",
+  "confidence": "65%",
   "data_points": 13,
-  "overall_summary": "The channel shows a clear preference for 'Husband-Wife' relationship dynamics over generic family or motivational content. High-performing videos (1.6k and 1.3k views) focus on marital realities, whereas generic family tributes (Sister/Brother/Papa) are significantly underperforming.",
+  "overall_summary": "Analysis of the historical data reveals that relationship and family dynamic topics involving husband-wife dynamics ('पत्नी की ये बात', 'Shaadi Ke Baad Pyaar') significantly outperform standard sad shayari or broader relationship generalities. The audience strongly engages with specific, realistic domestic scenarios rather than abstract heartbreak.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Dynamics",
-      "evidence": "Videos regarding marriage (or5gtaBpRVY, my5mP9feI7s) outperformed all other content by 5x-10x.",
-      "action": "Pivot content focus toward marital complexities, unspoken expectations, and the evolution of love after marriage."
+      "pattern": "Husband-Wife Relationship Realities",
+      "evidence": "Videos about husband-wife dynamics (or5gtaBpRVY with 1666 views, my5mP9feI7s with 1462 views) vastly outperformed all other single-topic categories.",
+      "action": "Double down on domestic relationship realities and subtle emotional friction between partners."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Family Tributes",
-      "evidence": "Videos about siblings or parents (jfmMztnam_A, m4cgM90y9JU) consistently receive low engagement.",
-      "action": "Stop producing generic 'tribute' style content; shift to 'conflict/resolution' narratives even within family themes."
+      "pattern": "Abstract Sad Shayari / Generic One-Liners",
+      "evidence": "Video YdWh4cDOE64 ('जिस दिन सच लिखूंगा…') received only 6 views, showing low resonance for heavy, abstract poetry compared to situational emotional narratives.",
+      "action": "Avoid heavily poetic or overly dramatic abstract quotes; ground the content in everyday relatable interactions."
     }
   ],
   "next_video": {
-    "topic": "Husband-Wife",
-    "emotion": "Bittersweet realization",
-    "hook_style": "Direct question about a common marital habit",
-    "story_structure": "Simple: A couple sitting in silence -> Relatable: The husband forgets to ask 'how was your day' -> Twist: The wife realizes she stopped waiting for the question, marking the death of intimacy.",
-    "concept": "The silence that kills a marriage",
-    "opening_direction": "Start with a visual of a phone screen or a quiet dinner table.",
-    "twist_direction": "Focus on the transition from 'arguing' to 'not caring enough to argue'.",
-    "duration_seconds": 45,
-    "posting_window": "13:00 - 14:00 IST",
-    "reason": "Matches the posting time of the highest-performing video (my5mP9feI7s) and leverages the proven marital niche."
+    "topic": "रिश्ते",
+    "emotion": "Melancholic yet reflective",
+    "hook_style": "Observational everyday habit",
+    "story_structure": "simple -> relatable -> twist",
+    "concept": "A silent partner who notices the small changes in daily routines that others ignore.",
+    "opening_direction": "Start with the small detail of how someone folds clothes or makes tea differently when they are upset.",
+    "twist_direction": "Reveal that the silence isn't anger, it's the quiet exhaustion of trying to fix a bond all by oneself.",
+    "duration_seconds": 10,
+    "posting_window": "01:00 PM - 02:00 PM UTC",
+    "reason": "Aligns with the successful timing window of previous high-performing husband-wife and relationship shorts."
   },
-  "experiment": "Testing if 'emotional distance' in marriage performs better than 'misunderstanding' in marriage.",
-  "updated_at": "2026-10-08T16:47:40.605524+00:00",
-  "model_used": "gemini-3.1-flash-lite",
-  "generated_at": "2026-10-08T16:47:45.804069+00:00"
+  "experiment": "Testing if subtle observational habits inside a relationship perform as well as direct verbal conflict or podcast style quotes.",
+  "updated_at": "2026-10-08T22:17:28.505259+00:00",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-10-08T22:17:30.622740+00:00"
 }
