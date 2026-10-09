@@ -1,35 +1,35 @@
 {
   "confidence": "65%",
   "data_points": 13,
-  "overall_summary": "Analysis of historical performance indicates that husband-wife dynamics and relational reality topics significantly outperform standard family or generic shayari formats on this channel. Videos focusing on marriage, expectations, and partner communication (e.g., 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1,560 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1,666 views) generate the highest engagement.",
+  "overall_summary": "Analysis of the performance data reveals clear outliers in husband-wife relationship and post-marriage dynamics (videos like 'or5gtaBpRVY' with 1666 views and 'my5mP9feI7s' with 1582 views), heavily outperforming generic family members or pure sad shayari.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos addressing marriage and partner dynamics achieved over 1,500 views, significantly outperforming family or pure shayari content.",
-      "action": "Focus upcoming primary content on relationship nuances, unspoken expectations, and emotional distance between partners."
+      "pattern": "Husband-Wife Dynamics",
+      "evidence": "Videos focusing on married life ('or5gtaBpRVY', 'my5mP9feI7s') gained 1500+ views, significantly higher than family member tributes.",
+      "action": "Pivot focus toward adult relationship realities and unspoken marital struggles."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Pure Sad Shayari / Heavy Poetry",
-      "evidence": "Abstract or heavy poetic titles like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' gained minimal traction (6 views).",
-      "action": "Avoid abstract poetry framing; ground the emotional hooks in concrete everyday domestic or relationship situations."
+      "pattern": "Pure Sad Shayari / Heavy Metaphors",
+      "evidence": "Video 'YdWh4cDOE64' ('जिस दिन सच लिखूंगा…') received only 6 views, showing low pull for aggressive or poetic bitterness.",
+      "action": "Avoid heavy poetic jargon and stick to grounded, everyday observational emotional moments."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "नस्टैल्जिया और अकेलापन",
-    "hook_style": "Observation about routine changes after a few years of marriage",
+    "emotion": "Bittersweet realization",
+    "hook_style": "Observational silent moment",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple sitting in complete silence in the living room, scrolling phones, realizing how 'busy' they became while living under the same roof.",
-    "opening_direction": "Start with the sound of tea being poured in silence and the wife handing a cup without making eye contact.",
-    "twist_direction": "The realization hits that they used to talk for hours about nothing, and now they talk only about household chores—proving distance isn't geographical, it's emotional.",
-    "duration_seconds": 10,
-    "posting_window": "13:00 - 14:00 IST",
-    "reason": "Aligns with the proven high-performing husband-wife relationship category while testing an early afternoon slot based on past successful publication spikes."
+    "concept": "A couple sitting in complete silence in the living room after a long day, realizing they have nothing left to argue about, but also nothing left to say.",
+    "opening_direction": "Start with the sound of the clock ticking and a cup of tea being placed coldly on the table.",
+    "twist_direction": "The realization that silence isn't peace anymore; it's the distance that grew without either noticing.",
+    "duration_seconds": 35,
+    "posting_window": "13:00 - 15:00 IST",
+    "reason": "Matches the proven high-performing husband-wife relationship niche while leveraging a relatable afternoon/evening reflection window."
   },
-  "experiment": "Testing an early afternoon posting window for relationship-focused content to capture mid-day scrollers.",
-  "updated_at": "2026-10-09T09:26:32.179136+00:00",
+  "experiment": "Testing if subtle emotional drift in marriage performs as well as direct advisory wife/husband videos.",
+  "updated_at": "2026-10-09T16:27:06.078540+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-09T09:26:34.674517+00:00"
+  "generated_at": "2026-10-09T16:27:08.269710+00:00"
 }
