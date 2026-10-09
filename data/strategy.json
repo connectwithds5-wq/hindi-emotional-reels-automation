@@ -1,35 +1,45 @@
 {
   "confidence": "65%",
   "data_points": 13,
-  "overall_summary": "Analysis of the historical data reveals that relationship and family dynamic topics involving husband-wife dynamics ('पत्नी की ये बात', 'Shaadi Ke Baad Pyaar') significantly outperform standard sad shayari or broader relationship generalities. The audience strongly engages with specific, realistic domestic scenarios rather than abstract heartbreak.",
+  "overall_summary": "Analysis of the historical data reveals a clear outlier preference for husband-wife/relationship reality dynamics, specifically 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1537 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1666 views). General familial bonds perform decently, but niche romantic/relationship tension performs best. Pure sad poetry formats ('जिस दिन सच लिखूंगा...') underperformed heavily, indicating the audience prefers narrative relationship conflicts over abstract sorrow.",
   "winning_patterns": [
     {
       "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos about husband-wife dynamics (or5gtaBpRVY with 1666 views, my5mP9feI7s with 1462 views) vastly outperformed all other single-topic categories.",
-      "action": "Double down on domestic relationship realities and subtle emotional friction between partners."
+      "evidence": "Videos focusing on marital dynamics (or5gtaBpRVY, my5mP9feI7s) garnered the highest views (1666 and 1537) and engagement compared to other family members or abstract poetry.",
+      "action": "Double down on husband-wife psychological and emotional tension topics."
+    },
+    {
+      "pattern": "Direct Relatable Question Hooks",
+      "evidence": "Titles framing a question about daily life or relationship shifts drive higher curiosity and initial click-through.",
+      "action": "Use specific probing questions about silent relationship struggles as titles."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Sad Shayari / Generic One-Liners",
-      "evidence": "Video YdWh4cDOE64 ('जिस दिन सच लिखूंगा…') received only 6 views, showing low resonance for heavy, abstract poetry compared to situational emotional narratives.",
-      "action": "Avoid heavily poetic or overly dramatic abstract quotes; ground the content in everyday relatable interactions."
+      "pattern": "Abstract Heavy Sad Shayari",
+      "evidence": "YdWh4cDOE64 titled 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 6 views.",
+      "action": "Avoid overly dramatic, poetic, or abstract statements without a grounded real-life anchor."
+    },
+    {
+      "pattern": "Random Family Members without Conflict",
+      "evidence": "General praise videos for siblings (jfmMztnam_A) scored very low (18 views) compared to nuanced marital or parental struggles.",
+      "action": "Ensure family-centric content focuses on unspoken emotional labor or silent sacrifices, not just generic praise."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Melancholic yet reflective",
-    "hook_style": "Observational everyday habit",
+    "emotion": "नजरअंदाजगी और खामोशी",
+    "hook_style": "Real-life observation about how love changes after a few years of marriage.",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A silent partner who notices the small changes in daily routines that others ignore.",
-    "opening_direction": "Start with the small detail of how someone folds clothes or makes tea differently when they are upset.",
-    "twist_direction": "Reveal that the silence isn't anger, it's the quiet exhaustion of trying to fix a bond all by oneself.",
-    "duration_seconds": 10,
-    "posting_window": "01:00 PM - 02:00 PM UTC",
-    "reason": "Aligns with the successful timing window of previous high-performing husband-wife and relationship shorts."
+    "concept": "A couple sitting in complete silence in the living room, scrolling phones, remembering when they used to talk for hours about nothing.",
+    "opening_direction": "शुरुआत इस बात से कि अब घर में झगड़े नहीं होते, उससे भी खतरनाक चीज़ होती है—खामोशी।",
+    "twist_direction": "जब दोनों को अहसास होता है कि उन्होंने एक-दूसरे को खोने से नहीं, बल्कि एक-दूसरे की आवाज़ से डरना छोड़ दिया है।",
+    "duration_seconds": 45,
+    "posting_window": "07:00 PM - 09:00 PM",
+    "reason": "Matches the proven high-performing husband-wife relationship reality theme while maintaining a grounded, non-cliché emotional twist."
   },
-  "experiment": "Testing if subtle observational habits inside a relationship perform as well as direct verbal conflict or podcast style quotes.",
-  "updated_at": "2026-10-08T22:17:28.505259+00:00",
+  "experiment": "Testing if shifting the husband-wife theme from general advice ('पत्नी की बात...') to internal psychological silence ('खामोशी') retains the high viewership baseline.",
+  "updated_at": "2026-10-09T02:24:16.999717+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-08T22:17:30.622740+00:00"
+  "generated_at": "2026-10-09T02:24:19.973690+00:00"
 }
