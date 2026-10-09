@@ -1,35 +1,35 @@
 {
   "confidence": "65%",
   "data_points": 13,
-  "overall_summary": "Analysis of the performance data reveals clear outliers in husband-wife relationship and post-marriage dynamics (videos like 'or5gtaBpRVY' with 1666 views and 'my5mP9feI7s' with 1582 views), heavily outperforming generic family members or pure sad shayari.",
+  "overall_summary": "Analysis of historical performance indicates that Husband-Wife relationship dynamics ('पति-पत्नी' and 'Shaadi Ke Baad') significantly outperform other topics, driving top-tier views (1,600+), whereas poetry/shayari ('शायरी') and niche topics underperform. However, due to the limited sample size across diverse categories, overall confidence is moderate and relies on a clear emerging winner.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Dynamics",
-      "evidence": "Videos focusing on married life ('or5gtaBpRVY', 'my5mP9feI7s') gained 1500+ views, significantly higher than family member tributes.",
-      "action": "Pivot focus toward adult relationship realities and unspoken marital struggles."
+      "pattern": "Husband-Wife / Marriage Dynamics",
+      "evidence": "Videos like 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,666 views) and 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,619 views) dramatically outperformed family, parent, and poetry shorts.",
+      "action": "Double down on married life realities, unsaid expectations, and emotional distance in long-term relationships."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Pure Sad Shayari / Heavy Metaphors",
-      "evidence": "Video 'YdWh4cDOE64' ('जिस दिन सच लिखूंगा…') received only 6 views, showing low pull for aggressive or poetic bitterness.",
-      "action": "Avoid heavy poetic jargon and stick to grounded, everyday observational emotional moments."
+      "pattern": "Abstract Sad Shayari / Heavy Poetry",
+      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 6 views, showing poor pull in short-form feed without a concrete visual or situational hook.",
+      "action": "Avoid abstract poetic titles and focus on concrete everyday situations rather than generalized heartbreak."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Bittersweet realization",
-    "hook_style": "Observational silent moment",
+    "emotion": "नस्टेल्जिया और इमोशनल गिल्ट",
+    "hook_style": "Situation-based direct question",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple sitting in complete silence in the living room after a long day, realizing they have nothing left to argue about, but also nothing left to say.",
-    "opening_direction": "Start with the sound of the clock ticking and a cup of tea being placed coldly on the table.",
-    "twist_direction": "The realization that silence isn't peace anymore; it's the distance that grew without either noticing.",
-    "duration_seconds": 35,
+    "concept": "A realization about how spouses stop texting each other during the day after a few years of marriage, treating it like a chore rather than a desire.",
+    "opening_direction": "सुबह 'Good Morning' भेजने वाला इंसान...",
+    "twist_direction": "...अब सिर्फ रात को 'खाना खा लिया?' पूछता है, और बात खत्म.",
+    "duration_seconds": 15,
     "posting_window": "13:00 - 15:00 IST",
-    "reason": "Matches the proven high-performing husband-wife relationship niche while leveraging a relatable afternoon/evening reflection window."
+    "reason": "Matches the proven high-performing Husband-Wife relationship theme while testing a midday viewing window."
   },
-  "experiment": "Testing if subtle emotional drift in marriage performs as well as direct advisory wife/husband videos.",
-  "updated_at": "2026-10-09T16:27:06.078540+00:00",
+  "experiment": "Testing midday posting slot (1 PM - 3 PM) for relationship content to check if active daytime engagement beats morning publishing slots.",
+  "updated_at": "2026-10-09T21:08:19.630968+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-09T16:27:08.269710+00:00"
+  "generated_at": "2026-10-09T21:08:22.083049+00:00"
 }
