@@ -1,35 +1,40 @@
 {
-  "confidence": "35%",
+  "confidence": "65%",
   "data_points": 13,
-  "overall_summary": "Historical data points to a massive outlier on husband-wife relationship themes (videos 'or5gtaBpRVY' and 'my5mP9feI7s' pulling 1.6K+ views compared to 100-300 average on other topics). However, sample size is low, so confidence is moderate-low while leaning into the clear audience preference.",
+  "overall_summary": "Analysis of historical performance shows that relationship dynamics, particularly husband-wife emotional realities and family bonds, significantly outperform abstract poetry or generic motivational quotes. The top-performing video ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?', 1668 views) and another strong performer ('पत्नी की ये बात हर पति को समझनी चाहिए', 1666 views) prove that relatable marital friction and unexpressed love drive high engagement compared to heavy sad shayari (e.g., YdWh4cDOE64 with only 6 views).",
   "winning_patterns": [
     {
       "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos focusing on married life dynamics (e.g., 'पत्नी की ये बात हर पति को समझनी चाहिए' and 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?') generated 1600+ views, significantly outperforming family or general sad shayari.",
-      "action": "Double down on mature relationship dynamics, unspoken marital compromises, and emotional distance after marriage."
+      "evidence": "Videos focusing on married life topics achieved the highest views on the channel (1,668 and 1,666 views respectively).",
+      "action": "Allocate a major portion of the content calendar to complex, everyday marital emotions and silent sacrifices between partners."
+    },
+    {
+      "pattern": "Direct Question Hooks about Relatable Sentiments",
+      "evidence": "Titles framing a common internal thought or marital shift ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?') immediately capture viewer curiosity.",
+      "action": "Use conversational, piercing questions about relationships as the primary hook style."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Pure Sad Shayari / Heavy Poetry",
-      "evidence": "Video titled 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' (YdWh4cDOE64) only got 6 views, showing low traction for overly dramatic abstract poetry.",
-      "action": "Avoid abstract poetic rants; anchor emotional weight in concrete, everyday household/relationship scenarios."
+      "pattern": "Abstract or Heavy Sad Shayari",
+      "evidence": "Poetic, high-register sad lines like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' gained almost zero traction (6 views).",
+      "action": "Avoid overly dramatic, literary poetry; ground the content in tangible, everyday domestic realities instead."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Melancholic nostalgia / Marital realization",
-    "hook_style": "Observational statement about subtle changes in daily habits between couples",
+    "emotion": "नस्टैल्जिया और अकेलापन",
+    "hook_style": "Direct question about a hidden marital reality",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A husband noticing how tea is poured in silence now compared to the endless late-night chats before marriage.",
-    "opening_direction": "सुबह की चाय अब कप में दो हिस्सों में बंटकर आती है, बिना किसी बात के।",
-    "twist_direction": "फर्क सिर्फ इतना है कि पहले चाय ठंडी होती थी और बातें गर्म, अब बातें ठंडी हैं और चाय गर्म।",
+    "concept": "A small misunderstanding between a husband and wife over a cup of tea that reveals how silently they carry their daily stresses for each other.",
+    "opening_direction": "Start with a quiet kitchen scene where the tea gets cold while both sit in silence scrolling their phones.",
+    "twist_direction": "Reveal that the unspoken silence isn't anger, but the shared burden of trying to provide a better tomorrow without wanting to worry the other.",
     "duration_seconds": 35,
-    "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Aligns with the proven high-performing husband-wife relationship niche while testing a more subtle, relatable emotional twist instead of broad advice."
+    "posting_window": "07:00 AM - 09:00 AM",
+    "reason": "Aligns with the proven high-performing husband-wife relationship niche while testing a more subtle, grounded emotional arc."
   },
-  "experiment": "Testing if subtle domestic observational micro-stories perform as well as direct advice-driven marital shorts.",
-  "updated_at": "2026-10-10T07:31:22.215830+00:00",
+  "experiment": "Testing whether a quiet, slice-of-life domestic micro-story performs better than direct nagging/complaint-based relationship hooks.",
+  "updated_at": "2026-10-10T14:35:43.542896+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-10T07:31:24.579863+00:00"
+  "generated_at": "2026-10-10T14:35:46.361822+00:00"
 }
