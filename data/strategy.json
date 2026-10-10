@@ -1,35 +1,45 @@
 {
-  "confidence": "65%",
+  "confidence": "45%",
   "data_points": 13,
-  "overall_summary": "Analysis of historical performance indicates that Husband-Wife relationship dynamics ('पति-पत्नी' and 'Shaadi Ke Baad') significantly outperform other topics, driving top-tier views (1,600+), whereas poetry/shayari ('शायरी') and niche topics underperform. However, due to the limited sample size across diverse categories, overall confidence is moderate and relies on a clear emerging winner.",
+  "overall_summary": "The channel shows clear breakout potential in husband-wife relationship dynamics ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?', 'पत्नी की ये बात हर पति को समझनी चाहिए'), pulling over 1,600 views each. Generic shayari or direct poetic lines ('जिस दिन सच लिखूंगा') underperformed significantly, indicating that grounded relationship realities resonate much better than abstract poetry.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife / Marriage Dynamics",
-      "evidence": "Videos like 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,666 views) and 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,619 views) dramatically outperformed family, parent, and poetry shorts.",
-      "action": "Double down on married life realities, unsaid expectations, and emotional distance in long-term relationships."
+      "pattern": "Husband-Wife Relationship Dynamics",
+      "evidence": "Videos focusing on married life and partner understanding (or lack thereof) gained 1,630 and 1,666 views, outperforming all other topics.",
+      "action": "Double down on marriage and partner psychology topics as the core repeat format."
+    },
+    {
+      "pattern": "Question-based Emotional Hooks",
+      "evidence": "Titles framed around deep relational questions ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?') drive high curiosity and engagement.",
+      "action": "Use inquiry-based hooks that force the viewer to reflect on their own marriage."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Sad Shayari / Heavy Poetry",
-      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 6 views, showing poor pull in short-form feed without a concrete visual or situational hook.",
-      "action": "Avoid abstract poetic titles and focus on concrete everyday situations rather than generalized heartbreak."
+      "pattern": "Abstract / Heavy Shayari Lines",
+      "evidence": "Video 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 6 views.",
+      "action": "Avoid heavy, cryptic poetic statements and stick to grounded, conversational real-life scenarios."
+    },
+    {
+      "pattern": "Low-sample Niche Family Tropes",
+      "evidence": "Single-focus family relationship videos like sister emotional shorts underperformed relative to couple dynamics.",
+      "action": "Limit standalone family member shorts unless tied to a universal couple or partner dynamic."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "नस्टेल्जिया और इमोशनल गिल्ट",
-    "hook_style": "Situation-based direct question",
+    "emotion": "Melancholy and Realization",
+    "hook_style": "Observation-based question about unspoken distance between partners",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization about how spouses stop texting each other during the day after a few years of marriage, treating it like a chore rather than a desire.",
-    "opening_direction": "सुबह 'Good Morning' भेजने वाला इंसान...",
-    "twist_direction": "...अब सिर्फ रात को 'खाना खा लिया?' पूछता है, और बात खत्म.",
-    "duration_seconds": 15,
-    "posting_window": "13:00 - 15:00 IST",
-    "reason": "Matches the proven high-performing Husband-Wife relationship theme while testing a midday viewing window."
+    "concept": "A couple sitting in the same room scrolling phones in total silence, realizing they know everything about their office colleagues but nothing about what their partner is currently feeling.",
+    "opening_direction": "Start with the sound of notification tones and a silent living room.",
+    "twist_direction": "The realization that busy lives didn't ruin the love, the unspoken routine did.",
+    "duration_seconds": 35,
+    "posting_window": "07:00 PM - 09:00 PM",
+    "reason": "Aligns with the proven high-performing husband-wife relationship category during evening relaxation hours when emotional reflection is highest."
   },
-  "experiment": "Testing midday posting slot (1 PM - 3 PM) for relationship content to check if active daytime engagement beats morning publishing slots.",
-  "updated_at": "2026-10-09T21:08:19.630968+00:00",
+  "experiment": "Testing a nuanced emotional realization inside marriage instead of a direct conflict or question hook to see if subtler heartbreak retains audience watch time.",
+  "updated_at": "2026-10-10T01:05:47.628054+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-09T21:08:22.083049+00:00"
+  "generated_at": "2026-10-10T01:05:50.312797+00:00"
 }
