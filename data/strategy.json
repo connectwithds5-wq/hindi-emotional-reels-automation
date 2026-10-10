@@ -1,35 +1,40 @@
 {
-  "confidence": "35%",
+  "confidence": "65%",
   "data_points": 13,
-  "overall_summary": "Most videos have low sample sizes under 300 views, but Husband-Wife relationship dynamics (e.g., 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1,679 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1,666 views) are clear outliers showing massive relative success. General family relationship topics perform moderately, while deep sad shayari drastically underperforms.",
+  "overall_summary": "Husband-wife relationship dynamics and domestic life realities significantly outperform generic shayari or broad emotional topics, generating nearly 10x more views (e.g., 1698 and 1666 views).",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Dynamics",
-      "evidence": "Videos focusing on married life struggles ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?', 'पत्नी की ये बात हर पति को समझनी चाहिए') generated 1,600+ views, significantly outperforming family or pure shayari shorts.",
-      "action": "Double down on husband-wife emotional realities, unspoken compromises, and post-marriage relationship shifts."
+      "pattern": "Husband-Wife Relationship Realities",
+      "evidence": "Videos about husband-wife dynamics ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1698 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1666 views) are clear outliers with massive view counts.",
+      "action": "Focus more heavily on marital relationship struggles, unspoken expectations, and domestic emotional realities."
+    },
+    {
+      "pattern": "Conversational Interpersonal Reminders",
+      "evidence": "Simple relationship checks like 'आज किसी अपने को Call कर लेना' performed decently with 288 views compared to low-performing poetry.",
+      "action": "Use direct, second-person addressing ('तुम', 'पति-पत्नी') to anchor the viewer immediately."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Sad Shayari / Deep Poetry",
-      "evidence": "Video titled 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' only managed 6 views.",
-      "action": "Avoid heavy, abstract, or overly bitter literary poetry; ground the emotion in concrete everyday scenarios."
+      "pattern": "Heavy Poetic/Shayari Openings",
+      "evidence": "'जिस दिन सच लिखूंगा…' received only 6 views, showing that abstract or overly dramatic poetic phrasing fails to grip the Shorts feed.",
+      "action": "Avoid abstract poetic language in hooks; stick to concrete real-life observations."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Melancholic nostalgia / Relatable realization",
-    "hook_style": "Direct question about daily married life friction",
+    "emotion": "Melancholy / Relatability",
+    "hook_style": "Domestic observation",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple sitting in complete silence in the car or living room, both busy on their phones, realizing how text chats used to go on for hours while in-person conversations have completely faded.",
-    "opening_direction": "Start with the sound of tapping phone screens and a soft sigh in a quiet room.",
-    "twist_direction": "The realization that they live in the same room, but their real home is now inside their separate screens.",
+    "concept": "A silent tea break between a long-married couple where no words are spoken, highlighting how silence in a marriage shifts from comfort to distance.",
+    "opening_direction": "Start with the small, specific detail of two cups of tea getting cold on the table while the husband and wife scroll on their phones in silence.",
+    "twist_direction": "Reveal that years ago they used to talk for hours over a single cup of tea, and now they live in the same room as strangers.",
     "duration_seconds": 35,
-    "posting_window": "13:00 - 14:00 (matching the high-performing husband-wife upload time slot)",
-    "reason": "Capitalizes on the proven high-engagement husband-wife relationship niche while testing a relatable modern communication fatigue angle."
+    "posting_window": "13:00 - 14:00 IST",
+    "reason": "Aligns directly with the high-performing husband-wife relationship topic cluster while testing a poignant domestic vignette instead of a direct question."
   },
-  "experiment": "Testing if modern digital detachment within marriage drives higher retention than romantic nostalgia.",
-  "updated_at": "2026-10-10T19:26:24.748679+00:00",
+  "experiment": "Testing a silent domestic micro-moment (tea table observation) against direct relationship advice questions to see if visual storytelling retains viewers better.",
+  "updated_at": "2026-10-10T22:49:35.984739+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-10T19:26:27.263564+00:00"
+  "generated_at": "2026-10-10T22:49:38.552243+00:00"
 }
