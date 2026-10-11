@@ -1,45 +1,40 @@
 {
   "confidence": "65%",
   "data_points": 13,
-  "overall_summary": "Analysis of the historical data reveals a clear outlier preference for complex relationship dynamics between couples (husband-wife), specifically dealing with marital communication and emotional drift. While family shayaris (mother, father, siblings) get decent baseline views, deep relationship realities vastly outperform standard emotional poetry.",
+  "overall_summary": "Analysis of 13 historical videos shows that content centered on complex marital relationships and modern relationship realities significantly outperforms general family or abstract sad poetry. Specifically, husband-wife dynamics ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1,718 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1,666 views) generate the highest engagement and views, whereas deep poetic or abstract lines underperform heavily.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos focusing on husband-wife dynamics ('पत्नी की ये बात...' with 1,666 views and 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1,701 views) significantly outperformed all other topics by an order of magnitude.",
-      "action": "Double down on domestic partner relationship nuances, unspoken expectations, and post-marriage emotional realities."
+      "pattern": "Marital/Relationship Dynamics",
+      "evidence": "Videos focusing on husband-wife and marriage realities (e.g., or5gtaBpRVY, my5mP9feI7s) achieved 1,600+ views, which is 5x-10x higher than average channel performance.",
+      "action": "Allocate 70% of upcoming content to nuanced husband-wife and long-term relationship pain points."
     },
     {
-      "pattern": "Direct Question Hooks",
-      "evidence": "Titles framed around questioning everyday domestic or emotional behaviors (e.g., 'खाना खाया?', 'Shaadi Ke Baad...') generate higher engagement and curiosity.",
-      "action": "Use conversational, direct-address questions about everyday relationship struggles for the hook."
+      "pattern": "Conversational Interpersonal Hooks",
+      "evidence": "Titles framing a direct question or common realization about relationships (e.g., 'Har Baar Sorry Bolne Wala Galat Nahi Hota') capture moderate-to-high sustained interest.",
+      "action": "Use conversational, grounded relationship situations as primary hooks instead of heavy poetic lines."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sad Shayari / Heavy Poetic Lines",
-      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received almost zero traction (6 views), indicating audience fatigue for overly dramatic or abstract poetry.",
-      "action": "Avoid high-sounding, cryptic poetic verses; stick to grounded, conversation-based emotional realizations."
-    },
-    {
-      "pattern": "Repetitive Sibling Content",
-      "evidence": "Sister/brother emotional shorts ('बहन सिर्फ घर की रौनक होती है') suffered from low views (136 and 18 views respectively) indicating market saturation or poor initial packaging.",
-      "action": "Pivot away from generic sibling appreciation posts unless tied to a unique, highly specific psychological tension."
+      "pattern": "Abstract Sad Shayari / Heavy Metaphors",
+      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' (YdWh4cDOE64) received only 6 views due to overly dramatic or abstract wording that lacks instant everyday visual grounding.",
+      "action": "Avoid overly complex or literary metaphors; anchor scripts in visual, everyday domestic moments."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "अधूरी मोहब्बत / ओवरथिंकिंग",
-    "hook_style": "Real-life observation about silence after years of marriage",
+    "emotion": "नजरअंदाज",
+    "hook_style": "conversational realization about silent distance in marriage",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple sitting in absolute silence in a car or living room, no fights, just two people who have run out of things to say to each other, realizing that living together doesn't mean staying connected.",
-    "opening_direction": "Start with the sound of a ticking clock or tea stirring, followed by the line: 'शादी के कुछ साल बाद, सबसे ज़्यादा आवाज़ किस चीज़ की आती है पता है? खामोशी की।'",
-    "twist_direction": "Reveal that the silence isn't peaceful; it's the sound of two strangers who know every single detail about each other's life, except what the other person is actually feeling.",
+    "concept": "A couple sitting silently in the same room scrolling phones, highlighting how physical closeness has turned into emotional distance over the years.",
+    "opening_direction": "शाम की चाय साथ पीने की आदत थी, अब सिर्फ कप की आवाज आती है।",
+    "twist_direction": "पास बैठे हैं पर दूर इतने कि अब बात शुरू करने के लिए भी बहाना ढूँढना पड़ता है।",
     "duration_seconds": 35,
-    "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Leverages the proven high-performing husband-wife relationship niche while incorporating a mature, relatable narrative arc about emotional distance."
+    "posting_window": "07:00 AM - 09:00 AM",
+    "reason": "Aligns with the proven high-performing husband-wife relationship niche while testing a more subtle, relatable domestic observation rather than a direct conflict."
   },
-  "experiment": "Testing if shifting the husband-wife theme from external romance ('pyar kahan chala gaya') to internal psychological loneliness ('khamoshi/silence') maintains high retention.",
-  "updated_at": "2026-10-11T02:03:20.229927+00:00",
+  "experiment": "Testing a subtle emotional observation about modern domestic silence versus direct conversational arguments in marital relationships.",
+  "updated_at": "2026-10-11T09:09:31.619707+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-11T02:03:23.472069+00:00"
+  "generated_at": "2026-10-11T09:09:34.352643+00:00"
 }
