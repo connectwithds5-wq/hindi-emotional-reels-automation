@@ -1,40 +1,35 @@
 {
-  "confidence": "65%",
+  "confidence": "45%",
   "data_points": 13,
-  "overall_summary": "Analysis of 13 historical videos shows that content centered on complex marital relationships and modern relationship realities significantly outperforms general family or abstract sad poetry. Specifically, husband-wife dynamics ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1,718 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1,666 views) generate the highest engagement and views, whereas deep poetic or abstract lines underperform heavily.",
+  "overall_summary": "The channel shows clear breakout performance in Husband-Wife relationship dynamics (e.g., 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1,758 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1,666 views). Traditional family emotional shayari (parents, siblings) and heavy poetic shayari perform poorly due to high competition or mismatched hook styles.",
   "winning_patterns": [
     {
-      "pattern": "Marital/Relationship Dynamics",
-      "evidence": "Videos focusing on husband-wife and marriage realities (e.g., or5gtaBpRVY, my5mP9feI7s) achieved 1,600+ views, which is 5x-10x higher than average channel performance.",
-      "action": "Allocate 70% of upcoming content to nuanced husband-wife and long-term relationship pain points."
-    },
-    {
-      "pattern": "Conversational Interpersonal Hooks",
-      "evidence": "Titles framing a direct question or common realization about relationships (e.g., 'Har Baar Sorry Bolne Wala Galat Nahi Hota') capture moderate-to-high sustained interest.",
-      "action": "Use conversational, grounded relationship situations as primary hooks instead of heavy poetic lines."
+      "pattern": "Husband-Wife Relationship Realities",
+      "evidence": "Videos addressing post-marriage love and partner understanding scored 1,600+ views, significantly outperforming other topics.",
+      "action": "Double down on domestic relationship complexities, unsaid expectations, and everyday marital evolution."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Sad Shayari / Heavy Metaphors",
-      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' (YdWh4cDOE64) received only 6 views due to overly dramatic or abstract wording that lacks instant everyday visual grounding.",
-      "action": "Avoid overly complex or literary metaphors; anchor scripts in visual, everyday domestic moments."
+      "pattern": "Heavy Poetic Shayari",
+      "evidence": "Abstract or heavily poetic phrasing (e.g., 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा') received almost zero traction (6 views).",
+      "action": "Avoid overly dramatic or literary phrasing; stick to grounded, conversational observations."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "नजरअंदाज",
-    "hook_style": "conversational realization about silent distance in marriage",
+    "emotion": "नस्टैल्जिया और अकेलापन",
+    "hook_style": "Conversational observational question about changing priorities after marriage",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple sitting silently in the same room scrolling phones, highlighting how physical closeness has turned into emotional distance over the years.",
-    "opening_direction": "शाम की चाय साथ पीने की आदत थी, अब सिर्फ कप की आवाज आती है।",
-    "twist_direction": "पास बैठे हैं पर दूर इतने कि अब बात शुरू करने के लिए भी बहाना ढूँढना पड़ता है।",
+    "concept": "A realization about how late-night phone calls with best friends turn into formal greetings after marriage.",
+    "opening_direction": "शादी के बाद यार-दोस्तों के नंबर फोनबुक में नीचे चले जाते हैं...",
+    "twist_direction": "फर्क सिर्फ नंबर का नहीं, उस शख्स का होता है जो अब आधी रात को अपना दुख बांटने किसी और के पास जाता है।",
     "duration_seconds": 35,
-    "posting_window": "07:00 AM - 09:00 AM",
-    "reason": "Aligns with the proven high-performing husband-wife relationship niche while testing a more subtle, relatable domestic observation rather than a direct conflict."
+    "posting_window": "13:00 - 14:00",
+    "reason": "Matches the proven high-performing relationship dynamic theme while testing a broader friendship-to-marriage transition angle during midday engagement peaks."
   },
-  "experiment": "Testing a subtle emotional observation about modern domestic silence versus direct conversational arguments in marital relationships.",
-  "updated_at": "2026-10-11T09:09:31.619707+00:00",
+  "experiment": "Testing if the proven high-performing relationship format can be successfully broadened to include the transition of friendship bonds post-marriage.",
+  "updated_at": "2026-10-11T15:52:27.552018+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-11T09:09:34.352643+00:00"
+  "generated_at": "2026-10-11T15:52:29.888999+00:00"
 }
