@@ -1,45 +1,35 @@
 {
-  "confidence": "65%",
+  "confidence": "30%",
   "data_points": 13,
-  "overall_summary": "Analysis of historical performance reveals a clear outlier preference for husband-wife relationship dynamics ('wife emotional video' at 1,666 views and 'shaadi ke baad pyaar' at 1,762 views). Family emotional content about parents and siblings performs moderately well (110-229 views), while abstract sad shayari and broad single-topic reels heavily underperform. The audience connects deeply with lived domestic realities and relationship evolution rather than generic quotes.",
+  "overall_summary": "Historical data indicates that relationship dynamics, specifically involving husband-wife relationship issues and family responsibilities, significantly outperform pure abstract heartbreak or raw shayari. However, sample sizes are small and views are generally low, requiring a blend of proven relationship themes and controlled experimentation.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Dynamics",
-      "evidence": "Videos focusing on marriage and spouse understanding (or5gtaBpRVY, my5mP9feI7s) achieved 1,666 and 1,762 views respectively, significantly outperforming all other topics.",
-      "action": "Produce more content centered on post-marriage realities, unspoken compromises, and couple psychology."
-    },
-    {
-      "pattern": "Grounded Family Moments",
-      "evidence": "Content about mothers (OfHrAp3r1G8 - 229 views) and fathers (v8krtdmxbPs - 142 views) perform consistently better than generic friendship or abstract loneliness.",
-      "action": "Maintain a baseline of subtle, observational family moments alongside the winning relationship niche."
+      "pattern": "Husband-Wife Relationship Realities",
+      "evidence": "Videos about wives and marital relationships (e.g., or5gtaBpRVY with 1666 views and my5mP9feI7s with 1764 views) vastly outperform family member tributes or heavy sad poetry.",
+      "action": "Focus more content on modern domestic and marital relationship struggles."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Sad Shayari / Heavy Philosophical Lines",
-      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' (YdWh4cDOE64) received only 6 views.",
-      "action": "Avoid heavy, overly dramatic poetic openings; ground the emotion in everyday visuals and relatable situations."
-    },
-    {
-      "pattern": "Low-Sample Broad Single Topics",
-      "evidence": "Single experimental uploads on self-motivation or distant relatives without a strong narrative hook suffer in initial impressions.",
-      "action": "Ensure every script starts with a recognizable everyday micro-conflict or domestic habit."
+      "pattern": "Abstract Sad Shayari & Heavy Quotes",
+      "evidence": "Videos focusing heavily on abstract emotional poetry (e.g., YdWh4cDOE64 with only 6 views) fail to capture immediate interest.",
+      "action": "Avoid abstract poetic openings; anchor content in tangible daily situations."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Nostalgia and realization in long-term marriage",
-    "hook_style": "Observational everyday habit",
+    "emotion": "Bittersweet realization",
+    "hook_style": "Relatable observation about unexpressed appreciation in marriage",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A husband notices his wife folding clothes in silence every night, realizing how much of her own identity she quietly adjusted after marriage, leading to an unspoken moment of gratitude.",
-    "opening_direction": "Start with a quiet visual of hands folding laundry at midnight, followed by the voiceover: 'शादी के पांच साल बाद, बातें कम और खामोशियां ज्यादा हो जाती हैं।'",
-    "twist_direction": "The twist reveals that the silence isn't due to falling out of love, but because they now understand each other so deeply that words have simply become unnecessary.",
+    "concept": "A husband realizes his wife stopped asking him about his day, not because she stopped caring, but because she stopped expecting him to care about hers.",
+    "opening_direction": "Start with a quiet evening scene: chai growing cold on the table while both look at their phones.",
+    "twist_direction": "The realization that silence in a house isn't peace, it's two people giving up on being heard.",
     "duration_seconds": 35,
-    "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Aligns directly with the highest-performing husband-wife relationship cluster while testing a nuanced emotional shift from distance to deep comfort."
+    "posting_window": "13:00 - 14:00",
+    "reason": "Matches the proven high-performing husband-wife relationship slot from previous winning iterations."
   },
-  "experiment": "Testing if shifting the husband-wife narrative from marital conflict to silent emotional maturity maintains the high view count of previous relationship hits.",
-  "updated_at": "2026-10-11T23:53:26.239888+00:00",
+  "experiment": "Testing whether a nuanced emotional twist on marital silence performs better than direct nagging/complaining relationship tropes.",
+  "updated_at": "2026-10-12T06:18:28.324282+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-11T23:53:29.521840+00:00"
+  "generated_at": "2026-10-12T06:18:30.641181+00:00"
 }
