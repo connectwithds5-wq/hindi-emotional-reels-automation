@@ -1,35 +1,35 @@
 {
-  "confidence": "30%",
+  "confidence": "60%",
   "data_points": 13,
-  "overall_summary": "Historical data indicates that relationship dynamics, specifically involving husband-wife relationship issues and family responsibilities, significantly outperform pure abstract heartbreak or raw shayari. However, sample sizes are small and views are generally low, requiring a blend of proven relationship themes and controlled experimentation.",
+  "overall_summary": "Data shows clear audience affinity for husband-wife relationship themes and domestic dynamics, significantly outperforming broader motivational or heavily poetic content. Confidence is moderate due to a small sample size, warranting a focused strategy on top-performing themes with a controlled experiment.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos about wives and marital relationships (e.g., or5gtaBpRVY with 1666 views and my5mP9feI7s with 1764 views) vastly outperform family member tributes or heavy sad poetry.",
-      "action": "Focus more content on modern domestic and marital relationship struggles."
+      "pattern": "Husband-Wife Relationship Dynamics",
+      "evidence": "Videos like 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,666 views) and 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,764 views) vastly outperformed all other topics on the channel.",
+      "action": "Double down on marital and long-term relationship realities, focusing on unspoken domestic tensions and emotional disconnect."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Sad Shayari & Heavy Quotes",
-      "evidence": "Videos focusing heavily on abstract emotional poetry (e.g., YdWh4cDOE64 with only 6 views) fail to capture immediate interest.",
-      "action": "Avoid abstract poetic openings; anchor content in tangible daily situations."
+      "pattern": "Heavy Poetic/Shayari Openings",
+      "evidence": "Videos focusing purely on abstract sad poetry like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received almost no traction (6 views).",
+      "action": "Avoid abstract, overly dramatic poetry openings; ground the content in everyday, recognizable scenarios instead."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Bittersweet realization",
-    "hook_style": "Relatable observation about unexpressed appreciation in marriage",
+    "emotion": "Melancholy & Realization",
+    "hook_style": "Observational domestic moment",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A husband realizes his wife stopped asking him about his day, not because she stopped caring, but because she stopped expecting him to care about hers.",
-    "opening_direction": "Start with a quiet evening scene: chai growing cold on the table while both look at their phones.",
-    "twist_direction": "The realization that silence in a house isn't peace, it's two people giving up on being heard.",
+    "concept": "A couple sitting in complete silence in the living room, scrolling through their phones, realizing how comfortable yet distant they have become over the years.",
+    "opening_direction": "Start with the sound of a TV playing in the background while two people sit on opposite ends of the sofa without looking at each other.",
+    "twist_direction": "The realization that while they haven't fought in months, they haven't actually spoken about their day either.",
     "duration_seconds": 35,
-    "posting_window": "13:00 - 14:00",
-    "reason": "Matches the proven high-performing husband-wife relationship slot from previous winning iterations."
+    "posting_window": "13:00 - 15:00 IST",
+    "reason": "Matches the proven high-performing window and topic cluster of husband-wife dynamics seen in top channel hits."
   },
-  "experiment": "Testing whether a nuanced emotional twist on marital silence performs better than direct nagging/complaining relationship tropes.",
-  "updated_at": "2026-10-12T06:18:28.324282+00:00",
+  "experiment": "Testing a quiet, non-confrontational domestic observation style against the previously successful interrogative hook style.",
+  "updated_at": "2026-10-12T15:53:28.704027+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-12T06:18:30.641181+00:00"
+  "generated_at": "2026-10-12T15:53:31.250603+00:00"
 }
