@@ -1,35 +1,35 @@
 {
-  "confidence": "60%",
+  "confidence": "45%",
   "data_points": 13,
-  "overall_summary": "Data shows clear audience affinity for husband-wife relationship themes and domestic dynamics, significantly outperforming broader motivational or heavily poetic content. Confidence is moderate due to a small sample size, warranting a focused strategy on top-performing themes with a controlled experiment.",
+  "overall_summary": "The channel exhibits a clear preference for husband-wife relationship dynamics, which outperformed standard family member and generic shayari videos significantly. Videos focusing on marital realities (wife's advice, post-marriage love dynamics) garnered over 1,700 views, whereas niche shayari or general family member videos remained under 400 views.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Dynamics",
-      "evidence": "Videos like 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,666 views) and 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,764 views) vastly outperformed all other topics on the channel.",
-      "action": "Double down on marital and long-term relationship realities, focusing on unspoken domestic tensions and emotional disconnect."
+      "pattern": "Husband-Wife Relationship Realities",
+      "evidence": "Videos like 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,666 views) and 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,764 views) performed 4x to 10x better than other content.",
+      "action": "Double down on core relationship and marriage dynamics instead of spreading too thin across all family members."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Heavy Poetic/Shayari Openings",
-      "evidence": "Videos focusing purely on abstract sad poetry like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received almost no traction (6 views).",
-      "action": "Avoid abstract, overly dramatic poetry openings; ground the content in everyday, recognizable scenarios instead."
+      "pattern": "Generic Sad Shayari & Low-Effort Text Shorts",
+      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 6 views.",
+      "action": "Avoid overly dramatic, poetic, or standalone shayari titles without a concrete, grounding life situation."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Melancholy & Realization",
-    "hook_style": "Observational domestic moment",
+    "emotion": "Nostalgia and bittersweet realization",
+    "hook_style": "Observation on unspoken distance between partners",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple sitting in complete silence in the living room, scrolling through their phones, realizing how comfortable yet distant they have become over the years.",
-    "opening_direction": "Start with the sound of a TV playing in the background while two people sit on opposite ends of the sofa without looking at each other.",
-    "twist_direction": "The realization that while they haven't fought in months, they haven't actually spoken about their day either.",
+    "concept": "A short exploration of how couples who used to talk for hours now communicate strictly through practical to-do lists and forwarded messages.",
+    "opening_direction": "Start with a quiet visual of a phone screen showing a chat box full of grocery lists instead of late-night romantic texts.",
+    "twist_direction": "End with the realization that they aren't falling out of love; they are just silently drowning in the routine of life.",
     "duration_seconds": 35,
-    "posting_window": "13:00 - 15:00 IST",
-    "reason": "Matches the proven high-performing window and topic cluster of husband-wife dynamics seen in top channel hits."
+    "posting_window": "07:00 AM - 09:00 AM",
+    "reason": "Aligns with the high-performing relationship niche (similar to the successful wife/husband videos) while testing a poignant, deeply relatable modern marriage observation."
   },
-  "experiment": "Testing a quiet, non-confrontational domestic observation style against the previously successful interrogative hook style.",
-  "updated_at": "2026-10-12T15:53:28.704027+00:00",
+  "experiment": "Testing if shifting focus entirely from broad family emotional tropes to nuanced modern marriage friction yields consistent 1k+ views.",
+  "updated_at": "2026-10-12T23:08:19.546873+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-12T15:53:31.250603+00:00"
+  "generated_at": "2026-10-12T23:08:21.831924+00:00"
 }
