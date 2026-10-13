@@ -1,40 +1,35 @@
 {
   "confidence": "65%",
   "data_points": 13,
-  "overall_summary": "Analysis of the historical performance indicates that deep relationship dynamics between couples (husband-wife) significantly outperform other topics, pulling in over 1,600 views compared to the standard 100-300 view baseline for family or general shayari. Direct quotes and raw sad shayari are currently underperforming.",
+  "overall_summary": "The channel shows a distinct outlier in husband-wife relationship content, which significantly outperformed standard family/parental emotional shayari and heartbreak poems. Viewers strongly engage with marital reality and relationship dynamics over abstract heartbreak.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos like 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,666 views) and 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,764 views) vastly outperform all other content categories.",
-      "action": "Double down on marital and long-term relationship emotional complexities."
-    },
-    {
-      "pattern": "Relatable Soft Heart-Emoji Titles",
-      "evidence": "Titles formatted as soft conversational questions combined with '❤️' or '❤️‍🩹' consistently attract higher click-throughs than hard-edged heartbreak statements.",
-      "action": "Use gentle, conversational inquiry hooks in the title."
+      "pattern": "Husband-Wife Relatable Dynamic",
+      "evidence": "Videos like 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,666 views) and 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,764 views) vastly outperformed all other themes.",
+      "action": "Double down on marital relationship realities, fading love after marriage, and daily unspoken domestic tensions."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Direct Bitter Shayari",
-      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा 💔' received only 10 views, showing low initial pull for aggressive or overly poetic bitterness.",
-      "action": "Avoid aggressive or overly dramatic literary verses; stick to grounded, conversational realism."
+      "pattern": "Abstract / Poetic Sad Shayari",
+      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' gained only 10 views, showing low interest in pure poetic complaints without concrete relationship framing.",
+      "action": "Avoid abstract, overly dramatic poetic lines and focus on grounded everyday relationship struggles."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Melancholic yet warm nostalgia",
-    "hook_style": "Conversational observation about unexpressed appreciation",
+    "emotion": "Bittersweet realization",
+    "hook_style": "Observation on changing post-marriage habits",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization about how couples stop saying 'Thank you' for the small daily efforts, taking each other's presence for granted until distance creeps in.",
-    "opening_direction": "Start with the small everyday sound of tea being poured or keys being dropped on the table after a long workday in silence.",
-    "twist_direction": "Reveal that the silence isn't a lack of love, but the quiet weight of things they both wanted to say out loud but swallowed.",
+    "concept": "A realization about how late-night office chats with friends get replaced by silent scrolling next to each other in bed.",
+    "opening_direction": "Shuruwat karo uss baat se jab raat ko ghanto phone par baatein hoti thi...",
+    "twist_direction": "Aur ab halat ye hai ki bistar par ek hi kambal mein hote hain, par dono ke haath mein alag-alag phone hote hain.",
     "duration_seconds": 35,
     "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Aligns with the proven husband-wife relationship high-performer pattern while testing a slightly deeper emotional twist on daily routine."
+    "reason": "Building directly on the proven success of husband-wife relationship themes while tapping into modern domestic detachment."
   },
-  "experiment": "Testing if adding a touch of daily domestic routine audio cues improves retention on relationship-themed shorts.",
-  "updated_at": "2026-10-13T19:26:33.076423+00:00",
+  "experiment": "Testing if shifting the husband-wife dynamic from general love/arguments to specific modern lifestyle habits (phone distraction in bed) maintains high retention.",
+  "updated_at": "2026-10-13T23:22:50.809787+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-13T19:26:35.666286+00:00"
+  "generated_at": "2026-10-13T23:22:53.473279+00:00"
 }
