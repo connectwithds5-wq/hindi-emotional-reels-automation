@@ -1,45 +1,35 @@
 {
   "confidence": "65%",
   "data_points": 13,
-  "overall_summary": "Analysis of historical performance indicates that broad relationship dynamics, particularly husband-wife and marriage struggles, significantly outperform family relationship tropes (mother, father, brother, sister) and direct poetic shayari. Videos focusing on complex everyday relationship realities generated the highest views and engagement.",
+  "overall_summary": "The channel shows a clear preference for 'Husband-Wife' relationship dynamics over generic family or motivational content. High-performing videos (1600+ views) focus on marital realities, while generic emotional shayari or broad family topics perform significantly lower.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,764 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,666 views) heavily outperformed all other topics.",
-      "action": "Double down on core relationship and marriage communication struggles."
-    },
-    {
-      "pattern": "Direct Relatable Statements in Titles",
-      "evidence": "Titles framing a common domestic or emotional conflict directly as a question or relatable observation drive higher click-through and completion rates.",
-      "action": "Use conversational, highly relatable everyday realizations for titles."
+      "pattern": "Marital/Relationship Reality",
+      "evidence": "Videos 'पत्नी की ये बात...' (1666 views) and 'Shaadi Ke Baad...' (1764 views) are the top performers.",
+      "action": "Double down on husband-wife relationship conflicts and realizations."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Heavy Poetic Shayari",
-      "evidence": "The video 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' got only 6 views, showing low initial pull compared to conversational relationship hooks.",
-      "action": "Reduce dense, dramatic poetry; stick to grounded, conversational emotional storytelling."
-    },
-    {
-      "pattern": "Niche Family Tropes without Universal Tension",
-      "evidence": "Specific sibling-focused shorts (like sister/brother videos) stayed under 140 views.",
-      "action": "Broaden family dynamics to universal couple or general self-reflection themes unless tied to a strong daily conflict."
+      "pattern": "Generic Family/Shayari",
+      "evidence": "Videos like 'बहन सिर्फ घर की रौनक' (19 views) and 'जिस दिन सच लिखूंगा' (6 views) show low engagement.",
+      "action": "Avoid abstract poetry; focus on concrete, specific life scenarios."
     }
   ],
   "next_video": {
-    "topic": "रिश्ते",
-    "emotion": "अधूरी मोहब्बत / ओवरथिंकिंग",
-    "hook_style": "Conversational observation about unspoken words in a long-term relationship",
-    "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple sitting in silence after an argument, where the husband thinks silence means anger, but the wife realizes it means emotional surrender.",
-    "opening_direction": "Start with the small, relatable moment of two people scrolling on their phones in the same room while avoiding eye contact.",
-    "twist_direction": "Reveal that the distance isn't because they stopped loving each other, but because they are both too tired to explain how much they still care.",
-    "duration_seconds": 35,
-    "posting_window": "07:00 AM - 09:00 AM",
-    "reason": "Matches the proven performance window and high-engagement morning viewing habits of relationship-themed content."
+    "topic": "Husband-Wife",
+    "emotion": "Bittersweet realization",
+    "hook_style": "Direct question about a common marital habit",
+    "story_structure": "Wife waiting for husband to finish work -> The silence of the house at night -> The realization that they are living together but not talking.",
+    "concept": "The silent dinner table: Why do we stop talking after marriage?",
+    "opening_direction": "Start with the sound of clinking spoons in a silent room.",
+    "twist_direction": "Reveal that the silence isn't peace, it's the distance between two people in the same room.",
+    "duration_seconds": 45,
+    "posting_window": "07:00 AM - 08:00 AM IST",
+    "reason": "Historical data shows peak performance for relationship-based content posted in the early morning window."
   },
-  "experiment": "Testing if adding a subtle background ambient sound to a couple-focused conversational narrative improves retention compared to standard music tracks.",
-  "updated_at": "2026-10-13T03:44:05.594150+00:00",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-13T03:44:08.497685+00:00"
+  "experiment": "Testing if 'silent observation' style storytelling (visual-heavy) performs better than 'voiceover-heavy' shayari style.",
+  "updated_at": "2026-10-13T12:03:00.864634+00:00",
+  "model_used": "gemini-3.1-flash-lite",
+  "generated_at": "2026-10-13T12:03:04.169252+00:00"
 }
