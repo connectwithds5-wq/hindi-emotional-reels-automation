@@ -1,35 +1,35 @@
 {
-  "confidence": "65%",
+  "confidence": "45%",
   "data_points": 13,
-  "overall_summary": "Analysis of historical performance indicates that deep relationship dynamics between couples (husband-wife) significantly outperform other general emotional or family topics, pulling over 1,700 views consistently. Pure sad poetry or generic quotes underperform heavily.",
+  "overall_summary": "Data shows clear outlier performance for husband-wife relationship content (videos like or5gtaBpRVY and my5mP9feI7s reaching over 1,600 views), while standard parent-child and pure shayari formats underperform due to small sample size and lower initial engagement.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Reality",
-      "evidence": "Videos about husband-wife dynamics ('पत्नी की ये बात...' and 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?') generated massive outliers with 1,666 and 1,764 views.",
-      "action": "Double down on mature relationship dilemmas, marital communication gaps, and post-marriage emotional realities."
+      "pattern": "Husband-Wife Relationship Dynamics",
+      "evidence": "Videos focusing on married life topics achieved the highest views (1,666 and 1,766 views) and likes across the entire dataset.",
+      "action": "Allocate 70% of upcoming content production to married life, unsaid expectations, and relationship realities."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Heavy Sad Shayari / Direct Poetry",
-      "evidence": "Videos relying purely on philosophical or dark poetry ('जिस दिन सच लिखूंगा…') got only 10 views.",
-      "action": "Avoid abstract or overly poetic dark lines; ground content in everyday relatable observations."
+      "pattern": "Pure Sad Shayari / Heavy Poetry",
+      "evidence": "Video ID YdWh4cDOE64 ('जिस दिन सच लिखूंगा...') only generated 10 views.",
+      "action": "Avoid abstract or heavy poetic formats without a grounded real-life domestic scenario attached to them."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "नस्टैल्जिया और अकेलापन",
-    "hook_style": "Real-life observation about silent partner habits",
+    "emotion": "मलाल और अपनापन",
+    "hook_style": "Real-life observation",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short piece on how a husband and wife stop fighting after years of marriage, not out of love, but out of silent exhaustion.",
-    "opening_direction": "जब झगड़े खत्म होने लगें, तो समझ जाना रिश्ता मजबूत नहीं, अंदर से खाली हो रहा है।",
-    "twist_direction": "मोहब्बत तब खत्म नहीं होती जब लड़ाई होती है, मोहब्बत तब मरती है जब दोनों एक ही कमरे में बैठकर भी घंटू एक दूसरे से कुछ नहीं कहते।",
-    "duration_seconds": 35,
-    "posting_window": "07:00 AM - 09:00 AM",
-    "reason": "Aligns directly with the highest-performing content cluster (husband-wife relationship dynamics) which previously drove peak engagement."
+    "concept": "A husband noticing his wife's silence late at night, realizing she stopped complaining because she stopped expecting.",
+    "opening_direction": "रात के 2 बजे जब घर में सब सो जाते हैं, पत्नी अक्सर अपना फोन छोड़कर छत की तरफ देखती है।",
+    "twist_direction": "शुरुआत में लगता है उसे नींद नहीं आ रही, पर असलियत यह होती है कि उसने अब अपनों से शिकायत करना ही छोड़ दिया है।",
+    "duration_seconds": 10,
+    "posting_window": "12:00 PM - 02:00 PM",
+    "reason": "Capitalizes on the proven high-performing husband-wife relationship theme while utilizing a relatable nocturnal emotional hook."
   },
-  "experiment": "Testing if shifting the husband-wife angle from romance to silent emotional distance retains the high view count of previous winners.",
-  "updated_at": "2026-10-14T18:47:55.430235+00:00",
+  "experiment": "Testing if late-night marital emotional micro-narratives can surpass the views of general daytime relationship advice shorts.",
+  "updated_at": "2026-10-14T22:29:39.976983+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-14T18:48:09.907022+00:00"
+  "generated_at": "2026-10-14T22:29:42.060128+00:00"
 }
