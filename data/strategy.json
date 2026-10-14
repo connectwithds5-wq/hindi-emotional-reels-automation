@@ -1,35 +1,35 @@
 {
-  "confidence": "65%",
+  "confidence": "45%",
   "data_points": 13,
-  "overall_summary": "The channel shows a distinct outlier in husband-wife relationship content, which significantly outperformed standard family/parental emotional shayari and heartbreak poems. Viewers strongly engage with marital reality and relationship dynamics over abstract heartbreak.",
+  "overall_summary": "The channel shows clear outlier performance when content focuses on husband-wife dynamics and marital realities (e.g., 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1,764 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1,666 views), whereas standard family emotional tropes or heavy poetry underperform significantly.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relatable Dynamic",
-      "evidence": "Videos like 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,666 views) and 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,764 views) vastly outperformed all other themes.",
-      "action": "Double down on marital relationship realities, fading love after marriage, and daily unspoken domestic tensions."
+      "pattern": "Husband-Wife Relationship Realities",
+      "evidence": "Videos addressing marriage and spouses received the highest views (1,764 and 1,666 views), far outperforming general family or poetic shorts.",
+      "action": "Double down on marital dynamics, unspoken expectations, and emotional distance in long-term relationships."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract / Poetic Sad Shayari",
-      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' gained only 10 views, showing low interest in pure poetic complaints without concrete relationship framing.",
-      "action": "Avoid abstract, overly dramatic poetic lines and focus on grounded everyday relationship struggles."
+      "pattern": "Heavy Poetic Shayari & Abstract Lines",
+      "evidence": "Abstract or heavy shayari lines (like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा') generated minimal traction (10 views).",
+      "action": "Avoid abstract poetic framing and replace it with grounded everyday situations."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Bittersweet realization",
-    "hook_style": "Observation on changing post-marriage habits",
+    "emotion": "Melancholy & Realization",
+    "hook_style": "Direct observation about a subtle change in daily habits after a few years of marriage",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization about how late-night office chats with friends get replaced by silent scrolling next to each other in bed.",
-    "opening_direction": "Shuruwat karo uss baat se jab raat ko ghanto phone par baatein hoti thi...",
-    "twist_direction": "Aur ab halat ye hai ki bistar par ek hi kambal mein hote hain, par dono ke haath mein alag-alag phone hote hain.",
-    "duration_seconds": 35,
+    "concept": "A couple sitting in complete silence in the living room, no fights, just the distance of unsaid words.",
+    "opening_direction": "शुरुआत में चाय का कप बढ़ाते हुए वो खामोशी जो अब हर शाम का हिस्सा बन गई है।",
+    "twist_direction": "अंत में अहसास कि अब झगड़े बंद हो चुके हैं, और यही सबसे डरावनी बात है।",
+    "duration_seconds": 25,
     "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Building directly on the proven success of husband-wife relationship themes while tapping into modern domestic detachment."
+    "reason": "Matches the proven high-performing husband-wife relationship niche while leveraging evening emotional consumption patterns."
   },
-  "experiment": "Testing if shifting the husband-wife dynamic from general love/arguments to specific modern lifestyle habits (phone distraction in bed) maintains high retention.",
-  "updated_at": "2026-10-13T23:22:50.809787+00:00",
+  "experiment": "Testing if shifting focus entirely from family Shayari to narrative-driven husband-wife micro-moments sustains the 1k+ view baseline.",
+  "updated_at": "2026-10-14T02:03:41.177989+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-13T23:22:53.473279+00:00"
+  "generated_at": "2026-10-14T02:04:08.559500+00:00"
 }
