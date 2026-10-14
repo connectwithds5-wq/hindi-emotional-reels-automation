@@ -1,35 +1,35 @@
 {
-  "confidence": "45%",
+  "confidence": "65%",
   "data_points": 13,
-  "overall_summary": "Historical data shows a clear outlier pattern where relationship content focusing on husband-wife dynamics significantly outperforms family or standalone poetry shorts. However, sample size is low, so confidence is moderate.",
+  "overall_summary": "Analysis of historical performance indicates that deep relationship dynamics between couples (husband-wife) significantly outperform other general emotional or family topics, pulling over 1,700 views consistently. Pure sad poetry or generic quotes underperform heavily.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Dynamics",
-      "evidence": "Videos about wives and marital relationships (or5gtaBpRVY, my5mP9feI7s) achieved 1,666 and 1,764 views respectively, while other topics stayed below 400 views.",
-      "action": "Produce more content revolving around modern marriage and unspoken marital understandings."
+      "pattern": "Husband-Wife Relationship Reality",
+      "evidence": "Videos about husband-wife dynamics ('पत्नी की ये बात...' and 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?') generated massive outliers with 1,666 and 1,764 views.",
+      "action": "Double down on mature relationship dilemmas, marital communication gaps, and post-marriage emotional realities."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sad Poetry/Shayari",
-      "evidence": "YdWh4cDOE64 ('जिस दिन सच लिखूंगा...') received only 10 views.",
-      "action": "Avoid generic, overly dramatic poetry openings; anchor content in specific real-life situations instead."
+      "pattern": "Heavy Sad Shayari / Direct Poetry",
+      "evidence": "Videos relying purely on philosophical or dark poetry ('जिस दिन सच लिखूंगा…') got only 10 views.",
+      "action": "Avoid abstract or overly poetic dark lines; ground content in everyday relatable observations."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "नस्टेल्जिया और अपनापन",
-    "hook_style": "Real-life observation",
+    "emotion": "नस्टैल्जिया और अकेलापन",
+    "hook_style": "Real-life observation about silent partner habits",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short exploration of how kitchen conversations between a husband and wife fade over the years, replaced by silence, until one small gesture brings back the old warmth.",
-    "opening_direction": "शुरुआत इस बात से हो कि कैसे शादी के कुछ साल बाद चाय की कप के साथ होने वाली बातें सिर्फ 'खाना खा लिया?' तक सीमित रह जाती हैं।",
-    "twist_direction": "अंत में पता चलता है कि बातें कम जरूर हुई हैं, लेकिन एक-दूसरे की खामोशी समझने की आदत गहरी हो गई है।",
-    "duration_seconds": 30,
-    "posting_window": "13:00 - 14:00",
-    "reason": "Previous top-performing husband-wife video (my5mP9feI7s) was published around 13:12, aligning with midday relaxed scrolling."
+    "concept": "A short piece on how a husband and wife stop fighting after years of marriage, not out of love, but out of silent exhaustion.",
+    "opening_direction": "जब झगड़े खत्म होने लगें, तो समझ जाना रिश्ता मजबूत नहीं, अंदर से खाली हो रहा है।",
+    "twist_direction": "मोहब्बत तब खत्म नहीं होती जब लड़ाई होती है, मोहब्बत तब मरती है जब दोनों एक ही कमरे में बैठकर भी घंटू एक दूसरे से कुछ नहीं कहते।",
+    "duration_seconds": 35,
+    "posting_window": "07:00 AM - 09:00 AM",
+    "reason": "Aligns directly with the highest-performing content cluster (husband-wife relationship dynamics) which previously drove peak engagement."
   },
-  "experiment": "Testing if narrowing down to mature husband-wife relationship micro-moments can consistently replicate the 1500+ view baseline seen in previous winners.",
-  "updated_at": "2026-10-14T13:55:55.656507+00:00",
+  "experiment": "Testing if shifting the husband-wife angle from romance to silent emotional distance retains the high view count of previous winners.",
+  "updated_at": "2026-10-14T18:47:55.430235+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-14T13:56:00.705985+00:00"
+  "generated_at": "2026-10-14T18:48:09.907022+00:00"
 }
