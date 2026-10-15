@@ -1,35 +1,45 @@
 {
-  "confidence": "40%",
+  "confidence": "65%",
   "data_points": 13,
-  "overall_summary": "Analysis of current data shows a massive outperformance by husband-wife relationship dynamics compared to general poetry or parental emotional quotes. However, sample size is relatively small, so confidence is moderate with a preference for doubling down on the proven romantic/marital relationship dynamic while reserving a small experiment budget.",
+  "overall_summary": "Husband-wife and long-term relationship dynamics significantly outperform generic family shayari and poetry, pulling 10x more views (1,600+ vs 100-200). General family topics and aggressive sad shayari underperform due to lack of immediate psychological hook.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relatable Dynamics",
-      "evidence": "Videos about wife understanding and post-marriage love (or5gtaBpRVY, my5mP9feI7s) achieved 1,666 and 1,766 views respectively, vastly outperforming all other topics which stayed below 400 views.",
-      "action": "Focus heavily on marital realities, misunderstandings, and emotional shifts in long-term relationships."
+      "pattern": "Husband-Wife Relationship Realities",
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1766 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1666 views) are clear outliers with massive view counts.",
+      "action": "Double down on marital friction, unspoken love, and household emotional realities."
+    },
+    {
+      "pattern": "Conversational Interrogative Titles",
+      "evidence": "Titles framed as a direct question about relationship stages drive higher curiosity and engagement.",
+      "action": "Use direct, probing questions regarding modern relationship struggles in titles."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sad Poetry/Shayari",
-      "evidence": "Videos relying purely on abstract sad shayari (e.g., YdWh4cDOE64 with 10 views) or generic quotes performed extremely poorly.",
-      "action": "Avoid abstract shayari without a grounded everyday relationship situation attached to it."
+      "pattern": "Heavy Poetic/Shayari Format",
+      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 10 views, indicating heavy-handed poetry fails to connect on Shorts.",
+      "action": "Avoid abstract poetic framing; stick to grounded, everyday marital observations."
+    },
+    {
+      "pattern": "Broad Family Members Without Conflict",
+      "evidence": "Videos about sisters, brothers, and fathers without a specific relatable conflict averaged under 200 views.",
+      "action": "Shift focus away from generic family members unless anchored to a specific emotional friction point."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Nostalgia and bittersweet realization",
-    "hook_style": "Observational everyday habit",
+    "emotion": "Melancholic Nostalgia",
+    "hook_style": "Direct observation about silence after years of marriage",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple who used to talk for hours on the phone before marriage now scrolling phones silently side-by-side in bed.",
-    "opening_direction": "Start with the sound of phone screen scrolling in a dark room at midnight.",
-    "twist_direction": "Reveal that instead of scrolling social media, they are actually re-reading their own old WhatsApp chats from 5 years ago.",
-    "duration_seconds": 35,
-    "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Matches the proven high-performing husband-wife relationship niche and targets evening leisure scrolling time when feelings of domestic nostalgia peak."
+    "concept": "A couple sitting in complete silence in a car or living room, no fights, just distance.",
+    "opening_direction": "जब साथ रहते-रहते बातें खत्म हो जाएं, इसका मतलब यह नहीं कि प्यार खत्म हो गया...",
+    "twist_direction": "...बल्कि डर ये होता है कि अब किसी एक को खोने से भी फर्क नहीं पड़ता।",
+    "duration_seconds": 12,
+    "posting_window": "13:00 - 14:00 IST",
+    "reason": "Leverages the proven high-performing husband-wife relationship dynamic, testing a subtler emotional chord of emotional detachment rather than outright conflict."
   },
-  "experiment": "Testing if adding a digital-age nostalgic element to the successful husband-wife relationship format drives higher comment engagement.",
-  "updated_at": "2026-10-15T17:15:33.198821+00:00",
+  "experiment": "Testing emotional detachment in marriage instead of direct questions or active conflict to see if passive longing retains higher average view duration.",
+  "updated_at": "2026-10-15T20:28:10.590847+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-15T17:15:35.860190+00:00"
+  "generated_at": "2026-10-15T20:28:13.544846+00:00"
 }
