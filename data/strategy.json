@@ -1,45 +1,35 @@
 {
   "confidence": "65%",
   "data_points": 13,
-  "overall_summary": "Husband-wife and long-term relationship dynamics significantly outperform generic family shayari and poetry, pulling 10x more views (1,600+ vs 100-200). General family topics and aggressive sad shayari underperform due to lack of immediate psychological hook.",
+  "overall_summary": "Analysis of the performance data reveals a clear outlier in husband-wife relationship topics ('or5gtaBpRVY' and 'my5mP9feI7s' with ~1,760+ views), which heavily outperform family dynamics (mother, father, siblings) and poetry/shayari (which performed poorly). The audience strongly resonates with marital realities and deep relationship struggles.",
   "winning_patterns": [
     {
       "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1766 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1666 views) are clear outliers with massive view counts.",
-      "action": "Double down on marital friction, unspoken love, and household emotional realities."
-    },
-    {
-      "pattern": "Conversational Interrogative Titles",
-      "evidence": "Titles framed as a direct question about relationship stages drive higher curiosity and engagement.",
-      "action": "Use direct, probing questions regarding modern relationship struggles in titles."
+      "evidence": "Videos focusing on married life dynamics ('or5gtaBpRVY' and 'my5mP9feI7s') gained 1,600 to 1,700+ views, significantly higher than general family or motivation tags.",
+      "action": "Double down on husband-wife relationship conflicts, silent struggles, and emotional gaps after marriage."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Heavy Poetic/Shayari Format",
-      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 10 views, indicating heavy-handed poetry fails to connect on Shorts.",
-      "action": "Avoid abstract poetic framing; stick to grounded, everyday marital observations."
-    },
-    {
-      "pattern": "Broad Family Members Without Conflict",
-      "evidence": "Videos about sisters, brothers, and fathers without a specific relatable conflict averaged under 200 views.",
-      "action": "Shift focus away from generic family members unless anchored to a specific emotional friction point."
+      "pattern": "Generic Sad Shayari / Philosophical Lines",
+      "evidence": "Video 'YdWh4cDOE64' featuring sad poetic shayari received only 10 views.",
+      "action": "Avoid abstract or overly poetic lines; ground the content in everyday realistic dialogue and observations."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Melancholic Nostalgia",
-    "hook_style": "Direct observation about silence after years of marriage",
+    "emotion": "नजरअंदाज, अकेलापन",
+    "hook_style": "situational observation",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple sitting in complete silence in a car or living room, no fights, just distance.",
-    "opening_direction": "जब साथ रहते-रहते बातें खत्म हो जाएं, इसका मतलब यह नहीं कि प्यार खत्म हो गया...",
-    "twist_direction": "...बल्कि डर ये होता है कि अब किसी एक को खोने से भी फर्क नहीं पड़ता।",
-    "duration_seconds": 12,
-    "posting_window": "13:00 - 14:00 IST",
-    "reason": "Leverages the proven high-performing husband-wife relationship dynamic, testing a subtler emotional chord of emotional detachment rather than outright conflict."
+    "concept": "A couple sitting in absolute silence in the same room, scrolling phones, realizing they have nothing left to say to each other even though they live under the same roof.",
+    "opening_direction": "Start with a quiet visual of two tea cups getting cold while the couple scrolls their phones without making eye contact.",
+    "twist_direction": "The twist reveals that silence isn't peace anymore; it's the exact moment two people who loved each other became total strangers.",
+    "duration_seconds": 35,
+    "posting_window": "13:00 - 14:00 (matching the peak posting time of the top performing husband-wife video 'my5mP9feI7s')",
+    "reason": "Capitalizes on the proven high-performing husband-wife relationship theme while utilizing a relatable domestic situation that triggers deep emotional reflection."
   },
-  "experiment": "Testing emotional detachment in marriage instead of direct questions or active conflict to see if passive longing retains higher average view duration.",
-  "updated_at": "2026-10-15T20:28:10.590847+00:00",
+  "experiment": "Testing if shifting the husband-wife focus from general post-marriage questions to silent everyday alienation maintains the high viewership trend.",
+  "updated_at": "2026-10-15T23:12:44.118473+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-15T20:28:13.544846+00:00"
+  "generated_at": "2026-10-15T23:12:46.415525+00:00"
 }
