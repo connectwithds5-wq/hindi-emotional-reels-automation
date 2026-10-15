@@ -1,45 +1,35 @@
 {
-  "confidence": "45%",
+  "confidence": "65%",
   "data_points": 13,
-  "overall_summary": "The channel is experiencing significant variance. Broad emotional shayari (like Sad Hindi Shayari with 10 views) underperforms severely, while relationship and marital dynamic content (specifically husband-wife dynamics like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1,766 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1,666 views) are massive breakout outliers. Family emotional beats (Maa, Papa) perform moderately well.",
+  "overall_summary": "Analysis of historical performance indicates that deep relationship dynamics, specifically husband-wife emotional realities (e.g., 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?', 'पत्नी की ये बात हर पति को समझनी चाहिए'), significantly outperform family-member appreciation posts or generic shayari. The audience responds heavily to marital friction and relationship introspection.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife / Marital Relationship Realities",
-      "evidence": "Videos focusing on post-marriage love and wives' perspectives ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?' - 1766 views, 'पत्नी की ये बात हर पति को समझनी चाहिए' - 1666 views) heavily outperformed all other topics.",
-      "action": "Double down on complex, relatable emotional pain points within modern marriages and long-term relationships."
-    },
-    {
-      "pattern": "Direct Question Hooks about Relatable Dynamics",
-      "evidence": "Titles formatted as questions or direct realizations about shared relationship experiences pull higher initial clicks.",
-      "action": "Use inquiry-based hooks that force the viewer to immediately reflect on their partner or close relationships."
+      "pattern": "Marital/Relationship Reality Focus",
+      "evidence": "Videos about husband-wife dynamics garnered the highest views (1766 and 1666 views respectively), outperforming general family or solo shayari.",
+      "action": "Allocate 70% of upcoming content to complex husband-wife and modern relationship dynamics."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Sad Shayari / Cynical Relationship Takes",
-      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' generated only 10 views.",
-      "action": "Avoid overly poetic, bitter, or generic shayari titles; ground the emotions in specific real-life observations."
-    },
-    {
-      "pattern": "Low-Sample Generic Podcast Snippets without Context",
-      "evidence": "Clips like 'Aakhri Baar Jab Tumne Usse Dekha Tha...' stalled at 150 views compared to concrete relationship situations.",
-      "action": "Shift from vague heartbreak to specific contextual scenarios in domestic or romantic life."
+      "pattern": "Generic Sad Shayari / Solo Text Focus",
+      "evidence": "Clips focusing purely on abstract heartbreak or general sad thoughts (like 'जिस दिन सच लिखूंगा') generated very low traction (<15 views).",
+      "action": "Avoid generic text-heavy shayari and tie emotional lines directly to concrete, everyday situations."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "नस्टैल्जिया और अकेलापन",
-    "hook_style": "Direct real-life observation about silent partners",
+    "emotion": "Bittersweet realization",
+    "hook_style": "Observation-based question about unspoken habits in marriage",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short look at how couples sit together in complete silence scrolling phones, realizing they know everything about their digital feeds but nothing about each other's current heavy thoughts.",
-    "opening_direction": "Start with a quiet living room visual: two cups of tea getting cold while both partners stare into their glowing mobile screens.",
-    "twist_direction": "The realization that physical closeness doesn't stop emotional distance, and the loudest unsaid things happen right next to each other.",
-    "duration_seconds": 30,
-    "posting_window": "13:00 - 15:00 IST",
-    "reason": "Matches the proven high-performing husband-wife relationship dynamic from top-performing historical data while testing a modern relatable friction point."
+    "concept": "A short exploration of how couples stop fighting and start staying quiet, signaling a deeper distance than arguments.",
+    "opening_direction": "अब झगड़े नहीं होते हमारे बीच…",
+    "twist_direction": "खामोशी चीखकर कहती है कि अब उम्मीद भी नहीं बची।",
+    "duration_seconds": 15,
+    "posting_window": "07:00 PM - 09:00 PM",
+    "reason": "Matches the proven high-performing husband-wife relationship niche while leveraging a relatable emotional shift from arguments to silence."
   },
-  "experiment": "Testing if modern digital-age emotional distance in marriage captures the same high traffic as traditional relationship communication issues seen in top past videos.",
-  "updated_at": "2026-10-15T00:47:00.153005+00:00",
+  "experiment": "Testing evening prime time (07:00 PM - 09:00 PM) specifically for marital relationship content to check if engagement scales further.",
+  "updated_at": "2026-10-15T06:12:28.258975+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-15T00:47:02.842236+00:00"
+  "generated_at": "2026-10-15T06:12:30.352213+00:00"
 }
