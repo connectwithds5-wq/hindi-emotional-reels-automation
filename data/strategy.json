@@ -1,35 +1,35 @@
 {
-  "confidence": "65%",
+  "confidence": "40%",
   "data_points": 13,
-  "overall_summary": "Data shows clear audience preference for husband-wife relationship dynamics ('रिश्ते') and deep domestic emotional nuances over generic sad shayari or parenting videos. Top performers like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' and 'पत्नी की ये बात हर पति को समझनी चाहिए' received significantly higher views and engagement.",
+  "overall_summary": "Analysis of current data shows a massive outperformance by husband-wife relationship dynamics compared to general poetry or parental emotional quotes. However, sample size is relatively small, so confidence is moderate with a preference for doubling down on the proven romantic/marital relationship dynamic while reserving a small experiment budget.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Dynamics",
-      "evidence": "Videos focusing on married life and partner understanding (or5gtaBpRVY, my5mP9feI7s) achieved the highest views (1,666 and 1,766) and likes.",
-      "action": "Double down on core relationship and marriage communication struggles."
+      "pattern": "Husband-Wife Relatable Dynamics",
+      "evidence": "Videos about wife understanding and post-marriage love (or5gtaBpRVY, my5mP9feI7s) achieved 1,666 and 1,766 views respectively, vastly outperforming all other topics which stayed below 400 views.",
+      "action": "Focus heavily on marital realities, misunderstandings, and emotional shifts in long-term relationships."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sad Shayari / Heavy Poetry",
-      "evidence": "YdWh4cDOE64 ('जिस दिन सच लिखूंगा…') received only 10 views, indicating pure abstract shayari underperforms compared to situational storytelling.",
-      "action": "Avoid abstract poetic rants; anchor every emotion to a specific domestic or relationship situation."
+      "pattern": "Generic Sad Poetry/Shayari",
+      "evidence": "Videos relying purely on abstract sad shayari (e.g., YdWh4cDOE64 with 10 views) or generic quotes performed extremely poorly.",
+      "action": "Avoid abstract shayari without a grounded everyday relationship situation attached to it."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Bittersweet realization",
-    "hook_style": "Direct observation about unsaid words between partners",
+    "emotion": "Nostalgia and bittersweet realization",
+    "hook_style": "Observational everyday habit",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple sitting in complete silence in the living room, neither arguing nor talking, just staring at their phones while years of unspoken distance fill the room.",
-    "opening_direction": "शाम की चाय ठंडी हो जाती है, पर कप उठाने वाला कोई नहीं होता...",
-    "twist_direction": "मोहब्बत खत्म नहीं होती, बस दोनों ने एक-दूसरे को परेशान न करना सीख लिया होता है।",
-    "duration_seconds": 30,
+    "concept": "A couple who used to talk for hours on the phone before marriage now scrolling phones silently side-by-side in bed.",
+    "opening_direction": "Start with the sound of phone screen scrolling in a dark room at midnight.",
+    "twist_direction": "Reveal that instead of scrolling social media, they are actually re-reading their own old WhatsApp chats from 5 years ago.",
+    "duration_seconds": 35,
     "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Aligns with the proven high-performing husband-wife relationship topic, leveraging relatable evening loneliness to drive retention."
+    "reason": "Matches the proven high-performing husband-wife relationship niche and targets evening leisure scrolling time when feelings of domestic nostalgia peak."
   },
-  "experiment": "Testing if silent mundane marital distance outperforms direct communication struggles in retention.",
-  "updated_at": "2026-10-15T11:54:47.905781+00:00",
+  "experiment": "Testing if adding a digital-age nostalgic element to the successful husband-wife relationship format drives higher comment engagement.",
+  "updated_at": "2026-10-15T17:15:33.198821+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-15T11:54:50.333826+00:00"
+  "generated_at": "2026-10-15T17:15:35.860190+00:00"
 }
