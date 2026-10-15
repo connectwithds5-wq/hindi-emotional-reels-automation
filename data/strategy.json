@@ -1,35 +1,35 @@
 {
   "confidence": "65%",
   "data_points": 13,
-  "overall_summary": "Analysis of historical performance indicates that deep relationship dynamics, specifically husband-wife emotional realities (e.g., 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?', 'पत्नी की ये बात हर पति को समझनी चाहिए'), significantly outperform family-member appreciation posts or generic shayari. The audience responds heavily to marital friction and relationship introspection.",
+  "overall_summary": "Data shows clear audience preference for husband-wife relationship dynamics ('रिश्ते') and deep domestic emotional nuances over generic sad shayari or parenting videos. Top performers like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' and 'पत्नी की ये बात हर पति को समझनी चाहिए' received significantly higher views and engagement.",
   "winning_patterns": [
     {
-      "pattern": "Marital/Relationship Reality Focus",
-      "evidence": "Videos about husband-wife dynamics garnered the highest views (1766 and 1666 views respectively), outperforming general family or solo shayari.",
-      "action": "Allocate 70% of upcoming content to complex husband-wife and modern relationship dynamics."
+      "pattern": "Husband-Wife Relationship Dynamics",
+      "evidence": "Videos focusing on married life and partner understanding (or5gtaBpRVY, my5mP9feI7s) achieved the highest views (1,666 and 1,766) and likes.",
+      "action": "Double down on core relationship and marriage communication struggles."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sad Shayari / Solo Text Focus",
-      "evidence": "Clips focusing purely on abstract heartbreak or general sad thoughts (like 'जिस दिन सच लिखूंगा') generated very low traction (<15 views).",
-      "action": "Avoid generic text-heavy shayari and tie emotional lines directly to concrete, everyday situations."
+      "pattern": "Generic Sad Shayari / Heavy Poetry",
+      "evidence": "YdWh4cDOE64 ('जिस दिन सच लिखूंगा…') received only 10 views, indicating pure abstract shayari underperforms compared to situational storytelling.",
+      "action": "Avoid abstract poetic rants; anchor every emotion to a specific domestic or relationship situation."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
     "emotion": "Bittersweet realization",
-    "hook_style": "Observation-based question about unspoken habits in marriage",
+    "hook_style": "Direct observation about unsaid words between partners",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short exploration of how couples stop fighting and start staying quiet, signaling a deeper distance than arguments.",
-    "opening_direction": "अब झगड़े नहीं होते हमारे बीच…",
-    "twist_direction": "खामोशी चीखकर कहती है कि अब उम्मीद भी नहीं बची।",
-    "duration_seconds": 15,
+    "concept": "A couple sitting in complete silence in the living room, neither arguing nor talking, just staring at their phones while years of unspoken distance fill the room.",
+    "opening_direction": "शाम की चाय ठंडी हो जाती है, पर कप उठाने वाला कोई नहीं होता...",
+    "twist_direction": "मोहब्बत खत्म नहीं होती, बस दोनों ने एक-दूसरे को परेशान न करना सीख लिया होता है।",
+    "duration_seconds": 30,
     "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Matches the proven high-performing husband-wife relationship niche while leveraging a relatable emotional shift from arguments to silence."
+    "reason": "Aligns with the proven high-performing husband-wife relationship topic, leveraging relatable evening loneliness to drive retention."
   },
-  "experiment": "Testing evening prime time (07:00 PM - 09:00 PM) specifically for marital relationship content to check if engagement scales further.",
-  "updated_at": "2026-10-15T06:12:28.258975+00:00",
+  "experiment": "Testing if silent mundane marital distance outperforms direct communication struggles in retention.",
+  "updated_at": "2026-10-15T11:54:47.905781+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-15T06:12:30.352213+00:00"
+  "generated_at": "2026-10-15T11:54:50.333826+00:00"
 }
