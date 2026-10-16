@@ -1,35 +1,35 @@
 {
-  "confidence": "45%",
+  "confidence": "75%",
   "data_points": 13,
-  "overall_summary": "Data clearly shows that relationship-focused content involving spouses (Husband-Wife dynamics) significantly outperforms general family or abstract poetry topics, pulling in 1,600+ views compared to the baseline 100-300 views. However, overall volume is low, so confidence is moderate.",
+  "overall_summary": "The channel shows a clear performance spike in content related to 'Husband-Wife' dynamics and relationship complexities, significantly outperforming generic family-member tributes. Emotional depth in relationship reality resonates better than simple motivational or family-appreciation content.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife / Partner Dynamics",
-      "evidence": "Videos about wives and marital relationships (or5gtaBpRVY with 1667 views and my5mP9feI7s with 1766 views) massively outperformed sibling, parent, or generic shayari content.",
-      "action": "Double down on husband-wife relationship themes and unspoken marital truths."
+      "pattern": "Husband-Wife Relationship Dynamics",
+      "evidence": "Videos 'or5gtaBpRVY' and 'my5mP9feI7s' achieved 1668 and 1766 views respectively, the highest on the channel.",
+      "action": "Double down on relationship-based emotional conflicts."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Shayari & Heavy Poetry",
-      "evidence": "Videos focusing heavily on abstract sad lines or formal poetry like YdWh4cDOE64 received only 10 views.",
-      "action": "Avoid abstract or overly dramatic shayari; ground every piece in a concrete, recognizable everyday situation."
+      "pattern": "Generic Family Tributes",
+      "evidence": "Videos about sisters and brothers (jfmMztnam_A, fAAoIQCRMXU) show significantly lower engagement compared to relationship content.",
+      "action": "Shift focus away from generic family appreciation toward specific, high-tension relationship scenarios."
     }
   ],
   "next_video": {
-    "topic": "रिश्ते",
-    "emotion": "Bittersweet realization",
-    "hook_style": "Direct observation about long-term relationships",
-    "story_structure": "simple -> relatable -> twist",
-    "concept": "A short look at how silence replaces arguments in a long marriage, making you realize that quiet indifference hurts more than a loud fight.",
-    "opening_direction": "जब गुस्से में बात होना बंद हो जाए, तो समझो रिश्ता कमजोर हो रहा है...",
-    "twist_direction": "...पर असली डर तब होता है जब दोनों बिना एक शब्द कहे, साथ बैठकर भी अजनबी बन जाते हैं।",
-    "duration_seconds": 10,
-    "posting_window": "13:00 - 14:00",
-    "reason": "Matches the proven high-performing husband-wife relationship slot from previous successful uploads (my5mP9feI7s)."
+    "topic": "अधूरी मोहब्बत / रिश्ते",
+    "emotion": "Melancholy and Reflection",
+    "hook_style": "Direct question about a common relationship habit",
+    "story_structure": "Simple: A couple sitting in silence -> Relatable: Checking the phone for a message that never comes -> Twist: Realizing the silence isn't lack of love, but the fear of starting an argument.",
+    "concept": "The silence between a couple that speaks louder than words.",
+    "opening_direction": "Start with a visual of a phone screen lighting up in a dark room.",
+    "twist_direction": "End with the realization that 'we are together, but no longer connected'.",
+    "duration_seconds": 35,
+    "posting_window": "07:00 AM - 08:00 AM IST",
+    "reason": "Matches the high-performing time slots of previous successful relationship-themed videos."
   },
-  "experiment": "Testing if shifting the husband-wife theme from general advice to subtle emotional neglect increases comment engagement.",
-  "updated_at": "2026-10-16T01:34:19.498134+00:00",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-16T01:34:21.837649+00:00"
+  "experiment": "Testing a 'silent/visual-first' narrative approach versus the previous 'voiceover-heavy' style to see if it increases watch time.",
+  "updated_at": "2026-10-16T07:25:44.739356+00:00",
+  "model_used": "gemini-3.1-flash-lite",
+  "generated_at": "2026-10-16T07:25:47.258279+00:00"
 }
