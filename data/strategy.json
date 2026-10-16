@@ -1,45 +1,45 @@
 {
-  "confidence": "60%",
+  "confidence": "65%",
   "data_points": 13,
-  "overall_summary": "Analysis of the performance data reveals that Husband-Wife relationship dynamics (topics like 'रिश्ते') significantly outperform general heartbreak shayari or family member tropes. Videos focused on marriage reality and post-marriage love have achieved views close to 1,700+, whereas poetry and niche family clips struggled to cross 200 views. Confidence is moderate due to a relatively small dataset, necessitating a continued focus on proven relationship dynamics while testing nuanced emotional triggers.",
+  "overall_summary": "The performance data clearly highlights that core relationship dynamic topics (specifically Husband-Wife relations and mutual understanding) significantly outperform general poetry, single-line shayaris, or other family bonds in terms of views and engagement. However, due to the relatively small and varying sample size across diverse topics, confidence is moderate, necessitating a continued focus on the winning pattern while keeping room for controlled experiments.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Dynamics",
-      "evidence": "Videos like 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,669 views) and 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,766 views) are clear outliers with 10x higher viewership than other formats.",
-      "action": "Double down on marital and long-term relationship themes, focusing on silent sacrifices and emotional distance in marriage."
+      "pattern": "Husband-Wife Relationship Realities",
+      "evidence": "Videos like 'पत्नी की ये बात हर पति को समझनी चाहिए' (1671 views) and 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1766 views, 61 likes) vastly outperformed all other content types.",
+      "action": "Prioritize narrative concepts centering on marital unspoken realities, communication gaps, and post-marriage emotional evolution."
     },
     {
-      "pattern": "Conversational Relatable Hooks",
-      "evidence": "Direct questions or observations about everyday relationship friction perform better than third-person poetic shayari.",
-      "action": "Use conversational second-person hooks that address the viewer directly about their domestic or romantic life."
+      "pattern": "Relatable Real-Life Everyday Dilemmas",
+      "evidence": "Videos addressing common situational conflicts or emotional states (e.g., relationship arguments, emotional podcast snippets like 'Har Baar Sorry Bolne Wala Galat Nahi Hota') generated higher baseline views (382 views).",
+      "action": "Frame hooks around daily micro-conflicts or unrecognized sacrifices within close relationships."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Pure Sad Poetry/Shayari",
-      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 12 views.",
-      "action": "Avoid heavy, abstract, or overly dramatic poetic verses; ground the emotion in tangible everyday situations."
+      "pattern": "Generic Sad Shayari / Abstract Quotes",
+      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 12 views, showing low traction for heavy or abstract poetry without a grounded everyday situation.",
+      "action": "Avoid abstract poetic lines as standalone hooks; always anchor the emotion in a concrete everyday scenario."
     },
     {
-      "pattern": "Broad Family Member Segments",
-      "evidence": "Clips dedicated individually to sisters or brothers had low engagement compared to core romantic and spousal relationships.",
-      "action": "Scale back on standalone sibling videos unless tied to a broader family relationship conflict."
+      "pattern": "Low Sample Niche Family Vibe Shorts",
+      "evidence": "Content focused on specific siblings or isolated family members (e.g., Sister/Brother videos) underperformed compared to core romantic/marital relationship topics (ranging between 19 to 136 views).",
+      "action": "Limit standalone sibling/family content unless tied directly to a broader relational psychology theme."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Melancholy & Realization",
-    "hook_style": "Observational domestic reality",
+    "emotion": "अधूरी मोहब्बत / ठहराव",
+    "hook_style": "Simple real-life observation about long-term relationship silence",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple sitting in complete silence in the living room, scrolling phones, realizing they know everything about their office colleagues but nothing about what their partner is currently feeling.",
-    "opening_direction": "Start with the sound of a clock ticking and a screen glowing on a tired face.",
-    "twist_direction": "End with the realization that the loudest fights in a marriage are dangerous, but the quiet distance is what actually kills love.",
-    "duration_seconds": 45,
-    "posting_window": "07:00 PM - 09:00 PM IST",
-    "reason": "Aligns with the proven high-performing husband-wife relationship niche and targets evening leisure scrolling when emotional reflection is highest."
+    "concept": "A couple sitting in complete silence in the living room, neither arguing nor talking, illustrating how silence in a mature relationship often hurts more than a loud fight.",
+    "opening_direction": "Start with the simple visual and audio cue of two tea cups cooling down on a table while the partners scroll through phones without exchanging a single glance.",
+    "twist_direction": "Reveal that they used to talk for hours about nothing, and now they have everything to say to each other except the one 'sorry' that could fix everything.",
+    "duration_seconds": 35,
+    "posting_window": "07:00 AM - 09:00 AM",
+    "reason": "Aligns directly with the top-performing husband-wife and relationship reality cluster ('or5gtaBpRVY' and 'my5mP9feI7s') while tapping into the morning commute viewing habit for emotional reflection."
   },
-  "experiment": "Testing whether shifting from direct spousal conflict to subtle emotional disconnection in marriage maintains the high viewership seen in previous relationship shorts.",
-  "updated_at": "2026-10-16T17:36:07.738852+00:00",
+  "experiment": "Testing a longer duration (35 seconds) narrative format on the proven husband-wife relationship topic to measure audience retention against shorter podcast/shayari clips.",
+  "updated_at": "2026-10-16T21:30:42.379754+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-16T17:36:19.616447+00:00"
+  "generated_at": "2026-10-16T21:30:47.537312+00:00"
 }
