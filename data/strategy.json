@@ -1,35 +1,35 @@
 {
-  "confidence": "75%",
+  "confidence": "45%",
   "data_points": 13,
-  "overall_summary": "The channel shows a clear performance spike in content related to 'Husband-Wife' dynamics and relationship complexities, significantly outperforming generic family-member tributes. Emotional depth in relationship reality resonates better than simple motivational or family-appreciation content.",
+  "overall_summary": "Analysis of the initial data shows that husband-wife dynamics and marital relationship topics significantly outperform family relationship queries like parents or siblings. Videos addressing marriage reality (e.g., 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1,766 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1,668 views) are clear breakout winners. General sad poetry and narrow family segments currently underperform. Since the data sample is small, confidence is low, and we must lean into the winning marital pattern while running a controlled experiment.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Dynamics",
-      "evidence": "Videos 'or5gtaBpRVY' and 'my5mP9feI7s' achieved 1668 and 1766 views respectively, the highest on the channel.",
-      "action": "Double down on relationship-based emotional conflicts."
+      "pattern": "Husband-Wife Relatable Realities",
+      "evidence": "Videos focusing on marital life questions ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?', 'पत्नी की ये बात हर पति को समझनी चाहिए') gained ~10x more views than general family videos.",
+      "action": "Double down on marriage, unspoken expectations between partners, and the evolution of love after marriage."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Family Tributes",
-      "evidence": "Videos about sisters and brothers (jfmMztnam_A, fAAoIQCRMXU) show significantly lower engagement compared to relationship content.",
-      "action": "Shift focus away from generic family appreciation toward specific, high-tension relationship scenarios."
+      "pattern": "Generic Sad Shayari & Isolated One-liners",
+      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 12 views.",
+      "action": "Move away from abstract or overly bitter poetic lines; anchor content firmly in observable everyday relationship moments."
     }
   ],
   "next_video": {
-    "topic": "अधूरी मोहब्बत / रिश्ते",
-    "emotion": "Melancholy and Reflection",
-    "hook_style": "Direct question about a common relationship habit",
-    "story_structure": "Simple: A couple sitting in silence -> Relatable: Checking the phone for a message that never comes -> Twist: Realizing the silence isn't lack of love, but the fear of starting an argument.",
-    "concept": "The silence between a couple that speaks louder than words.",
-    "opening_direction": "Start with a visual of a phone screen lighting up in a dark room.",
-    "twist_direction": "End with the realization that 'we are together, but no longer connected'.",
+    "topic": "रिश्ते",
+    "emotion": "nostalgia and realization",
+    "hook_style": "questioning a common post-marriage habit",
+    "story_structure": "simple -> relatable -> twist",
+    "concept": "A couple sitting in silence in the car or living room, neither looking at each other, realizing that being busy isn't why they stopped talking—they just ran out of things to say that won't hurt.",
+    "opening_direction": "Start with the quiet sound of a tea cup being placed on the table and a spouse asking 'Aur batao, din kaisa raha?' in a completely mechanical tone.",
+    "twist_direction": "The voiceover reveals that the scariest part isn't fighting anymore; it's the comfort of silence where neither of them tries to fix the distance.",
     "duration_seconds": 35,
-    "posting_window": "07:00 AM - 08:00 AM IST",
-    "reason": "Matches the high-performing time slots of previous successful relationship-themed videos."
+    "posting_window": "12:00 PM to 02:00 PM",
+    "reason": "Matches the proven high-performing window and topic cluster for marital relationship introspection."
   },
-  "experiment": "Testing a 'silent/visual-first' narrative approach versus the previous 'voiceover-heavy' style to see if it increases watch time.",
-  "updated_at": "2026-10-16T07:25:44.739356+00:00",
-  "model_used": "gemini-3.1-flash-lite",
-  "generated_at": "2026-10-16T07:25:47.258279+00:00"
+  "experiment": "Testing if shifting the husband-wife relationship angle from external stress to internal emotional silence increases comment engagement (which has been zero across most historical videos).",
+  "updated_at": "2026-10-16T12:38:27.649347+00:00",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-10-16T12:38:39.488487+00:00"
 }
