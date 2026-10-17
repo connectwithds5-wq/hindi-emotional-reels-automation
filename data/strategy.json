@@ -1,35 +1,40 @@
 {
-  "confidence": "35%",
+  "confidence": "65%",
   "data_points": 13,
-  "overall_summary": "Data volume is small and overall view counts are generally low, but husband-wife relationship content clearly outperforms sibling, parental, or general shayari content by roughly 10x.",
+  "overall_summary": "Data shows clear audience preference for husband-wife relationship dynamics and domestic emotional realities over generic sad poetry or heavy philosophical lines. Content focusing on married life received the highest engagement (1.6k+ views), while abstract poetry underperformed significantly.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Dynamics",
-      "evidence": "Videos about wives/husbands (or5gtaBpRVY with 1671 views and my5mP9feI7s with 1766 views) significantly outperformed all other family or emotional shayari topics.",
-      "action": "Double down on marital and relationship reality themes within the core channel topics."
+      "pattern": "Husband-Wife Relationship Realities",
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,766 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,671 views) significantly outperformed all other categories.",
+      "action": "Produce more narrative-driven shorts exploring unspoken marital expectations, emotional distance, and small everyday compromises."
+    },
+    {
+      "pattern": "Direct Relatable Hooks about Family/Loved Ones",
+      "evidence": "Videos addressing specific roles like 'Maa' (235 views), 'Papa' (142 views), and relationships ('रिश्ते खत्म नहीं होते' - 288 views) get steady traction compared to abstract heartbreak.",
+      "action": "Use specific familial or relational address points in titles rather than vague shayari."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Shayari and Sibling Topics",
-      "evidence": "Videos about sisters, brothers, and heavy sad shayari (e.g., YdWh4cDOE64 with 12 views, jfmMztnam_A with 19 views) generated almost zero traction.",
-      "action": "Acknowledge low-sample limits but phase out purely poetic or sibling-focused rants for now."
+      "pattern": "Abstract or Bitter Shayari",
+      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 12 views.",
+      "action": "Avoid overly dramatic, cynical, or dark poetry hooks. Keep the tone grounded in bittersweet emotional truth rather than bitterness."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "नस्टैल्जिया और अकेलापन",
-    "hook_style": "Real-life observation about silent moments after a fight",
+    "emotion": "Bittersweet realization",
+    "hook_style": "Observation on post-work silence between couples",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A husband looking at his sleeping wife's phone, realizing the text she wanted to send him was typed and deleted three times.",
-    "opening_direction": "जब लड़ाई के बाद दोनों अलग मुंह करके लेटते हैं, असल लड़ाई मोबाइल पर शुरू होती है।",
-    "twist_direction": "वो जो तीन बार लिखकर मैसेज डिलीट किया गया था, उसमें गिला नहीं... बस ये लिखा था 'सुनो, डर लगता है दूर होने से'।",
-    "duration_seconds": 10,
-    "posting_window": "07:00 AM - 09:00 AM",
-    "reason": "Leverages the proven high-performing husband-wife relationship theme while testing a subtle emotional twist regarding modern communication."
+    "concept": "A couple sitting in silence after a long day, where the husband thinks everything is fine because there's no fight, but the wife is mourning the unsaid conversations.",
+    "opening_direction": "Dhoop dhalne ke baad, chai ke cup ke sath woh khamoshi jo ab har shaam ka hissa ban gayi hai.",
+    "twist_direction": "Lekin asli dard woh nahi ki baat nahi hoti, dard yeh hai ki ab baat shuru karne ki wajah hi nahi bachti.",
+    "duration_seconds": 35,
+    "posting_window": "07:00 PM - 09:00 PM",
+    "reason": "Leverages the proven high-performing husband-wife and relationship dynamic theme while testing a nuanced emotional observation instead of direct conflict."
   },
-  "experiment": "Testing if deep emotional vulnerabilities in marital arguments drive higher engagement than broad relationship advice.",
-  "updated_at": "2026-10-17T00:40:56.517672+00:00",
+  "experiment": "Testing an emotional observation about modern marriage dynamics (silent emotional distance) rather than direct conflict or direct questions.",
+  "updated_at": "2026-10-17T05:53:56.655962+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-17T00:40:58.640187+00:00"
+  "generated_at": "2026-10-17T05:53:59.210796+00:00"
 }
