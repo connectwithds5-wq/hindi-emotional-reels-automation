@@ -1,35 +1,45 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Analysis of the 14 videos reveals a clear outperformance of relationship and marital dynamic themes (Husband-Wife, Shaadi ke baad pyaar) reaching up to 1.7k+ views, significantly outperforming generic sad shayari or standalone family member clips.",
+  "overall_summary": "Analysis of historical performance indicates that content focusing on complex emotional dynamics of marriage and husband-wife relationships significantly outperforms general relationship advice or pure poetry/shayari (e.g., 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1,766 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1,671 views). Pure abstract sad shayaris and low-effort reposts struggle to cross double digits. The channel should double down on grounded marital and domestic relationship realities while maintaining a small experimental bucket.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife / Relationship Dynamics",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,766 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,671 views) achieved the highest traction on the channel.",
-      "action": "Focus more core content on modern relationship realities and emotional distance after marriage."
+      "pattern": "Husband-Wife Relationship Realities",
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,766 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,671 views) generated 10x more views than any other category.",
+      "action": "Focus core content strategy around domestic life, subtle emotional disconnects, and unspoken partner dynamics."
+    },
+    {
+      "pattern": "Grounded Real-Life Micro-Moments",
+      "evidence": "Parent/family relational moments like 'माँ जब पूछती है “खाना खाया?”' (235 views) performed moderately better than generic poetry.",
+      "action": "Use specific, highly recognizable domestic dialogues as narrative entry points."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sad Shayari / Heavy Poetry",
-      "evidence": "Video titled 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' generated only 12 views.",
-      "action": "Avoid abstract, overly poetic, or bitter wording; stick to grounded, everyday relationship observations."
+      "pattern": "Abstract Heavy Shayari & Sad Quotes",
+      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 13 views.",
+      "action": "Avoid abstract, overly dramatic text overlays without a concrete relational situation anchoring them."
+    },
+    {
+      "pattern": "Generic Podcast/One-Liners",
+      "evidence": "Short podcast clips with generic titles like 'Ek Mard Bhi Kabhi Ladka Tha' underperformed (76 views) compared to direct narrative relationship insights.",
+      "action": "Prioritize narrative storytelling over voiceover sermonizing."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "नस्टैल्जिया और अकेलापन",
-    "hook_style": "Observation of daily routine silence",
+    "emotion": "अधूरी मोहब्बत / ठहराव",
+    "hook_style": "Visual action with a quiet realization dialogue",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple sitting in the same room scrolling phones in total silence, realizing they know everything about their phones, but nothing about each other's day anymore.",
-    "opening_direction": "Start with the sound of notification tones and a silent living room.",
-    "twist_direction": "The realization that physical closeness means nothing when the emotional distance is this wide.",
+    "concept": "A couple sitting in complete silence in the living room after years of marriage, where the husband notices the wife folding his clothes just like she used to do on day one, realizing that love didn't end—it just stopped making noise.",
+    "opening_direction": "Start with the sound of ticking a clock and a close-up of hands quietly organizing everyday objects.",
+    "twist_direction": "The twist reveals that the biggest proof of love isn't saying 'I love you' anymore, but refusing to let go when the conversation runs dry.",
     "duration_seconds": 35,
-    "posting_window": "07:00 AM - 09:00 AM",
-    "reason": "Aligns with the top-performing husband-wife relationship themes that drove the highest engagement historically."
+    "posting_window": "13:00 - 15:00 IST",
+    "reason": "Matches the proven high-performing husband-wife emotional realism format, leaning into subtle domestic nuances rather than dramatic arguments."
   },
-  "experiment": "Testing if emotional distance in modern routines drives higher engagement than direct marital conflict questions.",
-  "updated_at": "2026-10-17T17:25:47.622587+00:00",
+  "experiment": "Testing if a silent, observational domestic scene outperforms dialogue-heavy relationship shorts.",
+  "updated_at": "2026-10-17T19:37:33.082113+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-17T17:25:49.834152+00:00"
+  "generated_at": "2026-10-17T19:37:35.841642+00:00"
 }
