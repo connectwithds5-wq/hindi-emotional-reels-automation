@@ -1,45 +1,35 @@
 {
-  "confidence": "65%",
+  "confidence": "35%",
   "data_points": 14,
-  "overall_summary": "Analysis of historical performance indicates that content focusing on complex emotional dynamics of marriage and husband-wife relationships significantly outperforms general relationship advice or pure poetry/shayari (e.g., 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1,766 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1,671 views). Pure abstract sad shayaris and low-effort reposts struggle to cross double digits. The channel should double down on grounded marital and domestic relationship realities while maintaining a small experimental bucket.",
+  "overall_summary": "Data volume is low, leading to low statistical confidence. However, a clear outlier pattern emerges around marital and relationship dynamics (Husband-Wife topics), which significantly outperform general family shayari or standalone sad poetry.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,766 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,671 views) generated 10x more views than any other category.",
-      "action": "Focus core content strategy around domestic life, subtle emotional disconnects, and unspoken partner dynamics."
-    },
-    {
-      "pattern": "Grounded Real-Life Micro-Moments",
-      "evidence": "Parent/family relational moments like 'माँ जब पूछती है “खाना खाया?”' (235 views) performed moderately better than generic poetry.",
-      "action": "Use specific, highly recognizable domestic dialogues as narrative entry points."
+      "pattern": "Husband-Wife Relationship Dynamics",
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,766 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,672 views) received nearly 10x the views of other topics.",
+      "action": "Double down on marriage, couple friction, and emotional drift over time as the primary repeatable topic."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Heavy Shayari & Sad Quotes",
-      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 13 views.",
-      "action": "Avoid abstract, overly dramatic text overlays without a concrete relational situation anchoring them."
-    },
-    {
-      "pattern": "Generic Podcast/One-Liners",
-      "evidence": "Short podcast clips with generic titles like 'Ek Mard Bhi Kabhi Ladka Tha' underperformed (76 views) compared to direct narrative relationship insights.",
-      "action": "Prioritize narrative storytelling over voiceover sermonizing."
+      "pattern": "Generic Sad Shayari & Isolated Quotes",
+      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 13 views.",
+      "action": "Avoid heavy, abstract, or overly poetic sad shayari; ground the emotion in concrete everyday relationship observations."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "अधूरी मोहब्बत / ठहराव",
-    "hook_style": "Visual action with a quiet realization dialogue",
+    "emotion": "नस्टैल्जिया और अकेलापन",
+    "hook_style": "Real-life observation about how text messages change over years of marriage",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple sitting in complete silence in the living room after years of marriage, where the husband notices the wife folding his clothes just like she used to do on day one, realizing that love didn't end—it just stopped making noise.",
-    "opening_direction": "Start with the sound of ticking a clock and a close-up of hands quietly organizing everyday objects.",
-    "twist_direction": "The twist reveals that the biggest proof of love isn't saying 'I love you' anymore, but refusing to let go when the conversation runs dry.",
+    "concept": "A couple who used to talk for hours on phone calls now only communicate via grocery lists and forwarding memes on WhatsApp.",
+    "opening_direction": "Start with the sound of a WhatsApp notification and a screen showing a grocery list sent by the partner.",
+    "twist_direction": "Reveal that they are sitting in the same room, silently wishing the other would just ask 'How was your day?' instead.",
     "duration_seconds": 35,
-    "posting_window": "13:00 - 15:00 IST",
-    "reason": "Matches the proven high-performing husband-wife emotional realism format, leaning into subtle domestic nuances rather than dramatic arguments."
+    "posting_window": "01:00 PM - 03:00 PM",
+    "reason": "Matches the proven high-performing husband-wife relationship slot while testing a subtle, relatable lifestyle micro-habit instead of a heavy dramatic twist."
   },
-  "experiment": "Testing if a silent, observational domestic scene outperforms dialogue-heavy relationship shorts.",
-  "updated_at": "2026-10-17T19:37:33.082113+00:00",
+  "experiment": "Testing if micro-habits in long-term relationships (texting vs talking) drive higher engagement than direct emotional questions.",
+  "updated_at": "2026-10-17T22:31:12.796598+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-17T19:37:35.841642+00:00"
+  "generated_at": "2026-10-17T22:31:14.899767+00:00"
 }
