@@ -1,40 +1,35 @@
 {
   "confidence": "65%",
   "data_points": 13,
-  "overall_summary": "Data shows clear audience preference for husband-wife relationship dynamics and domestic emotional realities over generic sad poetry or heavy philosophical lines. Content focusing on married life received the highest engagement (1.6k+ views), while abstract poetry underperformed significantly.",
+  "overall_summary": "Analysis of historical performance indicates that content focusing on complex or dynamic marital relationships (husband-wife) significantly outperforms parental, sibling, or generic sad poetry formats. Specifically, titles addressing marital realities ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?' and 'पत्नी की ये बात हर पति को समझनी चाहिए') achieved views above 1,600, whereas standard sibling or generic shayari videos struggled below 250 views.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,766 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,671 views) significantly outperformed all other categories.",
-      "action": "Produce more narrative-driven shorts exploring unspoken marital expectations, emotional distance, and small everyday compromises."
-    },
-    {
-      "pattern": "Direct Relatable Hooks about Family/Loved Ones",
-      "evidence": "Videos addressing specific roles like 'Maa' (235 views), 'Papa' (142 views), and relationships ('रिश्ते खत्म नहीं होते' - 288 views) get steady traction compared to abstract heartbreak.",
-      "action": "Use specific familial or relational address points in titles rather than vague shayari."
+      "pattern": "Marital/Relationship Dynamics",
+      "evidence": "Videos centered on husband-wife understanding and post-marriage realities generated 1,600+ views (e.g., 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1,766 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1,671 views).",
+      "action": "Double down on core relationship and marriage tension topics under the 'रिश्ते' and 'ओवरथिंकिंग' pillars."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract or Bitter Shayari",
-      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 12 views.",
-      "action": "Avoid overly dramatic, cynical, or dark poetry hooks. Keep the tone grounded in bittersweet emotional truth rather than bitterness."
+      "pattern": "Generic Sad Poetry & Sibling Formats",
+      "evidence": "Clips focused on sibling love or raw sad poetry ('जिस दिन सच लिखूंगा…' or duplicate sister videos) received under 150 views and minimal engagement.",
+      "action": "Avoid generic sad shayaris and overly saturated sibling tropes; shift focus entirely toward intimate relational dynamics."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
     "emotion": "Bittersweet realization",
-    "hook_style": "Observation on post-work silence between couples",
+    "hook_style": "Observation on unsaid words after a minor argument",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple sitting in silence after a long day, where the husband thinks everything is fine because there's no fight, but the wife is mourning the unsaid conversations.",
-    "opening_direction": "Dhoop dhalne ke baad, chai ke cup ke sath woh khamoshi jo ab har shaam ka hissa ban gayi hai.",
-    "twist_direction": "Lekin asli dard woh nahi ki baat nahi hoti, dard yeh hai ki ab baat shuru karne ki wajah hi nahi bachti.",
+    "concept": "A short exploration of how a husband and wife stop arguing not because they resolved the fight, but because they are simply exhausted, highlighting the silent distance that grows in modern marriages.",
+    "opening_direction": "Start with a quiet late-night scene: two people sitting in the same room, looking at their phones, avoiding eye contact after a silly argument.",
+    "twist_direction": "The realization that the silence isn't peace—it's the sound of love slowly learning to live without expectations.",
     "duration_seconds": 35,
-    "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Leverages the proven high-performing husband-wife and relationship dynamic theme while testing a nuanced emotional observation instead of direct conflict."
+    "posting_window": "12:00 PM - 02:00 PM or 07:00 PM - 09:00 PM IST based on top performing husband-wife short timings",
+    "reason": "Leverages the proven high-performing husband-wife relationship topic while integrating a fresh narrative on modern overthinking and emotional exhaustion."
   },
-  "experiment": "Testing an emotional observation about modern marriage dynamics (silent emotional distance) rather than direct conflict or direct questions.",
-  "updated_at": "2026-10-17T05:53:56.655962+00:00",
+  "experiment": "Testing an emotional narrative centered on post-argument silence and emotional exhaustion within marriage to see if it can surpass the 1,700-view benchmark set by previous relationship shorts.",
+  "updated_at": "2026-10-17T11:03:01.798743+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-17T05:53:59.210796+00:00"
+  "generated_at": "2026-10-17T11:03:04.275712+00:00"
 }
