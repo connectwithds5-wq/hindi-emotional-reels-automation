@@ -1,45 +1,35 @@
 {
-  "confidence": "65%",
+  "confidence": "35%",
   "data_points": 13,
-  "overall_summary": "The performance data clearly highlights that core relationship dynamic topics (specifically Husband-Wife relations and mutual understanding) significantly outperform general poetry, single-line shayaris, or other family bonds in terms of views and engagement. However, due to the relatively small and varying sample size across diverse topics, confidence is moderate, necessitating a continued focus on the winning pattern while keeping room for controlled experiments.",
+  "overall_summary": "Data volume is small and overall view counts are generally low, but husband-wife relationship content clearly outperforms sibling, parental, or general shayari content by roughly 10x.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos like 'पत्नी की ये बात हर पति को समझनी चाहिए' (1671 views) and 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1766 views, 61 likes) vastly outperformed all other content types.",
-      "action": "Prioritize narrative concepts centering on marital unspoken realities, communication gaps, and post-marriage emotional evolution."
-    },
-    {
-      "pattern": "Relatable Real-Life Everyday Dilemmas",
-      "evidence": "Videos addressing common situational conflicts or emotional states (e.g., relationship arguments, emotional podcast snippets like 'Har Baar Sorry Bolne Wala Galat Nahi Hota') generated higher baseline views (382 views).",
-      "action": "Frame hooks around daily micro-conflicts or unrecognized sacrifices within close relationships."
+      "pattern": "Husband-Wife Dynamics",
+      "evidence": "Videos about wives/husbands (or5gtaBpRVY with 1671 views and my5mP9feI7s with 1766 views) significantly outperformed all other family or emotional shayari topics.",
+      "action": "Double down on marital and relationship reality themes within the core channel topics."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sad Shayari / Abstract Quotes",
-      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 12 views, showing low traction for heavy or abstract poetry without a grounded everyday situation.",
-      "action": "Avoid abstract poetic lines as standalone hooks; always anchor the emotion in a concrete everyday scenario."
-    },
-    {
-      "pattern": "Low Sample Niche Family Vibe Shorts",
-      "evidence": "Content focused on specific siblings or isolated family members (e.g., Sister/Brother videos) underperformed compared to core romantic/marital relationship topics (ranging between 19 to 136 views).",
-      "action": "Limit standalone sibling/family content unless tied directly to a broader relational psychology theme."
+      "pattern": "Generic Shayari and Sibling Topics",
+      "evidence": "Videos about sisters, brothers, and heavy sad shayari (e.g., YdWh4cDOE64 with 12 views, jfmMztnam_A with 19 views) generated almost zero traction.",
+      "action": "Acknowledge low-sample limits but phase out purely poetic or sibling-focused rants for now."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "अधूरी मोहब्बत / ठहराव",
-    "hook_style": "Simple real-life observation about long-term relationship silence",
+    "emotion": "नस्टैल्जिया और अकेलापन",
+    "hook_style": "Real-life observation about silent moments after a fight",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple sitting in complete silence in the living room, neither arguing nor talking, illustrating how silence in a mature relationship often hurts more than a loud fight.",
-    "opening_direction": "Start with the simple visual and audio cue of two tea cups cooling down on a table while the partners scroll through phones without exchanging a single glance.",
-    "twist_direction": "Reveal that they used to talk for hours about nothing, and now they have everything to say to each other except the one 'sorry' that could fix everything.",
-    "duration_seconds": 35,
+    "concept": "A husband looking at his sleeping wife's phone, realizing the text she wanted to send him was typed and deleted three times.",
+    "opening_direction": "जब लड़ाई के बाद दोनों अलग मुंह करके लेटते हैं, असल लड़ाई मोबाइल पर शुरू होती है।",
+    "twist_direction": "वो जो तीन बार लिखकर मैसेज डिलीट किया गया था, उसमें गिला नहीं... बस ये लिखा था 'सुनो, डर लगता है दूर होने से'।",
+    "duration_seconds": 10,
     "posting_window": "07:00 AM - 09:00 AM",
-    "reason": "Aligns directly with the top-performing husband-wife and relationship reality cluster ('or5gtaBpRVY' and 'my5mP9feI7s') while tapping into the morning commute viewing habit for emotional reflection."
+    "reason": "Leverages the proven high-performing husband-wife relationship theme while testing a subtle emotional twist regarding modern communication."
   },
-  "experiment": "Testing a longer duration (35 seconds) narrative format on the proven husband-wife relationship topic to measure audience retention against shorter podcast/shayari clips.",
-  "updated_at": "2026-10-16T21:30:42.379754+00:00",
+  "experiment": "Testing if deep emotional vulnerabilities in marital arguments drive higher engagement than broad relationship advice.",
+  "updated_at": "2026-10-17T00:40:56.517672+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-16T21:30:47.537312+00:00"
+  "generated_at": "2026-10-17T00:40:58.640187+00:00"
 }
