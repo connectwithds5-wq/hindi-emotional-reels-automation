@@ -1,35 +1,35 @@
 {
-  "confidence": "45%",
-  "data_points": 13,
-  "overall_summary": "Data shows that broader family and domestic relationship topics (especially husband-wife dynamics) significantly outperform niche shayari or generic relationship advice, drawing over 10x more views. However, sample size is limited, so we lean towards proven domestic relationship themes while using a small experiment.",
+  "confidence": "65%",
+  "data_points": 14,
+  "overall_summary": "Analysis of the 14 videos reveals a clear outperformance of relationship and marital dynamic themes (Husband-Wife, Shaadi ke baad pyaar) reaching up to 1.7k+ views, significantly outperforming generic sad shayari or standalone family member clips.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Dilemmas",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,766 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,671 views) heavily outperformed all other content.",
-      "action": "Double down on marital and domestic partnership emotional struggles."
+      "pattern": "Husband-Wife / Relationship Dynamics",
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,766 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,671 views) achieved the highest traction on the channel.",
+      "action": "Focus more core content on modern relationship realities and emotional distance after marriage."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "High-brow or abstract sad Shayari",
-      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 12 views.",
-      "action": "Avoid overly poetic or abstract heartbreak lines; stick to grounded, everyday emotional scenarios."
+      "pattern": "Generic Sad Shayari / Heavy Poetry",
+      "evidence": "Video titled 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' generated only 12 views.",
+      "action": "Avoid abstract, overly poetic, or bitter wording; stick to grounded, everyday relationship observations."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Melancholic yet grounding",
-    "hook_style": "Direct observational question about unspoken distance between partners",
+    "emotion": "नस्टैल्जिया और अकेलापन",
+    "hook_style": "Observation of daily routine silence",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A husband and wife sitting in complete silence in the living room, scrolling phones, realizing they know everything about their office colleagues but nothing about what the other is feeling today.",
-    "opening_direction": "Start with the sound of a phone scroll and a heavy sigh in a quiet room.",
-    "twist_direction": "The realization that the biggest distance isn't physical, it's the silence built over small unsaid apologies.",
+    "concept": "A couple sitting in the same room scrolling phones in total silence, realizing they know everything about their phones, but nothing about each other's day anymore.",
+    "opening_direction": "Start with the sound of notification tones and a silent living room.",
+    "twist_direction": "The realization that physical closeness means nothing when the emotional distance is this wide.",
     "duration_seconds": 35,
-    "posting_window": "13:00 - 14:00 (matching the high-performing upload time of successful marital shorts)",
-    "reason": "Capitalizes on the proven high-engagement 'husband-wife' relationship pattern while keeping the narrative grounded in everyday relatability."
+    "posting_window": "07:00 AM - 09:00 AM",
+    "reason": "Aligns with the top-performing husband-wife relationship themes that drove the highest engagement historically."
   },
-  "experiment": "Testing if adding a subtle background ambient sound (like ticking clock or quiet room tone) increases retention on relationship shorts compared to pure background music.",
-  "updated_at": "2026-10-17T14:19:21.279069+00:00",
+  "experiment": "Testing if emotional distance in modern routines drives higher engagement than direct marital conflict questions.",
+  "updated_at": "2026-10-17T17:25:47.622587+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-17T14:19:23.557814+00:00"
+  "generated_at": "2026-10-17T17:25:49.834152+00:00"
 }
