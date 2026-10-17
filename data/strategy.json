@@ -1,35 +1,35 @@
 {
-  "confidence": "65%",
+  "confidence": "45%",
   "data_points": 13,
-  "overall_summary": "Analysis of historical performance indicates that content focusing on complex or dynamic marital relationships (husband-wife) significantly outperforms parental, sibling, or generic sad poetry formats. Specifically, titles addressing marital realities ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?' and 'पत्नी की ये बात हर पति को समझनी चाहिए') achieved views above 1,600, whereas standard sibling or generic shayari videos struggled below 250 views.",
+  "overall_summary": "Data shows that broader family and domestic relationship topics (especially husband-wife dynamics) significantly outperform niche shayari or generic relationship advice, drawing over 10x more views. However, sample size is limited, so we lean towards proven domestic relationship themes while using a small experiment.",
   "winning_patterns": [
     {
-      "pattern": "Marital/Relationship Dynamics",
-      "evidence": "Videos centered on husband-wife understanding and post-marriage realities generated 1,600+ views (e.g., 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1,766 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1,671 views).",
-      "action": "Double down on core relationship and marriage tension topics under the 'रिश्ते' and 'ओवरथिंकिंग' pillars."
+      "pattern": "Husband-Wife Relationship Dilemmas",
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,766 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,671 views) heavily outperformed all other content.",
+      "action": "Double down on marital and domestic partnership emotional struggles."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sad Poetry & Sibling Formats",
-      "evidence": "Clips focused on sibling love or raw sad poetry ('जिस दिन सच लिखूंगा…' or duplicate sister videos) received under 150 views and minimal engagement.",
-      "action": "Avoid generic sad shayaris and overly saturated sibling tropes; shift focus entirely toward intimate relational dynamics."
+      "pattern": "High-brow or abstract sad Shayari",
+      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 12 views.",
+      "action": "Avoid overly poetic or abstract heartbreak lines; stick to grounded, everyday emotional scenarios."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Bittersweet realization",
-    "hook_style": "Observation on unsaid words after a minor argument",
+    "emotion": "Melancholic yet grounding",
+    "hook_style": "Direct observational question about unspoken distance between partners",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short exploration of how a husband and wife stop arguing not because they resolved the fight, but because they are simply exhausted, highlighting the silent distance that grows in modern marriages.",
-    "opening_direction": "Start with a quiet late-night scene: two people sitting in the same room, looking at their phones, avoiding eye contact after a silly argument.",
-    "twist_direction": "The realization that the silence isn't peace—it's the sound of love slowly learning to live without expectations.",
+    "concept": "A husband and wife sitting in complete silence in the living room, scrolling phones, realizing they know everything about their office colleagues but nothing about what the other is feeling today.",
+    "opening_direction": "Start with the sound of a phone scroll and a heavy sigh in a quiet room.",
+    "twist_direction": "The realization that the biggest distance isn't physical, it's the silence built over small unsaid apologies.",
     "duration_seconds": 35,
-    "posting_window": "12:00 PM - 02:00 PM or 07:00 PM - 09:00 PM IST based on top performing husband-wife short timings",
-    "reason": "Leverages the proven high-performing husband-wife relationship topic while integrating a fresh narrative on modern overthinking and emotional exhaustion."
+    "posting_window": "13:00 - 14:00 (matching the high-performing upload time of successful marital shorts)",
+    "reason": "Capitalizes on the proven high-engagement 'husband-wife' relationship pattern while keeping the narrative grounded in everyday relatability."
   },
-  "experiment": "Testing an emotional narrative centered on post-argument silence and emotional exhaustion within marriage to see if it can surpass the 1,700-view benchmark set by previous relationship shorts.",
-  "updated_at": "2026-10-17T11:03:01.798743+00:00",
+  "experiment": "Testing if adding a subtle background ambient sound (like ticking clock or quiet room tone) increases retention on relationship shorts compared to pure background music.",
+  "updated_at": "2026-10-17T14:19:21.279069+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-17T11:03:04.275712+00:00"
+  "generated_at": "2026-10-17T14:19:23.557814+00:00"
 }
