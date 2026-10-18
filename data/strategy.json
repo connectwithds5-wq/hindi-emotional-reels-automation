@@ -1,40 +1,35 @@
 {
-  "confidence": "60%",
+  "confidence": "35%",
   "data_points": 14,
-  "overall_summary": "Husband-wife emotional relationship dynamics significantly outperform general family, motivation, or solo shayari topics. Sample size is small (14 videos), but the clear engagement outlier signals a strong demand for relatable post-marriage relationship reflections.",
+  "overall_summary": "Data shows clear outlier performance for husband-wife relationship dynamics ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1766 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1672 views), heavily outperforming standard family emotional shayari or pure sad poetry shorts. Overall sample size is still relatively low, pointing toward a need to double down on marital/relationship reality while keeping a small budget for testing other emotional hooks.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife / Post-Marriage Relationship Realities",
-      "evidence": "Top 2 videos ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1,766 views/61 likes and 'पत्नी की ये बात...' with 1,672 views/50 likes) generated 80%+ of total channel views.",
-      "action": "Focus core content strategy on post-marriage emotional friction, unsaid feelings, and everyday marital dynamics."
+      "pattern": "Husband-Wife Relationship Realities",
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1.7k+ views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1.6k+ views) gained significantly higher organic traction than general family or poetry videos.",
+      "action": "Focus upcoming primary content on modern relationship friction, unspoken marital expectations, and love post-marriage."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Sad Shayari & Generic Motivation",
-      "evidence": "'जिस दिन सच लिखूंगा...' got 13 views and 'तुम थके हो… हारे नहीं' got 172 views with low engagement.",
-      "action": "Avoid generic self-motivation and abstract poetry without a specific real-life scenario ground."
-    },
-    {
-      "pattern": "Sibling / Bro-Sis Emotion Shorts",
-      "evidence": "Bhai/Behen videos averaged 19 to 136 views with negligible likes/comments.",
-      "action": "Deprioritize sibling content unless connected to a high-converting core narrative angle."
+      "pattern": "Heavy Sad Shayari / Abstract Poetry",
+      "evidence": "Video 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 13 views, showing low initial click-through and retention for overly dramatic text.",
+      "action": "Avoid abstract, overly poetic lines as titles; ground them in tangible real-life scenarios."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "quiet realization & bittersweet love",
-    "hook_style": "Direct relational curiosity callout",
+    "emotion": "Nostalgia and realization",
+    "hook_style": "Relatable marital observation",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A tired husband comes home late to cold food, assuming his wife is angry, only to notice a handwritten note tucked under his plate.",
-    "opening_direction": "Show late-night clock ticking with plate of covered food on dining table and silent room ambiance.",
-    "twist_direction": "Instead of an argument, the note reveals she stayed up keeping the food warm despite her own grueling day.",
-    "duration_seconds": 25,
-    "posting_window": "13:00-14:00 IST (based on high performance timestamp of top video published at 13:12 UTC / evening leisure consumption)",
-    "reason": "Leverages the proven high-performing husband-wife relationship niche while introducing a fresh emotional narrative hook rather than standard quotes."
+    "concept": "A husband finding an old love letter or a small note tucked away in his wife's old diary years after marriage, realizing how much quiet sacrifice she made without complaining.",
+    "opening_direction": "Start with the physical action of cleaning out an old drawer and stumbling upon a forgotten object from early marriage days.",
+    "twist_direction": "The realization that while they stopped saying 'I love you' out loud years ago, her daily routine quietly screams it louder than before.",
+    "duration_seconds": 35,
+    "posting_window": "13:00 - 15:00 UTC",
+    "reason": "Matches the proven high-performing window and content category (husband-wife emotional realities) seen in previous top shorts."
   },
-  "experiment": "Testing direct visual narrative storytelling (visual text note twist) vs audio voiceover alone in the husband-wife content category.",
-  "updated_at": "2026-10-18T16:03:22.120470+00:00",
-  "model_used": "gemini-3.6-flash",
-  "generated_at": "2026-10-18T16:03:30.574624+00:00"
+  "experiment": "Testing if incorporating a physical nostalgic prop (an old diary/note) inside a husband-wife relationship narrative boosts average view duration compared to dialogue-only shorts.",
+  "updated_at": "2026-10-18T18:46:37.019382+00:00",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-10-18T18:46:39.671388+00:00"
 }
