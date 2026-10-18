@@ -1,35 +1,45 @@
 {
-  "confidence": "35%",
+  "confidence": "75%",
   "data_points": 14,
-  "overall_summary": "Data volume is low, leading to low statistical confidence. However, a clear outlier pattern emerges around marital and relationship dynamics (Husband-Wife topics), which significantly outperform general family shayari or standalone sad poetry.",
+  "overall_summary": "Analysis of the historical data reveals that husband-wife relationship topics and mature relationship realities significantly outperform family member tropes (like brother/sister/mother) and dark poetic shayaris on this channel. Content dealing with everyday marital distance and relationship expectations yields the highest views (1,700+ views), while heavy abstract poetry suffers from low reach.",
   "winning_patterns": [
     {
       "pattern": "Husband-Wife Relationship Dynamics",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,766 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,672 views) received nearly 10x the views of other topics.",
-      "action": "Double down on marriage, couple friction, and emotional drift over time as the primary repeatable topic."
+      "evidence": "Videos like 'पत्नी की ये बात हर पति को समझनी चाहिए' (1672 views) and 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1766 views) performed exceptionally higher than all other topics.",
+      "action": "Double down on husband-wife relationship topics, focusing on unspoken emotional distance after marriage."
+    },
+    {
+      "pattern": "Direct Relatable Questions as Titles",
+      "evidence": "Titles framing a common internal thought or relational question with emojis (❤️ / ❤️‍🩹) drive higher click-throughs and engagement.",
+      "action": "Use conversational, deeply relatable questions in Hindi/Hinglish as titles."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sad Shayari & Isolated Quotes",
-      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 13 views.",
-      "action": "Avoid heavy, abstract, or overly poetic sad shayari; ground the emotion in concrete everyday relationship observations."
+      "pattern": "Abstract or Heavy Sad Shayari",
+      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 13 views, showing lack of immediate audience hook.",
+      "action": "Avoid overly poetic, dramatic, or bitter shayari; keep language grounded in daily life emotions."
+    },
+    {
+      "pattern": "Niche Family Member Tropes without broad appeal",
+      "evidence": "Sister/brother specific videos (e.g., 'बहन सिर्फ घर की रौनक होती है') hovered between 19 to 136 views.",
+      "action": "Shift focus away from extended family tropes unless tied to a core relationship lesson."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "नस्टैल्जिया और अकेलापन",
-    "hook_style": "Real-life observation about how text messages change over years of marriage",
+    "emotion": "नस्टेल्जिया और अकेलापन",
+    "hook_style": "Real-life observation about how silence creeps into long-term relationships",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple who used to talk for hours on phone calls now only communicate via grocery lists and forwarding memes on WhatsApp.",
-    "opening_direction": "Start with the sound of a WhatsApp notification and a screen showing a grocery list sent by the partner.",
-    "twist_direction": "Reveal that they are sitting in the same room, silently wishing the other would just ask 'How was your day?' instead.",
+    "concept": "A short piece on how two people sitting in the same room don't talk anymore, scrolling phones instead, pretending everything is fine until a sudden realization hits.",
+    "opening_direction": "Start with the sound of notification tones and a silent living room late at night.",
+    "twist_direction": "The realization that they aren't fighting anymore because they have stopped expecting anything from each other.",
     "duration_seconds": 35,
-    "posting_window": "01:00 PM - 03:00 PM",
-    "reason": "Matches the proven high-performing husband-wife relationship slot while testing a subtle, relatable lifestyle micro-habit instead of a heavy dramatic twist."
+    "posting_window": "07:00 PM - 09:00 PM",
+    "reason": "Aligns with the proven success of relationship reality content (like the wife/husband shorts) and targets late-night overthinking audiences during peak evening hours."
   },
-  "experiment": "Testing if micro-habits in long-term relationships (texting vs talking) drive higher engagement than direct emotional questions.",
-  "updated_at": "2026-10-17T22:31:12.796598+00:00",
+  "experiment": "Testing if shifting the relationship focus from marital conflict to the subtle emotional disconnect of modern routine maintains the 1,500+ view baseline.",
+  "updated_at": "2026-10-18T01:22:35.581704+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-17T22:31:14.899767+00:00"
+  "generated_at": "2026-10-18T01:22:38.341464+00:00"
 }
