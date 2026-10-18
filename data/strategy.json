@@ -1,45 +1,40 @@
 {
-  "confidence": "65%",
+  "confidence": "60%",
   "data_points": 14,
-  "overall_summary": "Analysis of the historical performance indicates that deep family dynamics, specifically centered on husband-wife relationships and marriage realities, significantly outperform abstract poetry or general relationship podcast formats. Topics highlighting 'wife' or 'shaadi ke baad' generated the highest views (1,600+), while abstract sad shayari and broad relationship quotes underperformed significantly.",
+  "overall_summary": "Husband-wife emotional relationship dynamics significantly outperform general family, motivation, or solo shayari topics. Sample size is small (14 videos), but the clear engagement outlier signals a strong demand for relatable post-marriage relationship reflections.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife / Post-Marriage Realities",
-      "evidence": "Videos like 'पत्नी की ये बात हर पति को समझनी चाहिए' (1672 views) and 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1766 views) drastically outperformed everything else on the channel.",
-      "action": "Double down on domestic relationship dynamics, focusing on silent sacrifices and unspoken emotional distance in marriage."
-    },
-    {
-      "pattern": "Direct, Relatable Relational Hooks",
-      "evidence": "Simple direct addresses like 'आज किसी अपने को Call कर लेना' (288 views) and 'माँ जब पूछती है...' (235 views) perform better than complex or poetic phrasing.",
-      "action": "Use conversational, highly recognizable domestic situations as opening frames."
+      "pattern": "Husband-Wife / Post-Marriage Relationship Realities",
+      "evidence": "Top 2 videos ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1,766 views/61 likes and 'पत्नी की ये बात...' with 1,672 views/50 likes) generated 80%+ of total channel views.",
+      "action": "Focus core content strategy on post-marriage emotional friction, unsaid feelings, and everyday marital dynamics."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Sad Shayari / Heavy Wording",
-      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 13 views, showing that dramatic poetry lacks broad traction compared to grounded realism.",
-      "action": "Avoid overly dramatic, poetic, or generic sad shayari lines; focus on grounded middle-class life observations."
+      "pattern": "Abstract Sad Shayari & Generic Motivation",
+      "evidence": "'जिस दिन सच लिखूंगा...' got 13 views and 'तुम थके हो… हारे नहीं' got 172 views with low engagement.",
+      "action": "Avoid generic self-motivation and abstract poetry without a specific real-life scenario ground."
     },
     {
-      "pattern": "Generic Podcast Clips",
-      "evidence": "Clips framed explicitly as 'Hindi Emotional Podcast #Shorts' underperformed relative to direct native emotional storytelling.",
-      "action": "Drop podcast-style labeling in titles and focus purely on intimate, direct storytelling."
+      "pattern": "Sibling / Bro-Sis Emotion Shorts",
+      "evidence": "Bhai/Behen videos averaged 19 to 136 views with negligible likes/comments.",
+      "action": "Deprioritize sibling content unless connected to a high-converting core narrative angle."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "नस्टैल्जिया और अकेलापन",
-    "hook_style": "Simple real-life domestic observation",
+    "emotion": "quiet realization & bittersweet love",
+    "hook_style": "Direct relational curiosity callout",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A husband finding an old forgotten shopping list or a small note written by his wife years ago, realizing how much quiet change has happened in their routines.",
-    "opening_direction": "Almari saf karte waqt achanak purani list ya purana bill mil jana jispe kuch likha ho.",
-    "twist_direction": "Yeh yaad aana ki tab aur ab ke beech mein baatein kitni kam ho gayi hain, par pyaar wahi hai.",
-    "duration_seconds": 45,
-    "posting_window": "13:00 - 15:00 IST",
-    "reason": "Leverages the proven high-performing husband-wife relationship niche while incorporating a nostalgic emotional twist."
+    "concept": "A tired husband comes home late to cold food, assuming his wife is angry, only to notice a handwritten note tucked under his plate.",
+    "opening_direction": "Show late-night clock ticking with plate of covered food on dining table and silent room ambiance.",
+    "twist_direction": "Instead of an argument, the note reveals she stayed up keeping the food warm despite her own grueling day.",
+    "duration_seconds": 25,
+    "posting_window": "13:00-14:00 IST (based on high performance timestamp of top video published at 13:12 UTC / evening leisure consumption)",
+    "reason": "Leverages the proven high-performing husband-wife relationship niche while introducing a fresh emotional narrative hook rather than standard quotes."
   },
-  "experiment": "Testing if shifting the husband-wife dynamic from direct advice to a nostalgic, object-triggered memory retains the high view count of previous top performers.",
-  "updated_at": "2026-10-18T11:33:28.499831+00:00",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-18T11:33:38.453751+00:00"
+  "experiment": "Testing direct visual narrative storytelling (visual text note twist) vs audio voiceover alone in the husband-wife content category.",
+  "updated_at": "2026-10-18T16:03:22.120470+00:00",
+  "model_used": "gemini-3.6-flash",
+  "generated_at": "2026-10-18T16:03:30.574624+00:00"
 }
