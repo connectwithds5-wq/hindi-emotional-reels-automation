@@ -1,35 +1,45 @@
 {
-  "confidence": "35%",
+  "confidence": "75%",
   "data_points": 14,
-  "overall_summary": "Data shows clear outlier performance for husband-wife relationship dynamics ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1766 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1672 views), heavily outperforming standard family emotional shayari or pure sad poetry shorts. Overall sample size is still relatively low, pointing toward a need to double down on marital/relationship reality while keeping a small budget for testing other emotional hooks.",
+  "overall_summary": "Analysis of the historical performance indicates that deep relationship dynamics, specifically around husband-wife bonds and everyday relationship realism, significantly outperform general family or generic sad shayari formats. Videos focusing on married life ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1,766 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1,672 views) drove the highest engagement.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1.7k+ views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1.6k+ views) gained significantly higher organic traction than general family or poetry videos.",
-      "action": "Focus upcoming primary content on modern relationship friction, unspoken marital expectations, and love post-marriage."
+      "pattern": "Husband-Wife Relationship Realism",
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,766 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,672 views) garnered exceptionally high views compared to generic content.",
+      "action": "Double down on mature relationship dynamics, post-marriage adjustments, and unspoken partner conflicts."
+    },
+    {
+      "pattern": "Direct Relatable Question Hooks",
+      "evidence": "Titles framing a direct, curious, or emotionally resonant question about daily life perform better than standard third-person shayari statements.",
+      "action": "Use conversational, direct-address questions for the hook."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Heavy Sad Shayari / Abstract Poetry",
-      "evidence": "Video 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 13 views, showing low initial click-through and retention for overly dramatic text.",
-      "action": "Avoid abstract, overly poetic lines as titles; ground them in tangible real-life scenarios."
+      "pattern": "Generic Sad Shayari / Heavy Metaphors",
+      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 13 views.",
+      "action": "Avoid overly poetic, abstract, or dramatic phrasing; ground the content in everyday realistic observations."
+    },
+    {
+      "pattern": "Low-Sample Broad Family Tropes",
+      "evidence": "Single isolated sister/brother videos had lower traction unless tied to an immediate relatable daily emotion.",
+      "action": "Focus storytelling on universal interpersonal tensions rather than niche familial roles."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Nostalgia and realization",
-    "hook_style": "Relatable marital observation",
+    "emotion": "Melancholy / Realization",
+    "hook_style": "Direct observation about silent treatment in relationships",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A husband finding an old love letter or a small note tucked away in his wife's old diary years after marriage, realizing how much quiet sacrifice she made without complaining.",
-    "opening_direction": "Start with the physical action of cleaning out an old drawer and stumbling upon a forgotten object from early marriage days.",
-    "twist_direction": "The realization that while they stopped saying 'I love you' out loud years ago, her daily routine quietly screams it louder than before.",
+    "concept": "A short exploration of how arguments in a relationship eventually stop, replaced by a scarier silence where both partners just stop trying to explain themselves.",
+    "opening_direction": "Start with the moment when an argument ends not with a resolution, but with one person turning away to sleep.",
+    "twist_direction": "Reveal that the scariest part isn't when partners fight; it's when they stop caring enough to prove who is right.",
     "duration_seconds": 35,
-    "posting_window": "13:00 - 15:00 UTC",
-    "reason": "Matches the proven high-performing window and content category (husband-wife emotional realities) seen in previous top shorts."
+    "posting_window": "13:00 - 14:00 (matching peak performing time slot patterns)",
+    "reason": "Capitalizes on the proven high-performing 'रिश्ते' and relationship reality space while using a narrative arc built around everyday emotional exhaustion."
   },
-  "experiment": "Testing if incorporating a physical nostalgic prop (an old diary/note) inside a husband-wife relationship narrative boosts average view duration compared to dialogue-only shorts.",
-  "updated_at": "2026-10-18T18:46:37.019382+00:00",
+  "experiment": "Testing if shifting from broad relationship questions to specific micro-moments of emotional disconnection (the transition from fighting to silence) maintains the high view velocity seen in husband-wife shorts.",
+  "updated_at": "2026-10-18T21:39:57.157229+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-18T18:46:39.671388+00:00"
+  "generated_at": "2026-10-18T21:39:59.877585+00:00"
 }
