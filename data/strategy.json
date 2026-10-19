@@ -1,35 +1,35 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Analysis of the performance data reveals that relationship dynamics between husbands and wives significantly outperform other topics (e.g., 'or5gtaBpRVY' with 1,672 views and 'my5mP9feI7s' with 1,766 views). General sad shayari, very broad emotional quotes, and fragmented family videos performed poorly. Viewers resonate strongly with grounded marital truths rather than abstract poetic heartbreak.",
+  "overall_summary": "Analysis of historical performance shows that content centered around husband-wife dynamics, marriage reality, and deep-seated relationship complexities (e.g., 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1766 views and 'पत्नी की ये बात' with 1672 views) significantly outperforms generic sad poetry, single-line shayaris, or family member specific tropes. Relatable partnership pain is the primary driver of high engagement.",
   "winning_patterns": [
     {
       "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos focusing on marital unspoken understandings and post-marriage realities achieved top view counts (1,600+ views), massively outperforming general shayari (13 views).",
-      "action": "Allocate 70% of future content focus to husband-wife and deep relationship dynamics."
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1766 views) and wife-centric emotional shorts (1672 views) garnered the highest views and comments on the channel.",
+      "action": "Focus core content production on marital emotional struggles, unspoken expectations, and the evolution of love after marriage."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Sad Shayari & Heavy Poetic Language",
-      "evidence": "Video ID YdWh4cDOE64 titled 'जिस दिन सच लिखूंगा…' received only 13 views due to overly dramatic and abstract framing.",
-      "action": "Avoid cryptic poetic statements; focus on everyday observational moments in relationships."
+      "pattern": "Generic Heavy Shayari / One-Liners",
+      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 13 views.",
+      "action": "Avoid abstract, overly dramatic poetry lines without a grounded, everyday behavioral anchor."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Melancholic Nostalgia & Relatable Realization",
-    "hook_style": "Direct observation about a silent habit after years of marriage",
+    "emotion": "Melancholy & Realization",
+    "hook_style": "Behavioral observation about post-marriage silence",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple sitting in absolute silence in a car, neither arguing nor talking, showing how long-term silence replaces fights.",
-    "opening_direction": "Start with the sound of a car indicator and a husband noticing his wife looking out the window instead of fighting with him like they used to.",
-    "twist_direction": "Realizing that the lack of arguments isn't peace, but the terrifying distance where words are no longer worth saving.",
+    "concept": "A couple sitting in absolute silence in a car or living room, despite being in the same room for hours, highlighting how 'busy' became an excuse for distance.",
+    "opening_direction": "Start with the sound of a ticking clock and the line: 'शादी के शुरुआती सालों में बातें खत्म नहीं होती थीं, आज घंटियों जैसी खामोशियां गूँजती हैं।'",
+    "twist_direction": "End with the realization that they aren't fighting anymore because they stopped caring enough to argue—and silence is louder than a broken plate.",
     "duration_seconds": 35,
-    "posting_window": "13:00 - 15:00",
-    "reason": "Matches the proven high-performing husband-wife relationship category with a mature, grounded emotional beat."
+    "posting_window": "01:00 PM - 03:00 PM",
+    "reason": "Matches the proven high-performing content slot of relationship and marriage dynamics, building directly on the traction of previous hits."
   },
-  "experiment": "Testing a slightly longer duration (35s) focused purely on micro-expressions in marital silence instead of direct conversational quotes.",
-  "updated_at": "2026-10-19T00:21:21.910901+00:00",
+  "experiment": "Testing if a focus on unspoken marital distance (emotional detachment) performs comparably to overt relationship questioning (love fading after marriage).",
+  "updated_at": "2026-10-19T05:04:23.547497+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-19T00:21:24.343690+00:00"
+  "generated_at": "2026-10-19T05:04:26.339613+00:00"
 }
