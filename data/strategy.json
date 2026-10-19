@@ -1,35 +1,35 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Analysis of historical performance shows that content centered around husband-wife dynamics, marriage reality, and deep-seated relationship complexities (e.g., 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1766 views and 'पत्नी की ये बात' with 1672 views) significantly outperforms generic sad poetry, single-line shayaris, or family member specific tropes. Relatable partnership pain is the primary driver of high engagement.",
+  "overall_summary": "Analysis of historical performance indicates that deep relationship dynamics, specifically around husband-wife nuances and family emotional realities, significantly outperform generic sad shayari or broad motivational quotes. The top-performing videos ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1,766 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1,672 views) prove that audiences resonate deeply with marital and domestic emotional realism.",
   "winning_patterns": [
     {
       "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1766 views) and wife-centric emotional shorts (1672 views) garnered the highest views and comments on the channel.",
-      "action": "Focus core content production on marital emotional struggles, unspoken expectations, and the evolution of love after marriage."
+      "evidence": "Videos focusing on post-marriage dynamics and spousal understanding hit 1,766 and 1,672 views, vastly outperforming other topics.",
+      "action": "Double down on domestic relationship themes and unspoken marital compromises."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Heavy Shayari / One-Liners",
-      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 13 views.",
-      "action": "Avoid abstract, overly dramatic poetry lines without a grounded, everyday behavioral anchor."
+      "pattern": "Generic Sad Shayari / Abstract Pain",
+      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' stalled at 14 views due to overly poetic and impersonal phrasing.",
+      "action": "Avoid heavy, abstract Urdu/Hindi poetic tropes and focus on concrete everyday situations."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Melancholy & Realization",
-    "hook_style": "Behavioral observation about post-marriage silence",
+    "emotion": "Melancholy & Nostalgia",
+    "hook_style": "Observational everyday life moment",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple sitting in absolute silence in a car or living room, despite being in the same room for hours, highlighting how 'busy' became an excuse for distance.",
-    "opening_direction": "Start with the sound of a ticking clock and the line: 'शादी के शुरुआती सालों में बातें खत्म नहीं होती थीं, आज घंटियों जैसी खामोशियां गूँजती हैं।'",
-    "twist_direction": "End with the realization that they aren't fighting anymore because they stopped caring enough to argue—and silence is louder than a broken plate.",
-    "duration_seconds": 35,
-    "posting_window": "01:00 PM - 03:00 PM",
-    "reason": "Matches the proven high-performing content slot of relationship and marriage dynamics, building directly on the traction of previous hits."
+    "concept": "A couple sitting in silence after a long day, realizing they have nothing left to argue about, but also nothing left to say.",
+    "opening_direction": "Start with the quiet sound of a tea cup being placed on the table late at night in a silent living room.",
+    "twist_direction": "The realization that absolute silence in a relationship isn't peace, but the quiet death of conversation.",
+    "duration_seconds": 15,
+    "posting_window": "13:00 - 14:00 IST",
+    "reason": "Midday and early afternoon posting windows have successfully captured engaged relationship-focused traffic in past top performers."
   },
-  "experiment": "Testing if a focus on unspoken marital distance (emotional detachment) performs comparably to overt relationship questioning (love fading after marriage).",
-  "updated_at": "2026-10-19T05:04:23.547497+00:00",
+  "experiment": "Testing if deep emotional silence in long-term relationships can match the high view counts of active conflict/romance themes like marriage dynamics.",
+  "updated_at": "2026-10-19T11:04:08.752130+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-19T05:04:26.339613+00:00"
+  "generated_at": "2026-10-19T11:04:10.880686+00:00"
 }
