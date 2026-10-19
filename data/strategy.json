@@ -1,45 +1,35 @@
 {
-  "confidence": "75%",
+  "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Analysis of the historical performance indicates that deep relationship dynamics, specifically around husband-wife bonds and everyday relationship realism, significantly outperform general family or generic sad shayari formats. Videos focusing on married life ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1,766 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1,672 views) drove the highest engagement.",
+  "overall_summary": "Analysis of the performance data reveals that relationship dynamics between husbands and wives significantly outperform other topics (e.g., 'or5gtaBpRVY' with 1,672 views and 'my5mP9feI7s' with 1,766 views). General sad shayari, very broad emotional quotes, and fragmented family videos performed poorly. Viewers resonate strongly with grounded marital truths rather than abstract poetic heartbreak.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Realism",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,766 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,672 views) garnered exceptionally high views compared to generic content.",
-      "action": "Double down on mature relationship dynamics, post-marriage adjustments, and unspoken partner conflicts."
-    },
-    {
-      "pattern": "Direct Relatable Question Hooks",
-      "evidence": "Titles framing a direct, curious, or emotionally resonant question about daily life perform better than standard third-person shayari statements.",
-      "action": "Use conversational, direct-address questions for the hook."
+      "pattern": "Husband-Wife Relationship Realities",
+      "evidence": "Videos focusing on marital unspoken understandings and post-marriage realities achieved top view counts (1,600+ views), massively outperforming general shayari (13 views).",
+      "action": "Allocate 70% of future content focus to husband-wife and deep relationship dynamics."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sad Shayari / Heavy Metaphors",
-      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 13 views.",
-      "action": "Avoid overly poetic, abstract, or dramatic phrasing; ground the content in everyday realistic observations."
-    },
-    {
-      "pattern": "Low-Sample Broad Family Tropes",
-      "evidence": "Single isolated sister/brother videos had lower traction unless tied to an immediate relatable daily emotion.",
-      "action": "Focus storytelling on universal interpersonal tensions rather than niche familial roles."
+      "pattern": "Abstract Sad Shayari & Heavy Poetic Language",
+      "evidence": "Video ID YdWh4cDOE64 titled 'जिस दिन सच लिखूंगा…' received only 13 views due to overly dramatic and abstract framing.",
+      "action": "Avoid cryptic poetic statements; focus on everyday observational moments in relationships."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Melancholy / Realization",
-    "hook_style": "Direct observation about silent treatment in relationships",
+    "emotion": "Melancholic Nostalgia & Relatable Realization",
+    "hook_style": "Direct observation about a silent habit after years of marriage",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short exploration of how arguments in a relationship eventually stop, replaced by a scarier silence where both partners just stop trying to explain themselves.",
-    "opening_direction": "Start with the moment when an argument ends not with a resolution, but with one person turning away to sleep.",
-    "twist_direction": "Reveal that the scariest part isn't when partners fight; it's when they stop caring enough to prove who is right.",
+    "concept": "A couple sitting in absolute silence in a car, neither arguing nor talking, showing how long-term silence replaces fights.",
+    "opening_direction": "Start with the sound of a car indicator and a husband noticing his wife looking out the window instead of fighting with him like they used to.",
+    "twist_direction": "Realizing that the lack of arguments isn't peace, but the terrifying distance where words are no longer worth saving.",
     "duration_seconds": 35,
-    "posting_window": "13:00 - 14:00 (matching peak performing time slot patterns)",
-    "reason": "Capitalizes on the proven high-performing 'रिश्ते' and relationship reality space while using a narrative arc built around everyday emotional exhaustion."
+    "posting_window": "13:00 - 15:00",
+    "reason": "Matches the proven high-performing husband-wife relationship category with a mature, grounded emotional beat."
   },
-  "experiment": "Testing if shifting from broad relationship questions to specific micro-moments of emotional disconnection (the transition from fighting to silence) maintains the high view velocity seen in husband-wife shorts.",
-  "updated_at": "2026-10-18T21:39:57.157229+00:00",
+  "experiment": "Testing a slightly longer duration (35s) focused purely on micro-expressions in marital silence instead of direct conversational quotes.",
+  "updated_at": "2026-10-19T00:21:21.910901+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-18T21:39:59.877585+00:00"
+  "generated_at": "2026-10-19T00:21:24.343690+00:00"
 }
