@@ -1,35 +1,35 @@
 {
-  "confidence": "40%",
+  "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Historical data shows that content focused on husband-wife relationship dynamics ('रिश्ते') significantly outperforms other family or purely sad poetry formats, achieving over 1,700 views compared to the baseline 100-300 views. However, the overall sample size is small, requiring a controlled continuation of this winning theme while testing a slight variation.",
+  "overall_summary": "Analysis of historical performance shows clear audience preference for deep relationship dynamics, specifically husband-wife complexities (performing extremely well with 1,600+ views), while direct family roles and intense poetry show mixed or low performance.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relatable Realities",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,766 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,672 views) vastly outperformed all other topics.",
-      "action": "Double down on mature relationship dynamics, everyday friction, and emotional drift in marriage."
+      "pattern": "Husband-Wife Relationship Realities",
+      "evidence": "Videos about marriage and partners (e.g., 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1672 views, 'Shaadi Ke Baad Pyaar Kahan Chala Gaya' with 1766 views) significantly outperform other topics.",
+      "action": "Double down on marriage, couple misunderstandings, and emotional distance in long-term relationships."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sad Poetry/Shayari",
-      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 14 views.",
-      "action": "Avoid overly dramatic, poetic, or abstract lines; focus on grounded, everyday conversational observations."
+      "pattern": "Heavy Poetry / Sad Shayari Openings",
+      "evidence": "Video 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 14 views.",
+      "action": "Avoid overly dramatic or literary poetic openings; stick to grounded, conversational real-life observations."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Nostalgia & Realization",
-    "hook_style": "Direct question about unspoken changes in long-term relationships",
+    "emotion": "नस्टेल्जिया और दूरी",
+    "hook_style": "Conversational observation about unsaid things between partners",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple sitting in silence in a car or living room, realizing how 'busy' they became, leading to a realization that they miss the simple conversations they used to have before life got complicated.",
-    "opening_direction": "Start with the quiet moment after dinner when both are scrolling on their phones.",
-    "twist_direction": "The twist is that they aren't fighting; they just miss each other while sitting right next to each other.",
-    "duration_seconds": 30,
-    "posting_window": "13:00 - 15:00 IST",
-    "reason": "Matches the proven high-performing posting time and topic category of the channel's top hits (e.g., Husband-Wife relationship videos)."
+    "concept": "A short piece on how late-night online status replaces real conversations between couples who live under the same roof.",
+    "opening_direction": "रात के दो बजे तक दोनों जागते हैं, पर एक-दूसरे से बात नहीं करते।",
+    "twist_direction": "चैट विंडो पर 'typing...' बार-बार आता है, और फिर डिलीट हो जाता है।",
+    "duration_seconds": 35,
+    "posting_window": "12:00 PM - 02:00 PM",
+    "reason": "Matches the highest-performing husband-wife relationship cluster while tapping into night thoughts and modern overthinking."
   },
-  "experiment": "Testing if shifting the husband-wife angle from conflict/love loss to emotional loneliness while together retains the high view count of previous hits.",
-  "updated_at": "2026-10-19T17:39:08.704754+00:00",
+  "experiment": "Testing a modern digital-age relationship pain point (late-night screen distance) instead of traditional domestic friction.",
+  "updated_at": "2026-10-19T22:33:20.355559+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-19T17:39:11.040335+00:00"
+  "generated_at": "2026-10-19T22:33:27.844133+00:00"
 }
