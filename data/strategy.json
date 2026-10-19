@@ -1,35 +1,35 @@
 {
-  "confidence": "65%",
+  "confidence": "40%",
   "data_points": 14,
-  "overall_summary": "Analysis of historical performance indicates that deep relationship dynamics, specifically around husband-wife nuances and family emotional realities, significantly outperform generic sad shayari or broad motivational quotes. The top-performing videos ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1,766 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1,672 views) prove that audiences resonate deeply with marital and domestic emotional realism.",
+  "overall_summary": "Historical data shows that content focused on husband-wife relationship dynamics ('रिश्ते') significantly outperforms other family or purely sad poetry formats, achieving over 1,700 views compared to the baseline 100-300 views. However, the overall sample size is small, requiring a controlled continuation of this winning theme while testing a slight variation.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos focusing on post-marriage dynamics and spousal understanding hit 1,766 and 1,672 views, vastly outperforming other topics.",
-      "action": "Double down on domestic relationship themes and unspoken marital compromises."
+      "pattern": "Husband-Wife Relatable Realities",
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,766 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,672 views) vastly outperformed all other topics.",
+      "action": "Double down on mature relationship dynamics, everyday friction, and emotional drift in marriage."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sad Shayari / Abstract Pain",
-      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' stalled at 14 views due to overly poetic and impersonal phrasing.",
-      "action": "Avoid heavy, abstract Urdu/Hindi poetic tropes and focus on concrete everyday situations."
+      "pattern": "Generic Sad Poetry/Shayari",
+      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 14 views.",
+      "action": "Avoid overly dramatic, poetic, or abstract lines; focus on grounded, everyday conversational observations."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Melancholy & Nostalgia",
-    "hook_style": "Observational everyday life moment",
+    "emotion": "Nostalgia & Realization",
+    "hook_style": "Direct question about unspoken changes in long-term relationships",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple sitting in silence after a long day, realizing they have nothing left to argue about, but also nothing left to say.",
-    "opening_direction": "Start with the quiet sound of a tea cup being placed on the table late at night in a silent living room.",
-    "twist_direction": "The realization that absolute silence in a relationship isn't peace, but the quiet death of conversation.",
-    "duration_seconds": 15,
-    "posting_window": "13:00 - 14:00 IST",
-    "reason": "Midday and early afternoon posting windows have successfully captured engaged relationship-focused traffic in past top performers."
+    "concept": "A couple sitting in silence in a car or living room, realizing how 'busy' they became, leading to a realization that they miss the simple conversations they used to have before life got complicated.",
+    "opening_direction": "Start with the quiet moment after dinner when both are scrolling on their phones.",
+    "twist_direction": "The twist is that they aren't fighting; they just miss each other while sitting right next to each other.",
+    "duration_seconds": 30,
+    "posting_window": "13:00 - 15:00 IST",
+    "reason": "Matches the proven high-performing posting time and topic category of the channel's top hits (e.g., Husband-Wife relationship videos)."
   },
-  "experiment": "Testing if deep emotional silence in long-term relationships can match the high view counts of active conflict/romance themes like marriage dynamics.",
-  "updated_at": "2026-10-19T11:04:08.752130+00:00",
+  "experiment": "Testing if shifting the husband-wife angle from conflict/love loss to emotional loneliness while together retains the high view count of previous hits.",
+  "updated_at": "2026-10-19T17:39:08.704754+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-19T11:04:10.880686+00:00"
+  "generated_at": "2026-10-19T17:39:11.040335+00:00"
 }
