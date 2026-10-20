@@ -1,35 +1,35 @@
 {
-  "confidence": "65%",
+  "confidence": "45%",
   "data_points": 14,
-  "overall_summary": "Analysis of historical performance shows clear audience preference for deep relationship dynamics, specifically husband-wife complexities (performing extremely well with 1,600+ views), while direct family roles and intense poetry show mixed or low performance.",
+  "overall_summary": "The channel shows clear breakout potential with husband-wife dynamic relationship topics (e.g., 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1,766 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1,672 views), heavily outperforming family member or generic sad shayari shorts. However, overall sample size is small and engagement (comments) remains low across the board.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos about marriage and partners (e.g., 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1672 views, 'Shaadi Ke Baad Pyaar Kahan Chala Gaya' with 1766 views) significantly outperform other topics.",
-      "action": "Double down on marriage, couple misunderstandings, and emotional distance in long-term relationships."
+      "pattern": "Husband-Wife Relatable Dynamic",
+      "evidence": "Videos focusing on marriage and partner realities (my5mP9feI7s, or5gtaBpRVY) received nearly 10x more views than other topics.",
+      "action": "Double down on marriage, couple friction, and unspoken marital feelings."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Heavy Poetry / Sad Shayari Openings",
-      "evidence": "Video 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 14 views.",
-      "action": "Avoid overly dramatic or literary poetic openings; stick to grounded, conversational real-life observations."
+      "pattern": "Generic Sad Shayari / Heavy Urdu-Hindi Poetry",
+      "evidence": "Videos like 'जिस दिन सच लिखूंगा…' (YdWh4cDOE64) received only 14 views.",
+      "action": "Avoid abstract or overly dramatic poetic phrasing; anchor content in daily domestic reality."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "नस्टेल्जिया और दूरी",
-    "hook_style": "Conversational observation about unsaid things between partners",
+    "emotion": "नस्टैल्जिया और मलाल",
+    "hook_style": "Observation-based direct question",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short piece on how late-night online status replaces real conversations between couples who live under the same roof.",
-    "opening_direction": "रात के दो बजे तक दोनों जागते हैं, पर एक-दूसरे से बात नहीं करते।",
-    "twist_direction": "चैट विंडो पर 'typing...' बार-बार आता है, और फिर डिलीट हो जाता है।",
+    "concept": "A short look into how late-night tea without conversation has replaced the hours-long late-night chats between a married couple.",
+    "opening_direction": "शादी के कुछ साल बाद, रात की चाय पर बातें खत्म हो जाती हैं और सिर्फ खामोशी बचती है।",
+    "twist_direction": "फर्क सिर्फ इतना है कि पहले ये खामोशी सुकून देती थी, अब डर पैदा करती है।",
     "duration_seconds": 35,
-    "posting_window": "12:00 PM - 02:00 PM",
-    "reason": "Matches the highest-performing husband-wife relationship cluster while tapping into night thoughts and modern overthinking."
+    "posting_window": "01:00 PM - 03:00 PM",
+    "reason": "Leverages the proven high-performing husband-wife theme while tapping into a relatable emotional truth about fading intimacy in routine life."
   },
-  "experiment": "Testing a modern digital-age relationship pain point (late-night screen distance) instead of traditional domestic friction.",
-  "updated_at": "2026-10-19T22:33:20.355559+00:00",
+  "experiment": "Testing if subtle emotional shifts in daily marriage routines drive higher comment engagement compared to direct relationship advice.",
+  "updated_at": "2026-10-20T01:59:31.454313+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-19T22:33:27.844133+00:00"
+  "generated_at": "2026-10-20T01:59:33.826963+00:00"
 }
