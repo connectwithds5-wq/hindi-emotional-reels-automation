@@ -1,45 +1,45 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Data clearly shows that husband-wife relationship dynamics and domestic life topics (Shaadi Ke Baad Pyaar Kahan Chala Gaya, Wife Emotional Video) dramatically outperform general sad poetry, single-line shayari, or generic sibling videos. Repeatable success stems from exploring complex marital realities and unspoken household grievances.",
+  "overall_summary": "The channel shows clear breakout performance in Husband-Wife relationship topics (e.g., 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1,766 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1,674 views), significantly outperforming family and general shayari content. General relationship realities also perform decently, while poetry-style or heavily dramatic shayari performs poorly.",
   "winning_patterns": [
     {
-      "pattern": "Marital/Relationship Reality Focus",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,766 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,672 views) garnered the highest views and engagement.",
-      "action": "Double down on husband-wife dynamics, post-marriage emotional shifts, and domestic relationship truths."
+      "pattern": "Husband-Wife Dynamics & Post-Marriage Reality",
+      "evidence": "Videos focusing on married life ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?', 'पत्नी की ये बात हर पति को समझनी चाहिए') gathered 1,766 and 1,674 views respectively, far higher than any other category.",
+      "action": "Double down on husband-wife relationship pain points and unexpressed emotional truths in marriage."
     },
     {
-      "pattern": "Conversational Question Hooks",
-      "evidence": "Titles framed as direct psychological or emotional questions targeted at couples drive significantly higher clicks.",
-      "action": "Use direct, probing questions addressing common marital struggles in the title and opening hook."
+      "pattern": "Conversational Relationship Realities",
+      "evidence": "NO5fdHLxFL4 ('Har Baar Sorry Bolne Wala Galat Nahi Hota') got 382 views, showing interest in daily psychological compromises in relationships.",
+      "action": "Use conversational premises that challenge common relationship misconceptions."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Sad Shayari",
-      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 14 views.",
-      "action": "Avoid overly dramatic, poetic, or abstract lines; focus instead on grounded, everyday domestic observations."
+      "pattern": "Heavy Poetic Shayari Openings",
+      "evidence": "YdWh4cDOE64 ('जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा') only received 14 views.",
+      "action": "Avoid overly dramatic or literary Urdu/Hindi shayari openings; prefer direct observational statements."
     },
     {
-      "pattern": "Low-performing generic family segments",
-      "evidence": "General sibling videos like 'बहन सिर्फ घर की रौनक होती है' stalled around 19 to 136 views compared to parental or spousal content.",
-      "action": "Deprioritize standalone sibling content unless tied to a specific household conflict or marital perspective."
+      "pattern": "Generic Family Member Reminders",
+      "evidence": "Videos about sisters, brothers, and fathers received much lower traction (110-236 views) compared to romantic/marital relationships.",
+      "action": "Reduce broad family appreciation posts unless tied to a specific complex emotional tension."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Melancholic Nostalgia & Relatability",
-    "hook_style": "Direct observational statement about changing behavior after a few years of marriage",
+    "emotion": "नजरअंदाज होना",
+    "hook_style": "Observation-based question about unspoken distance between partners",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization about how midnight chats between a married couple eventually turn into silent scrolling on separate phones in the same bed.",
-    "opening_direction": "Start with a simple visual of two tea cups growing cold on a table while a couple sits silently side-by-side.",
-    "twist_direction": "The emotional twist reveals that they aren't fighting; they just ran out of things to say to each other, missing the person they used to be before life took over.",
-    "duration_seconds": 35,
-    "posting_window": "13:00 - 15:00 IST",
-    "reason": "Capitalizes on the proven high-performing husband-wife relationship theme, leveraging a relatable domestic routine that hits home for adult viewers."
+    "concept": "A realization about how conversations between a husband and wife turn from late-night discussions to just exchanging daily household to-do lists.",
+    "opening_direction": "Start with a simple visual of two tea cups and a line about how phone screens replaced eye contact at the dinner table.",
+    "twist_direction": "The emotional shift when one partner realizes they don't fight anymore—not because everything is fine, but because they have stopped caring enough to argue.",
+    "duration_seconds": 45,
+    "posting_window": "13:00 - 14:00 IST",
+    "reason": "Capitalizes on the proven high-performing husband-wife relationship niche while keeping the narrative grounded in a relatable everyday observation."
   },
-  "experiment": "Testing if shifting the husband-wife narrative from overt conflict ('Pyaar Kahan Chala Gaya') to silent emotional distance improves retention and comment interaction.",
-  "updated_at": "2026-10-20T07:50:12.603691+00:00",
+  "experiment": "Testing if shifting the husband-wife theme from external love loss to internal emotional detachment increases comment engagement.",
+  "updated_at": "2026-10-20T13:46:25.837153+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-20T07:50:15.131947+00:00"
+  "generated_at": "2026-10-20T13:46:30.922983+00:00"
 }
