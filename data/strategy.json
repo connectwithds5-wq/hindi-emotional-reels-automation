@@ -1,45 +1,45 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Analysis of historical data shows clear audience preference for husband-wife and core relationship dynamics over generic heartbreak shayari or single-line quotes. Videos focusing on married life ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1,766 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1,674 views) significantly outperform other topics. Generic sad shayari and shorter low-effort clips fail to gain traction.",
+  "overall_summary": "Analysis of the performance data reveals a clear outlier preference for husband-wife relationship dynamics over general shayari or family bonds. Videos focusing on married life ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1,766 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1,674 views) significantly outperform all other topics. General poetic or philosophical hooks currently show low traction, indicating the audience prefers direct, relatable relationship situations.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Dynamics",
-      "evidence": "Videos centered around marital realities like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,766 views) and wife-husband understanding (1,674 views) generated 5x-10x more views than average.",
-      "action": "Double down on domestic relationship nuances, unspoken compromises, and post-marriage emotional shifts."
+      "pattern": "Husband-Wife Relationship Realities",
+      "evidence": "Videos addressing marriage and post-marriage love (my5mP9feI7s, or5gtaBpRVY) generated over 1,600+ views each, which is nearly 5x-10x higher than other topics.",
+      "action": "Double down on marriage and partner relationship dynamics, moving away from broad philosophical shayari."
     },
     {
-      "pattern": "Question-based Emotional Hooks",
-      "evidence": "Using direct, relatable questions addressing mutual life experiences yields higher initial watch time and engagement.",
-      "action": "Open scripts with a direct, reflective question about shared everyday realities."
+      "pattern": "Direct Question Hooks about Relatable Struggles",
+      "evidence": "Titles framing a common internal question or realization about couples ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?') drive higher engagement and initial click-throughs.",
+      "action": "Use direct, probing questions regarding modern couple life as the primary hook style."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sad Shayari / Low-effort One-liners",
-      "evidence": "Videos like 'जिस दिन सच लिखूंगा…' received only 14 views due to lack of a concrete narrative setup.",
-      "action": "Avoid abstract poetic rants; anchor every piece of content in a specific, observable daily life scenario."
+      "pattern": "Abstract Sad Shayari",
+      "evidence": "Poetic, heavy-worded titles like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' (YdWh4cDOE64) stalled at just 14 views.",
+      "action": "Avoid abstract or overly dramatic poetic phrasing; stick to grounded, everyday relationship observations."
     },
     {
-      "pattern": "Overly broad podcast-style titles without high-stakes framing",
-      "evidence": "Clips with generic life-reality podcast tags underperformed compared to targeted interpersonal friction points.",
-      "action": "Focus titles tightly on specific relationship pain points rather than broad philosophy."
+      "pattern": "Broad Family Member Roundups",
+      "evidence": "Standalone videos on sisters, brothers, or fathers generally hovered below 200 views.",
+      "action": "Limit general family content unless it directly ties back to spousal or core emotional relationship struggles."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
     "emotion": "नस्टैल्जिया और अकेलापन",
-    "hook_style": "Direct real-life observation about long-term relationship changes",
+    "hook_style": "Direct question about unspoken distance between partners",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A reflection on how late-night phone calls in a relationship gradually turn into quiet dinners where nobody speaks, highlighting the distance that creeps in silently.",
-    "opening_direction": "Start with the simple habit of how evenings used to be spent on endless calls compared to now.",
-    "twist_direction": "Reveal that the scariest part isn't fighting, it's sitting next to each other in total silence because there is nothing left to explain.",
-    "duration_seconds": 35,
-    "posting_window": "13:00 - 15:00 IST",
-    "reason": "Matches the proven success window of top-performing relationship shorts (like my5mP9feI7s posted around 13:12 UTC/evening IST) and scales the winning relationship dynamic pattern."
+    "concept": "A couple sitting in the same room scrolling phones in complete silence, realizing they talk about everything except each other.",
+    "opening_direction": "Start with a close-up of a phone screen glowing in a dark room, while the partner sits just inches away.",
+    "twist_direction": "The realization that they share a roof and a bed, but are now just polite strangers sharing the same Wi-Fi.",
+    "duration_seconds": 30,
+    "posting_window": "01:00 PM - 02:00 PM",
+    "reason": "Aligns with the proven high-performing husband-wife relationship niche while testing a slightly more intimate emotional twist."
   },
-  "experiment": "Testing whether emotional distance in long-term relationships (silent dinners) retains the high viewership seen in husband-wife romance and conflict topics.",
-  "updated_at": "2026-10-20T18:36:39.005892+00:00",
+  "experiment": "Testing if shifting the husband-wife theme from external advice to internal emotional loneliness (overthinking/distance) retains the high view count of previous relationship hits.",
+  "updated_at": "2026-10-20T22:30:14.679381+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-20T18:36:58.449356+00:00"
+  "generated_at": "2026-10-20T22:30:22.959259+00:00"
 }
