@@ -1,45 +1,45 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Analysis of the performance data reveals a clear outlier preference for husband-wife relationship dynamics over general shayari or family bonds. Videos focusing on married life ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1,766 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1,674 views) significantly outperform all other topics. General poetic or philosophical hooks currently show low traction, indicating the audience prefers direct, relatable relationship situations.",
+  "overall_summary": "Analysis of historical performance shows that relationship dynamics, particularly husband-wife emotional realities and family bonds, significantly outperform abstract sad shayari or generic self-motivation videos.",
   "winning_patterns": [
     {
       "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos addressing marriage and post-marriage love (my5mP9feI7s, or5gtaBpRVY) generated over 1,600+ views each, which is nearly 5x-10x higher than other topics.",
-      "action": "Double down on marriage and partner relationship dynamics, moving away from broad philosophical shayari."
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1766 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1674 views) heavily outperformed all other content.",
+      "action": "Focus more content on mature relationship struggles, unspoken marital expectations, and domestic emotional realities."
     },
     {
-      "pattern": "Direct Question Hooks about Relatable Struggles",
-      "evidence": "Titles framing a common internal question or realization about couples ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?') drive higher engagement and initial click-throughs.",
-      "action": "Use direct, probing questions regarding modern couple life as the primary hook style."
+      "pattern": "Grounded Relatable Family Moments",
+      "evidence": "Videos focusing on specific family roles like Mother ('माँ जब पूछती है') and Father ('पापा कभी कहते नहीं') performed decently compared to generic emotional quotes.",
+      "action": "Continue utilizing specific family-centric emotional triggers rather than broad statements."
     }
   ],
   "weak_patterns": [
     {
       "pattern": "Abstract Sad Shayari",
-      "evidence": "Poetic, heavy-worded titles like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' (YdWh4cDOE64) stalled at just 14 views.",
-      "action": "Avoid abstract or overly dramatic poetic phrasing; stick to grounded, everyday relationship observations."
+      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' gained only 14 views.",
+      "action": "Avoid overly dramatic, poetic, or abstract shayari hooks that lack an immediate grounded real-life context."
     },
     {
-      "pattern": "Broad Family Member Roundups",
-      "evidence": "Standalone videos on sisters, brothers, or fathers generally hovered below 200 views.",
-      "action": "Limit general family content unless it directly ties back to spousal or core emotional relationship struggles."
+      "pattern": "Low-sample Generic Motivation",
+      "evidence": "Videos like 'तुम थके हो… हारे नहीं' received low engagement (172 views) compared to topical relationship discussions.",
+      "action": "Rely less on generic self-help motivation and more on situational relationship friction."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "नस्टैल्जिया और अकेलापन",
-    "hook_style": "Direct question about unspoken distance between partners",
+    "emotion": "अधूरी मोहब्बत / ठहराव",
+    "hook_style": "Real-life observation about long-term relationship silence",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple sitting in the same room scrolling phones in complete silence, realizing they talk about everything except each other.",
-    "opening_direction": "Start with a close-up of a phone screen glowing in a dark room, while the partner sits just inches away.",
-    "twist_direction": "The realization that they share a roof and a bed, but are now just polite strangers sharing the same Wi-Fi.",
-    "duration_seconds": 30,
-    "posting_window": "01:00 PM - 02:00 PM",
-    "reason": "Aligns with the proven high-performing husband-wife relationship niche while testing a slightly more intimate emotional twist."
+    "concept": "A realization that arguments in a relationship are often less painful than the silent phase where no one tries to fix anything anymore.",
+    "opening_direction": "जब दो लोगों के बीच झगड़े बंद हो जाएं, तो समझ लेना रिश्ता सुधर नहीं रहा, खत्म हो रहा है।",
+    "twist_direction": "क्योंकि चिल्लाने वाला तो फिर भी उम्मीद रखता है, खामोश होने वाला सब छोड़ चुका होता है।",
+    "duration_seconds": 35,
+    "posting_window": "13:00 - 15:00",
+    "reason": "Capitalizes on the proven high-performing 'रिश्ते' and 'husband-wife/partnership reality' theme that previously drove top views."
   },
-  "experiment": "Testing if shifting the husband-wife theme from external advice to internal emotional loneliness (overthinking/distance) retains the high view count of previous relationship hits.",
-  "updated_at": "2026-10-20T22:30:14.679381+00:00",
+  "experiment": "Testing if shifting the relationship focus from marital specifics to universal emotional detachment improves overall retention.",
+  "updated_at": "2026-10-21T00:50:11.207584+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-20T22:30:22.959259+00:00"
+  "generated_at": "2026-10-21T00:50:13.885085+00:00"
 }
