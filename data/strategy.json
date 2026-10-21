@@ -1,35 +1,45 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Analysis of the data reveals a clear outlier preference for husband-wife relationship themes, while general heartbreak poetry or niche family topics underperformed. However, due to limited sample size, confidence is moderate.",
+  "overall_summary": "Analysis of historical performance shows clear outperformance in husband-wife relationship dynamics and domestic life realities (e.g., 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' at 1766 views and 'पत्नी की ये बात' at 1674 views). Broader concepts or standalone poetry with generic sad hooks underperform significantly. We have enough signals to pivot toward couple dynamics while keeping exploration minimal.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Dynamics",
-      "evidence": "Videos like 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,674 views) and 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,766 views) significantly outperformed all other content categories.",
-      "action": "Double down on mature, relatable relationship dynamics between partners."
+      "pattern": "Husband-Wife Relationship Dilemmas",
+      "evidence": "Videos focusing on post-marriage love and partner understanding (or5gtaBpRVY, my5mP9feI7s) achieved the highest views (1,600+) and engagement on the channel.",
+      "action": "Prioritize narrative concepts centered around married life, unspoken expectations, and emotional distance between partners."
+    },
+    {
+      "pattern": "Relatable Domestic Realities",
+      "evidence": "Grounded family or relationship topics perform better than abstract or overly dramatic poetry (e.g., YdWh4cDOE64 with 14 views).",
+      "action": "Use specific, everyday household moments as the starting point for emotional storytelling."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Standalone Heavy Sad Shayari / Abstract Pain",
-      "evidence": "Videos focusing heavily on abstract sadness or bitter poetry like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received very low engagement (14 views).",
-      "action": "Avoid overly dramatic or abstract poetic rants; anchor the emotion to tangible real-life scenarios."
+      "pattern": "Abstract Sad Shayari & Heavy Philosophical Hooks",
+      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' (YdWh4cDOE64) got only 14 views, showing poor initial pull.",
+      "action": "Avoid heavy, cryptic poetry openings; ground the hook in a recognizable, real-world situation instead."
+    },
+    {
+      "pattern": "Generic Podcast/Life Reality Clips",
+      "evidence": "Clips framed with broad podcast terminology without a direct emotional anchor in the first 2 seconds underperformed compared to direct relationship themes.",
+      "action": "Ensure the core emotional conflict is immediately apparent in the title and opening line."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Melancholy yet comforting",
-    "hook_style": "Direct question about unspoken marital distance",
+    "emotion": "अधूरी मोहब्बत / ठहराव",
+    "hook_style": "Simple real-life observation about silence in a long-term relationship",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization about how silence slowly creeps into a marriage after years of being together, where fights are replaced by complete indifference.",
-    "opening_direction": "Start with the quiet sound of tea being poured in a silent kitchen between a couple who haven't argued in days.",
-    "twist_direction": "The realization that a loud fight means they still care, but total silence means they have given up.",
+    "concept": "A couple sitting in absolute silence in the car or living room, neither arguing nor talking, highlighting how the loudest distance in marriage isn't a fight, but quiet indifference.",
+    "opening_direction": "Start with the small, relatable detail of staring at the phone screen while sitting next to your partner in a quiet room.",
+    "twist_direction": "Conclude with the realization that fights mean they still care; the real fear is the day silence becomes completely comfortable.",
     "duration_seconds": 35,
-    "posting_window": "12:00 PM - 02:00 PM",
-    "reason": "Matches the proven high-performing husband-wife relationship format while utilizing a subtle emotional twist to drive high retention."
+    "posting_window": "07:00 PM - 09:00 PM",
+    "reason": "Aligns directly with the highest-performing couple/relationship format while testing a slightly deeper emotional twist on marital silence."
   },
-  "experiment": "Testing if adding a subtle hope/realization twist to the successful husband-wife niche increases comments, which have historically been low.",
-  "updated_at": "2026-10-21T12:10:54.536887+00:00",
+  "experiment": "Testing if shifting the husband-wife dynamic from practical advice to an internal emotional observation ('silence vs fights') maintains high view counts.",
+  "updated_at": "2026-10-21T17:31:33.888202+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-21T12:10:56.697132+00:00"
+  "generated_at": "2026-10-21T17:31:37.491646+00:00"
 }
