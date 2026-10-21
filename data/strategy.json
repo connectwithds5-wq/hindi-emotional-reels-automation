@@ -1,45 +1,35 @@
 {
-  "confidence": "65%",
+  "confidence": "35%",
   "data_points": 14,
-  "overall_summary": "Analysis of historical performance shows that relationship dynamics, particularly husband-wife emotional realities and family bonds, significantly outperform abstract sad shayari or generic self-motivation videos.",
+  "overall_summary": "Data volume is low with wide variance. Content centered around husband-wife relationship dynamics ('रिश्ते', 'अकेलापन') significantly outperforms family member tropes and pure sad poetry in early sample traction.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1766 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1674 views) heavily outperformed all other content.",
-      "action": "Focus more content on mature relationship struggles, unspoken marital expectations, and domestic emotional realities."
-    },
-    {
-      "pattern": "Grounded Relatable Family Moments",
-      "evidence": "Videos focusing on specific family roles like Mother ('माँ जब पूछती है') and Father ('पापा कभी कहते नहीं') performed decently compared to generic emotional quotes.",
-      "action": "Continue utilizing specific family-centric emotional triggers rather than broad statements."
+      "pattern": "Husband-Wife Relationship Dynamics",
+      "evidence": "Videos like 'or5gtaBpRVY' (1,674 views) and 'my5mP9feI7s' (1,766 views) outperformed standard poetry/family content by 5x-10x.",
+      "action": "Double down on marital and modern relationship realities instead of generic sad shayaris."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Sad Shayari",
-      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' gained only 14 views.",
-      "action": "Avoid overly dramatic, poetic, or abstract shayari hooks that lack an immediate grounded real-life context."
-    },
-    {
-      "pattern": "Low-sample Generic Motivation",
-      "evidence": "Videos like 'तुम थके हो… हारे नहीं' received low engagement (172 views) compared to topical relationship discussions.",
-      "action": "Rely less on generic self-help motivation and more on situational relationship friction."
+      "pattern": "Generic Heavy Shayari/Poetry",
+      "evidence": "Video 'YdWh4cDOE64' got only 14 views because abstract sad phrasing fails to grip the audience quickly in Shorts feeds.",
+      "action": "Avoid high-abstract poetry openers; ground the emotion in concrete domestic actions."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "अधूरी मोहब्बत / ठहराव",
-    "hook_style": "Real-life observation about long-term relationship silence",
+    "emotion": "Bittersweet realization",
+    "hook_style": "Observation on unspoken distance between partners",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization that arguments in a relationship are often less painful than the silent phase where no one tries to fix anything anymore.",
-    "opening_direction": "जब दो लोगों के बीच झगड़े बंद हो जाएं, तो समझ लेना रिश्ता सुधर नहीं रहा, खत्म हो रहा है।",
-    "twist_direction": "क्योंकि चिल्लाने वाला तो फिर भी उम्मीद रखता है, खामोश होने वाला सब छोड़ चुका होता है।",
+    "concept": "A couple sitting in complete silence in the same room, scrolling phones, realizing they know everything about their digital feeds but nothing about each other's current day.",
+    "opening_direction": "Start with the sound of tapping screens and a close-up of a cup of tea getting cold between two people.",
+    "twist_direction": "Reveal that silence isn't peace anymore; it's two strangers sharing the same address.",
     "duration_seconds": 35,
-    "posting_window": "13:00 - 15:00",
-    "reason": "Capitalizes on the proven high-performing 'रिश्ते' and 'husband-wife/partnership reality' theme that previously drove top views."
+    "posting_window": "07:00 PM - 09:00 PM",
+    "reason": "Aligns with the proven husband-wife relationship topic cluster which showed the highest organic pull in the dataset."
   },
-  "experiment": "Testing if shifting the relationship focus from marital specifics to universal emotional detachment improves overall retention.",
-  "updated_at": "2026-10-21T00:50:11.207584+00:00",
+  "experiment": "Testing if silent domestic observation hooks retain better than direct question hooks for relationship topics.",
+  "updated_at": "2026-10-21T06:19:42.419885+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-21T00:50:13.885085+00:00"
+  "generated_at": "2026-10-21T06:19:44.666078+00:00"
 }
