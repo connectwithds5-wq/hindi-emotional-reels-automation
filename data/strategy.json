@@ -1,45 +1,45 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Analysis of historical performance shows clear audience preference for relationship dynamics and family bond themes, particularly husband-wife and romantic complexities (e.g., 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1766 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1674 views). General poetry/shayari performs significantly lower compared to grounded relationship realities.",
+  "overall_summary": "Analysis of the performance data reveals that Husband-Wife relationship topics (specifically marriage dynamics and unspoken domestic realities) heavily outperform general shayari and familial relationship videos, pulling in 1,700+ views compared to the standard 100-300 view baseline.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Dynamics & Relationship Realities",
-      "evidence": "Videos like my5mP9feI7s ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?') and or5gtaBpRVY ('पत्नी की ये बात हर पति को समझनी चाहिए') garnered the highest views (1,766 and 1,674) and engagement on the channel.",
-      "action": "Produce more narrative-driven shorts focusing on everyday marital misunderstandings, emotional distance, and unspoken affection."
+      "pattern": "Husband-Wife Dynamics",
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,766 views) and wife emotional videos (1,674 views) significantly outperform all other categories.",
+      "action": "Double down on core relationship and marriage tension topics rather than spreading too thin across all family members."
     },
     {
-      "pattern": "Relatable Interpersonal Communication Gaps",
-      "evidence": "NO5fdHLxFL4 ('Har Baar Sorry Bolne Wala Galat Nahi Hota') and rl_ycNbXZ_g ('रिश्ते खत्म नहीं होते, बात बंद हो जाती है') performed well above the channel average.",
-      "action": "Focus on the psychological micro-moments in relationships where ego or silence ruins connections."
+      "pattern": "Question-Based Hooks",
+      "evidence": "Hooks framing a direct emotional question about marriage or hidden feelings garner higher engagement and viewership.",
+      "action": "Continue using relatable, inquisitive hooks that target domestic or romantic realities."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Sad Shayari / Heavy Metaphors",
-      "evidence": "YdWh4cDOE64 ('जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा') received only 14 views.",
-      "action": "Avoid purely poetic or philosophical heavy lines without an attached grounded real-life context."
+      "pattern": "Generic Sad Shayari & Heavy Poetry",
+      "evidence": "Videos focusing purely on abstract heartbreak or dramatic poetry like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received extremely low traction (14 views).",
+      "action": "Move away from overly dramatic or abstract poetic wording; anchor scripts in grounded, everyday scenarios instead."
     },
     {
-      "pattern": "Generic Sibling/Parent Monologues without a Twist",
-      "evidence": "Videos like jfmMztnam_A ('बहन सिर्फ घर की रौनक होती है') stalled at 19 views.",
-      "action": "Introduce conflict or an unexpected emotional realization instead of standard praise-based statements."
+      "pattern": "Duplicate/Repetitive Testing Without Variation",
+      "evidence": "Uploading very similar sister emotional videos close to each other resulted in one performing decently while the duplicate flatlined at 19 views.",
+      "action": "Avoid immediate topic repetition; space out similar themes by at least a week."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "नस्टेल्जिया और पछतावा",
-    "hook_style": "Situation-based direct address",
+    "emotion": "Melancholy and Realization",
+    "hook_style": "Direct observation about unsaid words in a long marriage",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short piece on how long-term couples stop arguing not because they are happy, but because they have given up trying to explain themselves.",
-    "opening_direction": "Start with a quiet kitchen scene where a husband and wife sit in silence, scrolling phones instead of talking.",
-    "twist_direction": "Reveal that the silence isn't peace; it's the exact moment a relationship quietly dies from indifference, not anger.",
-    "duration_seconds": 45,
+    "concept": "A realization about how after years of marriage, couples stop fighting and start staying silent, which is actually more dangerous than arguments.",
+    "opening_direction": "Start with the simple everyday sight of a husband and wife sitting on opposite ends of the couch scrolling phones in total silence.",
+    "twist_direction": "Reveal that the silence isn't peace—it's two people who finally gave up trying to explain themselves to each other.",
+    "duration_seconds": 35,
     "posting_window": "07:00 PM - 09:00 PM IST",
-    "reason": "Aligns directly with the highest performing relationship/marriage topic cluster while maintaining the emotional depth of 'Dil Ki Diary'."
+    "reason": "Aligns with the proven high-performing Husband-Wife relationship cluster while testing a slightly deeper emotional twist on daily domestic life."
   },
-  "experiment": "Testing if shifting the emotional core from overt sadness to psychological realization in husband-wife dynamics sustains the high view counts seen in previous top performers.",
-  "updated_at": "2026-10-21T21:53:27.428499+00:00",
+  "experiment": "Testing if shifting from an inquisitive marriage question hook to a silent observation domestic hook maintains the high view baseline of the 1,500+ view tier.",
+  "updated_at": "2026-10-22T00:47:39.046104+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-21T21:53:30.501696+00:00"
+  "generated_at": "2026-10-22T00:47:41.984424+00:00"
 }
