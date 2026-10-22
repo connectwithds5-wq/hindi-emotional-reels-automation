@@ -1,35 +1,35 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "The channel shows clear strong spikes in engagement and views around post-marriage dynamic and husband-wife emotional relationship topics (~1.7k views each), while abstract heavy shayari and generic motivational quotes perform poorly (<50 views).",
+  "overall_summary": "Analysis of the performance data reveals clear outliers in husband-wife relationship themes (videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' and 'पत्नी की ये बात हर पति को समझनी चाहिए'), generating significantly higher views (1,700+) compared to general heartbreak poetry, family tropes, or life reality shorts.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife / Post-marriage everyday relational tension and care",
-      "evidence": "Top 2 videos ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?' - 1,766 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' - 1,674 views) outperform all other videos by 5x-10x.",
-      "action": "Double down on simple, high-empathy marital situations without being overly dramatic."
+      "pattern": "Husband-Wife Relationship Realities",
+      "evidence": "Videos focusing on married life dynamics ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1766 views and wife emotional videos with 1674 views) heavily outperform generic heartbreak or family love shorts.",
+      "action": "Double down on marital intimacy, communication gaps, and everyday relationship friction."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract / High-literary Hindi Shayari and philosophical quotes",
-      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 14 views.",
-      "action": "Avoid complex poetic lines; use grounded conversational Hindi with direct emotional impact."
+      "pattern": "Generic Sad Poetry & Heavy Shayari",
+      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा 💔' received very low engagement (14 views).",
+      "action": "Avoid abstract, overly dramatic, or poetic venting; ground the emotions in mundane, recognizable real-life moments."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Quiet understanding and unexpressed love in marriage",
-    "hook_style": "Observation of a routine household detail",
+    "emotion": "Bittersweet realization",
+    "hook_style": "Direct question about a silent habit in marriage",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A husband notices his wife saving the last cup of evening tea for him, leading to a realization about how love changes after marriage from dynamic declarations to quiet care.",
-    "opening_direction": "Start with a quiet 7:00 PM home setting: 'शादी के कुछ सालों बाद प्यार दिखता नहीं, सिर्फ़ महसूस होता है...'",
-    "twist_direction": "The twist reveals that while he thought she was being distant, she was silently shielding him from everyday stresses in ways he never noticed.",
-    "duration_seconds": 35,
-    "posting_window": "07:00 - 08:00 UTC",
-    "reason": "Both peak performing videos were posted around 07:28 UTC and 13:12 UTC, featuring husband-wife core themes."
+    "concept": "A short exploration of how couples stop fighting and start staying silent in the same room, realizing indifference is scarier than anger.",
+    "opening_direction": "Start with a close observation of a couple sitting in absolute silence scrolling phones late at night.",
+    "twist_direction": "Reveal that the silence isn't peace—it's the exact moment two people stopped caring enough to argue.",
+    "duration_seconds": 10,
+    "posting_window": "07:00 PM - 09:00 PM IST",
+    "reason": "Matches the proven high-performing husband-wife relationship niche while leveraging late-night relatability (रात के ख्याल)."
   },
-  "experiment": "Testing if conversational narrative framing (everyday household detail) retains higher audience retention compared to direct advice quotes.",
-  "updated_at": "2026-10-22T06:23:19.165587+00:00",
-  "model_used": "gemini-3.6-flash",
-  "generated_at": "2026-10-22T06:23:35.426355+00:00"
+  "experiment": "Testing if shifting the husband-wife relationship angle from external romance ('pyar kahan chala gaya') to internal domestic numbness ('silent treatment') maintains high viewer retention.",
+  "updated_at": "2026-10-22T12:14:33.903315+00:00",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-10-22T12:14:36.811192+00:00"
 }
