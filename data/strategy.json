@@ -1,45 +1,35 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Analysis of the performance data reveals that Husband-Wife relationship topics (specifically marriage dynamics and unspoken domestic realities) heavily outperform general shayari and familial relationship videos, pulling in 1,700+ views compared to the standard 100-300 view baseline.",
+  "overall_summary": "The channel shows clear strong spikes in engagement and views around post-marriage dynamic and husband-wife emotional relationship topics (~1.7k views each), while abstract heavy shayari and generic motivational quotes perform poorly (<50 views).",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Dynamics",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,766 views) and wife emotional videos (1,674 views) significantly outperform all other categories.",
-      "action": "Double down on core relationship and marriage tension topics rather than spreading too thin across all family members."
-    },
-    {
-      "pattern": "Question-Based Hooks",
-      "evidence": "Hooks framing a direct emotional question about marriage or hidden feelings garner higher engagement and viewership.",
-      "action": "Continue using relatable, inquisitive hooks that target domestic or romantic realities."
+      "pattern": "Husband-Wife / Post-marriage everyday relational tension and care",
+      "evidence": "Top 2 videos ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?' - 1,766 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' - 1,674 views) outperform all other videos by 5x-10x.",
+      "action": "Double down on simple, high-empathy marital situations without being overly dramatic."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sad Shayari & Heavy Poetry",
-      "evidence": "Videos focusing purely on abstract heartbreak or dramatic poetry like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received extremely low traction (14 views).",
-      "action": "Move away from overly dramatic or abstract poetic wording; anchor scripts in grounded, everyday scenarios instead."
-    },
-    {
-      "pattern": "Duplicate/Repetitive Testing Without Variation",
-      "evidence": "Uploading very similar sister emotional videos close to each other resulted in one performing decently while the duplicate flatlined at 19 views.",
-      "action": "Avoid immediate topic repetition; space out similar themes by at least a week."
+      "pattern": "Abstract / High-literary Hindi Shayari and philosophical quotes",
+      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 14 views.",
+      "action": "Avoid complex poetic lines; use grounded conversational Hindi with direct emotional impact."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Melancholy and Realization",
-    "hook_style": "Direct observation about unsaid words in a long marriage",
+    "emotion": "Quiet understanding and unexpressed love in marriage",
+    "hook_style": "Observation of a routine household detail",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization about how after years of marriage, couples stop fighting and start staying silent, which is actually more dangerous than arguments.",
-    "opening_direction": "Start with the simple everyday sight of a husband and wife sitting on opposite ends of the couch scrolling phones in total silence.",
-    "twist_direction": "Reveal that the silence isn't peace—it's two people who finally gave up trying to explain themselves to each other.",
+    "concept": "A husband notices his wife saving the last cup of evening tea for him, leading to a realization about how love changes after marriage from dynamic declarations to quiet care.",
+    "opening_direction": "Start with a quiet 7:00 PM home setting: 'शादी के कुछ सालों बाद प्यार दिखता नहीं, सिर्फ़ महसूस होता है...'",
+    "twist_direction": "The twist reveals that while he thought she was being distant, she was silently shielding him from everyday stresses in ways he never noticed.",
     "duration_seconds": 35,
-    "posting_window": "07:00 PM - 09:00 PM IST",
-    "reason": "Aligns with the proven high-performing Husband-Wife relationship cluster while testing a slightly deeper emotional twist on daily domestic life."
+    "posting_window": "07:00 - 08:00 UTC",
+    "reason": "Both peak performing videos were posted around 07:28 UTC and 13:12 UTC, featuring husband-wife core themes."
   },
-  "experiment": "Testing if shifting from an inquisitive marriage question hook to a silent observation domestic hook maintains the high view baseline of the 1,500+ view tier.",
-  "updated_at": "2026-10-22T00:47:39.046104+00:00",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-22T00:47:41.984424+00:00"
+  "experiment": "Testing if conversational narrative framing (everyday household detail) retains higher audience retention compared to direct advice quotes.",
+  "updated_at": "2026-10-22T06:23:19.165587+00:00",
+  "model_used": "gemini-3.6-flash",
+  "generated_at": "2026-10-22T06:23:35.426355+00:00"
 }
