@@ -1,35 +1,35 @@
 {
-  "confidence": "65%",
+  "confidence": "45%",
   "data_points": 14,
-  "overall_summary": "Analysis of the performance data reveals clear outliers in husband-wife relationship themes (videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' and 'पत्नी की ये बात हर पति को समझनी चाहिए'), generating significantly higher views (1,700+) compared to general heartbreak poetry, family tropes, or life reality shorts.",
+  "overall_summary": "The channel shows clear outlier performance in husband-wife relationship topics, while general emotional or poetic shayari shorts underperformed significantly. Data sample is small, so we must capitalize on the proven relationship dynamic while maintaining a small exploratory budget for other core topics.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos focusing on married life dynamics ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1766 views and wife emotional videos with 1674 views) heavily outperform generic heartbreak or family love shorts.",
-      "action": "Double down on marital intimacy, communication gaps, and everyday relationship friction."
+      "pattern": "Husband-Wife Relational Dynamics",
+      "evidence": "Videos focusing on married life ('or5gtaBpRVY' with 1674 views and 'my5mP9feI7s' with 1766 views) drastically outperformed all other content like generic poetry or individual family member shorts.",
+      "action": "Double down on married life realities, subtle misunderstandings, and emotional distance in relationships."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sad Poetry & Heavy Shayari",
-      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा 💔' received very low engagement (14 views).",
-      "action": "Avoid abstract, overly dramatic, or poetic venting; ground the emotions in mundane, recognizable real-life moments."
+      "pattern": "Generic Sad Shayari / Heavy Urdu Poetry",
+      "evidence": "Videos like 'YdWh4cDOE64' ('जिस दिन सच लिखूंगा...') received almost zero traction (14 views) compared to conversational relationship realities.",
+      "action": "Avoid overly dramatic, poetic, or abstract lines; stick to grounded, everyday conversational observations."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Bittersweet realization",
-    "hook_style": "Direct question about a silent habit in marriage",
+    "emotion": "नस्टेल्जिया और अकेलापन",
+    "hook_style": "Conversational observation about unspoken distance in marriage",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short exploration of how couples stop fighting and start staying silent in the same room, realizing indifference is scarier than anger.",
-    "opening_direction": "Start with a close observation of a couple sitting in absolute silence scrolling phones late at night.",
-    "twist_direction": "Reveal that the silence isn't peace—it's the exact moment two people stopped caring enough to argue.",
-    "duration_seconds": 10,
-    "posting_window": "07:00 PM - 09:00 PM IST",
-    "reason": "Matches the proven high-performing husband-wife relationship niche while leveraging late-night relatability (रात के ख्याल)."
+    "concept": "A couple sitting in silence in the same room, realizing they scroll through phones instead of talking to each other, highlighting how modern distance creeps into homes.",
+    "opening_direction": "शाम की चाय साथ होती है, पर बात खत्म हो जाती है...",
+    "twist_direction": "दूरियां शहरों की नहीं, एक ही बिस्तर पर रखे दो तकियों के बीच की होती हैं।",
+    "duration_seconds": 35,
+    "posting_window": "13:00 - 15:00 IST",
+    "reason": "Matches the proven high-performing husband-wife relationship theme that drove over 1,600+ views previously."
   },
-  "experiment": "Testing if shifting the husband-wife relationship angle from external romance ('pyar kahan chala gaya') to internal domestic numbness ('silent treatment') maintains high viewer retention.",
-  "updated_at": "2026-10-22T12:14:33.903315+00:00",
+  "experiment": "Testing if deep emotional silence resonates as well as direct dialogue in husband-wife relationship shorts.",
+  "updated_at": "2026-10-22T17:28:47.770705+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-22T12:14:36.811192+00:00"
+  "generated_at": "2026-10-22T17:28:54.810720+00:00"
 }
