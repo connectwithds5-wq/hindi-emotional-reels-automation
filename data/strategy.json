@@ -1,40 +1,35 @@
 {
-  "confidence": "75%",
+  "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Analysis of the historical performance indicates that deep relationship dynamics, specifically husband-wife complexities and everyday familial realities, significantly outperform abstract poetry or generic sad shayari. Content focusing on shared domestic life and mutual understanding achieves 5x to 10x higher views than general emotional quotes.",
+  "overall_summary": "Husband-wife relationship dynamics consistently outperform generic emotional or family content by 5x to 10x in view volume and engagement.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relatable Dynamic",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,766 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,674 views) heavily outperform generic shayari.",
-      "action": "Focus more narratives on partner dynamics, unspoken expectations, and emotional distance in marriage."
-    },
-    {
-      "pattern": "Conversational Interpersonal Hooks",
-      "evidence": "Titles addressing relational truths directly ('Har Baar Sorry Bolne Wala Galat Nahi Hota' with 382 views) perform better than one-liner sad poetry.",
-      "action": "Use dialogue-based or realization-based hooks that challenge common relationship assumptions."
+      "pattern": "Husband-Wife / Married Life Relationship Dynamics",
+      "evidence": "'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,766 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,674 views) generated the highest views and likes.",
+      "action": "Double down on real-life married couple misunderstandings and unsaid emotional distance."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract or Generic Sad Shayari",
-      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 15 views.",
-      "action": "Avoid overly dramatic or abstract poetry; ground the emotion in tangible, everyday life situations."
+      "pattern": "Generic Sibling & Abstract Shayari Content",
+      "evidence": "Sister/Brother videos scored low (19-136 views) and abstract Shayari scored lowest (15 views).",
+      "action": "Avoid broad poetic lines and generic family tributes without a specific everyday narrative hook."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "अहसास और दूरी",
-    "hook_style": "Realization-based question about daily unspoken distance",
+    "emotion": "Bittersweet realization & unexpressed love",
+    "hook_style": "Everyday silent behavior question",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "जब साथ रहते हुए भी घर में अजनबी बन जाते हैं लोग",
-    "opening_direction": "शाम की चाय पर वो खामोशी, जहां बात तो होती है पर कुछ कहा नहीं जाता।",
-    "twist_direction": "फर्क इस बात से नहीं पड़ता कि झगड़े कितने हैं, फर्क तब पड़ता है जब किसी बात पर हँसाने वाला भी कोई न बचे।",
+    "concept": "A wife quieted down after years of complaining, and her husband misinterprets silence as peace.",
+    "opening_direction": "Show a dinner table scene where the wife no longer reminds her husband to eat on time.",
+    "twist_direction": "Reveal that when a partner stops complaining, it isn't peace—it is the moment they stopped expecting.",
     "duration_seconds": 35,
-    "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Aligns with the proven husband-wife/relationship dynamic theme that drives highest view counts and evening peak usage for emotional content."
+    "posting_window": "13:00 - 14:00 IST or 19:30 - 20:30 IST",
+    "reason": "Top performing video 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' was published around 13:12 UTC/18:42 IST and hit peak engagement with married audience."
   },
-  "experiment": "Testing if shifting the husband-wife theme slightly towards everyday silent loneliness performs on par with high-view romantic reality videos.",
-  "updated_at": "2026-10-23T10:23:14.091799+00:00",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-23T10:23:16.632854+00:00"
+  "experiment": "Testing whether framed silence in a marriage drives higher comment-section debate than direct relationship advice.",
+  "updated_at": "2026-10-23T15:21:04.794594+00:00",
+  "model_used": "gemini-3.6-flash",
+  "generated_at": "2026-10-23T15:21:12.242931+00:00"
 }
