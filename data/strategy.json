@@ -1,35 +1,35 @@
 {
-  "confidence": "45%",
+  "confidence": "30%",
   "data_points": 14,
-  "overall_summary": "Data shows clear audience interest in husband-wife and relationship dynamic topics, which significantly outperformed general sad poetry and family member love shorts. However, due to the small sample size, confidence is moderate and requires blending proven high-performing themes with controlled testing.",
+  "overall_summary": "The channel shows clear outperformance in husband-wife relationship themes ('रिश्ते'), pulling views in the 1,600+ range, while standard sad shayaris or specific family member tributes (like sister or father) currently underperform due to low sample size and generic framing.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife and Relationship Realities",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,766 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,674 views) received nearly 10x the views of other topics.",
-      "action": "Focus core content production on marital dynamics, emotional distance in marriage, and unspoken partner truths."
+      "pattern": "Husband-Wife Relationship Dilemmas",
+      "evidence": "Videos like 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,674 views) and 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,766 views) significantly outperformed all other content.",
+      "action": "Double down on nuanced, everyday marital expectations, misunderstandings, and unspoken love."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sad Poetry and Heavy Urdu/Shayari Openings",
-      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' gained only 14 views.",
-      "action": "Avoid overly dramatic, poetic, or abstract lines at the start; ground the hooks in everyday recognizable observations."
+      "pattern": "Generic Sad Poetry/Shayari",
+      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 15 views.",
+      "action": "Avoid abstract, overly poetic revenge or bitter sad shayaris; keep the focus grounded in relatable everyday observations."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Melancholy & Realization",
-    "hook_style": "Observation-based question about unspoken habits in marriage",
+    "emotion": "Melancholic Nostalgia / Marital Realism",
+    "hook_style": "Direct observational question about post-marriage silences",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple sitting in complete silence in the living room, scrolling phones, realizing they know everything about their office colleagues but nothing about what made their partner smile today.",
-    "opening_direction": "Start with the sound of a TV playing in an empty room and a quiet evening tea.",
-    "twist_direction": "The realization that physical closeness doesn't matter when the emotional distance is already a locked door.",
-    "duration_seconds": 35,
-    "posting_window": "07:00 AM - 09:00 AM IST",
-    "reason": "Matches the proven high-performing husband-wife relationship niche while leveraging a relatable daily observation to drive watch time."
+    "concept": "A couple sitting in complete silence in the living room, neither angry nor talking, realizing that years of arguments have been replaced by a comfortable but heavy distance.",
+    "opening_direction": "अब घर में झगड़े नहीं होते… खामोशियां बात करती हैं।",
+    "twist_direction": "और फिर समझ आता है कि झगड़ों से ज्यादा खतरनाक तो ये खामोशी है, जहाँ शिकायतें खत्म हो चुकी हैं और उम्मीदें भी।",
+    "duration_seconds": 30,
+    "posting_window": "13:00 - 15:00",
+    "reason": "Aligns with the proven high-performing husband-wife relationship niche while leveraging a mature emotional hook rather than generic heartbreak."
   },
-  "experiment": "Testing if shifting the husband-wife emotional angle from general marital advice to specific everyday emotional isolation increases comment engagement.",
-  "updated_at": "2026-10-22T20:44:30.798034+00:00",
+  "experiment": "Testing whether shifting the marital dynamic from overt conflict to the emotional weight of 'silence and distance' retains the high view counts seen in previous relationship shorts.",
+  "updated_at": "2026-10-23T00:04:22.731627+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-22T20:44:33.920704+00:00"
+  "generated_at": "2026-10-23T00:04:25.008341+00:00"
 }
