@@ -1,35 +1,45 @@
 {
-  "confidence": "30%",
+  "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "The channel shows clear outperformance in husband-wife relationship themes ('रिश्ते'), pulling views in the 1,600+ range, while standard sad shayaris or specific family member tributes (like sister or father) currently underperform due to low sample size and generic framing.",
+  "overall_summary": "Analysis of historical performance indicates that deep relationship dynamics between couples (husband-wife) significantly outperform generic poetry, heavy sad shayari, or extended family topics. Videos focusing on marital understanding and daily compromises gathered the highest views (1.7k+), whereas heavily abstract sad shayaris underperformed.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Dilemmas",
-      "evidence": "Videos like 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,674 views) and 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,766 views) significantly outperformed all other content.",
-      "action": "Double down on nuanced, everyday marital expectations, misunderstandings, and unspoken love."
+      "pattern": "Husband-Wife Relationship Realities",
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,766 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,674 views) clearly outperformed all other topics.",
+      "action": "Double down on domestic relationship nuances, unspoken marital expectations, and everyday friction points."
+    },
+    {
+      "pattern": "Direct, Empathetic Addressing",
+      "evidence": "Titles framing a direct realization about relationships (e.g., 'Har Baar Sorry Bolne Wala Galat Nahi Hota' with 382 views) perform moderately better than pure abstract poetry.",
+      "action": "Keep hooks grounded in recognizable behavioral traits of partners."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sad Poetry/Shayari",
-      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 15 views.",
-      "action": "Avoid abstract, overly poetic revenge or bitter sad shayaris; keep the focus grounded in relatable everyday observations."
+      "pattern": "Abstract Sad Shayari / Heavy Poetry",
+      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 15 views.",
+      "action": "Avoid overly dramatic, poetic, or bitter wording; prefer grounded, emotional realism."
+    },
+    {
+      "pattern": "Randomized Family Topics without Setup",
+      "evidence": "First uploads on sibling bonds had erratic low views (e.g., 19 views for 'बहन सिर्फ घर की रौनक होती है…').",
+      "action": "Avoid flat statements; always anchor family topics in a specific micro-conflict or realization."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Melancholic Nostalgia / Marital Realism",
-    "hook_style": "Direct observational question about post-marriage silences",
+    "emotion": "अहसास और दूरी",
+    "hook_style": "Realization-based direct question",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple sitting in complete silence in the living room, neither angry nor talking, realizing that years of arguments have been replaced by a comfortable but heavy distance.",
-    "opening_direction": "अब घर में झगड़े नहीं होते… खामोशियां बात करती हैं।",
-    "twist_direction": "और फिर समझ आता है कि झगड़ों से ज्यादा खतरनाक तो ये खामोशी है, जहाँ शिकायतें खत्म हो चुकी हैं और उम्मीदें भी।",
-    "duration_seconds": 30,
-    "posting_window": "13:00 - 15:00",
-    "reason": "Aligns with the proven high-performing husband-wife relationship niche while leveraging a mature emotional hook rather than generic heartbreak."
+    "concept": "A short exploration of how couples stop fighting, not because things are fine, but because one person has stopped caring enough to argue.",
+    "opening_direction": "जब इंसान झगड़ना बंद कर दे, तो समझो रिश्ता सुधर नहीं रहा, बल्कि अंदर से खाली हो रहा है।",
+    "twist_direction": "असलियत तब दिखती है जब रात को फोन की स्क्रीन जलती है, मैसेज टाइप होता है, और फिर बिना भेजे डिलीट कर दिया जाता है।",
+    "duration_seconds": 35,
+    "posting_window": "07:00 PM - 09:00 PM",
+    "reason": "Matches the proven high-performing husband-wife / relationship friction pattern with a relatable emotional twist."
   },
-  "experiment": "Testing whether shifting the marital dynamic from overt conflict to the emotional weight of 'silence and distance' retains the high view counts seen in previous relationship shorts.",
-  "updated_at": "2026-10-23T00:04:22.731627+00:00",
+  "experiment": "Testing if shifting the high-performing relationship topic slightly toward emotional detachment/silence retains the 1.5k+ view audience.",
+  "updated_at": "2026-10-23T05:11:06.804713+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-23T00:04:25.008341+00:00"
+  "generated_at": "2026-10-23T05:11:09.841245+00:00"
 }
