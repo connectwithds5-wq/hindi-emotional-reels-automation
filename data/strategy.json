@@ -1,45 +1,40 @@
 {
-  "confidence": "65%",
+  "confidence": "75%",
   "data_points": 14,
-  "overall_summary": "Analysis of historical performance indicates that deep relationship dynamics between couples (husband-wife) significantly outperform generic poetry, heavy sad shayari, or extended family topics. Videos focusing on marital understanding and daily compromises gathered the highest views (1.7k+), whereas heavily abstract sad shayaris underperformed.",
+  "overall_summary": "Analysis of the historical performance indicates that deep relationship dynamics, specifically husband-wife complexities and everyday familial realities, significantly outperform abstract poetry or generic sad shayari. Content focusing on shared domestic life and mutual understanding achieves 5x to 10x higher views than general emotional quotes.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,766 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,674 views) clearly outperformed all other topics.",
-      "action": "Double down on domestic relationship nuances, unspoken marital expectations, and everyday friction points."
+      "pattern": "Husband-Wife Relatable Dynamic",
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,766 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,674 views) heavily outperform generic shayari.",
+      "action": "Focus more narratives on partner dynamics, unspoken expectations, and emotional distance in marriage."
     },
     {
-      "pattern": "Direct, Empathetic Addressing",
-      "evidence": "Titles framing a direct realization about relationships (e.g., 'Har Baar Sorry Bolne Wala Galat Nahi Hota' with 382 views) perform moderately better than pure abstract poetry.",
-      "action": "Keep hooks grounded in recognizable behavioral traits of partners."
+      "pattern": "Conversational Interpersonal Hooks",
+      "evidence": "Titles addressing relational truths directly ('Har Baar Sorry Bolne Wala Galat Nahi Hota' with 382 views) perform better than one-liner sad poetry.",
+      "action": "Use dialogue-based or realization-based hooks that challenge common relationship assumptions."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Sad Shayari / Heavy Poetry",
-      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 15 views.",
-      "action": "Avoid overly dramatic, poetic, or bitter wording; prefer grounded, emotional realism."
-    },
-    {
-      "pattern": "Randomized Family Topics without Setup",
-      "evidence": "First uploads on sibling bonds had erratic low views (e.g., 19 views for 'बहन सिर्फ घर की रौनक होती है…').",
-      "action": "Avoid flat statements; always anchor family topics in a specific micro-conflict or realization."
+      "pattern": "Abstract or Generic Sad Shayari",
+      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 15 views.",
+      "action": "Avoid overly dramatic or abstract poetry; ground the emotion in tangible, everyday life situations."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
     "emotion": "अहसास और दूरी",
-    "hook_style": "Realization-based direct question",
+    "hook_style": "Realization-based question about daily unspoken distance",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short exploration of how couples stop fighting, not because things are fine, but because one person has stopped caring enough to argue.",
-    "opening_direction": "जब इंसान झगड़ना बंद कर दे, तो समझो रिश्ता सुधर नहीं रहा, बल्कि अंदर से खाली हो रहा है।",
-    "twist_direction": "असलियत तब दिखती है जब रात को फोन की स्क्रीन जलती है, मैसेज टाइप होता है, और फिर बिना भेजे डिलीट कर दिया जाता है।",
+    "concept": "जब साथ रहते हुए भी घर में अजनबी बन जाते हैं लोग",
+    "opening_direction": "शाम की चाय पर वो खामोशी, जहां बात तो होती है पर कुछ कहा नहीं जाता।",
+    "twist_direction": "फर्क इस बात से नहीं पड़ता कि झगड़े कितने हैं, फर्क तब पड़ता है जब किसी बात पर हँसाने वाला भी कोई न बचे।",
     "duration_seconds": 35,
     "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Matches the proven high-performing husband-wife / relationship friction pattern with a relatable emotional twist."
+    "reason": "Aligns with the proven husband-wife/relationship dynamic theme that drives highest view counts and evening peak usage for emotional content."
   },
-  "experiment": "Testing if shifting the high-performing relationship topic slightly toward emotional detachment/silence retains the 1.5k+ view audience.",
-  "updated_at": "2026-10-23T05:11:06.804713+00:00",
+  "experiment": "Testing if shifting the husband-wife theme slightly towards everyday silent loneliness performs on par with high-view romantic reality videos.",
+  "updated_at": "2026-10-23T10:23:14.091799+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-23T05:11:09.841245+00:00"
+  "generated_at": "2026-10-23T10:23:16.632854+00:00"
 }
