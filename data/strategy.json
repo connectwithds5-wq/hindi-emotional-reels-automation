@@ -1,35 +1,45 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Husband-wife relationship dynamics consistently outperform generic emotional or family content by 5x to 10x in view volume and engagement.",
+  "overall_summary": "Analysis of the historical performance data reveals that husband-wife relationship themes and domestic life dynamics heavily outperform generic or poetic shayari formats. Videos focusing on marital realities ('Shaadi Ke Baad Pyaar Kahan Chala Gaya' and 'पत्नी की ये बात हर पति को समझनी चाहिए') garnered over 1,600+ views, significantly higher than poetic/sad quotes or family member shorts which averaged under 250 views.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife / Married Life Relationship Dynamics",
-      "evidence": "'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,766 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,674 views) generated the highest views and likes.",
-      "action": "Double down on real-life married couple misunderstandings and unsaid emotional distance."
+      "pattern": "Husband-Wife Relationship Realities",
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,766 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,674 views) achieved the highest traction on the channel.",
+      "action": "Produce more content revolving around modern marital expectations, unspoken compromises, and the evolution of love after marriage."
+    },
+    {
+      "pattern": "Direct Question Hooks about Relatable Daily Life",
+      "evidence": "Titles framing a common domestic question or dilemma hook the audience effectively, driving higher engagement compared to abstract or poetic titles.",
+      "action": "Use conversational, curiosity-driven questions as video titles and opening hooks."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sibling & Abstract Shayari Content",
-      "evidence": "Sister/Brother videos scored low (19-136 views) and abstract Shayari scored lowest (15 views).",
-      "action": "Avoid broad poetic lines and generic family tributes without a specific everyday narrative hook."
+      "pattern": "Abstract Sad Shayari & Heavy Poetry",
+      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 15 views, indicating low immediate feed pickup.",
+      "action": "Avoid heavy, abstract literary shayaris; ground the emotion in everyday behavioral observations instead."
+    },
+    {
+      "pattern": "Generic Family Member Appreciations",
+      "evidence": "Generalized sister or brother appreciation shorts ('बहन सिर्फ घर की रौनक होती है') stalled between 19 and 136 views.",
+      "action": "Narrow down family topics to specific behavioral moments or conflicts rather than broad praises."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Bittersweet realization & unexpressed love",
-    "hook_style": "Everyday silent behavior question",
+    "emotion": "Nostalgia and realization",
+    "hook_style": "Conversational observation about changing priorities in marriage",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A wife quieted down after years of complaining, and her husband misinterprets silence as peace.",
-    "opening_direction": "Show a dinner table scene where the wife no longer reminds her husband to eat on time.",
-    "twist_direction": "Reveal that when a partner stops complaining, it isn't peace—it is the moment they stopped expecting.",
+    "concept": "A short exploration of how late-night conversations between a married couple shift from discussing dreams to discussing household bills, and the silent longing for the way things used to be.",
+    "opening_direction": "Start with the observation: 'शादी के कुछ साल बाद, रात की वो लंबी बातें फोन पर नहीं, बल्कि सिर्फ अगली सुबह के काम की लिस्ट बन जाती हैं।'",
+    "twist_direction": "End with the emotional realization that they are still together in the same room, yet missing the person the other used to be.",
     "duration_seconds": 35,
-    "posting_window": "13:00 - 14:00 IST or 19:30 - 20:30 IST",
-    "reason": "Top performing video 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' was published around 13:12 UTC/18:42 IST and hit peak engagement with married audience."
+    "posting_window": "13:00 - 14:00",
+    "reason": "Capitalizes on the proven high-performing 'Husband-Wife Relationship' cluster while introducing a fresh emotional angle about emotional distance in routine life."
   },
-  "experiment": "Testing whether framed silence in a marriage drives higher comment-section debate than direct relationship advice.",
-  "updated_at": "2026-10-23T15:21:04.794594+00:00",
-  "model_used": "gemini-3.6-flash",
-  "generated_at": "2026-10-23T15:21:12.242931+00:00"
+  "experiment": "Testing whether shifting marital content from direct advice/complaints to subtle emotional nostalgia retains the high view counts of the husband-wife cluster.",
+  "updated_at": "2026-10-23T19:27:00.415271+00:00",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-10-23T19:27:03.631458+00:00"
 }
