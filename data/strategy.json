@@ -1,35 +1,35 @@
 {
-  "confidence": "65%",
+  "confidence": "45%",
   "data_points": 14,
-  "overall_summary": "Analysis of the performance data reveals clear outliers in husband-wife relationship topics (e.g., 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1,766 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1,674 views), significantly outperforming generic shayari, family relations (brother/sister), and heavy heartbreak content.",
+  "overall_summary": "Data indicates that relationship dynamics and spouse-centric emotional realities (Husband-Wife) significantly outperform generalized sad shayari or specific family member niches. Top-performing videos focus on marital realities and everyday relationship friction, while poetic or niche family videos struggle with low sample views.",
   "winning_patterns": [
     {
       "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos focusing on marriage dynamics (my5mP9feI7s, or5gtaBpRVY) achieved ~1,700+ views, compared to averages of 150-300 for other topics.",
-      "action": "Double down on mature, everyday relationship struggles and subtle marital distance."
+      "evidence": "Videos like 'or5gtaBpRVY' (1,674 views) and 'my5mP9feI7s' (1,766 views) heavily outperformed all other topics.",
+      "action": "Double down on husband-wife psychological and emotional everyday nuances."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Heavy Abstract Shayari & Deep Sadness",
-      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' (YdWh4cDOE64) stalled at 15 views.",
-      "action": "Avoid overly poetic or melodramatic openings; focus on grounded, recognizable domestic or emotional situations."
+      "pattern": "Generic Sad Shayari / Heavy Poetic Lines",
+      "evidence": "Video 'YdWh4cDOE64' ('जिस दिन सच लिखूंगा...') stalled at 15 views.",
+      "action": "Avoid abstract poetic rants; ground the emotion in concrete, relatable situations."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Melancholy and quiet realization",
-    "hook_style": "Observation on silent moments after years of marriage",
+    "emotion": "Bittersweet realization",
+    "hook_style": "Observation about silent changes in long-term relationships",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple sitting in complete silence in the living room, no fights, just distance, realizing they now talk only about household chores.",
-    "opening_direction": "Start with a relatable visual and audio cue: 'शादी के शुरुआती साल में बातें खत्म नहीं होती थीं, और अब... घंटों की खामोशी होती है।'",
-    "twist_direction": "End with the emotional realization: 'झगड़े खत्म होना मोहब्बत की निशानी नहीं होती, कभी-कभी रिश्ते सिर्फ थक जाते हैं।'",
+    "concept": "The silent distance that creeps into marriage when couples stop fighting and start ignoring.",
+    "opening_direction": "जब पति-पत्नी महीनों तक बिना लड़े सिर्फ 'ठीक है' में बात खत्म करने लगें...",
+    "twist_direction": "...तो समझ लेना प्यार खत्म नहीं हुआ, बस किसी एक ने उम्मीद छोड़ दी है।",
     "duration_seconds": 35,
-    "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Aligns with the proven high-performing husband-wife relationship cluster while testing a nuanced emotional angle on silent distance rather than direct conflict."
+    "posting_window": "13:00 - 15:00",
+    "reason": "Aligns with the proven success of husband-wife relationship themes (like my5mP9feI7s and or5gtaBpRVY) while exploring an emotional twist."
   },
-  "experiment": "Testing whether subtle emotional distance in marriage performs better than direct partnership advice.",
-  "updated_at": "2026-10-24T19:39:34.331879+00:00",
+  "experiment": "Testing if a subtle psychological shift in marriage outperforms direct conflict topics.",
+  "updated_at": "2026-10-24T22:38:14.921095+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-24T19:39:38.530305+00:00"
+  "generated_at": "2026-10-24T22:38:16.901883+00:00"
 }
