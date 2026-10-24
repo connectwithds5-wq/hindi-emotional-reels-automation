@@ -1,35 +1,35 @@
 {
-  "confidence": "45%",
+  "confidence": "30%",
   "data_points": 14,
-  "overall_summary": "The channel shows clear outperformance in husband-wife relationship and domestic emotional dynamics (e.g., Shaadi Ke Baad Pyaar Kahan Chala Gaya with 1.7k views, and Wife Emotional Video with 1.6k views), significantly outperforming general poetry, friendship, or niche parental topics. However, overall sample size is low, so we lean toward repeating the winning domestic dynamic while keeping a small budget for relational reality checks.",
+  "overall_summary": "The channel shows clear high-performance outliers in the 'रिश्ते' (relationships/husband-wife) category, specifically focusing on married life dynamics. Other topics like family love and raw shayari underperformed significantly.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship & Domestic Realities",
-      "evidence": "Videos focusing on married life and partner understanding ('Shaadi Ke Baad Pyaar Kahan Chala Gaya' and 'पत्नी की ये बात हर पति को समझनी चाहिए') gained 1,766 and 1,674 views respectively, outperforming all other topics by nearly 5x-10x.",
-      "action": "Double down on husband-wife psychological and emotional friction points in future content."
+      "pattern": "Husband-Wife Relationship Realities",
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1766 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1674 views) significantly outperformed all other categories.",
+      "action": "Double down on domestic relationship dynamics and marital emotional struggles."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Pure Abstract Shayari/Poetry without Grounded Context",
-      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 15 views, indicating abstract dramatic writing fails to pull traffic without a concrete relationship anchor.",
-      "action": "Avoid generic poetic rants; anchor every emotional insight into an everyday tangible relationship situation."
+      "pattern": "Abstract Sad Shayari / Raw Poetry",
+      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 15 views.",
+      "action": "Avoid heavy, abstract poetic wording; focus instead on grounded everyday observations."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Bittersweet realization",
-    "hook_style": "Direct observation about modern marriage habits",
+    "emotion": "Melancholy yet comforting",
+    "hook_style": "Direct question about unspoken distance between couples",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple sitting in complete silence in the same room, scrolling phones instead of talking, leading to the silent realization that distance isn't physical anymore.",
-    "opening_direction": "Start with the quiet sound of phone notifications in a dark room where a husband and wife sit inches apart.",
-    "twist_direction": "Reveal that they are texting each other because speaking out loud feels like too much effort now.",
-    "duration_seconds": 15,
-    "posting_window": "07:00 AM - 09:00 AM IST",
-    "reason": "Aligns directly with the highest-performing content category (husband-wife dynamics) while tapping into modern overthinking and relationship gaps."
+    "concept": "A wife who stops complaining and stays silent, and what that quiet actually means for a marriage.",
+    "opening_direction": "जब पत्नी अचानक से शिकायत करना बंद कर दे...",
+    "twist_direction": "ख़ामोशी सुकून नहीं, बल्कि रिश्ते के टूटने की आखिरी आहट होती है।",
+    "duration_seconds": 35,
+    "posting_window": "07:00 AM - 09:00 AM",
+    "reason": "Aligns with the proven high-performing husband-wife relationship format that previously drove over 1,700 views."
   },
-  "experiment": "Testing if silent modern lifestyle habits within marriage retain audience attention better than direct verbal advice.",
-  "updated_at": "2026-10-23T22:31:32.641532+00:00",
+  "experiment": "Testing if shifting focus strictly to marital silence outperforms general relationship advice.",
+  "updated_at": "2026-10-24T01:48:05.942986+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-23T22:31:35.377079+00:00"
+  "generated_at": "2026-10-24T01:48:08.130661+00:00"
 }
