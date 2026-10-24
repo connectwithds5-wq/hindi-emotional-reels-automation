@@ -1,35 +1,35 @@
 {
   "confidence": "35%",
   "data_points": 14,
-  "overall_summary": "Data volume is low, but husband-wife and relationship dynamic topics clearly outperform abstract sad shayari significantly. Viewers engage most with domestic emotional realism over poetic despair.",
+  "overall_summary": "The channel shows clear outlier performance in husband-wife and marriage relationship content (videos 'my5mP9feI7s' and 'or5gtaBpRVY' with 1700+ views), while general sad poetry or broad emotional shayari struggles to get traction due to a low sample size. A controlled exploration is needed focusing on relational dynamics.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife / Relationship Realities",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,766 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,674 views) generated nearly 10x the traffic of other topics.",
-      "action": "Focus core production heavily on marital dynamics, silent communication, and post-marriage realities."
+      "pattern": "Husband-Wife Relationship Dilemmas",
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,766 views) and 'Patni ki yeh baat' (1,674 views) heavily outperform generic poetry.",
+      "action": "Double down on married life realities, communication gaps, and emotional distance after marriage."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract / Aggressive Sad Shayari",
-      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 15 views.",
-      "action": "Avoid heavy, abstract, or overly bitter poetic phrasing; keep emotional tone grounded and intimate."
+      "pattern": "Generic Sad Shayari / Heavy Urdu-Hindi phrasing",
+      "evidence": "Video titled 'Jiss din sach likhunga…' got only 15 views.",
+      "action": "Avoid overly dramatic, poetic, or cryptic phrasing; use direct, conversational everyday language."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Nostalgia and silent realization",
-    "hook_style": "Direct question about daily routine changes after years of marriage",
+    "emotion": "Melancholy & Nostalgia",
+    "hook_style": "Conversational observation about unspoken distance in a relationship",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple sitting in silence in the living room, realizing they haven't had a real conversation about their day in weeks, not because they are fighting, but because life took over.",
-    "opening_direction": "Start with a quiet evening scene: tea getting cold while both are busy on their phones.",
-    "twist_direction": "The realization that silence used to mean comfort, but now it feels like distance.",
+    "concept": "A realization that the biggest distance in a marriage isn't physical rooms, but the silence when two people stop arguing and start ignoring.",
+    "opening_direction": "Start with a quiet visual of tea getting cold while scrolling through a phone next to each other.",
+    "twist_direction": "The realization that a loud fight is better than the polite silence where neither partner cares enough to explain themselves anymore.",
     "duration_seconds": 35,
     "posting_window": "07:00 AM - 09:00 AM",
-    "reason": "Aligns with the proven high-performing husband-wife relationship format while testing a nuanced emotional angle."
+    "reason": "Building directly on the proven high-performing husband-wife relationship niche while keeping the narrative grounded in everyday relatable details."
   },
-  "experiment": "Testing if subtle emotional distance between couples drives better retention than explicit relationship advice.",
-  "updated_at": "2026-10-24T07:31:16.964405+00:00",
+  "experiment": "Testing whether micro-silences and unsaid words in long-term relationships drive higher retention than explicit arguments.",
+  "updated_at": "2026-10-24T12:51:07.256305+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-24T07:31:22.612164+00:00"
+  "generated_at": "2026-10-24T12:51:13.979005+00:00"
 }
