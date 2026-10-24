@@ -1,40 +1,35 @@
 {
-  "confidence": "75%",
+  "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "The channel shows a clear preference for 'Husband-Wife' and 'Relationship Dynamics' content, which significantly outperformed generic shayari or individual family member tributes. The top two performing videos (1674 and 1766 views) focus on the evolution of marriage and communication gaps.",
+  "overall_summary": "Analysis of the performance data reveals clear outliers in husband-wife relationship topics (e.g., 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1,766 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1,674 views), significantly outperforming generic shayari, family relations (brother/sister), and heavy heartbreak content.",
   "winning_patterns": [
     {
-      "pattern": "Relationship Dynamics/Marriage",
-      "evidence": "Videos about husband-wife dynamics (or5gtaBpRVY, my5mP9feI7s) received 10x-15x more views than other topics.",
-      "action": "Double down on marriage-related emotional conflicts and communication gaps."
-    },
-    {
-      "pattern": "Direct Address Hooks",
-      "evidence": "Titles addressing the viewer directly or asking a provocative question about their partner drive higher engagement.",
-      "action": "Use conversational, question-based titles that imply a shared secret or a common mistake."
+      "pattern": "Husband-Wife Relationship Realities",
+      "evidence": "Videos focusing on marriage dynamics (my5mP9feI7s, or5gtaBpRVY) achieved ~1,700+ views, compared to averages of 150-300 for other topics.",
+      "action": "Double down on mature, everyday relationship struggles and subtle marital distance."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Shayari/Poetry",
-      "evidence": "Videos focusing on abstract shayari (YdWh4cDOE64) performed poorly compared to narrative-based emotional storytelling.",
-      "action": "Shift from abstract poetry to specific, relatable 'real-life' scenarios."
+      "pattern": "Heavy Abstract Shayari & Deep Sadness",
+      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' (YdWh4cDOE64) stalled at 15 views.",
+      "action": "Avoid overly poetic or melodramatic openings; focus on grounded, recognizable domestic or emotional situations."
     }
   ],
   "next_video": {
-    "topic": "रिश्ते (Relationships)",
-    "emotion": "Melancholy/Reflection",
-    "hook_style": "Questioning a common behavior",
-    "story_structure": "Simple: A couple sitting in silence -> Relatable: Scrolling phones while sitting together -> Twist: Realizing the distance between them is greater than the distance between cities.",
-    "concept": "The silence that kills relationships.",
-    "opening_direction": "Start with: 'क्या आपने गौर किया है, अब हम साथ बैठकर भी साथ नहीं होते?'",
-    "twist_direction": "Shift to the realization that we are becoming strangers in the same room.",
+    "topic": "रिश्ते",
+    "emotion": "Melancholy and quiet realization",
+    "hook_style": "Observation on silent moments after years of marriage",
+    "story_structure": "simple -> relatable -> twist",
+    "concept": "A couple sitting in complete silence in the living room, no fights, just distance, realizing they now talk only about household chores.",
+    "opening_direction": "Start with a relatable visual and audio cue: 'शादी के शुरुआती साल में बातें खत्म नहीं होती थीं, और अब... घंटों की खामोशी होती है।'",
+    "twist_direction": "End with the emotional realization: 'झगड़े खत्म होना मोहब्बत की निशानी नहीं होती, कभी-कभी रिश्ते सिर्फ थक जाते हैं।'",
     "duration_seconds": 35,
-    "posting_window": "07:00 AM - 08:30 AM IST",
-    "reason": "Aligns with the high-performing 'Husband-Wife' niche and targets the morning 'reflection' mindset of the audience."
+    "posting_window": "07:00 PM - 09:00 PM",
+    "reason": "Aligns with the proven high-performing husband-wife relationship cluster while testing a nuanced emotional angle on silent distance rather than direct conflict."
   },
-  "experiment": "Testing a 'visual silence' hook (no music for the first 3 seconds) to see if it increases retention compared to the usual background music starts.",
-  "updated_at": "2026-10-24T16:47:55.081350+00:00",
-  "model_used": "gemini-3.1-flash-lite",
-  "generated_at": "2026-10-24T16:47:58.206993+00:00"
+  "experiment": "Testing whether subtle emotional distance in marriage performs better than direct partnership advice.",
+  "updated_at": "2026-10-24T19:39:34.331879+00:00",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-10-24T19:39:38.530305+00:00"
 }
