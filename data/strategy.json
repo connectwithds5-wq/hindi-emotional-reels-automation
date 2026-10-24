@@ -1,35 +1,35 @@
 {
-  "confidence": "30%",
+  "confidence": "35%",
   "data_points": 14,
-  "overall_summary": "The channel shows clear high-performance outliers in the 'रिश्ते' (relationships/husband-wife) category, specifically focusing on married life dynamics. Other topics like family love and raw shayari underperformed significantly.",
+  "overall_summary": "Data volume is low, but husband-wife and relationship dynamic topics clearly outperform abstract sad shayari significantly. Viewers engage most with domestic emotional realism over poetic despair.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1766 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1674 views) significantly outperformed all other categories.",
-      "action": "Double down on domestic relationship dynamics and marital emotional struggles."
+      "pattern": "Husband-Wife / Relationship Realities",
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,766 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,674 views) generated nearly 10x the traffic of other topics.",
+      "action": "Focus core production heavily on marital dynamics, silent communication, and post-marriage realities."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Sad Shayari / Raw Poetry",
+      "pattern": "Abstract / Aggressive Sad Shayari",
       "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 15 views.",
-      "action": "Avoid heavy, abstract poetic wording; focus instead on grounded everyday observations."
+      "action": "Avoid heavy, abstract, or overly bitter poetic phrasing; keep emotional tone grounded and intimate."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Melancholy yet comforting",
-    "hook_style": "Direct question about unspoken distance between couples",
+    "emotion": "Nostalgia and silent realization",
+    "hook_style": "Direct question about daily routine changes after years of marriage",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A wife who stops complaining and stays silent, and what that quiet actually means for a marriage.",
-    "opening_direction": "जब पत्नी अचानक से शिकायत करना बंद कर दे...",
-    "twist_direction": "ख़ामोशी सुकून नहीं, बल्कि रिश्ते के टूटने की आखिरी आहट होती है।",
+    "concept": "A couple sitting in silence in the living room, realizing they haven't had a real conversation about their day in weeks, not because they are fighting, but because life took over.",
+    "opening_direction": "Start with a quiet evening scene: tea getting cold while both are busy on their phones.",
+    "twist_direction": "The realization that silence used to mean comfort, but now it feels like distance.",
     "duration_seconds": 35,
     "posting_window": "07:00 AM - 09:00 AM",
-    "reason": "Aligns with the proven high-performing husband-wife relationship format that previously drove over 1,700 views."
+    "reason": "Aligns with the proven high-performing husband-wife relationship format while testing a nuanced emotional angle."
   },
-  "experiment": "Testing if shifting focus strictly to marital silence outperforms general relationship advice.",
-  "updated_at": "2026-10-24T01:48:05.942986+00:00",
+  "experiment": "Testing if subtle emotional distance between couples drives better retention than explicit relationship advice.",
+  "updated_at": "2026-10-24T07:31:16.964405+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-24T01:48:08.130661+00:00"
+  "generated_at": "2026-10-24T07:31:22.612164+00:00"
 }
