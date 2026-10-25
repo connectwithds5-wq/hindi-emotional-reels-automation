@@ -1,35 +1,40 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "The channel shows clear outlier performance for husband-wife relationship themes compared to generic sad poetry or family relation videos. Videos centered on modern relationship dynamics significantly outperform traditional family tropes.",
+  "overall_summary": "Analysis of historical performance indicates that deep relationship dynamics, specifically marital complexities and husband-wife emotional realities, significantly outperform generic poetry, sad shayari, or isolated family member tributes in this sample size.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (~1766 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (~1674 views) received 5x to 10x more views than other content.",
-      "action": "Double down on husband-wife psychological and emotional friction points."
+      "pattern": "Husband-Wife Relationship Dynamics",
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,766 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,674 views) generated 5-10x more views than other topics.",
+      "action": "Double down on complex, grounded romantic and marital relationship realities."
+    },
+    {
+      "pattern": "Conversational Reality Hooks",
+      "evidence": "Titles framing a relatable dilemma or questioning everyday relationship habits ('Har Baar Sorry Bolne Wala Galat Nahi Hota') garner higher baseline engagement.",
+      "action": "Use conversational, thought-provoking statements rather than heavy sad poetry."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sad Poetry/Shayari",
-      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 15 views.",
-      "action": "Move away from abstract, heavy vocabulary poetry and focus on narrative-driven relatable moments."
+      "pattern": "Generic Sad Shayari & One-liners",
+      "evidence": "Videos focusing heavily on abstract pain like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' underperformed dramatically with only 15 views.",
+      "action": "Avoid overly dramatic or abstract shayari; anchor content in tangible daily life observations."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "निराशा और अपनापन",
-    "hook_style": "Direct observation about silent treatment in marriage",
+    "emotion": "अहसास और दूरी",
+    "hook_style": "क्वेश्चन बेस्ड रियेलिटी चेक",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "जब गुस्से में बात बंद हो जाती है, तो घर में सिर्फ सामान की आवाज़ें आती हैं, रिश्तों की नहीं।",
-    "opening_direction": "सुबह की चाय का कप बिना किसी बातचीत के काउंटर पर रखना",
-    "twist_direction": "लड़ाई इस बात की नहीं थी कि कौन गलत है, लड़ाई इस बात की थी कि दोनों में से पहले झुका कौन.",
+    "concept": "रोज रात को फोन पर घंटों बात करने वाले लोग अचानक कैसे सिर्फ 'गुड नाइट' पर सिमट जाते हैं?",
+    "opening_direction": "शादी या रिश्ते के शुरुआती महीनों में रात के 2 बजे तक चलने वाली बातें...",
+    "twist_direction": "और आज हाल ये है कि दोनों ऑनलाइन होते हैं, पर एक दूसरे के मैसेज का इंतज़ार करने की हिम्मत नहीं होती।",
     "duration_seconds": 35,
-    "posting_window": "13:00 - 14:00",
-    "reason": "Aligns with the proven high-performing husband-wife relationship cluster using a narrative micro-moment."
+    "posting_window": "07:00 PM - 09:00 PM",
+    "reason": "Aligns with the proven high-performing 'relationship reality' cluster while testing nighttime overthinking themes to expand engagement."
   },
-  "experiment": "Testing if narrative-driven relationship friction outperforms direct advice-style relationship titles.",
-  "updated_at": "2026-10-25T06:32:32.192468+00:00",
+  "experiment": "Testing an emotional transition from late-night relationship habit changes to silent distance, blending the winning relationship topic with the 'night thoughts' channel theme.",
+  "updated_at": "2026-10-25T12:41:29.596216+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-25T06:32:34.245487+00:00"
+  "generated_at": "2026-10-25T12:41:32.217377+00:00"
 }
