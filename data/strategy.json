@@ -1,35 +1,35 @@
 {
-  "confidence": "45%",
+  "confidence": "35%",
   "data_points": 14,
-  "overall_summary": "Data indicates that relationship dynamics and spouse-centric emotional realities (Husband-Wife) significantly outperform generalized sad shayari or specific family member niches. Top-performing videos focus on marital realities and everyday relationship friction, while poetic or niche family videos struggle with low sample views.",
+  "overall_summary": "Historical data shows a clear outlier preference for husband-wife relationship dynamics (videos 'or5gtaBpRVY' and 'my5mP9feI7s' pulled 1,600+ views, vastly outperforming generic sad shayari or sibling videos which hovered under 300 views). Overall sample size is small, so confidence is low and requires a controlled exploration leaning into the proven relationship niche.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos like 'or5gtaBpRVY' (1,674 views) and 'my5mP9feI7s' (1,766 views) heavily outperformed all other topics.",
-      "action": "Double down on husband-wife psychological and emotional everyday nuances."
+      "pattern": "Husband-Wife Relatable Realities",
+      "evidence": "Videos focusing on married life dynamics (e.g., 'पत्नी की ये बात हर पति को समझनी चाहिए' and 'Shaadi Ke Baad Pyaar Kahan Chala Gaya') received 1,600 to 1,700+ views, significantly higher than any other category.",
+      "action": "Double down on core relationship and marriage communication topics to build baseline traction."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sad Shayari / Heavy Poetic Lines",
-      "evidence": "Video 'YdWh4cDOE64' ('जिस दिन सच लिखूंगा...') stalled at 15 views.",
-      "action": "Avoid abstract poetic rants; ground the emotion in concrete, relatable situations."
+      "pattern": "Generic Sad Shayari / Heavy Melodrama",
+      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 15 views, showing that overly dramatic, disconnected poetic lines underperform compared to grounded domestic realities.",
+      "action": "Avoid abstract poetic bitterness; ground emotional notes in everyday household interactions."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
     "emotion": "Bittersweet realization",
-    "hook_style": "Observation about silent changes in long-term relationships",
+    "hook_style": "Direct question about unspoken daily habits between partners",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "The silent distance that creeps into marriage when couples stop fighting and start ignoring.",
-    "opening_direction": "जब पति-पत्नी महीनों तक बिना लड़े सिर्फ 'ठीक है' में बात खत्म करने लगें...",
-    "twist_direction": "...तो समझ लेना प्यार खत्म नहीं हुआ, बस किसी एक ने उम्मीद छोड़ दी है।",
+    "concept": "A short exploration of how kitchen table silences between a long-married couple mask unspoken care, shifting from routine annoyance to deep emotional dependence.",
+    "opening_direction": "सुबह की चाय अब बिना किसी बात के खामोशी से पी जाती है...",
+    "twist_direction": "...पर जब एक दिन कप अकेला रह जाता है, तब पता चलता है कि वो खामोशी ही सबसे मजबूत रिश्ता थी।",
     "duration_seconds": 35,
-    "posting_window": "13:00 - 15:00",
-    "reason": "Aligns with the proven success of husband-wife relationship themes (like my5mP9feI7s and or5gtaBpRVY) while exploring an emotional twist."
+    "posting_window": "07:00 AM - 09:00 AM",
+    "reason": "Matches the proven success window and high-performing husband-wife relationship category from past data."
   },
-  "experiment": "Testing if a subtle psychological shift in marriage outperforms direct conflict topics.",
-  "updated_at": "2026-10-24T22:38:14.921095+00:00",
+  "experiment": "Testing if shifting from direct husband-wife advice to subtle observational storytelling within the same marriage dynamic sustains the high view counts of previous outliers.",
+  "updated_at": "2026-10-25T01:25:09.999950+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-24T22:38:16.901883+00:00"
+  "generated_at": "2026-10-25T01:25:12.431894+00:00"
 }
