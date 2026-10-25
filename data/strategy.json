@@ -1,40 +1,40 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "The channel shows clear outlier performance in husband-wife relationship content ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1,766 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1,674 views). General family and relationship topics have moderate pull, while broad sad shayari underperforms significantly.",
+  "overall_summary": "Data shows clear audience preference for domestic relationship dynamics and husband-wife emotional realities ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?', 'पत्नी की ये बात हर पति को समझनी चाहिए'), which heavily outperformed standard poetry or solo motivational shorts. Family and romantic bond themes generate the highest organic reach.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Dilemmas",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' and 'पत्नी की ये बात हर पति को समझनी चाहिए' achieved over 1,600+ views, significantly outperforming all other topics.",
-      "action": "Double down on marriage and long-term relationship dynamics, focusing on unspoken domestic compromises."
+      "pattern": "Husband-Wife Relationship Realities",
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,766 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,674 views) significantly outperformed all other content.",
+      "action": "Produce more narrative-driven shorts focusing on married life micro-conflicts and unspoken love."
     },
     {
-      "pattern": "Direct, Question-Based Hooks",
-      "evidence": "Titles framing a relatable question or realization drive higher curiosity and initial watch time.",
-      "action": "Continue using direct, conversational questions addressing common emotional blind spots in relationships."
+      "pattern": "Parental and Family Sacrifices",
+      "evidence": "Content around mothers ('माँ जब पूछती है...') and fathers ('पापा कभी कहते नहीं...') gained steady views (140-238 views) compared to abstract poetry.",
+      "action": "Incorporate grounded, everyday family observations into the content pipeline."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sad Shayari & Heavy Poetry",
-      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 15 views.",
-      "action": "Avoid abstract, overly dramatic poetry; ground the emotion in concrete, daily household realities."
+      "pattern": "Abstract or Aggressive Sad Poetry Hooks",
+      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा 💔' received only 16 views.",
+      "action": "Avoid overly dramatic, poetic, or bitter openings; anchor hooks in relatable, everyday occurrences."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Nostalgia and unspoken appreciation in marriage",
-    "hook_style": "Observation about routine marriage life",
+    "emotion": "Nostalgia and silent regret",
+    "hook_style": "Observational everyday action",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple who used to talk for hours on the phone before marriage now sits in total silence in the same room, not out of anger, but out of absolute comfort—until one realizes how much unsaid love exists in that silence.",
-    "opening_direction": "शादी के पहले घंटों फोन पर बात होती थी, और आज… एक ही कमरे में बैठकर भी घंटो बात नहीं होती।",
-    "twist_direction": "लोग सोचते हैं प्यार खत्म हो गया, पर सच्चाई ये है कि अब शब्दों की जरूरत ही नहीं पड़ती, खामोशी भी सब समझ जाती है।",
+    "concept": "A husband finding an old forgotten college diary or ticket stub inside his wife's cookbook, realizing how much they used to talk before daily chores took over.",
+    "opening_direction": "Start with a mundane kitchen scene—tea boiling over while the wife manages two tasks at once.",
+    "twist_direction": "The husband stays silent, doesn't complain about the tea, and quietly places a cup on the counter with a sticky note reminding her of who they used to be.",
     "duration_seconds": 35,
-    "posting_window": "07:00 AM - 09:00 AM",
-    "reason": "Capitalizes on the proven high-performing husband-wife relationship niche while shifting the emotional tone from conflict/doubt to comforting reassurance, maintaining broad relatability."
+    "posting_window": "13:00 - 14:00 IST",
+    "reason": "Matches the proven high-performing husband-wife relationship format while testing a subtler, non-verbal emotional beat."
   },
-  "experiment": "Testing if shifting the husband-wife narrative from relationship struggles to comforting domestic realities retains the high view counts of previous relationship hits.",
-  "updated_at": "2026-10-25T17:09:38.841718+00:00",
+  "experiment": "Testing a silent, non-verbal expression of care in husband-wife dynamics instead of dialogue-heavy relationship complaints.",
+  "updated_at": "2026-10-25T19:52:05.414440+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-25T17:09:41.384441+00:00"
+  "generated_at": "2026-10-25T19:52:08.055588+00:00"
 }
