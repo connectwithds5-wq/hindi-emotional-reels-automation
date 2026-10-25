@@ -1,40 +1,35 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Data shows clear audience preference for domestic relationship dynamics and husband-wife emotional realities ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?', 'पत्नी की ये बात हर पति को समझनी चाहिए'), which heavily outperformed standard poetry or solo motivational shorts. Family and romantic bond themes generate the highest organic reach.",
+  "overall_summary": "Analysis of historical performance shows that content centered around complex husband-wife relationship dynamics and domestic life realities significantly outperforms general heartbreak shayari or family member spotlights. Videos focusing on marriage ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?' and 'पत्नी की ये बात हर पति को समझनी चाहिए') generated over 1,600+ views, whereas pure poetry or single-topic family tributes stayed under 300 views. Confidence is moderate due to a limited sample size, requiring a balanced approach of leaning into proven relationship themes while cautiously testing other emotional niches.",
   "winning_patterns": [
     {
       "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,766 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,674 views) significantly outperformed all other content.",
-      "action": "Produce more narrative-driven shorts focusing on married life micro-conflicts and unspoken love."
-    },
-    {
-      "pattern": "Parental and Family Sacrifices",
-      "evidence": "Content around mothers ('माँ जब पूछती है...') and fathers ('पापा कभी कहते नहीं...') gained steady views (140-238 views) compared to abstract poetry.",
-      "action": "Incorporate grounded, everyday family observations into the content pipeline."
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,766 views) and wife emotional videos (1,674 views) heavily outperform all other content types on the channel.",
+      "action": "Prioritize narrative concepts that explore modern marriage dynamics, unspoken marital friction, and emotional disconnection after years of togetherness."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract or Aggressive Sad Poetry Hooks",
-      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा 💔' received only 16 views.",
-      "action": "Avoid overly dramatic, poetic, or bitter openings; anchor hooks in relatable, everyday occurrences."
+      "pattern": "Generic Sad Shayari & Low-Context Poetry",
+      "evidence": "Titles relying purely on dramatic melancholic statements like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' gained only 17 views.",
+      "action": "Avoid abstract, overly poetic setups. Ground every piece of content in a specific, observable everyday moment rather than broad poetic statements."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Nostalgia and silent regret",
-    "hook_style": "Observational everyday action",
+    "emotion": "Melancholy & Realization",
+    "hook_style": "Observational everyday confession",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A husband finding an old forgotten college diary or ticket stub inside his wife's cookbook, realizing how much they used to talk before daily chores took over.",
-    "opening_direction": "Start with a mundane kitchen scene—tea boiling over while the wife manages two tasks at once.",
-    "twist_direction": "The husband stays silent, doesn't complain about the tea, and quietly places a cup on the counter with a sticky note reminding her of who they used to be.",
+    "concept": "A husband noticing how he and his wife now sit in complete silence after dinner, scrolling through phones instead of sharing their day, realizing they have become polite strangers living in the same house.",
+    "opening_direction": "Start with the quiet sound of a TV playing in the background while two cups of tea grow cold on the table untouched.",
+    "twist_direction": "Reveal that the silence isn't due to anger or fights, but the scarier realization that they simply have nothing left to say to each other anymore.",
     "duration_seconds": 35,
-    "posting_window": "13:00 - 14:00 IST",
-    "reason": "Matches the proven high-performing husband-wife relationship format while testing a subtler, non-verbal emotional beat."
+    "posting_window": "07:00 AM - 09:00 AM",
+    "reason": "Leverages the proven high-performing husband-wife relationship niche while hitting a deeply relatable emotional nerve about modern domestic disconnect."
   },
-  "experiment": "Testing a silent, non-verbal expression of care in husband-wife dynamics instead of dialogue-heavy relationship complaints.",
-  "updated_at": "2026-10-25T19:52:05.414440+00:00",
+  "experiment": "Testing if shifting the husband-wife dynamic from marital friction to emotional silence/detachment maintains the high viewership seen in previous marriage-themed shorts.",
+  "updated_at": "2026-10-25T22:44:03.721329+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-25T19:52:08.055588+00:00"
+  "generated_at": "2026-10-25T22:44:06.401389+00:00"
 }
