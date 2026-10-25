@@ -1,40 +1,40 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Analysis of historical performance indicates that deep relationship dynamics, specifically marital complexities and husband-wife emotional realities, significantly outperform generic poetry, sad shayari, or isolated family member tributes in this sample size.",
+  "overall_summary": "The channel shows clear outlier performance in husband-wife relationship content ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1,766 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1,674 views). General family and relationship topics have moderate pull, while broad sad shayari underperforms significantly.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Dynamics",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,766 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,674 views) generated 5-10x more views than other topics.",
-      "action": "Double down on complex, grounded romantic and marital relationship realities."
+      "pattern": "Husband-Wife Relationship Dilemmas",
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' and 'पत्नी की ये बात हर पति को समझनी चाहिए' achieved over 1,600+ views, significantly outperforming all other topics.",
+      "action": "Double down on marriage and long-term relationship dynamics, focusing on unspoken domestic compromises."
     },
     {
-      "pattern": "Conversational Reality Hooks",
-      "evidence": "Titles framing a relatable dilemma or questioning everyday relationship habits ('Har Baar Sorry Bolne Wala Galat Nahi Hota') garner higher baseline engagement.",
-      "action": "Use conversational, thought-provoking statements rather than heavy sad poetry."
+      "pattern": "Direct, Question-Based Hooks",
+      "evidence": "Titles framing a relatable question or realization drive higher curiosity and initial watch time.",
+      "action": "Continue using direct, conversational questions addressing common emotional blind spots in relationships."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sad Shayari & One-liners",
-      "evidence": "Videos focusing heavily on abstract pain like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' underperformed dramatically with only 15 views.",
-      "action": "Avoid overly dramatic or abstract shayari; anchor content in tangible daily life observations."
+      "pattern": "Generic Sad Shayari & Heavy Poetry",
+      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 15 views.",
+      "action": "Avoid abstract, overly dramatic poetry; ground the emotion in concrete, daily household realities."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "अहसास और दूरी",
-    "hook_style": "क्वेश्चन बेस्ड रियेलिटी चेक",
+    "emotion": "Nostalgia and unspoken appreciation in marriage",
+    "hook_style": "Observation about routine marriage life",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "रोज रात को फोन पर घंटों बात करने वाले लोग अचानक कैसे सिर्फ 'गुड नाइट' पर सिमट जाते हैं?",
-    "opening_direction": "शादी या रिश्ते के शुरुआती महीनों में रात के 2 बजे तक चलने वाली बातें...",
-    "twist_direction": "और आज हाल ये है कि दोनों ऑनलाइन होते हैं, पर एक दूसरे के मैसेज का इंतज़ार करने की हिम्मत नहीं होती।",
+    "concept": "A couple who used to talk for hours on the phone before marriage now sits in total silence in the same room, not out of anger, but out of absolute comfort—until one realizes how much unsaid love exists in that silence.",
+    "opening_direction": "शादी के पहले घंटों फोन पर बात होती थी, और आज… एक ही कमरे में बैठकर भी घंटो बात नहीं होती।",
+    "twist_direction": "लोग सोचते हैं प्यार खत्म हो गया, पर सच्चाई ये है कि अब शब्दों की जरूरत ही नहीं पड़ती, खामोशी भी सब समझ जाती है।",
     "duration_seconds": 35,
-    "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Aligns with the proven high-performing 'relationship reality' cluster while testing nighttime overthinking themes to expand engagement."
+    "posting_window": "07:00 AM - 09:00 AM",
+    "reason": "Capitalizes on the proven high-performing husband-wife relationship niche while shifting the emotional tone from conflict/doubt to comforting reassurance, maintaining broad relatability."
   },
-  "experiment": "Testing an emotional transition from late-night relationship habit changes to silent distance, blending the winning relationship topic with the 'night thoughts' channel theme.",
-  "updated_at": "2026-10-25T12:41:29.596216+00:00",
+  "experiment": "Testing if shifting the husband-wife narrative from relationship struggles to comforting domestic realities retains the high view counts of previous relationship hits.",
+  "updated_at": "2026-10-25T17:09:38.841718+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-25T12:41:32.217377+00:00"
+  "generated_at": "2026-10-25T17:09:41.384441+00:00"
 }
