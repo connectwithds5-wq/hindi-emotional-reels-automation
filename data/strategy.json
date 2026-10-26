@@ -1,45 +1,35 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Husband-wife/married life dynamics significantly outperformed all other topics (~1,700 views vs <400 views). Generic standalone shayari and repetitive sibling topics yielded very low engagement.",
+  "overall_summary": "Analysis of the performance data reveals a clear outperformance of husband-wife relationship themes ('Shaadi Ke Baad Pyaar...' with 1,766 views and 'पत्नी की ये बात...' with 1,674 views) compared to generalized heartbreak or family member specific tributes. Content grounded in realistic relationship dynamics and everyday married life friction resonates significantly better with the audience.",
   "winning_patterns": [
     {
       "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Top 2 videos ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1,766 views and 'पत्नी की ये बात...' with 1,674 views) drove >70% of total channel views.",
-      "action": "Focus heavily on relatable post-marriage emotional nuances and quiet sacrifices."
-    },
-    {
-      "pattern": "Conversational Reality Hooks",
-      "evidence": "Videos opening with relatable questions about daily relationship fatigue outperform preachy/abstract lines.",
-      "action": "Use direct, realistic spoken-word questions that highlight everyday emotional gaps."
+      "evidence": "Videos focusing on married life dynamics ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?', 'पत्नी की ये बात...') received 1,600+ views, vastly outperforming generic poetry or other family tributes.",
+      "action": "Double down on mature relationship dilemmas, unspoken expectations, and emotional distance in marriage."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract / Poetic Melodramatic Shayari",
-      "evidence": "'जिस दिन सच लिखूंगा…' received only 17 views and 1 like.",
-      "action": "Avoid overly dramatic line delivery without grounded real-world grounding."
-    },
-    {
-      "pattern": "Duplicate Concept Re-uploads",
-      "evidence": "Duplicate upload of sister theme ('बहन सिर्फ घर की रौनक...') dropped from 138 views to 19 views.",
-      "action": "Avoid immediate repetition of identical hooks or re-uploading content without fresh angles."
+      "pattern": "Overly poetic or dramatic shayari hooks",
+      "evidence": "Videos with heavily dramatic phrasing like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' gained minimal traction (17 views).",
+      "action": "Avoid abstract poetic grievances; anchor content in tangible, observable everyday moments."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Quiet Loneliness in Marriage",
-    "hook_style": "Observational Real-Life Question",
+    "emotion": "Melancholy and Nostalgia",
+    "hook_style": "Observational everyday habit",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A spouse sitting opposite their partner at dinner in total silence, scrolling phone, realizing physical proximity isn't emotional connection.",
-    "opening_direction": "Start with a quiet domestic moment: 'सामने बैठकर खाना खाते हुए जब दो लोग घंटों एक शब्द नहीं बोलते...'",
-    "twist_direction": "Shift to the silent emotional effort: 'दूरी मीलों की नहीं होती, बस वो पूछना छोड़ देता है कि दिन कैसा बीता, और वो बताना छोड़ देती है...'",
+    "concept": "A short piece on how late-night phone scrolling in bed between a married couple replaces actual conversations, highlighting the quiet emotional distance that grows over time.",
+    "opening_direction": "Raat ke do baje, ek hi bistar par, do alag duniya chal rahi hoti hai.",
+    "twist_direction": "Pehle baatein khatam nahi hoti thi, aaj bas notifications scroll karne ke bahane jagte hain.",
     "duration_seconds": 35,
-    "posting_window": "13:00 - 14:00 UTC",
-    "reason": "Aligns with peak performing time window of top video 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (published at 13:12 UTC) and leverages proven top-performing topic."
+    "posting_window": "07:00 AM - 08:30 AM",
+    "reason": "Matches the proven success window and high-performing topic category of husband-wife relationship dynamics."
   },
-  "experiment": "Testing an observational narrative audio style over standard Shayari on the high-performing husband-wife relationship pillar.",
-  "updated_at": "2026-10-26T01:28:48.850988+00:00",
-  "model_used": "gemini-3.6-flash",
-  "generated_at": "2026-10-26T01:29:36.415537+00:00"
+  "experiment": "Testing an observational nocturnal habit hook within the proven husband-wife niche to check if it drives higher comment engagement.",
+  "updated_at": "2026-10-26T06:52:21.993819+00:00",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-10-26T06:52:24.587546+00:00"
 }
