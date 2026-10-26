@@ -1,35 +1,35 @@
 {
-  "confidence": "65%",
+  "confidence": "35%",
   "data_points": 14,
-  "overall_summary": "Analysis of the performance data reveals a clear outperformance of husband-wife relationship themes ('Shaadi Ke Baad Pyaar...' with 1,766 views and 'पत्नी की ये बात...' with 1,674 views) compared to generalized heartbreak or family member specific tributes. Content grounded in realistic relationship dynamics and everyday married life friction resonates significantly better with the audience.",
+  "overall_summary": "Data volume is very low, yielding low-to-moderate confidence. However, a clear repeating pattern emerges: husband-wife relationship dynamics ('Shaadi Ke Baad' and 'पत्नी की ये बात') significantly outperform general heartbreak or family member videos by roughly 6x to 10x in views.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos focusing on married life dynamics ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?', 'पत्नी की ये बात...') received 1,600+ views, vastly outperforming generic poetry or other family tributes.",
-      "action": "Double down on mature relationship dilemmas, unspoken expectations, and emotional distance in marriage."
+      "pattern": "Husband-Wife Relationship Dilemmas",
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,767 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,674 views) generated nearly 10x the views of standard content.",
+      "action": "Double down on mature relationship friction, unspoken domestic expectations, and emotional distance after marriage."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Overly poetic or dramatic shayari hooks",
-      "evidence": "Videos with heavily dramatic phrasing like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' gained minimal traction (17 views).",
-      "action": "Avoid abstract poetic grievances; anchor content in tangible, observable everyday moments."
+      "pattern": "Generic Heavy Shayari & Extended Family Tropes",
+      "evidence": "General poetry titles like 'जिस दिन सच लिखूंगा…' got 17 views, and specific sibling/family videos averaged under 200 views.",
+      "action": "Avoid abstract poetic rants or overdone general family member tropes; ground emotional friction in specific modern couple scenarios."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Melancholy and Nostalgia",
-    "hook_style": "Observational everyday habit",
+    "emotion": "Melancholy & Realization",
+    "hook_style": "Unspoken distance in the same room",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short piece on how late-night phone scrolling in bed between a married couple replaces actual conversations, highlighting the quiet emotional distance that grows over time.",
-    "opening_direction": "Raat ke do baje, ek hi bistar par, do alag duniya chal rahi hoti hai.",
-    "twist_direction": "Pehle baatein khatam nahi hoti thi, aaj bas notifications scroll karne ke bahane jagte hain.",
+    "concept": "A husband and wife sitting in total silence scrolling on phones, realizing they know everything about their colleagues' lives but nothing about each other's day anymore.",
+    "opening_direction": "Start with the sound of a phone notification breaking a heavy silence in a dark bedroom at 11 PM.",
+    "twist_direction": "The realization that physical closeness means nothing when emotional distance has already made them strangers living under one roof.",
     "duration_seconds": 35,
-    "posting_window": "07:00 AM - 08:30 AM",
-    "reason": "Matches the proven success window and high-performing topic category of husband-wife relationship dynamics."
+    "posting_window": "13:00 - 14:00 IST",
+    "reason": "Matches the proven high-performing posting time and topic category of husband-wife relationship friction."
   },
-  "experiment": "Testing an observational nocturnal habit hook within the proven husband-wife niche to check if it drives higher comment engagement.",
-  "updated_at": "2026-10-26T06:52:21.993819+00:00",
+  "experiment": "Testing a modern domestic communication failure hook to see if it matches the high engagement seen in previous husband-wife relationship shorts.",
+  "updated_at": "2026-10-26T20:04:32.454401+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-26T06:52:24.587546+00:00"
+  "generated_at": "2026-10-26T20:04:34.882972+00:00"
 }
