@@ -1,35 +1,35 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Data clearly shows that relationship and marriage-focused content significantly outperforms general sad shayari or broader family topics. Specifically, 'Husband Wife' dynamics drive the highest views and engagement.",
+  "overall_summary": "Analysis of historical performance reveals that relationship dynamic themes, specifically husband-wife emotional realities (e.g., 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?', 'पत्नी की ये बात हर पति को समझनी चाहिए'), significantly outperform general sad shayaris or niche family content. These top performers secured over 1,600+ views compared to the baseline 100-300 views. General poetry and generic sad quotes fail to capture attention.",
   "winning_patterns": [
     {
       "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1767 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1674 views) heavily outperform everything else.",
-      "action": "Produce more micro-narratives focused on married life struggles, emotional distance, and unspoken appreciation between partners."
+      "evidence": "Videos focusing on married life dynamics ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?' and 'पत्नी की ये बात हर पति को समझनी चाहिए') achieved 1,767 and 1,674 views respectively, outperforming all other topics.",
+      "action": "Double down on mature relationship dilemmas, unspoken expectations, and emotional distance after marriage."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sad Shayari / Abstract Pain",
-      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 17 views.",
-      "action": "Avoid overly dramatic, poetic, or abstract heartbreak lines; ground the emotion in concrete, recognizable everyday interactions."
+      "pattern": "Abstract Sad Shayari & Heavy Quotes",
+      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' gained only 17 views due to overly abstract and poetic phrasing that lacks an immediate everyday visual anchor.",
+      "action": "Avoid abstract poetic rants; ground every video in a specific, everyday micro-moment."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Bittersweet realization",
-    "hook_style": "Direct question about post-marriage reality",
+    "emotion": "नस्टैल्जिया और अकेलापन",
+    "hook_style": "Unspoken daily life observation",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A husband notices his wife has stopped sharing her daily trivial updates with him, realizing silence has quietly replaced arguments.",
-    "opening_direction": "शुरुआत इस बात से करें कि जब झगड़े बंद हो जाएं, तो समझो रिश्ता सुधर नहीं रहा, बल्कि खत्म हो रहा है।",
-    "twist_direction": "अंत में यह अहसास कराना कि वो अब किसी और से शिकायत नहीं करती, उसने चुपचाप उम्मीद छोड़ दी है।",
+    "concept": "A realization about how late-night tea cups change after a few years of marriage when conversations are replaced by silence.",
+    "opening_direction": "Start with the sound of pouring tea late at night in a quiet kitchen.",
+    "twist_direction": "Realizing the two cups are still poured out of habit, even though only one person drinks it now.",
     "duration_seconds": 35,
-    "posting_window": "13:00 - 14:00 (Based on top performing high-view videos published around midday/early afternoon)",
-    "reason": "Capitalizes on the proven high-performing 'Husband Wife' relationship niche while shifting the angle slightly to emotional detachment over routine love."
+    "posting_window": "07:00 PM - 09:00 PM IST",
+    "reason": "Matches the peak engagement window for emotional, contemplative content when viewers reflect on their day and relationships."
   },
-  "experiment": "Testing if emotional detachment in marriage performs as well as romance/love-fading tropes in the same niche.",
-  "updated_at": "2026-10-27T10:47:06.156210+00:00",
+  "experiment": "Testing if shifting the husband-wife emotional dynamic from overt arguments to subtle post-marriage silent habits yields higher engagement and comments.",
+  "updated_at": "2026-10-27T16:47:23.121809+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-27T10:47:08.762594+00:00"
+  "generated_at": "2026-10-27T16:47:35.388382+00:00"
 }
