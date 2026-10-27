@@ -1,45 +1,35 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Analysis of historical performance reveals that relationship dynamics, particularly husband-wife emotional realities and communication gaps (e.g., 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' and 'पत्नी की ये बात हर पति को समझनी चाहिए'), significantly outperform generic sad shayari or poetry shorts. Viewers strongly engage with family and couple relationship truths over abstract pain.",
+  "overall_summary": "Data clearly shows that relationship and marriage-focused content significantly outperforms general sad shayari or broader family topics. Specifically, 'Husband Wife' dynamics drive the highest views and engagement.",
   "winning_patterns": [
     {
       "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1767 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1674 views) heavily outperform standard content.",
-      "action": "Double down on mature relationship dynamics, post-marriage emotional shifts, and unsaid husband-wife tensions."
-    },
-    {
-      "pattern": "Relatable Interpersonal Communication Triggers",
-      "evidence": "'Har Baar Sorry Bolne Wala Galat Nahi Hota' received solid mid-tier engagement (383 views).",
-      "action": "Focus on subtle everyday psychological moments in relationships rather than heavy dramatic shayari."
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1767 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1674 views) heavily outperform everything else.",
+      "action": "Produce more micro-narratives focused on married life struggles, emotional distance, and unspoken appreciation between partners."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract / Heavy Sad Shayari",
-      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' gained only 17 views.",
-      "action": "Avoid overly dramatic, poetic, or abstract lines; ground the emotions in real-world everyday observations."
-    },
-    {
-      "pattern": "Duplicate Sister Emotional Videos",
-      "evidence": "Duplicate formatting for sister emotional videos ('बहन सिर्फ घर की रौनक होती है') suffered from drop-off with one video stalling at 19 views.",
-      "action": "Avoid recycling exact angles or titles within a short time window; ensure distinct narrative angles."
+      "pattern": "Generic Sad Shayari / Abstract Pain",
+      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 17 views.",
+      "action": "Avoid overly dramatic, poetic, or abstract heartbreak lines; ground the emotion in concrete, recognizable everyday interactions."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "नस्टैल्जिया और अकेलापन",
-    "hook_style": "Realization-based direct address",
+    "emotion": "Bittersweet realization",
+    "hook_style": "Direct question about post-marriage reality",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization about how long-term friends slowly turn into strangers who only like each other's status updates, capturing modern relationship detachment.",
-    "opening_direction": "Start with the simple habit of checking someone's online last seen without messaging them anymore.",
-    "twist_direction": "Realizing that you don't actually need a big fight to lose someone; silence does it quietly over time.",
-    "duration_seconds": 10,
-    "posting_window": "13:00 - 15:00",
-    "reason": "Aligns with the proven success of relationship reality content (similiar to the high-performing husband-wife and communication gap themes)."
+    "concept": "A husband notices his wife has stopped sharing her daily trivial updates with him, realizing silence has quietly replaced arguments.",
+    "opening_direction": "शुरुआत इस बात से करें कि जब झगड़े बंद हो जाएं, तो समझो रिश्ता सुधर नहीं रहा, बल्कि खत्म हो रहा है।",
+    "twist_direction": "अंत में यह अहसास कराना कि वो अब किसी और से शिकायत नहीं करती, उसने चुपचाप उम्मीद छोड़ दी है।",
+    "duration_seconds": 35,
+    "posting_window": "13:00 - 14:00 (Based on top performing high-view videos published around midday/early afternoon)",
+    "reason": "Capitalizes on the proven high-performing 'Husband Wife' relationship niche while shifting the angle slightly to emotional detachment over routine love."
   },
-  "experiment": "Testing if shifting the core relationship dynamic from marriage to long-term platonic drift maintains high retention and engagement.",
-  "updated_at": "2026-10-27T05:23:32.846504+00:00",
+  "experiment": "Testing if emotional detachment in marriage performs as well as romance/love-fading tropes in the same niche.",
+  "updated_at": "2026-10-27T10:47:06.156210+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-27T05:23:35.718816+00:00"
+  "generated_at": "2026-10-27T10:47:08.762594+00:00"
 }
