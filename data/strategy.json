@@ -1,45 +1,40 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Analysis of historical performance shows that romantic and marital relationship dynamics ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?', 'पत्नी की ये बात हर पति को समझनी चाहिए') significantly outperform abstract sadness or family member tributes. Content addressing everyday relationship friction and mutual understanding acts as a major driver for views and engagement.",
+  "overall_summary": "Analysis of historical performance indicates clear audience preference for relationship and marital dynamics (Husband-Wife topics like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya' and 'पत्नी की ये बात हर पति को समझनी चाहिए') achieving over 1,600+ views, which significantly outperform general sad shayari or isolated life advice.",
   "winning_patterns": [
     {
-      "pattern": "Marital and romantic relationship realities",
-      "evidence": "Videos focusing on husband-wife dynamics ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1,767 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1,674 views) generated 5x to 10x more traffic than generic sad poetry or individual family member videos.",
-      "action": "Double down on husband-wife emotional tension and unsaid marital expectations."
+      "pattern": "Marital/Relationship Realities",
+      "evidence": "Videos focusing on husband-wife dynamics (my5mP9feI7s, or5gtaBpRVY) achieved the highest views on the channel (~1,700 views compared to average 100-300 views).",
+      "action": "Double down on husband-wife emotional tension and modern relationship misunderstandings."
     },
     {
-      "pattern": "Relatable everyday communication gaps",
-      "evidence": "'Har Baar Sorry Bolne Wala Galat Nahi Hota' achieved 385 views, outperforming standard poetic rants.",
-      "action": "Use scenarios dealing with ego, compromise, and communication failures in modern relationships."
+      "pattern": "Family Bonds & Nostalgia",
+      "evidence": "Moments involving parents and care (OfHrAp3r1G8 - Maa Shayari) performed steadily better than generic poetry.",
+      "action": "Keep grounded family observations in the content rotation."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract sad poetry/shayari without a grounded situation",
-      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' only managed 17 views.",
-      "action": "Avoid heavy, abstract, overly poetic titles; anchor emotions to concrete everyday instances."
-    },
-    {
-      "pattern": "Generic family member appreciation without tension",
-      "evidence": "Videos like 'बहन सिर्फ घर की रौनक होती है' stalled at 19 and 138 views.",
-      "action": "Shift family emotional content from praise-heavy text to realistic household moments."
+      "pattern": "Generic Heavy Shayari",
+      "evidence": "Videos with purely poetic, heavy sad wording like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' (YdWh4cDOE64) underperformed drastically (17 views).",
+      "action": "Avoid abstract poetic bitterness; ground the emotions in daily realistic situations."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Bittersweet realization",
-    "hook_style": "Direct question about a common silent habit between partners",
+    "emotion": "Melancholy and mutual unspoken expectations",
+    "hook_style": "Observation-based relatable opener about modern marriages",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple who stops fighting and starts using polite one-word texts, showing how silence kills a relationship faster than arguments.",
-    "opening_direction": "Jab partner gusse mein chillana chhod kar bas 'Theek hai' bolne lage, samajh jana...",
-    "twist_direction": "...ki ab unhe tumhare gusse se nahi, tumse ab koi fark nahi padta.",
-    "duration_seconds": 35,
-    "posting_window": "13:00 - 15:00 IST",
-    "reason": "Leverages the proven high-performing marital/relationship niche with a relatable psychological observation that triggers high watch time."
+    "concept": "A couple sitting in absolute silence after a long day, scrolling phones, realizing they know everything about their office colleagues but nothing about what's hurting their partner.",
+    "opening_direction": "शाम के वक्त घर में पसरा सन्नाटा… चाय ठंडी हो रही है और फोन की स्क्रीन चमक रही है।",
+    "twist_direction": "पता है दूरियाँ तब नहीं बढ़तीं जब लड़ाई होती है… दूरियाँ तब शुरू होती हैं जब एक-दूसरे को दुखी देखना भी आम बात लगने लगती है।",
+    "duration_seconds": 15,
+    "posting_window": "07:00 PM - 09:00 PM",
+    "reason": "Leverages the proven high-performing husband-wife relationship topic while tapping into the 'overthinking' and 'distance in relationships' channel pillars during peak evening scrolling hours."
   },
-  "experiment": "Testing if shifting from broad relationship questions to specific behavioral micro-habits ('Theek hai' text response) maintains high view counts.",
-  "updated_at": "2026-10-28T14:16:55.527849+00:00",
+  "experiment": "Testing if deep emotional silence between partners generates higher comment engagement than previous high-view marital videos.",
+  "updated_at": "2026-10-28T19:44:37.240946+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-28T14:17:13.371893+00:00"
+  "generated_at": "2026-10-28T19:44:39.999536+00:00"
 }
