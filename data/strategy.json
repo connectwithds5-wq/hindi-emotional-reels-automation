@@ -1,35 +1,35 @@
 {
-  "confidence": "35%",
+  "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Data shows clear outliers in Husband-Wife relationship topics ('or5gtaBpRVY' with 1674 views and 'my5mP9feI7s' with 1767 views), significantly outperforming standard emotional shayari and family member shorts. However, due to small sample size, confidence is low, and we need a controlled exploration strategy balancing the proven niche with standard channel topics.",
+  "overall_summary": "Analysis of historical performance indicates that husband-wife and relationship dynamic topics significantly outperform family or purely abstract sad shayari. Content focusing on marital understanding and daily relationship realities achieved the highest views (1.6K - 1.7K views), whereas abstract heartbreak poetry struggled (under 30 views).",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Dynamics",
-      "evidence": "Videos focusing on married life ('or5gtaBpRVY' and 'my5mP9feI7s') garnered 1.6k+ views, whereas siblings/parents shorts stayed under 300 views.",
-      "action": "Double down on husband-wife and relationship reality themes while keeping the core emotional tone."
+      "pattern": "Husband-Wife Relationship Realities",
+      "evidence": "Videos like 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,674 views) and 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,767 views) generated massive outlier engagement compared to channel average.",
+      "action": "Double down on mature relationship dilemmas, unspoken compromises, and husband-wife emotional dynamics."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Pure Sad Shayari / Heavy Melodrama",
-      "evidence": "Videos like 'YdWh4cDOE64' ('जिस दिन सच लिखूंगा…') received only 17 views.",
-      "action": "Avoid overly dramatic, poetic, or abstract statements as openers; focus on grounded everyday realities instead."
+      "pattern": "Abstract Sad Shayari & Heavy Philosophical Lines",
+      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 17 views.",
+      "action": "Avoid abstract, overly dramatic poetry lines without grounded, everyday visual contexts."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Melancholic yet relatable realization",
-    "hook_style": "Observation about unspoken distance between partners",
+    "emotion": "Nostalgia and realization",
+    "hook_style": "Direct question about daily life behavior",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short highlighting how couples sit together in complete silence scrolling phones, forgetting when they last had a real unfiltered conversation.",
-    "opening_direction": "Start with a quiet room sound and a visual of two tea cups getting cold while both partners look at their respective phones.",
-    "twist_direction": "The realization that they live in the same room, but their worlds now exist behind separate glass screens.",
-    "duration_seconds": 35,
-    "posting_window": "07:00 AM - 09:00 AM",
-    "reason": "Matches the proven high-performing husband-wife relationship slot and morning engagement behavior."
+    "concept": "A couple who used to talk for hours now scrolling phones in silence next to each other, realizing that physical presence doesn't mean emotional connection anymore.",
+    "opening_direction": "Start with the quiet sound of phone notifications in a dark room where a husband and wife sit back-to-back.",
+    "twist_direction": "They are messaging each other memes instead of speaking, showing how comfort turned into distance.",
+    "duration_seconds": 10,
+    "posting_window": "13:00 - 14:00 or 17:00 - 18:00 IST",
+    "reason": "Aligns with the proven high-performing relationship and everyday communication theme."
   },
-  "experiment": "Testing if husband-wife relationship themes consistently outperform family/shayari themes or if the previous hits were anomalies.",
-  "updated_at": "2026-10-27T21:26:07.577309+00:00",
+  "experiment": "Testing if shifting the relationship narrative from marriage arguments to subtle emotional detachment in modern couples maintains high view counts.",
+  "updated_at": "2026-10-28T00:39:16.102559+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-27T21:26:09.864673+00:00"
+  "generated_at": "2026-10-28T00:39:19.514644+00:00"
 }
