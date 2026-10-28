@@ -1,45 +1,45 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Analysis of historical performance indicates that deep relationship dynamics and realistic partner perspectives (husband-wife interactions) significantly outperform generalized poetic shayaris and strict moral lectures. Content dealing with marriage realities achieved the highest views (1.7k+), whereas heavily stylized poetry or low-effort titles lagged heavily.",
+  "overall_summary": "Analysis of historical performance shows that romantic and marital relationship dynamics ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?', 'पत्नी की ये बात हर पति को समझनी चाहिए') significantly outperform abstract sadness or family member tributes. Content addressing everyday relationship friction and mutual understanding acts as a major driver for views and engagement.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' and 'पत्नी की ये बात हर पति को समझनी चाहिए' received over 1,600 to 1,700 views, significantly higher than the channel average.",
-      "action": "Focus heavily on marital relationship nuances, unspoken compromises, and domestic emotional labor."
+      "pattern": "Marital and romantic relationship realities",
+      "evidence": "Videos focusing on husband-wife dynamics ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1,767 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1,674 views) generated 5x to 10x more traffic than generic sad poetry or individual family member videos.",
+      "action": "Double down on husband-wife emotional tension and unsaid marital expectations."
     },
     {
-      "pattern": "Direct Relatable Hooks in Hindi/Hinglish",
-      "evidence": "Titles addressing common relational misunderstandings like 'Har Baar Sorry Bolne Wala Galat Nahi Hota' gained respectable mid-tier views (385 views).",
-      "action": "Use conversational, dialogue-driven hooks that put the viewer right into an argument or realization."
+      "pattern": "Relatable everyday communication gaps",
+      "evidence": "'Har Baar Sorry Bolne Wala Galat Nahi Hota' achieved 385 views, outperforming standard poetic rants.",
+      "action": "Use scenarios dealing with ego, compromise, and communication failures in modern relationships."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Overly Poetic or Abstract Shayari",
-      "evidence": "Titles like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' only managed 17 views.",
-      "action": "Avoid heavy, dramatic, or literary poetry; ground the content in everyday realistic friction instead."
+      "pattern": "Abstract sad poetry/shayari without a grounded situation",
+      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' only managed 17 views.",
+      "action": "Avoid heavy, abstract, overly poetic titles; anchor emotions to concrete everyday instances."
     },
     {
-      "pattern": "Broad Moral/Parenting Advice",
-      "evidence": "Videos focusing on general preaching or parenting tips ('बच्चों को ये संस्कार जरूर सिखाइए') underperformed compared to intimate emotional confessions.",
-      "action": "Drop general moral instruction in favor of personal emotional vulnerability."
+      "pattern": "Generic family member appreciation without tension",
+      "evidence": "Videos like 'बहन सिर्फ घर की रौनक होती है' stalled at 19 and 138 views.",
+      "action": "Shift family emotional content from praise-heavy text to realistic household moments."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "अफ़सोस और अपनापन (Regret and Warmth)",
-    "hook_style": "Conversational realization about a partner's silent sacrifice",
+    "emotion": "Bittersweet realization",
+    "hook_style": "Direct question about a common silent habit between partners",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A husband notices his wife wearing a very old, faded suit at home while buying new clothes for the entire family, realizing how silently she compromises her own happiness.",
-    "opening_direction": "Start with a direct observation: 'पत्नी ने पिछले तीन सालों से कोई नई साड़ी नहीं खरीदी...'",
-    "twist_direction": "The emotional twist reveals she didn't forget herself; she just prioritized everyone else's smile until loving herself felt like a luxury she couldn't afford.",
+    "concept": "A couple who stops fighting and starts using polite one-word texts, showing how silence kills a relationship faster than arguments.",
+    "opening_direction": "Jab partner gusse mein chillana chhod kar bas 'Theek hai' bolne lage, samajh jana...",
+    "twist_direction": "...ki ab unhe tumhare gusse se nahi, tumse ab koi fark nahi padta.",
     "duration_seconds": 35,
-    "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Aligns directly with the top-performing husband-wife relationship format that previously drove 1.7k+ views."
+    "posting_window": "13:00 - 15:00 IST",
+    "reason": "Leverages the proven high-performing marital/relationship niche with a relatable psychological observation that triggers high watch time."
   },
-  "experiment": "Testing if shifting the husband-wife relationship angle toward a specific visual sacrifice item (like clothes/personal items) drives higher engagement than general emotional questions.",
-  "updated_at": "2026-10-28T07:07:14.924423+00:00",
+  "experiment": "Testing if shifting from broad relationship questions to specific behavioral micro-habits ('Theek hai' text response) maintains high view counts.",
+  "updated_at": "2026-10-28T14:16:55.527849+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-28T07:07:18.093339+00:00"
+  "generated_at": "2026-10-28T14:17:13.371893+00:00"
 }
