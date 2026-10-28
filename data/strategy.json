@@ -1,35 +1,45 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Analysis of historical performance indicates that husband-wife and relationship dynamic topics significantly outperform family or purely abstract sad shayari. Content focusing on marital understanding and daily relationship realities achieved the highest views (1.6K - 1.7K views), whereas abstract heartbreak poetry struggled (under 30 views).",
+  "overall_summary": "Analysis of historical performance indicates that deep relationship dynamics and realistic partner perspectives (husband-wife interactions) significantly outperform generalized poetic shayaris and strict moral lectures. Content dealing with marriage realities achieved the highest views (1.7k+), whereas heavily stylized poetry or low-effort titles lagged heavily.",
   "winning_patterns": [
     {
       "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos like 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,674 views) and 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,767 views) generated massive outlier engagement compared to channel average.",
-      "action": "Double down on mature relationship dilemmas, unspoken compromises, and husband-wife emotional dynamics."
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' and 'पत्नी की ये बात हर पति को समझनी चाहिए' received over 1,600 to 1,700 views, significantly higher than the channel average.",
+      "action": "Focus heavily on marital relationship nuances, unspoken compromises, and domestic emotional labor."
+    },
+    {
+      "pattern": "Direct Relatable Hooks in Hindi/Hinglish",
+      "evidence": "Titles addressing common relational misunderstandings like 'Har Baar Sorry Bolne Wala Galat Nahi Hota' gained respectable mid-tier views (385 views).",
+      "action": "Use conversational, dialogue-driven hooks that put the viewer right into an argument or realization."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Sad Shayari & Heavy Philosophical Lines",
-      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 17 views.",
-      "action": "Avoid abstract, overly dramatic poetry lines without grounded, everyday visual contexts."
+      "pattern": "Overly Poetic or Abstract Shayari",
+      "evidence": "Titles like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' only managed 17 views.",
+      "action": "Avoid heavy, dramatic, or literary poetry; ground the content in everyday realistic friction instead."
+    },
+    {
+      "pattern": "Broad Moral/Parenting Advice",
+      "evidence": "Videos focusing on general preaching or parenting tips ('बच्चों को ये संस्कार जरूर सिखाइए') underperformed compared to intimate emotional confessions.",
+      "action": "Drop general moral instruction in favor of personal emotional vulnerability."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Nostalgia and realization",
-    "hook_style": "Direct question about daily life behavior",
+    "emotion": "अफ़सोस और अपनापन (Regret and Warmth)",
+    "hook_style": "Conversational realization about a partner's silent sacrifice",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple who used to talk for hours now scrolling phones in silence next to each other, realizing that physical presence doesn't mean emotional connection anymore.",
-    "opening_direction": "Start with the quiet sound of phone notifications in a dark room where a husband and wife sit back-to-back.",
-    "twist_direction": "They are messaging each other memes instead of speaking, showing how comfort turned into distance.",
-    "duration_seconds": 10,
-    "posting_window": "13:00 - 14:00 or 17:00 - 18:00 IST",
-    "reason": "Aligns with the proven high-performing relationship and everyday communication theme."
+    "concept": "A husband notices his wife wearing a very old, faded suit at home while buying new clothes for the entire family, realizing how silently she compromises her own happiness.",
+    "opening_direction": "Start with a direct observation: 'पत्नी ने पिछले तीन सालों से कोई नई साड़ी नहीं खरीदी...'",
+    "twist_direction": "The emotional twist reveals she didn't forget herself; she just prioritized everyone else's smile until loving herself felt like a luxury she couldn't afford.",
+    "duration_seconds": 35,
+    "posting_window": "07:00 PM - 09:00 PM",
+    "reason": "Aligns directly with the top-performing husband-wife relationship format that previously drove 1.7k+ views."
   },
-  "experiment": "Testing if shifting the relationship narrative from marriage arguments to subtle emotional detachment in modern couples maintains high view counts.",
-  "updated_at": "2026-10-28T00:39:16.102559+00:00",
+  "experiment": "Testing if shifting the husband-wife relationship angle toward a specific visual sacrifice item (like clothes/personal items) drives higher engagement than general emotional questions.",
+  "updated_at": "2026-10-28T07:07:14.924423+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-28T00:39:19.514644+00:00"
+  "generated_at": "2026-10-28T07:07:18.093339+00:00"
 }
