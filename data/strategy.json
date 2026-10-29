@@ -1,35 +1,35 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Husband-Wife relationship topics consistently outperform all other content categories, generating 10x higher views (~1,700 views vs ~150-250 views for general family or poetry shorts). Focus should remain on married life dynamic storytelling.",
+  "overall_summary": "The channel shows a clear preference for 'Husband-Wife' relationship dynamics over generic family or sad shayari content. High-performing videos (1.7k+ views) focus on relatable marital conflicts or realizations, while generic emotional shayari or family tributes underperform significantly.",
   "winning_patterns": [
     {
-      "pattern": "Husband & Wife relationship dynamics and quiet emotional issues",
-      "evidence": "'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,767 views, 61 likes) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,674 views, 50 likes) dominate channel performance.",
-      "action": "Double down on real-life marital micro-moments and silent sacrifices between couples."
+      "pattern": "Marital/Relationship Reality",
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' and 'पत्नी की ये बात हर पति को समझनी चाहिए' received 10x more views than other topics.",
+      "action": "Double down on husband-wife relationship nuances and unspoken expectations."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract poetry/shayari and general sibling/family tributes",
-      "evidence": "'जिस दिन सच लिखूंगा...' got 17 views; sister videos generated 19 and 138 views.",
-      "action": "Avoid generic quotes or abstract poetry without a clear daily situational anchor."
+      "pattern": "Generic Family Tributes",
+      "evidence": "Videos about parents, siblings, and general 'sad' shayari consistently underperform (sub-250 views).",
+      "action": "Pivot away from broad family tributes unless they contain a specific, high-tension conflict."
     }
   ],
   "next_video": {
-    "topic": "रिश्ते",
-    "emotion": "Silent care & emotional realization",
-    "hook_style": "Situational observation of a post-argument evening",
-    "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple goes to sleep without talking after a petty argument, but the husband discovers a small silent act of love in the morning.",
-    "opening_direction": "रात के 11 बजे दोनों बिना एक शब्द बोले पीठ घुमाकर सो गए...",
-    "twist_direction": "सुबह जब पति उठा, तो उसकी शर्ट प्रेस की हुई थी और जेब में उसका पसंदीदा सरदर्द की दवा वाला पर्चा रखा था।",
+    "topic": "रिश्ते (Husband-Wife)",
+    "emotion": "Relatable Melancholy",
+    "hook_style": "Direct question about a common silent habit",
+    "story_structure": "Simple: A husband coming home late -> Relatable: The silence between the couple at dinner -> Twist: The realization that they are both waiting for the other to start the conversation.",
+    "concept": "The silent dinner table: Why do we stop talking after years of marriage?",
+    "opening_direction": "Start with the sound of a spoon hitting a plate in a quiet room.",
+    "twist_direction": "Reveal that the silence isn't anger, but the fear of saying the wrong thing.",
     "duration_seconds": 35,
-    "posting_window": "13:00 UTC - 14:00 UTC (around 6:30 PM - 7:30 PM IST)",
-    "reason": "Top performer 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' was posted at 13:12 UTC, capturing late evening high engagement hours."
+    "posting_window": "07:00 AM - 08:00 AM IST",
+    "reason": "Matches the high-performing 'Husband-Wife' topic and leverages the 'relatable conflict' pattern that drove the channel's best results."
   },
-  "experiment": "Testing if framing the story from the husband's silent realization creates higher comment engagement compared to direct advice-style commentary.",
-  "updated_at": "2026-10-29T00:11:37.932670+00:00",
-  "model_used": "gemini-3.6-flash",
-  "generated_at": "2026-10-29T00:11:45.879926+00:00"
+  "experiment": "Testing if a 'silent, atmospheric' opening performs better than the 'direct question' hook used in previous successful videos.",
+  "updated_at": "2026-10-29T06:12:45.878026+00:00",
+  "model_used": "gemini-3.1-flash-lite",
+  "generated_at": "2026-10-29T06:12:52.202930+00:00"
 }
