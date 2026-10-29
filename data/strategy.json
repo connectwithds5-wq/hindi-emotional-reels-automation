@@ -1,40 +1,35 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Analysis of historical performance indicates clear audience preference for relationship and marital dynamics (Husband-Wife topics like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya' and 'पत्नी की ये बात हर पति को समझनी चाहिए') achieving over 1,600+ views, which significantly outperform general sad shayari or isolated life advice.",
+  "overall_summary": "Husband-Wife relationship topics consistently outperform all other content categories, generating 10x higher views (~1,700 views vs ~150-250 views for general family or poetry shorts). Focus should remain on married life dynamic storytelling.",
   "winning_patterns": [
     {
-      "pattern": "Marital/Relationship Realities",
-      "evidence": "Videos focusing on husband-wife dynamics (my5mP9feI7s, or5gtaBpRVY) achieved the highest views on the channel (~1,700 views compared to average 100-300 views).",
-      "action": "Double down on husband-wife emotional tension and modern relationship misunderstandings."
-    },
-    {
-      "pattern": "Family Bonds & Nostalgia",
-      "evidence": "Moments involving parents and care (OfHrAp3r1G8 - Maa Shayari) performed steadily better than generic poetry.",
-      "action": "Keep grounded family observations in the content rotation."
+      "pattern": "Husband & Wife relationship dynamics and quiet emotional issues",
+      "evidence": "'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,767 views, 61 likes) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,674 views, 50 likes) dominate channel performance.",
+      "action": "Double down on real-life marital micro-moments and silent sacrifices between couples."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Heavy Shayari",
-      "evidence": "Videos with purely poetic, heavy sad wording like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' (YdWh4cDOE64) underperformed drastically (17 views).",
-      "action": "Avoid abstract poetic bitterness; ground the emotions in daily realistic situations."
+      "pattern": "Abstract poetry/shayari and general sibling/family tributes",
+      "evidence": "'जिस दिन सच लिखूंगा...' got 17 views; sister videos generated 19 and 138 views.",
+      "action": "Avoid generic quotes or abstract poetry without a clear daily situational anchor."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Melancholy and mutual unspoken expectations",
-    "hook_style": "Observation-based relatable opener about modern marriages",
+    "emotion": "Silent care & emotional realization",
+    "hook_style": "Situational observation of a post-argument evening",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple sitting in absolute silence after a long day, scrolling phones, realizing they know everything about their office colleagues but nothing about what's hurting their partner.",
-    "opening_direction": "शाम के वक्त घर में पसरा सन्नाटा… चाय ठंडी हो रही है और फोन की स्क्रीन चमक रही है।",
-    "twist_direction": "पता है दूरियाँ तब नहीं बढ़तीं जब लड़ाई होती है… दूरियाँ तब शुरू होती हैं जब एक-दूसरे को दुखी देखना भी आम बात लगने लगती है।",
-    "duration_seconds": 15,
-    "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Leverages the proven high-performing husband-wife relationship topic while tapping into the 'overthinking' and 'distance in relationships' channel pillars during peak evening scrolling hours."
+    "concept": "A couple goes to sleep without talking after a petty argument, but the husband discovers a small silent act of love in the morning.",
+    "opening_direction": "रात के 11 बजे दोनों बिना एक शब्द बोले पीठ घुमाकर सो गए...",
+    "twist_direction": "सुबह जब पति उठा, तो उसकी शर्ट प्रेस की हुई थी और जेब में उसका पसंदीदा सरदर्द की दवा वाला पर्चा रखा था।",
+    "duration_seconds": 35,
+    "posting_window": "13:00 UTC - 14:00 UTC (around 6:30 PM - 7:30 PM IST)",
+    "reason": "Top performer 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' was posted at 13:12 UTC, capturing late evening high engagement hours."
   },
-  "experiment": "Testing if deep emotional silence between partners generates higher comment engagement than previous high-view marital videos.",
-  "updated_at": "2026-10-28T19:44:37.240946+00:00",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-28T19:44:39.999536+00:00"
+  "experiment": "Testing if framing the story from the husband's silent realization creates higher comment engagement compared to direct advice-style commentary.",
+  "updated_at": "2026-10-29T00:11:37.932670+00:00",
+  "model_used": "gemini-3.6-flash",
+  "generated_at": "2026-10-29T00:11:45.879926+00:00"
 }
