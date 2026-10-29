@@ -1,45 +1,40 @@
 {
-  "confidence": "65%",
+  "confidence": "45%",
   "data_points": 14,
-  "overall_summary": "Analysis of the historical performance indicates that deep relationship dynamics between husbands and wives significantly outperform family member generic love poetry. Content focused on evolving married life and neglected realities (e.g., 'Shaadi Ke Baad Pyaar Kahan Chala Gaya' and 'पत्नी की ये बात हर पति को समझनी चाहिए') gained over 1,700 views each, whereas general poetry or family member shout-outs (like brother, sister, father) yielded much lower engagement.",
+  "overall_summary": "Data shows clear viewer preference for husband-wife relationship and domestic emotional realities (getting ~1.7k views), significantly outperforming generic shayari or family member spotlights which averaged under 300 views. Confidence is low due to small sample size, requiring a controlled exploration strategy leaning heavily into proven relationship themes.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Evolution",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,767 views) and wife emotional videos (1,674 views) achieved nearly 10x the channel average.",
-      "action": "Focus upcoming primary content on modern relationship friction, emotional distance, and marriage realities."
-    },
-    {
-      "pattern": "Question-based Titles on Relatable Domestic Struggles",
-      "evidence": "Titles framing a common marital dilemma as a direct emotional question hook viewers into staying past the initial seconds.",
-      "action": "Continue using direct, conversational questions about marital communication as video titles."
+      "pattern": "Husband-Wife Relationship Realities",
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,767 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,674 views) heavily outperformed everything else.",
+      "action": "Double down on marital and modern relationship dynamics, communication gaps, and emotional distance."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Family Member Poetry",
-      "evidence": "Videos about brothers, sisters, and fathers ('भाई से एक बात जरूर कहना', 'बहन सिर्फ घर की रौनक होती है') performed poorly, averaging under 150 views.",
-      "action": "Reduce generalized family emotional poetry unless tied to a strong modern relational conflict."
+      "pattern": "Generic Heavy Shayari / Poetic phrasing",
+      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 19 views.",
+      "action": "Avoid overly dramatic, poetic, or cryptic shayari titles; stick to grounded, conversational real-life observations."
     },
     {
-      "pattern": "Overly Abstract Shayari Titles",
-      "evidence": "Titles like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 17 views.",
-      "action": "Avoid abstract, cryptic poetry framing in favor of grounded, everyday scenarios."
+      "pattern": "Scattered Family Member Spotlights",
+      "evidence": "Individual videos on sisters, fathers, and brothers averaged between 19 and 142 views.",
+      "action": "Pause isolated family member segments unless tied directly to broader relationship or life friction."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "निराशा और आत्ममंथन (Disappointment and Introspection)",
-    "hook_style": "Direct observation about a silent habit in a long-term relationship",
+    "emotion": "Nostalgia and regret",
+    "hook_style": "Direct question about unspoken marital drift",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple sitting in absolute silence in a living room, each scrolling on their phone, realizing they know everything about their social media feeds but nothing about each other's current silent stress.",
-    "opening_direction": "Start with the visual of two tea cups getting cold while the couple sits across from each other without exchanging a single word for hours.",
-    "twist_direction": "Reveal that they are texting each other in a separate room online instead of speaking face-to-face.",
-    "duration_seconds": 35,
-    "posting_window": "13:00 - 15:00 IST",
-    "reason": "Leverages the proven high-performing 'Husband Wife Relationship' niche while introducing an innovative modern communication twist to keep retention high."
+    "concept": "A realization by a partner that arguments have stopped, replaced by total silence and emotional detachment, which is scarier than fighting.",
+    "opening_direction": "जब घर में झगड़े बंद हो जाएं, तो समझ लेना रिश्ता खत्म होने की कगार पर है।",
+    "twist_direction": "क्योंकि खामोशी प्यार की निशानी नहीं, हार मान लेने का सबूत होती है।",
+    "duration_seconds": 12,
+    "posting_window": "13:00 - 14:00 (matching the successful performance timing of my5mP9feI7s)",
+    "reason": "Replicates the top-performing husband-wife relationship format by focusing on everyday subtle emotional pain rather than loud drama."
   },
-  "experiment": "Testing a digital-age detachment angle within the proven husband-wife relationship framework to see if it drives higher comment and share intent.",
-  "updated_at": "2026-10-29T13:30:31.260233+00:00",
+  "experiment": "Testing if subtle emotional detachment in marriage performs as well as overt relationship question formats.",
+  "updated_at": "2026-10-29T19:45:32.501767+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-29T13:30:50.945399+00:00"
+  "generated_at": "2026-10-29T19:45:34.964446+00:00"
 }
