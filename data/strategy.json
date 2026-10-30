@@ -1,40 +1,35 @@
 {
-  "confidence": "65%",
+  "confidence": "35%",
   "data_points": 14,
-  "overall_summary": "Analysis of historical performance indicates that deep relationship dynamics, specifically husband-wife emotional realism ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1767 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1674 views), significantly outperform generic heartbreak shayari or single-line poetry. Family and relationship reality checks generate consistent traction compared to low-sample poetic pieces.",
+  "overall_summary": "The channel shows clear high-performing outliers in the husband-wife relationship and domestic bonding niche (e.g., 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1767 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1674 views). General sad shayaris or sibling topics underperformed significantly in this dataset, indicating that mature, lived-in relationship realities drive much better traction than broad emotional poetry.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Reality",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,767 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,674 views) achieved the highest view counts on the channel.",
-      "action": "Produce more content focusing on unspoken marital realities, post-marriage emotional shifts, and domestic psychological nuances."
-    },
-    {
-      "pattern": "Conversational Relationship Podcast Format",
-      "evidence": "'Har Baar Sorry Bolne Wala Galat Nahi Hota' achieved 385 views, outperforming standard abstract shayari.",
-      "action": "Use conversational, podcast-style framing addressing daily relationship compromises."
+      "pattern": "Husband-Wife Relationship Realities",
+      "evidence": "Videos focusing on married life dynamics (e.g., my5mP9feI7s, or5gtaBpRVY) achieved the highest views (1767 and 1674) and engagement on the channel.",
+      "action": "Double down on mature relationship observations, unspoken domestic tensions, and fading romance after marriage."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract or Heavy Poetic Shayari",
-      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 19 views.",
-      "action": "Avoid overly dramatic, cryptic poetry hooks; ground the emotion in tangible, everyday scenarios."
+      "pattern": "Abstract Sad Shayari and General Poetry",
+      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' (YdWh4cDOE64) got only 19 views.",
+      "action": "Avoid abstract, overly poetic phrasing; ground the emotion in tangible everyday scenarios."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "nostalgia and unspoken regret",
-    "hook_style": "situational realization",
+    "emotion": "nostalgia and realization",
+    "hook_style": "questioning a common silent habit between partners",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization about how long-term partners stop sharing small details of their day because silence has replaced arguments.",
-    "opening_direction": "घर लौटने पर जब फ्रिज का पानी पूछने वाला कोई न हो...",
-    "twist_direction": "...तब समझ आता है कि झगड़े रिश्ते खत्म नहीं करते, खामोशी खत्म कर देती है।",
+    "concept": "A short look at how long-term couples stop arguing and start staying quiet, mistaking peace for growing apart.",
+    "opening_direction": "शुरुआत में कहें: 'लड़ाई होना बंद हो जाए ना, तो रिश्ता सुधरता नहीं... कमज़ोर हो जाता है।'",
+    "twist_direction": "अंत में यह मोड़ दें कि जब दोनों चुपचाप अपना काम करने लगें, तब समझो कोई तीसरा घर में नहीं आया, बस दूरियां आ गई हैं।",
     "duration_seconds": 35,
-    "posting_window": "13:00 - 14:00 UTC",
-    "reason": "Building directly on the proven high-performing husband-wife and relationship dynamic pattern with a relatable, grounded domestic hook."
+    "posting_window": "13:00 - 15:00 IST",
+    "reason": "Matches the proven high-performing husband-wife relationship theme while testing an observational hook about communication breakdown."
   },
-  "experiment": "Testing if shifting the husband-wife relationship angle from major marital conflict to subtle everyday emotional detachment maintains high view counts.",
-  "updated_at": "2026-10-30T06:12:54.169841+00:00",
+  "experiment": "Testing if psychological relationship observations outperform direct relationship questions.",
+  "updated_at": "2026-10-30T13:19:21.884854+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-30T06:12:56.620607+00:00"
+  "generated_at": "2026-10-30T13:19:25.043774+00:00"
 }
