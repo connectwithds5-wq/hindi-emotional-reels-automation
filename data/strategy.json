@@ -1,40 +1,35 @@
 {
-  "confidence": "45%",
+  "confidence": "30%",
   "data_points": 14,
-  "overall_summary": "Data shows clear viewer preference for husband-wife relationship and domestic emotional realities (getting ~1.7k views), significantly outperforming generic shayari or family member spotlights which averaged under 300 views. Confidence is low due to small sample size, requiring a controlled exploration strategy leaning heavily into proven relationship themes.",
+  "overall_summary": "The channel shows clear outlier performance for husband-wife relationship themes (Shaadi Ke Baad Pyaar... and Wife Emotional Video both pulled >1,600 views), significantly outperforming generic shayari, family members (sister/brother/father), and self-motivation shorts which mostly lingered under 300 views. However, overall sample size is low, necessitating a focus on proven relational dynamics while keeping a small experimental edge.",
   "winning_patterns": [
     {
       "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,767 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,674 views) heavily outperformed everything else.",
-      "action": "Double down on marital and modern relationship dynamics, communication gaps, and emotional distance."
+      "evidence": "Videos focusing on married life dynamics (e.g., 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' and 'पत्नी की ये बात हर पति को समझनी चाहिए') generated 1,767 and 1,674 views respectively, drastically higher than any other category.",
+      "action": "Prioritize narrative concepts touching upon unspoken marital friction, lost romance after marriage, or mutual understanding between partners."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Heavy Shayari / Poetic phrasing",
-      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 19 views.",
-      "action": "Avoid overly dramatic, poetic, or cryptic shayari titles; stick to grounded, conversational real-life observations."
-    },
-    {
-      "pattern": "Scattered Family Member Spotlights",
-      "evidence": "Individual videos on sisters, fathers, and brothers averaged between 19 and 142 views.",
-      "action": "Pause isolated family member segments unless tied directly to broader relationship or life friction."
+      "pattern": "Generic Heavy Shayari & Raw Text Quotes",
+      "evidence": "Titles like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 19 views, showing poor pull compared to conversational, relatable relationship questions.",
+      "action": "Avoid purely abstract, poetic, or overly dramatic poetic titles; ground every video in a specific, everyday domestic or emotional scenario."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Nostalgia and regret",
-    "hook_style": "Direct question about unspoken marital drift",
+    "emotion": "अधूरी मोहब्बत",
+    "hook_style": "Conversational observation about post-marriage emotional distance",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization by a partner that arguments have stopped, replaced by total silence and emotional detachment, which is scarier than fighting.",
-    "opening_direction": "जब घर में झगड़े बंद हो जाएं, तो समझ लेना रिश्ता खत्म होने की कगार पर है।",
-    "twist_direction": "क्योंकि खामोशी प्यार की निशानी नहीं, हार मान लेने का सबूत होती है।",
-    "duration_seconds": 12,
-    "posting_window": "13:00 - 14:00 (matching the successful performance timing of my5mP9feI7s)",
-    "reason": "Replicates the top-performing husband-wife relationship format by focusing on everyday subtle emotional pain rather than loud drama."
+    "concept": "A realization about how spouses stop talking about their day, turning into silent roommates rather than lovers.",
+    "opening_direction": "Start with a simple visual or line: 'शाम को घर आकर दोनों अपने फोन में खो जाते हैं...'",
+    "twist_direction": "...और फिर याद आता है कि आखिरी बार खुलकर कब हंसे थे, वो तारीख कोई नहीं जानता।",
+    "duration_seconds": 35,
+    "posting_window": "07:00 AM - 09:00 AM",
+    "reason": "Aligns directly with the top-performing husband-wife relationship niche identified in the data."
   },
-  "experiment": "Testing if subtle emotional detachment in marriage performs as well as overt relationship question formats.",
-  "updated_at": "2026-10-29T19:45:32.501767+00:00",
+  "experiment": "Testing if narrowing down strictly to husband-wife communication gaps sustains the high view counts seen in previous relationship shorts.",
+  "updated_at": "2026-10-30T00:05:41.024067+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-29T19:45:34.964446+00:00"
+  "generated_at": "2026-10-30T00:05:43.683363+00:00"
 }
