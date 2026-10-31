@@ -1,35 +1,35 @@
 {
-  "confidence": "35%",
+  "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "The channel shows clear outlier performance for husband-wife relationship dynamics ('रिश्ते'), with videos like 'or5gtaBpRVY' (1,674 views) and 'my5mP9feI7s' (1,767 views) significantly outperforming family and standalone sad poetry shorts. Other topics have low sample sizes, indicating low confidence overall, necessitating a heavy focus on the proven relationship theme while keeping a small experimental budget for broader emotional topics.",
+  "overall_summary": "Analysis of the performance data clearly indicates that husband-wife and relationship reality topics (e.g., 'पत्नी की ये बात हर पति को समझनी चाहिए' and 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?') significantly outperform general poetry or single-topic family emotional clips, generating over 1,600 to 1,700 views compared to the baseline 100-300 views.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Dynamics",
-      "evidence": "Videos focusing on husband-wife realities (e.g., 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' and 'पत्नी की ये बात हर पति को समझनी चाहिए') garnered ~1,700+ views, vastly higher than average.",
-      "action": "Double down on nuanced, mature relationship friction points between couples rather than generic family or solo heartbreak poetry."
+      "pattern": "Husband-Wife Relationship Realities",
+      "evidence": "Videos focusing on married life dynamics (e.g., or5gtaBpRVY with 1674 views, my5mP9feI7s with 1767 views) received nearly 10x the views of standard family emotional shorts.",
+      "action": "Double down on marriage and partner relationship topics, particularly unspoken emotional burdens between spouses."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sad Shayari without Context",
-      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 19 views.",
-      "action": "Move away from abstract, heavy-handed poetic rants and anchor emotions into specific, everyday visual scenarios."
+      "pattern": "Generic One-Liners & Heavy Sad Shayari",
+      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' (YdWh4cDOE64) stalled at 19 views.",
+      "action": "Move away from overly dramatic, bitter poetry and focus instead on grounded, everyday relational observations."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Melancholic realization",
-    "hook_style": "Direct question about unspoken distance between long-term partners",
+    "emotion": "Melancholic yet deeply relatable realization",
+    "hook_style": "Observation-based question about unspoken habits in long-term relationships",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple sitting in complete silence in the living room, scrolling phones, realizing they know everything about their digital lives except what the other person is currently feeling.",
-    "opening_direction": "Start with the sound of a ticking clock and a close-up of two cups of tea getting cold on the table.",
-    "twist_direction": "The realization that physical closeness doesn't stop emotional loneliness; living under the same roof doesn't mean sharing the same life anymore.",
-    "duration_seconds": 10,
+    "concept": "A routine evening where two people sitting in the same room haven't spoken a word in hours, mistaking comfort for distance, until a small gesture changes the perspective.",
+    "opening_direction": "Start with the quiet sound of turning pages or phone scrolling, followed by the text: 'शादी के कुछ साल बाद बातें कम और खामोशियां ज्यादा क्यों हो जाती हैं?'",
+    "twist_direction": "Reveal that it's not lack of love, but the exhaustion of daily life making them forget how to just check in on each other.",
+    "duration_seconds": 35,
     "posting_window": "13:00 - 15:00 IST",
-    "reason": "Previous high-performing husband-wife videos were published around early afternoon, and this window captures mid-day contemplative scrolling behavior."
+    "reason": "Matches the proven high-performing husband-wife relationship content window and theme."
   },
-  "experiment": "Testing if adding a subtle ambient background audio (like ticking clock and quiet room tone) improves retention for relationship content compared to standard background music.",
-  "updated_at": "2026-10-30T23:06:04.087188+00:00",
+  "experiment": "Testing if shifting the husband-wife theme from general advice to an observant emotional narrative about daily silence retains the high view count.",
+  "updated_at": "2026-10-31T02:38:08.782270+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-30T23:06:06.717410+00:00"
+  "generated_at": "2026-10-31T02:38:11.166049+00:00"
 }
