@@ -1,40 +1,45 @@
 {
-  "confidence": "65%",
+  "confidence": "70%",
   "data_points": 14,
-  "overall_summary": "Analysis reveals a distinct outlier performance in husband-wife relationship topics, achieving nearly 10x the views of standard shayari or general family content. However, given the small sample size, confidence is moderate, necessitating a controlled focus on relationship dynamics while keeping a small experimentation window.",
+  "overall_summary": "Analysis of historical performance shows that relationship dynamics, particularly husband-wife and romantic/domestic realities (e.g., 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1767 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1674 views), significantly outperform generic shayari, poetry, or single-topic motivational videos. Content rooted in day-to-day relational friction and mutual understanding drives the highest engagement.",
   "winning_patterns": [
     {
       "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,767 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,674 views) significantly outperformed all other topics.",
-      "action": "Double down on complex, relatable emotional truths within married or long-term romantic relationships."
+      "evidence": "Videos focusing on post-marriage dynamics ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?', 'पत्नी की ये बात हर पति को समझनी चाहिए') garnered over 1600-1700 views, heavily outperforming the channel average.",
+      "action": "Focus more core content on subtle marital misunderstandings and evolving love after marriage."
     },
     {
-      "pattern": "Nuanced Relationship Communication",
-      "evidence": "'Har Baar Sorry Bolne Wala Galat Nahi Hota' performed well with 385 views compared to generic sad shayari.",
-      "action": "Focus on unsaid feelings and ego clashes in modern relationships rather than generic heartbreak."
+      "pattern": "Direct Relatable Questions as Hooks",
+      "evidence": "Titles framed as a direct question about hidden relationship truths ('Har Baar Sorry Bolne Wala Galat Nahi Hota', 'आज किसी अपने को Call कर लेना') drove steady views in the 300+ range.",
+      "action": "Start video concepts with a relatable observation or a probing question regarding everyday emotional exhaustion."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sad Shayari & Heavy Poetry",
-      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 19 views.",
-      "action": "Avoid overly dramatic, poetic, or cliché poetry formats; lean into grounded conversational dialogue."
+      "pattern": "Abstract Shayari and Heavy Sad Quotes",
+      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 19 views, showing that overly dramatic or poetic lines fail to capture viewer attention compared to grounded real-life scenarios.",
+      "action": "Avoid abstract, overly poetic shayari hooks and stick to grounded, conversational observations."
+    },
+    {
+      "pattern": "Low-Sample Repetitive Niche Tests",
+      "evidence": "Isolated sibling videos (e.g., sister-focused content) performed poorly (~19 views), likely due to a mismatch with the core returning audience's expectations.",
+      "action": "Deprioritize fringe family segments unless framed through broader emotional relationship struggles."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Melancholic realization / Relatable guilt",
-    "hook_style": "Direct observation about unsaid daily arguments",
+    "emotion": "अधूरी सी समझ और खामोशी",
+    "hook_style": "Conversational observation about silent arguments",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A small daily argument where one person stays quiet just to save the relationship, realizing that winning the argument means losing the person.",
-    "opening_direction": "Start with the quiet after a petty fight in the kitchen over tea.",
-    "twist_direction": "The realization that the silence hurts much more than the words ever did.",
-    "duration_seconds": 10,
-    "posting_window": "07:00 AM - 09:00 AM",
-    "reason": "Aligns with the proven high-performing relationship dynamic format that yielded top views in previous uploads."
+    "concept": "जब घर में दो लोग साथ रहते हैं पर हफ्तों कोई असली बात नहीं होती, सिर्फ जरूरी काम की बातें बचती हैं।",
+    "opening_direction": "जब फोन साथ में स्क्रॉल होता है, लेकिन एक दूसरे से नजरें मिलाने की फुर्सत नहीं होती।",
+    "twist_direction": "दूरियां घर से बाहर जाने पर नहीं, बल्कि एक ही कमरे में चुपचाप बैठे रहने से शुरू होती हैं।",
+    "duration_seconds": 35,
+    "posting_window": "13:00 - 15:00",
+    "reason": "Capitalizes on the proven high-performing relationship/marriage dynamic pattern while experimenting with the emotional weight of silent co-existence."
   },
-  "experiment": "Testing if subtle everyday communication breakdowns in marriage perform as consistently as direct compatibility questions.",
-  "updated_at": "2026-10-31T09:53:01.672252+00:00",
+  "experiment": "Testing whether emotional distancing in everyday co-existence can replicate the high view counts achieved by explicit husband-wife relationship hooks.",
+  "updated_at": "2026-10-31T15:49:46.147355+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-31T09:53:04.134903+00:00"
+  "generated_at": "2026-10-31T15:49:49.021536+00:00"
 }
