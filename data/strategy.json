@@ -1,35 +1,40 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Analysis of the performance data clearly indicates that husband-wife and relationship reality topics (e.g., 'पत्नी की ये बात हर पति को समझनी चाहिए' and 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?') significantly outperform general poetry or single-topic family emotional clips, generating over 1,600 to 1,700 views compared to the baseline 100-300 views.",
+  "overall_summary": "Analysis reveals a distinct outlier performance in husband-wife relationship topics, achieving nearly 10x the views of standard shayari or general family content. However, given the small sample size, confidence is moderate, necessitating a controlled focus on relationship dynamics while keeping a small experimentation window.",
   "winning_patterns": [
     {
       "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos focusing on married life dynamics (e.g., or5gtaBpRVY with 1674 views, my5mP9feI7s with 1767 views) received nearly 10x the views of standard family emotional shorts.",
-      "action": "Double down on marriage and partner relationship topics, particularly unspoken emotional burdens between spouses."
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,767 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,674 views) significantly outperformed all other topics.",
+      "action": "Double down on complex, relatable emotional truths within married or long-term romantic relationships."
+    },
+    {
+      "pattern": "Nuanced Relationship Communication",
+      "evidence": "'Har Baar Sorry Bolne Wala Galat Nahi Hota' performed well with 385 views compared to generic sad shayari.",
+      "action": "Focus on unsaid feelings and ego clashes in modern relationships rather than generic heartbreak."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic One-Liners & Heavy Sad Shayari",
-      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' (YdWh4cDOE64) stalled at 19 views.",
-      "action": "Move away from overly dramatic, bitter poetry and focus instead on grounded, everyday relational observations."
+      "pattern": "Generic Sad Shayari & Heavy Poetry",
+      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 19 views.",
+      "action": "Avoid overly dramatic, poetic, or cliché poetry formats; lean into grounded conversational dialogue."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Melancholic yet deeply relatable realization",
-    "hook_style": "Observation-based question about unspoken habits in long-term relationships",
+    "emotion": "Melancholic realization / Relatable guilt",
+    "hook_style": "Direct observation about unsaid daily arguments",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A routine evening where two people sitting in the same room haven't spoken a word in hours, mistaking comfort for distance, until a small gesture changes the perspective.",
-    "opening_direction": "Start with the quiet sound of turning pages or phone scrolling, followed by the text: 'शादी के कुछ साल बाद बातें कम और खामोशियां ज्यादा क्यों हो जाती हैं?'",
-    "twist_direction": "Reveal that it's not lack of love, but the exhaustion of daily life making them forget how to just check in on each other.",
-    "duration_seconds": 35,
-    "posting_window": "13:00 - 15:00 IST",
-    "reason": "Matches the proven high-performing husband-wife relationship content window and theme."
+    "concept": "A small daily argument where one person stays quiet just to save the relationship, realizing that winning the argument means losing the person.",
+    "opening_direction": "Start with the quiet after a petty fight in the kitchen over tea.",
+    "twist_direction": "The realization that the silence hurts much more than the words ever did.",
+    "duration_seconds": 10,
+    "posting_window": "07:00 AM - 09:00 AM",
+    "reason": "Aligns with the proven high-performing relationship dynamic format that yielded top views in previous uploads."
   },
-  "experiment": "Testing if shifting the husband-wife theme from general advice to an observant emotional narrative about daily silence retains the high view count.",
-  "updated_at": "2026-10-31T02:38:08.782270+00:00",
+  "experiment": "Testing if subtle everyday communication breakdowns in marriage perform as consistently as direct compatibility questions.",
+  "updated_at": "2026-10-31T09:53:01.672252+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-31T02:38:11.166049+00:00"
+  "generated_at": "2026-10-31T09:53:04.134903+00:00"
 }
