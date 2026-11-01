@@ -1,45 +1,45 @@
 {
-  "confidence": "65%",
+  "confidence": "70%",
   "data_points": 14,
-  "overall_summary": "Analysis of historical performance reveals that deep marital and relationship reality themes (husband-wife dynamics) significantly outperform general family shayari or abstract sadness, garnering over 1,700 views compared to the usual 100-300 view baseline.",
+  "overall_summary": "Husband-wife/marriage relationship dynamics dramatically outperform other content types (1,600+ views vs <400 for generic family/shayari videos). Generic sister clips and abstract sad shayari show consistently low performance.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,767 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,674 views) generated 5x to 10x more views than other content.",
-      "action": "Double down on mature relationship dynamics, post-marriage compromises, and everyday unspoken partner tensions."
+      "pattern": "Husband-Wife / Married Relationship Realities",
+      "evidence": "Shaadi Ke Baad Pyaar Kahan Chala Gaya? (1,767 views, 61 likes) and Wife Emotional Video (1,674 views, 50 likes) are top performers.",
+      "action": "Double down on real-life marital emotional dynamics and unspoken expectations between partners."
     },
     {
-      "pattern": "Direct Relatable Hooks on Everyday Stress",
-      "evidence": "Titles addressing a specific common dilemma ('Har Baar Sorry Bolne Wala Galat Nahi Hota', 'Ek Mard Bhi Kabhi Ladka Tha') perform steadily in the 300-400 view range.",
-      "action": "Use conversational second-person hooks that address relationship nuances and emotional compromises."
+      "pattern": "Relationship Compromise / Empathy Hooks",
+      "evidence": "Har Baar Sorry Bolne Wala Galat Nahi Hota reached 385 views, outperforming general life advice and single-person emotional quotes.",
+      "action": "Frame hooks around relatable relational conflict and quiet sacrifices."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract or Overly Poetic Sad Shayari",
-      "evidence": "Titles like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 19 views, showing that overly dramatic poetry lacks mass connection compared to grounded real-life observation.",
-      "action": "Avoid heavy, obscure poetic words; ground the shayari or emotional narrative in concrete household or relational situations."
+      "pattern": "Abstract / Poetic Sad Shayari",
+      "evidence": "Jis Din Sach Likhunga... got only 19 views and 1 like.",
+      "action": "Avoid generic poetic lines without a grounded, real-life situational scenario."
     },
     {
-      "pattern": "Niche Family Relations Without Hook",
-      "evidence": "Early sister-focused videos ('बहन सिर्फ घर की रौनक होती है') stalled at 19 views when the framing lacked a compelling emotional conflict.",
-      "action": "Always anchor family dynamics around a specific moment of realization or unspoken sacrifice rather than generalized praise."
+      "pattern": "Sister / Sibling Emotional Trope Clips",
+      "evidence": "Sister videos scored 19 views and 138 views, underperforming compared to parental or partner topics.",
+      "action": "Pause sibling-focused shorts unless tied to a unique relatable marital/adulthood life transition."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "अधूरी समझ और पछतावा",
-    "hook_style": "Second-person direct realization about unsaid words in a long-term relationship",
+    "emotion": "Overlooked gratitude / Emotional intimacy in marriage",
+    "hook_style": "Observational everyday moment",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization about how couples stop arguing not because things are fine, but because one person has stopped caring enough to fight.",
-    "opening_direction": "जब इंसान झगड़ना बंद कर दे, तो समझ लेना रिश्ता सुधर नहीं रहा, बल्कि अंदर से टूट रहा है।",
-    "twist_direction": "और जिस दिन वो खामोश होना छोड़ देगा, उस दिन शायद आप उसे कभी वापस नहीं पा सकोगे।",
+    "concept": "A husband notices his wife silently eating cold food after feeding everyone else, realizing how small daily sacrifices go unnoticed.",
+    "opening_direction": "Show a dinner table scene where the wife waits till late night to eat alone after serving everyone.",
+    "twist_direction": "The husband doesn't give a speech; he simply sits down, warms her plate, and eats with her in silence.",
     "duration_seconds": 35,
-    "posting_window": "01:00 PM - 02:00 PM",
-    "reason": "Aligns with the proven high-performing husband-wife and relationship dynamic themes that previously achieved peak channel engagement."
+    "posting_window": "13:00 - 14:00 IST or 19:30 - 21:00 IST",
+    "reason": "Aligns with proven winning pattern of husband-wife emotional realities posted during evening/lunch leisure windows."
   },
-  "experiment": "Testing if shifting the winning relationship theme slightly toward the psychology of silence ('khamoshi') can replicate the 1,500+ view success of earlier husband-wife shorts.",
-  "updated_at": "2026-11-01T06:36:31.342867+00:00",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-01T06:36:34.378068+00:00"
+  "experiment": "Testing self-respect/boundaries inside relationship dynamic (topic: self respect) vs pure empathy to see if boundary-focused hooks retain equal watch time.",
+  "updated_at": "2026-11-01T14:24:43.683570+00:00",
+  "model_used": "gemini-3.6-flash",
+  "generated_at": "2026-11-01T14:24:52.371972+00:00"
 }
