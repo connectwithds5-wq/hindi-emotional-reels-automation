@@ -1,45 +1,35 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Analysis of the performance data reveals a clear outlier preference for husband-wife relationship dynamics (topics like post-marriage love and wives' perspectives), pulling nearly 10x the views of standard general sad poetry or broad family videos. Direct relationship advice and partnership realities significantly outperform generic shayaris.",
+  "overall_summary": "Husband-Wife relationship topics drastically outperform all other subjects (1,600+ views vs 100–300 baseline), indicating strong audience resonance with post-marriage emotional dynamics. Generic poetry and sibling topics perform weakly.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Dynamics",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' and 'पत्नी की ये बात हर पति को समझनी चाहिए' received 1,767 and 1,674 views respectively, far higher than any other content.",
-      "action": "Double down on core marital/long-term relationship struggles and mutual understanding themes."
-    },
-    {
-      "pattern": "Direct, Question-Based Hooks",
-      "evidence": "Titles framing a relatable psychological or emotional reality as a direct question or statement (e.g., 'Har Baar Sorry Bolne Wala Galat Nahi Hota') capture moderate to high steady traffic.",
-      "action": "Use specific, real-life relatable statements about modern relationships as the core premise."
+      "pattern": "Husband & Wife Emotional Dynamics",
+      "evidence": "Both videos targeting married couples ('Shaadi Ke Baad Pyaar...' with 1,767 views and 'Patni Ki Ye Baat...' with 1,674 views) generated over 80% of total channel views.",
+      "action": "Double down on subtle, realistic post-marriage relationship moments and quiet sacrifices."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sad Shayari / Heavy Poetry",
-      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 19 views.",
-      "action": "Avoid overly dramatic, poetic, or abstract sad shayari; anchor content in tangible daily life situations."
-    },
-    {
-      "pattern": "Broad/Generic Family Emotional Tropes",
-      "evidence": "Early sister-focused shorts ('बहन सिर्फ घर की रौनक होती है') stalled at 19 views.",
-      "action": "Focus family content strictly on nuclear relationship dynamics (husband-wife, parents) rather than extended family tropes."
+      "pattern": "Abstract Shayari & Sibling Tropes",
+      "evidence": "'Jis Din Sach Likhunga' got 19 views; sister emotional shorts averaged only 19-138 views.",
+      "action": "Avoid abstract/melodramatic poetry without situational storytelling, and lower priority on sibling content."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Melancholy and Realization",
-    "hook_style": "Real-life observation about unspoken compromises in long-term relationships",
+    "emotion": "Silent Appreciation / Heartfelt Realization",
+    "hook_style": "Situational Curiosity",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short piece on how couples stop fighting after a few years of marriage—not because everything is fixed, but because they have stopped expecting the other to understand.",
-    "opening_direction": "Start with a quiet kitchen scene or late-night tea: 'शादी के कुछ साल बाद झगड़े होना बंद क्यों हो जाते हैं?'",
-    "twist_direction": "Reveal that the silence isn't peace; it's emotional detachment where two people live together like polite strangers.",
-    "duration_seconds": 35,
-    "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Leverages the proven high-performing husband-wife relationship topic while steering away from generic poetry toward deep, conversational realism."
+    "concept": "A husband notices his wife keeping dinner warm late at night while sleeping on the sofa, making him reflect on how intimacy shifted from long talks to quiet care.",
+    "opening_direction": "Show late-night scene of dinner covered on table with a simple line: 'रात 12 बजे जब उसने टेबल पर ढका खाना देखा...'",
+    "twist_direction": "Reveal that love didn't end after marriage; it just stopped asking for credit and became silent care.",
+    "duration_seconds": 15,
+    "posting_window": "07:00 AM - 08:00 AM UTC (12:30 PM - 01:30 PM IST)",
+    "reason": "Top performing video 'Patni Ki Ye Baat...' peaked when released around 07:28 AM UTC, matching midday breaks."
   },
-  "experiment": "Testing if shifting the husband-wife dynamic from romantic nostalgia to emotional detachment/silent endurance retains the high view count of previous hits (1500+ views).",
-  "updated_at": "2026-11-02T11:33:32.216983+00:00",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-02T11:33:35.365028+00:00"
+  "experiment": "Testing if silent actions of marital care get higher commentary engagement than broad questioning hooks.",
+  "updated_at": "2026-11-02T21:52:11.506700+00:00",
+  "model_used": "gemini-3.6-flash",
+  "generated_at": "2026-11-02T21:52:21.351224+00:00"
 }
