@@ -1,35 +1,45 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Husband-Wife / Married relationship topics significantly outperform generic family or poetry videos, driving over 10x the average views. Sister and pure poetry/shayari topics consistently struggle.",
+  "overall_summary": "Analysis of the performance data reveals a clear outlier preference for husband-wife relationship dynamics (topics like post-marriage love and wives' perspectives), pulling nearly 10x the views of standard general sad poetry or broad family videos. Direct relationship advice and partnership realities significantly outperform generic shayaris.",
   "winning_patterns": [
     {
-      "pattern": "Husband & Wife / Post-Marriage Relationship Dynamics",
-      "evidence": "'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,767 views) and 'पत्नी की ये बात...' (1,674 views) are the top 2 highest performing videos by a wide margin.",
-      "action": "Double down on real-life married relationship conflicts, unsaid emotional gaps, and daily marital empathy."
+      "pattern": "Husband-Wife Relationship Dynamics",
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' and 'पत्नी की ये बात हर पति को समझनी चाहिए' received 1,767 and 1,674 views respectively, far higher than any other content.",
+      "action": "Double down on core marital/long-term relationship struggles and mutual understanding themes."
+    },
+    {
+      "pattern": "Direct, Question-Based Hooks",
+      "evidence": "Titles framing a relatable psychological or emotional reality as a direct question or statement (e.g., 'Har Baar Sorry Bolne Wala Galat Nahi Hota') capture moderate to high steady traffic.",
+      "action": "Use specific, real-life relatable statements about modern relationships as the core premise."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Poetry/Shayari & Generic Sister Videos",
-      "evidence": "Poetry video 'जिस दिन सच लिखूंगा' got 19 views; Sister videos got 19 and 138 views.",
-      "action": "Avoid abstract/poetic lines without a grounded, everyday scenario or relatable household relationship conflict."
+      "pattern": "Generic Sad Shayari / Heavy Poetry",
+      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 19 views.",
+      "action": "Avoid overly dramatic, poetic, or abstract sad shayari; anchor content in tangible daily life situations."
+    },
+    {
+      "pattern": "Broad/Generic Family Emotional Tropes",
+      "evidence": "Early sister-focused shorts ('बहन सिर्फ घर की रौनक होती है') stalled at 19 views.",
+      "action": "Focus family content strictly on nuclear relationship dynamics (husband-wife, parents) rather than extended family tropes."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Bittersweet Empathy / Self-Reflection",
-    "hook_style": "Relatable Daily Observation",
+    "emotion": "Melancholy and Realization",
+    "hook_style": "Real-life observation about unspoken compromises in long-term relationships",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A husband notices his wife silent after dinner, assuming she's upset with him, but realizes she's just feeling isolated in a routine lifestyle.",
-    "opening_direction": "Show a husband walking into the kitchen at night, seeing his wife silently wiping the tea counter alone.",
-    "twist_direction": "She isn't angry at a fight or mistake; she is just waiting for someone to ask how her day was instead of just asking what's for dinner.",
-    "duration_seconds": 25,
-    "posting_window": "07:00 AM - 09:00 AM IST or 01:00 PM - 02:00 PM IST based on top performing videos ('Shaadi Ke Baad...' performed at 01:12 PM IST, 'Wife...' performed at 07:28 AM IST)",
-    "reason": "Directly builds on the proven high-performing Husband-Wife relationship niche while grounding the concept in a simple domestic scenario with an emotional twist."
+    "concept": "A short piece on how couples stop fighting after a few years of marriage—not because everything is fixed, but because they have stopped expecting the other to understand.",
+    "opening_direction": "Start with a quiet kitchen scene or late-night tea: 'शादी के कुछ साल बाद झगड़े होना बंद क्यों हो जाते हैं?'",
+    "twist_direction": "Reveal that the silence isn't peace; it's emotional detachment where two people live together like polite strangers.",
+    "duration_seconds": 35,
+    "posting_window": "07:00 PM - 09:00 PM",
+    "reason": "Leverages the proven high-performing husband-wife relationship topic while steering away from generic poetry toward deep, conversational realism."
   },
-  "experiment": "Testing subtle unsaid emotional loneliness in marriage vs direct conflict/complaint.",
-  "updated_at": "2026-11-02T02:40:52.045784+00:00",
-  "model_used": "gemini-3.6-flash",
-  "generated_at": "2026-11-02T02:40:58.686936+00:00"
+  "experiment": "Testing if shifting the husband-wife dynamic from romantic nostalgia to emotional detachment/silent endurance retains the high view count of previous hits (1500+ views).",
+  "updated_at": "2026-11-02T11:33:32.216983+00:00",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-11-02T11:33:35.365028+00:00"
 }
