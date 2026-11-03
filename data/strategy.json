@@ -1,35 +1,45 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Husband-Wife relationship topics drastically outperform all other subjects (1,600+ views vs 100–300 baseline), indicating strong audience resonance with post-marriage emotional dynamics. Generic poetry and sibling topics perform weakly.",
+  "overall_summary": "Analysis of the performance data reveals clear outliers in husband-wife relationship dynamics (e.g., 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1,767 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1,674 views), which significantly outperform broad sad shayari or family member spotlights. Content focusing on marital realities and subtle emotional friction drives higher engagement.",
   "winning_patterns": [
     {
-      "pattern": "Husband & Wife Emotional Dynamics",
-      "evidence": "Both videos targeting married couples ('Shaadi Ke Baad Pyaar...' with 1,767 views and 'Patni Ki Ye Baat...' with 1,674 views) generated over 80% of total channel views.",
-      "action": "Double down on subtle, realistic post-marriage relationship moments and quiet sacrifices."
+      "pattern": "Husband-Wife Relationship Dynamics",
+      "evidence": "Videos like my5mP9feI7s (1767 views) and or5gtaBpRVY (1674 views) heavily outperform all other topics.",
+      "action": "Double down on marital emotional friction, unspoken expectations, and post-marriage realities."
+    },
+    {
+      "pattern": "Relatable Life Reality hooks",
+      "evidence": "NO5fdHLxFL4 ('Har Baar Sorry Bolne Wala Galat Nahi Hota') achieved 385 views, well above average family/sister videos.",
+      "action": "Use dialogue-driven or psychological reality statements about relationships as hooks."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Shayari & Sibling Tropes",
-      "evidence": "'Jis Din Sach Likhunga' got 19 views; sister emotional shorts averaged only 19-138 views.",
-      "action": "Avoid abstract/melodramatic poetry without situational storytelling, and lower priority on sibling content."
+      "pattern": "Generic Sad Shayari / Poetry",
+      "evidence": "YdWh4cDOE64 ('जिस दिन सच लिखूंगा...') stalled at 19 views.",
+      "action": "Move away from abstract, poetic complaints about deceit and focus on grounded everyday relationship situations."
+    },
+    {
+      "pattern": "Underperforming Family Spotlights",
+      "evidence": "jfmMztnam_A ('बहन सिर्फ घर की रौनक होती है') got only 19 views.",
+      "action": "Avoid generic praise for family members unless tied to a specific, tense, or deeply emotional real-life conflict."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Silent Appreciation / Heartfelt Realization",
-    "hook_style": "Situational Curiosity",
+    "emotion": "अधूरी समझ और खामोशी",
+    "hook_style": "Real-life observation about how couples stop arguing and start ignoring",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A husband notices his wife keeping dinner warm late at night while sleeping on the sofa, making him reflect on how intimacy shifted from long talks to quiet care.",
-    "opening_direction": "Show late-night scene of dinner covered on table with a simple line: 'रात 12 बजे जब उसने टेबल पर ढका खाना देखा...'",
-    "twist_direction": "Reveal that love didn't end after marriage; it just stopped asking for credit and became silent care.",
-    "duration_seconds": 15,
-    "posting_window": "07:00 AM - 08:00 AM UTC (12:30 PM - 01:30 PM IST)",
-    "reason": "Top performing video 'Patni Ki Ye Baat...' peaked when released around 07:28 AM UTC, matching midday breaks."
+    "concept": "जब पति-पत्नी के बीच झगड़े बंद होकर सिर्फ खामोशी बच जाए, तो समझो रिश्ता अंदर से कमजोर हो रहा है।",
+    "opening_direction": "घर में जब बहस होना बंद हो जाए ना, समझ लेना दूरियां बहुत बढ़ गई हैं।",
+    "twist_direction": "लोग सोचते हैं शांति आ गई है, पर असल में वो प्यार की मौत होती है।",
+    "duration_seconds": 35,
+    "posting_window": "13:00 - 15:00",
+    "reason": "Aligns with the proven top-performing husband-wife relationship niche while testing a subtle psychological twist rather than a loud argument."
   },
-  "experiment": "Testing if silent actions of marital care get higher commentary engagement than broad questioning hooks.",
-  "updated_at": "2026-11-02T21:52:11.506700+00:00",
-  "model_used": "gemini-3.6-flash",
-  "generated_at": "2026-11-02T21:52:21.351224+00:00"
+  "experiment": "Testing if shifting from overt marital advice to a subtle psychological observation about silence in marriage retains the high-view baseline set by previous relationship shorts.",
+  "updated_at": "2026-11-03T03:35:51.723534+00:00",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-11-03T03:35:54.461839+00:00"
 }
