@@ -1,45 +1,40 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Analysis of the performance data reveals clear outliers in husband-wife relationship dynamics (e.g., 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1,767 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1,674 views), which significantly outperform broad sad shayari or family member spotlights. Content focusing on marital realities and subtle emotional friction drives higher engagement.",
+  "overall_summary": "Data clearly shows that husband-wife relationships and marriage dynamics massively outperform generic shayari or family member spotlights, generating over 1,600+ views compared to the baseline 100-300 views. Content focusing on mature relationship realities has strong repeatable potential.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Dynamics",
-      "evidence": "Videos like my5mP9feI7s (1767 views) and or5gtaBpRVY (1674 views) heavily outperform all other topics.",
-      "action": "Double down on marital emotional friction, unspoken expectations, and post-marriage realities."
+      "pattern": "Husband-Wife Relationship Realities",
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,767 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,674 views) heavily outperform all other content categories.",
+      "action": "Double down on marriage, couple dynamics, and long-term relationship emotional compromises."
     },
     {
-      "pattern": "Relatable Life Reality hooks",
-      "evidence": "NO5fdHLxFL4 ('Har Baar Sorry Bolne Wala Galat Nahi Hota') achieved 385 views, well above average family/sister videos.",
-      "action": "Use dialogue-driven or psychological reality statements about relationships as hooks."
+      "pattern": "Direct, Question-Based Hooks",
+      "evidence": "Titles framing a relatable psychological or emotional question about everyday life ('Har Baar Sorry Bolne Wala Galat Nahi Hota', 386 views) perform better than generic statements.",
+      "action": "Use curious, thought-provoking questions as video titles and opening lines."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sad Shayari / Poetry",
-      "evidence": "YdWh4cDOE64 ('जिस दिन सच लिखूंगा...') stalled at 19 views.",
-      "action": "Move away from abstract, poetic complaints about deceit and focus on grounded everyday relationship situations."
-    },
-    {
-      "pattern": "Underperforming Family Spotlights",
-      "evidence": "jfmMztnam_A ('बहन सिर्फ घर की रौनक होती है') got only 19 views.",
-      "action": "Avoid generic praise for family members unless tied to a specific, tense, or deeply emotional real-life conflict."
+      "pattern": "Generic One-Sided Shayari / Deep Sad Poetry",
+      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 19 views.",
+      "action": "Avoid abstract, overly poetic, or overly dramatic dialogues; stick to grounded, everyday relationship observations."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "अधूरी समझ और खामोशी",
-    "hook_style": "Real-life observation about how couples stop arguing and start ignoring",
+    "emotion": "नस्टैल्जिया और अकेलापन (Nostalgia and silent distance)",
+    "hook_style": "Question-based real-life observation about how couples stop talking over time",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "जब पति-पत्नी के बीच झगड़े बंद होकर सिर्फ खामोशी बच जाए, तो समझो रिश्ता अंदर से कमजोर हो रहा है।",
-    "opening_direction": "घर में जब बहस होना बंद हो जाए ना, समझ लेना दूरियां बहुत बढ़ गई हैं।",
-    "twist_direction": "लोग सोचते हैं शांति आ गई है, पर असल में वो प्यार की मौत होती है।",
+    "concept": "A couple sitting in the same room for hours without speaking a single word, scrolling on phones, realizing the silence between them has grown louder than their conversations.",
+    "opening_direction": "Start with the simple sound of phone notifications in a quiet room at night, followed by the text on screen: 'शुरुआत में घंटों बातें खत्म नहीं होती थीं, आज एक ही कमरे में रहकर भी दिनभर बात नहीं होती।'",
+    "twist_direction": "The realization hits that they aren't fighting anymore—they have just stopped caring enough to fight, which is much more painful.",
     "duration_seconds": 35,
-    "posting_window": "13:00 - 15:00",
-    "reason": "Aligns with the proven top-performing husband-wife relationship niche while testing a subtle psychological twist rather than a loud argument."
+    "posting_window": "13:00 - 15:00 IST",
+    "reason": "Aligns directly with the highest-performing winning pattern (husband-wife relationship dynamics) while exploring emotional detachment rather than outright conflict."
   },
-  "experiment": "Testing if shifting from overt marital advice to a subtle psychological observation about silence in marriage retains the high-view baseline set by previous relationship shorts.",
-  "updated_at": "2026-11-03T03:35:51.723534+00:00",
+  "experiment": "Testing if subtle emotional detachment in marriage performs as well as direct relationship advice and questions.",
+  "updated_at": "2026-11-03T12:11:25.835817+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-03T03:35:54.461839+00:00"
+  "generated_at": "2026-11-03T12:11:28.809216+00:00"
 }
