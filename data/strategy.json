@@ -1,35 +1,35 @@
 {
   "confidence": "75%",
   "data_points": 14,
-  "overall_summary": "The channel shows a clear preference for 'Husband-Wife' relationship dynamics over generic family or motivational content. High-performing videos (1.7k+ views) focus on specific, relatable marital tensions, while generic motivational or broad family content performs significantly lower.",
+  "overall_summary": "The channel shows a clear preference for 'Husband-Wife' relationship dynamics, which significantly outperform general family or generic emotional shayari. High-performing videos (1.7k+ views) focus on specific, relatable marital conflicts or realizations, while generic emotional content performs poorly.",
   "winning_patterns": [
     {
-      "pattern": "Marital/Relationship Reality",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya' and 'पत्नी की ये बात हर पति को समझनी चाहिए' achieved 10x the average views of other topics.",
-      "action": "Double down on specific, nuanced relationship conflicts rather than broad emotional quotes."
+      "pattern": "Husband-Wife Relationship Dynamics",
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya' and 'Patni ki ye baat har pati ko samajhni chahiye' received 1.6k-1.7k views, far exceeding other topics.",
+      "action": "Double down on marital intimacy, communication gaps, and unspoken expectations."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Family Sentimentality",
-      "evidence": "Videos about siblings (sister/brother) and general motivational quotes consistently underperformed, often staying below 150 views.",
-      "action": "Pivot away from generic family tributes unless they involve a specific, high-tension conflict."
+      "pattern": "Generic Emotional/Shayari Content",
+      "evidence": "Videos like 'Jis din sach likhunga' (19 views) and 'Behen sirf ghar ki rounak' (19 views) show that abstract emotional statements without a specific life-scenario hook fail to engage.",
+      "action": "Stop creating abstract shayari; pivot to narrative-driven scenarios."
     }
   ],
   "next_video": {
-    "topic": "Husband-Wife Relationship",
+    "topic": "Husband Wife Relationship",
     "emotion": "Bittersweet realization",
-    "hook_style": "Direct question about a common silent conflict",
-    "story_structure": "Wife waiting for husband to come home -> The silence of the house vs the noise of the day -> The realization that they are living together but not talking.",
-    "concept": "The silent distance between a couple after a long day of work.",
-    "opening_direction": "Start with the sound of a door closing and the wife looking at the clock.",
-    "twist_direction": "The husband is sitting right next to her, but both are scrolling their phones, realizing they have more to say to strangers than each other.",
-    "duration_seconds": 35,
-    "posting_window": "07:00 AM - 08:00 AM IST",
-    "reason": "Aligns with the highest-performing topic (Husband-Wife) and leverages the 'relatable pain' pattern that drove previous viral success."
+    "hook_style": "Direct question about a common silent habit",
+    "story_structure": "Simple: A husband comes home late -> Relatable: He sees his wife waiting but pretending to be asleep -> Twist: He realizes she was waiting for an apology he never gave.",
+    "concept": "The unspoken apology in a silent house.",
+    "opening_direction": "Start with the sound of a door locking at 1 AM.",
+    "twist_direction": "Shift from the annoyance of the late hour to the guilt of the silent distance between them.",
+    "duration_seconds": 45,
+    "posting_window": "07:00 AM - 08:30 AM IST",
+    "reason": "Matches the high-performing 'Husband-Wife' topic and utilizes the morning window which saw success with previous relationship-based content."
   },
-  "experiment": "Testing a 'silent observation' style (minimal dialogue) versus the previous 'voiceover/shayari' style to see if visual storytelling increases retention.",
-  "updated_at": "2026-11-05T11:21:15.425783+00:00",
+  "experiment": "Testing if 'Narrative-driven silence' (visual storytelling) performs better than 'Direct address' (talking head/voiceover) within the Husband-Wife niche.",
+  "updated_at": "2026-11-05T18:53:46.429629+00:00",
   "model_used": "gemini-3.1-flash-lite",
-  "generated_at": "2026-11-05T11:21:17.856503+00:00"
+  "generated_at": "2026-11-05T18:53:48.731553+00:00"
 }
