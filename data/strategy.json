@@ -1,35 +1,35 @@
 {
-  "confidence": "70%",
+  "confidence": "75%",
   "data_points": 14,
-  "overall_summary": "The channel shows a clear preference for 'Husband-Wife' relationship dynamics, which significantly outperform general family or generic sad shayari content. High-performing videos (1.7k+ views) focus on specific, relatable marital conflicts or realizations, while generic emotional shayari or broad relationship advice receives low engagement.",
+  "overall_summary": "The channel shows a clear preference for 'Husband-Wife' relationship dynamics over generic family or motivational content. High-performing videos (1.7k+ views) focus on specific, relatable marital tensions, while generic motivational or broad family content performs significantly lower.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Dynamics",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' and 'पत्नी की ये बात हर पति को समझनी चाहिए' received 1.7k+ views, significantly higher than other topics.",
-      "action": "Double down on marital intimacy, unspoken expectations, and the evolution of love after marriage."
+      "pattern": "Marital/Relationship Reality",
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya' and 'पत्नी की ये बात हर पति को समझनी चाहिए' achieved 10x the average views of other topics.",
+      "action": "Double down on specific, nuanced relationship conflicts rather than broad emotional quotes."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sad Shayari/Poetry",
-      "evidence": "Videos like 'जिस दिन सच लिखूंगा…' received only 19 views, suggesting the audience prefers narrative-based emotional content over abstract poetry.",
-      "action": "Shift from abstract shayari to grounded, situational storytelling."
+      "pattern": "Generic Family Sentimentality",
+      "evidence": "Videos about siblings (sister/brother) and general motivational quotes consistently underperformed, often staying below 150 views.",
+      "action": "Pivot away from generic family tributes unless they involve a specific, high-tension conflict."
     }
   ],
   "next_video": {
     "topic": "Husband-Wife Relationship",
     "emotion": "Bittersweet realization",
-    "hook_style": "Direct question about a common marital habit",
-    "story_structure": "simple -> relatable -> twist",
-    "concept": "The silence between a couple after a long day of work.",
-    "opening_direction": "Start with a visual of a couple sitting on a couch, both on their phones, ignoring each other.",
-    "twist_direction": "Reveal that the silence isn't a lack of love, but the exhaustion of trying to protect the other from their own daily struggles.",
+    "hook_style": "Direct question about a common silent conflict",
+    "story_structure": "Wife waiting for husband to come home -> The silence of the house vs the noise of the day -> The realization that they are living together but not talking.",
+    "concept": "The silent distance between a couple after a long day of work.",
+    "opening_direction": "Start with the sound of a door closing and the wife looking at the clock.",
+    "twist_direction": "The husband is sitting right next to her, but both are scrolling their phones, realizing they have more to say to strangers than each other.",
     "duration_seconds": 35,
     "posting_window": "07:00 AM - 08:00 AM IST",
-    "reason": "Matches the peak performance window of the most successful videos in the dataset."
+    "reason": "Aligns with the highest-performing topic (Husband-Wife) and leverages the 'relatable pain' pattern that drove previous viral success."
   },
-  "experiment": "Testing if 'narrative-based emotional storytelling' (situational) outperforms 'advice-based' content within the same niche.",
-  "updated_at": "2026-11-05T02:40:05.403839+00:00",
+  "experiment": "Testing a 'silent observation' style (minimal dialogue) versus the previous 'voiceover/shayari' style to see if visual storytelling increases retention.",
+  "updated_at": "2026-11-05T11:21:15.425783+00:00",
   "model_used": "gemini-3.1-flash-lite",
-  "generated_at": "2026-11-05T02:40:15.689006+00:00"
+  "generated_at": "2026-11-05T11:21:17.856503+00:00"
 }
