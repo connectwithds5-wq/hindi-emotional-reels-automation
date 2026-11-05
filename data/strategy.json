@@ -1,45 +1,35 @@
 {
-  "confidence": "65%",
+  "confidence": "70%",
   "data_points": 14,
-  "overall_summary": "Analysis of historical performance reveals a clear outlier in husband-wife relationship topics (my5mP9feI7s and or5gtaBpRVY achieving ~1,700 views, significantly outperforming family and general shayari videos). General poetry and niche emotional phrases have lower traction, proving that highly relatable, domestic partner dynamics drive engagement.",
+  "overall_summary": "The channel shows a clear preference for 'Husband-Wife' relationship dynamics, which significantly outperform general family or generic sad shayari content. High-performing videos (1.7k+ views) focus on specific, relatable marital conflicts or realizations, while generic emotional shayari or broad relationship advice receives low engagement.",
   "winning_patterns": [
     {
       "pattern": "Husband-Wife Relationship Dynamics",
-      "evidence": "Videos focusing on married life ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?', 'पत्नी की ये बात हर पति को समझनी चाहिए') gained 1,768 and 1,676 views respectively, vastly outperforming single-topic emotional shorts.",
-      "action": "Double down on marital and long-term relationship realities, focusing on unspoken domestic tensions."
-    },
-    {
-      "pattern": "Conversational Direct Address Hooks",
-      "evidence": "Titles using direct questions or statements about everyday partner behaviors ('Har Baar Sorry Bolne Wala...') performed steadily better than abstract poetic titles ('जिस दिन सच लिखूंगा...').",
-      "action": "Use conversational, direct-address framing in titles and hooks."
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' and 'पत्नी की ये बात हर पति को समझनी चाहिए' received 1.7k+ views, significantly higher than other topics.",
+      "action": "Double down on marital intimacy, unspoken expectations, and the evolution of love after marriage."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Sad Shayari & Heavy Poetic Lines",
-      "evidence": "Titles like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा 💔' stalled at 19 views.",
-      "action": "Avoid overly dramatic, literary, or cynical poetry; keep the language grounded in daily reality."
-    },
-    {
-      "pattern": "Low-sample Family Re-uploads",
-      "evidence": "Duplicate sister-focused videos ('बहन सिर्फ घर की रौनक होती है') split views and performed poorly (19 and 138 views).",
-      "action": "Avoid repeating identical concepts within a short window; ensure distinct narrative angles."
+      "pattern": "Generic Sad Shayari/Poetry",
+      "evidence": "Videos like 'जिस दिन सच लिखूंगा…' received only 19 views, suggesting the audience prefers narrative-based emotional content over abstract poetry.",
+      "action": "Shift from abstract shayari to grounded, situational storytelling."
     }
   ],
   "next_video": {
-    "topic": "रिश्ते",
-    "emotion": "Nostalgia and unspoken guilt in marriage",
-    "hook_style": "Direct question about a common unnoticed change in long-term partners",
+    "topic": "Husband-Wife Relationship",
+    "emotion": "Bittersweet realization",
+    "hook_style": "Direct question about a common marital habit",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short piece on how couples stop fighting and start staying silent, mistaking peace for happiness.",
-    "opening_direction": "Start with the sound of tea being poured in complete silence between a husband and wife who used to talk for hours.",
-    "twist_direction": "The realization that when arguments stop, it doesn't mean love won; it means indifference has moved in.",
+    "concept": "The silence between a couple after a long day of work.",
+    "opening_direction": "Start with a visual of a couple sitting on a couch, both on their phones, ignoring each other.",
+    "twist_direction": "Reveal that the silence isn't a lack of love, but the exhaustion of trying to protect the other from their own daily struggles.",
     "duration_seconds": 35,
-    "posting_window": "13:00 - 15:00 IST",
-    "reason": "Matches the proven high-performing husband-wife relationship format while testing a slightly deeper emotional nuance to sustain watch time."
+    "posting_window": "07:00 AM - 08:00 AM IST",
+    "reason": "Matches the peak performance window of the most successful videos in the dataset."
   },
-  "experiment": "Testing if shifting from overt relationship conflict to subtle emotional distance in marriage retains the high view counts of previous relationship hits.",
-  "updated_at": "2026-11-04T22:06:05.811515+00:00",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-04T22:06:08.744239+00:00"
+  "experiment": "Testing if 'narrative-based emotional storytelling' (situational) outperforms 'advice-based' content within the same niche.",
+  "updated_at": "2026-11-05T02:40:05.403839+00:00",
+  "model_used": "gemini-3.1-flash-lite",
+  "generated_at": "2026-11-05T02:40:15.689006+00:00"
 }
