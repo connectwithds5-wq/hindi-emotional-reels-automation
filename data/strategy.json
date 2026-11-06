@@ -1,45 +1,45 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Analysis of historical performance shows clear outperformance in husband-wife relationship and domestic dynamics videos ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1,768 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1,676 views). Generic sad shayari and low-context emotional quotes heavily underperformed, indicating the audience prefers narrative-driven relationship realities over abstract poetry.",
+  "overall_summary": "Analysis of the performance data clearly reveals that relationship and marriage-centric emotional dynamics (husband-wife and couple dynamics) significantly outperform generic poetry, general motivation, or sibling videos. The top outliers (my5mP9feI7s and or5gtaBpRVY) achieved nearly 1,700+ views, whereas general shayari or less common topics dropped below 30 views. Therefore, future videos must focus tightly on relatable marital or long-term relationship realities.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Dilemmas",
-      "evidence": "Videos focusing on post-marriage realities and spousal understanding achieved nearly 10x the views of average uploads (1,768 and 1,676 views).",
-      "action": "Double down on domestic relationship dynamics, unspoken marital expectations, and everyday compromises."
+      "pattern": "Husband-Wife / Relationship Dynamics",
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,768 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,676 views) generated the highest views and engagement on the channel by a massive margin.",
+      "action": "Double down on relationship, marriage, and emotional distance topics between couples."
     },
     {
-      "pattern": "Relatable Psychological Realities",
-      "evidence": "'Har Baar Sorry Bolne Wala Galat Nahi Hota' performed decently (389 views) compared to abstract poetry like 'जिस दिन सच लिखूंगा' (20 views).",
-      "action": "Focus on everyday psychological burdens and emotional maturity in relationships rather than heavy, abstract heartbreak."
+      "pattern": "Direct Question Hooks about Relatable Realities",
+      "evidence": "Titles framing a common dilemma or using a direct question about daily relationship pain points capture higher initial click-through and retention.",
+      "action": "Use conversational, inquiry-based hooks that address unspoken relationship truths."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract or Dark Sad Shayari",
-      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' gained only 20 views.",
-      "action": "Avoid overly dramatic, cryptic, or vengeful poetry; keep the emotional tone grounded and empathetic."
+      "pattern": "Generic Sad Shayari & Overtly Poetic Lines",
+      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 20 views, showing low appeal for abstract poetic text.",
+      "action": "Avoid abstract, overly literary Urdu/Hindi shayari; stick to grounded, everyday emotional situations."
     },
     {
-      "pattern": "Low-Context Family Tropes",
-      "evidence": "First attempt at the sister emotional video ('बहन सिर्फ घर की रौनक होती है') stalled at 19 views before a later re-upload picked up slightly.",
-      "action": "Ensure family-centric videos focus on a specific conflict or realized moment rather than generalized praise."
+      "pattern": "Fragmented or Niche Family Topics with Low Early Traction",
+      "evidence": "Sister/Brother specific videos (e.g., jfmMztnam_A) scored under 20 views.",
+      "action": "Keep family dynamics broad (like parents or universal marital bonds) instead of isolating specific sub-dynamics that lack high initial pull."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Nostalgia and realization",
-    "hook_style": "Observation on silent changes after a few years of marriage",
+    "emotion": "अधूरी मोहब्बत / ठहराव",
+    "hook_style": "Real-life observation about how text chats change over years of marriage.",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple sitting in silence in a car or living room, scrolling through phones, realizing how 'busy' they became while living under the same roof.",
-    "opening_direction": "Start with the quiet sound of a tea cup being placed on a table and a heavy sigh.",
-    "twist_direction": "The realization that they used to talk for hours about nothing, and now they have nothing left to fight about—which is actually scarier than fighting.",
+    "concept": "A realization about how long text conversations between a couple slowly reduce to grocery lists and logistics, losing the late-night talks they started with.",
+    "opening_direction": "Start with a quiet visual of a phone screen showing a chat history filled only with 'सब्जी लेते आना' and 'कहाँ ho'.",
+    "twist_direction": "Reveal that the person missing those romantic late-night calls isn't someone else, but the partner sleeping just a foot away on the same bed.",
     "duration_seconds": 35,
-    "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Aligns directly with the top-performing husband-wife relationship niche while leveraging a relatable domestic observation that triggers high retention and comments."
+    "posting_window": "13:00 - 15:00 IST",
+    "reason": "Matches the proven success pattern of high-performing relationship and marital dynamics videos in the dataset while addressing a universally relatable emotional pain point."
   },
-  "experiment": "Testing if a subtle, bittersweet domestic realization can match the high view count of direct relationship advice videos.",
-  "updated_at": "2026-11-06T15:15:41.988342+00:00",
+  "experiment": "Testing if narrowing the focus strictly to micro-habits in mature relationships sustains the 1,500+ view baseline established by previous top performers.",
+  "updated_at": "2026-11-06T20:59:12.959682+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-06T15:15:44.852616+00:00"
+  "generated_at": "2026-11-06T20:59:16.271914+00:00"
 }
