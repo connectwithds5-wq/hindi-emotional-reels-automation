@@ -1,35 +1,35 @@
 {
-  "confidence": "75%",
+  "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "The channel shows a strong preference for 'Husband-Wife' relationship dynamics, which significantly outperformed generic family or sad shayari content. High-performing videos focus on specific, relatable marital conflicts or realizations.",
+  "overall_summary": "Analysis of the performance data reveals a clear outlier preference for husband-wife relationships and deep emotional realities of marriage, with 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,768 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,676 views) heavily outperforming other emotional content like general shayari or family bonds.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Dynamics",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1768 views) and 'Patni ki ye baat...' (1676 views) are the clear outliers.",
-      "action": "Double down on marital/partnership emotional content."
+      "pattern": "Husband-Wife Relationship Dilemmas",
+      "evidence": "Videos focusing on post-marriage dynamics (my5mP9feI7s, or5gtaBpRVY) achieved 1,600+ views, whereas standard sister/brother shorts received under 150 views.",
+      "action": "Double down on complex relationship dynamics, unspoken marital expectations, and everyday emotional disconnects between partners."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sad Shayari/Poetry",
-      "evidence": "Videos like 'Jis din sach likhung...' (19 views) performed poorly compared to narrative-driven relationship content.",
-      "action": "Shift from abstract poetry to specific, narrative-based life scenarios."
+      "pattern": "Generic Shayari and Heavy Poetic Openings",
+      "evidence": "Videos using abstract poetic intros like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' (YdWh4cDOE64) stalled at 20 views.",
+      "action": "Avoid abstract poetic rants; anchor the content into specific, highly recognizable household or relationship situations."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Nostalgia/Realization",
-    "hook_style": "Direct question about a common marital habit",
-    "story_structure": "Wife waiting for husband to come home -> The silence of the house/unspoken expectations -> The realization that they are living together but not 'talking' anymore.",
-    "concept": "The silent distance between a couple who used to talk for hours.",
-    "opening_direction": "Start with the sound of a door opening and the lack of a greeting.",
-    "twist_direction": "Reveal that the distance isn't caused by anger, but by the comfort of 'being used to' each other's silence.",
-    "duration_seconds": 45,
-    "posting_window": "07:00 AM - 08:00 AM IST",
-    "reason": "Matches the peak performance window of the successful relationship-based shorts."
+    "emotion": "Melancholy and Realization",
+    "hook_style": "Direct question about a common silent argument in marriage",
+    "story_structure": "simple -> relatable -> twist",
+    "concept": "A couple sitting in complete silence after an argument, neither willing to break the ice, realizing that winning the argument meant losing the person.",
+    "opening_direction": "Start with the sound of a ticking clock and a spouse pretending to look busy on their phone just to avoid eye contact.",
+    "twist_direction": "The realization that years ago they used to stay awake till 3 AM just to talk, and now they are sitting 3 inches apart living miles away.",
+    "duration_seconds": 10,
+    "posting_window": "07:00 PM - 09:00 PM",
+    "reason": "Aligns directly with the highest-performing content cluster (marital relationships) during evening winding-down hours when users reflect on personal life."
   },
-  "experiment": "Testing if a 'silent, observational' narrative style performs better than the 'direct advice/dialogue' style used in previous hits.",
-  "updated_at": "2026-11-06T00:29:25.699105+00:00",
-  "model_used": "gemini-3.1-flash-lite",
-  "generated_at": "2026-11-06T00:29:27.823225+00:00"
+  "experiment": "Testing if shifting the husband-wife relationship angle from a direct advice format to a purely observational silent-regret format maintains high view velocity.",
+  "updated_at": "2026-11-06T07:16:24.843942+00:00",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-11-06T07:16:27.557093+00:00"
 }
