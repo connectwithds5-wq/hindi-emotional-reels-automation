@@ -1,35 +1,35 @@
 {
   "confidence": "75%",
   "data_points": 14,
-  "overall_summary": "The channel shows a clear preference for 'Husband-Wife' relationship dynamics, which significantly outperform general family or generic emotional shayari. High-performing videos (1.7k+ views) focus on specific, relatable marital conflicts or realizations, while generic emotional content performs poorly.",
+  "overall_summary": "The channel shows a strong preference for 'Husband-Wife' relationship dynamics, which significantly outperformed generic family or sad shayari content. High-performing videos focus on specific, relatable marital conflicts or realizations.",
   "winning_patterns": [
     {
       "pattern": "Husband-Wife Relationship Dynamics",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya' and 'Patni ki ye baat har pati ko samajhni chahiye' received 1.6k-1.7k views, far exceeding other topics.",
-      "action": "Double down on marital intimacy, communication gaps, and unspoken expectations."
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1768 views) and 'Patni ki ye baat...' (1676 views) are the clear outliers.",
+      "action": "Double down on marital/partnership emotional content."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Emotional/Shayari Content",
-      "evidence": "Videos like 'Jis din sach likhunga' (19 views) and 'Behen sirf ghar ki rounak' (19 views) show that abstract emotional statements without a specific life-scenario hook fail to engage.",
-      "action": "Stop creating abstract shayari; pivot to narrative-driven scenarios."
+      "pattern": "Generic Sad Shayari/Poetry",
+      "evidence": "Videos like 'Jis din sach likhung...' (19 views) performed poorly compared to narrative-driven relationship content.",
+      "action": "Shift from abstract poetry to specific, narrative-based life scenarios."
     }
   ],
   "next_video": {
-    "topic": "Husband Wife Relationship",
-    "emotion": "Bittersweet realization",
-    "hook_style": "Direct question about a common silent habit",
-    "story_structure": "Simple: A husband comes home late -> Relatable: He sees his wife waiting but pretending to be asleep -> Twist: He realizes she was waiting for an apology he never gave.",
-    "concept": "The unspoken apology in a silent house.",
-    "opening_direction": "Start with the sound of a door locking at 1 AM.",
-    "twist_direction": "Shift from the annoyance of the late hour to the guilt of the silent distance between them.",
+    "topic": "रिश्ते",
+    "emotion": "Nostalgia/Realization",
+    "hook_style": "Direct question about a common marital habit",
+    "story_structure": "Wife waiting for husband to come home -> The silence of the house/unspoken expectations -> The realization that they are living together but not 'talking' anymore.",
+    "concept": "The silent distance between a couple who used to talk for hours.",
+    "opening_direction": "Start with the sound of a door opening and the lack of a greeting.",
+    "twist_direction": "Reveal that the distance isn't caused by anger, but by the comfort of 'being used to' each other's silence.",
     "duration_seconds": 45,
-    "posting_window": "07:00 AM - 08:30 AM IST",
-    "reason": "Matches the high-performing 'Husband-Wife' topic and utilizes the morning window which saw success with previous relationship-based content."
+    "posting_window": "07:00 AM - 08:00 AM IST",
+    "reason": "Matches the peak performance window of the successful relationship-based shorts."
   },
-  "experiment": "Testing if 'Narrative-driven silence' (visual storytelling) performs better than 'Direct address' (talking head/voiceover) within the Husband-Wife niche.",
-  "updated_at": "2026-11-05T18:53:46.429629+00:00",
+  "experiment": "Testing if a 'silent, observational' narrative style performs better than the 'direct advice/dialogue' style used in previous hits.",
+  "updated_at": "2026-11-06T00:29:25.699105+00:00",
   "model_used": "gemini-3.1-flash-lite",
-  "generated_at": "2026-11-05T18:53:48.731553+00:00"
+  "generated_at": "2026-11-06T00:29:27.823225+00:00"
 }
