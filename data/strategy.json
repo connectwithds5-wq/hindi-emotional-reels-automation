@@ -1,45 +1,40 @@
 {
-  "confidence": "85%",
+  "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Analysis of historical performance shows that romantic and marital relationship dynamics (husband-wife realities, growing apart) significantly outperform family Shayari or general motivational quotes. Videos focusing on 'रिश्ते' and complex relationship realities achieved up to 10x-50x more views than other topics.",
+  "overall_summary": "Analysis of historical performance indicates that deep relationship dynamics, specifically husband-wife complexities and everyday emotional realities, significantly outperform generic poetry or abstract quotes. Videos tackling marital understanding generated nearly 10x the views of standard sad shayari.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,768 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,676 views) vastly outperformed all other content.",
-      "action": "Double down on marital and deep romantic relationship complications."
+      "pattern": "Husband-Wife Relationship Dynamics",
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,768 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,676 views) heavily outperformed all other content.",
+      "action": "Focus more core video concepts on marital life realities, unspoken compromises, and post-marriage emotional shifts."
     },
     {
-      "pattern": "Direct Question Hooks",
-      "evidence": "Titles framed as a direct, relatable question about love or marriage drive high curiosity and watch time.",
-      "action": "Use provocative yet relatable relationship questions in the title and opening."
+      "pattern": "Direct Relatable Address",
+      "evidence": "Titles framing a direct observation about close relationships (e.g., 'Har Baar Sorry Bolne Wala Galat Nahi Hota' with 390 views) drive steady engagement compared to abstract titles.",
+      "action": "Use specific behavioral observations in the hook instead of general statements."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sad Shayari & Abstract Poetry",
-      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 20 views.",
-      "action": "Avoid overly dramatic, poetic, or vague abstract statements; ground the content in everyday realistic scenarios."
-    },
-    {
-      "pattern": "Low-sample Family Diversifications",
-      "evidence": "Sister emotional videos (e.g., 19 views) underperformed compared to core relationship hooks.",
-      "action": "Limit family content unless tied directly to deep relationship friction."
+      "pattern": "Abstract Sad Shayari & Heavy Philosophical Lines",
+      "evidence": "Video 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' generated only 20 views.",
+      "action": "Avoid overly dramatic, poetic, or abstract text hooks that lack a grounded real-life anchor."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Melancholy and Realization",
-    "hook_style": "Questioning unspoken distance between partners",
+    "emotion": "Melancholy & Realization",
+    "hook_style": "Behavioral observation about unspoken distance in long-term relationships",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple sitting in the same room scrolling phones in complete silence, realizing they know everything about their digital feeds but nothing about each other's day.",
-    "opening_direction": "Start with the sound of a phone notification breaking a heavy, uncomfortable silence in a dimly lit room.",
-    "twist_direction": "Conclude with the realization that physical presence doesn't mean emotional connection—sometimes the loudest distance is across a single sofa.",
+    "concept": "A couple sitting in absolute silence after years of marriage, where comfort has quietly turned into emotional distance.",
+    "opening_direction": "Start with the simple everyday action of two people drinking tea in silence, scrolling phones without looking at each other.",
+    "twist_direction": "The realization that they don't fight anymore not because everything is fixed, but because they have stopped expecting anything from each other.",
     "duration_seconds": 35,
-    "posting_window": "01:00 PM - 02:00 PM",
-    "reason": "Aligns with top-performing husband-wife relationship themes ('Shaadi Ke Baad Pyaar...') which historically drove the highest engagement on the channel."
+    "posting_window": "13:00 - 15:00 IST",
+    "reason": "Aligns with the proven high-performing husband-wife and relationship reality theme while testing a subtle, mature emotional nuance."
   },
-  "experiment": "Testing if micro-habits in modern relationships (like phone scrolling silence) yield higher comment engagement than broader marital questions.",
-  "updated_at": "2026-11-07T14:59:56.299640+00:00",
+  "experiment": "Testing if shifting the husband-wife theme from active conflict/advice to silent emotional detachment maintains high view counts.",
+  "updated_at": "2026-11-07T19:31:58.260112+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-07T14:59:59.464166+00:00"
+  "generated_at": "2026-11-07T19:32:00.939053+00:00"
 }
