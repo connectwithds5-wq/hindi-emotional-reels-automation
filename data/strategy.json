@@ -1,40 +1,45 @@
 {
-  "confidence": "75%",
+  "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "The channel shows a clear preference for 'Husband-Wife' and 'Relationship Dynamics' content, which significantly outperformed family-centric or generic motivational content. High-performing videos (1.7k+ views) focus on specific, relatable marital tensions rather than broad emotional statements.",
+  "overall_summary": "Analysis of historical performance indicates that deep, relatable relationship dynamics—specifically husband-wife and family emotional bonds—drastically outperform generic shayari or motivational content. Videos focusing on marital life ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?' and 'पत्नी की ये बात हर पति को समझनी चाहिए') achieved massive outliers with nearly 1,700+ views, whereas pure shayari and niche family mentions underperformed.",
   "winning_patterns": [
     {
-      "pattern": "Marital/Relationship Dynamics",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya' and 'पत्नी की ये बात हर पति को समझनी चाहिए' received 10x more views than other topics.",
-      "action": "Prioritize content focusing on the complexities of long-term relationships."
+      "pattern": "Husband-Wife Relationship Realities",
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,768 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,676 views) performed exceptionally compared to the channel average of ~200 views.",
+      "action": "Produce more content centered on post-marriage realities, unspoken compromises, and partner psychology."
     },
     {
-      "pattern": "Direct Address Hooks",
-      "evidence": "Titles addressing a specific person (Husband/Wife/Partner) perform better than general Shayari.",
-      "action": "Use direct, conversational hooks that feel like a private realization."
+      "pattern": "Conversational Interpersonal Reminders",
+      "evidence": "'आज किसी अपने को Call कर लेना' (288 views) and 'Har Baar Sorry Bolne Wala Galat Nahi Hota' (389 views) outperformed standard poetry formats.",
+      "action": "Use conversational prompts addressing the viewer directly about their interpersonal regrets or actions."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Shayari/Poetry",
-      "evidence": "Videos like 'जिस दिन सच लिखूंगा' (20 views) performed poorly compared to narrative-driven relationship content.",
-      "action": "Shift from abstract poetry to specific, grounded life situations."
+      "pattern": "Generic Sad Shayari / Heavy Metaphors",
+      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' gained only 20 views.",
+      "action": "Avoid overly dramatic or poetic framing; anchor scripts in grounded, everyday household observations."
+    },
+    {
+      "pattern": "Low-Sample Niche Family Segments",
+      "evidence": "First upload of sister emotional video ('बहन सिर्फ घर की रौनक होती है') stalled at 19 views.",
+      "action": "Pivot away from isolated sibling tropes unless framed through a broader shared adulthood nostalgia lens."
     }
   ],
   "next_video": {
-    "topic": "रिश्ते (Relationship Reality)",
-    "emotion": "Melancholy/Reflection",
-    "hook_style": "Direct question about a common silent habit",
-    "story_structure": "Simple: A husband coming home tired -> Relatable: The silence between partners after a long day -> Twist: The realization that 'silence' isn't peace, it's a growing distance.",
-    "concept": "The silent distance in marriage",
-    "opening_direction": "Start with the sound of a door closing and a sigh, followed by the text: 'क्या घर पहुँचते ही आप दोनों के बीच खामोशी बढ़ जाती है?'",
-    "twist_direction": "End with the thought: 'बातें खत्म नहीं होतीं, बस हम एक-दूसरे को सुनना छोड़ देते हैं।'",
+    "topic": "रिश्ते",
+    "emotion": "Nostalgia & Guilt",
+    "hook_style": "Direct observation about changing priorities after marriage",
+    "story_structure": "simple -> relatable -> twist",
+    "concept": "A realization about how phone calls with parents slowly turn from long conversations into rushed 2-minute updates after marriage or moving out.",
+    "opening_direction": "Start with the physical act of looking at a phone screen showing a missed call from 'Mom' or 'Dad' and delaying it with a 'Main baad mein karta hoon' text.",
+    "twist_direction": "The realization that one day, that caller ID won't light up anymore, and all we will have are the voicemails and rushed habits.",
     "duration_seconds": 35,
-    "posting_window": "13:00 - 14:00 IST",
-    "reason": "Matches the high-performing 'Husband-Wife' niche while addressing a relatable, everyday emotional pain point."
+    "posting_window": "13:00 - 15:00 IST",
+    "reason": "Leverages the proven high-performing 'relationship/family reality' cluster (similar to the successful husband-wife and parental care shorts) while testing a poignant, guilt-driven narrative hook."
   },
-  "experiment": "Testing if 'Relationship Reality' content maintains high engagement when presented as a 'silent observation' rather than a 'direct advice' video.",
-  "updated_at": "2026-11-07T01:02:12.084278+00:00",
-  "model_used": "gemini-3.1-flash-lite",
-  "generated_at": "2026-11-07T01:02:14.795634+00:00"
+  "experiment": "Testing if shifting the successful relationship/family observation format specifically toward the subtle distance created by adult life/marriage increases comment engagement.",
+  "updated_at": "2026-11-07T07:33:43.853810+00:00",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-11-07T07:33:47.551487+00:00"
 }
