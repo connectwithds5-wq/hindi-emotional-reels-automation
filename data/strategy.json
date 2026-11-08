@@ -1,45 +1,45 @@
 {
-  "confidence": "85%",
+  "confidence": "75%",
   "data_points": 14,
-  "overall_summary": "Analysis of historical performance shows that content centered around complex marital and romantic relationship dynamics (specifically husband-wife dynamics like 'Shaadi Ke Baad Pyaar' and 'Patni Ki Yeh Baat') drastically outperforms general family member dedications or raw sad poetry by nearly 5x to 10x in views.",
+  "overall_summary": "Analysis of historical performance shows that husband-wife relationship dynamics ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1,768 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1,676 views) massively outperform general heartbreak poetry, broad emotional quotes, and specific family member niches.",
   "winning_patterns": [
     {
       "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,768 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,676 views) are massive outliers compared to other topics averaging 100-300 views.",
-      "action": "Double down on adult relationship struggles, expectations, and emotional distance after marriage."
+      "evidence": "Videos focusing on marital unspoken tensions or partner understanding achieved the highest views (1.7k+ vs <400 for others).",
+      "action": "Double down on mature relationship dynamics, compromise, and post-marriage emotional distance."
     },
     {
       "pattern": "Direct Question Hooks",
-      "evidence": "Titles formulated as direct, intriguing relationship questions drive higher curiosity and watch time.",
-      "action": "Continue using direct, conversational questions addressing common unspoken thoughts in partnerships."
+      "evidence": "Titles framed as a direct questioning of everyday life situations ('Shaadi Ke Baad...', 'Har Baar Sorry Bolne Wala...') yield higher engagement.",
+      "action": "Continue opening with relatable relational interrogations."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Sad Shayari & Heavy Poetry",
-      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 20 views, showing low initial click-through and engagement.",
-      "action": "Avoid overly dramatic, poetic, or abstract framing; ground the emotion in concrete everyday observations."
+      "pattern": "Generic Sad Poetry/Shayari",
+      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' gained only 20 views.",
+      "action": "Avoid overly dramatic, poetic, or generic sad quotes. Ground the content in realistic, observable relationship friction."
     },
     {
-      "pattern": "Niche Family Dedications",
-      "evidence": "Sister emotional videos (e.g., jfmMztnam_A with 19 views) underperformed significantly compared to core relationship themes.",
-      "action": "Shift focus away from extended family tropes and concentrate heavily on core romantic and marital bonds."
+      "pattern": "Niche Family Member Tropes (Low Performing)",
+      "evidence": "Sister-focused videos (jfmMztnam_A, fAAoIQCRMXU) had low traction compared to parental or spousal topics.",
+      "action": "Shift focus away from siblings and prioritize spousal or core self-reflection themes."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Melancholy and Realization",
-    "hook_style": "Conversational observational realization",
+    "emotion": "निराशा और अपनापन (Disappointment & Longing)",
+    "hook_style": "Direct observation about silent treatment in marriage",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization about how couples living in the same house stop talking about their day, substituting daily chores for deep emotional connection.",
-    "opening_direction": "Start with the quiet sound of tea being poured in a silent kitchen while both partners sit scrolling on their phones without exchanging a glance.",
-    "twist_direction": "End with the realization that living under the same roof doesn't mean sharing a life, and the scariest distance is not miles, but inches across the bed.",
+    "concept": "A couple sitting in complete silence in the living room, scrolling phones, remembering when silence used to feel comfortable instead of heavy.",
+    "opening_direction": "Start with the observation: 'अब झगड़े नहीं होते घर में… खामोशी ज्यादा शोर मचाती है।'",
+    "twist_direction": "Reveal that the silence isn't due to anger, but because they have stopped expecting the other to understand.",
     "duration_seconds": 35,
-    "posting_window": "07:00 AM - 09:00 AM",
-    "reason": "Leverages the proven high-performing 'Husband-Wife / Relationship' theme while testing a subtle, mature emotional angle on modern silent alienation."
+    "posting_window": "07:00 PM - 09:00 PM",
+    "reason": "Leverages the proven high-performing husband-wife relationship topic while capitalizing on evening peak hours for emotional content consumption."
   },
-  "experiment": "Testing if deep emotional alienation in modern marriages performs better than explicit conflict-based relationship titles.",
-  "updated_at": "2026-11-08T06:29:58.805158+00:00",
+  "experiment": "Testing if adding a subtle regret angle to high-performing marital dynamics increases comment interactions, which have historically been low.",
+  "updated_at": "2026-11-08T13:47:55.758291+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-08T06:30:01.521159+00:00"
+  "generated_at": "2026-11-08T13:47:58.669978+00:00"
 }
