@@ -1,35 +1,45 @@
 {
-  "confidence": "65%",
+  "confidence": "70%",
   "data_points": 14,
-  "overall_summary": "Analysis of historical data reveals that relationship and marriage-centric emotional content (specifically husband-wife dynamics) significantly outperforms general sad shayari or broad family tropes, driving nearly 10x more views (e.g., ~1700 views compared to the 20-300 range for other formats).",
+  "overall_summary": "Husband-Wife / Married relationship emotional topics drastically outperform all other formats on the channel, generating over 1600+ views per video compared to sub-400 views for generic shayari, sibling, or motivational content.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Dynamics",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,768 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,676 views) heavily outperformed all other topics.",
-      "action": "Focus core production heavily on marital and long-term relationship nuances rather than standalone poetic sad shayari."
+      "pattern": "Husband-Wife / Marriage Reality dynamics",
+      "evidence": "Shaadi Ke Baad Pyaar... (1,768 views, 61 likes) and Wife Emotional Video (1,677 views, 50 likes) are the top 2 performing videos by a wide margin.",
+      "action": "Double down on post-marriage emotional nuances, daily unseen sacrifices, and unspoken expectations between partners."
+    },
+    {
+      "pattern": "Conflict resolution & relationship dignity hooks",
+      "evidence": "Har Baar Sorry Bolne Wala... reached 390 views, showing secondary interest in relationship compromise and self-respect.",
+      "action": "Combine marital dynamics with themes of self-respect and subtle emotional compromises."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sad/Poetic Shayari with Heavy Metaphors",
-      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 20 views.",
-      "action": "Avoid overly dramatic, poetic, or abstract lines in titles and hooks; anchor content in concrete everyday scenarios."
+      "pattern": "Generic abstract shayari / heavy literary poetry",
+      "evidence": "Jis Din Sach Likhunga... received only 20 views and 1 like.",
+      "action": "Avoid abstract literary Hindi phrasing; stick to conversational, modern spoken Hindi (Hinglish/Hindi blend)."
+    },
+    {
+      "pattern": "Sister emotional videos",
+      "evidence": "Sister video attempts got 19 views and 139 views across two uploads.",
+      "action": "Pause sibling-focused emotional content until core audience built around marriage/relationship dynamics stabilizes."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "निभाना vs निभा पाना (Acceptance and quiet compromise in long-term love)",
-    "hook_style": "Direct observational statement about modern marriage reality",
+    "emotion": "unspoken empathy & deep romantic emotional longing",
+    "hook_style": "Observation-based relatable question",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple living together for years who stop fighting, not because everything is fine, but because they stopped expecting the other to understand.",
-    "opening_direction": "जब इंसान झगड़ना छोड़ दे, तो समझ जाना मोहब्बत खत्म नहीं हुई, उम्मीद खत्म हो गई है।",
-    "twist_direction": "वो आज भी एक ही चादर शेयर करते हैं, बस बीच की दूरी अब मीलों जितनी लंबी हो जाती है।",
+    "concept": "A tired husband comes home late and sees his wife sleeping with the light on and his plate covered on the dining table.",
+    "opening_direction": "Show a man quiet late at night, moving carefully so he doesn't wake up his wife after a exhausting day.",
+    "twist_direction": "He notices a small hand-written note under the plate: 'Khaana garam kar lena, main thoda thak gayi thi so gayi... sorry.' Realization hits that amidst daily routines, romance turns into quiet, unnoticed care.",
     "duration_seconds": 35,
-    "posting_window": "01:00 PM - 02:00 PM",
-    "reason": "Capitalizes on the proven high-performing husband-wife relationship niche while shifting the emotional angle slightly toward deep overthinking and quiet loneliness."
+    "posting_window": "13:00 - 14:00 IST or 18:00 - 19:00 IST based on historical peak engagement times",
+    "reason": "Leverages the proven demand for husband-wife relationship content while introducing a micro-moment story arc rather than generic advice."
   },
-  "experiment": "Testing whether shifting from direct advice about spouses to a melancholic reality of silent distance in marriage retains high viewer retention.",
-  "updated_at": "2026-11-08T18:56:42.292143+00:00",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-08T18:56:44.717968+00:00"
+  "experiment": "Testing an observational narrative story structure instead of a direct advice/shayari monologue within the winning husband-wife niche.",
+  "updated_at": "2026-11-08T22:59:43.274912+00:00",
+  "model_used": "gemini-3.6-flash",
+  "generated_at": "2026-11-08T22:59:51.260982+00:00"
 }
