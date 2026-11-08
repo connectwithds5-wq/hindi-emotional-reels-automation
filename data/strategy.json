@@ -1,45 +1,35 @@
 {
-  "confidence": "75%",
+  "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Analysis of historical performance shows that husband-wife relationship dynamics ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1,768 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1,676 views) massively outperform general heartbreak poetry, broad emotional quotes, and specific family member niches.",
+  "overall_summary": "Analysis of historical data reveals that relationship and marriage-centric emotional content (specifically husband-wife dynamics) significantly outperforms general sad shayari or broad family tropes, driving nearly 10x more views (e.g., ~1700 views compared to the 20-300 range for other formats).",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos focusing on marital unspoken tensions or partner understanding achieved the highest views (1.7k+ vs <400 for others).",
-      "action": "Double down on mature relationship dynamics, compromise, and post-marriage emotional distance."
-    },
-    {
-      "pattern": "Direct Question Hooks",
-      "evidence": "Titles framed as a direct questioning of everyday life situations ('Shaadi Ke Baad...', 'Har Baar Sorry Bolne Wala...') yield higher engagement.",
-      "action": "Continue opening with relatable relational interrogations."
+      "pattern": "Husband-Wife Relationship Dynamics",
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,768 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,676 views) heavily outperformed all other topics.",
+      "action": "Focus core production heavily on marital and long-term relationship nuances rather than standalone poetic sad shayari."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sad Poetry/Shayari",
-      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' gained only 20 views.",
-      "action": "Avoid overly dramatic, poetic, or generic sad quotes. Ground the content in realistic, observable relationship friction."
-    },
-    {
-      "pattern": "Niche Family Member Tropes (Low Performing)",
-      "evidence": "Sister-focused videos (jfmMztnam_A, fAAoIQCRMXU) had low traction compared to parental or spousal topics.",
-      "action": "Shift focus away from siblings and prioritize spousal or core self-reflection themes."
+      "pattern": "Generic Sad/Poetic Shayari with Heavy Metaphors",
+      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 20 views.",
+      "action": "Avoid overly dramatic, poetic, or abstract lines in titles and hooks; anchor content in concrete everyday scenarios."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "निराशा और अपनापन (Disappointment & Longing)",
-    "hook_style": "Direct observation about silent treatment in marriage",
+    "emotion": "निभाना vs निभा पाना (Acceptance and quiet compromise in long-term love)",
+    "hook_style": "Direct observational statement about modern marriage reality",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple sitting in complete silence in the living room, scrolling phones, remembering when silence used to feel comfortable instead of heavy.",
-    "opening_direction": "Start with the observation: 'अब झगड़े नहीं होते घर में… खामोशी ज्यादा शोर मचाती है।'",
-    "twist_direction": "Reveal that the silence isn't due to anger, but because they have stopped expecting the other to understand.",
+    "concept": "A couple living together for years who stop fighting, not because everything is fine, but because they stopped expecting the other to understand.",
+    "opening_direction": "जब इंसान झगड़ना छोड़ दे, तो समझ जाना मोहब्बत खत्म नहीं हुई, उम्मीद खत्म हो गई है।",
+    "twist_direction": "वो आज भी एक ही चादर शेयर करते हैं, बस बीच की दूरी अब मीलों जितनी लंबी हो जाती है।",
     "duration_seconds": 35,
-    "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Leverages the proven high-performing husband-wife relationship topic while capitalizing on evening peak hours for emotional content consumption."
+    "posting_window": "01:00 PM - 02:00 PM",
+    "reason": "Capitalizes on the proven high-performing husband-wife relationship niche while shifting the emotional angle slightly toward deep overthinking and quiet loneliness."
   },
-  "experiment": "Testing if adding a subtle regret angle to high-performing marital dynamics increases comment interactions, which have historically been low.",
-  "updated_at": "2026-11-08T13:47:55.758291+00:00",
+  "experiment": "Testing whether shifting from direct advice about spouses to a melancholic reality of silent distance in marriage retains high viewer retention.",
+  "updated_at": "2026-11-08T18:56:42.292143+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-08T13:47:58.669978+00:00"
+  "generated_at": "2026-11-08T18:56:44.717968+00:00"
 }
