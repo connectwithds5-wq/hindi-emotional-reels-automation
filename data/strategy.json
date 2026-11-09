@@ -1,45 +1,45 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Analysis of historical performance indicates that deep, relatable relationship dynamics—specifically husband-wife and complex family bonds—significantly outperform general sad shayari or broad motivational content. The clear outlier winners focus on marriage realities, generating nearly 10x to 80x the views compared to low-performing abstract poetry.",
+  "overall_summary": "Analysis of the performance data reveals that relationship and marriage-centric dynamics significantly outperform standard poetic shayaris or generic emotional quotes. Videos focusing on husband-wife dynamics (e.g., 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' and 'पत्नी की ये बात हर पति को समझनी चाहिए') generated exceptionally high view counts (1,700+ views), whereas generic sad shayaris and low-effort variations underperformed.",
   "winning_patterns": [
     {
       "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,768 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,677 views) heavily outperform all other content.",
-      "action": "Double down on married life nuances, unspoken compromises, and everyday couple psychology."
+      "evidence": "Videos addressing marriage, such as 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' and 'पत्नी की ये बात हर पति को समझनी चाहिए', garnered ~1,700 views each, vastly outperforming all other topics.",
+      "action": "Double down on marriage and partner communication struggles as the primary core topic."
     },
     {
-      "pattern": "Direct, Grounded Life Observations",
-      "evidence": "Content touching on daily emotional weights like 'Har Baar Sorry Bolne Wala Galat Nahi Hota' (390 views) and 'Ek Mard Bhi Kabhi Ladka Tha' (297 views) perform moderately well compared to abstract text-on-screen poetry.",
-      "action": "Use specific, everyday domestic or emotional friction points instead of abstract philosophical lines."
+      "pattern": "Direct Relatable Questions as Hooks",
+      "evidence": "Titles framed as direct psychological or emotional questions about everyday relationship struggles capture higher audience interest and retention.",
+      "action": "Use direct, probing relationship questions in the opening line."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Sad Shayari & Heavy Poetic Language",
-      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' gained only 20 views.",
-      "action": "Avoid overly dramatic, poetic, or cryptic phrasing in titles and hooks; keep the language natural and conversational."
+      "pattern": "Generic Sad Shayaris / Poetic Generalities",
+      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received minimal views (20 views) compared to grounded relationship dilemmas.",
+      "action": "Avoid abstract poetic rants; anchor emotional weight in concrete domestic and relationship situations."
     },
     {
-      "pattern": "Niche/Low-Interest Family Segments (Low Sample)",
-      "evidence": "Sister emotional videos (e.g., jfmMztnam_A with 19 views) underperformed drastically compared to parental or marital bonds.",
-      "action": "Pivot away from niche sibling dynamics and concentrate primarily on marital, parental, and individual self-reflection themes."
+      "pattern": "Low Sample Variations without Narrative",
+      "evidence": "Duplicate or minor variations of family tropes (like sister videos) showed low baseline traction when lacking a specific relational tension.",
+      "action": "Ensure every script has a distinct situational tension rather than relying solely on the relationship label."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "निभाने की थकान (Exhaustion of holding a relationship together)",
-    "hook_style": "Conversational observation about daily silent compromises",
+    "emotion": "nostalgia and realization",
+    "hook_style": "direct psychological observation",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization that in long-term relationships, the one who always apologizes isn't weak—they are just terrified of losing the other person, until the day they stop caring.",
-    "opening_direction": "Start with a simple visual of someone silently making tea late at night while the other person scrolls on their phone without speaking.",
-    "twist_direction": "The emotional twist reveals that silence in a house isn't peace; it's two people giving up on arguing because they are tired.",
+    "concept": "A short exploration of how couples stop fighting after years of marriage, not because they are happy, but because they have stopped caring enough to argue.",
+    "opening_direction": "Start with the quietness in a room where two people haven't spoken an argument in days.",
+    "twist_direction": "Reveal that silence isn't peace; it's the slow fading away of love.",
     "duration_seconds": 35,
-    "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Matches the proven success pattern of relationship reality checks (like the husband-wife and sorry-bolne-wala top performers) targeting evening wind-down viewing habits."
+    "posting_window": "13:00 - 15:00 UTC",
+    "reason": "Matches the proven high-performing window and topic archetype of husband-wife relationship realities from previous top hits."
   },
-  "experiment": "Testing if shifting the relationship focus slightly toward emotional exhaustion and unspoken silent treatment retains the high retention seen in the husband-wife viral hits.",
-  "updated_at": "2026-11-09T02:52:50.036365+00:00",
+  "experiment": "Testing whether mid-day relationship deep-dives maintain the 1,500+ view threshold established by previous top-performing marriage shorts.",
+  "updated_at": "2026-11-09T11:57:16.421543+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-09T02:52:53.036514+00:00"
+  "generated_at": "2026-11-09T11:57:19.111216+00:00"
 }
