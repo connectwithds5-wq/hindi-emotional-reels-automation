@@ -1,40 +1,45 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Analysis of the performance data reveals clear outliers. Husband-wife relationship dynamics ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1770 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1677 views) significantly outperform standard poetry, general family videos, or abstract sadness shorts. Relatable domestic reality and everyday marital psychology drive maximum engagement.",
+  "overall_summary": "Data shows clear outliers in the husband-wife relationship and domestic bonding niche (e.g., Shaadi Ke Baad and Wife Emotional videos reaching 1.7k+ views), while generic sad shayari or random topics underperform. The channel performs best when targeting deep-seated, everyday relationship dynamics rather than broad dramatic poetry.",
   "winning_patterns": [
     {
       "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos focusing on post-marriage love and spousal understanding achieved nearly 1,700+ views, whereas standard poetry or siblings topics struggled below 300 views.",
-      "action": "Double down on mature relationship dilemmas, marital communication gaps, and modern couple psychology."
+      "evidence": "Videos about marriage dynamics ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?' and 'पत्नी की ये बात हर पति को समझनी चाहिए') generated 1770 and 1678 views respectively, significantly outperforming all other topics.",
+      "action": "Focus on marital compromises, unspoken husband-wife tensions, and evolving love post-marriage."
     },
     {
-      "pattern": "Direct Relatable Interrogative Hook",
-      "evidence": "Titles framing a common domestic question or realization ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?') spark immediate curiosity and higher click-throughs.",
-      "action": "Use conversational, thought-provoking questions about relationships as video hooks."
+      "pattern": "Grounded Family Moments",
+      "evidence": "Content touching on parents (Maa, Papa) performs steadily in the 150-300 view range ('माँ जब पूछती है', 'पापा कभी कहते नहीं').",
+      "action": "Maintain occasional foundational family emotional beats to anchor the channel's diary feel."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract or Generic Sad Shayari",
-      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 20 views due to high market saturation and lack of a specific grounded situation.",
-      "action": "Avoid overly dramatic, poetic, or generic heartbreak quotes; anchor every emotion in a tangible everyday situation."
+      "pattern": "Generic Sad Shayari Without Context",
+      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 21 views due to overly abstract and poetic phrasing.",
+      "action": "Avoid cryptic, overly literary poetic lines; use concrete, everyday scenarios instead."
+    },
+    {
+      "pattern": "Low-Sample/Untested Niche Shifts",
+      "evidence": "Isolated attempts at sister bonds ('बहन सिर्फ घर की रौनक होती है') scored poorly (19 views) when execution lacked a strong narrative anchor.",
+      "action": "Do not scatter topics too widely; double down on proven relationship core segments."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Bittersweet realization",
-    "hook_style": "Observational everyday moment",
+    "emotion": "निराशा और अपनापन (Quiet Longing & Realization)",
+    "hook_style": "Observation-based domestic reality check",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple sitting in complete silence after a minor argument, where the wife silently keeps his favorite tea cup on the table, proving love isn't always about saying sorry.",
-    "opening_direction": "Start with the heavy silence in a living room after a tiff, focusing on the ticking clock.",
-    "twist_direction": "Instead of an apology, a small familiar gesture of care breaks the ego, making viewers realize that true maturity in marriage is choosing peace over winning an argument.",
+    "concept": "A couple sitting in absolute silence after years of marriage, realizing they know each other's schedules better than each other's current feelings.",
+    "opening_direction": "Start with the quiet sound of turning pages or tea stirring, showing two cups on the table while the text highlights how daily routine replaces conversation.",
+    "twist_direction": "The husband finds an old unsent text draft in his phone from when they were newly married, and looks up to see his wife deleting a similar old message.",
     "duration_seconds": 35,
-    "posting_window": "01:00 PM - 03:00 PM",
-    "reason": "Matches the proven high-performing husband-wife relationship format while testing a nuanced emotional resolution instead of overt conflict."
+    "posting_window": "13:00 - 15:00 IST",
+    "reason": "Capitalizes on the highest-performing content cluster (Husband-Wife relationships) while keeping the emotional beat subtle and relatable to mature audiences."
   },
-  "experiment": "Testing if a subtle, non-verbal act of reconciliation in marital life performs as well as direct psychological questions.",
-  "updated_at": "2026-11-10T04:43:51.611815+00:00",
+  "experiment": "Testing if adding a subtle visual parallel (both partners doing the same thing secretly) increases average view duration compared to dialogue-heavy relationship shorts.",
+  "updated_at": "2026-11-10T13:40:54.289822+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-10T04:43:54.114013+00:00"
+  "generated_at": "2026-11-10T13:41:03.109541+00:00"
 }
