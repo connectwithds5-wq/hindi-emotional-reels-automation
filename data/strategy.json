@@ -1,45 +1,45 @@
 {
-  "confidence": "85%",
+  "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Analysis of historical performance indicates that deep relationship dynamics between couples (husband-wife) significantly outperform other topics, driving nearly 10x the views of general poetry or family-member specific content. Content focusing on subtle marital misunderstandings and psychological relationship realities captures maximum engagement.",
+  "overall_summary": "Analysis of historical performance shows that content addressing core relationship dynamics, specifically husband-wife (रिश्ते) and deep-seated emotional realizations, vastly outperforms general poetry or broad family member spotlights. Top performers like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (~1.77k views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (~1.67k views) indicate strong audience engagement with mature, everyday relationship realities.",
   "winning_patterns": [
     {
       "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,770 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,678 views) drastically outperformed all other content.",
-      "action": "Double down on marital dynamics, unexpressed expectations, and emotional distance after marriage."
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1770 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1678 views) achieved nearly 6x to 10x more views than general content.",
+      "action": "Focus upcoming core concepts on married life, unspoken expectations, and emotional distance in long-term relationships."
     },
     {
-      "pattern": "Conversational Interpersonal Hook",
-      "evidence": "'Har Baar Sorry Bolne Wala Galat Nahi Hota' (391 views) and relationship conflict resolution formats perform better than standalone shayari.",
-      "action": "Frame titles around common unspoken arguments or emotional burdens carried inside relationships."
+      "pattern": "Conversational Reality Hook",
+      "evidence": "Titles framed as a direct psychological question or realization (e.g., 'Har Baar Sorry Bolne Wala Galat Nahi Hota') capture steady mid-tier traffic (~391 views).",
+      "action": "Use introspective, questioning hooks that challenge common behavioral assumptions in relationships."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sad Shayari & Abstract Poetry",
-      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' gained only 21 views.",
-      "action": "Avoid overly dramatic, poetic, or abstract lines; ground the emotional pain in concrete daily life situations."
+      "pattern": "Generic Family Member Spotlights",
+      "evidence": "Duplicate uploads or overly broad sister/brother emotional videos like 'बहन सिर्फ घर की रौनक होती है' received very low traction (19 and 139 views).",
+      "action": "Reduce generalized standalone family tributes unless tied to a specific marital or complex psychological family dynamic."
     },
     {
-      "pattern": "Low-Performing Family Sub-niches",
-      "evidence": "Sister-focused emotional videos ('बहन सिर्फ घर की रौनक होती है') stalled at 19 to 139 views compared to parent or spouse dynamics.",
-      "action": "Limit sister or sibling content unless tied to a universal psychological friction point."
+      "pattern": "Pure Abstract Sad Shayari",
+      "evidence": "Abstract lines like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' generated negligible engagement (21 views).",
+      "action": "Ground poetry and emotional writing in concrete, recognizable everyday interactions rather than abstract philosophical pain."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "अधूरी मोहब्बत / Overthinking",
-    "hook_style": "Direct observation about silent treatment in modern couples",
+    "emotion": "अधूरी मोहब्बत / ठहराव",
+    "hook_style": "Realization-based direct question",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "Kitni ajeeb baat hai na, ladai khatam hone ke baad bhi baatein khatam nahi hotiin. Ek khamoshi ghar mein reh jaati hai.",
-    "opening_direction": "Start with the specific moment a couple stops arguing and goes to their respective corners of the room, scrolling phones in silence.",
-    "twist_direction": "Reveal that the silence isn't peace; it's two people silently rehearsing how to say sorry without losing their self-respect.",
+    "concept": "A couple sitting in absolute silence after years of marriage, realizing they know each other's entire routine but no longer know each other's inner thoughts.",
+    "opening_direction": "Start with the simple everyday domestic moment: two cups of tea getting cold on the table while both scroll on their phones in complete silence.",
+    "twist_direction": "The realization that shouting and arguments are not the death of a relationship; the quiet acceptance of becoming strangers under the same roof is.",
     "duration_seconds": 35,
-    "posting_window": "13:00 - 15:00 IST",
-    "reason": "Aligns with the proven high-performing husband-wife relationship niche, tapping into overthinking and ego in modern bonds."
+    "posting_window": "13:00 - 14:00 IST",
+    "reason": "Leverages the proven high-performing 'Husband-Wife Relationship' topic cluster while maintaining the emotional depth of 'रात के ख्याल' and 'रिश्ते'."
   },
-  "experiment": "Testing whether applying the winning husband-wife relationship framework to the 'overthinking' sub-topic yields higher retention than direct marital advice videos.",
-  "updated_at": "2026-11-11T16:27:39.562320+00:00",
+  "experiment": "Testing if shifting the husband-wife relationship angle from external expectations to internal emotional detachment increases comment engagement.",
+  "updated_at": "2026-11-11T22:55:54.624048+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-11T16:27:43.302423+00:00"
+  "generated_at": "2026-11-11T22:55:57.789989+00:00"
 }
