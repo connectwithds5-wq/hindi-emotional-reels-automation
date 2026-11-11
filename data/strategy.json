@@ -1,29 +1,40 @@
 {
-  "confidence": "45%",
+  "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Current leader: Shaadi Ke Baad Pyaar Kahan Chala Gaya? ❤️‍🩹 | Husband Wife Relationship | Hindi Shorts with 1770 views; sample size is still small, so this is directional.",
+  "overall_summary": "Analysis of historical performance shows clear outperformance in husband-wife relationship and domestic bonding topics (e.g., 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1,770 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1,678 views). Pure abstract sad poetry or niche familial videos underperformed, while relatable relationship realities drove high engagement and view counts.",
   "winning_patterns": [
     {
-      "pattern": "Highest observed views",
-      "evidence": "1770 views on current leader",
-      "action": "Test a related emotional situation without copying the wording."
+      "pattern": "Husband-Wife Relationship Realities",
+      "evidence": "Videos focusing on post-marriage dynamics ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?', 'पत्नी की ये बात हर पति को समझनी चाहिए') achieved the highest views on the channel (1,770 and 1,678 views respectively).",
+      "action": "Double down on core relationship dynamics, emotional gaps in marriage, and unspoken husband-wife understandings."
+    },
+    {
+      "pattern": "Direct, Question-Based Hooks",
+      "evidence": "Titles framed as direct relatable questions or provocative relationship thoughts triggered much higher click-throughs than third-person poetic lines.",
+      "action": "Use conversational, direct-address questions about everyday emotional struggles as video titles and hooks."
     }
   ],
-  "weak_patterns": [],
+  "weak_patterns": [
+    {
+      "pattern": "Abstract or Pure Sad Shayari",
+      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' (21 views) and sibling-specific videos like 'बहन सिर्फ घर की रौनक होती है' (19 views) received very low traction.",
+      "action": "Avoid heavy, abstract philosophical poetry and narrow niche topics; ground content in universally recognizable domestic and relational moments."
+    }
+  ],
   "next_video": {
-    "topic": "अधूरी मोहब्बत",
-    "emotion": "regret",
-    "hook_style": "curiosity",
+    "topic": "रिश्ते",
+    "emotion": "Melancholy and Nostalgia",
+    "hook_style": "Direct observation about unsaid words in a long-term relationship",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A familiar chat or notification reveals that the relationship has quietly changed.",
-    "opening_direction": "Start with one concrete digital-life detail.",
-    "twist_direction": "Reveal the emotional meaning in the final line.",
-    "duration_seconds": 10,
-    "posting_window": "7:00 PM IST test",
-    "reason": "Controlled baseline while more performance data accumulates."
+    "concept": "A realization by a partner that arguments have stopped, not because things got better, but because they have stopped caring enough to fight.",
+    "opening_direction": "जब घर में अचानक से लंबी खामोशी छा जाए, समझ लेना...",
+    "twist_direction": "लड़ाई खत्म होने का मतलब प्यार वापस आना नहीं, बल्कि उम्मीद का हमेशा के लिए मर जाना होता है।",
+    "duration_seconds": 35,
+    "posting_window": "07:00 PM - 09:00 PM",
+    "reason": "Aligns with the proven high-performing husband-wife and relationship topic cluster while testing a deeper emotional twist on routine silence."
   },
-  "experiment": "Test a fresh hook around a concrete digital-life moment.",
-  "updated_at": "2026-11-10T20:57:12.740607+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-11-10T20:57:12.740624+00:00"
+  "experiment": "Testing if deep emotional detachment themes perform as well as curiosity-driven relationship questions within the winning relationship niche.",
+  "updated_at": "2026-11-11T01:22:18.319727+00:00",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-11-11T01:22:21.081216+00:00"
 }
