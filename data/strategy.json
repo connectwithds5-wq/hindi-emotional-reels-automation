@@ -1,40 +1,45 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Analysis of historical performance shows clear outperformance in husband-wife relationship and domestic bonding topics (e.g., 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1,770 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1,678 views). Pure abstract sad poetry or niche familial videos underperformed, while relatable relationship realities drove high engagement and view counts.",
+  "overall_summary": "Data shows clear outlier performance for husband-wife/marital relationship dynamics (1,770 and 1,678 views) compared to generic shayari or other family topics which struggled or averaged below 400 views. Emotional real-life relationship dilemmas heavily outperform poetry.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos focusing on post-marriage dynamics ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?', 'पत्नी की ये बात हर पति को समझनी चाहिए') achieved the highest views on the channel (1,770 and 1,678 views respectively).",
-      "action": "Double down on core relationship dynamics, emotional gaps in marriage, and unspoken husband-wife understandings."
+      "pattern": "Husband-Wife Relationship Dilemmas",
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,770 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,678 views) generated massive relative engagement.",
+      "action": "Double down on marriage, unspoken marital expectations, and everyday relationship friction."
     },
     {
-      "pattern": "Direct, Question-Based Hooks",
-      "evidence": "Titles framed as direct relatable questions or provocative relationship thoughts triggered much higher click-throughs than third-person poetic lines.",
-      "action": "Use conversational, direct-address questions about everyday emotional struggles as video titles and hooks."
+      "pattern": "Direct Relatable Addressing",
+      "evidence": "Titles framing a common internal debate or hidden realization perform significantly better than third-person sad poetry.",
+      "action": "Use second-person ('तुम', 'पति-पत्नी') framing in titles."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract or Pure Sad Shayari",
-      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' (21 views) and sibling-specific videos like 'बहन सिर्फ घर की रौनक होती है' (19 views) received very low traction.",
-      "action": "Avoid heavy, abstract philosophical poetry and narrow niche topics; ground content in universally recognizable domestic and relational moments."
+      "pattern": "Generic Sad Shayari / Heavy Poetry",
+      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 21 views.",
+      "action": "Avoid abstract, overly dramatic poetry; ground the content in everyday realistic observations."
+    },
+    {
+      "pattern": "Low-performing collateral family segments",
+      "evidence": "Certain sister/brother emotional shorts underperformed relative to the core relationship hits.",
+      "action": "Limit pure family nostalgia unless tied directly to modern domestic friction."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Melancholy and Nostalgia",
-    "hook_style": "Direct observation about unsaid words in a long-term relationship",
+    "emotion": "Melancholy & Realization",
+    "hook_style": "Observation-based question about unspoken distance in long-term relationships",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization by a partner that arguments have stopped, not because things got better, but because they have stopped caring enough to fight.",
-    "opening_direction": "जब घर में अचानक से लंबी खामोशी छा जाए, समझ लेना...",
-    "twist_direction": "लड़ाई खत्म होने का मतलब प्यार वापस आना नहीं, बल्कि उम्मीद का हमेशा के लिए मर जाना होता है।",
+    "concept": "A couple sitting in absolute silence in the same room, realizing they know everything about each other's schedules, but nothing about each other's current feelings.",
+    "opening_direction": "जब साथ रहते-रहते बातें खत्म होने लगें और सिर्फ दूरियां बच जाएं...",
+    "twist_direction": "अजनबी वो नहीं होते जिन्हें हम जानते नहीं, अजनबी वो बन जाते हैं जिनके साथ पूरी जिंदगी काटनी हो।",
     "duration_seconds": 35,
     "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Aligns with the proven high-performing husband-wife and relationship topic cluster while testing a deeper emotional twist on routine silence."
+    "reason": "Matches the proven high-performing husband-wife / relationship dynamic while maintaining emotional depth during evening peak hours."
   },
-  "experiment": "Testing if deep emotional detachment themes perform as well as curiosity-driven relationship questions within the winning relationship niche.",
-  "updated_at": "2026-11-11T01:22:18.319727+00:00",
+  "experiment": "Testing if narrowing down strictly to domestic relationship silence/distance can replicate the 1,500+ view outlier success seen in previous couple-centric shorts.",
+  "updated_at": "2026-11-11T08:01:55.941125+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-11T01:22:21.081216+00:00"
+  "generated_at": "2026-11-11T08:01:58.550972+00:00"
 }
