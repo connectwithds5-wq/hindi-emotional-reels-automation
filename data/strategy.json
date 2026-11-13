@@ -1,45 +1,45 @@
 {
-  "confidence": "75%",
+  "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "The channel shows a clear performance gap. Relationship-based content (specifically husband-wife dynamics) significantly outperforms family-member tributes or generic motivational quotes. The audience engages most with 'relatable relationship reality' that touches on unspoken friction or emotional distance.",
+  "overall_summary": "Analysis of historical performance indicates that deep husband-wife relationship themes and family emotional nuances significantly outperform generic poetry or standard sad shayari. Content focusing on married life dynamics (e.g., 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' and 'पत्नी की ये बात हर पति को समझनी चाहिए') generated the highest views (1770 and 1678 respectively). Meanwhile, overly broad sad poetry received minimal traction, showing that viewers prefer relatable real-life relationship friction over abstract melancholy.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Dynamics",
-      "evidence": "Top two videos (1770 and 1678 views) focus on marriage/spousal understanding.",
-      "action": "Prioritize scripts centered on marital communication, unspoken expectations, and emotional drift."
+      "pattern": "Husband-Wife Relationship Realities",
+      "evidence": "Videos addressing marriage dynamics like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,770 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,678 views) generated 5x-10x more views than average channel output.",
+      "action": "Focus upcoming primary content on everyday marital compromises, unspoken husband-wife emotional disconnects, and post-marriage realities."
     },
     {
-      "pattern": "Direct Address Hooks",
-      "evidence": "Titles starting with questions or direct statements (e.g., 'Shaadi Ke Baad...') drive higher CTR.",
-      "action": "Use conversational, provocative questions in the first 2 seconds."
+      "pattern": "Grounded Family Moments",
+      "evidence": "Specific family member references like 'माँ जब पूछती है खाना खाया' (250 views) and 'पापा कभी कहते नहीं' (142 views) performed better than generic sad shayaris.",
+      "action": "Maintain relatable family interaction hooks that immediately ground the viewer in a familiar household scenario."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Family Tributes",
-      "evidence": "Videos about sisters, brothers, and parents show consistently lower engagement (19-142 views).",
-      "action": "Shift focus away from generic 'tributes' toward specific, conflict-driven family moments."
+      "pattern": "Abstract or High-brow Sad Shayari",
+      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 21 views, failing to capture audience attention.",
+      "action": "Avoid overly dramatic, poetic, or philosophical statements as hooks. Stick to grounded, observational human behavior."
     },
     {
-      "pattern": "Abstract/Philosophical Shayari",
-      "evidence": "Videos like 'Jis din sach likhunga' (21 views) perform poorly compared to situational storytelling.",
-      "action": "Stop using abstract poetry; replace with grounded, real-life scenarios."
+      "pattern": "Unfocused Single-Word Emotional Tags",
+      "evidence": "Videos with vague titles and minimal contextual hooks (e.g., sister emotional video getting 19 views) underperformed.",
+      "action": "Always pair emotional topics with a specific, highly relatable conversational question or realization."
     }
   ],
   "next_video": {
-    "topic": "रिश्ते (Husband-Wife)",
-    "emotion": "Melancholy/Reflection",
-    "hook_style": "Direct question about a common silent habit",
+    "topic": "रिश्ते",
+    "emotion": "निराशा और अपनापन (Disappointment & Reconnection)",
+    "hook_style": "Observational everyday behavior question about silence between partners",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "The silence after a fight where both are waiting for the other to speak first.",
-    "opening_direction": "Start with the sound of a ticking clock or a quiet room, followed by: 'Kya aapne kabhi notice kiya hai, ladai ke baad ki khamoshi mein kitna shor hota hai?'",
-    "twist_direction": "Reveal that the silence isn't about anger, but about the fear that speaking first will make you lose the argument or the person.",
+    "concept": "A short look into how a husband and wife sit in absolute silence after a minor argument, pretending to scroll through their phones, but both waiting for the other to drop the ego.",
+    "opening_direction": "Start with the sound of tea being poured in silence and the text on screen: 'गुस्सा इस बात का नहीं था कि बात बंद है…'",
+    "twist_direction": "...असल दर्द तब हुआ जब रात को फोन की लाइट जली और दोनों ने एक-दूसरे को नहीं, अपना पुराना chat open किया हुआ था।",
     "duration_seconds": 45,
-    "posting_window": "07:00 AM - 08:00 AM IST",
-    "reason": "Aligns with the highest-performing content category while maintaining the 'Dil Ki Diary' emotional brand."
+    "posting_window": "07:00 PM - 09:00 PM",
+    "reason": "Leverages the proven high-performing husband-wife relationship niche while keeping the narrative tightly focused on a daily, high-relatability emotional nuance."
   },
-  "experiment": "Testing if 'Conflict-based' relationship content performs better than 'General Advice' relationship content.",
-  "updated_at": "2026-11-13T17:57:46.629784+00:00",
-  "model_used": "gemini-3.1-flash-lite",
-  "generated_at": "2026-11-13T17:57:54.025725+00:00"
+  "experiment": "Testing if a subtle, bittersweet reconciliation angle performs better than an outright sad or dramatic breakup angle within the husband-wife theme.",
+  "updated_at": "2026-11-13T23:46:08.828864+00:00",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-11-13T23:46:11.870572+00:00"
 }
