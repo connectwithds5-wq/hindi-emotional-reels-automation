@@ -1,35 +1,45 @@
 {
   "confidence": "75%",
   "data_points": 14,
-  "overall_summary": "The channel shows a clear preference for 'Husband-Wife' relationship dynamics over generic family or motivational content. High-performing videos (1770 and 1678 views) focus on marital empathy and unspoken relationship tensions, whereas generic family tributes or abstract shayari perform significantly worse.",
+  "overall_summary": "The channel shows a clear performance gap. Relationship-based content (specifically husband-wife dynamics) significantly outperforms family-member tributes or generic motivational quotes. The audience engages most with 'relatable relationship reality' that touches on unspoken friction or emotional distance.",
   "winning_patterns": [
     {
-      "pattern": "Marital Relationship Dynamics",
-      "evidence": "Top two videos (my5mP9feI7s, or5gtaBpRVY) focus on husband-wife communication and understanding, generating 10x more views than other topics.",
-      "action": "Double down on 'Husband-Wife' emotional reality content."
+      "pattern": "Husband-Wife Relationship Dynamics",
+      "evidence": "Top two videos (1770 and 1678 views) focus on marriage/spousal understanding.",
+      "action": "Prioritize scripts centered on marital communication, unspoken expectations, and emotional drift."
+    },
+    {
+      "pattern": "Direct Address Hooks",
+      "evidence": "Titles starting with questions or direct statements (e.g., 'Shaadi Ke Baad...') drive higher CTR.",
+      "action": "Use conversational, provocative questions in the first 2 seconds."
     }
   ],
   "weak_patterns": [
     {
       "pattern": "Generic Family Tributes",
-      "evidence": "Videos about sisters and general motivational quotes (jfmMztnam_A, YdWh4cDOE64) have very low engagement.",
-      "action": "Pivot away from generic family tributes unless they involve a specific, high-tension conflict."
+      "evidence": "Videos about sisters, brothers, and parents show consistently lower engagement (19-142 views).",
+      "action": "Shift focus away from generic 'tributes' toward specific, conflict-driven family moments."
+    },
+    {
+      "pattern": "Abstract/Philosophical Shayari",
+      "evidence": "Videos like 'Jis din sach likhunga' (21 views) perform poorly compared to situational storytelling.",
+      "action": "Stop using abstract poetry; replace with grounded, real-life scenarios."
     }
   ],
   "next_video": {
     "topic": "रिश्ते (Husband-Wife)",
-    "emotion": "Empathy/Regret",
-    "hook_style": "Direct address to a common marital habit",
+    "emotion": "Melancholy/Reflection",
+    "hook_style": "Direct question about a common silent habit",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "The silence after a fight: Why the person who says sorry first is actually the one who values the relationship more.",
-    "opening_direction": "Start with the visual of a phone screen with an unread message or a quiet dinner table.",
-    "twist_direction": "Reveal that the silence isn't about being right, but about the fear of losing the person forever.",
+    "concept": "The silence after a fight where both are waiting for the other to speak first.",
+    "opening_direction": "Start with the sound of a ticking clock or a quiet room, followed by: 'Kya aapne kabhi notice kiya hai, ladai ke baad ki khamoshi mein kitna shor hota hai?'",
+    "twist_direction": "Reveal that the silence isn't about anger, but about the fear that speaking first will make you lose the argument or the person.",
     "duration_seconds": 45,
     "posting_window": "07:00 AM - 08:00 AM IST",
-    "reason": "Historical data shows morning uploads (e.g., 07:28 AM) align with the highest performing content."
+    "reason": "Aligns with the highest-performing content category while maintaining the 'Dil Ki Diary' emotional brand."
   },
-  "experiment": "Testing if 'Relationship Conflict Resolution' hooks perform better than 'General Relationship Advice' hooks.",
-  "updated_at": "2026-11-13T09:51:18.307256+00:00",
+  "experiment": "Testing if 'Conflict-based' relationship content performs better than 'General Advice' relationship content.",
+  "updated_at": "2026-11-13T17:57:46.629784+00:00",
   "model_used": "gemini-3.1-flash-lite",
-  "generated_at": "2026-11-13T09:51:21.286329+00:00"
+  "generated_at": "2026-11-13T17:57:54.025725+00:00"
 }
