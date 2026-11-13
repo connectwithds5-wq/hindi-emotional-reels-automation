@@ -1,40 +1,35 @@
 {
-  "confidence": "70%",
+  "confidence": "75%",
   "data_points": 14,
-  "overall_summary": "Analysis of historical performance shows clear audience preference for relationship dynamics, specifically husband-wife realities and family emotional bonds (highest views hitting 1.7k+), whereas abstract poetry or generic sad shayari significantly underperforms.",
+  "overall_summary": "The channel shows a clear preference for 'Husband-Wife' relationship dynamics over generic family or motivational content. High-performing videos (1770 and 1678 views) focus on marital empathy and unspoken relationship tensions, whereas generic family tributes or abstract shayari perform significantly worse.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos about marriage and partners ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1,770 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1,678 views) vastly outperform all other content.",
-      "action": "Double down on married life nuances, communication gaps, and unspoken domestic love/friction."
-    },
-    {
-      "pattern": "Direct Relatable Addressing",
-      "evidence": "Titles framing everyday relationship truths or calls to action ('Har Baar Sorry Bolne Wala Galat Nahi Hota' - 391 views, 'आज किसी अपने को Call कर लेना' - 288 views) yield better engagement than third-person sad poetry.",
-      "action": "Keep hooks grounded in common psychological or interpersonal truths experienced by couples."
+      "pattern": "Marital Relationship Dynamics",
+      "evidence": "Top two videos (my5mP9feI7s, or5gtaBpRVY) focus on husband-wife communication and understanding, generating 10x more views than other topics.",
+      "action": "Double down on 'Husband-Wife' emotional reality content."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Sad Shayari",
-      "evidence": "Video 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' generated only 21 views, showing low interest in overly dramatic, non-specific poetic rants.",
-      "action": "Avoid generic dark/sad poetry and anchor text strictly to concrete, daily human scenarios."
+      "pattern": "Generic Family Tributes",
+      "evidence": "Videos about sisters and general motivational quotes (jfmMztnam_A, YdWh4cDOE64) have very low engagement.",
+      "action": "Pivot away from generic family tributes unless they involve a specific, high-tension conflict."
     }
   ],
   "next_video": {
-    "topic": "रिश्ते",
-    "emotion": "guilt and unspoken care",
-    "hook_style": "situational realization",
+    "topic": "रिश्ते (Husband-Wife)",
+    "emotion": "Empathy/Regret",
+    "hook_style": "Direct address to a common marital habit",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short look at how after years of marriage, couples stop fighting and start ignoring each other, mistaking silence for peace.",
-    "opening_direction": "Start with a quiet kitchen scene where a husband and wife sit in total silence, scrolling phones instead of talking.",
-    "twist_direction": "Reveal that the silence isn't peace, it's just two people who have given up trying to explain themselves to one another.",
-    "duration_seconds": 10,
-    "posting_window": "07:00 AM - 09:00 AM",
-    "reason": "Aligns with top-performing relationship and marital content categories observed in previous hits while utilizing a sharp, relatable domestic observation."
+    "concept": "The silence after a fight: Why the person who says sorry first is actually the one who values the relationship more.",
+    "opening_direction": "Start with the visual of a phone screen with an unread message or a quiet dinner table.",
+    "twist_direction": "Reveal that the silence isn't about being right, but about the fear of losing the person forever.",
+    "duration_seconds": 45,
+    "posting_window": "07:00 AM - 08:00 AM IST",
+    "reason": "Historical data shows morning uploads (e.g., 07:28 AM) align with the highest performing content."
   },
-  "experiment": "Testing if deep emotional silence between couples drives better retention than explicit verbal arguments.",
-  "updated_at": "2026-11-13T02:01:50.461699+00:00",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-13T02:01:52.793367+00:00"
+  "experiment": "Testing if 'Relationship Conflict Resolution' hooks perform better than 'General Relationship Advice' hooks.",
+  "updated_at": "2026-11-13T09:51:18.307256+00:00",
+  "model_used": "gemini-3.1-flash-lite",
+  "generated_at": "2026-11-13T09:51:21.286329+00:00"
 }
