@@ -1,40 +1,40 @@
 {
-  "confidence": "65%",
+  "confidence": "70%",
   "data_points": 14,
-  "overall_summary": "Analysis of historical performance shows that content centered around husband-wife relationship dynamics ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1,770 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1,678 views) significantly outperforms all other topics like general shayari, father/mother love, or broad relationship advice. General emotional quotes and poetry underperform due to lack of specific narrative tension.",
+  "overall_summary": "Analysis of historical performance shows clear audience preference for relationship dynamics, specifically husband-wife realities and family emotional bonds (highest views hitting 1.7k+), whereas abstract poetry or generic sad shayari significantly underperforms.",
   "winning_patterns": [
     {
       "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos focusing on married life dynamics achieved the highest views (1,770 and 1,678 views), massively outperforming family and general emotional videos.",
-      "action": "Double down on husband-wife psychological and emotional conflict topics."
+      "evidence": "Videos about marriage and partners ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1,770 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1,678 views) vastly outperform all other content.",
+      "action": "Double down on married life nuances, communication gaps, and unspoken domestic love/friction."
     },
     {
-      "pattern": "Direct, Question-Based Titles",
-      "evidence": "Titles framing a relatable dilemma or question ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?') drive higher curiosity and clicks.",
-      "action": "Use conversational, thought-provoking questions as video titles."
+      "pattern": "Direct Relatable Addressing",
+      "evidence": "Titles framing everyday relationship truths or calls to action ('Har Baar Sorry Bolne Wala Galat Nahi Hota' - 391 views, 'आज किसी अपने को Call कर लेना' - 288 views) yield better engagement than third-person sad poetry.",
+      "action": "Keep hooks grounded in common psychological or interpersonal truths experienced by couples."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sad Shayari / Abstract Poetry",
-      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 21 views.",
-      "action": "Avoid abstract poetic rants; anchor emotional weight in concrete, everyday scenarios."
+      "pattern": "Abstract Sad Shayari",
+      "evidence": "Video 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' generated only 21 views, showing low interest in overly dramatic, non-specific poetic rants.",
+      "action": "Avoid generic dark/sad poetry and anchor text strictly to concrete, daily human scenarios."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "निराशा और अपनापन (Disappointment & Lost Connection)",
-    "hook_style": "Observation-based question about unspoken distance between couples",
+    "emotion": "guilt and unspoken care",
+    "hook_style": "situational realization",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A wife quietly notices her husband's phone habits changing at night, realizing they talk about everything except each other's feelings.",
-    "opening_direction": "Start with the simple everyday action: raat ko sone se pehle phone scroll karna aur bina kuch kahe so jaana.",
-    "twist_direction": "The realization that living in the same room doesn't mean sharing the same life anymore.",
-    "duration_seconds": 35,
-    "posting_window": "13:00 - 15:00 IST",
-    "reason": "Leverages the proven high-performing husband-wife relationship niche while keeping the narrative grounded in a daily routine relatable moment."
+    "concept": "A short look at how after years of marriage, couples stop fighting and start ignoring each other, mistaking silence for peace.",
+    "opening_direction": "Start with a quiet kitchen scene where a husband and wife sit in total silence, scrolling phones instead of talking.",
+    "twist_direction": "Reveal that the silence isn't peace, it's just two people who have given up trying to explain themselves to one another.",
+    "duration_seconds": 10,
+    "posting_window": "07:00 AM - 09:00 AM",
+    "reason": "Aligns with top-performing relationship and marital content categories observed in previous hits while utilizing a sharp, relatable domestic observation."
   },
-  "experiment": "Testing if shifting the husband-wife angle from marital love to silent emotional distance retains the high view counts of previous breakout hits.",
-  "updated_at": "2026-11-12T20:59:56.176263+00:00",
+  "experiment": "Testing if deep emotional silence between couples drives better retention than explicit verbal arguments.",
+  "updated_at": "2026-11-13T02:01:50.461699+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-12T20:59:59.352579+00:00"
+  "generated_at": "2026-11-13T02:01:52.793367+00:00"
 }
