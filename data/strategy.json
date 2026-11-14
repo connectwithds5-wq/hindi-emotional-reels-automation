@@ -1,45 +1,45 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Analysis of historical performance indicates that deep husband-wife relationship themes and family emotional nuances significantly outperform generic poetry or standard sad shayari. Content focusing on married life dynamics (e.g., 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' and 'पत्नी की ये बात हर पति को समझनी चाहिए') generated the highest views (1770 and 1678 respectively). Meanwhile, overly broad sad poetry received minimal traction, showing that viewers prefer relatable real-life relationship friction over abstract melancholy.",
+  "overall_summary": "Analysis of the historical performance indicates that deep relationship dynamics, specifically husband-wife bonding and marital realities, significantly outperform generic poetry, sad quotes, or family member tributes by nearly 6x to 10x in views.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos addressing marriage dynamics like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,770 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,678 views) generated 5x-10x more views than average channel output.",
-      "action": "Focus upcoming primary content on everyday marital compromises, unspoken husband-wife emotional disconnects, and post-marriage realities."
+      "pattern": "Husband-Wife Relationship Dynamics",
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,770 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,678 views) achieved the highest engagement and view counts by a wide margin.",
+      "action": "Prioritize content focusing on modern marriage realities, communication gaps between partners, and subtle emotional shifts in relationships."
     },
     {
-      "pattern": "Grounded Family Moments",
-      "evidence": "Specific family member references like 'माँ जब पूछती है खाना खाया' (250 views) and 'पापा कभी कहते नहीं' (142 views) performed better than generic sad shayaris.",
-      "action": "Maintain relatable family interaction hooks that immediately ground the viewer in a familiar household scenario."
+      "pattern": "Relatable Real-life Argument Realities",
+      "evidence": "'Har Baar Sorry Bolne Wala Galat Nahi Hota' performed well with 392 views compared to generic poetry like 'जिस दिन सच लिखूंगा' which only got 21 views.",
+      "action": "Frame hooks around everyday relationship compromises and unspoken emotional burdens rather than abstract sad thoughts."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract or High-brow Sad Shayari",
-      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 21 views, failing to capture audience attention.",
-      "action": "Avoid overly dramatic, poetic, or philosophical statements as hooks. Stick to grounded, observational human behavior."
+      "pattern": "Abstract Sad Shayari & Heavy Wording",
+      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' gained only 21 views, showing low initial click-through and swipe-away behavior.",
+      "action": "Avoid overly dramatic, poetic, or cryptic phrasing in titles and hooks; keep the language conversational and rooted in everyday observation."
     },
     {
-      "pattern": "Unfocused Single-Word Emotional Tags",
-      "evidence": "Videos with vague titles and minimal contextual hooks (e.g., sister emotional video getting 19 views) underperformed.",
-      "action": "Always pair emotional topics with a specific, highly relatable conversational question or realization."
+      "pattern": "Low-sample Family Tributes",
+      "evidence": "Duplicate sister-focused videos ('बहन सिर्फ घर की रौनक होती है') stalled at 19 and 139 views.",
+      "action": "Limit standalone family tribute repetitions unless tied to a unique conflict or psychological insight."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "निराशा और अपनापन (Disappointment & Reconnection)",
-    "hook_style": "Observational everyday behavior question about silence between partners",
+    "emotion": "Melancholic realization and emotional maturity",
+    "hook_style": "Observation-based reality check about post-work silence between couples",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short look into how a husband and wife sit in absolute silence after a minor argument, pretending to scroll through their phones, but both waiting for the other to drop the ego.",
-    "opening_direction": "Start with the sound of tea being poured in silence and the text on screen: 'गुस्सा इस बात का नहीं था कि बात बंद है…'",
-    "twist_direction": "...असल दर्द तब हुआ जब रात को फोन की लाइट जली और दोनों ने एक-दूसरे को नहीं, अपना पुराना chat open किया हुआ था।",
-    "duration_seconds": 45,
-    "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Leverages the proven high-performing husband-wife relationship niche while keeping the narrative tightly focused on a daily, high-relatability emotional nuance."
+    "concept": "A couple sitting in complete silence after coming home from work, where the wife waits for him to ask about her day, but he is lost in his own exhaustion—highlighting how emotional distance creeps in silently without any major fights.",
+    "opening_direction": "Start with the sound of keys dropping on the table and heavy silence in a dimly lit living room.",
+    "twist_direction": "The realization that a quiet house doesn't mean a peaceful relationship; sometimes, silence is just two strangers living under one roof.",
+    "duration_seconds": 35,
+    "posting_window": "13:00 - 15:00 IST",
+    "reason": "Aligns with the proven high-performing husband-wife relationship topic while testing a subtle, non-cliché emotional scenario about domestic emotional fatigue."
   },
-  "experiment": "Testing if a subtle, bittersweet reconciliation angle performs better than an outright sad or dramatic breakup angle within the husband-wife theme.",
-  "updated_at": "2026-11-13T23:46:08.828864+00:00",
+  "experiment": "Testing if a subtle domestic emotional fatigue scenario can match the massive view counts of direct relationship question formats (like 'Shaadi Ke Baad...').",
+  "updated_at": "2026-11-14T06:52:29.285042+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-13T23:46:11.870572+00:00"
+  "generated_at": "2026-11-14T06:52:31.947003+00:00"
 }
