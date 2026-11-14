@@ -1,40 +1,45 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Analysis of the performance data reveals clear outliers in husband-wife relationship topics ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1770 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1679 views), significantly outperforming general shayari or family relationship videos. General emotional and daily life reflections perform moderately, while overly poetic or niche shayari struggles.",
+  "overall_summary": "Analysis of historical performance shows clear audience preference for mature relationship dynamics, specifically husband-wife bonding and marital complexities, which generated breakout views (1,600+ to 1,700+ views). General sad shayari and family content (like siblings) underperformed significantly, indicating the core audience resonates more with romantic relationship reality than generic family bonds.",
   "winning_patterns": [
     {
       "pattern": "Husband-Wife Relationship Dilemmas",
-      "evidence": "Videos focusing on post-marriage realities and spousal understanding achieved nearly 1,700+ views, compared to an average of under 300 for others.",
-      "action": "Double down on husband-wife emotional dynamics and unspoken marital friction."
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,770 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,679 views) vastly outperformed all other content.",
+      "action": "Double down on married life realities, unsaid expectations, and emotional distance in modern relationships."
     },
     {
-      "pattern": "Direct Question Hooks",
-      "evidence": "Titles framed as a direct question about relationship realities ('Shaadi Ke Baad...', 'Har Baar Sorry Bolne Wala...') generated higher engagement.",
-      "action": "Use curious, relatable conversational questions as titles and hooks."
+      "pattern": "Direct Conversational Relationship Hooks",
+      "evidence": "Titles framing a relatable psychological reality of relationships ('Har Baar Sorry Bolne Wala Galat Nahi Hota') secure steady mid-tier views (~392 views).",
+      "action": "Use conversational prompts that challenge everyday relationship assumptions."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Sad Shayari",
-      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received very low traction (21 views).",
-      "action": "Avoid heavy, abstract, or overly bitter poetic lines; stay grounded in everyday observable scenarios."
+      "pattern": "General Sister/Sibling Content",
+      "evidence": "Videos focusing on sisters ('बहन सिर्फ घर की रौनक होती है') stalled at 19 and 139 views.",
+      "action": "Deprioritize standalone sibling emotional content and pivot focus entirely to romantic relationships and self-reflection."
+    },
+    {
+      "pattern": "Generic Sad Shayari / Abstract Poetry",
+      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 21 views.",
+      "action": "Avoid overly dramatic, poetic, or abstract lines in favor of grounded, everyday relationship observations."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "nostalgia and realization",
-    "hook_style": "direct observation about married life silence",
+    "emotion": "निराशा और अपनापन (Nirasha aur Apnaapan)",
+    "hook_style": "Real-life observation about unspoken distance between partners",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple sitting in complete silence after an argument, realizing that the absence of fights is actually worse than the fights themselves.",
-    "opening_direction": "जब लड़ाई होना बंद हो जाए, समझ लेना रिश्ता कमजोर नहीं, थक गया है।",
-    "twist_direction": "खुशी इस बात की नहीं कि बहस खत्म हो गई, दुख इस बात का है कि अब एक-दूसरे को मनाना भी जरूरी नहीं लगता।",
+    "concept": "A short piece on how late-night online scrolling has replaced late-night conversations between married couples.",
+    "opening_direction": "Start with the simple habit of checking phones right before turning off the bedside lamp.",
+    "twist_direction": "Reveal that the silence between them isn't due to lack of things to say, but because they are both searching for comfort in a screen instead of each other.",
     "duration_seconds": 35,
     "posting_window": "13:00 - 15:00 IST",
-    "reason": "Matches the proven high-performing husband-wife relationship theme while utilizing a relatable emotional twist about silent growing apart."
+    "reason": "Matches the proven high-performing husband-wife relationship category with a deeply relatable modern marital habit."
   },
-  "experiment": "Testing if shifting the husband-wife dynamic from practical advice to silent emotional distancing maintains the high view counts seen in previous relationship shorts.",
-  "updated_at": "2026-11-14T14:24:25.032924+00:00",
+  "experiment": "Testing if shifting the husband-wife relationship angle toward modern digital isolation performs as well as direct emotional communication tropes.",
+  "updated_at": "2026-11-14T19:22:44.452780+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-14T14:24:27.476469+00:00"
+  "generated_at": "2026-11-14T19:22:47.455359+00:00"
 }
