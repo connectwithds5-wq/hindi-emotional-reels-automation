@@ -1,45 +1,35 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Analysis of historical performance shows clear audience preference for mature relationship dynamics, specifically husband-wife bonding and marital complexities, which generated breakout views (1,600+ to 1,700+ views). General sad shayari and family content (like siblings) underperformed significantly, indicating the core audience resonates more with romantic relationship reality than generic family bonds.",
+  "overall_summary": "Analysis of the performance data reveals a clear outlier preference for husband-wife relationship dynamics ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?' at 1.77k views and 'पत्नी की ये बात हर पति को समझनी चाहिए' at 1.68k views), which significantly outperformed general family or standalone sad shayari videos.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Dilemmas",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,770 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,679 views) vastly outperformed all other content.",
-      "action": "Double down on married life realities, unsaid expectations, and emotional distance in modern relationships."
-    },
-    {
-      "pattern": "Direct Conversational Relationship Hooks",
-      "evidence": "Titles framing a relatable psychological reality of relationships ('Har Baar Sorry Bolne Wala Galat Nahi Hota') secure steady mid-tier views (~392 views).",
-      "action": "Use conversational prompts that challenge everyday relationship assumptions."
+      "pattern": "Husband-Wife Relationship Realities",
+      "evidence": "Videos focusing on post-marriage dynamics and spousal understanding achieved nearly 10x more views (1.7k+) compared to general relationship videos (150-300 views).",
+      "action": "Produce more content centered around married life friction, unsaid expectations, and mutual understanding."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "General Sister/Sibling Content",
-      "evidence": "Videos focusing on sisters ('बहन सिर्फ घर की रौनक होती है') stalled at 19 and 139 views.",
-      "action": "Deprioritize standalone sibling emotional content and pivot focus entirely to romantic relationships and self-reflection."
-    },
-    {
-      "pattern": "Generic Sad Shayari / Abstract Poetry",
-      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 21 views.",
-      "action": "Avoid overly dramatic, poetic, or abstract lines in favor of grounded, everyday relationship observations."
+      "pattern": "Generic Sad Shayari & Isolated One-Liners",
+      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 21 views due to lack of an immediate situational hook.",
+      "action": "Avoid abstract poetic rants; ground every video in a specific everyday household or relationship scenario."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "निराशा और अपनापन (Nirasha aur Apnaapan)",
-    "hook_style": "Real-life observation about unspoken distance between partners",
+    "emotion": "Bittersweet realization",
+    "hook_style": "Observation about post-work silence between couples",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short piece on how late-night online scrolling has replaced late-night conversations between married couples.",
-    "opening_direction": "Start with the simple habit of checking phones right before turning off the bedside lamp.",
-    "twist_direction": "Reveal that the silence between them isn't due to lack of things to say, but because they are both searching for comfort in a screen instead of each other.",
+    "concept": "A husband comes home exhausted, notices his wife didn't ask how his day was, and feels ignored—until he sees the cold tea she reheated three times waiting for him.",
+    "opening_direction": "Start with the quiet sound of keys dropping on the table and an unsmiling face.",
+    "twist_direction": "Realizing that silence isn't lack of love, but the exhaustion of two people silently fighting life's battles together.",
     "duration_seconds": 35,
     "posting_window": "13:00 - 15:00 IST",
-    "reason": "Matches the proven high-performing husband-wife relationship category with a deeply relatable modern marital habit."
+    "reason": "Matches the proven high-performing husband-wife relationship format with an afternoon posting window that historically captured peak engagement."
   },
-  "experiment": "Testing if shifting the husband-wife relationship angle toward modern digital isolation performs as well as direct emotional communication tropes.",
-  "updated_at": "2026-11-14T19:22:44.452780+00:00",
+  "experiment": "Testing if micro-observational details in daily married life can replicate or exceed the broad thematic success of previous husband-wife hits.",
+  "updated_at": "2026-11-14T23:14:24.831658+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-14T19:22:47.455359+00:00"
+  "generated_at": "2026-11-14T23:14:27.111557+00:00"
 }
