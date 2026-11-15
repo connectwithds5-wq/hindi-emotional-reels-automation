@@ -1,45 +1,40 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Husband-wife relationship dynamics significantly outperform all other categories, driving over 1,600+ views per video, whereas abstract poetic Shayari and generic family topics struggle to gain traction.",
+  "overall_summary": "Husband-wife/marital relationship dynamics consistently outperform generic sibling, parental, or general shayari content by 5-10x in views and engagement. While sample size is small (14 videos), husband-wife dynamics show strong repeat demand.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife / Marriage Reality Themes",
-      "evidence": "'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,770 views) and 'पत्नी की ये बात...' (1,679 views) are the top 2 performing videos on the channel by a massive margin.",
-      "action": "Double down on subtle, realistic post-marriage emotional micro-moments."
+      "pattern": "Husband-Wife Relationship Dynamics & Relational Empathy",
+      "evidence": "Top 2 videos ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1,770 views/61 likes and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1,679 views/50 likes) significantly outperform all other topics.",
+      "action": "Double down on married life nuances, unspoken marital expectations, and domestic emotional shifts."
     },
     {
-      "pattern": "Direct Relationship Vulnerability Hooks",
-      "evidence": "Videos focusing on specific relational friction (e.g. husband/wife communication or acknowledging apologies) get higher engagement.",
-      "action": "Frame hooks around quiet, unsaid marital feelings rather than generic preachy advice."
+      "pattern": "Direct Emotional Relatability over Abstract Shayari",
+      "evidence": "Direct relationship commentary like 'Har Baar Sorry Bolne Wala' (392 views) and 'Ek Mard Bhi...' (297 views) performed better than abstract poetry like 'जिस दिन सच लिखूंगा' (21 views).",
+      "action": "Use plain-spoken conversational Hindi anchored in tangible modern life situations instead of high poetic Hindi."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Hindi Shayari / Dramatic Quotes",
-      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 21 views.",
-      "action": "Avoid generic poetic lines; replace with concrete real-life scenarios."
-    },
-    {
-      "pattern": "Repetitive / Generic Sister Themes",
-      "evidence": "Sister-focused videos recorded very low views (19 views and 139 views across two attempts).",
-      "action": "Pause generic sibling appreciation posts until core audience is firmly established."
+      "pattern": "Generic Sibling & Abstract Poetic Content",
+      "evidence": "Sister/brother videos got 19-139 views; abstract shayari got 21 views.",
+      "action": "Reduce reliance on generic sibling appreciation or high-brow poetic lines."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Silent sacrifice & quiet emotional distance in marriage",
+    "emotion": "Bittersweet realization & marital empathy",
     "hook_style": "Observational everyday household moment",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A wife quieted by routine waiting for her husband to notice how the tea gets cold while waiting.",
-    "opening_direction": "Show a cup of tea sitting untouched on a dinner table at 10 PM next to a waiting plate.",
-    "twist_direction": "He eats quietly and thanks her for the food, but never notices she made his favorite sweet dish just to start a conversation.",
-    "duration_seconds": 25,
-    "posting_window": "13:00 - 14:00 IST or 19:00 - 20:00 IST",
-    "reason": "Leverages the proven high-performing Husband-Wife emotional niche with high relatability and high completion potential."
+    "concept": "A husband notices his wife saving the last cup of evening tea for him after a long workday, leading to an emotional realization about forgotten intimacy.",
+    "opening_direction": "Show the simple ritual of pouring evening tea into two mugs, highlighting how routine replaced romance.",
+    "twist_direction": "Reveal that she didn't drink her tea until he came home, demonstrating that quiet care survived even when conversation died.",
+    "duration_seconds": 35,
+    "posting_window": "13:00 - 14:00 UTC",
+    "reason": "Leverages the proven high-performing Husband-Wife emotional niche during the afternoon posting slot where top-performing videos gained traction."
   },
-  "experiment": "Testing an observational narrative without explicit dialogue or loud background poetry, relying pure atmospheric emotional storytelling to boost view-through rate.",
-  "updated_at": "2026-11-15T02:56:36.479031+00:00",
+  "experiment": "Testing if silent household rituals (tea, warm food) resonate more deeply than spoken advice scripts within marital topics.",
+  "updated_at": "2026-11-15T11:21:24.527008+00:00",
   "model_used": "gemini-3.6-flash",
-  "generated_at": "2026-11-15T02:56:43.791493+00:00"
+  "generated_at": "2026-11-15T11:21:35.880124+00:00"
 }
