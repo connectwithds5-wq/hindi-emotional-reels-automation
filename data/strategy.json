@@ -1,35 +1,45 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Analysis of the performance data reveals a clear outlier preference for husband-wife relationship dynamics ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?' at 1.77k views and 'पत्नी की ये बात हर पति को समझनी चाहिए' at 1.68k views), which significantly outperformed general family or standalone sad shayari videos.",
+  "overall_summary": "Husband-wife relationship dynamics significantly outperform all other categories, driving over 1,600+ views per video, whereas abstract poetic Shayari and generic family topics struggle to gain traction.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos focusing on post-marriage dynamics and spousal understanding achieved nearly 10x more views (1.7k+) compared to general relationship videos (150-300 views).",
-      "action": "Produce more content centered around married life friction, unsaid expectations, and mutual understanding."
+      "pattern": "Husband-Wife / Marriage Reality Themes",
+      "evidence": "'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,770 views) and 'पत्नी की ये बात...' (1,679 views) are the top 2 performing videos on the channel by a massive margin.",
+      "action": "Double down on subtle, realistic post-marriage emotional micro-moments."
+    },
+    {
+      "pattern": "Direct Relationship Vulnerability Hooks",
+      "evidence": "Videos focusing on specific relational friction (e.g. husband/wife communication or acknowledging apologies) get higher engagement.",
+      "action": "Frame hooks around quiet, unsaid marital feelings rather than generic preachy advice."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sad Shayari & Isolated One-Liners",
-      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 21 views due to lack of an immediate situational hook.",
-      "action": "Avoid abstract poetic rants; ground every video in a specific everyday household or relationship scenario."
+      "pattern": "Abstract Hindi Shayari / Dramatic Quotes",
+      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 21 views.",
+      "action": "Avoid generic poetic lines; replace with concrete real-life scenarios."
+    },
+    {
+      "pattern": "Repetitive / Generic Sister Themes",
+      "evidence": "Sister-focused videos recorded very low views (19 views and 139 views across two attempts).",
+      "action": "Pause generic sibling appreciation posts until core audience is firmly established."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Bittersweet realization",
-    "hook_style": "Observation about post-work silence between couples",
+    "emotion": "Silent sacrifice & quiet emotional distance in marriage",
+    "hook_style": "Observational everyday household moment",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A husband comes home exhausted, notices his wife didn't ask how his day was, and feels ignored—until he sees the cold tea she reheated three times waiting for him.",
-    "opening_direction": "Start with the quiet sound of keys dropping on the table and an unsmiling face.",
-    "twist_direction": "Realizing that silence isn't lack of love, but the exhaustion of two people silently fighting life's battles together.",
-    "duration_seconds": 35,
-    "posting_window": "13:00 - 15:00 IST",
-    "reason": "Matches the proven high-performing husband-wife relationship format with an afternoon posting window that historically captured peak engagement."
+    "concept": "A wife quieted by routine waiting for her husband to notice how the tea gets cold while waiting.",
+    "opening_direction": "Show a cup of tea sitting untouched on a dinner table at 10 PM next to a waiting plate.",
+    "twist_direction": "He eats quietly and thanks her for the food, but never notices she made his favorite sweet dish just to start a conversation.",
+    "duration_seconds": 25,
+    "posting_window": "13:00 - 14:00 IST or 19:00 - 20:00 IST",
+    "reason": "Leverages the proven high-performing Husband-Wife emotional niche with high relatability and high completion potential."
   },
-  "experiment": "Testing if micro-observational details in daily married life can replicate or exceed the broad thematic success of previous husband-wife hits.",
-  "updated_at": "2026-11-14T23:14:24.831658+00:00",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-14T23:14:27.111557+00:00"
+  "experiment": "Testing an observational narrative without explicit dialogue or loud background poetry, relying pure atmospheric emotional storytelling to boost view-through rate.",
+  "updated_at": "2026-11-15T02:56:36.479031+00:00",
+  "model_used": "gemini-3.6-flash",
+  "generated_at": "2026-11-15T02:56:43.791493+00:00"
 }
