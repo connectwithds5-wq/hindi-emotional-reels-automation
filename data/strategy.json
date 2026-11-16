@@ -1,45 +1,40 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Analysis of the performance data reveals clear outliers in husband-wife relationship dynamics ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1,770 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1,679 views), significantly outperforming general family or raw sad shayari videos. Core emotional resonance around marital realities and unspoken relationship burdens drives high views and engagement.",
+  "overall_summary": "Data clearly shows that complex poetic shayari (e.g., 'जिस दिन सच लिखूंगा') underperforms significantly, whereas deep emotional family and relationship dynamics (specifically husband-wife and mother themes) massively outperform general emotional content.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Reality",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,770 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,679 views) massively outperformed all other topics.",
-      "action": "Double down on married life dynamics, unexpressed love, and modern relationship friction."
+      "pattern": "Husband-Wife Relationship Dilemmas",
+      "evidence": "Videos about married life like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya' (1770 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1679 views) achieved nearly 6x to 10x more views than average posts.",
+      "action": "Produce more narrative-driven content centered on modern marital communication gaps and unspoken expectations."
     },
     {
-      "pattern": "Actionable Emotional Calls / Relationship Truths",
-      "evidence": "Videos addressing mutual understanding and everyday partner dynamics (e.g., 'Har Baar Sorry Bolne Wala Galat Nahi Hota' with 392 views) perform much better than standalone poetic shayari.",
-      "action": "Frame hooks around everyday relationship truths rather than abstract poetic sorrow."
+      "pattern": "Direct Relatable Family Appeals",
+      "evidence": "Mother and father emotional shorts ('माँ जब पूछती है...', 'पापा कभी कहते नहीं...') consistently pull stable views (140-250+ range) compared to niche poetry.",
+      "action": "Use grounded, everyday household observations instead of abstract philosophy."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract or Niche Sad Shayari",
-      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 21 views, showing low pull for overly dramatic or abstract poetic framing.",
-      "action": "Avoid purely poetic, heavy-handed negative verses; ground the emotion in relatable situations."
-    },
-    {
-      "pattern": "Low-sample experimental topics",
-      "evidence": "Sister emotional videos like 'बहन सिर्फ घर की रौनक होती है' received very low views (19 and 139 views), indicating lower immediate audience hook-rate for this specific sub-niche.",
-      "action": "Shift focus away from extended family sub-niches and concentrate strictly on core couple and personal introspection themes."
+      "pattern": "Abstract Sad Shayari",
+      "evidence": "Videos relying heavily on dramatic poetry phrasing like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 21 views.",
+      "action": "Abandon high-register, abstract poetry openings and replace them with grounded, visual everyday scenes."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Nostalgia and realization",
-    "hook_style": "Direct observational question about silent distancing in marriage",
+    "emotion": "Melancholic realization",
+    "hook_style": "Observation on silent couples in public or at home",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short piece on how couples stop arguing and start being quiet with each other, mistaking peace for healing when it's actually emotional detachment.",
-    "opening_direction": "जब लड़ाई होना बंद हो जाए, तो समझ लेना रिश्ता सुधर नहीं रहा, खत्म हो रहा है।",
-    "twist_direction": "शोर से ज्यादा खतरनाक वो खामोशी होती है, जिसमें दोनों साथ तो होते हैं पर घर अजनबी लगने लगता है।",
+    "concept": "A couple sitting together in complete silence, scrolling phones, realizing they know everything about their digital feeds but nothing about each other's day.",
+    "opening_direction": "Start with a quiet visual of two cups of tea getting cold on the table while both partners stare into separate screens.",
+    "twist_direction": "The realization that a stranger's reel made them smile today, but their partner's tired face didn't even catch their attention.",
     "duration_seconds": 35,
-    "posting_window": "13:00 - 15:00 IST",
-    "reason": "Leverages the proven high-performing husband-wife / relationship dynamics theme while focusing on subtle emotional truths that drive high watch time and comment intent."
+    "posting_window": "01:00 PM - 02:00 PM",
+    "reason": "Mid-day posting aligns well with the high-performing relationship and marital content timing observed in top hits like or5gtaBpRVY and my5mP9feI7s."
   },
-  "experiment": "Testing whether micro-expressions of marital silence outperform direct conflict-based relationship hooks.",
-  "updated_at": "2026-11-16T11:54:07.434867+00:00",
+  "experiment": "Testing if adding a modern digital-age communication contrast to traditional husband-wife relationship themes improves retention further.",
+  "updated_at": "2026-11-16T22:25:21.329550+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-16T11:54:10.276813+00:00"
+  "generated_at": "2026-11-16T22:25:27.273735+00:00"
 }
