@@ -1,45 +1,45 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Data clearly shows that relationship dynamics, particularly husband-wife and family realities (e.g., 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?', 'पत्नी की ये बात हर पति को समझनी चाहिए'), significantly outperform general heartbreak shayari or generic motivational shorts. Repeatable patterns point towards adult relationship realities and unspoken domestic pain points.",
+  "overall_summary": "Analysis of the performance data reveals clear outliers in husband-wife relationship dynamics ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1,770 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1,679 views), significantly outperforming general family or raw sad shayari videos. Core emotional resonance around marital realities and unspoken relationship burdens drives high views and engagement.",
   "winning_patterns": [
     {
-      "pattern": "Adult Relationship & Marriage Realities",
-      "evidence": "Videos focusing on husband-wife dynamics ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?', 'पत्नी की ये बात हर पति को समझनी चाहिए') achieved the highest views on the channel (1,770 and 1,679 views respectively).",
-      "action": "Double down on marriage and long-term relationship emotional compromises rather than generic college or one-sided love."
+      "pattern": "Husband-Wife Relationship Reality",
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,770 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,679 views) massively outperformed all other topics.",
+      "action": "Double down on married life dynamics, unexpressed love, and modern relationship friction."
     },
     {
-      "pattern": "Conversational Reality Hooks",
-      "evidence": "Titles framed as a direct question or a common realization ('Har Baar Sorry Bolne Wala Galat Nahi Hota') perform moderately well compared to abstract poetic statements.",
-      "action": "Use conversational premises that target universal domestic or emotional guilt."
+      "pattern": "Actionable Emotional Calls / Relationship Truths",
+      "evidence": "Videos addressing mutual understanding and everyday partner dynamics (e.g., 'Har Baar Sorry Bolne Wala Galat Nahi Hota' with 392 views) perform much better than standalone poetic shayari.",
+      "action": "Frame hooks around everyday relationship truths rather than abstract poetic sorrow."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Sad Shayari",
-      "evidence": "Videos relying purely on poetic or overly dramatic phrasing ('जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा') received very low traction (21 views).",
-      "action": "Avoid heavy, abstract Urdu/Hindi poetic jargon; ground the emotional pain in everyday observable life."
+      "pattern": "Abstract or Niche Sad Shayari",
+      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 21 views, showing low pull for overly dramatic or abstract poetic framing.",
+      "action": "Avoid purely poetic, heavy-handed negative verses; ground the emotion in relatable situations."
     },
     {
-      "pattern": "Low-performing duplicate concepts",
-      "evidence": "Re-uploading the exact same topic ('बहन सिर्फ घर की रौनक होती है') within a short window caused a massive drop in views (from 122/139 down to 19).",
-      "action": "Maintain clear spacing between similar family topics and avoid repetitive phrasing."
+      "pattern": "Low-sample experimental topics",
+      "evidence": "Sister emotional videos like 'बहन सिर्फ घर की रौनक होती है' received very low views (19 and 139 views), indicating lower immediate audience hook-rate for this specific sub-niche.",
+      "action": "Shift focus away from extended family sub-niches and concentrate strictly on core couple and personal introspection themes."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "निराशा और अनकहा समझौता (Disappointment and unspoken compromise)",
-    "hook_style": "Direct observational statement about household silence",
+    "emotion": "Nostalgia and realization",
+    "hook_style": "Direct observational question about silent distancing in marriage",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple sitting in complete silence after an argument, realizing that fighting stopped not because things got better, but because they stopped caring enough to argue.",
-    "opening_direction": "जब घर की खामोशी शोर से ज्यादा डरावनी लगने लगे...",
-    "twist_direction": "लड़ाई खत्म होना रिश्ते का सुधरना नहीं, हार मान लेना होता है।",
+    "concept": "A short piece on how couples stop arguing and start being quiet with each other, mistaking peace for healing when it's actually emotional detachment.",
+    "opening_direction": "जब लड़ाई होना बंद हो जाए, तो समझ लेना रिश्ता सुधर नहीं रहा, खत्म हो रहा है।",
+    "twist_direction": "शोर से ज्यादा खतरनाक वो खामोशी होती है, जिसमें दोनों साथ तो होते हैं पर घर अजनबी लगने लगता है।",
     "duration_seconds": 35,
-    "posting_window": "13:00 - 15:00",
-    "reason": "Aligns directly with the highest performing content category (husband-wife relationship dynamics) while testing a deeper emotional nuance of emotional detachment rather than anger."
+    "posting_window": "13:00 - 15:00 IST",
+    "reason": "Leverages the proven high-performing husband-wife / relationship dynamics theme while focusing on subtle emotional truths that drive high watch time and comment intent."
   },
-  "experiment": "Testing emotional detachment in marriage vs. overt marital conflict to see if subtle sadness drives higher engagement than direct relationship advice.",
-  "updated_at": "2026-11-16T02:56:43.624025+00:00",
+  "experiment": "Testing whether micro-expressions of marital silence outperform direct conflict-based relationship hooks.",
+  "updated_at": "2026-11-16T11:54:07.434867+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-16T02:56:46.722081+00:00"
+  "generated_at": "2026-11-16T11:54:10.276813+00:00"
 }
