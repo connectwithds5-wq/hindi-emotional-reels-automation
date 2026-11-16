@@ -1,45 +1,45 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Analysis of historical performance reveals clear outlier success in domestic and marital relationship dynamics (husband-wife conflicts, shared life realities), achieving up to 1.7k views compared to generic sad poetry which underperformed heavily.",
+  "overall_summary": "Data clearly shows that relationship dynamics, particularly husband-wife and family realities (e.g., 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?', 'पत्नी की ये बात हर पति को समझनी चाहिए'), significantly outperform general heartbreak shayari or generic motivational shorts. Repeatable patterns point towards adult relationship realities and unspoken domestic pain points.",
   "winning_patterns": [
     {
-      "pattern": "Marital/Relationship Realities",
-      "evidence": "Videos focusing on husband-wife dynamics ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?' and 'पत्नी की ये बात हर पति को समझनी चाहिए') achieved the highest views on the channel (~1,700 views each).",
-      "action": "Double down on domestic relationship dynamics, middle-class household compromises, and unspoken marital expectations."
+      "pattern": "Adult Relationship & Marriage Realities",
+      "evidence": "Videos focusing on husband-wife dynamics ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?', 'पत्नी की ये बात हर पति को समझनी चाहिए') achieved the highest views on the channel (1,770 and 1,679 views respectively).",
+      "action": "Double down on marriage and long-term relationship emotional compromises rather than generic college or one-sided love."
     },
     {
-      "pattern": "Relatable Everyday Empathy",
-      "evidence": "Grounded family observations like mothers asking 'Khana khaya?' or fathers hiding exhaustion performed moderately well (150-250 views) compared to abstract poetry.",
-      "action": "Keep hooks grounded in specific, highly recognizable micro-moments rather than broad philosophical statements."
+      "pattern": "Conversational Reality Hooks",
+      "evidence": "Titles framed as a direct question or a common realization ('Har Baar Sorry Bolne Wala Galat Nahi Hota') perform moderately well compared to abstract poetic statements.",
+      "action": "Use conversational premises that target universal domestic or emotional guilt."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract/Aggressive Sad Shayari",
-      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received almost zero traction (21 views).",
-      "action": "Avoid overly dramatic, bitter, or generalized shayari; focus on soft, realistic emotional resonance instead."
+      "pattern": "Abstract Sad Shayari",
+      "evidence": "Videos relying purely on poetic or overly dramatic phrasing ('जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा') received very low traction (21 views).",
+      "action": "Avoid heavy, abstract Urdu/Hindi poetic jargon; ground the emotional pain in everyday observable life."
     },
     {
-      "pattern": "Low-sample Niche Diversification",
-      "evidence": "One-off topics like sister dynamics or general self-motivation scored low (19 to 173 views).",
-      "action": "Limit experimental topics until core relationship themes establish a steady baseline."
+      "pattern": "Low-performing duplicate concepts",
+      "evidence": "Re-uploading the exact same topic ('बहन सिर्फ घर की रौनक होती है') within a short window caused a massive drop in views (from 122/139 down to 19).",
+      "action": "Maintain clear spacing between similar family topics and avoid repetitive phrasing."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "निःशब्द प्यार (Speechless appreciation after years of marriage)",
-    "hook_style": "Observation on how romance changes after a few years of marriage",
+    "emotion": "निराशा और अनकहा समझौता (Disappointment and unspoken compromise)",
+    "hook_style": "Direct observational statement about household silence",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A middle-aged couple who stopped saying 'I love you' years ago, but the husband still quietly keeps the side of the blanket with the AC draft, or leaves the better piece of the sweet for her without a word.",
-    "opening_direction": "शायद अब वो एक-दूसरे को 'I love you' नहीं कहते...",
-    "twist_direction": "पर जब रात को एसी की ठंडी हवा से बचने के लिए वो बिना कहे अपनी पत्नी पर चादर ठीक से ओढ़ा देता है, तो समझ आता है प्यार कम नहीं हुआ, बस शब्दों से उतरकर आदतों में बस गया है।",
-    "duration_seconds": 15,
-    "posting_window": "13:00 - 15:00 IST",
-    "reason": "Matches the proven high-performing husband-wife relationship format while offering a warm emotional resolution instead of conflict."
+    "concept": "A couple sitting in complete silence after an argument, realizing that fighting stopped not because things got better, but because they stopped caring enough to argue.",
+    "opening_direction": "जब घर की खामोशी शोर से ज्यादा डरावनी लगने लगे...",
+    "twist_direction": "लड़ाई खत्म होना रिश्ते का सुधरना नहीं, हार मान लेना होता है।",
+    "duration_seconds": 35,
+    "posting_window": "13:00 - 15:00",
+    "reason": "Aligns directly with the highest performing content category (husband-wife relationship dynamics) while testing a deeper emotional nuance of emotional detachment rather than anger."
   },
-  "experiment": "Testing a positive/warm marital resolution hook instead of conflict or pain to see if like-to-view ratios improve.",
-  "updated_at": "2026-11-15T23:03:24.364526+00:00",
+  "experiment": "Testing emotional detachment in marriage vs. overt marital conflict to see if subtle sadness drives higher engagement than direct relationship advice.",
+  "updated_at": "2026-11-16T02:56:43.624025+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-15T23:03:27.129888+00:00"
+  "generated_at": "2026-11-16T02:56:46.722081+00:00"
 }
