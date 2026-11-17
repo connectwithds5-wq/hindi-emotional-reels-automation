@@ -1,40 +1,35 @@
 {
-  "confidence": "65%",
+  "confidence": "75%",
   "data_points": 14,
-  "overall_summary": "Data clearly shows that complex poetic shayari (e.g., 'जिस दिन सच लिखूंगा') underperforms significantly, whereas deep emotional family and relationship dynamics (specifically husband-wife and mother themes) massively outperform general emotional content.",
+  "overall_summary": "The channel shows a clear preference for 'Husband-Wife' relationship dynamics over generic family or sad shayari content. High-performing videos (1.7k+ views) focus on specific marital friction points, while generic emotional shayari performs significantly worse.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Dilemmas",
-      "evidence": "Videos about married life like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya' (1770 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1679 views) achieved nearly 6x to 10x more views than average posts.",
-      "action": "Produce more narrative-driven content centered on modern marital communication gaps and unspoken expectations."
-    },
-    {
-      "pattern": "Direct Relatable Family Appeals",
-      "evidence": "Mother and father emotional shorts ('माँ जब पूछती है...', 'पापा कभी कहते नहीं...') consistently pull stable views (140-250+ range) compared to niche poetry.",
-      "action": "Use grounded, everyday household observations instead of abstract philosophy."
+      "pattern": "Marital/Relationship Reality",
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar' and 'Patni ki baat' reached 1.7k+ views, significantly outperforming family-themed or generic sad content.",
+      "action": "Double down on husband-wife relationship conflicts and realizations."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Sad Shayari",
-      "evidence": "Videos relying heavily on dramatic poetry phrasing like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 21 views.",
-      "action": "Abandon high-register, abstract poetry openings and replace them with grounded, visual everyday scenes."
+      "pattern": "Generic Sad Shayari",
+      "evidence": "Videos like 'Jis din sach likhunga' received only 21 views, indicating the audience prefers narrative-driven life lessons over abstract poetry.",
+      "action": "Pivot away from abstract shayari to specific, grounded relationship scenarios."
     }
   ],
   "next_video": {
-    "topic": "रिश्ते",
-    "emotion": "Melancholic realization",
-    "hook_style": "Observation on silent couples in public or at home",
+    "topic": "Husband Wife Relationship",
+    "emotion": "Bittersweet realization",
+    "hook_style": "Direct question about a common silent conflict",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple sitting together in complete silence, scrolling phones, realizing they know everything about their digital feeds but nothing about each other's day.",
-    "opening_direction": "Start with a quiet visual of two cups of tea getting cold on the table while both partners stare into separate screens.",
-    "twist_direction": "The realization that a stranger's reel made them smile today, but their partner's tired face didn't even catch their attention.",
-    "duration_seconds": 35,
-    "posting_window": "01:00 PM - 02:00 PM",
-    "reason": "Mid-day posting aligns well with the high-performing relationship and marital content timing observed in top hits like or5gtaBpRVY and my5mP9feI7s."
+    "concept": "The silence between a couple after a fight that never gets resolved.",
+    "opening_direction": "Start with the sound of a ticking clock or a quiet room, asking: 'Kya kabhi socha hai, ladai khatam hone ke baad bhi baat kyun nahi hoti?'",
+    "twist_direction": "Reveal that the silence isn't because of anger, but because both are waiting for the other to break the ego, and eventually, the silence becomes a habit.",
+    "duration_seconds": 45,
+    "posting_window": "07:00 AM - 08:00 AM IST",
+    "reason": "Matches the high-performing 'Husband-Wife' topic and leverages the 'relatable conflict' pattern that drove previous viral success."
   },
-  "experiment": "Testing if adding a modern digital-age communication contrast to traditional husband-wife relationship themes improves retention further.",
-  "updated_at": "2026-11-16T22:25:21.329550+00:00",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-16T22:25:27.273735+00:00"
+  "experiment": "Testing if a 'question-based' hook about specific marital silence performs better than the 'statement-based' hooks used in previous successful videos.",
+  "updated_at": "2026-11-17T04:41:51.951727+00:00",
+  "model_used": "gemini-3.1-flash-lite",
+  "generated_at": "2026-11-17T04:41:54.570719+00:00"
 }
