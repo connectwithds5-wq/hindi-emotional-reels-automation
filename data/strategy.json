@@ -1,35 +1,45 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "The channel shows a clear preference for 'Husband-Wife' relationship dynamics over generic family or sad shayari content. High-performing videos (1.7k+ views) focus on specific, relatable marital tensions, while generic emotional shayari or broad family topics underperform significantly.",
+  "overall_summary": "Analysis of historical performance indicates that deep relationship dynamics, specifically husband-wife complexities and everyday domestic realities, significantly outperform generic poetry or broad emotional statements. Videos focusing on marital friction and mutual understanding achieved views near 1,700+, whereas fragmented sad shayari or low-engagement family broad-strokes stayed under 300 views.",
   "winning_patterns": [
     {
       "pattern": "Husband-Wife Relationship Dynamics",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya' and 'Patni ki ye baat...' received 10x more views than other content.",
-      "action": "Double down on marital communication gaps and unspoken expectations."
+      "evidence": "my5mP9feI7s (1770 views) and or5gtaBpRVY (1679 views) drastically outperformed all other uploads.",
+      "action": "Double down on mature relationship struggles, unspoken expectations, and emotional distance between partners."
+    },
+    {
+      "pattern": "Direct Relatable Question Hooks",
+      "evidence": "Titles framing a common dilemma or subtle realization (e.g., 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?', 'Har Baar Sorry Bolne Wala Galat Nahi Hota') generated higher initial curiosity.",
+      "action": "Use conversational, inquisitive hooks about everyday relationship grievances instead of poetic cliches."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Family/Shayari content",
-      "evidence": "Videos about siblings or abstract sad shayari consistently stay under 200 views.",
-      "action": "Pivot away from generic 'Maa/Bhai/Behen' tributes unless they contain a specific, non-cliché conflict."
+      "pattern": "Generic Sad Shayari & Overtly Poetic Titles",
+      "evidence": "YdWh4cDOE64 ('जिस दिन सच लिखूंगा…') received only 21 views.",
+      "action": "Avoid heavy, abstract Urdu/Hindi poetry titles; ground the content in tangible human experiences."
+    },
+    {
+      "pattern": "Scattered Niche Family Segments Without Conflict",
+      "evidence": "Sister/Brother focused videos (e.g., jfmMztnam_A with 19 views) lacked tension and underperformed compared to relational friction content.",
+      "action": "Reduce broad family appreciation posts unless driven by a specific, high-friction emotional dilemma."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Relatable frustration",
-    "hook_style": "Direct question about a common silent conflict",
-    "story_structure": "Simple: A couple sitting in silence after a long day -> Relatable: The small thing one partner does that annoys the other -> Twist: Realizing the silence isn't anger, but exhaustion from trying to keep the peace.",
-    "concept": "The silent dinner table: Why we stop talking after marriage.",
-    "opening_direction": "Start with the sound of cutlery clinking in a quiet room, followed by the text: 'Pehle ghanto baatein hoti thi, ab khana khane mein bhi sharam aati hai.'",
-    "twist_direction": "Shift the perspective to show that both are actually waiting for the other to start the conversation, but fear rejection.",
+    "emotion": "अधूरापन और समझदारी",
+    "hook_style": "Conversational observation about post-fight silence in a marriage",
+    "story_structure": "simple -> relatable -> twist",
+    "concept": "A couple goes entire days without arguing, but the silence at the dinner table speaks louder than any fight.",
+    "opening_direction": "Start with the sound of plates clinking and a husband noticing his wife's untouched tea.",
+    "twist_direction": "Reveal that the biggest threat to a long marriage isn't the loud fights, but the quiet realization that they stopped trying to explain themselves.",
     "duration_seconds": 35,
-    "posting_window": "13:00 - 14:00 IST",
-    "reason": "Aligns with the successful 'Husband-Wife' topic cluster while testing a more nuanced, 'silent' emotional narrative."
+    "posting_window": "07:00 PM - 09:00 PM",
+    "reason": "Aligns with the proven high-performing husband-wife relationship niche and targets evening leisure scrolling when emotional reflection is highest."
   },
-  "experiment": "Testing a 'slow-burn' visual style (minimal text, more atmospheric sound) to see if it increases retention compared to high-text overlay videos.",
-  "updated_at": "2026-11-17T14:46:32.823379+00:00",
-  "model_used": "gemini-3.1-flash-lite",
-  "generated_at": "2026-11-17T14:46:40.931372+00:00"
+  "experiment": "Testing if adding a subtle, bittersweet visual detail mid-video increases watch-time retention for relationship topics.",
+  "updated_at": "2026-11-17T23:03:38.866533+00:00",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-11-17T23:03:41.833912+00:00"
 }
