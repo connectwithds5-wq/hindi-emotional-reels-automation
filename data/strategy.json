@@ -1,35 +1,35 @@
 {
-  "confidence": "75%",
+  "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "The channel shows a clear preference for 'Husband-Wife' relationship dynamics over generic family or sad shayari content. High-performing videos (1.7k+ views) focus on specific marital friction points, while generic emotional shayari performs significantly worse.",
+  "overall_summary": "The channel shows a clear preference for 'Husband-Wife' relationship dynamics over generic family or sad shayari content. High-performing videos (1.7k+ views) focus on specific, relatable marital tensions, while generic emotional shayari or broad family topics underperform significantly.",
   "winning_patterns": [
     {
-      "pattern": "Marital/Relationship Reality",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar' and 'Patni ki baat' reached 1.7k+ views, significantly outperforming family-themed or generic sad content.",
-      "action": "Double down on husband-wife relationship conflicts and realizations."
+      "pattern": "Husband-Wife Relationship Dynamics",
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya' and 'Patni ki ye baat...' received 10x more views than other content.",
+      "action": "Double down on marital communication gaps and unspoken expectations."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sad Shayari",
-      "evidence": "Videos like 'Jis din sach likhunga' received only 21 views, indicating the audience prefers narrative-driven life lessons over abstract poetry.",
-      "action": "Pivot away from abstract shayari to specific, grounded relationship scenarios."
+      "pattern": "Generic Family/Shayari content",
+      "evidence": "Videos about siblings or abstract sad shayari consistently stay under 200 views.",
+      "action": "Pivot away from generic 'Maa/Bhai/Behen' tributes unless they contain a specific, non-cliché conflict."
     }
   ],
   "next_video": {
-    "topic": "Husband Wife Relationship",
-    "emotion": "Bittersweet realization",
+    "topic": "रिश्ते",
+    "emotion": "Relatable frustration",
     "hook_style": "Direct question about a common silent conflict",
-    "story_structure": "simple -> relatable -> twist",
-    "concept": "The silence between a couple after a fight that never gets resolved.",
-    "opening_direction": "Start with the sound of a ticking clock or a quiet room, asking: 'Kya kabhi socha hai, ladai khatam hone ke baad bhi baat kyun nahi hoti?'",
-    "twist_direction": "Reveal that the silence isn't because of anger, but because both are waiting for the other to break the ego, and eventually, the silence becomes a habit.",
-    "duration_seconds": 45,
-    "posting_window": "07:00 AM - 08:00 AM IST",
-    "reason": "Matches the high-performing 'Husband-Wife' topic and leverages the 'relatable conflict' pattern that drove previous viral success."
+    "story_structure": "Simple: A couple sitting in silence after a long day -> Relatable: The small thing one partner does that annoys the other -> Twist: Realizing the silence isn't anger, but exhaustion from trying to keep the peace.",
+    "concept": "The silent dinner table: Why we stop talking after marriage.",
+    "opening_direction": "Start with the sound of cutlery clinking in a quiet room, followed by the text: 'Pehle ghanto baatein hoti thi, ab khana khane mein bhi sharam aati hai.'",
+    "twist_direction": "Shift the perspective to show that both are actually waiting for the other to start the conversation, but fear rejection.",
+    "duration_seconds": 35,
+    "posting_window": "13:00 - 14:00 IST",
+    "reason": "Aligns with the successful 'Husband-Wife' topic cluster while testing a more nuanced, 'silent' emotional narrative."
   },
-  "experiment": "Testing if a 'question-based' hook about specific marital silence performs better than the 'statement-based' hooks used in previous successful videos.",
-  "updated_at": "2026-11-17T04:41:51.951727+00:00",
+  "experiment": "Testing a 'slow-burn' visual style (minimal text, more atmospheric sound) to see if it increases retention compared to high-text overlay videos.",
+  "updated_at": "2026-11-17T14:46:32.823379+00:00",
   "model_used": "gemini-3.1-flash-lite",
-  "generated_at": "2026-11-17T04:41:54.570719+00:00"
+  "generated_at": "2026-11-17T14:46:40.931372+00:00"
 }
