@@ -1,45 +1,35 @@
 {
-  "confidence": "65%",
+  "confidence": "75%",
   "data_points": 14,
-  "overall_summary": "Data clearly shows that relationship dynamics, particularly husband-wife and romantic connection realities (e.g., 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?', 'पत्नी की ये बात...'), dramatically outperform generic poetry or family member shout-outs. We must lean heavily into adult relationship topics while maintaining our emotional core.",
+  "overall_summary": "The channel shows a clear preference for 'Husband-Wife' relationship dynamics over generic family or motivational content. High-performing videos (1.7k+ views) focus on specific, relatable marital conflicts, while broader family-themed content underperforms significantly.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos focusing on post-marriage love and wives' perspectives received 1,770 and 1,679 views respectively, outperforming almost everything else by an order of magnitude.",
-      "action": "Produce more short-form content addressing unsaid emotional conflicts in modern marriages and partnerships."
-    },
-    {
-      "pattern": "Relatable Psychological Validation",
-      "evidence": "'Har Baar Sorry Bolne Wala Galat Nahi Hota' achieved 392 views, doing significantly better than standard abstract sad shayari.",
-      "action": "Use specific emotional burdens or relationship micro-behaviors as hooks rather than broad statements."
+      "pattern": "Relationship Reality (Husband-Wife)",
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar' and 'Patni ki baat' gained 1.7k+ views, significantly higher than the channel average.",
+      "action": "Double down on marital dynamics and the 'unspoken' emotional gaps in long-term relationships."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract / High-brow Sad Shayari",
-      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' generated only 21 views.",
-      "action": "Avoid heavy, melodramatic, or overly poetic vocabulary. Keep the Hindi conversational and grounded."
-    },
-    {
-      "pattern": "Low-performing Family Segments",
-      "evidence": "Earlier sister/sibling posts like 'बहन सिर्फ घर की रौनक होती है' stalled out around 19 to 139 views.",
-      "action": "Pivot away from generic family tributes unless tied to a hard, relatable psychological real-life conflict."
+      "pattern": "Generic Family Sentimentality",
+      "evidence": "Videos about sisters, brothers, and general motivation consistently struggle to break 200 views.",
+      "action": "Shift focus away from generic family appreciation toward specific, complex relationship tensions."
     }
   ],
   "next_video": {
-    "topic": "रिश्ते",
-    "emotion": "नुकसान का अहसास और आत्मसम्मान",
-    "hook_style": "Real-life micro-observation about silent distance in long-term relationships",
-    "story_structure": "simple -> relatable -> twist",
-    "concept": "जब साथ रहते हुए भी पार्टनर से बातें खत्म होने लगें और सिर्फ खामोशी बच जाए",
-    "opening_direction": "शुरुआत इस बात से करें कि किसी रिश्ते में सबसे डरावना झगड़ा नहीं, बल्कि वह वक्त होता है जब एक-दूसरे से कहने के लिए कुछ नहीं बचता।",
-    "twist_direction": "अंत में यह मोड़ दें कि जो इंसान पहले हर बात पर लड़ता था, उसकी खामोशी असल में हार नहीं बल्कि रिश्ते के खत्म होने की शुरुआत होती है।",
-    "duration_seconds": 35,
-    "posting_window": "13:00 - 15:00",
-    "reason": "Mid-day posting slots historically aligned well with the highest performing relationship videos in our dataset."
+    "topic": "रिश्ते (Husband-Wife)",
+    "emotion": "Melancholy/Reflection",
+    "hook_style": "Direct question about a common silent conflict",
+    "story_structure": "Simple: A husband coming home late -> Relatable: The wife waiting in silence without complaining -> Twist: The realization that the silence is not peace, but the death of expectations.",
+    "concept": "The silence between a couple that has stopped fighting.",
+    "opening_direction": "Start with the sound of a door opening and the wife turning off the TV, not looking up.",
+    "twist_direction": "Voiceover: 'Jab tak ladai hoti thi, tab tak rishta zinda tha. Ab khamoshi hai, kyunki ab umeed khatam ho gayi hai.'",
+    "duration_seconds": 25,
+    "posting_window": "13:00 - 14:00 IST",
+    "reason": "Matches the high-performing 'Husband-Wife' topic and utilizes the proven 'Relationship Reality' hook style."
   },
-  "experiment": "Testing if shifting the husband-wife relationship angle toward a general deep-relationship silent distance theme retains the high view counts of our top two performing videos.",
-  "updated_at": "2026-11-18T04:39:24.348348+00:00",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-18T04:39:28.415496+00:00"
+  "experiment": "Testing if 'silent tension' performs better than 'verbal conflict' in relationship shorts.",
+  "updated_at": "2026-11-18T14:26:01.576744+00:00",
+  "model_used": "gemini-3.1-flash-lite",
+  "generated_at": "2026-11-18T14:26:07.195951+00:00"
 }
