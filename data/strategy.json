@@ -1,35 +1,40 @@
 {
-  "confidence": "75%",
+  "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "The channel shows a clear preference for 'Husband-Wife' relationship dynamics over generic family or motivational content. High-performing videos (1.7k+ views) focus on specific, relatable marital conflicts, while broader family-themed content underperforms significantly.",
+  "overall_summary": "Analysis of historical performance shows clear audience preference for domestic relationship dynamics, specifically husband-wife topics (outlier hits of ~1.7k views), while generic poetic/sad shayari underperforms heavily.",
   "winning_patterns": [
     {
-      "pattern": "Relationship Reality (Husband-Wife)",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar' and 'Patni ki baat' gained 1.7k+ views, significantly higher than the channel average.",
-      "action": "Double down on marital dynamics and the 'unspoken' emotional gaps in long-term relationships."
+      "pattern": "Husband-Wife / Partner Dynamics",
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,770 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,679 views) significantly outperformed all other content.",
+      "action": "Double down on marital relationships, emotional misunderstandings, and long-term love realities."
+    },
+    {
+      "pattern": "Grounded Family Realities",
+      "evidence": "Videos covering parental love and family roles (e.g., 'माँ जब पूछती है', 'पापा कभी कहते नहीं') perform steadily in the 150-300 view range.",
+      "action": "Keep family emotional beats as reliable secondary content."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Family Sentimentality",
-      "evidence": "Videos about sisters, brothers, and general motivation consistently struggle to break 200 views.",
-      "action": "Shift focus away from generic family appreciation toward specific, complex relationship tensions."
+      "pattern": "Abstract Sad Shayari / Heavy Poetry",
+      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' generated only 21 views.",
+      "action": "Avoid abstract, overly dramatic poetry and focus on concrete everyday situations."
     }
   ],
   "next_video": {
-    "topic": "रिश्ते (Husband-Wife)",
-    "emotion": "Melancholy/Reflection",
-    "hook_style": "Direct question about a common silent conflict",
-    "story_structure": "Simple: A husband coming home late -> Relatable: The wife waiting in silence without complaining -> Twist: The realization that the silence is not peace, but the death of expectations.",
-    "concept": "The silence between a couple that has stopped fighting.",
-    "opening_direction": "Start with the sound of a door opening and the wife turning off the TV, not looking up.",
-    "twist_direction": "Voiceover: 'Jab tak ladai hoti thi, tab tak rishta zinda tha. Ab khamoshi hai, kyunki ab umeed khatam ho gayi hai.'",
-    "duration_seconds": 25,
+    "topic": "रिश्ते",
+    "emotion": "Melancholic warmth",
+    "hook_style": "Observation on silent moments between couples",
+    "story_structure": "simple -> relatable -> twist",
+    "concept": "A couple sitting in complete silence in the living room, no fights, just distance, until one notices the other's old habit hasn't changed.",
+    "opening_direction": "Start with the sound of ticking clock and a husband and wife scrolling phones on opposite ends of the sofa.",
+    "twist_direction": "He quietly keeps her favorite tea mug on the table without speaking, realizing love isn't about grand conversations, but remembering tiny habits.",
+    "duration_seconds": 35,
     "posting_window": "13:00 - 14:00 IST",
-    "reason": "Matches the high-performing 'Husband-Wife' topic and utilizes the proven 'Relationship Reality' hook style."
+    "reason": "Matches the proven high-performing husband-wife relationship narrative arc that drove the channel's top traffic."
   },
-  "experiment": "Testing if 'silent tension' performs better than 'verbal conflict' in relationship shorts.",
-  "updated_at": "2026-11-18T14:26:01.576744+00:00",
-  "model_used": "gemini-3.1-flash-lite",
-  "generated_at": "2026-11-18T14:26:07.195951+00:00"
+  "experiment": "Testing if silent domestic observation performs better than direct dialogue-heavy husband-wife conflicts.",
+  "updated_at": "2026-11-18T22:13:32.381334+00:00",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-11-18T22:13:34.626932+00:00"
 }
