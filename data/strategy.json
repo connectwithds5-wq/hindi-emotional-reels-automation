@@ -1,45 +1,45 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Analysis of historical performance indicates that deep relationship dynamics, specifically husband-wife complexities and everyday domestic realities, significantly outperform generic poetry or broad emotional statements. Videos focusing on marital friction and mutual understanding achieved views near 1,700+, whereas fragmented sad shayari or low-engagement family broad-strokes stayed under 300 views.",
+  "overall_summary": "Data clearly shows that relationship dynamics, particularly husband-wife and romantic connection realities (e.g., 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?', 'पत्नी की ये बात...'), dramatically outperform generic poetry or family member shout-outs. We must lean heavily into adult relationship topics while maintaining our emotional core.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Dynamics",
-      "evidence": "my5mP9feI7s (1770 views) and or5gtaBpRVY (1679 views) drastically outperformed all other uploads.",
-      "action": "Double down on mature relationship struggles, unspoken expectations, and emotional distance between partners."
+      "pattern": "Husband-Wife Relationship Realities",
+      "evidence": "Videos focusing on post-marriage love and wives' perspectives received 1,770 and 1,679 views respectively, outperforming almost everything else by an order of magnitude.",
+      "action": "Produce more short-form content addressing unsaid emotional conflicts in modern marriages and partnerships."
     },
     {
-      "pattern": "Direct Relatable Question Hooks",
-      "evidence": "Titles framing a common dilemma or subtle realization (e.g., 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?', 'Har Baar Sorry Bolne Wala Galat Nahi Hota') generated higher initial curiosity.",
-      "action": "Use conversational, inquisitive hooks about everyday relationship grievances instead of poetic cliches."
+      "pattern": "Relatable Psychological Validation",
+      "evidence": "'Har Baar Sorry Bolne Wala Galat Nahi Hota' achieved 392 views, doing significantly better than standard abstract sad shayari.",
+      "action": "Use specific emotional burdens or relationship micro-behaviors as hooks rather than broad statements."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sad Shayari & Overtly Poetic Titles",
-      "evidence": "YdWh4cDOE64 ('जिस दिन सच लिखूंगा…') received only 21 views.",
-      "action": "Avoid heavy, abstract Urdu/Hindi poetry titles; ground the content in tangible human experiences."
+      "pattern": "Abstract / High-brow Sad Shayari",
+      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' generated only 21 views.",
+      "action": "Avoid heavy, melodramatic, or overly poetic vocabulary. Keep the Hindi conversational and grounded."
     },
     {
-      "pattern": "Scattered Niche Family Segments Without Conflict",
-      "evidence": "Sister/Brother focused videos (e.g., jfmMztnam_A with 19 views) lacked tension and underperformed compared to relational friction content.",
-      "action": "Reduce broad family appreciation posts unless driven by a specific, high-friction emotional dilemma."
+      "pattern": "Low-performing Family Segments",
+      "evidence": "Earlier sister/sibling posts like 'बहन सिर्फ घर की रौनक होती है' stalled out around 19 to 139 views.",
+      "action": "Pivot away from generic family tributes unless tied to a hard, relatable psychological real-life conflict."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "अधूरापन और समझदारी",
-    "hook_style": "Conversational observation about post-fight silence in a marriage",
+    "emotion": "नुकसान का अहसास और आत्मसम्मान",
+    "hook_style": "Real-life micro-observation about silent distance in long-term relationships",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple goes entire days without arguing, but the silence at the dinner table speaks louder than any fight.",
-    "opening_direction": "Start with the sound of plates clinking and a husband noticing his wife's untouched tea.",
-    "twist_direction": "Reveal that the biggest threat to a long marriage isn't the loud fights, but the quiet realization that they stopped trying to explain themselves.",
+    "concept": "जब साथ रहते हुए भी पार्टनर से बातें खत्म होने लगें और सिर्फ खामोशी बच जाए",
+    "opening_direction": "शुरुआत इस बात से करें कि किसी रिश्ते में सबसे डरावना झगड़ा नहीं, बल्कि वह वक्त होता है जब एक-दूसरे से कहने के लिए कुछ नहीं बचता।",
+    "twist_direction": "अंत में यह मोड़ दें कि जो इंसान पहले हर बात पर लड़ता था, उसकी खामोशी असल में हार नहीं बल्कि रिश्ते के खत्म होने की शुरुआत होती है।",
     "duration_seconds": 35,
-    "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Aligns with the proven high-performing husband-wife relationship niche and targets evening leisure scrolling when emotional reflection is highest."
+    "posting_window": "13:00 - 15:00",
+    "reason": "Mid-day posting slots historically aligned well with the highest performing relationship videos in our dataset."
   },
-  "experiment": "Testing if adding a subtle, bittersweet visual detail mid-video increases watch-time retention for relationship topics.",
-  "updated_at": "2026-11-17T23:03:38.866533+00:00",
+  "experiment": "Testing if shifting the husband-wife relationship angle toward a general deep-relationship silent distance theme retains the high view counts of our top two performing videos.",
+  "updated_at": "2026-11-18T04:39:24.348348+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-17T23:03:41.833912+00:00"
+  "generated_at": "2026-11-18T04:39:28.415496+00:00"
 }
