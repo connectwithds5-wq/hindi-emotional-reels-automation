@@ -1,40 +1,45 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Analysis of the historical data reveals that relationship dynamics between husbands and wives significantly outperform other topics, pulling in over 1,600 to 1,700 views (e.g., 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' and 'पत्नी की ये बात हर पति को समझनी चाहिए'). General sad poetry and broad relationship complaints suffer from low engagement due to high saturation.",
+  "overall_summary": "Analysis of historical performance shows that content addressing complex adult relationship dynamics and husband-wife realities (e.g., 'Shaadi Ke Baad Pyaar Kahan Chala Gaya' with 1770 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1679 views) significantly outperforms generic relationship advice, sad poetry, or single-line quotes. Family dynamics also show moderate traction when tied to daily habits.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relatable Dynamic",
-      "evidence": "Videos focusing on post-marriage realities and spousal understanding hit 1,600+ views (e.g., my5mP9feI7s, or5gtaBpRVY), drastically outperforming generic poetry.",
-      "action": "Double down on mature, everyday relationship moments between partners rather than purely abstract heartbreak."
+      "pattern": "Husband-Wife Relationship Realities",
+      "evidence": "Videos focusing on post-marriage emotional shifts or marital understanding ('Shaadi Ke Baad Pyaar Kahan Chala Gaya', 'पत्नी की ये बात हर पति को समझनी चाहिए') generated the highest views on the channel (1,600+ views compared to an average of under 300).",
+      "action": "Double down on adult relationship struggles and unspoken marital distance."
     },
     {
-      "pattern": "Direct, Empathetic Question Hook",
-      "evidence": "Titles framing a common dilemma or addressing an unsaid truth directly (e.g., 'Har Baar Sorry Bolne Wala Galat Nahi Hota') secure steady baseline views (~392 views).",
-      "action": "Use conversational prompts that force the viewer to immediately self-reflect on their own relationship."
+      "pattern": "Question-Based Hooks on Relatable Pain Points",
+      "evidence": "Titles framing a direct, curious question about everyday emotional realities successfully draw clicks.",
+      "action": "Use conversational, inquisitive titles rather than abstract poetic statements."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Sad Shayari without Narrative",
-      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 21 views because they lack a grounding situational context.",
-      "action": "Stop using heavy, overly dramatic poetry lines as titles and hooks without a concrete everyday scenario."
+      "pattern": "Abstract Sad Shayari & Heavy Poetry",
+      "evidence": "Videos relying solely on heavy poetic phrasing like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received minimal views (21 views).",
+      "action": "Avoid overly dramatic or literary poetry; stick to grounded, conversational observations."
+    },
+    {
+      "pattern": "Low-Sample Niche Family Segments",
+      "evidence": "Orphaned one-off videos on siblings without strong hooks (e.g., sister-only focus without context) severely underperformed.",
+      "action": "Broaden emotional family topics into universal household scenarios."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "नस्टेल्जिया और खामोश मोहब्बत",
-    "hook_style": "Direct observation of a couple's quiet routine",
+    "emotion": "निराशा और अपनापन",
+    "hook_style": "Observation-based question about unspoken distance between partners",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A married couple sitting in absolute silence in a car, neither fighting nor talking, yet holding a depth of unsaid understanding that new relationships miss.",
-    "opening_direction": "Start with the observation: 'शादी के कुछ साल बाद बातें कम और खामोशियां ज्यादा हो जाती हैं...'",
-    "twist_direction": "Reveal that the silence isn't a lack of love, but the ultimate comfort of being truly known without needing words.",
+    "concept": "A couple sitting in absolute silence after a long day, scrolling phones, realizing the biggest distance isn't physical anymore, it's the words they stopped saying.",
+    "opening_direction": "Start with the sound of a phone notification breaking a heavy room silence late at night.",
+    "twist_direction": "Reveal that they are sitting right next to each other, but texting friends because it's easier than talking to their partner.",
     "duration_seconds": 35,
-    "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Aligns with the top-performing husband-wife theme while tapping into mature, relatable emotional beats during evening relaxation hours."
+    "posting_window": "01:00 PM - 02:00 PM",
+    "reason": "Leverages the proven high-performing husband-wife relationship niche while testing a modern, highly relatable digital-age emotional hook."
   },
-  "experiment": "Testing if shifting the husband-wife theme from a problem-based narrative to a comfort/silence narrative retains high retention.",
-  "updated_at": "2026-11-19T03:45:39.331087+00:00",
+  "experiment": "Testing whether a modern tech-isolation twist inside a husband-wife relationship video can replicate the high viewership of previous marital content.",
+  "updated_at": "2026-11-19T13:42:44.113922+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-19T03:45:41.904094+00:00"
+  "generated_at": "2026-11-19T13:42:55.608485+00:00"
 }
