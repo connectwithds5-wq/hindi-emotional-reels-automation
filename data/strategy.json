@@ -1,40 +1,40 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Analysis of historical performance shows clear audience preference for domestic relationship dynamics, specifically husband-wife topics (outlier hits of ~1.7k views), while generic poetic/sad shayari underperforms heavily.",
+  "overall_summary": "Analysis of the historical data reveals that relationship dynamics between husbands and wives significantly outperform other topics, pulling in over 1,600 to 1,700 views (e.g., 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' and 'पत्नी की ये बात हर पति को समझनी चाहिए'). General sad poetry and broad relationship complaints suffer from low engagement due to high saturation.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife / Partner Dynamics",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,770 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,679 views) significantly outperformed all other content.",
-      "action": "Double down on marital relationships, emotional misunderstandings, and long-term love realities."
+      "pattern": "Husband-Wife Relatable Dynamic",
+      "evidence": "Videos focusing on post-marriage realities and spousal understanding hit 1,600+ views (e.g., my5mP9feI7s, or5gtaBpRVY), drastically outperforming generic poetry.",
+      "action": "Double down on mature, everyday relationship moments between partners rather than purely abstract heartbreak."
     },
     {
-      "pattern": "Grounded Family Realities",
-      "evidence": "Videos covering parental love and family roles (e.g., 'माँ जब पूछती है', 'पापा कभी कहते नहीं') perform steadily in the 150-300 view range.",
-      "action": "Keep family emotional beats as reliable secondary content."
+      "pattern": "Direct, Empathetic Question Hook",
+      "evidence": "Titles framing a common dilemma or addressing an unsaid truth directly (e.g., 'Har Baar Sorry Bolne Wala Galat Nahi Hota') secure steady baseline views (~392 views).",
+      "action": "Use conversational prompts that force the viewer to immediately self-reflect on their own relationship."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Sad Shayari / Heavy Poetry",
-      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' generated only 21 views.",
-      "action": "Avoid abstract, overly dramatic poetry and focus on concrete everyday situations."
+      "pattern": "Abstract Sad Shayari without Narrative",
+      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 21 views because they lack a grounding situational context.",
+      "action": "Stop using heavy, overly dramatic poetry lines as titles and hooks without a concrete everyday scenario."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Melancholic warmth",
-    "hook_style": "Observation on silent moments between couples",
+    "emotion": "नस्टेल्जिया और खामोश मोहब्बत",
+    "hook_style": "Direct observation of a couple's quiet routine",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple sitting in complete silence in the living room, no fights, just distance, until one notices the other's old habit hasn't changed.",
-    "opening_direction": "Start with the sound of ticking clock and a husband and wife scrolling phones on opposite ends of the sofa.",
-    "twist_direction": "He quietly keeps her favorite tea mug on the table without speaking, realizing love isn't about grand conversations, but remembering tiny habits.",
+    "concept": "A married couple sitting in absolute silence in a car, neither fighting nor talking, yet holding a depth of unsaid understanding that new relationships miss.",
+    "opening_direction": "Start with the observation: 'शादी के कुछ साल बाद बातें कम और खामोशियां ज्यादा हो जाती हैं...'",
+    "twist_direction": "Reveal that the silence isn't a lack of love, but the ultimate comfort of being truly known without needing words.",
     "duration_seconds": 35,
-    "posting_window": "13:00 - 14:00 IST",
-    "reason": "Matches the proven high-performing husband-wife relationship narrative arc that drove the channel's top traffic."
+    "posting_window": "07:00 PM - 09:00 PM",
+    "reason": "Aligns with the top-performing husband-wife theme while tapping into mature, relatable emotional beats during evening relaxation hours."
   },
-  "experiment": "Testing if silent domestic observation performs better than direct dialogue-heavy husband-wife conflicts.",
-  "updated_at": "2026-11-18T22:13:32.381334+00:00",
+  "experiment": "Testing if shifting the husband-wife theme from a problem-based narrative to a comfort/silence narrative retains high retention.",
+  "updated_at": "2026-11-19T03:45:39.331087+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-18T22:13:34.626932+00:00"
+  "generated_at": "2026-11-19T03:45:41.904094+00:00"
 }
