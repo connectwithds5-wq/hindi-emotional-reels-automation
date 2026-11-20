@@ -1,35 +1,45 @@
 {
-  "confidence": "65%",
+  "confidence": "45%",
   "data_points": 14,
-  "overall_summary": "Analysis of historical performance shows that content centered around husband-wife relationship dynamics (e.g., 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1770 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1679 views) significantly outperforms broad shayari, family bonds, or generic emotional shorts. Topics exploring modern relationship realities and compromises generate higher engagement.",
+  "overall_summary": "The historical performance indicates that broad emotional relationship topics involving husband-wife dynamics significantly outperform generic sad shayaris, individual family member tropes, or deep philosophical quotes. Content addressing everyday relationship friction and mutual understanding yields thousands of views compared to double-digit views for abstract poetry.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Dilemmas",
-      "evidence": "Videos focusing on married life friction and understanding between partners achieved peak views (1600-1700+ views compared to 20-300 views for other categories).",
-      "action": "Double down on married life realities, unsaid expectations, and emotional distance after marriage."
+      "pattern": "Husband-Wife Relationship Realities",
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1770 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1679 views) massively outperform all other topics.",
+      "action": "Focus heavily on couple dynamics, unspoken marital expectations, and everyday relationship evolution."
+    },
+    {
+      "pattern": "Actionable Empathy / Relationship Advice",
+      "evidence": "Content offering perspective shifts in relationships (e.g., 'Har Baar Sorry Bolne Wala Galat Nahi Hota', 392 views) performs better than purely depressive or melancholic content.",
+      "action": "Frame emotional hooks around common misunderstandings or unappreciated gestures between partners."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sad Poetry/Shayari",
-      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 21 views.",
-      "action": "Avoid abstract, overly poetic, or cryptic shayari titles; ground content in concrete real-life observations."
+      "pattern": "Abstract or Hardcore Poetry / Shayari",
+      "evidence": "Titles like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' (21 views) and 'बहन सिर्फ घर की रौनक होती है' (19 views) generated very low engagement.",
+      "action": "Avoid heavy, literary, or overly poetic titles; stick to grounded, conversational observations."
+    },
+    {
+      "pattern": "Low Sample Family Tropes without Conflict",
+      "evidence": "Generic family tribute videos without a relatable behavioral tension struggle to cross 200 views.",
+      "action": "Ensure family or relationship content highlights a specific everyday emotional friction point rather than a blanket statement."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "नस्टेल्जिया और अकेलापन",
-    "hook_style": "Real-life observation about changing priorities after marriage",
+    "emotion": "नस्टैल्जिया और गिल्ट (Nostalgia and Guilt)",
+    "hook_style": "Conversational observation about how silence creeps into long-term bonds",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A realization about how late-night phone calls with best friends turn into formal festival greetings after marriage.",
-    "opening_direction": "Start with a simple question: 'शादी के बाद यार कहाँ खो जाते हैं?' showing two cups of tea on a table.",
-    "twist_direction": "End with the emotional realization: Now the group chat is active only on birthdays, but the phone memory still holds the midnight cries.",
+    "concept": "A reflection on how long-term partners stop fighting and start staying quiet, mistaking peace for emotional distance.",
+    "opening_direction": "जब इंसान झगड़ना छोड़ दे, तो समझो रिश्ता सुधर नहीं रहा, बल्कि खत्म होने की तैयारी में है।",
+    "twist_direction": "असली डर तब नहीं होता जब वो चिल्लाती है, डर तब होता है जब वो तुम्हारी हर बात पर बस 'ठीक है' कहकर बात खत्म कर देती है।",
     "duration_seconds": 45,
-    "posting_window": "07:00 PM - 08:30 PM",
-    "reason": "Aligns with the proven high-performing relationship/life reality niche while testing friendship dynamics as a sub-theme."
+    "posting_window": "13:00 - 15:00 IST",
+    "reason": "Building directly on the proven success of husband-wife and relationship dynamic themes (similar to the 1.7k+ view outliers) while sharpening the emotional twist to boost average view duration."
   },
-  "experiment": "Testing if relationship-focused storytelling can successfully expand into lost friendships/peer group dynamics.",
-  "updated_at": "2026-11-20T03:39:10.445834+00:00",
+  "experiment": "Testing if a deeper psychological realization about marital silence performs comparably to direct relationship advice questions.",
+  "updated_at": "2026-11-20T13:26:12.000195+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-20T03:39:12.793572+00:00"
+  "generated_at": "2026-11-20T13:26:19.861154+00:00"
 }
