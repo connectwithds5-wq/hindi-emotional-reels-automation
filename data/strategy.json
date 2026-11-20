@@ -1,45 +1,45 @@
 {
-  "confidence": "45%",
+  "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "The historical performance indicates that broad emotional relationship topics involving husband-wife dynamics significantly outperform generic sad shayaris, individual family member tropes, or deep philosophical quotes. Content addressing everyday relationship friction and mutual understanding yields thousands of views compared to double-digit views for abstract poetry.",
+  "overall_summary": "Analysis of the data reveals that husband-wife and relationship dynamic topics significantly outperform standard poetry or family member spotlights, with videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,770 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,679 views) generating the highest engagement on the channel.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1770 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1679 views) massively outperform all other topics.",
-      "action": "Focus heavily on couple dynamics, unspoken marital expectations, and everyday relationship evolution."
+      "pattern": "Husband-Wife Relationship Dilemmas",
+      "evidence": "Videos focusing on post-marriage love and partner understanding achieved over 1,600+ views, significantly higher than general poetry or other family members.",
+      "action": "Double down on husband-wife relationship themes, focusing on unspoken emotional distance or daily compromises."
     },
     {
-      "pattern": "Actionable Empathy / Relationship Advice",
-      "evidence": "Content offering perspective shifts in relationships (e.g., 'Har Baar Sorry Bolne Wala Galat Nahi Hota', 392 views) performs better than purely depressive or melancholic content.",
-      "action": "Frame emotional hooks around common misunderstandings or unappreciated gestures between partners."
+      "pattern": "Direct, Question-Based Titles",
+      "evidence": "Titles framed as probing psychological questions about relationship realities (e.g., 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?') drive high click-through and view counts.",
+      "action": "Continue framing hooks around relatable relational questions that trigger immediate introspection."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract or Hardcore Poetry / Shayari",
-      "evidence": "Titles like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' (21 views) and 'बहन सिर्फ घर की रौनक होती है' (19 views) generated very low engagement.",
-      "action": "Avoid heavy, literary, or overly poetic titles; stick to grounded, conversational observations."
+      "pattern": "Overly Abstract Sad Shayari",
+      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 21 views, indicating poor reach for overly poetic or abstract negativity.",
+      "action": "Avoid abstract poetic rants; anchor emotional concepts in grounded, observable everyday life moments."
     },
     {
-      "pattern": "Low Sample Family Tropes without Conflict",
-      "evidence": "Generic family tribute videos without a relatable behavioral tension struggle to cross 200 views.",
-      "action": "Ensure family or relationship content highlights a specific everyday emotional friction point rather than a blanket statement."
+      "pattern": "Low-Sample Niche Expansion",
+      "evidence": "Videos targeting specific extended topics like sister dynamics ('बहन सिर्फ घर की रौनक होती है') yielded very low views (19 views), showing lack of core audience traction there.",
+      "action": "Pause niche family member expansions and pivot back strictly to core relationship and self-reflection themes."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "नस्टैल्जिया और गिल्ट (Nostalgia and Guilt)",
-    "hook_style": "Conversational observation about how silence creeps into long-term bonds",
+    "emotion": "Melancholic realization",
+    "hook_style": "Observational silent moment",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A reflection on how long-term partners stop fighting and start staying quiet, mistaking peace for emotional distance.",
-    "opening_direction": "जब इंसान झगड़ना छोड़ दे, तो समझो रिश्ता सुधर नहीं रहा, बल्कि खत्म होने की तैयारी में है।",
-    "twist_direction": "असली डर तब नहीं होता जब वो चिल्लाती है, डर तब होता है जब वो तुम्हारी हर बात पर बस 'ठीक है' कहकर बात खत्म कर देती है।",
-    "duration_seconds": 45,
-    "posting_window": "13:00 - 15:00 IST",
-    "reason": "Building directly on the proven success of husband-wife and relationship dynamic themes (similar to the 1.7k+ view outliers) while sharpening the emotional twist to boost average view duration."
+    "concept": "A couple sitting in complete silence in the living room, scrolling phones, realizing they have nothing left to say to each other despite living under the same roof.",
+    "opening_direction": "Start with the sound of a ticking clock and two cups of cold tea untouched on the table between a husband and wife.",
+    "twist_direction": "The realization that the biggest distance in a marriage isn't a fight, but the polite silence where words are measured and feelings are hidden.",
+    "duration_seconds": 35,
+    "posting_window": "07:00 PM - 09:00 PM",
+    "reason": "Aligns with the proven high-performing husband-wife relationship cluster, tapping into adult overthinking and late-night emotional resonance."
   },
-  "experiment": "Testing if a deeper psychological realization about marital silence performs comparably to direct relationship advice questions.",
-  "updated_at": "2026-11-20T13:26:12.000195+00:00",
+  "experiment": "Testing a purely visual, silent-start hook focused on modern marital distance instead of a direct text question to see if retention improves.",
+  "updated_at": "2026-11-20T21:25:44.840817+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-20T13:26:19.861154+00:00"
+  "generated_at": "2026-11-20T21:25:47.366929+00:00"
 }
