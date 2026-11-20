@@ -1,45 +1,35 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Data clearly shows that complex shayaris or niche family relationships (like sister) underperform, while mature husband-wife relationship dynamics and everyday relationship realities drive significantly higher views (1,600+ views).",
+  "overall_summary": "Analysis of historical performance shows that content centered around husband-wife relationship dynamics (e.g., 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1770 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1679 views) significantly outperforms broad shayari, family bonds, or generic emotional shorts. Topics exploring modern relationship realities and compromises generate higher engagement.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife and Long-term Relationship Realities",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,770 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,679 views) vastly outperformed all other content.",
-      "action": "Double down on married life, fading romance, and deep-seated partner understanding."
-    },
-    {
-      "pattern": "Conversational Reality Hook",
-      "evidence": "Questions directly challenging relationship assumptions (e.g., 'Har Baar Sorry Bolne Wala Galat Nahi Hota') pulled solid mid-tier views (392 views).",
-      "action": "Use conversational, eye-opening questions about modern relationships as hooks."
+      "pattern": "Husband-Wife Relationship Dilemmas",
+      "evidence": "Videos focusing on married life friction and understanding between partners achieved peak views (1600-1700+ views compared to 20-300 views for other categories).",
+      "action": "Double down on married life realities, unsaid expectations, and emotional distance after marriage."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Heavy Poetic Shayari with Complex Vocabulary",
-      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 21 views.",
-      "action": "Avoid heavy, dramatic Urdu/Hindi poetic wording; stick to conversational emotional prose."
-    },
-    {
-      "pattern": "Niche Family Member Segments (Sister)",
-      "evidence": "Sister-focused videos struggled significantly with 19 and 139 views.",
-      "action": "Deprioritize standalone sister themes and pivot toward core romantic relationships."
+      "pattern": "Generic Sad Poetry/Shayari",
+      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 21 views.",
+      "action": "Avoid abstract, overly poetic, or cryptic shayari titles; ground content in concrete real-life observations."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "नस्टेल्जिया और इमोशनल रिलाइजेशन",
-    "hook_style": "सवाल पूछने वाला हुक",
+    "emotion": "नस्टेल्जिया और अकेलापन",
+    "hook_style": "Real-life observation about changing priorities after marriage",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "पुरानी चैट और आज की खामोशी के बीच का फासला, जहां प्यार खत्म नहीं होता बल्कि आदतें बदल जाती हैं।",
-    "opening_direction": "रात के 2 बजे उसकी पुरानी चैट स्क्रॉल करते हुए जब वो मैसेज दिखता है-'अपना ख्याल रखना'।",
-    "twist_direction": "आज पास होकर भी हाल पूछने का हक नहीं बचा, सिर्फ नंबर सेव है पर बातचीत का नामोनिशान नहीं।",
-    "duration_seconds": 35,
-    "posting_window": "शाम 01:00 PM - 03:00 PM",
-    "reason": "Husband-wife and relationship reality themes have proven to be top performers; a relatable moment about post-breakup or distant partner dynamics captures high watch time."
+    "concept": "A realization about how late-night phone calls with best friends turn into formal festival greetings after marriage.",
+    "opening_direction": "Start with a simple question: 'शादी के बाद यार कहाँ खो जाते हैं?' showing two cups of tea on a table.",
+    "twist_direction": "End with the emotional realization: Now the group chat is active only on birthdays, but the phone memory still holds the midnight cries.",
+    "duration_seconds": 45,
+    "posting_window": "07:00 PM - 08:30 PM",
+    "reason": "Aligns with the proven high-performing relationship/life reality niche while testing friendship dynamics as a sub-theme."
   },
-  "experiment": "Testing if a transition from married life dynamics back to raw past-relationship nostalgia can replicate the high views of the top-performing relationship shorts.",
-  "updated_at": "2026-11-19T22:22:44.942550+00:00",
+  "experiment": "Testing if relationship-focused storytelling can successfully expand into lost friendships/peer group dynamics.",
+  "updated_at": "2026-11-20T03:39:10.445834+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-19T22:22:47.701047+00:00"
+  "generated_at": "2026-11-20T03:39:12.793572+00:00"
 }
