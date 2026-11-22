@@ -1,40 +1,40 @@
 {
-  "confidence": "65%",
+  "confidence": "70%",
   "data_points": 14,
-  "overall_summary": "Analysis of the performance data reveals that relationship dynamics between partners (Husband-Wife) significantly outperform general philosophical shayari or isolated family member tributes. Specifically, videos focusing on marital conflicts and post-marriage realities generated the highest views (1,770 and 1,679 views), indicating strong audience engagement with complex relationship realities rather than broad motivational or standalone family content.",
+  "overall_summary": "Husband-wife/marriage relationship dynamics significantly outperform all other topics (achieving ~1.7k-1.8k views vs 20-300 views for family/generic shayari). Focus on everyday post-marriage silent disconnects and unexpressed feelings.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Dilemmas",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,770 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,679 views) drastically outperformed all other topics.",
-      "action": "Double down on complex, relatable husband-wife emotional realities and unspoken marital tensions."
+      "pattern": "Husband-Wife Relational Disconnect",
+      "evidence": "Shaadi Ke Baad Pyaar Kahan Chala Gaya? (1,770 views) and Wife Emotional Video (1,679 views) are the top 2 performing videos by a massive margin.",
+      "action": "Double down on real-life married dynamics, silent unspoken sacrifices, and evolving dynamics after marriage."
     },
     {
-      "pattern": "Direct Question Hooks about Relatable Realities",
-      "evidence": "Titles framed as a direct question about daily relationship struggles command higher baseline views.",
-      "action": "Use conversational, piercing questions addressing everyday relationship friction as titles and hooks."
+      "pattern": "Question/Perspective Hook on Relationships",
+      "evidence": "Titles framing a relatable dilemma ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?') drove high engagement and retention.",
+      "action": "Start videos with direct, relatable everyday questions about relational habits."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Niche Family Member Tributes",
-      "evidence": "Videos about sisters (jfmMztnam_A: 19 views, fAAoIQCRMXU: 140 views) and heavy abstract shayari (YdWh4cDOE64: 21 views) performed poorly.",
-      "action": "Avoid isolated sibling tributes and overly dramatic, abstract shayari; anchor content in shared domestic or romantic experiences."
+      "pattern": "Generic Sad/Poetic Shayari & Broad Melodrama",
+      "evidence": "DIL TAPAKING poetic shayari like 'षड्यंत्र लिखूंगा' got only 21 views, Sister videos got 19-140 views.",
+      "action": "Avoid abstract poetic lines or overused sibling tropes that lack specific emotional situational hooks."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "अधूरी मोहब्बत / समझदारी",
-    "hook_style": "Real-life observation about unspoken distance between partners",
+    "emotion": "Silent Pain & Reflection",
+    "hook_style": "Relatable Real-Life Observation",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple sitting in the same room on their phones for hours without speaking a word, highlighting how physical presence remains while emotional distance grows.",
-    "opening_direction": "Start with the sound of notification rings and a silent living room where two cups of tea grow cold on the table.",
-    "twist_direction": "The realization that worst fights don't end in screaming matches; they end when both stop trying to explain themselves.",
-    "duration_seconds": 45,
-    "posting_window": "13:00 - 15:00",
-    "reason": "Building directly on the proven high-performing husband-wife/relationship theme while keeping the emotional tone grounded in daily modern life observations."
+    "concept": "The silence in the room after years of marriage isn't lack of love, but unspoken exhaustion.",
+    "opening_direction": "Show a tea cup placed on a table next to a husband scrolling on his phone without looking up.",
+    "twist_direction": "Reveal that she didn't leave the room out of anger, but to hide her teary eyes because she remembers when they used to talk till 2 AM.",
+    "duration_seconds": 25,
+    "posting_window": "13:00-14:00 IST (aligned with lunch-hour active window of top performing videos)",
+    "reason": "Leverages the proven high-performing Husband-Wife emotional theme while grounded in a specific, visual real-life moment."
   },
-  "experiment": "Testing whether micro-moments of emotional detachment in modern marriage outperform broader philosophical relationship questions.",
-  "updated_at": "2026-11-21T19:38:27.812385+00:00",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-21T19:38:30.492261+00:00"
+  "experiment": "Testing if showing silent non-verbal reactions (tea cup, phone distraction) boosts retention compared to direct voiceover dialogue.",
+  "updated_at": "2026-11-22T00:33:54.342934+00:00",
+  "model_used": "gemini-3.6-flash",
+  "generated_at": "2026-11-22T00:34:01.231897+00:00"
 }
