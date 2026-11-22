@@ -1,40 +1,45 @@
 {
-  "confidence": "70%",
+  "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Husband-wife/marriage relationship dynamics significantly outperform all other topics (achieving ~1.7k-1.8k views vs 20-300 views for family/generic shayari). Focus on everyday post-marriage silent disconnects and unexpressed feelings.",
+  "overall_summary": "Data shows clear audience preference for husband-wife relationship dynamics (over 1,600+ views) compared to generic sad poetry or family tropes, proving that deep, relatable domestic emotional conflicts drive the highest engagement.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relational Disconnect",
-      "evidence": "Shaadi Ke Baad Pyaar Kahan Chala Gaya? (1,770 views) and Wife Emotional Video (1,679 views) are the top 2 performing videos by a massive margin.",
-      "action": "Double down on real-life married dynamics, silent unspoken sacrifices, and evolving dynamics after marriage."
+      "pattern": "Husband-Wife Relationship Dynamics",
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,770 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,679 views) massively outperformed all other topics.",
+      "action": "Double down on marital and long-term relationship emotional realities."
     },
     {
-      "pattern": "Question/Perspective Hook on Relationships",
-      "evidence": "Titles framing a relatable dilemma ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?') drove high engagement and retention.",
-      "action": "Start videos with direct, relatable everyday questions about relational habits."
+      "pattern": "Direct Question-Based Hooks",
+      "evidence": "Titles framing a relatable psychological question about love or regret (e.g., 'Har Baar Sorry Bolne Wala Galat Nahi Hota', 392 views) hold attention better than abstract shayari.",
+      "action": "Use conversational, direct-address questions about everyday relationship struggles."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sad/Poetic Shayari & Broad Melodrama",
-      "evidence": "DIL TAPAKING poetic shayari like 'षड्यंत्र लिखूंगा' got only 21 views, Sister videos got 19-140 views.",
-      "action": "Avoid abstract poetic lines or overused sibling tropes that lack specific emotional situational hooks."
+      "pattern": "Abstract Sad Shayari / Generic Poetry",
+      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 21 views, showing low initial click-through and hook retention.",
+      "action": "Avoid overly dramatic, poetic phrasing in favor of grounded, real-life situational observations."
+    },
+    {
+      "pattern": "Low-Sample Family Tropes",
+      "evidence": "General family videos outside of core marital dynamics showed inconsistent or low numbers (e.g., sister emotional video at 19 views).",
+      "action": "Keep family content strictly tied to partner dynamics or universal silent sacrifices."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Silent Pain & Reflection",
-    "hook_style": "Relatable Real-Life Observation",
+    "emotion": "अधूरी मोहब्बत / ठहराव",
+    "hook_style": "Real-life observation about unspoken distance between couples",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "The silence in the room after years of marriage isn't lack of love, but unspoken exhaustion.",
-    "opening_direction": "Show a tea cup placed on a table next to a husband scrolling on his phone without looking up.",
-    "twist_direction": "Reveal that she didn't leave the room out of anger, but to hide her teary eyes because she remembers when they used to talk till 2 AM.",
-    "duration_seconds": 25,
-    "posting_window": "13:00-14:00 IST (aligned with lunch-hour active window of top performing videos)",
-    "reason": "Leverages the proven high-performing Husband-Wife emotional theme while grounded in a specific, visual real-life moment."
+    "concept": "A realization about how silence in a long marriage is louder than arguments, focusing on the moment a couple stops fighting and starts ignoring.",
+    "opening_direction": "जब दो लोग झगड़ना बंद कर दें, तो समझ लेना रिश्ता सुधर नहीं रहा, बल्कि खत्म हो रहा है।",
+    "twist_direction": "असली दर्द तब नहीं होता जब बातें होना बंद हो जाती हैं, दर्द तब होता है जब एक-दूसरे का ऑनलाइन स्टेटस देखना भी छोड़ देते हैं।",
+    "duration_seconds": 35,
+    "posting_window": "07:00 PM - 09:00 PM",
+    "reason": "Leverages the proven high-performing husband-wife / relationship friction pattern with an emotional twist on silent heartbreak."
   },
-  "experiment": "Testing if showing silent non-verbal reactions (tea cup, phone distraction) boosts retention compared to direct voiceover dialogue.",
-  "updated_at": "2026-11-22T00:33:54.342934+00:00",
-  "model_used": "gemini-3.6-flash",
-  "generated_at": "2026-11-22T00:34:01.231897+00:00"
+  "experiment": "Testing a direct psychological observation about silent marital detachment versus active conflict to see if it matches the high view counts of previous relationship shorts.",
+  "updated_at": "2026-11-22T08:30:44.877769+00:00",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-11-22T08:30:51.294024+00:00"
 }
