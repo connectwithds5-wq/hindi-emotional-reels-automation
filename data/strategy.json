@@ -1,45 +1,35 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Data clearly shows that complex poetic shayari or general life lessons perform poorly (21-150 views), whereas deep-rooted relationship dynamics and family/partner realities (specifically husband-wife and romantic understanding) are massive outliers driving 1,600+ views.",
+  "overall_summary": "Husband-wife relationship dynamics consistently outperform all other topics by an order of magnitude (1,600+ views vs <400 average). Generic Shayari and preachy advice underperform.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,770 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,679 views) heavily outperform everything else.",
-      "action": "Double down on mature relationship compromises, unspoken marital bonds, and love post-marriage."
-    },
-    {
-      "pattern": "Direct Relatable Communication",
-      "evidence": "Titles framing a direct observation or situational truth (e.g., 'Har Baar Sorry Bolne Wala Galat Nahi Hota' at 392 views) outpace vague poetry.",
-      "action": "Use conversational, grounded relationship statements as hooks instead of high-level philosophical quotes."
+      "pattern": "Husband & Wife / Marital Relationship Reality",
+      "evidence": "Top 2 videos ('Shaadi Ke Baad Pyaar...' - 1770 views, 'पत्नी की ये बात...' - 1679 views) generated over 70% of total channel views.",
+      "action": "Focus core content strategy around subtle everyday marital emotional friction, quiet care, and realistic long-term relationship realization."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Sad Shayari / Poetic phrasing",
-      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 21 views.",
-      "action": "Avoid overly dramatic, poetic, or cryptic shayari titles. Keep the language natural and spoken."
-    },
-    {
-      "pattern": "Generic Family Video Without Nuance",
-      "evidence": "First upload of the sister video got 19 views (though re-uploaded did slightly better, the core topic is weaker than marital bonds).",
-      "action": "Prioritize husband-wife and deep emotional relationship dynamics over general family compilation tropes."
+      "pattern": "Generic Sad Shayari & Preachy Moral Lessons",
+      "evidence": "'जिस दिन सच लिखूंगा...' got 21 views; preachy/parenting videos stay under 200 views.",
+      "action": "Avoid abstract poetic phrasing and lecture-style advice; replace with specific, observable real-life moments."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "नुकसान और पछतावा",
-    "hook_style": "Situation-based direct statement about relationship communication breakdown",
+    "emotion": "Quiet heartbreak & unsaid realization",
+    "hook_style": "Relatable marital routine observation",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple who lives under the same roof but has stopped talking about their day, highlighting how silence in a house hurts more than a fight.",
-    "opening_direction": "लड़ाई होना तो फिर भी ठीक है, असली डर तो तब है जब घर में बातें होना बंद हो जाएं।",
-    "twist_direction": "बाद में पता चलता है कि ईगो की इस खामोशी ने दो दिलों के बीच हफ्तों की दूरियां बना दीं।",
-    "duration_seconds": 35,
-    "posting_window": "13:00 - 15:00",
-    "reason": "Mirrors the exact high-performing husband-wife relationship pattern seen in 'Shaadi Ke Baad Pyaar Kahan Chala Gaya' and 'Har Baar Sorry Bolne Wala Galat Nahi Hota'."
+    "concept": "A wife quietely serving tea to her husband who is glued to his phone screen.",
+    "opening_direction": "Show a cup of tea being placed on the table next to a husband scrolling on his phone without looking up.",
+    "twist_direction": "The voiceover reflects on how two people can sit in the same quiet room for hours, missing the silence they used to share.",
+    "duration_seconds": 22,
+    "posting_window": "07:30 - 09:30 UTC",
+    "reason": "Leverages the proven high-performing theme of marital dynamics, using a specific visual slice-of-life hook rather than generic quotes."
   },
-  "experiment": "Testing if shifting the husband-wife relationship angle toward 'silent treatment / lack of communication' sustains the 1000+ view baseline established by previous relationship shorts.",
-  "updated_at": "2026-11-22T22:40:47.030329+00:00",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-22T22:40:51.623223+00:00"
+  "experiment": "Testing whether slice-of-life domestic scenarios sustain the higher view baseline of husband-wife content compared to text/podcast formats.",
+  "updated_at": "2026-11-23T03:53:30.841407+00:00",
+  "model_used": "gemini-3.6-flash",
+  "generated_at": "2026-11-23T03:53:53.048516+00:00"
 }
