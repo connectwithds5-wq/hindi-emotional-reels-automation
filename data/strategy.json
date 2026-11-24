@@ -1,45 +1,45 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Husband-Wife relationship topics consistently outperform all other content pillars on the channel by over 5x-8x in views and engagement, while abstract shayari and general sibling videos underperform.",
+  "overall_summary": "Analysis of the performance data reveals a clear outlier preference for husband-wife relationship dynamics ('Shaadi Ke Baad Pyaar Kahan Chala Gaya' with 1770 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1679 views). General sad shayari or niche family videos performed significantly lower, indicating that mature relationship realism drives the highest engagement for this channel.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife / Marriage dynamics",
-      "evidence": "Videos about married life ('Shaadi Ke Baad Pyaar...' - 1,770 views, 'Patni Ki Ye Baat...' - 1,679 views) generated the highest views and likes on the channel.",
-      "action": "Double down on relatable, nuanced marriage micro-dramas and subtle relational friction."
+      "pattern": "Husband-Wife Relationship Realism",
+      "evidence": "Videos focusing on post-marriage realities and spousal understanding achieved nearly 1,800 views, outperforming all other topics by a factor of 4x to 10x.",
+      "action": "Double down on adult relationship dynamics, compromise, and modern marital emotional disconnect."
     },
     {
-      "pattern": "Relatable relationship conflicts with empathetic framing",
-      "evidence": "'Har Baar Sorry Bolne Wala...' gained 392 views compared to poetry/shayari videos.",
-      "action": "Focus hooks on unsaid emotional compromises in daily routines."
+      "pattern": "Direct Question Hooks",
+      "evidence": "Titles framing a direct emotional question about relationships ('Shaadi Ke Baad...', 'Har Baar Sorry Bolne Wala...') successfully drove initial clicks.",
+      "action": "Continue using direct, relatable relationship questions as titles and hooks."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract / High-level Hindi Shayari",
-      "evidence": "'Jis Din Sach Likhoonga...' got only 21 views.",
-      "action": "Avoid generic poetic lines without concrete real-life situations."
+      "pattern": "Generic Sad Shayari / Abstract Pain",
+      "evidence": "Abstract sad poetry like 'जिस दिन सच लिखूंगा…' only generated 21 views.",
+      "action": "Avoid abstract poetic rants; anchor all emotional content in grounded, everyday scenarios."
     },
     {
-      "pattern": "Generic Sibling Appreciation",
-      "evidence": "Sister videos scored between 19 and 140 views.",
-      "action": "Deprioritize generic appreciation shorts unless paired with a strong situational hook."
+      "pattern": "Low-sample Family Filler",
+      "evidence": "Certain family sub-topics (like sisters) without a strong situational hook barely registered traffic (19 views).",
+      "action": "Filter out generic familial tropes unless tied to a specific, tense emotional realization."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Bittersweet / Empathy",
-    "hook_style": "Observation-driven everyday scenario",
+    "emotion": "Melancholy and Realization",
+    "hook_style": "Direct relationship observation questioning unspoken distance.",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A husband notices his wife slowly stopping her habit of complaining about little things, realizing that silence isn't peace—it's distance.",
-    "opening_direction": "Show or describe a husband making a mistake (like coming home late or leaving clothes around) expecting his wife to scold him as usual.",
-    "twist_direction": "Instead of scolding, she silently picks it up without a word. He realizes that her anger meant she cared, but her quietness means she's mentally checked out.",
-    "duration_seconds": 25,
-    "posting_window": "13:00 - 14:00 PM IST",
-    "reason": "Top performer 'Shaadi Ke Baad Pyaar' hit peak traction posted at 13:12 IST, catering to adult audiences during afternoon micro-breaks."
+    "concept": "A couple sitting in complete silence in the same room, realizing the distance between them is no longer physical, but emotional.",
+    "opening_direction": "Start with the sound of a ticking clock and a husband scrolling on his phone while his wife stares out the window.",
+    "twist_direction": "The realization that they haven't had a real conversation in days, yet they both know everything about each other's silence.",
+    "duration_seconds": 45,
+    "posting_window": "07:00 PM - 09:00 PM",
+    "reason": "Aligns with the proven high-performing husband-wife relationship niche while leveraging an evening slot when viewers reflect on personal life and relationships."
   },
-  "experiment": "Testing if shifting focus from 'wife's perspective' to 'husband's silent realization' increases comment rate and retention among male audience segments.",
-  "updated_at": "2026-11-24T12:51:14.331606+00:00",
-  "model_used": "gemini-3.6-flash",
-  "generated_at": "2026-11-24T12:51:24.136050+00:00"
+  "experiment": "Testing if shifting the husband-wife angle from daytime posting to evening prime-time increases comment and share rates.",
+  "updated_at": "2026-11-24T23:11:30.466731+00:00",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-11-24T23:11:33.418246+00:00"
 }
