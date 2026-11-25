@@ -1,45 +1,35 @@
 {
-  "confidence": "65%",
+  "confidence": "75%",
   "data_points": 14,
-  "overall_summary": "Analysis of the performance data reveals a clear outlier preference for husband-wife relationship dynamics ('Shaadi Ke Baad Pyaar Kahan Chala Gaya' with 1770 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1679 views). General sad shayari or niche family videos performed significantly lower, indicating that mature relationship realism drives the highest engagement for this channel.",
+  "overall_summary": "The channel shows a clear preference for 'Husband-Wife' relationship dynamics over generic family or motivational content. The top two performing videos (1770 and 1679 views) focus on marital empathy and communication, significantly outperforming other topics.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Realism",
-      "evidence": "Videos focusing on post-marriage realities and spousal understanding achieved nearly 1,800 views, outperforming all other topics by a factor of 4x to 10x.",
-      "action": "Double down on adult relationship dynamics, compromise, and modern marital emotional disconnect."
-    },
-    {
-      "pattern": "Direct Question Hooks",
-      "evidence": "Titles framing a direct emotional question about relationships ('Shaadi Ke Baad...', 'Har Baar Sorry Bolne Wala...') successfully drove initial clicks.",
-      "action": "Continue using direct, relatable relationship questions as titles and hooks."
+      "pattern": "Marital/Relationship Empathy",
+      "evidence": "Videos regarding husband-wife dynamics consistently hit 1500+ views, whereas family/general emotional videos average under 300.",
+      "action": "Double down on 'Husband-Wife' relationship realities."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sad Shayari / Abstract Pain",
-      "evidence": "Abstract sad poetry like 'जिस दिन सच लिखूंगा…' only generated 21 views.",
-      "action": "Avoid abstract poetic rants; anchor all emotional content in grounded, everyday scenarios."
-    },
-    {
-      "pattern": "Low-sample Family Filler",
-      "evidence": "Certain family sub-topics (like sisters) without a strong situational hook barely registered traffic (19 views).",
-      "action": "Filter out generic familial tropes unless tied to a specific, tense emotional realization."
+      "pattern": "Generic Family/Motivational Quotes",
+      "evidence": "Videos about sisters or general motivation struggle to break 200 views.",
+      "action": "Shift focus away from generic family tropes unless they involve specific, high-tension relationship conflicts."
     }
   ],
   "next_video": {
-    "topic": "रिश्ते",
-    "emotion": "Melancholy and Realization",
-    "hook_style": "Direct relationship observation questioning unspoken distance.",
-    "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple sitting in complete silence in the same room, realizing the distance between them is no longer physical, but emotional.",
-    "opening_direction": "Start with the sound of a ticking clock and a husband scrolling on his phone while his wife stares out the window.",
-    "twist_direction": "The realization that they haven't had a real conversation in days, yet they both know everything about each other's silence.",
+    "topic": "Husband Wife Relationship",
+    "emotion": "Melancholy/Realization",
+    "hook_style": "Direct question about a hidden marital struggle",
+    "story_structure": "Wife working silently in the kitchen -> The husband notices her tired expression but says nothing -> The twist is that she was waiting for him to ask 'how was your day' instead of 'what is for dinner'.",
+    "concept": "The silence between a couple after a long day.",
+    "opening_direction": "Start with a close-up of a clock ticking at 9 PM, showing the distance between two people on a sofa.",
+    "twist_direction": "Reveal that the biggest fights aren't about words, but about the things left unsaid.",
     "duration_seconds": 45,
-    "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Aligns with the proven high-performing husband-wife relationship niche while leveraging an evening slot when viewers reflect on personal life and relationships."
+    "posting_window": "07:00 AM - 08:00 AM IST",
+    "reason": "Matches the high-performing 'Husband-Wife' category and targets the morning commute/routine audience."
   },
-  "experiment": "Testing if shifting the husband-wife angle from daytime posting to evening prime-time increases comment and share rates.",
-  "updated_at": "2026-11-24T23:11:30.466731+00:00",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-24T23:11:33.418246+00:00"
+  "experiment": "Testing a 'silent observation' narrative style instead of voice-over heavy shayari to see if visual storytelling increases retention.",
+  "updated_at": "2026-11-25T05:35:34.199688+00:00",
+  "model_used": "gemini-3.1-flash-lite",
+  "generated_at": "2026-11-25T05:35:38.677396+00:00"
 }
