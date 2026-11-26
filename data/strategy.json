@@ -1,45 +1,35 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "The channel 'Dil Ki Diary' clearly outperforms when focusing on husband-wife relationships, family dynamics, and emotional relationship realizations, while generic sad poetry or motivational videos receive significantly lower engagement.",
+  "overall_summary": "Data shows clear outlier success in husband-wife relationship dynamics (e.g., 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1,770 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1,679 views). General sad poetry or niche family dynamics performed poorly compared to mature relationship realities.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Dilemmas",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,770 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,679 views) drastically outperformed all other content.",
-      "action": "Double down on complex, mature relationship moments between married or long-term partners."
-    },
-    {
-      "pattern": "Conversational Interpersonal Realities",
-      "evidence": "Videos centered around common arguments or silent communication gaps ('Har Baar Sorry Bolne Wala Galat Nahi Hota' with 392 views) perform better than abstract heartbreak shayari.",
-      "action": "Focus on unsaid words and everyday misunderstandings in close relationships."
+      "pattern": "Husband-Wife Relationship Realities",
+      "evidence": "Videos focusing on post-marriage love and partner understanding ('my5mP9feI7s', 'or5gtaBpRVY') generated massive view spikes (1,600+ views), far outperforming standard emotional poetry.",
+      "action": "Double down on mature relationship dynamics, unspoken marital compromises, and everyday friction."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract or Generic Sad Poetry",
-      "evidence": "Video 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा 💔' received only 21 views.",
-      "action": "Avoid overly dramatic or vague poetic statements; keep the narrative grounded in realistic scenarios."
-    },
-    {
-      "pattern": "Low-sample Family Filler Variations",
-      "evidence": "Duplicate or lower-effort family variations like 'बहन सिर्फ घर की रौनक होती है' received as low as 19 views.",
-      "action": "Avoid rapid repetition of the exact same sub-niche without a fresh, compelling perspective."
+      "pattern": "Generic Sad Shayari & Overly Abstract Poetry",
+      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' (YdWh4cDOE64) stalled at 21 views.",
+      "action": "Avoid abstract or overly theatrical shayari; ground the emotion in concrete, recognizable everyday interactions."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "निराशा और पछतावा",
-    "hook_style": "Real-life observation",
+    "emotion": "Nostalgia and silent realization",
+    "hook_style": "Questioning a subtle change in daily habits after a few years of marriage",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "जब रात के 2 बजे अचानक फोन की घंटी बजती है और कोई जवाब नहीं देता, तब समझ आता है कि नाराजगी से ज्यादा जरूरी वो इंसान था।",
-    "opening_direction": "रात के सन्नाटे में स्क्रीन पर जलती हुई ब्लू लाइट और एक अनकही सी खामोशी।",
-    "twist_direction": "नंबर उसका ही था, बस अब ब्लॉक लिस्ट से हट चुका था, लेकिन बात करने वाला वक्त निकल चुका था।",
+    "concept": "A realization of how late-night conversations between a couple turn into silent scrolling on phones, and the quiet ache of missing the person sitting right next to you.",
+    "opening_direction": "Start with a quiet visual of two cups of tea getting cold while both partners look at their respective phone screens in bed.",
+    "twist_direction": "The realization that physical closeness doesn't mean emotional presence, and a simple text sent to each other replaces speaking out loud.",
     "duration_seconds": 35,
-    "posting_window": "13:00 - 15:00",
-    "reason": "Matches the proven success of relationship and late-night thought themes ('रात के ख्याल' & 'रिश्ते') with high emotional resonance."
+    "posting_window": "07:00 PM - 09:00 PM",
+    "reason": "Aligns with the proven high-performing husband-wife relationship topic, capturing peak evening scrolling behavior when working adults reflect on their personal lives."
   },
-  "experiment": "Testing if combining late-night overthinking ('रात के ख्याल') with a husband-wife or close relationship regret dynamic can bridge the gap toward the 1,500+ view tier established by the top relationship shorts.",
-  "updated_at": "2026-11-26T01:07:06.398064+00:00",
+  "experiment": "Testing if shifting the husband-wife relationship angle from conflict/advice to a silent emotional observation increases retention.",
+  "updated_at": "2026-11-26T09:51:31.295258+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-26T01:07:09.355174+00:00"
+  "generated_at": "2026-11-26T09:51:33.475063+00:00"
 }
