@@ -1,29 +1,45 @@
 {
-  "confidence": "45%",
+  "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Current leader: Shaadi Ke Baad Pyaar Kahan Chala Gaya? ❤️‍🩹 | Husband Wife Relationship | Hindi Shorts with 1770 views; sample size is still small, so this is directional.",
+  "overall_summary": "The channel 'Dil Ki Diary' clearly outperforms when focusing on husband-wife relationships, family dynamics, and emotional relationship realizations, while generic sad poetry or motivational videos receive significantly lower engagement.",
   "winning_patterns": [
     {
-      "pattern": "Highest observed views",
-      "evidence": "1770 views on current leader",
-      "action": "Test a related emotional situation without copying the wording."
+      "pattern": "Husband-Wife Relationship Dilemmas",
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,770 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,679 views) drastically outperformed all other content.",
+      "action": "Double down on complex, mature relationship moments between married or long-term partners."
+    },
+    {
+      "pattern": "Conversational Interpersonal Realities",
+      "evidence": "Videos centered around common arguments or silent communication gaps ('Har Baar Sorry Bolne Wala Galat Nahi Hota' with 392 views) perform better than abstract heartbreak shayari.",
+      "action": "Focus on unsaid words and everyday misunderstandings in close relationships."
     }
   ],
-  "weak_patterns": [],
+  "weak_patterns": [
+    {
+      "pattern": "Abstract or Generic Sad Poetry",
+      "evidence": "Video 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा 💔' received only 21 views.",
+      "action": "Avoid overly dramatic or vague poetic statements; keep the narrative grounded in realistic scenarios."
+    },
+    {
+      "pattern": "Low-sample Family Filler Variations",
+      "evidence": "Duplicate or lower-effort family variations like 'बहन सिर्फ घर की रौनक होती है' received as low as 19 views.",
+      "action": "Avoid rapid repetition of the exact same sub-niche without a fresh, compelling perspective."
+    }
+  ],
   "next_video": {
-    "topic": "अधूरी मोहब्बत",
-    "emotion": "regret",
-    "hook_style": "curiosity",
+    "topic": "रिश्ते",
+    "emotion": "निराशा और पछतावा",
+    "hook_style": "Real-life observation",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A familiar chat or notification reveals that the relationship has quietly changed.",
-    "opening_direction": "Start with one concrete digital-life detail.",
-    "twist_direction": "Reveal the emotional meaning in the final line.",
-    "duration_seconds": 10,
-    "posting_window": "7:00 PM IST test",
-    "reason": "Controlled baseline while more performance data accumulates."
+    "concept": "जब रात के 2 बजे अचानक फोन की घंटी बजती है और कोई जवाब नहीं देता, तब समझ आता है कि नाराजगी से ज्यादा जरूरी वो इंसान था।",
+    "opening_direction": "रात के सन्नाटे में स्क्रीन पर जलती हुई ब्लू लाइट और एक अनकही सी खामोशी।",
+    "twist_direction": "नंबर उसका ही था, बस अब ब्लॉक लिस्ट से हट चुका था, लेकिन बात करने वाला वक्त निकल चुका था।",
+    "duration_seconds": 35,
+    "posting_window": "13:00 - 15:00",
+    "reason": "Matches the proven success of relationship and late-night thought themes ('रात के ख्याल' & 'रिश्ते') with high emotional resonance."
   },
-  "experiment": "Test a fresh hook around a concrete digital-life moment.",
-  "updated_at": "2026-11-25T17:30:23.988910+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-11-25T17:30:23.988930+00:00"
+  "experiment": "Testing if combining late-night overthinking ('रात के ख्याल') with a husband-wife or close relationship regret dynamic can bridge the gap toward the 1,500+ view tier established by the top relationship shorts.",
+  "updated_at": "2026-11-26T01:07:06.398064+00:00",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-11-26T01:07:09.355174+00:00"
 }
