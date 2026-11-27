@@ -1,45 +1,45 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Data shows clear audience affinity for domestic and relationship dynamics (husband-wife realities), significantly outperforming generic sad shayari or random emotional topics.",
+  "overall_summary": "Data clearly indicates that relationship dynamics, particularly husband-wife and romantic/family bonds with a realistic, slightly painful perspective, dramatically outperform generic sad shayari or motivation.",
   "winning_patterns": [
     {
       "pattern": "Husband-Wife / Relationship Reality",
-      "evidence": "'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,770 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,679 views) are massive outliers compared to sub-300 view videos.",
-      "action": "Double down on husband-wife psychological and emotional friction points."
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1770 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1679 views) have significantly higher views than other content.",
+      "action": "Focus heavily on domestic and adult relationship realities, misunderstandings, and unspoken emotional burdens between partners."
     },
     {
-      "pattern": "Direct Relatable Question Hooks",
-      "evidence": "Titles framing a common dilemma or realization perform better than abstract shayari.",
-      "action": "Use specific second-person ('तुम', 'पति-पत्नी') relationship questions as hooks."
+      "pattern": "Direct Relatable Hooks",
+      "evidence": "Titles framing everyday realizations ('Har Baar Sorry Bolne Wala Galat Nahi Hota', 392 views) perform well compared to abstract shayari ('जिस दिन सच लिखूंगा', 21 views).",
+      "action": "Use conversational, experience-based hooks rather than heavy poetic language."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract / Poetic Sad Shayari",
+      "pattern": "Abstract or Heavy Poetry",
       "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 21 views.",
-      "action": "Avoid overly dramatic or poetic Urdu/Hindi phrasing that lacks a concrete daily-life anchor."
+      "action": "Avoid overly dramatic, poetic, or cryptic phrasing; keep the language grounded and conversational."
     },
     {
-      "pattern": "Low Sample Niche Hopping",
-      "evidence": "Videos about siblings or pure self-motivation got low traction due to lack of focused repetition.",
-      "action": "Limit experimentation outside the core high-performing relationship segment."
+      "pattern": "Generic Sister/Sibling Tropes",
+      "evidence": "Early sister videos performed poorly (e.g., 19 views on one iteration), showing less audience appetite for generic family tropes compared to spousal or individual struggle dynamics.",
+      "action": "Prioritize spousal relationships and inner emotional solitude over broader family sweetness."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "नजरअंदाज और खामोशी",
-    "hook_style": "Questioning daily behavior",
+    "emotion": "अधूरापन और समझ",
+    "hook_style": "Observation of daily life silence",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "जब घर में दो लोग साथ रहते हैं पर बात नहीं करते, तो गलती किसकी होती है?",
-    "opening_direction": "सुबह की चाय साथ बनती है, पर कप टेबल पर रखकर बिना एक शब्द बोले दोनों अपने रास्ते चले जाते हैं।",
-    "twist_direction": "दूरियां तब नहीं बढ़तीं जब लोग दूर जाते हैं, दूरियां तब बढ़ती हैं जब पास रहकर भी कोई किसी को सुनना बंद कर देता है।",
+    "concept": "A couple sitting in complete silence after an argument, where one wants to speak but swallows the words to keep the peace.",
+    "opening_direction": "जब लड़ाई के बाद घर में सन्नाटा पसर जाए और दोनों फोन में देखने का नाटक करें...",
+    "twist_direction": "असली सज़ा गुस्सा नहीं, वो डर होता है कि अगर आज बात नहीं हुई, तो शायद हमेशा के लिए आदत छूट जाएगी।",
     "duration_seconds": 35,
-    "posting_window": "13:00 - 14:00",
-    "reason": "Leverages the proven high-performing husband-wife / relationship dynamics theme with a relatable emotional observation on silent treatment."
+    "posting_window": "13:00 - 15:00",
+    "reason": "Aligns with the proven high-performing husband-wife relationship dynamic, tapping into everyday silent domestic tension."
   },
-  "experiment": "Testing if silent treatment / emotional detachment in long-term relationships matches the high engagement of husband-wife lifestyle conflicts.",
-  "updated_at": "2026-11-27T12:56:38.348171+00:00",
+  "experiment": "Testing if a silent post-argument domestic scenario retains the high view velocity seen in previous husband-wife videos.",
+  "updated_at": "2026-11-27T22:13:29.498613+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-27T12:56:40.868836+00:00"
+  "generated_at": "2026-11-27T22:13:32.024068+00:00"
 }
