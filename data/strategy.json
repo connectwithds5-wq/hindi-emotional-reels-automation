@@ -1,45 +1,45 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Analysis of the performance data reveals clear outliers in husband-wife relationship dynamics ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1770 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1679 views). Standard shayari or abstract relationship content underperformed significantly, showing that grounded, highly relatable domestic partnership struggles drive the highest engagement.",
+  "overall_summary": "Data shows clear audience affinity for domestic and relationship dynamics (husband-wife realities), significantly outperforming generic sad shayari or random emotional topics.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Realities",
-      "evidence": "Videos focusing on post-marriage dynamics ('Shaadi Ke Baad Pyaar...' and 'पत्नी की ये बात...') heavily outperformed everything else on the channel, hitting 1.6K+ views.",
-      "action": "Double down on domestic relationship dilemmas, modern marital communication gaps, and unexpressed sacrifices between partners."
+      "pattern": "Husband-Wife / Relationship Reality",
+      "evidence": "'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,770 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,679 views) are massive outliers compared to sub-300 view videos.",
+      "action": "Double down on husband-wife psychological and emotional friction points."
     },
     {
-      "pattern": "Conversational Interpersonal Hook",
-      "evidence": "Titles framing a direct question or a realistic realization about communication (e.g., 'Har Baar Sorry Bolne Wala Galat Nahi Hota') garnered steady mid-tier views (392 views).",
-      "action": "Use conversational prompts in titles that address an unspoken emotional burden carried by one partner."
+      "pattern": "Direct Relatable Question Hooks",
+      "evidence": "Titles framing a common dilemma or realization perform better than abstract shayari.",
+      "action": "Use specific second-person ('तुम', 'पति-पत्नी') relationship questions as hooks."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract or Poetic Shayari without Situational Context",
-      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' gained only 21 views, failing to capture broad audience retention.",
-      "action": "Avoid overly dramatic, poetic, or abstract framing; anchor every emotion in a concrete everyday situation."
+      "pattern": "Abstract / Poetic Sad Shayari",
+      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 21 views.",
+      "action": "Avoid overly dramatic or poetic Urdu/Hindi phrasing that lacks a concrete daily-life anchor."
     },
     {
-      "pattern": "Low-Sample Niche Family Segments",
-      "evidence": "The initial sister-focused video performed poorly (19 views), showing low immediate organic pull compared to romantic or marital partnerships.",
-      "action": "Shift focus away from siblings for now and prioritize core relationship and self-respect content."
+      "pattern": "Low Sample Niche Hopping",
+      "evidence": "Videos about siblings or pure self-motivation got low traction due to lack of focused repetition.",
+      "action": "Limit experimentation outside the core high-performing relationship segment."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "निराशा और आत्मसम्मान",
-    "hook_style": "situational observation",
+    "emotion": "नजरअंदाज और खामोशी",
+    "hook_style": "Questioning daily behavior",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A husband realizes he hasn't thanked his wife for the small daily chores she does without complaining, until a day he has to manage the house alone.",
-    "opening_direction": "Start with a simple morning scene: a cup of tea kept on the table silently without a word spoken.",
-    "twist_direction": "The twist reveals that love doesn't die in a big fight; it quietly suffocates when we stop noticing the small efforts our partner makes every single day.",
+    "concept": "जब घर में दो लोग साथ रहते हैं पर बात नहीं करते, तो गलती किसकी होती है?",
+    "opening_direction": "सुबह की चाय साथ बनती है, पर कप टेबल पर रखकर बिना एक शब्द बोले दोनों अपने रास्ते चले जाते हैं।",
+    "twist_direction": "दूरियां तब नहीं बढ़तीं जब लोग दूर जाते हैं, दूरियां तब बढ़ती हैं जब पास रहकर भी कोई किसी को सुनना बंद कर देता है।",
     "duration_seconds": 35,
-    "posting_window": "07:00 PM - 09:00 PM",
-    "reason": "Aligns with the highest-performing content cluster (husband-wife relationship dynamics) which previously generated 1,700+ views, utilizing a proven relatable domestic hook."
+    "posting_window": "13:00 - 14:00",
+    "reason": "Leverages the proven high-performing husband-wife / relationship dynamics theme with a relatable emotional observation on silent treatment."
   },
-  "experiment": "Testing if adding a specific self-respect angle to a successful husband-wife relationship topic increases comment engagement.",
-  "updated_at": "2026-11-27T03:03:30.149527+00:00",
+  "experiment": "Testing if silent treatment / emotional detachment in long-term relationships matches the high engagement of husband-wife lifestyle conflicts.",
+  "updated_at": "2026-11-27T12:56:38.348171+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-27T03:03:32.616821+00:00"
+  "generated_at": "2026-11-27T12:56:40.868836+00:00"
 }
