@@ -1,45 +1,45 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Analysis of the performance data reveals a clear outlier preference for husband-wife relationship and domestic emotional dynamics over abstract heartbreak poetry. Specific relationship realities dramatically outperform generic sad shayari.",
+  "overall_summary": "Analysis of the performance data reveals clear outliers in husband-wife relationship dynamics ('Shaadi Ke Baad Pyaar Kahan Chala Gaya?' with 1770 views and 'पत्नी की ये बात हर पति को समझनी चाहिए' with 1679 views). Standard shayari or abstract relationship content underperformed significantly, showing that grounded, highly relatable domestic partnership struggles drive the highest engagement.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife / Partner Dynamics",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,770 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,679 views) massively outperform other topics.",
-      "action": "Focus core content production on relatable marital and long-term relationship pain-points."
+      "pattern": "Husband-Wife Relationship Realities",
+      "evidence": "Videos focusing on post-marriage dynamics ('Shaadi Ke Baad Pyaar...' and 'पत्नी की ये बात...') heavily outperformed everything else on the channel, hitting 1.6K+ views.",
+      "action": "Double down on domestic relationship dilemmas, modern marital communication gaps, and unexpressed sacrifices between partners."
     },
     {
-      "pattern": "Conversational Direct Hook",
-      "evidence": "Titles framing a direct question or realization about everyday bonds get significantly higher engagement.",
-      "action": "Use conversational, highly relatable questions about domestic life as hooks."
+      "pattern": "Conversational Interpersonal Hook",
+      "evidence": "Titles framing a direct question or a realistic realization about communication (e.g., 'Har Baar Sorry Bolne Wala Galat Nahi Hota') garnered steady mid-tier views (392 views).",
+      "action": "Use conversational prompts in titles that address an unspoken emotional burden carried by one partner."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Sad Shayari / Generic Poetry",
-      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 21 views.",
-      "action": "Avoid overly dramatic, poetic, or abstract lines; ground the emotions in real household scenarios."
+      "pattern": "Abstract or Poetic Shayari without Situational Context",
+      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' gained only 21 views, failing to capture broad audience retention.",
+      "action": "Avoid overly dramatic, poetic, or abstract framing; anchor every emotion in a concrete everyday situation."
     },
     {
-      "pattern": "Low-sample experimental topics",
-      "evidence": "Sister emotional video (jfmMztnam_A) got 19 views due to weak execution or initial distribution.",
-      "action": "Rely on proven high-performing family/relationship sub-niches rather than scattering across too many disjointed topics."
+      "pattern": "Low-Sample Niche Family Segments",
+      "evidence": "The initial sister-focused video performed poorly (19 views), showing low immediate organic pull compared to romantic or marital partnerships.",
+      "action": "Shift focus away from siblings for now and prioritize core relationship and self-respect content."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Melancholy and mutual understanding",
-    "hook_style": "Direct observation about unsaid words between partners",
+    "emotion": "निराशा और आत्मसम्मान",
+    "hook_style": "situational observation",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A short look at how partners stop fighting after a few years of marriage, not because everything is fine, but because they stopped expecting the other to understand.",
-    "opening_direction": "शुरुआती 3 सेकंड में पति-पत्नी की एक खामोश शाम का दृश्य और स्क्रीन पर टेक्स्ट: 'लड़ाई बंद होने का मतलब यह नहीं कि प्यार लौट आया है...'",
-    "twist_direction": "अंत में रियलाइजेशन कि अब शिकायतें खत्म हो चुकी हैं, जो प्यार से ज्यादा डरावना है।",
+    "concept": "A husband realizes he hasn't thanked his wife for the small daily chores she does without complaining, until a day he has to manage the house alone.",
+    "opening_direction": "Start with a simple morning scene: a cup of tea kept on the table silently without a word spoken.",
+    "twist_direction": "The twist reveals that love doesn't die in a big fight; it quietly suffocates when we stop noticing the small efforts our partner makes every single day.",
     "duration_seconds": 35,
-    "posting_window": "13:00 - 15:00 IST",
-    "reason": "Matches the proven high-performing husband-wife relationship format that drove nearly 1,800 views previously."
+    "posting_window": "07:00 PM - 09:00 PM",
+    "reason": "Aligns with the highest-performing content cluster (husband-wife relationship dynamics) which previously generated 1,700+ views, utilizing a proven relatable domestic hook."
   },
-  "experiment": "Testing if shifting the husband-wife angle from practical advice to silent emotional detachment increases comment rate.",
-  "updated_at": "2026-11-26T19:44:44.321082+00:00",
+  "experiment": "Testing if adding a specific self-respect angle to a successful husband-wife relationship topic increases comment engagement.",
+  "updated_at": "2026-11-27T03:03:30.149527+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-26T19:44:46.834746+00:00"
+  "generated_at": "2026-11-27T03:03:32.616821+00:00"
 }
