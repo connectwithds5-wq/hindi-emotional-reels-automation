@@ -1,35 +1,40 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Data clearly shows that husband-wife relationships and marriage dynamics significantly outperform general shayari or family videos on this channel, generating nearly 10x more views (1,600-1,700+ views compared to 100-300 views for others).",
+  "overall_summary": "Analysis of historical performance indicates that deep relationship dynamics, specifically husband-wife complexities, significantly outperform general shayari or family relationship videos. Videos focusing on marital understanding (e.g., 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' and 'पत्नी की ये बात हर पति को समझनी चाहिए') achieved nearly 1,700+ views, whereas poetry, single-perspective heartbreak, or secondary family members received notably lower traction.",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife Relationship Dynamics",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,770 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,679 views) drastically outperformed all other content.",
-      "action": "Double down on married life realities, unsaid expectations, and emotional distance in relationships."
+      "pattern": "Marital/Relationship Reality Checks",
+      "evidence": "Video 'my5mP9feI7s' (1,770 views) and 'or5gtaBpRVY' (1,679 views) focused on husband-wife dynamics and shared emotional realizations.",
+      "action": "Double down on core relationship and marriage dynamics instead of broad heartbreak or family tropes."
+    },
+    {
+      "pattern": "Actionable Empathy Hooks",
+      "evidence": "Titles framing a common psychological realization or unsaid truth (e.g., NO5fdHLxFL4 with 393 views) perform better than generic sad quotes.",
+      "action": "Use conversational, realization-based hooks that make the viewer pause and reflect on their partner."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Sad Shayari & Heavy Poetry",
-      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 21 views.",
-      "action": "Avoid overly abstract or complex poetic phrasing; stick to grounded, everyday marital or relational observations."
+      "pattern": "Generic Sad Shayari & Poetry",
+      "evidence": "Videos like 'YdWh4cDOE64' (21 views) and 'jfmMztnam_A' (19 views) generated negligible interest.",
+      "action": "Avoid purely poetic or overly dramatic single-line poetry; ground the emotion in realistic daily scenarios."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "Melancholy / Relatability",
-    "hook_style": "Observational realization about post-marriage silence",
+    "emotion": "नजरअंदाज होना",
+    "hook_style": "conversational realization",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple sitting in complete silence in a car or living room after years of marriage, no fights, just distance.",
-    "opening_direction": "Start with the observation that the loudest fights in marriage are eventually replaced by the quietest evenings.",
-    "twist_direction": "Reveal that the scariest part isn't when they stop fighting, but when they stop trying to explain themselves to each other.",
+    "concept": "A husband noticing how his wife stopped complaining about little things, realizing too late that silence in a marriage isn't peace, it's detachment.",
+    "opening_direction": "जब पत्नी शिकायत करना बंद कर दे, तो समझ लेना...",
+    "twist_direction": "शिकायतें खत्म होने का मतलब प्यार बढ़ना नहीं, उम्मीद टूटना होता है।",
     "duration_seconds": 35,
-    "posting_window": "13:00 - 14:00 (consistent with the top-performing husband-wife upload times)",
-    "reason": "Replicates the proven high-performing husband-wife relationship topic while refining the emotional depth."
+    "posting_window": "07:00 AM - 09:00 AM",
+    "reason": "Aligns with the proven high-performing husband-wife relationship category while testing a nuanced emotional twist on marital silence."
   },
-  "experiment": "Testing if narrowing down from general family relationships to specific modern marriage emotional fatigue maintains the 1500+ view baseline.",
-  "updated_at": "2026-11-28T04:05:35.516661+00:00",
+  "experiment": "Testing if deep emotional detachment in marriage performs better than direct conflict or communication advice.",
+  "updated_at": "2026-11-28T13:26:10.482789+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-28T04:05:37.553729+00:00"
+  "generated_at": "2026-11-28T13:26:13.038583+00:00"
 }
