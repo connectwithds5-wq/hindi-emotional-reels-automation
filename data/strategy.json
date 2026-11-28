@@ -1,45 +1,35 @@
 {
   "confidence": "65%",
   "data_points": 14,
-  "overall_summary": "Data clearly indicates that relationship dynamics, particularly husband-wife and romantic/family bonds with a realistic, slightly painful perspective, dramatically outperform generic sad shayari or motivation.",
+  "overall_summary": "Data clearly shows that husband-wife relationships and marriage dynamics significantly outperform general shayari or family videos on this channel, generating nearly 10x more views (1,600-1,700+ views compared to 100-300 views for others).",
   "winning_patterns": [
     {
-      "pattern": "Husband-Wife / Relationship Reality",
-      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1770 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1679 views) have significantly higher views than other content.",
-      "action": "Focus heavily on domestic and adult relationship realities, misunderstandings, and unspoken emotional burdens between partners."
-    },
-    {
-      "pattern": "Direct Relatable Hooks",
-      "evidence": "Titles framing everyday realizations ('Har Baar Sorry Bolne Wala Galat Nahi Hota', 392 views) perform well compared to abstract shayari ('जिस दिन सच लिखूंगा', 21 views).",
-      "action": "Use conversational, experience-based hooks rather than heavy poetic language."
+      "pattern": "Husband-Wife Relationship Dynamics",
+      "evidence": "Videos like 'Shaadi Ke Baad Pyaar Kahan Chala Gaya?' (1,770 views) and 'पत्नी की ये बात हर पति को समझनी चाहिए' (1,679 views) drastically outperformed all other content.",
+      "action": "Double down on married life realities, unsaid expectations, and emotional distance in relationships."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract or Heavy Poetry",
-      "evidence": "'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 21 views.",
-      "action": "Avoid overly dramatic, poetic, or cryptic phrasing; keep the language grounded and conversational."
-    },
-    {
-      "pattern": "Generic Sister/Sibling Tropes",
-      "evidence": "Early sister videos performed poorly (e.g., 19 views on one iteration), showing less audience appetite for generic family tropes compared to spousal or individual struggle dynamics.",
-      "action": "Prioritize spousal relationships and inner emotional solitude over broader family sweetness."
+      "pattern": "Generic Sad Shayari & Heavy Poetry",
+      "evidence": "Videos like 'जिस दिन सच लिखूंगा… रिश्तों को षड्यंत्र लिखूंगा' received only 21 views.",
+      "action": "Avoid overly abstract or complex poetic phrasing; stick to grounded, everyday marital or relational observations."
     }
   ],
   "next_video": {
     "topic": "रिश्ते",
-    "emotion": "अधूरापन और समझ",
-    "hook_style": "Observation of daily life silence",
+    "emotion": "Melancholy / Relatability",
+    "hook_style": "Observational realization about post-marriage silence",
     "story_structure": "simple -> relatable -> twist",
-    "concept": "A couple sitting in complete silence after an argument, where one wants to speak but swallows the words to keep the peace.",
-    "opening_direction": "जब लड़ाई के बाद घर में सन्नाटा पसर जाए और दोनों फोन में देखने का नाटक करें...",
-    "twist_direction": "असली सज़ा गुस्सा नहीं, वो डर होता है कि अगर आज बात नहीं हुई, तो शायद हमेशा के लिए आदत छूट जाएगी।",
+    "concept": "A couple sitting in complete silence in a car or living room after years of marriage, no fights, just distance.",
+    "opening_direction": "Start with the observation that the loudest fights in marriage are eventually replaced by the quietest evenings.",
+    "twist_direction": "Reveal that the scariest part isn't when they stop fighting, but when they stop trying to explain themselves to each other.",
     "duration_seconds": 35,
-    "posting_window": "13:00 - 15:00",
-    "reason": "Aligns with the proven high-performing husband-wife relationship dynamic, tapping into everyday silent domestic tension."
+    "posting_window": "13:00 - 14:00 (consistent with the top-performing husband-wife upload times)",
+    "reason": "Replicates the proven high-performing husband-wife relationship topic while refining the emotional depth."
   },
-  "experiment": "Testing if a silent post-argument domestic scenario retains the high view velocity seen in previous husband-wife videos.",
-  "updated_at": "2026-11-27T22:13:29.498613+00:00",
+  "experiment": "Testing if narrowing down from general family relationships to specific modern marriage emotional fatigue maintains the 1500+ view baseline.",
+  "updated_at": "2026-11-28T04:05:35.516661+00:00",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-27T22:13:32.024068+00:00"
+  "generated_at": "2026-11-28T04:05:37.553729+00:00"
 }
